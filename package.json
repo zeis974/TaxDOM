@@ -1,0 +1,23 @@
+{
+  "name": "taxdom",
+  "version": "0.1.0",
+  "description": "soon",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:web": "turbo dev --filter=\"@taxdom/app\" dev",
+    "dev:db": "docker compose  -f \"compose.dev.yml\" up -d --build database",
+    "build": "turbo build",
+    "format": "biome format ./apps"
+  },
+  "author": "zeis974 <hi@zeis.dev>",
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "turbo": "1.12.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.1"
+}
