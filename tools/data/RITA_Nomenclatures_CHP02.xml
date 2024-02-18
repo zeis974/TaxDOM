@@ -1,0 +1,3288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 02 valides au 14/11/2023.</nom_table><date_table>20231114</date_table><horodatage>14/11/2023 01:41:44</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>0200000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>VIANDES ET ABATS COMESTIBLES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0201000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Viandes des animaux de l'espèce bovine, fraîches ou réfrigérées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0201100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en carcasses ou demi-carcasses</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201100021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201100021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201100029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201100092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201100092</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carcasses ayant un poids égal ou supérieur à 180|kg et inférieur ou égal à 300|kg et demi-carcasses, ayant un poids égal ou supérieur à 90|kg et inférieur ou égal à 150|kg, présentant un faible degré d'ossification des cartilages (notamment ceux de la symphyse pubienne et des apophyses vertébrales), la viande est rose clair et la graisse, de structure extrêmement fine, de  couleur blanche à jaune clair</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201100092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201100094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201100097</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201100097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201100098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0201200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres morceaux non désossés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0201202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Quartiers dits "compensés"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201202021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201202021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201202029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201202092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201202092</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Quartiers dits compensés, ayant un poids égal ou supérieur a 90|kg et inférieur ou égal à 150|kg, présentant un faible degré d'ossification des cartilages (notamment ceux de la symphyse pubienne et des apophyses vertébrales), dont la viande est rose clair et la graisse, de structure extrêmement fine, de couleur blanche à jaune clair</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201202092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201202094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201202097</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201202097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201202098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0201203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Quartiers avant attenants ou séparés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201203021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201203021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201203029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201203092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201203092</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Quartiers avant séparés ayant un poids égal ou supérieur à 45|kg et inférieur ou égal à 75|kg, présentant un faible degré d'ossification des cartilages (notamment de ceux des apophyses vertébrales), dont la viande est de couleur rose clair et la graisse, de structure extrêmement fine, de couleur blanche à jaune clair</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201203092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201203094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201203097</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201203097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201203098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0201205000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Quartiers arrière attenants ou séparés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201205021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201205021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201205029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201205092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201205092</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Quartiers arrière séparés ayant un poids égal ou supérieur à 45|kg et inférieur ou égal à 75|kg, ce poids étant égal ou supérieur à 38|kg et inférieur ou égal à 68|kg lorsqu'il s'agit de la coupe dite "pistola", présentant un faible degré d'ossification des cartilages (notamment ceux des apophyses vertébrales), dont la viande est de couleur rose clair et la graisse, de structure extrêmement fine, de couleur blanche à jaune clair</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201205092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201205094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201205097</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201205097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201205098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0201209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201209011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201209011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201209015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201209091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201209091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201209099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0201300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201300031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201300031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201300039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201300041</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0201300041</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes de buffle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201300041</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201300049</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0201300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Viandes des animaux de l'espèce bovine, congelées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en carcasses ou demi-carcasses</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202100011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202100011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202100015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202100091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202100091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202100099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres morceaux non désossés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Quartiers dits "compensés"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202201011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202201011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202201015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202201091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202201091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202201099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Quartiers avant attenants ou séparés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202203011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202203081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202203081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202203081</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinée à la fabrication de produits relevant des sous-positions NC 1602 10, 1602 50 31 ou 1602 50 95, ne contenant pas d'autre viande que celle d'animaux de l'espèce bovine, présentant un rapport collagène/protéines ne dépassant pas 0,45 et contenant au moins 20% de viande maigre en poids (à l'exclusion des abats et des matières grasses), la viande et la gelée comptant pour 85% au moins du poids total net; ces produits sont soumis à un traitement thermique suffisant pour garantir la coagulation des protéines de la viande dans l'ensemble du produit, qui ne présente donc pas de trace de liquide rosâtre sur sa face de découpage dans les cas où il est découpé le long d'une ligne passant par sa partie la plus épaisse (produits A)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203082</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202203083</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinée à la fabrication de produits autres que ceux relevant des sous-positions ex 0210 20, 0210 99 51, 0210 99 90, 1602 50 10 et 1602 90 61 (produits B)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202203085</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203086</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202203087</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203087</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202203088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202205000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Quartiers arrière attenants ou séparés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202205011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202205011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202205015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202205091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202205091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202205099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202209011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202209011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202209015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202209091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202209091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202209099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Quartiers avant, entiers ou découpés en cinq morceaux au maximum, chaque quartier avant étant présenté en un seul bloc de congélation; quartiers dits "compensés" présentés en deux blocs de congélation contenant, l'un, le quartier avant entier ou découpé en cinq morceaux au maximum, et l'autre, le quartier arrière, à l'exclusion du filet, en un seul morceau</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202301011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202301081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202301081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202301081</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à la fabrication de produits relevant des sous-positions 1602 10, 1602 50 31 ou 1602 50 95, ne contenant pas d'autre viande que celle d'animaux de l'espèce bovine, présentant un rapport collagène/protéines ne dépassant pas 0,45 et contenant au moins 20% de viande maigre en poids (à l'exclusion des abats et des matières grasses), la viande et la gelée comptant pour 85% au moins du poids total net; ces produits sont soumis à un traitement thermique suffisant pour garantir la coagulation des protéines de la viande dans l'ensemble du produit, qui ne présente donc pas de trace de liquide rosâtre sur sa face de découpage dans les cas où il est découpé le long d'une ligne passant par sa partie la plus épaisse (produits A)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301082</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202301083</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à la fabrication de produits autres que ceux relevant des sous-positions ex 0210 20, 0210 99 51, 0210 99 90, 1602 50 10 et 1602 90 61 (produits B)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202301085</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301086</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202301087</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301087</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202301088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202305000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Découpes de quartiers avant et de poitrines dites "australiennes"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202305011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes bovines de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202305081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202305081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202305081</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à la fabrication de produits relevant des sous-positions 1602 10, 1602 50 31 ou 1602 50 95, ne contenant pas d'autre viande que celle d'animaux de l'espèce bovine, présentant un rapport collagène/protéines ne dépassant pas 0,45 et contenant au moins 20% de viande maigre en poids (à l'exclusion des abats et des matières grasses), la viande et la gelée comptant pour 85% au moins du poids total net; ces produits sont soumis à un traitement thermique suffisant pour garantir la coagulation des protéines de la viande dans l'ensemble du produit, qui ne présente donc pas de trace de liquide rosâtre sur sa face de découpage dans les cas où il est découpé le long d'une ligne passant par sa partie la plus épaisse (produits A)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305082</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202305083</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à la fabrication de produits autres que ceux relevant des sous-positions ex 0210 20, 0210 99 51, 0210 99 90, 1602 50 10 et 1602 90 61 (produits B)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202305085</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305086</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202305087</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305087</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202305088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0202309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309041</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309041</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Viandes de buffle congelées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309041</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309041</Code>
+<Lig_Prod>40</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinées à la fabrication de produits relevant sous-positions 1602 10, 1602 50 31 ou 1602 50 95, ne contenant pas d'autre viande que celle d'animaux de l'espèce bovine, présentant un rapport collagène/protéines ne dépassant pas 0,45 et contenant au moins 20% de viande maigre en poids (à l'exclusion des abats et des matières grasses), la viande et la gelée comptant pour 85% au moins du poids total net; ces produits sont soumis à un traitement thermique suffisant pour garantir la coagulation des protéines de la viande dans l'ensemble du produit, qui ne présente donc pas de trace de liquide rosâtre sur sa face de découpage dans les cas où il est découpé le long d'une ligne passant par sa partie la plus épaisse (produits A)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309041</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309042</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309043</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinées à la fabrication de produits autres que ceux relevant des sous-positions ex 0210 20, 0210 99 51, 0210 99 90, 1602 50 10 et 1602 90 61 (produits B)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309043</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309044</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309045</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309046</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309047</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309047</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309048</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309070</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0202309070</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinées à la fabrication de produits relevant sous-positions 1602 10, 1602 50 31 ou 1602 50 95, ne contenant pas d'autre viande que celle d'animaux de l'espèce bovine, présentant un rapport collagène/protéines ne dépassant pas 0,45 et contenant au moins 20% de viande maigre en poids (à l'exclusion des abats et des matières grasses), la viande et la gelée comptant pour 85% au moins du poids total net; ces produits sont soumis à un traitement thermique suffisant pour garantir la coagulation des protéines de la viande dans l'ensemble du produit, qui ne présente donc pas de trace de liquide rosâtre sur sa face de découpage dans les cas où il est découpé le long d'une ligne passant par sa partie la plus épaisse (produits A)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinées à la fabrication de produits autres que ceux relevant des sous-positions ex 0210 20, 0210 99 51, 0210 99 90, 1602 50 10 et 1602 90 61 (produits B)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0202309090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Viandes des animaux de l'espèce porcine, fraîches, réfrigérées ou congelées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>fraîches ou réfrigérées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en carcasses ou demi-carcasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des animaux de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Jambons, épaules et leurs morceaux, non désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203121100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des animaux de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203121100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Jambons et morceaux de jambons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203121900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Épaules et morceaux d'épaules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203191100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des animaux de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203191100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties avant et morceaux de parties avant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203191300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Longes et morceaux de longes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203191500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poitrines (entrelardées) et morceaux de poitrines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203195500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203195500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203195510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Filets, présentés seuls</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203195515</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Longes et morceaux de longes, à l'exclusion de filets présentés seuls</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203195515</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Longes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203195525</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203195530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jambons et morceaux de jambons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203195590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203195900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>congelées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en carcasses ou demi-carcasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des animaux de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Jambons, épaules et leurs morceaux, non désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203221100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des animaux de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203221100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Jambons et morceaux de jambons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203221900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Épaules et morceaux d'épaules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203291100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des animaux de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203291100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties avant et morceaux de parties avant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203291300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Longes et morceaux de longes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203291500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poitrines (entrelardées) et morceaux de poitrines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203295500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0203295500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203295520</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Longes et morceaux de longes, à l'exclusion de filets présentés seuls</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203295520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Longes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203295530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0203295591</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203295591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Filets, présentés seuls</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203295592</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Jambons et morceaux de jambons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203295599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203295900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0203299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Viandes des animaux des espèces ovine ou caprine, fraîches, réfrigérées ou congelées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carcasses et demi-carcasses d'agneau, fraîches ou réfrigérées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'agneau domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0204210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres viandes des animaux de l'espèce ovine, fraîches ou réfrigérées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en carcasses ou demi-carcasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres morceaux non désossés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Casque ou demi-casque</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204221010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204221090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204223000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carré et/ou selle ou demi-carré et/ou demi-selle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204223010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204223090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204225000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Culotte ou demi-culotte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204225010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204225090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204229010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204229090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0204230011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204230011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'agneau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204230019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0204230091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204230091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'agneau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204230099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carcasses et demi-carcasses d'agneau, congelées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'agneau domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0204410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres viandes des animaux de l'espèce ovine, congelées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en carcasses ou demi-carcasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204410010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204410090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres morceaux non désossés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204421000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Casque ou demi-casque</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204421010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204421090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204423000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carré et/ou selle ou demi-carré et/ou demi-selle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204423010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204423090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204425000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Culotte ou demi-culotte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204425010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204425090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204429000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204429010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204429090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204431000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'agneau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204431010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204431090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204439000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204439010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce ovine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204439090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Viandes des animaux de l'espèce caprine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0204501100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fraîches ou réfrigérées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204501100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carcasses ou demi-carcasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204501300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Casque ou demi-casque</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204501500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carré et/ou selle ou demi-carré et/ou demi-selle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204501900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Culotte ou demi-culotte</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0204503100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204503100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Morceaux non désossés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204503900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Morceaux désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204503910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Viande de chevreau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204503990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0204505100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>congelées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204505100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carcasses ou demi-carcasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204505300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Casque ou demi-casque</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204505500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carré et/ou selle ou demi-carré et/ou demi-selle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204505900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Culotte ou demi-culotte</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0204507100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204507100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Morceaux non désossés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0204507900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Morceaux désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204507910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Viande de chevreau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0204507990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0205000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Viandes des animaux des espèces chevaline, asine ou mulassière, fraîches, réfrigérées ou congelées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0205002000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>fraîches ou réfrigérées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0205008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>congelées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Abats comestibles des animaux des espèces bovine, porcine, ovine, caprine, chevaline, asine ou mulassière, frais, réfrigérés ou congelés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de l'espèce bovine, frais ou réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à la fabrication de produits pharmaceutiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206109500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206109500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Onglets et hampes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206109511</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206109511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206109515</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206109591</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206109591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206109599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206109800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de l'espèce bovine, congelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Langues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à la fabrication de produits pharmaceutiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206299100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Onglets et hampes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299111</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de haute qualité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299111</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Hampes, entières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299111</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299115</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299121</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299121</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299129</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299133</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299133</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Hampes, entières</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299133</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299133</Code>
+<Lig_Prod>40</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à la fabrication de produits relevant des sous-positions 1602 10, 1602 50 31 ou 1602 50 95, ne contenant pas d'autre viande que celle d'animaux de l'espèce bovine, présentant un rapport collagène/protéines ne dépassant pas 0,45 et contenant au moins 20% de viande maigre en poids (à l'exclusion des abats et des matières grasses), la viande et la gelée comptant pour 85% au moins du poids total net; ces produits sont soumis à un traitement thermique suffisant pour garantir la coagulation des protéines de la viande dans l'ensemble du produit, qui ne présente donc pas de trace de liquide rosâtre sur sa face de découpage dans les cas où il est découpé le long d'une ligne passant par sa partie la plus épaisse (produits A)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299133</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299135</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299137</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à la fabrication de produits autres que ceux relevant des sous-positions ex 0210 20, 0210 99 51, 0210 99 90, 1602 50 10 et 1602 90 61 (produits B)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299137</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299138</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299141</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299141</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299142</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299144</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299144</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299145</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299151</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299151</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299151</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à la fabrication de produits relevant des sous-positions 1602 10, 1602 50 31 ou 1602 50 95, ne contenant pas d'autre viande que celle d'animaux de l'espèce bovine, présentant un rapport collagène/protéines ne dépassant pas 0,45 et contenant au moins 20% de viande maigre en poids (à l'exclusion des abats et des matières grasses), la viande et la gelée comptant pour 85% au moins du poids total net; ces produits sont soumis à un traitement thermique suffisant pour garantir la coagulation des protéines de la viande dans l'ensemble du produit, qui ne présente donc pas de trace de liquide rosâtre sur sa face de découpage dans les cas où il est découpé le long d'une ligne passant par sa partie la plus épaisse (produits A)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299151</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299159</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299161</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à la fabrication de produits autres que ceux relevant des sous-positions ex 0210 20, 0210 99 51, 0210 99 90, 1602 50 10 et 1602 90 61 (produits B)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299161</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299169</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299171</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299171</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299179</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206299191</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206299900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de l'espèce porcine, frais ou réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de l'espèce porcine, congelés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206410010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206410090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, frais ou réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206801000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à la fabrication de produits pharmaceutiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206809100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206809100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces chevaline, asine ou mulassière</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206809900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces ovine ou caprine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0206900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, congelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à la fabrication de produits pharmaceutiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0206909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces chevaline, asine ou mulassière</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0206909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces ovine ou caprine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Viandes et abats comestibles, frais, réfrigérés ou congelés, des volailles du n° 0105</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de volailles de l'espèce Gallus domesticus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, frais ou réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, sans boyaux, avec la tête et les pattes, dénommés "poulets|83|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207113000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes, mais avec le cou, le coeur, le foie et le gésier, dénommés "poulets|70|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes et sans le cou, le coeur, le foie et le gésier, dénommés "poulets|65|%", ou autrement présentés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, congelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes, mais avec le cou, le coeur, le foie et le gésier, dénommés "poulets|70|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes et sans le cou, le coeur, le foie et le gésier, dénommés "poulets|65|%", ou autrement présentés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Morceaux et abats, frais ou réfrigérés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207131000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207132000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207132000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207133000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207134000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207135000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207136000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207137000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207139100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207139100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207139900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Morceaux et abats, congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207141000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207141000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207142000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207142000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207143000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207144000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207145000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207146000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207147000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207149100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207149100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207149900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207240000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de dindes et dindons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, frais ou réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207241000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes, avec le cou, le coeur, le foie et le gésier, dénommés "dindes|80|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207249000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni le cou, sans les pattes, le coeur, le foie et le gésier, dénommés "dindes|73|%", ou autrement présentés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, congelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207251000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes, avec le cou, le coeur, le foie et le gésier, dénommés "dindes|80|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207259000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni le cou, sans les pattes, le coeur, le foie et le gésier, dénommés "dindes|73|%", ou autrement présentés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207260000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Morceaux et abats, frais ou réfrigérés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207261000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207261000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207262000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207262000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207263000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207264000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207265000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207266000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207266000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Pilons et morceaux de pilons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207267000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207268000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207269100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207269100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207269900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207270000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Morceaux et abats, congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207271000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207271000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207272000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207272000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207273000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207274000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207275000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207276000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207276000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Pilons et morceaux de pilons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207277000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207278000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207279100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207279100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207279900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de canards</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, frais ou réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207412000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, saignés, sans boyaux mais non vidés, avec la tête et les pattes, dénommés "canards|85|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207413000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes, avec le cou, le coeur, le foie et le gésier, dénommés "canards|70|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207418000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes et sans le cou, le coeur, le foie et le gésier, dénommés "canards|63|%", ou autrement présentés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, congelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207423000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes, avec le cou, le coeur, le foie et le gésier, dénommés "canards|70|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207428000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés plumés, vidés, sans la tête ni les pattes et sans le cou, le coeur, le foie et le gésier, dénommés "canards|63|%", ou autrement présentés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Foies gras, frais ou réfrigérés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, frais ou réfrigérés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207441000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207441000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207442100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207442100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207443100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207444100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207445100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207446100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207447100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Paletots</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207448100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207449100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207449100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies, autres que les foies gras</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207449900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207450000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207451000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207451000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207452100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207452100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207453100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207454100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207455100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207456100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207457100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Paletots</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207458100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207459300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207459300</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207459300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Foies gras</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207459500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207459900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'oies</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, frais ou réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207511000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentées plumées, saignées, non vidées, avec la tête et les pattes, dénommées "oies|82|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207519000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentées plumées, vidées, sans la tête ni les pattes, avec ou sans le coeur et le gésier, dénommées "oies|75|%", ou autrement présentées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, congelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207521000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentées plumées, saignées, non vidées, avec la tête et les pattes, dénommées "oies|82|%"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207529000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentées plumées, vidées, sans la tête ni les pattes, avec ou sans le coeur et le gésier, dénommées "oies|75|%", ou autrement présentées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Foies gras, frais ou réfrigérés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207540000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, frais ou réfrigérés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207541000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207541000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207542100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207542100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207543100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207544100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207545100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207546100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207547100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Paletots</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207548100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207549100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207549100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies, autres que les foies gras</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207549900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207550000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207551000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207551000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207552100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207552100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207553100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207554100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207555100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207556100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207557100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Paletots</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207558100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207559300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207559300</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207559300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Foies gras</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207559500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207559900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de pintades</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207600500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non découpés en morceaux, frais, réfrigérés ou congelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207600510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>frais ou réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207600590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207601000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, frais, réfrigérés ou congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207601000</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207601000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207602100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non désossés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207602100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demis ou quarts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207602110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>fraîches ou réfrigérées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207602190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207603100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ailes entières, même sans la pointe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207604100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dos, cous, dos avec cous, croupions, pointes d'ailes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207605100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poitrines et morceaux de poitrines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207606100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuisses et morceaux de cuisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207608100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0207609100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0207609100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207609110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>fraîches ou réfrigérées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207609190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0207609900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0208000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres viandes et abats comestibles, frais, réfrigérés ou congelés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0208100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de lapins ou de lièvres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de lapins domestiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de primates</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0208400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de baleines, dauphins et marsouins (mammifères de l'ordre des Cetacea); de lamantins et dugongs (mammifères de l'ordre des Sirenia); d'otaries et phoques, lions de mer et morses (mammifères du sous-ordre des Pinnipedia)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Viande de baleine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208402000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Viande de phoque</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208408000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de reptiles (y compris les serpents et les tortues de mer)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de chameaux et d'autres camélidés (Camelidae)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0208900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de pigeons domestiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de gibier, autres que de lapins ou de lièvres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de rennes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cuisses de grenouilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0208909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0209000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lard sans parties maigres, graisse de porc et graisse de volailles non fondues ni autrement extraites, frais, réfrigérés, congelés, salés ou en saumure, séchés ou fumés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0209100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de porc</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0209101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lard</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0209101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>frais, réfrigéré, congelé, salé ou en saumure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0209101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>séché ou fumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0209109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Graisse de porc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0209900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Viandes et abats comestibles, salés ou en saumure, séchés ou fumés; farines et poudres, comestibles, de viandes ou d'abats</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Viandes de l'espèce porcine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Jambons, épaules et leurs morceaux, non désossés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210111100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210111100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>salés ou en saumure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210111100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Jambons et morceaux de jambons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210111900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Épaules et morceaux d'épaules</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210113100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>séchés ou fumés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210113100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Jambons et morceaux de jambons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210113900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Épaules et morceaux d'épaules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poitrines (entrelardées) et leurs morceaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210121100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210121100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>salées ou en saumure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210121900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>séchées ou fumées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210191000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210191000</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>salées ou en saumure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Demi-carcasses de bacon ou trois-quarts avant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Trois-quarts arrière ou milieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Parties avant et morceaux de parties avant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210194000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Longes et morceaux de longes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210195000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210195010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jambon saumuré, introduit dans une vessie ou dans un boyau artificiel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210195090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210196000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>séchées ou fumées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210196000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Parties avant et morceaux de parties avant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210197000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Longes et morceaux de longes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210198100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210198100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210198110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Viande de côtelette fumée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210198120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Cou de porc séché à l'air, assaisonné ou non, en pièce entière, en morceaux ou en fines tranches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210198190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210198900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Viandes de l'espèce bovine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non désossées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210201010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210209011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Morceaux de viande provenant de cuisses de bovins âgés d'au moins 18 mois, sans graisse intramusculaire visible (de 3 à 7 %), valeur pH de la viande fraîche entre 5,4 et 6,0, salés, épicés, pressés, séchés exclusivement à l'air frais et sec et développant une moisissure noble (floraison de champignons microscopiques); le poids du produit fini se situe entre 41 et 53|% de la matière première avant le salage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210209011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210209015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210209091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210209091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210209099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les farines et poudres, comestibles, de viandes ou d'abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de primates</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de baleines, dauphins et marsouins (mammifères de l'ordre Cetacea); de lamantins et dugongs (mammifères de l'ordre Sirenia); d'otaries et phoques, lions de mer et morses (mammifères du sous-ordre Pinnipedia)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de baleines, dauphins et marsouins (mammifères de l'ordre des cétacés); de lamantins et dugongs (mammifères de l'ordre des siréniens)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210929100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210929100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Viandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210929200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210929900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Farines et poudres, comestibles, de viandes ou d'abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de reptiles (y compris les serpents et les tortues de mer)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210991000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de cheval, salées ou en saumure ou bien séchées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210992100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>des espèces ovine et caprine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210992100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>non désossées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210992900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>désossées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210993100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de rennes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210993900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210993910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Viandes de volaille salée ou en saumure relevant du n° 0207</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210993990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210994100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abats</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210994100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210994100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Foies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210994900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210995100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de l'espèce bovine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210995100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Onglets et hampes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210995110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210995190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210995900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210995910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de bison</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210995990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210997100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0210997100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Foies de volailles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210997100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Foies gras d'oies ou de canards, salés ou en saumure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210997900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210998500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210998510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>des espèces ovine et caprine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210998590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0210999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Farines et poudres, comestibles, de viandes ou d'abats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>des espèces porcine et bovine domestiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0210999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

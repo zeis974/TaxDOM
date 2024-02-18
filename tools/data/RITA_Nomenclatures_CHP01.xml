@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 01 valides au 05/11/2023.</nom_table><date_table>20231105</date_table><horodatage>05/11/2023 02:00:09</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>0100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>ANIMAUX VIVANTS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chevaux, ânes, mulets et bardots, vivants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0101210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chevaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0101210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>reproducteurs de race pure</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0101290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0101291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à la boucherie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0101299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0101300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Anes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0101900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Animaux vivants de l'espèce bovine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bovins domestiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>reproducteurs de race pure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Génisses (bovins femelles qui n'ont jamais vêlé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102213000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Vaches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102290500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>du sous-genre Bibos ou du sous-genre Poephagus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102291000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids n'excédant pas 80|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102291010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Jeunes bovins mâles destinés à l'engraissement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102291020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Génisses, autres que celles destinées à la boucherie, des races de montagne suivantes : grise, brune, jaune et tachetée du Pinzgau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102291030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Génisses, autres que celles destinées à la boucherie, des races du Schwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102291040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Génisses, autres que celles destinées à la boucherie, de la race tachetée du Simmental</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102291050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Taureaux, autres que ceux destinés à la boucherie, de la race tachetée du Simmental et des races du Schwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102291090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102292100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids excédant 80|kg mais n'excédant pas 160|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102292100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à la boucherie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102292900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102292910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jeunes bovins mâles destinés à l'engraissement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102292920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Génisses des races de montagne suivantes : grise, brune, jaune et tachetée du Pinzgau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102292930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Génisses des races du Schwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102292940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Génisses de la race tachetée du Simmental</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102292950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Taureaux de la race tachetée du Simmental et des races du Shwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102292990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102294100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids excédant 160|kg mais n'excédant pas 300|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102294100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à la boucherie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102294900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102294910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jeunes bovins mâles destinés à l'engraissement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102294920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Génisses et vaches des races de montagne suivantes : grise, brune, jaune et tachetée du Pinzgau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102294930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Génisses et vaches des races du Schwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102294940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Génisses et vaches de la race tachetée du Simmental</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102294950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Taureaux de la race tachetée du Simmental et des races du Shwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102294990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102295100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids excédant 300|kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102295100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Génisses (bovins femelles qui n'ont jamais vêlé)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102295100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinées à la boucherie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>n'ayant encore aucune dent de remplacement et dont le poids est égal ou supérieur à 320|kg et inférieur ou égal à 470|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102295900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102295911</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>des races de montagne suivantes : grise, brune, jaune et tachetée du Pinzgau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295911</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>n'ayant encore aucune dent de remplacement et dont le poids est égal ou supérieur à 320|kg et inférieur ou égal à 470|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295919</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102295921</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>des races du Schwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295921</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>n'ayant encore aucune dent de remplacement et dont le poids est égal ou supérieur à 320|kg et inférieur ou égal à 470|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295929</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102295931</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de la race tachetée du Simmental</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295931</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>n'ayant encore aucune dent de remplacement et dont le poids est égal ou supérieur à 320|kg et inférieur ou égal à 470|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295939</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102295991</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>n'ayant encore aucune dent de remplacement et dont le poids est égal ou supérieur à 320|kg et inférieur ou égal à 470|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102295999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102296100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Vaches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102296100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinées à la boucherie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102296900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102296910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>des races de montagne suivantes : grise, brune, jaune et tachetée du Pinzgau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102296920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>des races du Schwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102296930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de la race tachetée du Simmental</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102296990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102299100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102299100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à la boucherie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102299110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>n'ayant encore aucune dent de remplacement et dont le poids est égal ou supérieur à 350|kg et inférieur ou égal à 500|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102299190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102299900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102299921</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Taureaux de la race tachetée du Simmental et des races du Shwyz et de Fribourg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102299921</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>n'ayant encore aucune dent de remplacement et dont le poids est égal ou supérieur à 350 kg et inférieur ou égal à 500 kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102299929</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102299991</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102299991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>n'ayant encore aucune dent de remplacement et dont le poids est égal ou supérieur à 350|kg et inférieur ou égal à 500|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102299999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Buffles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>reproducteurs de race pure</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces domestiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102391010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids excédant 160 kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102391090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102399000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>reproducteurs de race pure</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0102909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0102909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces domestiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102909110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids excédant 160 kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102909190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0102909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Animaux vivants de l'espèce porcine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0103100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>reproducteurs de race pure</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0103910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0103910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids inférieur à 50|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0103911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces domestiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0103919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0103920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids égal ou supérieur à 50|kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0103921100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces domestiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0103921100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Truies ayant mis bas au moins une fois et d'un poids minimal de 160|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0103921900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0103929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Animaux vivants des espèces ovine ou caprine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0104100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de l'espèce ovine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0104101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>reproducteurs de race pure</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0104103000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0104103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Agneaux (jusqu'à l'âge d'un an)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0104108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0104200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de l'espèce caprine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0104201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>reproducteurs de race pure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0104209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Coqs, poules, canards, oies, dindons, dindes et pintades, vivants, des espèces domestiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0105110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'un poids n'excédant pas 185|g</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0105110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Volailles de l'espèce Gallus domesticus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0105111100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poussins femelles de sélection et de multiplication</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105111100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de race de ponte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105111900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0105119100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105119100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de race de ponte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105119900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dindes et dindons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Canards</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pintades</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0105940000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Volailles de l'espèce Gallus domesticus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0105990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Canards</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105993000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dindes et dindons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0105995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pintades</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0106000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres animaux vivants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0106110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mammifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Primates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Baleines, dauphins et marsouins (mammifères de l'ordre Cetacea); lamantins et dugongs (mammifères de l'ordre Sirenia); otaries et phoques, lions de mer et morses (mammifères du sous-ordre Pinnipedia)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chameaux et autres camélidés (Camelidae)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0106140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lapins et lièvres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106141000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lapins domestiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106149000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Reptiles (y compris les serpents et les tortues de mer)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0106310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oiseaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oiseaux de proie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Psittaciformes (y compris les perroquets, perruches, aras et cacatoès)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autruches; émeus (Dromaius novaehollandiae)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0106390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pigeons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106398000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0106410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Insectes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Abeilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0106900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0106900010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Grenouilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106900019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0106900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>
