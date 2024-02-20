@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-custom",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@pandacss/eslint-plugin": "^0.0.17",
+    "eslint-config-next": "14.1.0",
+    "eslint-config-turbo": "^1.12.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
