@@ -1,3 +1,3 @@
 module.exports = {
-	extends: ["next/core-web-vitals", "turbo", "plugin:@pandacss/recommended"],
+	extends: ["next/core-web-vitals", "turbo"],
 }
