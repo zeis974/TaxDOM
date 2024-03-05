@@ -14,8 +14,6 @@
   "devDependencies": {
     "@biomejs/biome": "1.5.3",
     "turbo": "1.12.3"
-    "eslint": "8.57.0",
-    "eslint-config-custom": "workspace:^",
   },
   "engines": {
     "node": ">=20.0.0",
