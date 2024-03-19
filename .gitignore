@@ -25,5 +25,5 @@ next-env.d.ts
 # Turbo
 .turbo
 
-# Environments
-.env
+# local env files
+.env*.local
