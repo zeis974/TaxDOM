@@ -12,5 +12,6 @@ export const tokens = defineTokens({
 	},
 	colors: {
 		bg: { value: "#121212" },
+		secondaryBg: { value: "#2a2a2a" },
 	},
 })

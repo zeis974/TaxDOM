@@ -1,23 +1,17 @@
 import { defineConfig } from "@pandacss/dev"
 
-import { semanticTokens } from "./theme/semantic-tokens"
+import { semanticTokens, tokens } from "./theme"
 
 export default defineConfig({
 	preflight: false,
 	hash: true,
 	minify: true,
 	include: ["./src/components/**/*.{ts,tsx,js,jsx}", "./src/app/**/*.{ts,tsx,js,jsx}"],
+	importMap: "@/panda",
 	exclude: [],
 	theme: {
 		semanticTokens,
-		tokens: {
-			fonts: {
-				nativeFont: {
-					value:
-						'--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
-				},
-			},
-		},
+		tokens,
 	},
 	globalCss: {
 		body: {
