@@ -2,7 +2,7 @@
   "name": "taxdom",
   "version": "0.1.0",
   "description": "soon",
-  "license": "Apache-2.0",
+  "license": "AGPL-3.0-only",
   "scripts": {
     "dev": "turbo dev",
     "dev:web": "turbo dev --filter=\"@taxdom/app\" dev",
