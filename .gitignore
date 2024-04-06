@@ -18,6 +18,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# Next.js
+.next
+/out/
+
 # Typescript
 *.tsbuildinfo
 next-env.d.ts
