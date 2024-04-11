@@ -6,9 +6,12 @@ export default defineConfig({
 	preflight: false,
 	hash: true,
 	minify: true,
-	include: ["./src/components/**/*.{ts,tsx,js,jsx}", "./src/app/**/*.{ts,tsx,js,jsx}"],
+	include: [
+		"./src/components/**/*.{ts,tsx,js,jsx}",
+		"./src/app/**/*.{ts,tsx,js,jsx}",
+		"./src/services/**/*.{ts,tsx,js,jsx}",
+	],
 	importMap: "@/panda",
-	exclude: [],
 	theme: {
 		semanticTokens,
 		tokens,
