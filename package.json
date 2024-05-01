@@ -12,7 +12,7 @@
   },
   "author": "zeis974 <hi@zeis.dev>",
   "devDependencies": {
-    "@biomejs/biome": "1.6.4",
+    "@biomejs/biome": "1.7.2",
     "eslint": "8.57.0",
     "turbo": "1.13.2",
     "typescript": "5.4.5"
