@@ -1,23 +1,18 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "pipeline": {
+  "globalEnv": ["DATABASE_URL"],
+  "ui": "stream",
+  "tasks": {
     "build": {
-      "outputs": [
-        ".next/**",
-        "!.next/cache/**"
-      ],
-      "dependsOn": [
-        "^lint"
-      ]
+      "outputs": [".next/**", "!.next/cache/**"],
+      "dependsOn": ["^lint"]
     },
     "dev": {
       "cache": false,
       "persistent": true
     },
     "lint": {
-      "dependsOn": [
-        "^build"
-      ]
+      "dependsOn": ["^build"]
     }
   }
 }
