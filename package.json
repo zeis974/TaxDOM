@@ -1,17 +1,17 @@
 {
   "name": "taxdom",
   "version": "0.1.0",
+  "author": "zeis974 <hi@zeis.dev>",
   "description": "soon",
   "license": "AGPL-3.0-only",
   "scripts": {
-    "dev": "turbo dev",
-    "dev:web": "turbo dev --filter=\"@taxdom/app\" dev",
-    "dev:db": "docker compose  -f \"compose.dev.yml\" up -d --build database",
-    "build": "turbo build",
-    "format": "biome format ./apps"
-    "prepare": "husky"
+    "prepare": "husky",
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=\"@taxdom/app\" dev",
+    "dev:db": "docker compose -f \"compose.dev.yml\" up -d --build db",
+    "build": "turbo run build",
+    "format": "biome format . --write"
   },
-  "author": "zeis974 <hi@zeis.dev>",
   "devDependencies": {
     "@biomejs/biome": "1.7.2",
     "eslint": "8.57.0",
@@ -21,10 +21,10 @@
     "typescript": "5.4.5"
   },
   "engines": {
-    "node": ">=20.0.0",
-    "pnpm": ">=9.0.0"
+    "node": ">=20",
+    "pnpm": ">=9"
   },
-  "packageManager": "pnpm@9.1.2"
+  "packageManager": "pnpm@9.1.2",
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
       "biome format --write --no-errors-on-unmatched"
