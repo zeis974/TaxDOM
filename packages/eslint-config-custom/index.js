@@ -1,3 +1,3 @@
 module.exports = {
-	extends: ["next/core-web-vitals", "turbo"],
+  extends: ["next/core-web-vitals", "turbo"],
 }
