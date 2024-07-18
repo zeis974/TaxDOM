@@ -1,6 +1,6 @@
 import { defineConfig } from "@pandacss/dev"
 
-import { semanticTokens, tokens, utilities } from "./theme"
+import { keyframes, semanticTokens, tokens, utilities } from "./theme"
 
 export default defineConfig({
   eject: true,
@@ -17,16 +17,7 @@ export default defineConfig({
   theme: {
     semanticTokens,
     tokens,
-    keyframes: {
-      fadeIn: {
-        from: {
-          opacity: "0",
-        },
-        to: {
-          opacity: "1",
-        },
-      },
-    },
+    keyframes,
   },
   utilities: {
     utilities,
