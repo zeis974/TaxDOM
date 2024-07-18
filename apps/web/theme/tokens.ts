@@ -6,9 +6,16 @@ export const tokens = defineTokens({
       value:
         '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
     },
+    NotoSans: {
+      value: "var(--noto-sans)",
+    },
+    NotoSansBold: {
+      value: "var(--noto-sans-bold)",
+    },
   },
   sizes: {
-    navbarHeight: { value: "80px" },
+    navbarHeight: { value: "95px" },
+    maxWidth: { value: "2400px" },
   },
   colors: {
     bg: { value: "#121212" },

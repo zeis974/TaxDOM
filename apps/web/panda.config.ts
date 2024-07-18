@@ -1,11 +1,13 @@
 import { defineConfig } from "@pandacss/dev"
 
-import { semanticTokens, tokens } from "./theme"
+import { semanticTokens, tokens, utilities } from "./theme"
 
 export default defineConfig({
-  preflight: false,
+  eject: true,
+  presets: [],
   hash: true,
   minify: true,
+  lightningcss: true,
   include: [
     "./src/components/**/*.{ts,tsx,js,jsx}",
     "./src/app/**/*.{ts,tsx,js,jsx}",
@@ -15,14 +17,19 @@ export default defineConfig({
   theme: {
     semanticTokens,
     tokens,
-    extend: {
-      keyframes: {
-        fadeIn: {
-          from: { opacity: "0" },
-          to: { opacity: "1" },
+    keyframes: {
+      fadeIn: {
+        from: {
+          opacity: "0",
+        },
+        to: {
+          opacity: "1",
         },
       },
     },
+  },
+  utilities: {
+    utilities,
   },
   globalCss: {
     body: {
