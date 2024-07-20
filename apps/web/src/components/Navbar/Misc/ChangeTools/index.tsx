@@ -1,16 +1,20 @@
 "use client"
 
 import { usePathname } from "next/navigation"
-import { useState } from "react"
+import { type ElementRef, useEffect, useRef, useState } from "react"
 
 import {
+  Card,
   Container,
   Content,
   Illustration,
+  ModalCard,
   ModalContainer,
 } from "@/components/Navbar/Misc/ChangeTools/ChangeTools.styled"
 
-import { ChevronIcon, TaxIcon } from "@/components/Icons"
+import { ChevronIcon, ParcelIcon, TaxIcon } from "@/components/Icons"
+import { AnimatePresence } from "framer-motion"
+import Link from "next/link"
 
 interface Tools {
   name: string
@@ -29,11 +33,11 @@ const tools: Tools[] = [
   {
     name: "Simuler",
     description: "Simuler le cout des taxes",
-    icon: <TaxIcon />,
+    icon: <ParcelIcon />,
     slug: "/simulator",
   },
   {
-    name: "Arbres des nomenclatures",
+    name: "Nomenclatures",
     description: "Listes des nomenclatures",
     icon: <TaxIcon />,
     slug: "/nomenclatures",
@@ -45,30 +49,54 @@ export default function ChangeTools() {
   const [showModal, setShowModal] = useState(false)
   const currentTool = tools.find(({ slug }) => (slug === pathname ? pathname : "/"))
 
+  const ref = useRef<ElementRef<"div">>(null)
+
+  useEffect(() => {
+    const handleOutsideClick = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setShowModal(false)
+    }
+
+    document.addEventListener("mousedown", handleOutsideClick)
+
+    return () => document.removeEventListener("mousedown", handleOutsideClick)
+  }, [])
+
   if (currentTool) {
     return (
-      <>
-        <Container onClick={() => setShowModal(!showModal)} data-open={showModal}>
-          <Illustration>{currentTool.icon}</Illustration>
-          <Content>
-            <h3>{currentTool.name}</h3>
-            <span>{currentTool.description}</span>
-          </Content>
+      <Container ref={ref}>
+        <Card onClick={() => setShowModal(!showModal)} data-open={showModal}>
+          <ToolContent tool={currentTool} />
           <hr />
           <ChevronIcon />
-        </Container>
-        {showModal && <ModalTools tools={tools} />}
-      </>
+        </Card>
+        <AnimatePresence>
+          {showModal && (
+            <ModalContainer initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+              {tools
+                .filter((tool) => tool.slug !== currentTool.slug)
+                .map((tool) => (
+                  <Link key={tool.name} href={tool.slug}>
+                    <ModalCard>
+                      <ToolContent {...{ tool }} />
+                    </ModalCard>
+                  </Link>
+                ))}
+            </ModalContainer>
+          )}
+        </AnimatePresence>
+      </Container>
     )
   }
 }
 
-const ModalTools = ({ tools }: { tools: Tools[] }) => {
+const ToolContent = ({ tool }: { tool: Tools }) => {
   return (
-    <ModalContainer>
-      {tools?.map((tool) => {
-        return tool.name
-      })}
-    </ModalContainer>
+    <>
+      <Illustration>{tool.icon}</Illustration>
+      <Content>
+        <h3>{tool.name}</h3>
+        <span>{tool.description}</span>
+      </Content>
+    </>
   )
 }

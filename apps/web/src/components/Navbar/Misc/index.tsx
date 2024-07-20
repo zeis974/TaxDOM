@@ -14,6 +14,7 @@ export default function Misc() {
 
 const Container = styled.div`
   display: flex;
+  position: relative;
   align-items: center;
   height: 43.2px;
   gap: 10px;
