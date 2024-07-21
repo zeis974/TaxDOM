@@ -13,7 +13,7 @@ RUN apk add --no-cache gcompat
 WORKDIR /app
 RUN pnpm add -g turbo
 COPY . .
-RUN turbo prune @taxdom/app --docker
+RUN turbo prune @taxdom/api --docker
 
 # Add lockfile and package.json's of isolated subworkspace
 FROM base AS installer
@@ -31,28 +31,20 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN pnpm turbo build --filter=@taxdom/app...
+RUN pnpm turbo build --filter=@taxdom/api...
+
+RUN pnpm --filter=@taxdom/api deploy /app/apps/api/hard/node_modules
 
 FROM base AS runner
 WORKDIR /app
 
 ENV NODE_ENV production
-ENV NEXT_TELEMETRY_DISABLED 1
 ENV TURBO_TELEMETRY_DISABLED=1
 ENV DO_NOT_TRACK=1
 
-# Don't run production as root
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
-USER nextjs
+COPY --from=installer /app/apps/api/package.json .
+COPY --from=installer /app/apps/api/build/ .
+COPY --from=installer /app/apps/api/hard/node_modules/ .
 
-COPY --from=installer /app/apps/web/next.config.mjs .
-COPY --from=installer /app/apps/web/package.json .
-
-# Automatically leverage output traces to reduce image size
-# https://nextjs.org/docs/advanced-features/output-file-tracing
-COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/standalone ./
-COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/static ./apps/web/.next/static
-COPY --from=installer --chown=nextjs:nodejs /app/apps/web/public ./apps/web/public
-
-CMD node apps/web/server.js
+EXPOSE 3333
+CMD ["node", "./bin/server.js"]
