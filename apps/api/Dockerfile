@@ -1,4 +1,5 @@
-FROM node:20.15.1-alpine AS base
+# Move to slim until https://github.com/tursodatabase/libsql-client-ts/issues/180
+FROM node:20.15.1-bookworm-slim AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
@@ -6,8 +7,8 @@ RUN corepack prepare pnpm@9.5.0 --activate
 
 FROM base AS builder
 # Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
-RUN apk update
-RUN apk add --no-cache gcompat
+# RUN apk update
+# RUN apk add --no-cache gcompat
 
 # Set working directory
 WORKDIR /app
@@ -17,8 +18,8 @@ RUN turbo prune @taxdom/api --docker
 
 # Add lockfile and package.json's of isolated subworkspace
 FROM base AS installer
-RUN apk update
-RUN apk add --no-cache gcompat
+# RUN apk update
+# RUN apk add --no-cache gcompat
 WORKDIR /app
 
 # First install the dependencies (as they change less often)
@@ -33,7 +34,11 @@ COPY turbo.json turbo.json
 
 RUN pnpm turbo build --filter=@taxdom/api...
 
-RUN pnpm --filter=@taxdom/api deploy /app/apps/api/hard/node_modules
+FROM base AS deploy
+WORKDIR /app
+
+COPY --from=installer /app/apps/api/build ./
+RUN pnpm --filter=@taxdom/api deploy --prod ./output
 
 FROM base AS runner
 WORKDIR /app
@@ -42,9 +47,7 @@ ENV NODE_ENV production
 ENV TURBO_TELEMETRY_DISABLED=1
 ENV DO_NOT_TRACK=1
 
-COPY --from=installer /app/apps/api/package.json .
-COPY --from=installer /app/apps/api/build/ .
-COPY --from=installer /app/apps/api/hard/node_modules/ .
+COPY --from=deploy /app/output ./
 
 EXPOSE 3333
 CMD ["node", "./bin/server.js"]
