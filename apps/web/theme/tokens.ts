@@ -6,19 +6,18 @@ export const tokens = defineTokens({
       value:
         '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
     },
+    Rowdies: {
+      value: "var(--rowdies), serif",
+    },
     NotoSans: {
-      value: "var(--noto-sans)",
+      value: "var(--noto-sans), sans-serif",
     },
     NotoSansBold: {
-      value: "var(--noto-sans-bold)",
+      value: "var(--noto-sans-bold), sans-serif",
     },
   },
   sizes: {
     navbarHeight: { value: "95px" },
     maxWidth: { value: "2400px" },
-  },
-  colors: {
-    bg: { value: "#121212" },
-    secondaryBg: { value: "#2a2a2a" },
   },
 })

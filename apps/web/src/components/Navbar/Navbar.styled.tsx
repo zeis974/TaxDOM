@@ -11,12 +11,12 @@ export const Nav = styled.nav`
   justify-content: space-between;
 
   top: 0;
-  background: token(colors.bg);
+  background: token(colors.background);
 
   & > a {
     color: var(--primary-color);
     font-size: clamp(1.4em, 5vw, 2em);    
-    font-family: var(--rowdies), serif;
+    font-family: token(fonts.Rowdies);
     position: relative;
 
     &::before {

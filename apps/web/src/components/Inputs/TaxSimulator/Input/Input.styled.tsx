@@ -13,7 +13,7 @@ export const Container = styled.div`
     user-select: none;
 
     & > span {
-      color: #ff9b9b;
+      color: token(colors.error);
       font-size: 0.8em;
     }
 
@@ -28,14 +28,14 @@ export const Container = styled.div`
     outline: none;
     height: 35px;
     border-radius: 5px;
-    background: token(colors.lightGray);
-    border: 2px solid #585858;
+    background: token(colors.darkGray);
+    border: 2px solid transparent;
     padding: 5px;
     font-family: inherit;
-    transition: border 250ms;
-  }
+    transition: border 150ms;
 
-  & > input:focus {
-    border: 2px solid white;
+    &:focus {
+      border: 2px solid #3498db;
+    }
   }
 `

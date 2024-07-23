@@ -12,10 +12,10 @@ export const SearchBar = styled.div`
     height: 100%;
     z-index: 2;
     color: token(colors.primary);
-    background: token(colors.lightGray);
+    background: token(colors.darkGray);
     border-radius: 5px;
     padding: 10px;
-    border: 1px solid #2c2929;
+    border: none;
     outline: none;
   }
 `
@@ -26,19 +26,20 @@ export const SearchShortcut = styled.div`
   z-index: 2;
   color: white;
   position: absolute;
+  font-family: token(fonts.Rowdies);
   right: 0;
-  border-radius: 5px;
+  border-radius: 2px;
   margin: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--rowdies);
   user-select: none;
   background: black;
   border-radius: 5px;
   transition: 100ms;
 
-  & > * {
+  & > svg,
+  & > span {
     animation: fadeIn 600ms;
   }
 

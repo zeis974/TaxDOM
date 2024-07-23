@@ -1,5 +1,5 @@
-import { m } from "framer-motion"
 import { styled } from "@/panda/jsx"
+import { m } from "framer-motion"
 
 export const Container = styled.div`
   height: inherit;
@@ -10,6 +10,7 @@ export const Container = styled.div`
 export const Card = styled.div`
   display: flex;
   align-items: center;
+  color: token(colors.primary);
   height: 100%;
   padding: 0 8px;
   font-family: token(fonts.nativeFont);

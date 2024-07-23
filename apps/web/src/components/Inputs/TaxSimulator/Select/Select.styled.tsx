@@ -6,7 +6,7 @@ export const OptionContainer = styled.div`
   top: calc(100% + 5px);
   z-index: 1;
   position: absolute;
-  border: 2px solid #585858;
+  border: 2px solid token(colors.darkGray);
   background: token(colors.secondaryBackground);
 
   & > span[aria-selected=true] {
@@ -17,7 +17,7 @@ export const OptionContainer = styled.div`
     cursor: pointer;
     display: block;
     padding: 5px;
-    transition: background 100ms;
+    transition: background 150ms;
   }
 
   & > span:first-of-type {

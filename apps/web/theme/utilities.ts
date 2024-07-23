@@ -5,8 +5,14 @@ export const utilities = {
   color: {
     values: "colors",
   },
+  border: {
+    values: "colors",
+  },
   borderRight: {
     values: "colors",
+  },
+  font: {
+    values: "fonts",
   },
   fontFamily: {
     values: "fonts",
