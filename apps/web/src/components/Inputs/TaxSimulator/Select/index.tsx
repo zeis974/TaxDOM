@@ -1,4 +1,5 @@
-import type { TaxSimulatorFormValues, TaxSimulatorSelectProps } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorSelectProps } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormValues } from "@taxdom/types"
 
 import type { FieldApi } from "@tanstack/react-form"
 

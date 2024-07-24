@@ -1,4 +1,4 @@
-import type { Origin, Territory } from "@/services/TaxSimulator/types"
+import type { Origin, Territory } from "@taxdom/types"
 
 export const TaxSimulatorTerritoryData: Territory[] = [
   "CORSE",
