@@ -2,14 +2,13 @@ import type { TaxSimulatorSelectProps } from "@/services/TaxSimulator/types"
 import type { TaxSimulatorFormValues } from "@taxdom/types"
 
 import type { FieldApi } from "@tanstack/react-form"
-
 import { AnimatePresence, m } from "framer-motion"
-import { useState } from "react"
+import { useEffect, useState } from "react"
+
+import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 import { Container } from "../Input/Input.styled"
 import { OptionContainer } from "./Select.styled"
-
-import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 export default function Select({
   Field,
@@ -20,14 +19,27 @@ export default function Select({
 }: TaxSimulatorSelectProps) {
   const [selectedIndex, setSelectedIndex] = useState<number>(0)
   const [show, setShow] = useState(false)
+
   const setFocusInput = useTaxSimulatorStore((s) => s.setFocusInput)
+  const hasResult = useTaxSimulatorStore((s) => s.hasResult)
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "ArrowUp") {
-      setSelectedIndex((selectedIndex - 1 + (options?.length ?? 0)) % (options?.length ?? 0))
+      setSelectedIndex((selectedIndex - 1 + (options.length ?? 0)) % (options.length ?? 0))
     } else if (e.key === "ArrowDown") {
-      setSelectedIndex((selectedIndex + 1) % (options?.length ?? 0))
+      setSelectedIndex((selectedIndex + 1) % (options.length ?? 0))
     }
+  }
+
+  // Reset selectedIndex to nearest value in array when options change
+  useEffect(() => {
+    if (options && options.length > 0) {
+      setSelectedIndex((prevIndex) => Math.min(prevIndex, options.length - 1))
+    }
+  }, [options])
+
+  const handleFormState = () => {
+    if (!hasResult) setFocusInput(name)
   }
 
   return (
@@ -39,11 +51,10 @@ export default function Select({
       }}
     >
       {(field) => {
-        const filtered = options?.filter((option) =>
-          field.state.value !== undefined
-            ? option.toLowerCase().includes(field.state.value.toLowerCase())
-            : null,
-        )
+        const filtered = options.filter((option) => {
+          return option.includes(field.state.value) && option !== field.state.value
+        })
+
         return (
           <Container>
             <label htmlFor={field.name}>
@@ -59,7 +70,7 @@ export default function Select({
               value={field.state.value}
               onFocus={() => {
                 setShow(true)
-                setFocusInput(field.name)
+                handleFormState()
               }}
               onBlur={() => {
                 setShow(false)
@@ -68,20 +79,23 @@ export default function Select({
               onKeyDown={(e) => {
                 handleKeyDown(e)
 
+                const selectedValue = options[selectedIndex] ?? ""
+
+                console.log(selectedValue)
+
                 if (e.key === "Enter") {
-                  if (options && options.length > 0) {
-                    const selectedValue = options[selectedIndex] ?? ""
+                  e.preventDefault()
+                  if (filtered.length > 0) {
+                    const selectedValue = filtered[selectedIndex] ?? filtered[0]
                     field.handleChange(selectedValue)
                   }
                 }
               }}
               autoComplete="off"
-              onChange={(e) => {
-                field.handleChange(e.target.value)
-              }}
+              onChange={(e) => field.handleChange(e.target.value)}
             />
             <AnimatePresence>
-              {options !== undefined && show && (
+              {options && show && (
                 <m.div
                   style={{ zIndex: 1 }}
                   initial={{ translateY: "-5px", opacity: 0 }}
@@ -117,22 +131,20 @@ const Options = ({
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
 }) => {
   return (
-    <>
-      {options.length !== 0 && (
-        <OptionContainer role="listitem" aria-label="Liste déroulante">
-          {options.map((option, index) => (
-            <span
-              key={option}
-              onClick={() => field.handleChange(option)}
-              onKeyUp={() => field.handleChange(option)}
-              aria-selected={index === selectedIndex}
-              onMouseEnter={() => setSelectedIndex(index)}
-            >
-              {option}
-            </span>
-          ))}
-        </OptionContainer>
-      )}
-    </>
+    options.length !== 0 && (
+      <OptionContainer role="listitem" aria-label="Liste déroulante">
+        {options.map((option, index) => (
+          <span
+            key={option}
+            onClick={() => field.handleChange(option)}
+            onKeyUp={() => field.handleChange(option)}
+            aria-selected={index === selectedIndex}
+            onMouseEnter={() => setSelectedIndex(index)}
+          >
+            {option}
+          </span>
+        ))}
+      </OptionContainer>
+    )
   )
 }
