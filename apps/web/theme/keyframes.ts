@@ -9,6 +9,14 @@ export const keyframes = defineKeyframes({
       opacity: "1",
     },
   },
+  rotate: {
+    from: {
+      transform: "rotate(0deg)",
+    },
+    to: {
+      transform: "rotate(360deg)",
+    },
+  },
   scale: {
     from: {
       transform: "translate(-50%, -50%) scale(0.95)",
