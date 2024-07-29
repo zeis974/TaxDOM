@@ -15,9 +15,26 @@ export const OptionContainer = styled.div`
 
   & > span {
     cursor: pointer;
+    position: relative;
     display: block;
     padding: 5px;
     transition: background 150ms;
+
+    &[data-available="false"] {
+      opacity: 0.5;
+
+      &::before {
+        content: "SOON";
+        background: token(colors.background);
+        font-size: 14px;
+        padding: 5px;
+        position: absolute;
+        width: inherit;
+        top: 6%;
+        right: 5px;
+        border-radius: 2px;
+      }
+    }
   }
 
   & > span:first-of-type {

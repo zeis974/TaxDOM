@@ -46,13 +46,22 @@ export default function Select({
     <Field
       name={name}
       validators={{
-        onChange: ({ value }) =>
-          !value ? "Champs requis" : options.includes(value) ? undefined : "Champs invalides",
+        onChange: ({ value, fieldApi }) => {
+          // For now we only support one territory
+          if (fieldApi.name === "territory" && value !== "REUNION") {
+            return options.includes(value) ? "Bientôt disponible" : "Champs invalides"
+          }
+
+          return !value ? "Champs requis" : options.includes(value) ? undefined : "Champs invalides"
+        },
       }}
     >
       {(field) => {
         const filtered = options.filter((option) => {
-          return option.includes(field.state.value) && option !== field.state.value
+          return (
+            option.toLowerCase().includes(field.state.value.toLowerCase()) &&
+            option.toLowerCase() !== field.state.value.toLowerCase()
+          )
         })
 
         return (
@@ -80,8 +89,6 @@ export default function Select({
                 handleKeyDown(e)
 
                 const selectedValue = options[selectedIndex] ?? ""
-
-                console.log(selectedValue)
 
                 if (e.key === "Enter") {
                   e.preventDefault()
@@ -140,6 +147,7 @@ const Options = ({
             onKeyUp={() => field.handleChange(option)}
             aria-selected={index === selectedIndex}
             onMouseEnter={() => setSelectedIndex(index)}
+            data-available={field.name === "territory" ? option === "REUNION" : null}
           >
             {option}
           </span>
