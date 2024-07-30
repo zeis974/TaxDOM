@@ -1,9 +1,9 @@
 # Move to slim until https://github.com/tursodatabase/libsql-client-ts/issues/180
-FROM node:20.15.1-bookworm-slim AS base
+FROM node:20.16.0-bookworm-slim AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@9.5.0 --activate
+RUN corepack prepare pnpm@9.6.0 --activate
 
 FROM base AS builder
 # Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
