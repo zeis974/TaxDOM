@@ -1,9 +1,8 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalEnv": ["DATABASE_URL"],
   "tasks": {
     "build": {
-      "outputs": [".next/**", "!.next/cache/**"],
+      "outputs": [".next/**", "build", "!.next/cache/**"],
       "dependsOn": ["^lint"]
     },
     "dev": {
