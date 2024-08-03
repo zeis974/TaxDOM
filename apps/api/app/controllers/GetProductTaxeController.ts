@@ -3,7 +3,7 @@ import { and, eq } from "drizzle-orm"
 import { db } from "#config/database"
 import { ProductsTables, Taxes } from "#database/schema"
 
-import type { Origin, TaxSimulatorFormLabel, Territory } from "@taxdom/types/TaxSimulator"
+import type { Origin, TaxSimulatorFormLabel, Territory } from "#types/index"
 
 const originMap: Record<Origin, number> = {
   EU: 1,

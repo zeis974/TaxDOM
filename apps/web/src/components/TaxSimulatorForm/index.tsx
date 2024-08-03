@@ -1,6 +1,6 @@
 "use client"
 
-import type { Origin, TaxSimulatorFormValues, Territory } from "@taxdom/types"
+import type { Origin, TaxSimulatorFormValues, Territory } from "@/services/TaxSimulator/types"
 
 import { styled } from "@/panda/jsx"
 import { useForm } from "@tanstack/react-form"

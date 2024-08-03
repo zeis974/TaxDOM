@@ -38,3 +38,11 @@ export interface TaxSimulatorFormValues {
 }
 
 export type TaxSimulatorFormLabel = keyof TaxSimulatorFormValues
+export type TaxSimulatorInformationLabel = keyof Omit<TaxSimulatorFormValues, "flux">
+
+export type TaxSimulatorResult = {
+  product: string
+  tva: number
+  om: number
+  omr: number
+}

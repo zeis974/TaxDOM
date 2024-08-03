@@ -38,6 +38,11 @@ FROM base AS deploy
 WORKDIR /app
 
 COPY --from=installer /app/apps/api/build ./
+
+# Revert internal package types in https://github.com/zeis974/TaxDOM/commit/cd69bce639cf9c81a8f85f578f3c022cc94cd85d
+# due to pnpm deploy doesn't rewrite workspace:* dependencies in package.json
+
+# https://github.com/pnpm/pnpm/issues/6269
 RUN pnpm --filter=@taxdom/api deploy --prod ./output
 
 FROM base AS runner
