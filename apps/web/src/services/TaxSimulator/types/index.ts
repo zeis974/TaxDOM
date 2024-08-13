@@ -1,29 +1,27 @@
-import type { FormApi } from "@tanstack/react-form"
+import type { FieldComponent } from "@tanstack/react-form"
 
-export type Territory =
-  | "CORSE" // Corse
-  | "FRANCE" // France continentale
-  | "GUADELOUPE" // Guadeloupe
-  | "GUYANE" // Guyane française
-  | "MARTINIQUE" // Martinique
-  | "MAYOTTE" // Mayotte
-  | "REUNION" // Réunion
+import type {
+  TaxSimulatorOriginData,
+  TaxSimulatorTerritoryData,
+} from "@/services/TaxSimulator/data/TaxSimulatorData"
 
-export type Origin =
-  | "EU" // Union européenne
-  | "HORS_EU" // Hors Union européenne
+type TypeFromSet<T extends Set<any>> = T extends Set<infer U> ? U : never
+
+export type Territory = TypeFromSet<typeof TaxSimulatorTerritoryData>
+export type Origin = TypeFromSet<typeof TaxSimulatorOriginData>
+export type Flux = "import" | "export"
 
 export type TaxSimulatorInputType = "input" | "select" | "radio"
 
 export type TaxSimulatorInputsProps = {
-  form: FormApi<TaxSimulatorFormValues, undefined>
+  Field: FieldComponent<TaxSimulatorFormValues, undefined>
   name: TaxSimulatorFormLabel
   label: string
   placeholder?: string
 }
 
 export interface TaxSimulatorSelectProps extends TaxSimulatorInputsProps {
-  options: string[]
+  options: Set<Territory | Origin>
 }
 
 export interface TaxSimulatorRadiosProps extends TaxSimulatorInputsProps {
@@ -34,7 +32,7 @@ export interface TaxSimulatorFormValues {
   product: string
   origin: Origin
   territory: Territory
-  flux: "import" | "export"
+  flux: Flux
 }
 
 export type TaxSimulatorFormLabel = keyof TaxSimulatorFormValues

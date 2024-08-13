@@ -1,6 +1,11 @@
-import type { TaxSimulatorFormValues, TaxSimulatorSelectProps } from "@/services/TaxSimulator/types"
-
+import type {
+  TaxSimulatorFormValues,
+  TaxSimulatorSelectProps,
+  Territory,
+  Origin,
+} from "@/services/TaxSimulator/types"
 import type { FieldApi } from "@tanstack/react-form"
+
 import { AnimatePresence, m } from "framer-motion"
 import { useEffect, useState } from "react"
 
@@ -8,6 +13,8 @@ import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 import { Container } from "../Input/Input.styled"
 import { OptionContainer } from "./Select.styled"
+
+type TerritoryAndOriginType = Territory | Origin
 
 export default function Select({
   Field,
@@ -19,21 +26,23 @@ export default function Select({
   const [selectedIndex, setSelectedIndex] = useState<number>(0)
   const [show, setShow] = useState(false)
 
+  const setSelectedCountry = useTaxSimulatorStore((s) => s.setSelectedCountry)
   const setFocusInput = useTaxSimulatorStore((s) => s.setFocusInput)
+
   const hasResult = useTaxSimulatorStore((s) => s.hasResult)
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "ArrowUp") {
-      setSelectedIndex((selectedIndex - 1 + (options.length ?? 0)) % (options.length ?? 0))
+      setSelectedIndex((selectedIndex - 1 + (options.size ?? 0)) % (options.size ?? 0))
     } else if (e.key === "ArrowDown") {
-      setSelectedIndex((selectedIndex + 1) % (options.length ?? 0))
+      setSelectedIndex((selectedIndex + 1) % (options.size ?? 0))
     }
   }
 
   // Reset selectedIndex to nearest value in array when options change
   useEffect(() => {
-    if (options && options.length > 0) {
-      setSelectedIndex((prevIndex) => Math.min(prevIndex, options.length - 1))
+    if (options && options.size > 0) {
+      setSelectedIndex((prevIndex) => Math.min(prevIndex, options.size - 1))
     }
   }, [options])
 
@@ -46,17 +55,20 @@ export default function Select({
       name={name}
       validators={{
         onChange: ({ value, fieldApi }) => {
-          // For now we only support one territory
           if (fieldApi.name === "territory" && value !== "REUNION") {
-            return options.includes(value) ? "Bientôt disponible" : "Champs invalides"
+            return options.has(value as Territory) ? "Bientôt disponible" : "Champs invalides"
           }
 
-          return !value ? "Champs requis" : options.includes(value) ? undefined : "Champs invalides"
+          return !value
+            ? "Champs requis"
+            : options.has(value as TerritoryAndOriginType)
+              ? undefined
+              : "Champs invalides"
         },
       }}
     >
       {(field) => {
-        const filtered = options.filter((option) => {
+        const filtered = [...options].filter((option) => {
           return (
             option.toLowerCase().includes(field.state.value.toLowerCase()) &&
             option.toLowerCase() !== field.state.value.toLowerCase()
@@ -87,8 +99,6 @@ export default function Select({
               onKeyDown={(e) => {
                 handleKeyDown(e)
 
-                const selectedValue = options[selectedIndex] ?? ""
-
                 if (e.key === "Enter") {
                   e.preventDefault()
                   if (filtered.length > 0) {
@@ -108,7 +118,10 @@ export default function Select({
                   animate={{ translateY: "0", opacity: 1 }}
                   exit={{ translateY: "5px", opacity: 0 }}
                 >
-                  <Options options={filtered} {...{ field, selectedIndex, setSelectedIndex }} />
+                  <Options
+                    options={filtered}
+                    {...{ field, selectedIndex, setSelectedIndex, setSelectedCountry }}
+                  />
                 </m.div>
               )}
             </AnimatePresence>
@@ -124,8 +137,9 @@ const Options = ({
   field,
   selectedIndex,
   setSelectedIndex,
+  setSelectedCountry,
 }: {
-  options: string[]
+  options: TerritoryAndOriginType[]
   field: FieldApi<
     TaxSimulatorFormValues,
     keyof TaxSimulatorFormValues,
@@ -135,6 +149,7 @@ const Options = ({
   >
   selectedIndex: number
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
+  setSelectedCountry: (value: TerritoryAndOriginType) => void
 }) => {
   return (
     options.length !== 0 && (
@@ -143,9 +158,15 @@ const Options = ({
           <span
             key={option}
             onClick={() => field.handleChange(option)}
-            onKeyUp={() => field.handleChange(option)}
+            onKeyUp={() => {
+              setSelectedCountry(option)
+              field.handleChange(option)
+            }}
             aria-selected={index === selectedIndex}
-            onMouseEnter={() => setSelectedIndex(index)}
+            onMouseEnter={() => {
+              setSelectedCountry(option)
+              setSelectedIndex(index)
+            }}
             data-available={field.name === "territory" ? option === "REUNION" : null}
           >
             {option}

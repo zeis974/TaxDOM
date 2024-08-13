@@ -1,13 +1,11 @@
-import type { Origin, Territory } from "@/services/TaxSimulator/types"
+export const TaxSimulatorTerritoryData = new Set([
+  "CORSE", // Corse
+  "FRANCE", // France continentale
+  "GUADELOUPE", // Guadeloupe
+  "GUYANE", // Guyane française
+  "MARTINIQUE", // Martinique
+  "MAYOTTE", // Mayotte
+  "REUNION", // Réunion
+] as const) 
 
-export const TaxSimulatorTerritoryData: Territory[] = [
-  "CORSE",
-  "FRANCE",
-  "GUADELOUPE",
-  "GUYANE",
-  "MARTINIQUE",
-  "MAYOTTE",
-  "REUNION",
-]
-
-export const TaxSimulatorOriginData: Origin[] = ["EU", "HORS_EU"]
+export const TaxSimulatorOriginData = new Set(["EU", "HORS_EU"] as const)

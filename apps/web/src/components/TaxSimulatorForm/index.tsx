@@ -1,6 +1,6 @@
 "use client"
 
-import type { Origin, TaxSimulatorFormValues, Territory } from "@/services/TaxSimulator/types"
+import type { Origin, TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
 
 import { styled } from "@/panda/jsx"
 import { useForm } from "@tanstack/react-form"
@@ -21,19 +21,19 @@ export default function TaxSimulatorForm() {
   const setResult = useTaxSimulatorStore((s) => s.setResult)
   const setHasResult = useTaxSimulatorStore((s) => s.setHasResult)
 
-  const form = useForm<TaxSimulatorFormValues>({
+  const { Field, handleSubmit, Subscribe } = useForm<TaxSimulatorFormValues>({
     defaultValues: {
       product: "",
       origin: "" as Origin,
-      territory: "REUNION" as Territory, // For now we only support one territory
-      flux: "import" as "import" | "export",
+      territory: "REUNION", // For now we only support one territory
+      flux: "import", // For now we only support one flux
     },
     onSubmit: async ({ value }) => {
       setHasResult(true)
 
       try {
         const data = await getProductTaxes(value)
-        setResult(data)
+        setResult({ product: value.product, ...data })
       } catch (err) {
         toast.error("Une erreur est survenue", {
           description: "Impossible de contacter le serveur",
@@ -48,26 +48,26 @@ export default function TaxSimulatorForm() {
       onSubmit={(e) => {
         e.preventDefault()
         e.stopPropagation()
-        form.handleSubmit()
+        handleSubmit()
       }}
     >
-      <Input name="product" Field={form.Field} label="Produit" placeholder="Smartphone" />
+      <Input name="product" {...{ Field }} label="Produit" placeholder="Smartphone" />
       <Select
         name="origin"
-        Field={form.Field}
+        {...{ Field }}
         label="Origine"
         placeholder="France"
         options={TaxSimulatorOriginData}
       />
       <Select
         name="territory"
-        Field={form.Field}
+        {...{ Field }}
         label="Territoire d'application"
         placeholder="Réunion"
         options={TaxSimulatorTerritoryData}
       />
-      <Radio name="flux" Field={form.Field} label="Flux" options={["import", "export"]} />
-      <form.Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
+      <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} />
+      <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
         {([canSubmit, isSubmitting]) => {
           return (
             <SubmitButton type="submit" disabled={!canSubmit} aria-disabled={!canSubmit}>
@@ -75,7 +75,7 @@ export default function TaxSimulatorForm() {
             </SubmitButton>
           )
         }}
-      </form.Subscribe>
+      </Subscribe>
     </form>
   )
 }
