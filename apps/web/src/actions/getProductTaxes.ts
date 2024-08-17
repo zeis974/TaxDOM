@@ -7,7 +7,7 @@ export async function getProductTaxes(value: TaxSimulatorFormValues) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "X-Api-Key": process.env.API_KEY,
+      Authorization: `Bearer ${process.env.API_KEY}`,
     },
     body: JSON.stringify(value),
   }).then((res) => res.json())
