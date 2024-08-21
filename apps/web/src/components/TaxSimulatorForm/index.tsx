@@ -29,10 +29,9 @@ export default function TaxSimulatorForm() {
       flux: "import", // For now we only support one flux
     },
     onSubmit: async ({ value }) => {
-      setHasResult(true)
-
       try {
         const data = await getProductTaxes(value)
+        setHasResult(true)
         setResult({ product: value.product, ...data })
       } catch (err) {
         toast.error("Une erreur est survenue", {
@@ -56,7 +55,7 @@ export default function TaxSimulatorForm() {
         name="origin"
         {...{ Field }}
         label="Origine"
-        placeholder="France"
+        placeholder="EU"
         options={TaxSimulatorOriginData}
       />
       <Select
@@ -82,7 +81,7 @@ export default function TaxSimulatorForm() {
 
 const SubmitButton = styled.button`
   width: 100%;
-  height: 30px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
