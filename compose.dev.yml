@@ -34,7 +34,7 @@ services:
       - apps/api/.env
 
   db:
-    image: ghcr.io/tursodatabase/libsql-server:v0.24.18
+    image: ghcr.io/tursodatabase/libsql-server:v0.24.20
     platform: linux/amd64
     ports:
       - "8080:8080"
