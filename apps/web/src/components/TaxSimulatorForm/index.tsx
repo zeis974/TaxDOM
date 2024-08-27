@@ -1,6 +1,11 @@
 "use client"
 
-import type { Origin, TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
+import type {
+  Origin,
+  TaxSimulatorFormLabel,
+  TaxSimulatorFormValues,
+  TerritoryAndOriginType,
+} from "@/services/TaxSimulator/types"
 
 import { styled } from "@/panda/jsx"
 import { useForm } from "@tanstack/react-form"
@@ -8,18 +13,22 @@ import { toast } from "sonner"
 
 import { getProductTaxes } from "@/actions/getProductTaxes"
 
-import { LoadingIcon } from "@/components/Icons"
-import { Input, Radio, Select } from "@/components/Inputs/TaxSimulator"
-
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
+
+import { LoadingIcon } from "@/components/Icons"
+import { Input, Radio, Select } from "@/components/Inputs"
+
 import {
   TaxSimulatorOriginData,
   TaxSimulatorTerritoryData,
 } from "@/services/TaxSimulator/data/TaxSimulatorData"
 
 export default function TaxSimulatorForm() {
-  const setResult = useTaxSimulatorStore((s) => s.setResult)
+  const hasResult = useTaxSimulatorStore((s) => s.hasResult)
+  const setFocusInput = useTaxSimulatorStore((s) => s.setFocusInput)
   const setHasResult = useTaxSimulatorStore((s) => s.setHasResult)
+  const setResult = useTaxSimulatorStore((s) => s.setResult)
+  const setSelectedCountry = useTaxSimulatorStore((s) => s.setSelectedCountry)
 
   const { Field, handleSubmit, Subscribe } = useForm<TaxSimulatorFormValues>({
     defaultValues: {
@@ -42,6 +51,14 @@ export default function TaxSimulatorForm() {
     },
   })
 
+  const handleCountryChange = (country: string) => {
+    setSelectedCountry(country as TerritoryAndOriginType)
+  }
+
+  const handleFormState = (name: TaxSimulatorFormLabel) => {
+    if (!hasResult) setFocusInput(name)
+  }
+
   return (
     <form
       onSubmit={(e) => {
@@ -50,13 +67,25 @@ export default function TaxSimulatorForm() {
         handleSubmit()
       }}
     >
-      <Input name="product" {...{ Field }} label="Produit" placeholder="Smartphone" />
+      <Input
+        name="product"
+        {...{ Field }}
+        label="Produit"
+        placeholder="Smartphone"
+        actions={{
+          handleOnFocus: (name: TaxSimulatorFormLabel) => handleFormState(name),
+        }}
+      />
       <Select
         name="origin"
         {...{ Field }}
         label="Origine"
         placeholder="EU"
         options={TaxSimulatorOriginData}
+        watch={handleCountryChange}
+        actions={{
+          handleOnFocus: (name: TaxSimulatorFormLabel) => handleFormState(name),
+        }}
       />
       <Select
         name="territory"
@@ -64,6 +93,10 @@ export default function TaxSimulatorForm() {
         label="Territoire d'application"
         placeholder="Réunion"
         options={TaxSimulatorTerritoryData}
+        watch={handleCountryChange}
+        actions={{
+          handleOnFocus: (name: TaxSimulatorFormLabel) => handleFormState(name),
+        }}
       />
       <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} />
       <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
@@ -85,7 +118,7 @@ const SubmitButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
+  margin: 15px 0;
   cursor: pointer;
   font-weight: bold;
   transition: 150ms;

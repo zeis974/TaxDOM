@@ -1,35 +1,23 @@
-import type {
-  TaxSimulatorFormValues,
-  TaxSimulatorSelectProps,
-  Territory,
-  Origin,
-} from "@/services/TaxSimulator/types"
+import type { TaxSimulatorSelectProps, TerritoryAndOriginType } from "@/services/TaxSimulator/types"
 import type { FieldApi } from "@tanstack/react-form"
 
 import { AnimatePresence, m } from "framer-motion"
 import { useEffect, useState } from "react"
 
-import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
-
-import { Container } from "../Input/Input.styled"
+import { Container } from "@/components/Inputs/Input/Input.styled"
 import { OptionContainer } from "./Select.styled"
 
-type TerritoryAndOriginType = Territory | Origin
-
-export default function Select({
+export default function Select<T>({
   Field,
   name,
   label,
   options,
   placeholder,
-}: TaxSimulatorSelectProps) {
+  watch,
+  actions,
+}: TaxSimulatorSelectProps<T>) {
   const [selectedIndex, setSelectedIndex] = useState<number>(0)
   const [show, setShow] = useState(false)
-
-  const setSelectedCountry = useTaxSimulatorStore((s) => s.setSelectedCountry)
-  const setFocusInput = useTaxSimulatorStore((s) => s.setFocusInput)
-
-  const hasResult = useTaxSimulatorStore((s) => s.hasResult)
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "ArrowUp") {
@@ -46,33 +34,34 @@ export default function Select({
     }
   }, [options])
 
-  const handleFormState = () => {
-    if (!hasResult) setFocusInput(name)
-  }
-
   return (
     <Field
       name={name}
       validators={{
-        onChange: ({ value, fieldApi }) => {
+        onChange: ({
+          value,
+          fieldApi,
+        }: {
+          value: TerritoryAndOriginType
+          // biome-ignore lint/suspicious/noExplicitAny: any
+          fieldApi: FieldApi<any, string, undefined, undefined, any>
+        }) => {
           if (fieldApi.name === "territory" && value !== "REUNION") {
-            return options.has(value as Territory) ? "Bientôt disponible" : "Champs invalides"
+            return options.has(value) ? "Bientôt disponible" : "Champs invalides"
           }
 
-          return !value
-            ? "Champs requis"
-            : options.has(value as TerritoryAndOriginType)
-              ? undefined
-              : "Champs invalides"
+          return !value ? "Champs requis" : options.has(value) ? undefined : "Champs invalides"
         },
       }}
     >
       {(field) => {
         const filtered = [...options].filter((option) => {
-          return (
-            option.toLowerCase().includes(field.state.value.toLowerCase()) &&
-            option.toLowerCase() !== field.state.value.toLowerCase()
-          )
+          const lowerCaseValue = field.state.value.toLowerCase()
+          const lowerCaseOption = option.toLowerCase()
+
+          const exactMatchFound = [...options].some(() => lowerCaseOption === lowerCaseValue)
+
+          return exactMatchFound ? false : lowerCaseOption.includes(lowerCaseValue)
         })
 
         return (
@@ -85,16 +74,16 @@ export default function Select({
             </label>
             <input
               id={field.name}
-              placeholder={placeholder}
+              autoComplete="off"
               name={field.name}
-              value={field.state.value}
-              onFocus={() => {
-                setShow(true)
-                handleFormState()
-              }}
+              onChange={(e) => field.handleChange(e.target.value as TerritoryAndOriginType)}
               onBlur={() => {
                 setShow(false)
                 field.handleBlur()
+              }}
+              onFocus={() => {
+                setShow(true)
+                actions?.handleOnFocus(field.name as T)
               }}
               onKeyDown={(e) => {
                 handleKeyDown(e)
@@ -107,20 +96,20 @@ export default function Select({
                   }
                 }
               }}
-              autoComplete="off"
-              onChange={(e) => field.handleChange(e.target.value)}
+              placeholder={placeholder}
+              value={field.state.value}
             />
             <AnimatePresence>
               {options && show && (
                 <m.div
-                  style={{ zIndex: 1 }}
+                  style={{ zIndex: 1, height: "100%" }}
                   initial={{ translateY: "-5px", opacity: 0 }}
                   animate={{ translateY: "0", opacity: 1 }}
                   exit={{ translateY: "5px", opacity: 0 }}
                 >
                   <Options
                     options={filtered}
-                    {...{ field, selectedIndex, setSelectedIndex, setSelectedCountry }}
+                    {...{ field, selectedIndex, setSelectedIndex, watch }}
                   />
                 </m.div>
               )}
@@ -132,24 +121,19 @@ export default function Select({
   )
 }
 
-const Options = ({
+const Options = <T extends string>({
   options,
   field,
   selectedIndex,
   setSelectedIndex,
-  setSelectedCountry,
+  watch,
 }: {
-  options: TerritoryAndOriginType[]
-  field: FieldApi<
-    TaxSimulatorFormValues,
-    keyof TaxSimulatorFormValues,
-    undefined,
-    undefined,
-    string
-  >
+  options: T[]
+  field: // biome-ignore lint/suspicious/noExplicitAny: any
+  FieldApi<any, any, any, any>
   selectedIndex: number
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
-  setSelectedCountry: (value: TerritoryAndOriginType) => void
+  watch?: (value: string) => void
 }) => {
   return (
     options.length !== 0 && (
@@ -157,17 +141,21 @@ const Options = ({
         {options.map((option, index) => (
           <span
             key={option}
+            aria-selected={index === selectedIndex}
+            data-available={field.name === "territory" ? option === "REUNION" : null}
             onClick={() => field.handleChange(option)}
             onKeyUp={() => {
-              setSelectedCountry(option)
+              if (watch) {
+                watch(option)
+              }
               field.handleChange(option)
             }}
-            aria-selected={index === selectedIndex}
             onMouseEnter={() => {
-              setSelectedCountry(option)
+              if (watch) {
+                watch(option)
+              }
               setSelectedIndex(index)
             }}
-            data-available={field.name === "territory" ? option === "REUNION" : null}
           >
             {option}
           </span>

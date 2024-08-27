@@ -1,17 +1,14 @@
 import type { TaxSimulatorInputsProps } from "@/services/TaxSimulator/types"
 
-import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
-
 import { Container } from "./Input.styled"
 
-export default function Input({ Field, name, label, placeholder }: TaxSimulatorInputsProps) {
-  const setFocusInput = useTaxSimulatorStore((s) => s.setFocusInput)
-  const hasResult = useTaxSimulatorStore((s) => s.hasResult)
-
-  const handleFormState = () => {
-    if (!hasResult) setFocusInput(name)
-  }
-
+export default function Input<T>({
+  Field,
+  name,
+  label,
+  placeholder,
+  actions,
+}: TaxSimulatorInputsProps<T>) {
   return (
     <Field
       name={name}
@@ -33,7 +30,7 @@ export default function Input({ Field, name, label, placeholder }: TaxSimulatorI
               placeholder={placeholder}
               name={field.name}
               value={field.state.value}
-              onFocus={handleFormState}
+              onFocus={() => actions?.handleOnFocus(field.name as T)}
               onBlur={() => {
                 field.handleBlur()
               }}

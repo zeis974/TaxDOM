@@ -17,13 +17,6 @@ export default function Radio({ Field, name, label, options }: TaxSimulatorRadio
                     id={option}
                     name={field.name}
                     value={field.state.value}
-                    /** Set "import" default */
-                    /* 
-                    onBlur={field.handleBlur}
-                    onClick={() => {
-                      field.handleChange(option)
-                    }}
-                    */
                     defaultChecked={field.state.value === option}
                     disabled
                   />
