@@ -1,9 +1,10 @@
 import type { HttpContext } from "@adonisjs/core/http"
+import type { Origin, TaxSimulatorFormLabel, Territory } from "#types/index"
+
+import logger from "@adonisjs/core/services/logger"
 import { and, eq } from "drizzle-orm"
 import { db } from "#config/database"
 import { ProductsTables, Taxes } from "#database/schema"
-
-import type { Origin, TaxSimulatorFormLabel, Territory } from "#types/index"
 
 const originMap: Record<Origin, number> = {
   EU: 1,
@@ -29,22 +30,33 @@ export default class GetProductTaxeController {
     const origin: Origin = body.origin.toUpperCase()
     const territory: Territory = body.territory.toUpperCase()
 
-    const result = await db
-      .select({
-        tva: Taxes.tva,
-        om: Taxes.om,
-        omr: Taxes.omr,
-      })
-      .from(ProductsTables)
-      .innerJoin(Taxes, eq(ProductsTables.taxID, Taxes.taxID))
-      .where(
-        and(
-          eq(ProductsTables.productName, product),
-          eq(ProductsTables.originID, originMap[origin]),
-          eq(ProductsTables.territoryID, territoryMap[territory]),
-        ),
-      )
+    try {
+      const result = await db
+        .select({
+          tva: Taxes.tva,
+          om: Taxes.om,
+          omr: Taxes.omr,
+        })
+        .from(ProductsTables)
+        .innerJoin(Taxes, eq(ProductsTables.taxID, Taxes.taxID))
+        .where(
+          and(
+            eq(ProductsTables.productName, product),
+            eq(ProductsTables.originID, originMap[origin]),
+            eq(ProductsTables.territoryID, territoryMap[territory]),
+          ),
+        )
 
-    return result
+      if (result.length === 0) {
+        logger.error("[PRODUCT NOT FOUND] Fetching (%s) taxes in getProductTaxeController", product)
+        return result
+      }
+
+      logger.info("Fetching (%s) taxes in getProductTaxeController", product)
+
+      return result
+    } catch (error) {
+      logger.error({ err: error }, "Cannot getProductTaxes")
+    }
   }
 }
