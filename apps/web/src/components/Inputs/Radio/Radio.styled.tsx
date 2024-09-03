@@ -11,13 +11,14 @@ export const RadioContainer = styled.div`
     & > div {
       display: inline-flex;
       overflow: hidden;
+      width: fit-content;
       height: 40px;
       border: 2px solid #585858; 
       border-radius: 5px;
-      opacity: 0.5;
 
         & > div {
         display: inherit;
+        width: 50%;
         height: 100%;
 
         &:first-of-type {
@@ -37,15 +38,19 @@ export const RadioContainer = styled.div`
             transition: background 250ms;
             background: #6a6a6a;
           }
+
+          &[disabled] + label {
+            cursor: not-allowed;
+            opacity: 0.5;
+          }
         }
 
         & label {
+          width: 100%;
           padding: 5px;
           user-select: none;
           text-transform: capitalize;
-
-          /* Disable radio */
-          cursor: default;
+          cursor: pointer;
         }
       }
     }

@@ -2,7 +2,13 @@ import type { TaxSimulatorRadiosProps } from "@/services/TaxSimulator/types"
 
 import { RadioContainer } from "./Radio.styled"
 
-export default function Radio({ Field, name, label, options }: TaxSimulatorRadiosProps) {
+export default function Radio({
+  Field,
+  name,
+  label,
+  options,
+  disabled = false,
+}: TaxSimulatorRadiosProps) {
   return (
     <Field name={name}>
       {(field) => (
@@ -10,7 +16,7 @@ export default function Radio({ Field, name, label, options }: TaxSimulatorRadio
           <div>
             <span>{label}</span>
             <div>
-              {options.map((option) => (
+              {options.map((option: string) => (
                 <div key={option}>
                   <input
                     type="radio"
@@ -18,7 +24,7 @@ export default function Radio({ Field, name, label, options }: TaxSimulatorRadio
                     name={field.name}
                     value={field.state.value}
                     defaultChecked={field.state.value === option}
-                    disabled
+                    disabled={disabled}
                   />
                   <label htmlFor={option}>{option.toString()}</label>
                 </div>

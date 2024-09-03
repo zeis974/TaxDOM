@@ -2,7 +2,7 @@ import type { TaxSimulatorSelectProps, TerritoryAndOriginType } from "@/services
 import type { FieldApi } from "@tanstack/react-form"
 
 import { AnimatePresence, m } from "framer-motion"
-import { useEffect, useState } from "react"
+import { useEffect, useState, useRef } from "react"
 
 import { Container } from "@/components/Inputs/Input/Input.styled"
 import { OptionContainer } from "./Select.styled"
@@ -16,23 +16,29 @@ export default function Select<T>({
   watch,
   actions,
 }: TaxSimulatorSelectProps<T>) {
+  const selectedIndexRef = useRef<number>(0)
   const [selectedIndex, setSelectedIndex] = useState<number>(0)
   const [show, setShow] = useState(false)
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "ArrowUp") {
-      setSelectedIndex((selectedIndex - 1 + (options.size ?? 0)) % (options.size ?? 0))
+      setSelectedIndex((prevIndex) => {
+        const newIndex = (prevIndex - 1 + (options.size ?? 0)) % (options.size ?? 0)
+        selectedIndexRef.current = newIndex
+        return newIndex
+      })
     } else if (e.key === "ArrowDown") {
-      setSelectedIndex((selectedIndex + 1) % (options.size ?? 0))
+      setSelectedIndex((prevIndex) => {
+        const newIndex = (prevIndex + 1) % (options.size ?? 0)
+        selectedIndexRef.current = newIndex
+        return newIndex
+      })
     }
   }
 
-  // Reset selectedIndex to nearest value in array when options change
   useEffect(() => {
-    if (options && options.size > 0) {
-      setSelectedIndex((prevIndex) => Math.min(prevIndex, options.size - 1))
-    }
-  }, [options])
+    setSelectedIndex(selectedIndex)
+  }, [selectedIndex])
 
   return (
     <Field
@@ -88,10 +94,12 @@ export default function Select<T>({
               onKeyDown={(e) => {
                 handleKeyDown(e)
 
+                const selectedValue = filtered[selectedIndexRef.current]
+                watch?.(selectedValue)
+
                 if (e.key === "Enter") {
                   e.preventDefault()
                   if (filtered.length > 0) {
-                    const selectedValue = filtered[selectedIndex] ?? filtered[0]
                     field.handleChange(selectedValue)
                   }
                 }
@@ -144,16 +152,9 @@ const Options = <T extends string>({
             aria-selected={index === selectedIndex}
             data-available={field.name === "territory" ? option === "REUNION" : null}
             onClick={() => field.handleChange(option)}
-            onKeyUp={() => {
-              if (watch) {
-                watch(option)
-              }
-              field.handleChange(option)
-            }}
+            onKeyUp={() => field.handleChange(option)}
             onMouseEnter={() => {
-              if (watch) {
-                watch(option)
-              }
+              watch?.(option)
               setSelectedIndex(index)
             }}
           >

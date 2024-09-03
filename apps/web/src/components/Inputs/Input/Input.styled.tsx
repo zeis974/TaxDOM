@@ -38,4 +38,12 @@ export const Container = styled.div`
       border: 2px solid #3498db;
     }
   }
+
+  & > input[type="number"] {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
 `
