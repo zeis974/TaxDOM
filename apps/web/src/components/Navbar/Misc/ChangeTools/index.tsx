@@ -1,7 +1,9 @@
 "use client"
 
-import { usePathname } from "next/navigation"
 import { type ElementRef, useEffect, useRef, useState } from "react"
+import { AnimatePresence } from "framer-motion"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 import {
   Card,
@@ -11,10 +13,7 @@ import {
   ModalCard,
   ModalContainer,
 } from "@/components/Navbar/Misc/ChangeTools/ChangeTools.styled"
-
 import { ChevronIcon, ParcelIcon, TaxIcon } from "@/components/Icons"
-import { AnimatePresence } from "framer-motion"
-import Link from "next/link"
 
 interface Tools {
   name: string
@@ -32,7 +31,7 @@ const tools: Tools[] = [
   },
   {
     name: "Simuler",
-    description: "Simuler le cout des taxes",
+    description: "Simuler le cout d'un colis",
     icon: <ParcelIcon />,
     slug: "/simulator",
   },
@@ -42,12 +41,18 @@ const tools: Tools[] = [
     icon: <TaxIcon />,
     slug: "/nomenclatures",
   },
+  {
+    name: "MagicURL",
+    description: "Connaitre les taxes avec l'URL",
+    icon: <TaxIcon />,
+    slug: "/nomenclatures",
+  },
 ]
 
 export default function ChangeTools() {
   const pathname = usePathname()
   const [showModal, setShowModal] = useState(false)
-  const currentTool = tools.find(({ slug }) => (slug === pathname ? pathname : "/"))
+  const currentTool = tools.find((tool) => tool.slug === pathname)
 
   const ref = useRef<ElementRef<"div">>(null)
 
@@ -75,7 +80,7 @@ export default function ChangeTools() {
               {tools
                 .filter((tool) => tool.slug !== currentTool.slug)
                 .map((tool) => (
-                  <Link key={tool.name} href={tool.slug}>
+                  <Link key={tool.name} href={tool.slug} onClick={() => setShowModal(false)}>
                     <ModalCard>
                       <ToolContent {...{ tool }} />
                     </ModalCard>

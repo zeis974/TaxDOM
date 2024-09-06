@@ -13,6 +13,8 @@ export default function SettingsButton() {
 
 export const StyledLink = styled(Link)`
   display: inherit;
+  align-items: center;
+  height: 45px;
   padding: 5px;
   color: token(colors.primary);
   border-radius: 5px;

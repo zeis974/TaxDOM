@@ -1,3 +1,4 @@
+import AddIcon from "./AddIcon"
 import ChevronIcon from "./ChevronIcon"
 import DownloadIcon from "./DownloadIcon"
 import InfoIcon from "./InfoIcon"
@@ -9,6 +10,7 @@ import ShareIcon from "./ShareIcon"
 import TaxIcon from "./TaxIcon"
 
 export {
+  AddIcon,
   ChevronIcon,
   DownloadIcon,
   InfoIcon,

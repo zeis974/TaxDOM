@@ -3,6 +3,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { ThemeProvider } from "next-themes"
 import localFont from "next/font/local"
+import { Toaster } from "sonner"
 
 import Navbar from "@/components/Navbar"
 import LazyMotionProvider from "@/providers/LazyMotionProvider"
@@ -51,6 +52,7 @@ export default function RootLayout({
               <Navbar />
               {children}
               {modal}
+              <Toaster richColors closeButton />
             </LazyMotionProvider>
           </TaxSimulatorStoreProvider>
         </ThemeProvider>

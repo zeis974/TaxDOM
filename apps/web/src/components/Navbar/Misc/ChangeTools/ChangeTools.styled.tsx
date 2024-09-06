@@ -1,5 +1,5 @@
 import { styled } from "@/panda/jsx"
-import { m } from "framer-motion"
+import * as m from "framer-motion/m"
 
 export const Container = styled.div`
   height: inherit;
@@ -46,7 +46,8 @@ export const Card = styled.div`
 export const Illustration = styled.div`
   width: 30px;
   display: inherit;
-  margin: 0 5px 0 0;
+  align-items: center;
+  margin-right: 10px;
 `
 
 export const Content = styled.div`
@@ -74,7 +75,7 @@ export const ModalContainer = styled(m.div)`
   top: 55px;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   border-radius: 10px;
   background: token(colors.background);
   border: 2px solid token(colors.darkGray);

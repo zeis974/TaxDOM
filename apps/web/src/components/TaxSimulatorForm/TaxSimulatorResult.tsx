@@ -25,8 +25,6 @@ export default function TaxSimulatorResult() {
   const [price, setPrice] = useState(0)
   const result = useTaxSimulatorStore((s) => s.result)
 
-  console.log(result)
-
   if (result?.tva) {
     const { product, tva, om, omr } = result
     const total = tva + om + omr
