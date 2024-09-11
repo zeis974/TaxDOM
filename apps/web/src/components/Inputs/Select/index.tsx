@@ -1,7 +1,8 @@
 import type { TaxSimulatorSelectProps, TerritoryAndOriginType } from "@/services/TaxSimulator/types"
 import type { FieldApi } from "@tanstack/react-form"
 
-import { AnimatePresence, m } from "framer-motion"
+import * as m from "framer-motion/m"
+import { AnimatePresence } from "framer-motion"
 import { useEffect, useState, useRef } from "react"
 
 import { Container } from "@/components/Inputs/Input/Input.styled"
@@ -65,9 +66,9 @@ export default function Select<T>({
           const lowerCaseValue = field.state.value.toLowerCase()
           const lowerCaseOption = option.toLowerCase()
 
-          const exactMatchFound = [...options].some(() => lowerCaseOption === lowerCaseValue)
+          const exactMatchFound = [...options].some((opt) => opt.toLowerCase() === lowerCaseValue)
 
-          return exactMatchFound ? false : lowerCaseOption.includes(lowerCaseValue)
+          return exactMatchFound ? null : lowerCaseOption.includes(lowerCaseValue)
         })
 
         return (
