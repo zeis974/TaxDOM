@@ -1,7 +1,8 @@
 services:
   nginx:
-    image: nginx:1.27.0-alpine
+    image: nginx:1.27.1-alpine
     container_name: nginx
+    restart: always
     ports:
       - 80:80
       - 443:443
@@ -16,24 +17,43 @@ services:
 
   web:
     container_name: web
+    restart: always
     build:
       context: .
       dockerfile: apps/web/Dockerfile
     restart: always
     ports:
       - 3000:3000
+    secrets:
+      - API_URL
+      - API_KEY
 
   api:
     container_name: api
+    restart: always
     build:
       context: .
       dockerfile: apps/api/Dockerfile
     restart: always
     ports:
       - 3333:3333
+    secrets:
+      - DB_URL
+      - LIMITER_STORE
+      - REDIS_HOST
+      - REDIS_PORT
+
+  redis:
+    image: redis:7.4.0-alpine
+    container_name: redis
+    restart: always
+    ports:
+      - 6379:6379
 
   db:
-    image: ghcr.io/tursodatabase/libsql-server:v0.24.20
+    image: ghcr.io/tursodatabase/libsql-server:v0.24.23
+    container_name: db
+    restart: always
     platform: linux/amd64
     ports:
       - "8080:8080"
@@ -42,3 +62,17 @@ services:
       - SQLD_NODE=primary
     volumes:
       - ./data/libsql:/var/lib/sqld
+
+secrets:
+  API_URL:
+    external: true
+  API_KEY:
+    external: true
+  DB_URL:
+    external: true
+  LIMITER_STORE:
+    external: true
+  REDIS_HOST:
+    external: true
+  REDIS_PORT:
+    external: true
