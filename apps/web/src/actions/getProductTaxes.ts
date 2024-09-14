@@ -12,5 +12,9 @@ export async function getProductTaxes(value: TaxSimulatorFormValues) {
     body: JSON.stringify(value),
   }).then((res) => res.json())
 
-  return data[0]
+  if (data.errors) {
+    // Logs errors
+  }
+
+  return data
 }

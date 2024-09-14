@@ -34,6 +34,7 @@
     "@adonisjs/core": "6.13.1",
     "@adonisjs/cors": "2.2.1",
     "@adonisjs/limiter": "^2.3.2",
+    "@adonisjs/redis": "^9.1.0",
     "@adonisjs/session": "7.4.2",
     "@libsql/client": "0.10.0",
     "@vinejs/vine": "2.1.0",

@@ -1,5 +1,25 @@
 import { styled } from "@/panda/jsx"
 
+export const ActionBar = styled.div`
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  margin-top: 25px;
+    
+  div {
+    width: 40px;
+    height: 35px;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: black;
+    transition: background 150ms;
+  }
+`
+
 export const Container = styled.div`
   display: flex;
   overflow: hidden;
@@ -30,98 +50,36 @@ export const Content = styled.div`
     margin: 20px 0;
     text-align: left;
 
-    & span {
+    span {
       font-family: token(fonts.NotoSansBold);
     }
   }
 
-  & p {
+  p {
     max-width: 250px;
   }
 `
 
-export const ActionBar = styled.div`
-  display: flex;
-  gap: 10px;
-  height: 40px;
-  margin-top: 25px;
-    
-  & div {
-    width: 40px;
-    height: 35px;
-    display: inherit;
-    align-items: center;
-    justify-content: center;
-    padding: 6px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: black;
-    transition: background 150ms;
-
-    &:hover {
-      background: #045a94;
-    }
+export const ErrorContainer = styled.div`
+  p {
+    max-width: 500px;
   }
 `
-export const TaxeCard = styled.div`
-  position: relative;
-  width: 250px;
-  height: 100%;
-  color: black;
-  z-index: 1;
-  
-  &::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    border-radius: 10px;
-    background: white;
-    width: calc(100% + 35px);
-    height: calc(100% + 35px);
-    inset: 0;
-  }
 
-  @media screen and (width < 1250px) {
-    width: 200px;
-  }
-`
-export const RateContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-
-  & div {
-    display: inherit;
-    margin: 10px 0;
-  }
-
-  & h5 {  
-    font-family: token(fonts.NotoSansBold);
-    padding: 10px;
-  }
+export const ErrorText = styled.span`
+  position: absolute;
+  width: 100%;
+  font-size: 0.6em;
+  padding: 10px;
+  color: red;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
 `
 
 export const Line = styled.hr`
   position: relative;
   border: 2px solid #2980B9;
-`
-
-export const RateCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: black;
-  flex: 1;
-
-  & > span:first-of-type {
-    font-size: 1.2em;
-    color: #045a94;
-    font-weight: bold;
-  }
-
-  & > span:last-of-type {
-    font-size: 0.9em;
-  }
 `
 
 export const PriceCalculator = styled.div` 
@@ -151,7 +109,7 @@ export const PriceCalculator = styled.div`
     padding: 5px 0 5px 5px;
   }
 
-  & h5 {
+  h5 {
     font-family: token(fonts.NotoSansBold);
     text-align: left;
     margin-bottom: 10px;
@@ -162,13 +120,13 @@ export const PriceCalculator = styled.div`
     margin-top: 10px;
   }
    
-  & input::-webkit-outer-spin-button,
+  input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
 
-  & input[type=number] {
+  input[type=number] {
     max-width: 100px;
     background: none;
     color: black;
@@ -181,13 +139,59 @@ export const PriceCalculator = styled.div`
   }
 `
 
-export const ErrorText = styled.span`
-  position: absolute;
-  width: 100%;
-  font-size: 0.6em;
-  padding: 10px;
-  color: red;
-  bottom: 0;
-  right: 0;
-  cursor: pointer;
+export const RateCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+  flex: 1;
+
+  & > span:first-of-type {
+    font-size: 1.2em;
+    color: #045a94;
+    font-weight: bold;
+  }
+
+  & > span:last-of-type {
+    font-size: 0.9em;
+  }
+`
+
+export const RateContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  div {
+    display: inherit;
+    margin: 10px 0;
+  }
+
+  h5 {  
+    font-family: token(fonts.NotoSansBold);
+    padding: 10px;
+  }
+`
+
+export const TaxeCard = styled.div`
+  position: relative;
+  width: 250px;
+  height: 100%;
+  color: black;
+  z-index: 1;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+    background: white;
+    width: calc(100% + 35px);
+    height: calc(100% + 35px);
+    inset: 0;
+  }
+
+  @media screen and (width < 1250px) {
+    width: 200px;
+  }
 `

@@ -38,13 +38,14 @@ export default function TaxSimulatorForm() {
     onSubmit: async ({ value }) => {
       try {
         const data = await getProductTaxes(value)
+
         setHasResult(true)
         setResult({ product: value.product, ...data })
       } catch (err) {
+        setHasResult(false)
         toast.error("Une erreur est survenue", {
           description: "Impossible de contacter le serveur",
         })
-        setHasResult(false)
       }
     },
   })
