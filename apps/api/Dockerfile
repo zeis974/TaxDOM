@@ -1,14 +1,13 @@
-# Move to slim until https://github.com/tursodatabase/libsql-client-ts/issues/180
-FROM node:20.17.0-bookworm-slim AS base
+FROM node:20.17.0-alpine AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@9.8.0 --activate
+RUN corepack prepare pnpm@9.10.0 --activate
 
 FROM base AS builder
 # Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
-# RUN apk update
-# RUN apk add --no-cache gcompat
+RUN apk update
+RUN apk add --no-cache gcompat
 
 # Set working directory
 WORKDIR /app
@@ -18,8 +17,6 @@ RUN turbo prune @taxdom/api --docker
 
 # Add lockfile and package.json's of isolated subworkspace
 FROM base AS installer
-# RUN apk update
-# RUN apk add --no-cache gcompat
 WORKDIR /app
 
 # First install the dependencies (as they change less often)

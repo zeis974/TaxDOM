@@ -36,7 +36,7 @@
     "@adonisjs/limiter": "^2.3.2",
     "@adonisjs/redis": "^9.1.0",
     "@adonisjs/session": "7.4.2",
-    "@libsql/client": "0.10.0",
+    "@libsql/client": "0.12.0",
     "@vinejs/vine": "2.1.0",
     "drizzle-orm": "0.33.0",
     "luxon": "3.5.0",
