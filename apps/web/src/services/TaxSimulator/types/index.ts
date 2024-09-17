@@ -21,6 +21,7 @@ export type TaxSimulatorInputsProps<T> = {
   Field: FieldComponent<any, undefined>
   name: string
   label: string
+  type?: "text" | "number"
   placeholder?: string
   actions?: {
     handleOnFocus: (name: T) => void
@@ -35,8 +36,9 @@ export interface TaxSimulatorSelectProps<T> extends TaxSimulatorInputsProps<T> {
   }
 }
 
-export interface TaxSimulatorRadiosProps extends TaxSimulatorInputsProps<Flux> {
-  options: Array<TaxSimulatorFormValues["flux"]>
+export interface TaxSimulatorRadiosProps extends TaxSimulatorInputsProps<string> {
+  disabled?: boolean
+  options: Array<string>
 }
 
 export interface TaxSimulatorFormValues {
@@ -54,4 +56,5 @@ export type TaxSimulatorResult = {
   tva: number
   om: number
   omr: number
+  errors?: [{ message: "Too many requests" }]
 }
