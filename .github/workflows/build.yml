@@ -52,13 +52,14 @@ jobs:
 
     - name: Deploy with SSH
       uses: appleboy/ssh-action@029f5b4aeeeb58fdfe1410a5d17f967dacf36262
+      env:
+        SECRET_DIR: ${{ secrets.DIR }}
       with:
         host: ${{ secrets.PRIVATE_HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
-        env:
-          SECRET_DIR: ${{ secrets.DIR }}
+        envs: SECRET_DIR
         script: |
           cd "$SECRET_DIR"
           docker stack deploy -c compose.yml taxdom
