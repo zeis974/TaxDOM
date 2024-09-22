@@ -2,7 +2,7 @@ FROM node:20.17.0-alpine AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@9.10.0 --activate
+RUN corepack prepare pnpm@9.11.0 --activate
 
 FROM base AS builder
 # Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
@@ -19,11 +19,13 @@ RUN turbo prune @taxdom/api --docker
 FROM base AS installer
 WORKDIR /app
 
+ENV HUSKY=0
+
 # First install the dependencies (as they change less often)
 COPY .gitignore .gitignore
 COPY --from=builder /app/out/json/ .
 COPY --from=builder /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile --prefer-offline --ignore-scripts
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile --prefer-offline
 
 # Build the project
 COPY --from=builder /app/out/full/ .
