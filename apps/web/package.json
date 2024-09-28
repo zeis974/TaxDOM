@@ -11,20 +11,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tanstack/react-form": "0.32.0",
+    "@tanstack/react-form": "0.33.0",
     "framer-motion": "11.4.0",
-    "next": "14.2.10",
+    "next": "14.2.13",
     "next-themes": "0.3.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "sonner": "1.5.0",
-    "vaul": "0.9.2",
+    "vaul": "1.0.0",
     "zustand": "4.5.5"
   },
   "devDependencies": {
-    "@pandacss/dev": "0.46.0",
+    "@pandacss/dev": "0.46.1",
     "@types/node": "^20.14.12",
-    "@types/react": "^18.3.5",
+    "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "eslint": "8.57.0",
     "eslint-config-custom": "workspace:*",
@@ -34,5 +34,5 @@
     "node": ">=20",
     "pnpm": ">=9"
   },
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "pnpm@9.11.0"
 }
