@@ -44,8 +44,8 @@ services:
       LOG_LEVEL: info
       PORT: 3333
       LIMITER_STORE: redis
-      REDIS_HOST: /run/secrets/REDIS_HOST
-      REDIS_PORT: /run/secrets/REDIS_PORT
+      REDIS_HOST: 127.0.0.1
+      REDIS_PORT: 6379
       SESSION_DRIVER: cookie
 
   redis:
