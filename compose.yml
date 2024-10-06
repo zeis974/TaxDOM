@@ -19,12 +19,8 @@ services:
     image: ghcr.io/zeis974/taxdom-web:latest
     ports:
       - 3000:3000
-    secrets:
-      - API_URL
-      - API_KEY
-    environment:
-      API_URL: /run/secrets/API_URL
-      API_KEY: /run/secrets/API_KEY
+    env_file:
+      - .env.production
 
   api:
     image: ghcr.io/zeis974/taxdom-api:latest
@@ -33,13 +29,10 @@ services:
     secrets:
       - API_KEY
       - APP_KEY
-      - DB_URL
-      - REDIS_HOST
-      - REDIS_PORT
     environment:
       API_KEY: /run/secrets/API_KEY
       APP_KEY: /run/secrets/APP_KEY
-      DB_URL: http://localhost:8080
+      DB_URL: http://db:8080
       HOST: 0.0.0.0
       LOG_LEVEL: info
       PORT: 3333
@@ -64,17 +57,7 @@ services:
       - ./data/libsql:/var/lib/sqld
 
 secrets:
-  API_URL:
-    external: true
   API_KEY:
     external: true
   APP_KEY:
-    external: true
-  DB_URL:
-    external: true
-  LIMITER_STORE:
-    external: true
-  REDIS_HOST:
-    external: true
-  REDIS_PORT:
     external: true
