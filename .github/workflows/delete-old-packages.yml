@@ -1,0 +1,63 @@
+name: Cleanup old GitHub Packages
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+
+jobs:
+  cleanup-packages:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        package:
+          - taxdom-web
+          - taxdom-api
+
+    steps:
+      - name: Check API response for package ${{ matrix.package }}
+        id: check-api-response
+        run: |
+          echo "Checking versions for the package ${{ matrix.package }}"
+
+          # Lister les versions du package et afficher la réponse pour débogage
+          curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          "https://api.github.com/users/${{ github.actor }}/packages/container/${{ matrix.package }}/versions"
+
+      - name: List package versions ${{ matrix.package }}
+        id: list-versions
+        run: |
+          echo "Extracting version IDs for the package ${{ matrix.package }}"
+
+          # Lister les versions du package pour l'utilisateur et vérifier qu'elles contiennent un 'id'
+          curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          "https://api.github.com/users/${{ github.actor }}/packages/container/${{ matrix.package }}/versions" \
+          | jq -r '.[] | select(.id != null) | .id' > all_ids.txt
+
+      - name: Get the 10 most recent versions of the package ${{ matrix.package }}
+        run: |
+          # Lister les 10 versions les plus récentes
+          curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          "https://api.github.com/users/${{ github.actor }}/packages/container/${{ matrix.package }}/versions" \
+          | jq -r '.[0:10] | .[].id' > keep_ids.txt
+
+      - name: Remove older versions of the package ${{ matrix.package }}
+        run: |
+          # Identifier les versions à supprimer
+          grep -vxFf keep_ids.txt all_ids.txt > delete_ids.txt
+
+          # Boucle pour supprimer chaque ancienne version
+          while read -r version_id; do
+            echo "Removing version $version_id from package ${{ matrix.package }}"
+
+            # Supprime les versions
+            curl -X DELETE -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/users/${{ github.actor }}/packages/container/${{ matrix.package }}/versions/$version_id"
+          done < delete_ids.txt
