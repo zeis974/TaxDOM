@@ -7,6 +7,7 @@ export const RadioContainer = styled.div`
   & > div:first-of-type {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
     & > div {
       display: inline-flex;
