@@ -1,6 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalEnv": ["API_URL", "API_KEY"],
+  "globalEnv": ["API_URL", "API_KEY", "NEXT_TURNSTILE_SECRET_KEY"],
   "tasks": {
     "build": {
       "outputs": [".next/**", "build", "!.next/cache/**"],
