@@ -9,6 +9,8 @@ import type {
 
 import { toast } from "sonner"
 import { useForm } from "@tanstack/react-form"
+import { type ElementRef, useRef } from "react"
+import { Turnstile } from "@marsidev/react-turnstile"
 
 import { getProductTaxes } from "@/actions/getProductTaxes"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
@@ -28,6 +30,8 @@ export default function TaxSimulatorForm() {
   const setResult = useTaxSimulatorStore((s) => s.setResult)
   const setSelectedCountry = useTaxSimulatorStore((s) => s.setSelectedCountry)
 
+  const formRef = useRef<HTMLFormElement>(null)
+
   const { Field, handleSubmit, Subscribe } = useForm<TaxSimulatorFormValues>({
     defaultValues: {
       product: "",
@@ -36,15 +40,36 @@ export default function TaxSimulatorForm() {
       flux: "import", // For now we only support one flux
     },
     onSubmit: async ({ value }) => {
-      try {
-        const data = await getProductTaxes(value)
+      if (!formRef.current) return
 
-        setHasResult(true)
-        setResult({ product: value.product, ...data })
-      } catch (err) {
-        setHasResult(false)
-        toast.error("Une erreur est survenue", {
-          description: "Impossible de contacter le serveur",
+      const formData = new FormData(formRef.current)
+      const token = formData.get("cf-turnstile-response")
+
+      const res = await fetch("/api/verify", {
+        method: "POST",
+        body: JSON.stringify({ token }),
+        headers: {
+          "content-type": "application/json",
+        },
+      })
+
+      const data = await res.json()
+
+      if (data.success) {
+        try {
+          const data = await getProductTaxes(value)
+
+          setHasResult(true)
+          setResult({ product: value.product, ...data })
+        } catch (err) {
+          setHasResult(false)
+          toast.error("Une erreur est survenue", {
+            description: "Impossible de contacter le serveur",
+          })
+        }
+      } else {
+        toast.warning("Captcha invalide", {
+          description: "Veuillez valider le captcha",
         })
       }
     },
@@ -65,6 +90,7 @@ export default function TaxSimulatorForm() {
         e.stopPropagation()
         handleSubmit()
       }}
+      ref={formRef}
     >
       <Input
         name="product"
@@ -97,7 +123,15 @@ export default function TaxSimulatorForm() {
           handleOnFocus: (name: TaxSimulatorFormLabel) => handleFocusInput(name),
         }}
       />
-      <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+        }}
+      >
+        <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
+        <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
+      </div>
       <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
         {([canSubmit, isSubmitting]) => <SubmitButton {...{ canSubmit, isSubmitting }} />}
       </Subscribe>
