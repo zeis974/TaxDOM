@@ -35,13 +35,13 @@ services:
       - apps/api/.env
 
   redis:
-    image: redis:7.4.0-alpine
+    image: redis:7.4.1-alpine
     container_name: redis
     ports:
       - 6379:6379
 
   db:
-    image: ghcr.io/tursodatabase/libsql-server:v0.24.25
+    image: ghcr.io/tursodatabase/libsql-server:v0.24.27
     platform: linux/amd64
     ports:
       - "8080:8080"
