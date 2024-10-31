@@ -43,6 +43,8 @@ jobs:
           tags: ghcr.io/${{ github.repository_owner }}/taxdom-web:latest
           cache-from: type=registry,ref=ghcr.io/${{ github.repository_owner }}/taxdom-web:cache
           cache-to: type=inline
+          secrets: |
+            "NEXT_PUBLIC_TURNSTILE_SITE_KEY=${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}"
 
       - name: Build and push api service
         uses: docker/build-push-action@v6

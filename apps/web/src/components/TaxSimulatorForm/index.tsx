@@ -55,7 +55,7 @@ export default function TaxSimulatorForm() {
 
       const data = await res.json()
 
-      if (data.success) {
+      if (data.success || data["error-codes"]?.includes("timeout-or-duplicate")) {
         try {
           const data = await getProductTaxes(value)
 
