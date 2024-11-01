@@ -1,12 +1,8 @@
-import env from "#start/env"
-
-import { createClient } from "@libsql/client"
-import { drizzle } from "drizzle-orm/libsql"
-
 import * as schema from "#database/schema"
 
-const client = createClient({
-  url: env.get("DB_URL"),
-})
+import env from "#start/env"
+import { drizzle } from "drizzle-orm/libsql"
 
-export const db = drizzle(client, { schema })
+export const db = drizzle(env.get("DB_URL"), {
+  schema: schema,
+})
