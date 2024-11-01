@@ -9,7 +9,10 @@
     "build": "node ace build",
     "dev": "node ace serve --hmr",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push"
   },
   "imports": {
     "#controllers/*": "./app/controllers/*.js",
@@ -38,7 +41,7 @@
     "@adonisjs/session": "7.5.0",
     "@libsql/client": "0.14.0",
     "@vinejs/vine": "2.1.0",
-    "drizzle-orm": "0.33.0",
+    "drizzle-orm": "0.36.0",
     "luxon": "3.5.0",
     "reflect-metadata": "0.2.2"
   },
@@ -49,7 +52,7 @@
     "@swc/core": "1.7.39",
     "@types/luxon": "^3.4.2",
     "@types/node": "^20.14.12",
-    "drizzle-kit": "0.24.2",
+    "drizzle-kit": "0.27.0",
     "eslint": "8.57.0",
     "hot-hook": "0.3.1",
     "pino-pretty": "11.3.0",
