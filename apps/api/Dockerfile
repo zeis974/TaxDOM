@@ -1,8 +1,8 @@
-FROM node:20.17.0-alpine AS base
+FROM node:20.18.0-alpine AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@9.11.0 --activate
+RUN corepack prepare pnpm@9.12.3 --activate
 
 FROM base AS builder
 # Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
@@ -47,7 +47,7 @@ RUN pnpm --filter=@taxdom/api deploy --prod ./output
 FROM base AS runner
 WORKDIR /app
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 ENV TURBO_TELEMETRY_DISABLED=1
 ENV DO_NOT_TRACK=1
 

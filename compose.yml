@@ -32,12 +32,12 @@ services:
       - .env.api.prod
 
   redis:
-    image: redis:7.4.0-alpine
+    image: redis:7.4.1-alpine
     ports:
       - 6379:6379
 
   db:
-    image: ghcr.io/tursodatabase/libsql-server:v0.24.25
+    image: ghcr.io/tursodatabase/libsql-server:v0.24.28
     ports:
       - "8080:8080"
       - "5001:5001"

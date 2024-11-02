@@ -1,8 +1,8 @@
-FROM node:20.17.0-alpine AS base
+FROM node:20.18.0-alpine AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@9.11.0 --activate
+RUN corepack prepare pnpm@9.12.3 --activate
 
 FROM base AS builder
 # Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
