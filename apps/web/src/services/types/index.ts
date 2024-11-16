@@ -6,8 +6,5 @@ export type OriginDataValue = (typeof OriginData)[number]["name"]
 type TerritoryDataType = typeof TerritoryData
 export type TerritoryDataValue = (typeof TerritoryData)[number]["name"]
 
-export type TerritoryAndOriginDataValue =
-  | (typeof OriginData)[number]["name"]
-  | (typeof TerritoryData)[number]["name"]
-
+export type TerritoryAndOriginDataValue = OriginDataValue | TerritoryDataValue
 export type TerritoryAndOriginType = OriginDataType | TerritoryDataType

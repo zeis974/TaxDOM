@@ -21,8 +21,8 @@ export interface TaxSimulatorRadiosProps extends TaxSimulatorInputsProps<string>
 
 export interface TaxSimulatorFormValues {
   product: string
-  origin: OriginDataValue
-  territory: TerritoryDataValue
+  origin: string
+  territory: string
   flux: "import" | "export"
 }
 

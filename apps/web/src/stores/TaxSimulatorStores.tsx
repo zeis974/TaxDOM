@@ -1,16 +1,11 @@
-import type {
-  Origin,
-  TaxSimulatorFormLabel,
-  TaxSimulatorResult,
-  Territory,
-} from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel, TaxSimulatorResult } from "@/services/TaxSimulator/types"
 import { createStore } from "zustand/vanilla"
 
 export type TaxState = {
   focusInput: TaxSimulatorFormLabel | null
   result: TaxSimulatorResult | null
   hasResult: boolean
-  selectedCountry: Territory | Origin | null
+  selectedCountry: string | null
 }
 
 export type TaxActions = {
