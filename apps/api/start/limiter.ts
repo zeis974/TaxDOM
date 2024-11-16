@@ -11,7 +11,7 @@
 
 import limiter from "@adonisjs/limiter/services/main"
 
-export const throttle = limiter.define("global", () => {
+export const getProductsTaxesThrottle = limiter.define("getProductsTaxes", () => {
   return limiter.allowRequests(5).every("1 minute")
 })
 
