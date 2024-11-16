@@ -23,7 +23,6 @@ const territoryMap: Record<Territory, number> = {
 
 export default class GetProductTaxeController {
   async handle({ request }: HttpContext) {
-    // biome-ignore lint/suspicious/noExplicitAny: any
     const body: Record<TaxSimulatorFormLabel, any> = request.body()
 
     const product: string = body.product.toLowerCase()

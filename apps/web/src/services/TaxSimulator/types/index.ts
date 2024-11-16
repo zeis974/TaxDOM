@@ -5,7 +5,6 @@ import type {
   TaxSimulatorTerritoryData,
 } from "@/services/TaxSimulator/data/TaxSimulatorData"
 
-// biome-ignore lint/suspicious/noExplicitAny: any
 type TypeFromSet<T extends Set<any>> = T extends Set<infer U> ? U : never
 
 export type Territory = TypeFromSet<typeof TaxSimulatorTerritoryData>
