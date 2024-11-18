@@ -1,4 +1,5 @@
 import type { OptionsProps, SelectProps } from "./types"
+import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
 import { useRef, useState } from "react"
 import { AnimatePresence, m } from "framer-motion"
@@ -10,20 +11,20 @@ import { LoadingCircle, OptionContainer } from "../Select/Select.styled"
 
 export default function GenericSelect<T>({
   Field,
-  actions: { dynamic, handleOnFocus, watch },
+  actions,
   label,
   name,
   staticOptions,
+  watch,
   placeholder,
 }: SelectProps<T>) {
   const selectedIndexRef = useRef<number>(0)
-
   const [options, setOptions] = useState<OptionsProps<T>["options"]>([])
   const [loading, setLoading] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState<number>(0)
   const [show, setShow] = useState(false)
 
-  if (staticOptions && dynamic) {
+  if (staticOptions && actions?.dynamic) {
     throw new Error(
       "[Select] The props 'staticOptions' and 'dynamic' are mutually exclusive. Please choose one or the other.",
     )
@@ -52,11 +53,9 @@ export default function GenericSelect<T>({
       name={name}
       validators={{
         onMount: () => {
-          if (staticOptions) {
-            setOptions([...staticOptions])
+          if (staticOptions) setOptions([...staticOptions])
 
-            return null
-          }
+          return null
         },
         onChange: ({ value }) => {
           if (staticOptions) {
@@ -73,9 +72,9 @@ export default function GenericSelect<T>({
                 : "Champs invalides"
           }
         },
-        onChangeAsyncDebounceMs: 400,
+        onChangeAsyncDebounceMs: 200,
         onChangeAsync: async ({ value }) => {
-          if (dynamic) {
+          if (actions?.dynamic) {
             setLoading(true)
             const data = await searchProducts(value)
             setLoading(false)
@@ -110,7 +109,7 @@ export default function GenericSelect<T>({
               }}
               onFocus={() => {
                 setShow(true)
-                handleOnFocus(field.name as T)
+                actions?.handleOnFocus?.(field.name as T)
               }}
               onKeyDown={(e) => {
                 handleKeyDown(e)
@@ -137,8 +136,7 @@ export default function GenericSelect<T>({
               placeholder={placeholder}
               value={field.state.value}
             />
-            {/* {loading ? <LoadingCircle /> : null} */}
-            {/* <LoadingCircle data-loading={dynamic}} /> */}
+            {loading ? <LoadingCircle /> : null}
             <AnimatePresence>
               {options && show && (
                 <m.div
@@ -148,7 +146,7 @@ export default function GenericSelect<T>({
                   exit={{ translateY: "5px", opacity: 0 }}
                 >
                   <Options
-                    type={dynamic ? "dynamic" : "static"}
+                    type={actions?.dynamic ? "dynamic" : "static"}
                     options={options}
                     {...{ field, loading, selectedIndex, setSelectedIndex, watch }}
                   />

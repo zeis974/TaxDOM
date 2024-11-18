@@ -10,13 +10,8 @@ export const LoadingCircle = styled.div`
   width: 20px;
   height: 20px;
   animation: rotate 1s linear infinite;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 250ms;
-
-  &[data-loading="true"] {
-    border: 2px solid red;
-    opacity: 1;
-  }
 `
 export const OptionContainer = styled.ul`
   width: 100%;
