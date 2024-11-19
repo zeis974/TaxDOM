@@ -12,3 +12,5 @@ export type Origin =
   | "HORS_EU" // Hors Union européenne
 
 export type TaxSimulatorFormLabel = "product" | "origin" | "territory" | "flux"
+
+export type ParcelSimulatorFormLabel = "origin" | "products" | "territory" | "customer"

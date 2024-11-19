@@ -1,76 +1,95 @@
-import type { TaxSimulatorSelectProps, TerritoryAndOriginType } from "@/services/TaxSimulator/types"
-import type { FieldApi } from "@tanstack/react-form"
+import type { OptionsProps, SelectProps } from "./types"
+import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
-import * as m from "framer-motion/m"
-import { AnimatePresence } from "framer-motion"
-import { useEffect, useState, useRef } from "react"
+import { useRef, useState } from "react"
+import { AnimatePresence, m } from "framer-motion"
 
-import { Container } from "@/components/Inputs/Input/Input.styled"
-import { OptionContainer } from "./Select.styled"
+import { searchProducts } from "@/actions/searchProducts"
 
-export default function Select<T>({
+import { Container } from "../Input/Input.styled"
+import { LoadingCircle, OptionContainer } from "../Select/Select.styled"
+
+export default function GenericSelect<T>({
   Field,
-  name,
-  label,
-  options,
-  placeholder,
-  watch,
   actions,
-}: TaxSimulatorSelectProps<T>) {
+  label,
+  name,
+  staticOptions,
+  watch,
+  placeholder,
+}: SelectProps<T>) {
   const selectedIndexRef = useRef<number>(0)
+  const [options, setOptions] = useState<OptionsProps<T>["options"]>([])
+  const [loading, setLoading] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState<number>(0)
   const [show, setShow] = useState(false)
 
+  if (staticOptions && actions?.dynamic) {
+    throw new Error(
+      "[Select] The props 'staticOptions' and 'dynamic' are mutually exclusive. Please choose one or the other.",
+    )
+  }
+
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!options || options.length === 0) return
+
     if (e.key === "ArrowUp") {
       setSelectedIndex((prevIndex) => {
-        const newIndex = (prevIndex - 1 + (options.size ?? 0)) % (options.size ?? 0)
+        const newIndex = (prevIndex - 1 + options.length) % options.length
         selectedIndexRef.current = newIndex
         return newIndex
       })
     } else if (e.key === "ArrowDown") {
       setSelectedIndex((prevIndex) => {
-        const newIndex = (prevIndex + 1) % (options.size ?? 0)
+        const newIndex = (prevIndex + 1) % options.length
         selectedIndexRef.current = newIndex
         return newIndex
       })
     }
   }
 
-  useEffect(() => {
-    setSelectedIndex(selectedIndex)
-  }, [selectedIndex])
-
   return (
     <Field
       name={name}
       validators={{
-        onChange: ({
-          value,
-          fieldApi,
-        }: {
-          value: TerritoryAndOriginType
-          // biome-ignore lint/suspicious/noExplicitAny: any
-          fieldApi: FieldApi<any, string, undefined, undefined, any>
-        }) => {
-          if (fieldApi.name === "territory" && value !== "REUNION") {
-            return options.has(value) ? "Bientôt disponible" : "Champs invalides"
-          }
+        onMount: () => {
+          if (staticOptions) setOptions([...staticOptions])
 
-          return !value ? "Champs requis" : options.has(value) ? undefined : "Champs invalides"
+          return null
+        },
+        onChange: ({ value }) => {
+          if (staticOptions) {
+            for (const option of staticOptions) {
+              if (value === option.name) {
+                return option.available ? undefined : "Bientôt disponible"
+              }
+            }
+
+            return !value
+              ? "Champs requis"
+              : staticOptions.some((option) => option.name === value)
+                ? false
+                : "Champs invalides"
+          }
+        },
+        onChangeAsyncDebounceMs: 200,
+        onChangeAsync: async ({ value }) => {
+          if (actions?.dynamic) {
+            setLoading(true)
+            const data = await searchProducts(value)
+            setLoading(false)
+
+            if (data.error === "No product found") {
+              return "Aucun produit trouvé"
+            }
+
+            setOptions(data)
+            return null
+          }
         },
       }}
     >
       {(field) => {
-        const filtered = [...options].filter((option) => {
-          const lowerCaseValue = field.state.value.toLowerCase()
-          const lowerCaseOption = option.toLowerCase()
-
-          const exactMatchFound = [...options].some((opt) => opt.toLowerCase() === lowerCaseValue)
-
-          return exactMatchFound ? null : lowerCaseOption.includes(lowerCaseValue)
-        })
-
         return (
           <Container>
             <label htmlFor={field.name}>
@@ -83,31 +102,41 @@ export default function Select<T>({
               id={field.name}
               autoComplete="off"
               name={field.name}
-              onChange={(e) => field.handleChange(e.target.value as TerritoryAndOriginType)}
+              onChange={(e) => field.handleChange(e.target.value)}
               onBlur={() => {
                 setShow(false)
                 field.handleBlur()
               }}
               onFocus={() => {
                 setShow(true)
-                actions?.handleOnFocus(field.name as T)
+                actions?.handleOnFocus?.(field.name as T)
               }}
               onKeyDown={(e) => {
                 handleKeyDown(e)
+                const selectedValue = options?.[selectedIndexRef.current]
 
-                const selectedValue = filtered[selectedIndexRef.current]
-                watch?.(selectedValue)
+                if (selectedValue) {
+                  watch?.(selectedValue.name as T)
+
+                  const country = staticOptions?.find(
+                    (option) => option.name === selectedValue.name,
+                  )
+                  if (country) {
+                    watch?.(selectedValue.name as T)
+                  }
+                }
 
                 if (e.key === "Enter") {
                   e.preventDefault()
-                  if (filtered.length > 0) {
-                    field.handleChange(selectedValue)
+                  if (options?.length > 0) {
+                    field.handleChange(selectedValue.name)
                   }
                 }
               }}
               placeholder={placeholder}
               value={field.state.value}
             />
+            {loading ? <LoadingCircle /> : null}
             <AnimatePresence>
               {options && show && (
                 <m.div
@@ -117,8 +146,9 @@ export default function Select<T>({
                   exit={{ translateY: "5px", opacity: 0 }}
                 >
                   <Options
-                    options={filtered}
-                    {...{ field, selectedIndex, setSelectedIndex, watch }}
+                    type={actions?.dynamic ? "dynamic" : "static"}
+                    options={options}
+                    {...{ field, loading, selectedIndex, setSelectedIndex, watch }}
                   />
                 </m.div>
               )}
@@ -130,39 +160,52 @@ export default function Select<T>({
   )
 }
 
-const Options = <T extends string>({
-  options,
+const Options = <T,>({
   field,
+  loading,
+  options,
   selectedIndex,
   setSelectedIndex,
+  type,
   watch,
-}: {
-  options: T[]
-  field: // biome-ignore lint/suspicious/noExplicitAny: any
-  FieldApi<any, any, any, any>
-  selectedIndex: number
-  setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
-  watch?: (value: string) => void
-}) => {
+}: OptionsProps<T>) => {
+  const filteredOptions =
+    type === "static" && options
+      ? options.filter((option) => {
+          const lowerCaseValue: string = field.state.value.toLowerCase()
+
+          const exactMatchFound =
+            lowerCaseValue && options.some((option) => option.name.toLowerCase() === lowerCaseValue)
+
+          const lowerCaseOption = option.name.toLowerCase()
+          return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
+        })
+      : options
+
   return (
-    options.length !== 0 && (
-      <OptionContainer role="listitem" aria-label="Liste déroulante">
-        {options.map((option, index) => (
-          <span
-            key={option}
-            aria-selected={index === selectedIndex}
-            data-available={field.name === "territory" ? option === "REUNION" : null}
-            onClick={() => field.handleChange(option)}
-            onKeyUp={() => field.handleChange(option)}
-            onMouseEnter={() => {
-              watch?.(option)
-              setSelectedIndex(index)
-            }}
-          >
-            {option}
-          </span>
-        ))}
-      </OptionContainer>
-    )
+    <>
+      {filteredOptions.length > 0 && (
+        <OptionContainer aria-label="Liste déroulante">
+          {filteredOptions.map((option, index) => {
+            const optionValue = option.name
+            return (
+              <li
+                key={optionValue}
+                aria-selected={index === selectedIndex}
+                data-available={option.available}
+                onClick={() => field.handleChange(optionValue)}
+                onKeyUp={() => field.handleChange(optionValue)}
+                onMouseEnter={() => {
+                  watch?.(optionValue as T)
+                  setSelectedIndex(index)
+                }}
+              >
+                {optionValue}
+              </li>
+            )
+          })}
+        </OptionContainer>
+      )}
+    </>
   )
 }
