@@ -6,7 +6,7 @@ export const OriginData = [
     name: "HORS_EU",
     available: true
   }
-] as const
+]
 
 export const TerritoryData = [
   {
@@ -31,4 +31,4 @@ export const TerritoryData = [
     name: "REUNION",
     available: true
   }
-] as const
+]

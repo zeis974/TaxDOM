@@ -1,27 +1,19 @@
 "use client"
 
-import type {
-  Origin,
-  TaxSimulatorFormLabel,
-  TaxSimulatorFormValues,
-  TerritoryAndOriginType,
-} from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel, TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
 
 import { toast } from "sonner"
 import { useForm } from "@tanstack/react-form"
-import { type ElementRef, useRef } from "react"
+import { useRef } from "react"
 import { Turnstile } from "@marsidev/react-turnstile"
 
 import { getProductTaxes } from "@/actions/getProductTaxes"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
-import { Input, Radio, Select } from "@/components/Inputs"
-import SubmitButton from "@/components/Buttons/SubmitButton"
+import { OriginData, TerritoryData } from "@/services/data"
 
-import {
-  TaxSimulatorOriginData,
-  TaxSimulatorTerritoryData,
-} from "@/services/TaxSimulator/data/TaxSimulatorData"
+import { Radio, Select } from "@/components/Inputs"
+import SubmitButton from "@/components/Buttons/SubmitButton"
 
 export default function TaxSimulatorForm() {
   const hasResult = useTaxSimulatorStore((s) => s.hasResult)
@@ -35,7 +27,7 @@ export default function TaxSimulatorForm() {
   const { Field, handleSubmit, Subscribe } = useForm<TaxSimulatorFormValues>({
     defaultValues: {
       product: "",
-      origin: "" as Origin,
+      origin: "",
       territory: "REUNION", // For now we only support one territory
       flux: "import", // For now we only support one flux
     },
@@ -75,9 +67,7 @@ export default function TaxSimulatorForm() {
     },
   })
 
-  const handleCountryChange = (country: string) => {
-    setSelectedCountry(country as TerritoryAndOriginType)
-  }
+  const handleCountryChange = (country: string) => setSelectedCountry(country)
 
   const handleFocusInput = (name: TaxSimulatorFormLabel) => {
     if (!hasResult) setFocusInput(name)
@@ -92,13 +82,14 @@ export default function TaxSimulatorForm() {
       }}
       ref={formRef}
     >
-      <Input
+      <Select
         name="product"
         {...{ Field }}
         label="Produit"
         placeholder="Smartphone"
         actions={{
-          handleOnFocus: (name: TaxSimulatorFormLabel) => handleFocusInput(name),
+          handleOnFocus: handleFocusInput,
+          dynamic: true,
         }}
       />
       <Select
@@ -106,10 +97,10 @@ export default function TaxSimulatorForm() {
         {...{ Field }}
         label="Origine"
         placeholder="EU"
-        options={TaxSimulatorOriginData}
+        staticOptions={OriginData}
         watch={handleCountryChange}
         actions={{
-          handleOnFocus: (name: TaxSimulatorFormLabel) => handleFocusInput(name),
+          handleOnFocus: handleFocusInput,
         }}
       />
       <Select
@@ -117,10 +108,10 @@ export default function TaxSimulatorForm() {
         {...{ Field }}
         label="Territoire d'application"
         placeholder="Réunion"
-        options={TaxSimulatorTerritoryData}
+        staticOptions={TerritoryData}
         watch={handleCountryChange}
         actions={{
-          handleOnFocus: (name: TaxSimulatorFormLabel) => handleFocusInput(name),
+          handleOnFocus: handleFocusInput,
         }}
       />
       <div
