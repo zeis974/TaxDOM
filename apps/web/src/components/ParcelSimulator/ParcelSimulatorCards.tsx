@@ -1,12 +1,12 @@
 import type { FieldComponent } from "@tanstack/react-form"
 
+import { memo } from "react"
 import { styled } from "@/panda/jsx"
-import { toast } from "sonner"
 
 import { AddIcon } from "@/components/Icons"
 import { Input, Select } from "@/components/Inputs"
 
-export default function ParcelSimulatorCards<T>({
+const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
   Field,
 }: { Field: FieldComponent<any, undefined> }) {
   return (
@@ -39,7 +39,7 @@ export default function ParcelSimulatorCards<T>({
               </Card>
             ))}
             <button
-              onClick={() => field.pushValue({ name: "", price: 0 })}
+              onClick={() => field.pushValue({ name: "", price: undefined as unknown })}
               type="button"
               disabled={field.state.value.length === 10}
             >
@@ -51,7 +51,9 @@ export default function ParcelSimulatorCards<T>({
       }}
     </Field>
   )
-}
+})
+
+export default ParcelSimulatorCards
 
 const Container = styled.div`
   position: relative;

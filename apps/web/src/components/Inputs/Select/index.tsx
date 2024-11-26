@@ -131,8 +131,8 @@ export default function Select<T>({
 }
 
 const Options = <T extends string>({
-  options,
   field,
+  options,
   selectedIndex,
   setSelectedIndex,
   watch,

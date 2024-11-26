@@ -1,24 +1,27 @@
 "use client"
 
+import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types"
+
 import { styled } from "@/panda/jsx"
 import { toast } from "sonner"
 import { useForm } from "@tanstack/react-form"
+import { useState } from "react"
 
-import ParcelSimulatorCards from "@/components/ParcelSimulator/ParcelSimulatorCards"
 import { Radio, Select } from "@/components/Inputs"
+import ParcelSimulatorCards from "@/components/ParcelSimulator/ParcelSimulatorCards"
 import SubmitButton from "@/components/Buttons/SubmitButton"
 
 import { OriginData, TerritoryData } from "@/services/data"
 
 export default function ParcelSimulator() {
-  const { Field, handleSubmit, Subscribe } = useForm({
+  const [showStore, setShowStore] = useState(true)
+
+  const { Field, handleSubmit, Subscribe } = useForm<ParcelSimulatorFormValues>({
     defaultValues: {
-      customer: "Oui",
+      customer: "Non",
       origin: "",
-      products: [{ name: "", price: 0 }] as Array<{
-        name: string
-        price: number
-      }>,
+      products: [{ name: "", price: undefined }],
+      store: "",
       territory: "REUNION",
     },
     onSubmit: async ({ value }) => {
@@ -36,6 +39,17 @@ export default function ParcelSimulator() {
             },
           }
         }
+        return null
+      },
+      onChange: ({ value }) => {
+        const isIndividualCustomer = value.customer === "Non"
+
+        if (isIndividualCustomer) {
+          setShowStore(true)
+        } else {
+          setShowStore(false)
+        }
+
         return null
       },
     },
@@ -76,6 +90,7 @@ export default function ParcelSimulator() {
             label="Envoi entre particulier ?"
             options={["Oui", "Non"]}
           />
+          {showStore ? <p>FNAC</p> : null}
           <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
             {([canSubmit, isSubmitting]) => <SubmitButton {...{ canSubmit, isSubmitting }} />}
           </Subscribe>
