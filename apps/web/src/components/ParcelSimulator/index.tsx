@@ -11,7 +11,7 @@ import SubmitButton from "@/components/Buttons/SubmitButton"
 import { OriginData, TerritoryData } from "@/services/data"
 
 export default function ParcelSimulator() {
-  const { Field, Subscribe, handleSubmit } = useForm({
+  const { Field, handleSubmit, Subscribe } = useForm({
     defaultValues: {
       customer: "Oui",
       origin: "",
@@ -29,7 +29,7 @@ export default function ParcelSimulator() {
         const hasOneProduct = value.products.length === 0
 
         if (hasOneProduct) {
-          toast.error("Veuillez ajouter au moins un produit")
+          toast.info("Veuillez ajouter au moins un produit")
           return {
             fields: {
               products: "Veuillez ajouter au moins un produit",

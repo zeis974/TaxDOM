@@ -1,23 +1,30 @@
 import type { FieldComponent } from "@tanstack/react-form"
 
 import { styled } from "@/panda/jsx"
+import { toast } from "sonner"
 
 import { AddIcon } from "@/components/Icons"
-import { Input } from "@/components/Inputs"
+import { Input, Select } from "@/components/Inputs"
 
-export default function ParcelSimulatorCards({ Field }: { Field: FieldComponent<any, undefined> }) {
+export default function ParcelSimulatorCards<T>({
+  Field,
+}: { Field: FieldComponent<any, undefined> }) {
   return (
     <Field name="products" mode="array">
       {(field) => {
         return (
           <Container>
             {field.state.value.map((_: any, i: number) => (
+              // biome-ignore lint/suspicious/noArrayIndexKey:
               <Card key={i}>
-                <Input
+                <Select
                   {...{ Field }}
                   name={`products.${i}.name`}
                   label="Produit"
                   placeholder="Ordinateur"
+                  actions={{
+                    dynamic: true,
+                  }}
                 />
                 <Input
                   {...{ Field }}
@@ -31,7 +38,11 @@ export default function ParcelSimulatorCards({ Field }: { Field: FieldComponent<
                 </button>
               </Card>
             ))}
-            <button onClick={() => field.pushValue({ name: "", price: 0 })} type="button">
+            <button
+              onClick={() => field.pushValue({ name: "", price: 0 })}
+              type="button"
+              disabled={field.state.value.length === 10}
+            >
               <AddIcon />
               Ajouter un produit
             </button>
@@ -54,6 +65,7 @@ const Container = styled.div`
   & > button {
     width: calc(100% / 3 - 15px);
     height: 220px;
+    cursor: pointer;
     font-weight: bold;
     color: token(colors.primary);
     border: 2px solid transparent;
@@ -65,7 +77,11 @@ const Container = styled.div`
     border-radius: 10px;
     transition: border 150ms;
 
-    &:hover {
+    &[disabled] {
+      cursor: default;
+    }
+
+    &:hover:not([disabled]) {
       border: 2px solid token(colors.primary);
     }
   }
@@ -85,15 +101,6 @@ const Container = styled.div`
   &::-webkit-scrollbar-thumb:hover {
     background: #b2bec3; 
   }
-/* 
-  &::before {
-    content: "";
-    position: sticky;
-    top: 100vh;
-    width: 100%;
-    height: 30px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-  } */
 `
 
 const Card = styled.div`
