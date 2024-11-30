@@ -23,11 +23,11 @@ const territoryMap: Record<Territory, number> = {
 
 export default class GetProductTaxeController {
   async handle({ request }: HttpContext) {
-    const body: Record<TaxSimulatorFormLabel, any> = request.body()
+    const body = request.body() as TaxSimulatorFormLabel
 
-    const product: string = body.product.toLowerCase()
-    const origin: Origin = body.origin.toUpperCase()
-    const territory: Territory = body.territory.toUpperCase()
+    const product = body.product.toLowerCase()
+    const origin = body.origin.toUpperCase() as Origin
+    const territory = body.territory.toUpperCase() as Territory
 
     try {
       const result = await db
