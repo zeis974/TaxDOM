@@ -3,7 +3,7 @@
 import type { TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
 
 export async function getProductTaxes(value: TaxSimulatorFormValues) {
-  const data = await fetch(`${process.env.API_URL}/getProductTaxes`, {
+  const data = await fetch(`${process.env.API_URL}/products/taxes`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -12,5 +12,9 @@ export async function getProductTaxes(value: TaxSimulatorFormValues) {
     body: JSON.stringify(value),
   }).then((res) => res.json())
 
-  return data[0]
+  if (data.errors) {
+    // Logs errors
+  }
+
+  return data
 }

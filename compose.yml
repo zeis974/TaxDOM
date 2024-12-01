@@ -1,40 +1,43 @@
 services:
   nginx:
-    image: nginx:1.27.0-alpine
-    container_name: nginx
+    image: nginx:1.27.2-alpine
     ports:
       - 80:80
       - 443:443
     volumes:
       - ./apps/nginx/taxdom.conf:/etc/nginx/conf.d/default.conf
       - ./apps/nginx/api.taxdom.conf:/etc/nginx/conf.d/api.taxdom.conf
+      - ./apps/nginx/temp.taxdom.conf:/etc/nginx/conf.d/temp.taxdom.conf
+      - ./apps/nginx/tmp/:/usr/share/nginx/html
       - ./apps/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - /etc/ssl/cf/taxdom.pem:/etc/nginx/ssl/taxdom.pem
+      - /etc/ssl/cf/taxdom.key:/etc/nginx/ssl/key.pem
     depends_on:
       - web
       - api
       - db
 
   web:
-    container_name: web
-    build:
-      context: .
-      dockerfile: apps/web/Dockerfile
-    restart: always
+    image: ghcr.io/zeis974/taxdom-web:latest
     ports:
       - 3000:3000
+    env_file:
+      - .env.web.prod
 
   api:
-    container_name: api
-    build:
-      context: .
-      dockerfile: apps/api/Dockerfile
-    restart: always
+    image: ghcr.io/zeis974/taxdom-api:latest
     ports:
       - 3333:3333
+    env_file:
+      - .env.api.prod
+
+  redis:
+    image: redis:7.4.1-alpine
+    ports:
+      - 6379:6379
 
   db:
-    image: ghcr.io/tursodatabase/libsql-server:v0.24.20
-    platform: linux/amd64
+    image: ghcr.io/tursodatabase/libsql-server:v0.24.28
     ports:
       - "8080:8080"
       - "5001:5001"

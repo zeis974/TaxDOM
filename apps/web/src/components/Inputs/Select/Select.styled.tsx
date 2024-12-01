@@ -1,6 +1,19 @@
 import { styled } from "@/panda/jsx"
 
-export const OptionContainer = styled.div`
+export const LoadingCircle = styled.div`
+  position: absolute;
+  right: 9px;
+  bottom: 8px;
+  border: 2px solid #3498db;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: rotate 1s linear infinite;
+  opacity: 1;
+  transition: opacity 250ms;
+`
+export const OptionContainer = styled.ul`
   width: 100%;
   border-radius: 5px;
   top: calc(100% + 5px);
@@ -9,11 +22,11 @@ export const OptionContainer = styled.div`
   border: 2px solid token(colors.darkGray);
   background: token(colors.secondaryBackground);
 
-  & > span[aria-selected=true] {
+  & > li[aria-selected=true] {
     background: #77b4dc;
   } 
 
-  & > span {
+  & > li {
     cursor: pointer;
     position: relative;
     display: block;
@@ -37,11 +50,11 @@ export const OptionContainer = styled.div`
     }
   }
 
-  & > span:first-of-type {
+  & > li:first-of-type {
     border-radius: 3px 3px 0 0;
   }
 
-  & > span:last-of-type {
+  & > li:last-of-type {
     border-radius: 0 0 3px 3px;
   }
 `

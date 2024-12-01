@@ -2,11 +2,16 @@ import { styled } from "@/panda/jsx"
 import * as m from "framer-motion/m"
 
 export const Container = styled.div`
-  height: inherit;
+  width: 255px;
+  height: 45px;
   display: flex;
   flex-direction: row;
+  /* position: relative; */
 `
-
+export const CardContainer = styled.div`
+  width: 100%;
+  height: 100%;
+`
 export const Card = styled.div`
   display: flex;
   align-items: center;
@@ -51,6 +56,7 @@ export const Illustration = styled.div`
 `
 
 export const Content = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   

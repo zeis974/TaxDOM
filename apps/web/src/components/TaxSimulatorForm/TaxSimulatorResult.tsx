@@ -9,6 +9,7 @@ import {
   ActionBar,
   Container,
   Content,
+  ErrorContainer,
   ErrorText,
   Line,
   PriceCalculator,
@@ -24,6 +25,20 @@ const Tooltip = dynamic(() => import("@/lib/Tooltip"), {
 export default function TaxSimulatorResult() {
   const [price, setPrice] = useState(0)
   const result = useTaxSimulatorStore((s) => s.result)
+
+  const hasError = result?.errors?.[0].message
+
+  if (hasError === "Too many requests") {
+    return (
+      <ErrorContainer>
+        <h1>Too many requests</h1>
+        <p>
+          Il semblerait que trop de demandes aient été faites en un cours laps de temps. Veuillez
+          patienter un moment et réessayer plus tard.
+        </p>
+      </ErrorContainer>
+    )
+  }
 
   if (result?.tva) {
     const { product, tva, om, omr } = result
