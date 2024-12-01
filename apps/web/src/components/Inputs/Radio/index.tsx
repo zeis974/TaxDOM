@@ -23,6 +23,7 @@ export default function Radio({
                     id={option}
                     name={field.name}
                     value={field.state.value}
+                    onClick={() => field.setValue(option)}
                     defaultChecked={field.state.value === option}
                     disabled={disabled}
                   />
