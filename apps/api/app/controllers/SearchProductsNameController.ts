@@ -1,6 +1,7 @@
 import type { HttpContext } from "@adonisjs/core/http"
-import { db } from "#config/database"
+import logger from "@adonisjs/core/services/logger"
 import { sql } from "drizzle-orm"
+import { db } from "#config/database"
 
 export default class SearchProductNameController {
   async handle({ request }: HttpContext) {
@@ -22,6 +23,8 @@ export default class SearchProductNameController {
     if (!result.rows.length) {
       return { error: "No product found" }
     }
+
+    logger.info("Fetching (%s) productName in searchProductNameController", productName)
 
     return result.rows.map((row) => ({ name: row.product_name as string }))
   }
