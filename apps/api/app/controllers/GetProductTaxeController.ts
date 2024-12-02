@@ -1,10 +1,11 @@
 import type { HttpContext } from "@adonisjs/core/http"
-import type { Origin, TaxSimulatorFormLabel, Territory } from "#types/index"
+import type { Origin, Territory } from "#types/index"
 
 import logger from "@adonisjs/core/services/logger"
 import { and, eq } from "drizzle-orm"
 import { db } from "#config/database"
-import { ProductsTables, Taxes } from "#database/schema"
+import { products, taxes } from "#database/schema"
+import { GetProductTaxeValidator } from "#validators/GetProductTaxeValidator"
 
 const originMap: Record<Origin, number> = {
   EU: 1,
@@ -23,11 +24,12 @@ const territoryMap: Record<Territory, number> = {
 
 export default class GetProductTaxeController {
   async handle({ request }: HttpContext) {
-    const body = request.body() as TaxSimulatorFormLabel
+    const data = request.body()
+    const payload = await GetProductTaxeValidator.validate(data)
 
-    const product = body.product.toLowerCase()
-    const origin = body.origin.toUpperCase() as Origin
-    const territory = body.territory.toUpperCase() as Territory
+    const product = payload.product.toLowerCase()
+    const origin = payload.origin.toUpperCase() as Origin
+    const territory = payload.territory.toUpperCase() as Territory
 
     try {
       const result = await db
