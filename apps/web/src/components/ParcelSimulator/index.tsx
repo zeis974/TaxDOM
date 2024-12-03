@@ -4,28 +4,47 @@ import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types
 
 import { styled } from "@/panda/jsx"
 import { toast } from "sonner"
+import { Turnstile } from "@marsidev/react-turnstile"
 import { useForm } from "@tanstack/react-form"
-import { useState } from "react"
+import { useRef } from "react"
 
-import { Radio, Select } from "@/components/Inputs"
+import { Input, Radio, Select } from "@/components/Inputs"
 import ParcelSimulatorCards from "@/components/ParcelSimulator/ParcelSimulatorCards"
 import SubmitButton from "@/components/Buttons/SubmitButton"
 
 import { OriginData, TerritoryData } from "@/services/data"
+import { calculateParcel } from "@/actions/calculateParcel"
+import { verifyTurnstile } from "@/lib/turnstile"
 
 export default function ParcelSimulator() {
-  const [showStore, setShowStore] = useState(true)
+  const formRef = useRef<HTMLFormElement>(null)
 
   const { Field, handleSubmit, Subscribe } = useForm<ParcelSimulatorFormValues>({
     defaultValues: {
       customer: "Non",
       origin: "",
       products: [{ name: "", price: undefined }],
-      store: "",
-      territory: "REUNION",
+      deliveryPrice: undefined,
+      territory: "REUNION", // For now we only support one territory
     },
     onSubmit: async ({ value }) => {
-      console.log(value)
+      const captchaIsValid = await verifyTurnstile(formRef)
+
+      if (captchaIsValid) {
+        try {
+          const data = await calculateParcel(value)
+
+          console.log(value)
+        } catch (err) {
+          toast.error("Une erreur est survenue", {
+            description: "Impossible de contacter le serveur",
+          })
+        }
+      } else {
+        toast.warning("Captcha invalide", {
+          description: "Veuillez valider le captcha",
+        })
+      }
     },
     validators: {
       onSubmitAsync: async ({ value }) => {
@@ -41,34 +60,21 @@ export default function ParcelSimulator() {
         }
         return null
       },
-      onChange: ({ value }) => {
-        const isIndividualCustomer = value.customer === "Non"
-
-        if (isIndividualCustomer) {
-          setShowStore(true)
-        } else {
-          setShowStore(false)
-        }
-
-        return null
-      },
     },
   })
 
   return (
     <Container>
       <div>
-        <h1>Simuler le cout d&apos;un colis</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.Iure,cabo!. Les informations sont
-          fournies par le simulateur à titre indicatif.
-        </p>
+        <h1>Simuler le coût d'un colis</h1>
+        <hr />
         <form
           onSubmit={(e) => {
             e.preventDefault()
             e.stopPropagation()
             handleSubmit()
           }}
+          ref={formRef}
         >
           <Select
             name="origin"
@@ -90,7 +96,14 @@ export default function ParcelSimulator() {
             label="Envoi entre particulier ?"
             options={["Oui", "Non"]}
           />
-          {showStore ? <p>FNAC</p> : null}
+          <Input
+            name="deliveryPrice"
+            {...{ Field }}
+            label="Prix de livraison (HT)"
+            placeholder="0"
+            type="number"
+          />
+          <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
           <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
             {([canSubmit, isSubmitting]) => <SubmitButton {...{ canSubmit, isSubmitting }} />}
           </Subscribe>
@@ -117,8 +130,8 @@ const Container = styled.div`
       font-family: token(fonts.NotoSansBold);
     }
 
-    & p {
-      padding: 20px 0;
+    & hr {
+      margin: 20px 0;
     }
   }
 

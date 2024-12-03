@@ -11,6 +11,7 @@ import { getProductTaxes } from "@/actions/getProductTaxes"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 import { OriginData, TerritoryData } from "@/services/data"
+import { verifyTurnstile } from "@/lib/turnstile"
 
 import { Radio, Select } from "@/components/Inputs"
 import SubmitButton from "@/components/Buttons/SubmitButton"
@@ -34,20 +35,9 @@ export default function TaxSimulatorForm() {
     onSubmit: async ({ value }) => {
       if (!formRef.current) return
 
-      const formData = new FormData(formRef.current)
-      const token = formData.get("cf-turnstile-response")
+      const captchaIsValid = await verifyTurnstile(formRef)
 
-      const res = await fetch("/api/verify", {
-        method: "POST",
-        body: JSON.stringify({ token }),
-        headers: {
-          "content-type": "application/json",
-        },
-      })
-
-      const data = await res.json()
-
-      if (data.success || data["error-codes"]?.includes("timeout-or-duplicate")) {
+      if (captchaIsValid) {
         try {
           const data = await getProductTaxes(value)
 
