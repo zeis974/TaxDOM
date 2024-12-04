@@ -1,62 +1,75 @@
-import { relations } from "drizzle-orm"
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core"
+import { relations, sql } from "drizzle-orm"
 
-export const Origins = sqliteTable("origins", {
-  originID: integer("origin_id").primaryKey(),
-  originName: text("origin_name").notNull(),
+export const categories = sqliteTable("categories", {
+  categoryID: integer("category_id").notNull().primaryKey({ autoIncrement: true }),
+  categoryName: text("category_name").notNull(),
+  taxID: integer("tax_id").references(() => taxes.taxID),
 })
 
-export const Territory = sqliteTable("territory", {
-  territoryID: integer("territory_id").primaryKey(),
-  territoryName: text("territory_name").notNull(),
-})
-
-export const Flux = sqliteTable("flux", {
+export const flux = sqliteTable("flux", {
   fluxID: integer("flux_id").primaryKey(),
   fluxName: text("flux_name").notNull(),
 })
 
-export const Taxes = sqliteTable("taxes", {
+export const origins = sqliteTable("origins", {
+  originID: integer("origin_id").primaryKey(),
+  originName: text("origin_name").notNull(),
+})
+
+export const taxes = sqliteTable("taxes", {
   taxID: integer("tax_id").primaryKey({ autoIncrement: true }),
   tva: integer("tva").notNull(),
   om: integer("om").notNull(),
   omr: integer("omr").notNull(),
 })
 
-export const ProductsTables = sqliteTable("products", {
-  productID: integer("product_id").notNull().primaryKey({ autoIncrement: true }),
-  productName: text("product_name").notNull(),
-  originID: integer("origin_id")
-    .notNull()
-    .references(() => Origins.originID),
-  territoryID: integer("territory_id")
-    .notNull()
-    .references(() => Territory.territoryID),
-  fluxID: integer("flux_id")
-    .notNull()
-    .references(() => Flux.fluxID),
-  taxID: integer("tax_id")
-    .notNull()
-    .references(() => Taxes.taxID),
+export const territories = sqliteTable("territories", {
+  territoryID: integer("territory_id").primaryKey(),
+  territoryName: text("territory_name").notNull(),
 })
 
-export const ProductsRelations = relations(ProductsTables, ({ one }) => ({
-  origin: one(Origins, {
-    fields: [ProductsTables.originID],
-    references: [Origins.originID],
+export const products = sqliteTable("products", {
+  productID: integer("product_id").primaryKey({ autoIncrement: true }).notNull(),
+  productName: text("product_name").notNull(),
+  category: integer("category")
+    .notNull()
+    .references(() => categories.categoryID),
+  originID: integer("origin_id")
+    .notNull()
+    .references(() => origins.originID),
+  territoryID: integer("territory_id")
+    .notNull()
+    .references(() => territories.territoryID),
+  fluxID: integer("flux_id")
+    .notNull()
+    .references(() => flux.fluxID),
+  taxID: integer("tax_id")
+    .notNull()
+    .references(() => taxes.taxID),
+  createdAt: integer("created_at", { mode: "timestamp" }).default(sql`(strftime('%s', 'now'))`),
+  updateAt: integer("updated_at", { mode: "timestamp" }).default(sql`(strftime('%s', 'now'))`),
+})
+
+export const ProductsRelations = relations(products, ({ one }) => ({
+  category: one(categories, {
+    fields: [products.category],
+    references: [categories.categoryName],
   }),
-  territory: one(Territory, {
-    fields: [ProductsTables.territoryID],
-    references: [Territory.territoryID],
+  origin: one(origins, {
+    fields: [products.originID],
+    references: [origins.originID],
   }),
-  flux: one(Flux, {
-    fields: [ProductsTables.fluxID],
-    references: [Flux.fluxID],
+  territory: one(territories, {
+    fields: [products.territoryID],
+    references: [territories.territoryID],
   }),
-  tax: one(Taxes, {
-    fields: [ProductsTables.taxID],
-    references: [Taxes.taxID],
+  flux: one(flux, {
+    fields: [products.fluxID],
+    references: [flux.fluxID],
+  }),
+  tax: one(taxes, {
+    fields: [products.taxID],
+    references: [taxes.taxID],
   }),
 }))
-
-export type SelectProducts = typeof ProductsTables.$inferSelect
