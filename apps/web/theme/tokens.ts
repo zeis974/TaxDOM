@@ -1,6 +1,9 @@
 import { defineTokens } from "@pandacss/dev"
 
 export const tokens = defineTokens({
+  breakpoints: {
+    mobile: { value: "768px" },
+  },
   fonts: {
     nativeFont: {
       value:
