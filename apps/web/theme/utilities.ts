@@ -1,4 +1,7 @@
 export const utilities = {
+  breakpoints: {
+    values: "breakpoints",
+  },
   background: {
     values: "colors",
   },

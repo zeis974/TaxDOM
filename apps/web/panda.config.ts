@@ -15,9 +15,14 @@ export default defineConfig({
   ],
   importMap: "@/panda",
   theme: {
-    semanticTokens,
-    tokens,
-    keyframes,
+    extend: {
+      semanticTokens,
+      tokens,
+      keyframes,
+      breakpoints: {
+        mobile: "768px",
+      },
+    },
   },
   utilities: {
     utilities,
