@@ -3,7 +3,7 @@
 import { type ReactNode, createContext, useContext, useRef } from "react"
 import { type StoreApi, useStore } from "zustand"
 
-import { type TaxSimulatorStore, createTaxSimulatorStore } from "@/stores/TaxSimulatorStores"
+import { type TaxSimulatorStore, createTaxSimulatorStore } from "@/stores/TaxSimulatorStore"
 
 export const TaxSimulatorStoreContext = createContext<StoreApi<TaxSimulatorStore> | null>(null)
 
