@@ -1,5 +1,4 @@
 import type { OptionsProps, SelectProps } from "./types"
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
 import { useRef, useState } from "react"
 import { AnimatePresence, m } from "framer-motion"
@@ -162,25 +161,21 @@ export default function GenericSelect<T>({
 
 const Options = <T,>({
   field,
-  loading,
   options,
   selectedIndex,
   setSelectedIndex,
   type,
   watch,
 }: OptionsProps<T>) => {
-  const filteredOptions =
-    type === "static" && options
-      ? options.filter((option) => {
-          const lowerCaseValue: string = field.state.value.toLowerCase()
+  if (!Array.isArray(options) || (options.length === 0 && type === "dynamic")) return null
 
-          const exactMatchFound =
-            lowerCaseValue && options.some((option) => option.name.toLowerCase() === lowerCaseValue)
-
-          const lowerCaseOption = option.name.toLowerCase()
-          return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
-        })
-      : options
+  const filteredOptions = options.filter((option) => {
+    const lowerCaseValue: string = field.state.value.toLowerCase()
+    const exactMatchFound =
+      lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
+    const lowerCaseOption = option.name.toLowerCase()
+    return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
+  })
 
   return (
     <>
