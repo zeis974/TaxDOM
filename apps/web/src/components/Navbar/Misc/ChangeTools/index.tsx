@@ -15,13 +15,14 @@ import {
   ModalCard,
   ModalContainer,
 } from "@/components/Navbar/Misc/ChangeTools/ChangeTools.styled"
-import { ChevronIcon, ParcelIcon, TaxIcon } from "@/components/Icons"
+import { ChevronIcon, ListIcon, MagicIcon, ParcelIcon, TaxIcon } from "@/components/Icons"
 
 type Tools = {
   name: string
   description: string
   icon: JSX.Element
   slug: string
+  disabled?: boolean
 }
 
 const tools: Tools[] = [
@@ -33,10 +34,18 @@ const tools: Tools[] = [
     slug: "/simulator",
   },
   {
+    name: "URL magique",
+    description: "Les taxes juste avec un lien",
+    icon: <MagicIcon />,
+    slug: "", // /magicURL
+    disabled: true,
+  },
+  {
     name: "Nomenclatures",
     description: "Listes des nomenclatures",
-    icon: <TaxIcon />,
-    slug: "/nomenclatures",
+    icon: <ListIcon />,
+    slug: "", // /nomenclatures
+    disabled: true,
   },
 ]
 
@@ -68,7 +77,7 @@ export default function ChangeTools() {
               >
                 {availableTools.map((tool) => (
                   <Link key={tool.name} href={tool.slug} onClick={() => setShowModal(false)}>
-                    <ModalCard>
+                    <ModalCard aria-disabled={tool.disabled}>
                       <ToolContent tool={tool} />
                     </ModalCard>
                   </Link>
