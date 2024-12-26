@@ -1,13 +1,14 @@
 import "./globals.css"
 
 import type { Metadata } from "next"
+
 import { ThemeProvider } from "next-themes"
-import localFont from "next/font/local"
 import { Toaster } from "sonner"
+import localFont from "next/font/local"
+
+import LazyMotionProvider from "@/providers/LazyMotionProvider"
 
 import Navbar from "@/components/Navbar"
-import LazyMotionProvider from "@/providers/LazyMotionProvider"
-import { TaxSimulatorStoreProvider } from "@/providers/TaxSimulatorStoreProvider"
 
 export const metadata: Metadata = {
   title: {
@@ -47,14 +48,12 @@ export default function RootLayout({
     >
       <body>
         <ThemeProvider defaultTheme="system">
-          <TaxSimulatorStoreProvider>
-            <LazyMotionProvider>
-              <Navbar />
-              {children}
-              {modal}
-              <Toaster richColors closeButton />
-            </LazyMotionProvider>
-          </TaxSimulatorStoreProvider>
+          <LazyMotionProvider>
+            <Navbar />
+            {children}
+            {modal}
+            <Toaster richColors closeButton />
+          </LazyMotionProvider>
         </ThemeProvider>
       </body>
     </html>

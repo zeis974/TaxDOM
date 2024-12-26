@@ -13,6 +13,8 @@ import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 import { OriginData, TerritoryData } from "@/services/data"
 import { verifyTurnstile } from "@/lib/turnstile"
 
+import { CaptchaContainer } from "./TaxSimulatorForm.styled"
+
 import { Radio, Select } from "@/components/Inputs"
 import SubmitButton from "@/components/Buttons/SubmitButton"
 
@@ -38,21 +40,36 @@ export default function TaxSimulatorForm() {
       const captchaIsValid = await verifyTurnstile(formRef)
 
       if (captchaIsValid) {
-        try {
-          const data = await getProductTaxes(value)
+        const formData = new FormData(formRef.current)
+        const token = formData.get("cf-turnstile-response")
 
-          setHasResult(true)
-          setResult({ product: value.product, ...data })
-        } catch (err) {
-          setHasResult(false)
-          toast.error("Une erreur est survenue", {
-            description: "Impossible de contacter le serveur",
+        const res = await fetch("/api/verify", {
+          method: "POST",
+          body: JSON.stringify({ token }),
+          headers: {
+            "content-type": "application/json",
+          },
+        })
+
+        const data = await res.json()
+
+        if (data.success || data["error-codes"]?.includes("timeout-or-duplicate")) {
+          try {
+            const data = await getProductTaxes(value)
+
+            setHasResult(true)
+            setResult({ product: value.product, ...data })
+          } catch (err) {
+            setHasResult(false)
+            toast.error("Une erreur est survenue", {
+              description: "Impossible de contacter le serveur",
+            })
+          }
+        } else {
+          toast.warning("Captcha invalide", {
+            description: "Veuillez valider le captcha",
           })
         }
-      } else {
-        toast.warning("Captcha invalide", {
-          description: "Veuillez valider le captcha",
-        })
       }
     },
   })
@@ -113,8 +130,14 @@ export default function TaxSimulatorForm() {
         <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
         <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
       </div>
+      <CaptchaContainer>
+        <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
+        <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
+      </CaptchaContainer>
       <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
-        {([canSubmit, isSubmitting]) => <SubmitButton {...{ canSubmit, isSubmitting }} />}
+        {([canSubmit, isSubmitting]) => (
+          <SubmitButton label="Rechercher" {...{ canSubmit, isSubmitting }} />
+        )}
       </Subscribe>
     </form>
   )

@@ -31,6 +31,7 @@ next-env.d.ts
 
 # local env files
 .env*.local
+.secrets
 
 # PandaCSS
 styled-system

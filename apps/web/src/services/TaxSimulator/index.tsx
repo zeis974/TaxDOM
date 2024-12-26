@@ -17,13 +17,14 @@ const Section = styled.section`
   align-items: center;
   width: calc(100% - 20px);
   height: calc(100svh - (token(sizes.navbarHeight) + 15px));
-  max-width: token(sizes.maxScreen);
+  max-width: token(sizes.maxWidth);
   padding: 25px;
   margin: 0 auto;
   background: token(colors.secondaryBackground);
   border-radius: 10px;
 
-  & > * {
+  & > form,
+  & > form ~ div {
     flex: 1;
     min-width: 50%;
   }

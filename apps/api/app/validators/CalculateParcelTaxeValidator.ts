@@ -1,4 +1,3 @@
-import { OriginData, TerritoryData } from "#types/index"
 import vine from "@vinejs/vine"
 
 export const CalculateParcelTaxeValidator = vine.compile(
@@ -9,10 +8,7 @@ export const CalculateParcelTaxeValidator = vine.compile(
         price: vine.number().positive(),
       }),
     ),
-    customer: vine.string().alphaNumeric(),
-    deliveryPrice: vine.number().positive(),
-    origin: vine.enum(OriginData),
-    territory: vine.enum(TerritoryData),
-    transporter: vine.string().alphaNumeric(),
+    origin: vine.string().alphaNumeric(),
+    territory: vine.string().alphaNumeric(),
   }),
 )

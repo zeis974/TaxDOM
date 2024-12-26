@@ -98,7 +98,7 @@ export const ModalCard = styled.div`
   outline: 1px solid transparent;
   transition: 150ms outline;
 
-  &:hover:not([aria-disabled="true"]) {
+  &:hover:has([aria-disabled="false"]) {
     outline: 1px solid token(colors.primary);
   }
 
