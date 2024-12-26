@@ -12,6 +12,8 @@ import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 import { OriginData, TerritoryData } from "@/services/data"
 
+import { CaptchaContainer } from "./TaxSimulatorForm.styled"
+
 import { Radio, Select } from "@/components/Inputs"
 import SubmitButton from "@/components/Buttons/SubmitButton"
 
@@ -114,17 +116,14 @@ export default function TaxSimulatorForm() {
           handleOnFocus: handleFocusInput,
         }}
       />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
+      <CaptchaContainer>
         <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
         <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
-      </div>
+      </CaptchaContainer>
       <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
-        {([canSubmit, isSubmitting]) => <SubmitButton {...{ canSubmit, isSubmitting }} />}
+        {([canSubmit, isSubmitting]) => (
+          <SubmitButton label="Rechercher" {...{ canSubmit, isSubmitting }} />
+        )}
       </Subscribe>
     </form>
   )

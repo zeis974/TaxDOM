@@ -1,5 +1,4 @@
 import type { FieldComponent } from "@tanstack/react-form"
-import type { OriginDataValue, TerritoryDataValue } from "@/services/types"
 
 export type TaxSimulatorInputType = "input" | "select" | "radio"
 
