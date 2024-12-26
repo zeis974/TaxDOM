@@ -11,6 +11,10 @@
 
 import limiter from "@adonisjs/limiter/services/main"
 
+export const calculateParcelThrottle = limiter.define("calculateParcel", () => {
+  return limiter.allowRequests(5).every("1 minute")
+})
+
 export const getProductsTaxesThrottle = limiter.define("getProductsTaxes", () => {
   return limiter.allowRequests(5).every("1 minute")
 })

@@ -5,6 +5,23 @@ export type ParcelSimulatorFormValues = {
     name: string
     price: number | undefined
   }>
-  store: string
+  deliveryPrice: number | undefined
   territory: string
+  transporter: string
+}
+
+export type ParcelSimulatorResult = {
+  isTaxesForPrivateCustomerApplicable: boolean
+  taxes: {
+    tva: number
+    om: number
+    omr: number
+  }
+  carrierFee: number
+  dutyPrice: number
+  totalTaxes: number
+  products: Array<{
+    name: string
+    price: number
+  }>
 }

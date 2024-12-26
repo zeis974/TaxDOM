@@ -1,15 +1,18 @@
-export type Territory =
-  | "CORSE" // Corse
-  | "FRANCE" // France continentale
-  | "GUADELOUPE" // Guadeloupe
-  | "GUYANE" // Guyane française
-  | "MARTINIQUE" // Martinique
-  | "MAYOTTE" // Mayotte
-  | "REUNION" // Réunion
+export const TerritoryData = [
+  "CORSE",
+  "FRANCE",
+  "GUADELOUPE",
+  "GUYANE",
+  "MARTINIQUE",
+  "MAYOTTE",
+  "REUNION",
+] as const
 
-export type Origin =
-  | "EU" // Union européenne
-  | "HORS_EU" // Hors Union européenne
+export type Territory = (typeof TerritoryData)[number]
+
+export const OriginData = ["EU", "HORS_EU"] as const
+
+export type Origin = (typeof OriginData)[number]
 
 export interface TaxSimulatorFormLabel extends Record<string, any> {
   product: string

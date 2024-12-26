@@ -32,3 +32,26 @@ export const TerritoryData = [
     available: true
   }
 ]
+
+export const TransporterData = [
+  {
+    name: "CHRONOPOST",
+    available: false
+  },
+  {
+    name: "COLISSIMO",
+    available: true
+  },
+  {
+    name: "DHL",
+    available: false
+  },
+  {
+    name: "FEDEX",
+    available: false
+  },
+  {
+    name: "UPS",
+    available: false
+  }
+]

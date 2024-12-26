@@ -1,6 +1,12 @@
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core"
 import { relations, sql } from "drizzle-orm"
 
+export const carriers = sqliteTable("carriers", {
+  carrierID: integer("carrier_id").primaryKey({ autoIncrement: true }),
+  carrierName: text("carrier_name").notNull(),
+  managementFee: integer("management_fee").notNull(),
+})
+
 export const categories = sqliteTable("categories", {
   categoryID: integer("category_id").notNull().primaryKey({ autoIncrement: true }),
   categoryName: text("category_name").notNull(),

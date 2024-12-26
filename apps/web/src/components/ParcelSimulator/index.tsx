@@ -2,22 +2,27 @@
 
 import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types"
 
-import { styled } from "@/panda/jsx"
 import { toast } from "sonner"
 import { Turnstile } from "@marsidev/react-turnstile"
 import { useForm } from "@tanstack/react-form"
-import { useRef } from "react"
+import { useRef, useState } from "react"
 
+import { OriginData, TerritoryData, TransporterData } from "@/services/data"
+import { calculateParcel } from "@/actions/calculateParcel"
+import { verifyTurnstile } from "@/lib/turnstile"
+import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
+
+import { Container, ParcelSimulatorSubmit } from "./ParcelSimulator.styled"
 import { Input, Radio, Select } from "@/components/Inputs"
 import ParcelSimulatorCards from "@/components/ParcelSimulator/ParcelSimulatorCards"
 import SubmitButton from "@/components/Buttons/SubmitButton"
 
-import { OriginData, TerritoryData } from "@/services/data"
-import { calculateParcel } from "@/actions/calculateParcel"
-import { verifyTurnstile } from "@/lib/turnstile"
-
 export default function ParcelSimulator() {
   const formRef = useRef<HTMLFormElement>(null)
+  const [captchaIsValid, setCaptchaIsValid] = useState(false)
+
+  const setHasResult = useParcelSimulatorStore((s) => s.setHasResult)
+  const setResult = useParcelSimulatorStore((s) => s.setResult)
 
   const { Field, handleSubmit, Subscribe } = useForm<ParcelSimulatorFormValues>({
     defaultValues: {
@@ -26,16 +31,21 @@ export default function ParcelSimulator() {
       products: [{ name: "", price: undefined }],
       deliveryPrice: undefined,
       territory: "REUNION", // For now we only support one territory
+      transporter: "",
     },
     onSubmit: async ({ value }) => {
-      const captchaIsValid = await verifyTurnstile(formRef)
+      const captchaValidation = await verifyTurnstile(formRef)
 
-      if (captchaIsValid) {
+      if (captchaValidation) {
         try {
+          setCaptchaIsValid(true)
           const data = await calculateParcel(value)
 
-          console.log(value)
+          setHasResult(true)
+          setResult({ products: value.products, ...data })
         } catch (err) {
+          setHasResult(false)
+          setCaptchaIsValid(false)
           toast.error("Une erreur est survenue", {
             description: "Impossible de contacter le serveur",
           })
@@ -47,7 +57,7 @@ export default function ParcelSimulator() {
       }
     },
     validators: {
-      onSubmitAsync: async ({ value }) => {
+      onSubmitAsync: async ({ value }: { value: ParcelSimulatorFormValues }) => {
         const hasOneProduct = value.products.length === 0
 
         if (hasOneProduct) {
@@ -66,7 +76,7 @@ export default function ParcelSimulator() {
   return (
     <Container>
       <div>
-        <h1>Simuler le coût d'un colis</h1>
+        <h1>Simuler le coût d&apos;un colis</h1>
         <hr />
         <form
           onSubmit={(e) => {
@@ -96,46 +106,31 @@ export default function ParcelSimulator() {
             label="Envoi entre particulier ?"
             options={["Oui", "Non"]}
           />
+          <Select
+            name="transporter"
+            {...{ Field }}
+            label="Transporteur"
+            placeholder="Colissimo"
+            staticOptions={TransporterData}
+          />
           <Input
             name="deliveryPrice"
             {...{ Field }}
-            label="Prix de livraison (HT)"
+            label="Prix de livraison € (HT)"
             placeholder="0"
             type="number"
           />
-          <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
-          <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
-            {([canSubmit, isSubmitting]) => <SubmitButton {...{ canSubmit, isSubmitting }} />}
-          </Subscribe>
+          <Turnstile id="captcha" siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
+          <ParcelSimulatorSubmit>
+            <Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
+              {([canSubmit, isSubmitting]) => (
+                <SubmitButton label="Calculer" {...{ canSubmit, isSubmitting }} />
+              )}
+            </Subscribe>
+          </ParcelSimulatorSubmit>
         </form>
       </div>
-      <ParcelSimulatorCards {...{ Field }} />
+      <ParcelSimulatorCards {...{ captchaIsValid, Field, Subscribe }} />
     </Container>
   )
 }
-
-const Container = styled.div`
-  display: flex;
-  color: token(colors.primary);
-  height: 100%;
-
-  & > div:first-child {
-    flex: 1;
-    height: 100%;
-    padding: 20px;
-    background: token(colors.secondaryBackground);
-    border-radius: 10px;
-
-    & h1 {
-      font-family: token(fonts.NotoSansBold);
-    }
-
-    & hr {
-      margin: 20px 0;
-    }
-  }
-
-  & > div:last-child {
-    flex: 2;
-  }
-`
