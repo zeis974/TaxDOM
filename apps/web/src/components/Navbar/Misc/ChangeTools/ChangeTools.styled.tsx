@@ -6,7 +6,6 @@ export const Container = styled.div`
   height: 45px;
   display: flex;
   flex-direction: row;
-  /* position: relative; */
 `
 export const CardContainer = styled.div`
   width: 100%;
@@ -81,7 +80,7 @@ export const ModalContainer = styled(m.div)`
   top: 55px;
   right: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   border-radius: 10px;
   background: token(colors.background);
   border: 2px solid token(colors.darkGray);
@@ -99,7 +98,12 @@ export const ModalCard = styled.div`
   outline: 1px solid transparent;
   transition: 150ms outline;
 
-  &:hover {
+  &:hover:not([aria-disabled="true"]) {
     outline: 1px solid token(colors.primary);
+  }
+
+  &[aria-disabled="true"] {
+    opacity: 0.2;
+    cursor: default;
   }
 `
