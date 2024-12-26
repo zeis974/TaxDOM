@@ -9,6 +9,7 @@ export const Container = styled.div`
 
   & > label {
     margin-bottom: 5px;
+    font-size: clamp(0.875rem, 0.8529rem + 0.0941vw, 1rem);
     font-weight: 600;
     user-select: none;
 

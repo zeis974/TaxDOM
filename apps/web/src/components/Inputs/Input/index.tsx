@@ -14,7 +14,7 @@ export default function Input<T>({
     <Field
       name={name}
       validators={{
-        onSubmit: ({ value }) => (!value ? "Champs requis" : null),
+        onSubmit: ({ value }: { value: string }) => (!value ? "Champs requis" : null),
       }}
     >
       {(field) => (

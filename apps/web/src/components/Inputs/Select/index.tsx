@@ -56,7 +56,7 @@ export default function GenericSelect<T>({
 
           return null
         },
-        onChange: ({ value }) => {
+        onChange: ({ value }: { value: string }) => {
           if (staticOptions) {
             for (const option of staticOptions) {
               if (value === option.name) {
@@ -72,7 +72,7 @@ export default function GenericSelect<T>({
           }
         },
         onChangeAsyncDebounceMs: 200,
-        onChangeAsync: async ({ value }) => {
+        onChangeAsync: async ({ value }: { value: string }) => {
           if (actions?.dynamic) {
             setLoading(true)
             const data = await searchProducts(value)
@@ -83,7 +83,7 @@ export default function GenericSelect<T>({
             }
 
             setOptions(data)
-            return null
+            return value === "" ? "Champs requis" : false
           }
         },
       }}
@@ -186,7 +186,7 @@ const Options = <T,>({
             return (
               <li
                 key={optionValue}
-                aria-selected={index === selectedIndex}
+                data-selected={index === selectedIndex}
                 data-available={option.available}
                 onClick={() => field.handleChange(optionValue)}
                 onKeyUp={() => field.handleChange(optionValue)}

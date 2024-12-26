@@ -4,10 +4,11 @@ import { LoadingIcon } from "@/components/Icons"
 export default function SubmitButton({
   canSubmit,
   isSubmitting,
-}: { canSubmit: boolean; isSubmitting: boolean }) {
+  label,
+}: { canSubmit: boolean; isSubmitting: boolean; label: string }) {
   return (
     <StyledButton type="submit" disabled={!canSubmit} aria-disabled={!canSubmit}>
-      {isSubmitting ? <LoadingIcon /> : "Rechercher"}
+      {isSubmitting ? <LoadingIcon /> : label}
     </StyledButton>
   )
 }

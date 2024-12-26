@@ -3,6 +3,7 @@ import { styled } from "@/panda/jsx"
 export const RadioContainer = styled.div`
   font-family: token(fonts.nativeFont);
   display: flex;
+  margin-bottom: 10px;
 
   & > div:first-of-type {
     display: flex;
