@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3.7.1
+        uses: docker/setup-buildx-action@v3
 
       - name: Cache turbo build setup
         uses: actions/cache@v4
@@ -98,6 +98,6 @@ jobs:
           script: |
             cd "$SECRET_DIR"
             echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
-            docker pull ghcr.io/${{ github.repository_owner }}/taxdom-web:latest 
+            docker pull ghcr.io/${{ github.repository_owner }}/taxdom-web:latest
             docker pull ghcr.io/${{ github.repository_owner }}/taxdom-api:latest
             docker stack deploy --detach -c compose.yml taxdom --with-registry-auth
