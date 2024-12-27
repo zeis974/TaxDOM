@@ -76,7 +76,12 @@ export default function ChangeTools() {
                 exit={{ opacity: 0 }}
               >
                 {availableTools.map((tool) => (
-                  <Link key={tool.name} href={tool.slug} onClick={() => setShowModal(false)}>
+                  <Link
+                    key={tool.name}
+                    href={tool.slug}
+                    onClick={() => setShowModal(false)}
+                    aria-disabled={tool.disabled}
+                  >
                     <ModalCard aria-disabled={tool.disabled}>
                       <ToolContent tool={tool} />
                     </ModalCard>

@@ -34,17 +34,17 @@ export default class GetProductTaxeController {
     try {
       const result = await db
         .select({
-          tva: Taxes.tva,
-          om: Taxes.om,
-          omr: Taxes.omr,
+          tva: taxes.tva,
+          om: taxes.om,
+          omr: taxes.omr,
         })
-        .from(ProductsTables)
-        .innerJoin(Taxes, eq(ProductsTables.taxID, Taxes.taxID))
+        .from(products)
+        .innerJoin(taxes, eq(products.taxID, taxes.taxID))
         .where(
           and(
-            eq(ProductsTables.productName, product),
-            eq(ProductsTables.originID, originMap[origin]),
-            eq(ProductsTables.territoryID, territoryMap[territory]),
+            eq(products.productName, product),
+            eq(products.originID, originMap[origin]),
+            eq(products.territoryID, territoryMap[territory]),
           ),
         )
 

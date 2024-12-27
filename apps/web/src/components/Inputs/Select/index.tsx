@@ -57,7 +57,7 @@ export default function GenericSelect<T>({
 
           return null
         },
-        onChange: ({ value }) => {
+        onChange: ({ value }: { value: string }) => {
           if (staticOptions) {
             for (const option of staticOptions) {
               if (value === option.name) {
@@ -73,7 +73,7 @@ export default function GenericSelect<T>({
           }
         },
         onChangeAsyncDebounceMs: 200,
-        onChangeAsync: async ({ value }) => {
+        onChangeAsync: async ({ value }: { value: string }) => {
           if (actions?.dynamic) {
             setLoading(true)
             const data = await searchProducts(value)
@@ -84,7 +84,7 @@ export default function GenericSelect<T>({
             }
 
             setOptions(data)
-            return null
+            return value === "" ? "Champs requis" : false
           }
         },
       }}
@@ -162,25 +162,21 @@ export default function GenericSelect<T>({
 
 const Options = <T,>({
   field,
-  loading,
   options,
   selectedIndex,
   setSelectedIndex,
   type,
   watch,
 }: OptionsProps<T>) => {
-  const filteredOptions =
-    type === "static" && options
-      ? options.filter((option) => {
-          const lowerCaseValue: string = field.state.value.toLowerCase()
+  if (!Array.isArray(options) || (options.length === 0 && type === "dynamic")) return null
 
-          const exactMatchFound =
-            lowerCaseValue && options.some((option) => option.name.toLowerCase() === lowerCaseValue)
-
-          const lowerCaseOption = option.name.toLowerCase()
-          return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
-        })
-      : options
+  const filteredOptions = options.filter((option) => {
+    const lowerCaseValue: string = field.state.value.toLowerCase()
+    const exactMatchFound =
+      lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
+    const lowerCaseOption = option.name.toLowerCase()
+    return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
+  })
 
   return (
     <>
@@ -191,7 +187,7 @@ const Options = <T,>({
             return (
               <li
                 key={optionValue}
-                aria-selected={index === selectedIndex}
+                data-selected={index === selectedIndex}
                 data-available={option.available}
                 onClick={() => field.handleChange(optionValue)}
                 onKeyUp={() => field.handleChange(optionValue)}

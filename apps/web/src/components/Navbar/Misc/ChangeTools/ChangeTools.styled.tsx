@@ -80,7 +80,7 @@ export const ModalContainer = styled(m.div)`
   top: 55px;
   right: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   border-radius: 10px;
   background: token(colors.background);
   border: 2px solid token(colors.darkGray);

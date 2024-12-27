@@ -11,6 +11,7 @@ import { getProductTaxes } from "@/actions/getProductTaxes"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 import { OriginData, TerritoryData } from "@/services/data"
+import { verifyTurnstile } from "@/lib/turnstile"
 
 import { CaptchaContainer } from "./TaxSimulatorForm.styled"
 
@@ -36,35 +37,39 @@ export default function TaxSimulatorForm() {
     onSubmit: async ({ value }) => {
       if (!formRef.current) return
 
-      const formData = new FormData(formRef.current)
-      const token = formData.get("cf-turnstile-response")
+      const captchaIsValid = await verifyTurnstile(formRef)
 
-      const res = await fetch("/api/verify", {
-        method: "POST",
-        body: JSON.stringify({ token }),
-        headers: {
-          "content-type": "application/json",
-        },
-      })
+      if (captchaIsValid) {
+        const formData = new FormData(formRef.current)
+        const token = formData.get("cf-turnstile-response")
 
-      const data = await res.json()
+        const res = await fetch("/api/verify", {
+          method: "POST",
+          body: JSON.stringify({ token }),
+          headers: {
+            "content-type": "application/json",
+          },
+        })
 
-      if (data.success || data["error-codes"]?.includes("timeout-or-duplicate")) {
-        try {
-          const data = await getProductTaxes(value)
+        const data = await res.json()
 
-          setHasResult(true)
-          setResult({ product: value.product, ...data })
-        } catch (err) {
-          setHasResult(false)
-          toast.error("Une erreur est survenue", {
-            description: "Impossible de contacter le serveur",
+        if (data.success || data["error-codes"]?.includes("timeout-or-duplicate")) {
+          try {
+            const data = await getProductTaxes(value)
+
+            setHasResult(true)
+            setResult({ product: value.product, ...data })
+          } catch (err) {
+            setHasResult(false)
+            toast.error("Une erreur est survenue", {
+              description: "Impossible de contacter le serveur",
+            })
+          }
+        } else {
+          toast.warning("Captcha invalide", {
+            description: "Veuillez valider le captcha",
           })
         }
-      } else {
-        toast.warning("Captcha invalide", {
-          description: "Veuillez valider le captcha",
-        })
       }
     },
   })
@@ -116,6 +121,15 @@ export default function TaxSimulatorForm() {
           handleOnFocus: handleFocusInput,
         }}
       />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+        }}
+      >
+        <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
+        <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
+      </div>
       <CaptchaContainer>
         <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
         <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
