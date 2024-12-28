@@ -121,15 +121,6 @@ export default function TaxSimulatorForm() {
           handleOnFocus: handleFocusInput,
         }}
       />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
-        <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
-        <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
-      </div>
       <CaptchaContainer>
         <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
         <Turnstile siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string} />
