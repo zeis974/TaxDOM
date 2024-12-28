@@ -16,9 +16,9 @@ export default function ParcelSimulatorResult() {
 
   if (!result) return null
 
-  const omrPrice = Math.round((result?.dutyPrice * result?.taxes.omr) / 100)
-  const omPrice = Math.round((result?.dutyPrice * result?.taxes.om) / 100)
-  const tvaPrice = Math.round((result?.dutyPrice * result?.taxes.tva) / 100)
+  const omrPrice = Math.round((result?.dutyPrice * result?.taxes?.omr) / 100)
+  const omPrice = Math.round((result?.dutyPrice * result?.taxes?.om) / 100)
+  const tvaPrice = Math.round((result?.dutyPrice * result?.taxes?.tva) / 100)
 
   const totalPrice = omrPrice + omPrice + tvaPrice + result?.carrierFee
 
@@ -101,24 +101,24 @@ export default function ParcelSimulatorResult() {
           <div>
             <div>
               <p title="TVA à l'importation">
-                <span>{`${result?.taxes.tva}%`}</span> TVA
+                <span>{`${result?.taxes?.tva}%`}</span> TVA
               </p>
             </div>
             <div>
               <p title="Octroi de mer régional">
-                <span>{`${result?.taxes.omr}%`}</span> OMR
+                <span>{`${result?.taxes?.omr}%`}</span> OMR
               </p>
             </div>
             <div>
               <p title="Octroi de mer">
-                <span>{`${result?.taxes.om}%`}</span> OM
+                <span>{`${result?.taxes?.om}%`}</span> OM
               </p>
             </div>
           </div>
         </TaxesInfo>
         <DutyInfo>
           <span>
-            Valeur en douane : <span>{result?.dutyPrice.toFixed(2)} €</span>
+            Valeur en douane : <span>{result?.dutyPrice?.toFixed(2)} €</span>
           </span>
           <p>
             La valeur en douane affichée comprend la valeur de la marchandise. Les frais de
