@@ -25,8 +25,8 @@ export default function ParcelSimulatorResult() {
   return (
     <Container>
       <Informations>
-        <TaxesInformations data-taxes={result?.isTaxesForPrivateCustomerApplicable}>
-          {result?.isTaxesForPrivateCustomerApplicable ? (
+        <TaxesInformations data-taxes={result?.taxesInfo?.applicable}>
+          {result?.taxesInfo?.applicable ? (
             <h1>
               Votre colis nécessite le règlement de droits et taxes de douane d'un montant de{" "}
               {`${totalPrice === result?.totalTaxes ? totalPrice : null}€`}
@@ -38,7 +38,7 @@ export default function ParcelSimulatorResult() {
           <div>
             <h3>Comprendre la taxation</h3>
             <div>
-              {result?.isTaxesForPrivateCustomerApplicable ? (
+              {result?.taxesInfo?.applicable ? (
                 <>
                   <div>
                     <p>
@@ -46,9 +46,15 @@ export default function ParcelSimulatorResult() {
                       <span>{omPrice} euros</span> euros d'OM et <span>{tvaPrice} euros</span> euros
                       de TVA.
                     </p>
-                    <p>
-                      La valeur du colis éxcede <span>400 euros</span>
-                    </p>
+                    {result?.taxesInfo?.privateCustomer ? (
+                      <p>
+                        La valeur du colis éxcede <span>400 euros</span>
+                      </p>
+                    ) : (
+                      <p>
+                        La valeur du colis éxcede <span>22 euros</span>
+                      </p>
+                    )}
                     <p>
                       Des <span>frais des gestions</span> de <span>{result?.carrierFee} euros</span>{" "}
                       vont seront prélevés pour le dédouanement de votre colis.
@@ -61,11 +67,18 @@ export default function ParcelSimulatorResult() {
                     Le colis provient de la <span>Métropole</span> ou d'un autre{" "}
                     <span>territoire de l'union européene</span>.
                   </p>
+                  {result?.taxesInfo?.privateCustomer && (
+                    <p>
+                      Envoyé entre <span>particuliers</span>
+                    </p>
+                  )}
                   <p>
-                    Envoyé entre <span>particuliers</span>
-                  </p>
-                  <p>
-                    La valeur du colis n'éxcede pas <span>400 euros</span>
+                    La valeur du colis n'éxcede pas
+                    {result?.taxesInfo?.privateCustomer ? (
+                      <span>400 euros</span>
+                    ) : (
+                      <span>22 euros</span>
+                    )}
                   </p>
                   <p>
                     Les frais sont prélevés seulement si des taxes sont dues. Si vous en êtes

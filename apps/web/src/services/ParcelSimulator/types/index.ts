@@ -11,15 +11,18 @@ export type ParcelSimulatorFormValues = {
 }
 
 export type ParcelSimulatorResult = {
-  isTaxesForPrivateCustomerApplicable: boolean
+  carrierFee: number
+  dutyPrice: number
+  totalTaxes: number
   taxes: {
     tva: number
     om: number
     omr: number
   }
-  carrierFee: number
-  dutyPrice: number
-  totalTaxes: number
+  taxesInfo: {
+    applicable: boolean
+    privateCustomer: boolean
+  }
   products: Array<{
     name: string
     price: number
