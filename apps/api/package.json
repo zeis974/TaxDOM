@@ -30,7 +30,7 @@
     "#database/*": "./database/*.js",
     "#start/*": "./start/*.js",
     "#tests/*": "./tests/*.js",
-    "#types/*": "./types/*.ts",
+    "#types/*": "./types/*.js",
     "#config/*": "./config/*.js"
   },
   "dependencies": {
