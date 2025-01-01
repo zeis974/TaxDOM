@@ -16,9 +16,9 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "eslint": "8.57.0",
+    "eslint": "9.17.0",
     "husky": "9.1.7",
-    "lint-staged": "15.2.11",
+    "lint-staged": "15.3.0",
     "turbo": "2.3.3",
     "typescript": "5.7.2"
   },
@@ -26,7 +26,7 @@
     "node": ">=20",
     "pnpm": ">=9"
   },
-  "packageManager": "pnpm@9.15.1",
+  "packageManager": "pnpm@9.15.2",
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
       "biome format --write --no-errors-on-unmatched"
