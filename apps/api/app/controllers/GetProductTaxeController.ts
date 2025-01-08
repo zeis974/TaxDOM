@@ -56,7 +56,12 @@ export default class GetProductTaxeController {
 
       logger.info("Fetching (%s) taxes in getProductTaxeController", product)
 
-      return result[0]
+      return {
+        product: product,
+        tva: result[0].tva,
+        om: result[0].om,
+        omr: result[0].omr,
+      }
     } catch (err) {
       logger.error({ err: err }, "Cannot getProductTaxes")
     }

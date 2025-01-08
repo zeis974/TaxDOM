@@ -1,3 +1,4 @@
+import type { OriginDataValue } from "@/services/types"
 import type { FieldComponent } from "@tanstack/react-form"
 
 export type TaxSimulatorInputType = "input" | "select" | "radio"
@@ -18,11 +19,11 @@ export interface TaxSimulatorRadiosProps extends TaxSimulatorInputsProps<string>
   options: Array<string>
 }
 
-export interface TaxSimulatorFormValues {
-  product: string
-  origin: string
-  territory: string
+interface TaxSimulatorFormValues {
   flux: "import" | "export"
+  origin: OriginDataValue
+  product: string
+  territory: string
 }
 
 export type TaxSimulatorFormLabel = keyof TaxSimulatorFormValues
@@ -33,5 +34,9 @@ export type TaxSimulatorResult = {
   tva: number
   om: number
   omr: number
-  errors?: [{ message: "Too many requests" }]
+  errors: [
+    {
+      message: string
+    },
+  ]
 }

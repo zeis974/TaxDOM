@@ -26,7 +26,7 @@ export default function TaxSimulatorResult() {
   const [price, setPrice] = useState(0)
   const result = useTaxSimulatorStore((s) => s.result)
 
-  const hasError = result?.errors?.[0].message
+  const hasError = result?.errors?.[0]?.message
 
   if (hasError === "Too many requests") {
     return (
