@@ -1,6 +1,6 @@
 "use client"
 
-import { type ReactNode, createContext, useContext, useRef } from "react"
+import { type ReactNode, createContext, use, useRef } from "react"
 import { type StoreApi, useStore } from "zustand"
 
 import {
@@ -17,20 +17,18 @@ export interface ParcelSimulatorStoreProviderProps {
 }
 
 export const ParcelSimulatorStoreProvider = ({ children }: ParcelSimulatorStoreProviderProps) => {
-  const storeRef = useRef<StoreApi<ParcelSimulatorStore>>()
+  const storeRef = useRef<StoreApi<ParcelSimulatorStore>>(undefined)
   if (!storeRef.current) {
     storeRef.current = createParcelSimulatorStore()
   }
 
   return (
-    <ParcelSimulatorStoreContext.Provider value={storeRef.current}>
-      {children}
-    </ParcelSimulatorStoreContext.Provider>
+    <ParcelSimulatorStoreContext value={storeRef.current}>{children}</ParcelSimulatorStoreContext>
   )
 }
 
 export const useParcelSimulatorStore = <T,>(selector: (store: ParcelSimulatorStore) => T): T => {
-  const parcelSimulatorStoreContext = useContext(ParcelSimulatorStoreContext)
+  const parcelSimulatorStoreContext = use(ParcelSimulatorStoreContext)
 
   if (!parcelSimulatorStoreContext) {
     throw new Error(`${selector.name} must be used within ParcelSimulatorStoreProvider`)
