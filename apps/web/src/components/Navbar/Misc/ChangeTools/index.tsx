@@ -1,7 +1,7 @@
 "use client"
 
 import { type ElementRef, useRef, useState } from "react"
-import { AnimatePresence } from "framer-motion"
+import { AnimatePresence } from "motion/react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 

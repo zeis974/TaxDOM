@@ -2,7 +2,8 @@ import type { OptionsProps, SelectProps } from "./types"
 import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
 import { useRef, useState } from "react"
-import { AnimatePresence, m } from "framer-motion"
+import { AnimatePresence } from "motion/react"
+import * as m from "motion/react-m"
 
 import { searchProducts } from "@/actions/searchProducts"
 

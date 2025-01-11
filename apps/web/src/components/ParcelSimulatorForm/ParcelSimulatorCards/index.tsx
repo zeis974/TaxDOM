@@ -1,7 +1,7 @@
 import type { FieldComponent, FormState } from "@tanstack/react-form"
 import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types"
 
-import { AnimatePresence } from "framer-motion"
+import { AnimatePresence } from "motion/react"
 import { memo } from "react"
 import { useFormStatus } from "react-dom"
 

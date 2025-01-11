@@ -1,7 +1,7 @@
 "use client"
 
-import { AnimatePresence } from "framer-motion"
 import { type ElementRef, useEffect, useRef, useState } from "react"
+import { AnimatePresence } from "motion/react"
 
 import { SearchBar, SearchShortcut } from "./Search.styled"
 

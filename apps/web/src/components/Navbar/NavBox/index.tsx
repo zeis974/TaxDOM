@@ -1,5 +1,5 @@
-import * as m from "framer-motion/m"
-import { easeOut } from "framer-motion"
+import * as m from "motion/react-m"
+import { easeOut } from "motion/react"
 
 import { Backdrop, Container } from "./NavBox.styled"
 
