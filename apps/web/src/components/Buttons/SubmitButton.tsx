@@ -1,14 +1,13 @@
 import { styled } from "@/panda/jsx"
 import { LoadingIcon } from "@/components/Icons"
+import { useFormStatus } from "react-dom"
 
-export default function SubmitButton({
-  canSubmit,
-  isSubmitting,
-  label,
-}: { canSubmit: boolean; isSubmitting: boolean; label: string }) {
+export default function SubmitButton({ canSubmit, label }: { canSubmit: boolean; label: string }) {
+  const { pending } = useFormStatus()
+
   return (
     <StyledButton type="submit" disabled={!canSubmit} aria-disabled={!canSubmit}>
-      {isSubmitting ? <LoadingIcon /> : label}
+      {pending ? <LoadingIcon /> : label}
     </StyledButton>
   )
 }

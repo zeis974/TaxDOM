@@ -3,11 +3,12 @@ export type ParcelSimulatorFormValues = {
   origin: string
   products: Array<{
     name: string
-    price: number | undefined
+    price: number
   }>
-  deliveryPrice: number | undefined
+  deliveryPrice: number
   territory: string
   transporter: string
+  "cf-turnstile-response": string
 }
 
 export type ParcelSimulatorResult = {

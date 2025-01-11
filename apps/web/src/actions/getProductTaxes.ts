@@ -1,20 +1,66 @@
 "use server"
 
-import type { TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
+import { ServerValidateError, createServerValidate } from "@tanstack/react-form/nextjs"
 
-export async function getProductTaxes(value: TaxSimulatorFormValues) {
-  const data = await fetch(`${process.env.API_URL}/products/taxes`, {
+import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
+import { formTaxSimulatorOpts } from "@/lib/form"
+import type { TaxSimulatorResult } from "@/services/TaxSimulator/types"
+
+const serverValidate = createServerValidate({
+  ...formTaxSimulatorOpts,
+  onServerValidate: ({ value }) => {
+    if (value.territory !== "REUNION") {
+      return "For now we only support one territory"
+    }
+
+    if (value["cf-turnstile-response"] === "") {
+      return "Please validate the captcha"
+    }
+  },
+})
+
+export default async function getProductTaxes(prev: unknown, formData: FormData) {
+  const value = {
+    product: formData.get("product") as string,
+    origin: formData.get("origin") as string,
+    territory: formData.get("territory") as string,
+    token: formData.get("cf-turnstile-response") as string,
+  }
+
+  try {
+    await serverValidate(formData)
+    await validateTurnstileCaptcha(value.token)
+  } catch (e) {
+    if (e instanceof ServerValidateError) {
+      return {
+        errors: [
+          {
+            message: e.formState.errors[0],
+          },
+        ],
+      }
+    }
+
+    throw e
+  }
+
+  const response = await fetch(`${process.env.API_URL}/products/taxes`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${process.env.API_KEY}`,
     },
     body: JSON.stringify(value),
-  }).then((res) => res.json())
+  })
 
-  if (data.errors) {
-    // Logs errors
+  if (!response.ok) {
+    const error = await response.json()
+    return error
   }
 
-  return data
+  const data: TaxSimulatorResult = await response.json()
+
+  return {
+    ...data,
+  }
 }
