@@ -19,11 +19,12 @@ export interface TaxSimulatorRadiosProps extends TaxSimulatorInputsProps<string>
   options: Array<string>
 }
 
-interface TaxSimulatorFormValues {
+export interface TaxSimulatorFormValues {
   flux: "import" | "export"
   origin: OriginDataValue
   product: string
   territory: string
+  "cf-turnstile-response": string
 }
 
 export type TaxSimulatorFormLabel = keyof TaxSimulatorFormValues

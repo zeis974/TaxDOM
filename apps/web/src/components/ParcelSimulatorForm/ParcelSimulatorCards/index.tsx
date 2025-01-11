@@ -3,6 +3,7 @@ import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types
 
 import { AnimatePresence } from "framer-motion"
 import { memo } from "react"
+import { useFormStatus } from "react-dom"
 
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
@@ -10,7 +11,7 @@ import { Card, ParcelContent, Container, Loading } from "./ParcelSimulatorCards.
 
 import { AddIcon, TaxDOMLogo } from "@/components/Icons"
 import { Input, Select } from "@/components/Inputs"
-import ParcelSimulatorResult from "@/components/ParcelSimulator/ParcelSimulatorResult"
+import ParcelSimulatorResult from "@/components/ParcelSimulatorForm/ParcelSimulatorResult"
 
 type SubscribeType<TFormData> = <TSelected = NoInfer<FormState<TFormData>>>(props: {
   selector?: (state: FormState<TFormData>) => TSelected
@@ -18,14 +19,16 @@ type SubscribeType<TFormData> = <TSelected = NoInfer<FormState<TFormData>>>(prop
 }) => React.ReactNode
 
 const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
-  captchaIsValid,
   Field,
   Subscribe,
 }: {
-  captchaIsValid: boolean
   Field: FieldComponent<any, undefined>
   Subscribe: SubscribeType<ParcelSimulatorFormValues>
 }) {
+  const { pending } = useFormStatus()
+
+  console.log(pending)
+
   const hasResult = useParcelSimulatorStore((s) => s.hasResult)
 
   return (
@@ -53,7 +56,7 @@ const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
             )
           }}
         </Subscribe>
-      </ParcelContent>{" "}
+      </ParcelContent>
       <Field name="products" mode="array">
         {(field) => {
           return (
@@ -83,7 +86,7 @@ const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
                 </Card>
               ))}
               <button
-                onClick={() => field.pushValue({ name: "", price: undefined as unknown })}
+                onClick={() => field.pushValue({ name: "", price: "" as unknown as number })}
                 type="button"
                 disabled={field.state.value.length === 10}
               >
@@ -97,7 +100,7 @@ const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
       <Subscribe selector={(s) => [s.isFieldsValid, s.isSubmitting]}>
         {([isFieldsValid, isSubmitting]) => (
           <AnimatePresence>
-            {captchaIsValid && isFieldsValid && isSubmitting ? (
+            {isFieldsValid && isSubmitting ? (
               <Loading
                 key="loading"
                 initial={{ opacity: 0 }}
@@ -114,7 +117,6 @@ const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
         )}
       </Subscribe>
       {hasResult && <ParcelSimulatorResult />}
-      {/* <ParcelSimulatorResult /> */}
     </Container>
   )
 })
