@@ -1,7 +1,9 @@
+"use client"
+
 import Link from "next/link"
+import { styled } from "@/panda/jsx"
 
 import { SettingIcon } from "@/components/Icons"
-import { styled } from "@/panda/jsx"
 
 export default function SettingsButton() {
   return (
