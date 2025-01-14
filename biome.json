@@ -16,6 +16,9 @@
     "rules": {
       "suspicious": {
         "noExplicitAny": "warn"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "off"
       }
     }
   },

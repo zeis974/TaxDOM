@@ -1,6 +1,5 @@
 export default function ParcelIcon() {
   return (
-    // biome-ignore lint/a11y/noSvgWithoutTitle: No need title
     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none">
       <rect width="30" height="30" fill="url(#a)" rx="6" />
       <path

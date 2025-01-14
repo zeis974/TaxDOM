@@ -1,6 +1,5 @@
 export default function MagicIcon() {
   return (
-    // biome-ignore lint/a11y/noSvgWithoutTitle: No need title
     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="30" height="30" rx="6" fill="#FF0000" />
       <path
