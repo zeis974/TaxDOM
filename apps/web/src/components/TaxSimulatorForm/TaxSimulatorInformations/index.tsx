@@ -1,5 +1,4 @@
 "use client"
-
 import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
 import * as m from "motion/react-m"
@@ -26,7 +25,7 @@ const ProductLayer = () => {
   )
 }
 
-const layerMap: Record<string, JSX.Element> = {
+const layerMap: Record<string, React.JSX.Element> = {
   product: <ProductLayer />,
   territory: <MapsIllustration />,
   origin: <MapsIllustration />,

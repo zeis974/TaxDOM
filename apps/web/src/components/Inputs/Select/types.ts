@@ -1,4 +1,5 @@
 import type { FieldApi, FieldComponent } from "@tanstack/react-form"
+import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
 interface Option {
   error?: string
@@ -18,10 +19,10 @@ export interface OptionsProps<T> {
 
 export interface SelectProps<T> {
   Field: FieldComponent<any, undefined>
-  watch?: (value: T) => void
+  watch?: (value: string) => void
   actions?: {
     dynamic?: boolean
-    handleOnFocus?: (name: T) => void
+    handleOnFocus?: (name: TaxSimulatorFormLabel) => void
   }
   label: string
   name: string

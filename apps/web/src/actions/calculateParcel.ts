@@ -27,6 +27,7 @@ export default async function calculateParcel(prev: unknown, formData: FormData)
       const index = Number.parseInt(match[1], 10)
       const field = match[2] as keyof ParcelSimulatorFormValues["products"][number]
       products[index] = products[index] || ({} as ParcelSimulatorFormValues["products"][number])
+      // @ts-ignore
       products[index][field] = value
     }
   })
