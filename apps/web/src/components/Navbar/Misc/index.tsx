@@ -1,12 +1,10 @@
 import { styled } from "@/panda/jsx"
 
-import ChangeTools from "@/components/Navbar/Misc/ChangeTools"
 import SettingsButton from "@/components/Settings/SettingsButton"
 
 export default function Misc() {
   return (
     <Container>
-      <ChangeTools />
       <SettingsButton />
     </Container>
   )
