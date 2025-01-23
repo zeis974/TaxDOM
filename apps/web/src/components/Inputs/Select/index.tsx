@@ -1,15 +1,16 @@
 import type { OptionsProps, SelectProps } from "./types"
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
 
 import { useRef, useState } from "react"
-import { AnimatePresence, m } from "framer-motion"
+import { AnimatePresence } from "motion/react"
+import * as m from "motion/react-m"
 
 import { searchProducts } from "@/actions/searchProducts"
 
 import { Container } from "../Input/Input.styled"
 import { LoadingCircle, OptionContainer } from "../Select/Select.styled"
 
-export default function GenericSelect<T>({
+export default function GenericSelect<T extends keyof TaxSimulatorFormValues>({
   Field,
   actions,
   label,

@@ -1,5 +1,5 @@
 import { styled } from "@/panda/jsx"
-import * as m from "framer-motion/m"
+import * as m from "motion/react-m"
 
 export const Container = styled.div`
   width: 255px;

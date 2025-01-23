@@ -1,4 +1,4 @@
-import * as m from "framer-motion/m"
+import * as m from "motion/react-m"
 import { styled } from "@/panda/jsx"
 
 export const Container = styled.div`
@@ -6,6 +6,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  height: 100%;
   gap: 20px;
   margin: 0 20px;
   overflow-y: auto;
@@ -57,7 +58,7 @@ export const ParcelContent = styled.div`
   width: 100%;
   top: 0;
   position: sticky;
-  z-index: 2;
+  z-index: 1;
   background: token(colors.tertiaryBackground);
   padding: 10px;
   border-radius: 10px;
@@ -99,6 +100,7 @@ export const Loading = styled(m.div)`
   height: 100%;
   text-align: center;
   border-radius: 10px;
+  z-index: 2;
 
   & > div {
     position: relative;    

@@ -1,11 +1,9 @@
 export default function ChevronIcon() {
   return (
-    // biome-ignore lint/a11y/noSvgWithoutTitle: No need title
-    <svg width="40" height="20" viewBox="0 0 19 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="18" height="18" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
-        id="Vector 1"
-        d="M15.5021 1H2.93013C0.924222 1 0.167036 3.62369 1.8645 4.69246L8.39224 8.80252C9.06509 9.22617 9.92499 9.21101 10.5825 8.76391L16.6267 4.65385C18.2552 3.54647 17.4714 1 15.5021 1Z"
-        stroke="currentColor"
+        d="M3.51501 8.465L12 16.95L20.485 8.465L19.071 7.05L12 14.122L4.92901 7.05L3.51501 8.465Z"
+        fill="currentColor"
       />
     </svg>
   )

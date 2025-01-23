@@ -1,7 +1,7 @@
 "use client"
 
-import { type ElementRef, useRef, useState } from "react"
-import { AnimatePresence } from "framer-motion"
+import { useRef, useState, type JSX } from "react"
+import { AnimatePresence } from "motion/react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 
@@ -53,7 +53,7 @@ export default function ChangeTools() {
   const pathname = usePathname()
   const [showModal, setShowModal] = useState(false)
   const currentTool = tools.find((tool) => tool.slug === pathname)
-  const ref = useRef<ElementRef<"div">>(null)
+  const ref = useRef<HTMLDivElement>(null)
 
   useOutsideClick(ref, () => setShowModal(false))
 

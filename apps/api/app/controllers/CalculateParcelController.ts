@@ -79,15 +79,16 @@ export default class CalculateParcelController {
     const totalTaxes = omrPrice + omPrice + tvaPrice + carrier[0].carrierPrice
 
     const result = {
+      carrierFee: carrier[0].carrierPrice,
+      dutyPrice: dutyPrice,
+      products: products,
       taxes: {
         tva: tva,
         om: om,
         omr: omr,
       },
-      carrierFee: carrier[0].carrierPrice,
-      dutyPrice: dutyPrice,
-      totalTaxes: totalTaxes,
       taxesInfo: isTaxesApplicable(),
+      totalTaxes: totalTaxes,
     }
 
     return result

@@ -1,6 +1,6 @@
 import type { OriginData, TerritoryData } from "../data"
 
-type OriginDataType = typeof OriginData
+type OriginDataType = (typeof OriginData)[number]["name"]
 export type OriginDataValue = (typeof OriginData)[number]["name"]
 
 type TerritoryDataType = typeof TerritoryData

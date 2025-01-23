@@ -1,4 +1,4 @@
-declare global {
+declare module "react" {
   namespace JSX {
     interface IntrinsicElements {
       "tool-tip": React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>

@@ -1,9 +1,8 @@
 "use client"
-
 import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
-import * as m from "framer-motion/m"
-import { AnimatePresence } from "framer-motion"
+import * as m from "motion/react-m"
+import { AnimatePresence } from "motion/react"
 import Link from "next/link"
 import { styled } from "@/panda/jsx"
 
@@ -26,7 +25,7 @@ const ProductLayer = () => {
   )
 }
 
-const layerMap: Record<string, JSX.Element> = {
+const layerMap: Record<string, React.JSX.Element> = {
   product: <ProductLayer />,
   territory: <MapsIllustration />,
   origin: <MapsIllustration />,

@@ -1,6 +1,6 @@
 import { styled } from "@/panda/jsx"
 
-import ParcelSimulator from "@/components/ParcelSimulator"
+import ParcelSimulator from "@/components/ParcelSimulatorForm"
 
 export default function ParcelSimulatorService() {
   return (
