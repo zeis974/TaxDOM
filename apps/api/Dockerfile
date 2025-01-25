@@ -31,7 +31,7 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN pnpm turbo build --filter=@taxdom/api...
+RUN pnpm turbo build
 
 FROM base AS deploy
 WORKDIR /app

@@ -36,7 +36,7 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 COPY turbo.json turbo.json
 
 RUN --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
-    pnpm turbo build --filter=@taxdom/app...
+    pnpm turbo build
 
 FROM base AS runner
 WORKDIR /app
