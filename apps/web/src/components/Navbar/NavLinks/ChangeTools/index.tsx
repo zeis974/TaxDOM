@@ -17,19 +17,19 @@ type Tools = {
 const tools: Tools[] = [
   {
     name: "Rechercher les taux",
-    description: "Rechercher les taux de taxes sur un produit",
+    description: "Affiche les taux de taxes applicables à un produit",
     icon: <TaxIcon />,
     slug: "/",
   },
   {
     name: "Simuler le cout d'un colis",
-    description: "Simuler le cout final d'un colis composé de plusieurs articles",
+    description: "Affiche le taux de taxes applicables à un colis",
     icon: <ParcelIcon />,
     slug: "/simulator",
   },
   {
     name: "MagicURL",
-    description: "Connnaitre les taxes d'un produit avec un lien",
+    description: "Un lien, un produit, une taxe",
     icon: <MagicIcon />,
     slug: "", // /magicURL
     disabled: true,

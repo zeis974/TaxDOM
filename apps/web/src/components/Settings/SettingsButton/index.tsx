@@ -14,7 +14,7 @@ export default function SettingsButton() {
 }
 
 export const StyledLink = styled(Link)`
-  display: inherit;
+  display: flex;
   align-items: center;
   height: 45px;
   padding: 5px;

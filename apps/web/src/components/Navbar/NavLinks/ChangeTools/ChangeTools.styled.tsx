@@ -18,11 +18,11 @@ export const Container = styled(m.div)`
     height: 100px;
   }
 
-  & a:first-child div {
+  & a:first-child > div {
     border-radius: 10px 10px 0 0;
   }
 
-  & a:last-child div {
+  & a:last-child > div {
     border-radius: 0 0 10px 10px;
   }
 `
@@ -45,12 +45,17 @@ export const CardContainer = styled.div`
     background: whitesmoke;
   }
 
-  & h3 {
-    margin-bottom: 5px;
-  }
-
-  & p {
+  & > div:last-of-type {
+    height: 40px;
     line-height: 1;
-    color: gray;
+
+    & h3 {
+      margin-bottom: 3px;
+    }
+    
+    & p {
+      line-height: 1;
+      color: gray;
+    }
   }
 `
