@@ -3,13 +3,15 @@ import Link from "next/link"
 import { Nav } from "./Navbar.styled"
 
 import Misc from "@/components/Navbar/Misc"
-import Search from "@/components/Navbar/Search"
+import NavLinks from "@/components/Navbar/NavLinks"
 
 export default function Navbar() {
   return (
     <Nav>
-      <Link href="/">TaxDOM</Link>
-      <Search />
+      <div>
+        <Link href="/">TaxDOM</Link>
+        <NavLinks />
+      </div>
       <Misc />
     </Nav>
   )

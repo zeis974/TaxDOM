@@ -14,6 +14,7 @@ export const RadioContainer = styled.div`
       display: inline-flex;
       overflow: hidden;
       width: fit-content;
+      padding: 2px;
       height: 40px;
       border: 2px solid #585858; 
       border-radius: 5px;
@@ -39,6 +40,7 @@ export const RadioContainer = styled.div`
           &:checked + label {
             transition: background 250ms;
             background: #6a6a6a;
+            border-radius: 2px;
           }
 
           &[disabled] + label {

@@ -1,6 +1,6 @@
 export default function TaxIcon() {
   return (
-    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="30" height="30" rx="6" fill="url(#paint0_linear_357_560)" />
       <rect width="24" height="24" transform="translate(3 3)" fill="url(#paint1_linear_357_560)" />
       <path

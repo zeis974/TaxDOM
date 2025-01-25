@@ -63,10 +63,6 @@ export default function TaxSimulatorForm() {
     if (!hasResult) setFocusInput(name)
   }
 
-  function test() {
-    return console.log("test")
-  }
-
   return (
     <form
       action={action}

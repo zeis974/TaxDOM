@@ -1,6 +1,6 @@
 export default function MagicIcon() {
   return (
-    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="30" height="30" rx="6" fill="#FF0000" />
       <path
         d="M17.5776 11.3415C17.1246 11.7944 16.7537 12.1849 16.7537 12.2044C16.7537 12.2279 16.8591 12.3489 16.988 12.4778L17.2222 12.7121L18.1789 11.7554C18.7061 11.2282 19.1356 10.787 19.1356 10.7714C19.1356 10.7518 18.9989 10.7011 18.5069 10.5449C18.4132 10.5175 18.3468 10.5722 17.5776 11.3415Z"

@@ -58,7 +58,6 @@ export const ParcelContent = styled.div`
   width: 100%;
   top: 0;
   position: sticky;
-  z-index: 1;
   background: token(colors.tertiaryBackground);
   padding: 10px;
   border-radius: 10px;
