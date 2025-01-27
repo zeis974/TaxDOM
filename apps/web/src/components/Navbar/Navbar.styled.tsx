@@ -28,13 +28,4 @@ export const Nav = styled.nav`
       }  
     }
   }
-  /* max-width: token(sizes.maxScreen);
-  margin: 0 auto;
-  padding: 0 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  top: 0;
-  background: token(colors.background); */
 `

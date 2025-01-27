@@ -26,7 +26,7 @@ export default function NavLinks() {
       showChangeTools: true,
     },
     {
-      name: "Articles",
+      name: "Blog",
       href: "/blog",
     },
     {
@@ -54,7 +54,6 @@ export default function NavLinks() {
                     ref={navRef}
                     onMouseEnter={() => setShow(true)}
                     onMouseLeave={handleMouseLeave}
-                    style={{ zIndex: 2 }}
                   >
                     <span>
                       {link.name} {link.icons}

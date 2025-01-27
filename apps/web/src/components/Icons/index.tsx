@@ -6,7 +6,6 @@ import ListIcon from "./ListIcon"
 import LoadingIcon from "./LoadingIcon"
 import MagicIcon from "./MagicIcon"
 import ParcelIcon from "./ParcelIcon"
-import SearchIcon from "./SearchIcon"
 import SettingIcon from "./SettingsIcon"
 import ShareIcon from "./ShareIcon"
 import TaxIcon from "./TaxIcon"
@@ -21,7 +20,6 @@ export {
   LoadingIcon,
   MagicIcon,
   ParcelIcon,
-  SearchIcon,
   SettingIcon,
   ShareIcon,
   TaxIcon,
