@@ -1,0 +1,106 @@
+<script is:inline>
+    (() => {
+      const savedTheme = localStorage.getItem("theme") || "system";
+      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      const theme = savedTheme === "system" ? systemTheme : savedTheme;
+  
+      document.documentElement.setAttribute("data-theme", theme);
+    })()
+  </script>
+  
+  <div class="theme-switcher">
+    <span>☀️</span>
+    <input type="checkbox" id="themeToggle" class="theme-checkbox" />
+    <span>🌜</span>
+  </div>
+  
+  <style>
+    .theme-switcher {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: Arial, sans-serif;
+    }
+  
+    .theme-label {
+      font-weight: bold;
+    }
+  
+    .theme-checkbox {
+      position: relative;
+      width: 50px;
+      height: 25px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: #ccc;
+      outline: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+  
+    .theme-checkbox:checked {
+      background: #4caf50;
+    }
+  
+    .theme-checkbox:before {
+      content: "";
+      position: absolute;
+      width: 21px;
+      height: 21px;
+      top: 2px;
+      left: 2px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+    }
+  
+    .theme-checkbox:checked:before {
+      transform: translateX(25px);
+    }
+  </style>
+  
+  <script>
+    const applyTheme = (theme: string) => {
+      const element = document.documentElement;
+  
+      if (theme === "dark") {
+        element.setAttribute("data-theme", "dark");
+      } else if (theme === "light") {
+        element.setAttribute("data-theme", "light");
+      } else {
+        element.removeAttribute("data-theme");
+      }
+  
+      localStorage.setItem("theme", theme);
+    };
+  
+    const getSystemTheme = () =>
+      window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  
+    const initThemeSwitcher = () => {
+      const themeToggle = document.getElementById("themeToggle") as HTMLInputElement
+      const savedTheme = localStorage.getItem("theme") || "system";
+      const initialTheme = savedTheme === "system" ? getSystemTheme() : savedTheme;
+  
+      applyTheme(initialTheme);
+  
+      themeToggle.checked = initialTheme === "dark";
+  
+      themeToggle.addEventListener("change", () => {
+        const newTheme = themeToggle.checked ? "dark" : "light";
+        applyTheme(newTheme);
+      });
+  
+      window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+        const systemTheme = e.matches ? "dark" : "light";
+        if (localStorage.getItem("theme") === "system") {
+          applyTheme(systemTheme);
+          themeToggle.checked = systemTheme === "dark";
+        }
+      });
+    };
+  
+    document.addEventListener("DOMContentLoaded", initThemeSwitcher);
+  </script>
+  

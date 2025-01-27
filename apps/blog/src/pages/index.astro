@@ -1,0 +1,13 @@
+---
+import "../index.css"
+
+import Layout from "../layouts/Layout.astro"
+import Navbar from "../components/Navbar/index"
+import ThemeSwitcher from "../components/ThemeSwitcher.astro"
+---
+
+<Layout>
+	<Navbar client:load>
+	  <ThemeSwitcher slot="themeSelector" />
+	</Navbar>
+</Layout>
