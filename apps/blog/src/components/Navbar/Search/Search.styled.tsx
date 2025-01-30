@@ -1,7 +1,7 @@
 import { styled } from "@/panda/jsx"
 
 export const SearchBar = styled.div`
-  width: 600px;
+  width: 400px;
   height: 50px;
   position: relative;
   display: inline-flex; 
@@ -10,7 +10,6 @@ export const SearchBar = styled.div`
   & > input {
     width: 100%;
     height: 100%;
-    z-index: 2;
     color: token(colors.primary);
     background: token(colors.darkGray);
     border-radius: 5px;
@@ -23,10 +22,9 @@ export const SearchBar = styled.div`
 export const SearchShortcut = styled.div`
   width: 68.5px;
   height: 40px;
-  z-index: 2;
   color: white;
   position: absolute;
-  font-family: token(fonts.Rowdies);
+  font-family: "Rowdies", serif;
   right: 0;
   border-radius: 2px;
   margin: 5px;
