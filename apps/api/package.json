@@ -10,7 +10,7 @@
     "dev": "node ace serve --hmr",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "db:generate": "drizzle-kit generate",
+    "db:generate": "drizzle-kit generate && pnpx @better-auth/cli generate --config config/auth.ts --output database/auth-schema.ts --y",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push"
   },
@@ -42,6 +42,7 @@
     "@libsql/client": "0.14.0",
     "@vinejs/vine": "3.0.0",
     "drizzle-orm": "0.38.4",
+    "better-auth": "1.1.17",
     "luxon": "3.5.0",
     "reflect-metadata": "0.2.2"
   },

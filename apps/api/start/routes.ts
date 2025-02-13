@@ -15,6 +15,7 @@ import {
   searchProductsNameThrottle,
 } from "#start/limiter"
 
+const AuthController = () => import("#controllers/AuthController")
 const CalculateParcelController = () => import("#controllers/CalculateParcelController")
 const GetProductTaxeController = () => import("#controllers/GetProductTaxeController")
 const SearchProductsNameController = () => import("#controllers/SearchProductsNameController")
@@ -25,4 +26,6 @@ router
     router.post("/products/taxes", [GetProductTaxeController]).use([getProductsTaxesThrottle])
     router.post("/simulator/parcel", [CalculateParcelController]).use([calculateParcelThrottle])
   })
-  .use([middleware.auth()])
+  .use([middleware.bodyParser(), middleware.auth()])
+
+router.any("/auth/*", [AuthController])
