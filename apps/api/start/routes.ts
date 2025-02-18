@@ -26,6 +26,6 @@ router
     router.post("/products/taxes", [GetProductTaxeController]).use([getProductsTaxesThrottle])
     router.post("/simulator/parcel", [CalculateParcelController]).use([calculateParcelThrottle])
   })
-  .use([middleware.bodyParser(), middleware.auth()])
+  .use([middleware.auth(), middleware.bodyparser()])
 
 router.any("/auth/*", [AuthController])

@@ -38,7 +38,7 @@ server.use([
  * the routes or the routes group.
  */
 export const middleware = router.named({
-  auth: () => import("#middleware/auth"),
-  bodyParser: () => import("@adonisjs/core/bodyparser_middleware"),
   auth: () => import("#middleware/api_auth_middleware"),
+  cors: () => import("@adonisjs/cors/cors_middleware"),
+  bodyparser: () => import("@adonisjs/core/bodyparser_middleware"),
 })
