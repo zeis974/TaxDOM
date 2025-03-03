@@ -63,8 +63,8 @@
     "boundaries": ["./app/controllers/**/*.ts", "./app/middleware/*.ts"]
   },
   "engines": {
-    "node": ">=20",
-    "pnpm": ">=9"
+    "node": ">=22",
+    "pnpm": ">=10"
   },
   "packageManager": "pnpm@10.5.2"
 }
