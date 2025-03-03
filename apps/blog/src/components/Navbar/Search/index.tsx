@@ -1,12 +1,7 @@
-"use client"
-
-import { AnimatePresence } from "motion/react"
 import { useEffect, useRef, useState } from "react"
 
 import { SearchBar, SearchShortcut } from "./Search.styled"
-
 import { SearchIcon } from "@/components/Icons"
-import NavBox from "@/components/Navbar/NavBox"
 
 export default function Search() {
   const inputRef = useRef<HTMLInputElement>(null)
@@ -47,7 +42,6 @@ export default function Search() {
       <SearchShortcut data-focus={showSearch}>
         {showSearch ? <SearchIcon /> : <span>Ctrl + k</span>}
       </SearchShortcut>
-      <AnimatePresence>{showSearch && <NavBox />}</AnimatePresence>
     </SearchBar>
   )
 }
