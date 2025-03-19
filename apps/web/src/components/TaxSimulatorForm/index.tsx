@@ -3,21 +3,20 @@
 import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
 import { initialFormState } from "@tanstack/react-form/nextjs"
-import { mergeForm, useForm, useTransform } from "@tanstack/react-form"
-import { toast } from "sonner"
+import { mergeForm, useTransform } from "@tanstack/react-form"
 import { useActionState, useEffect } from "react"
+import { toast } from "sonner"
 
 import getProductTaxes from "@/actions/getProductTaxes"
+import { formOpts, useAppForm } from "@/hooks/form"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 import Turnstile from "@/lib/Turnstile"
-import { formTaxSimulatorOpts } from "@/lib/form"
 
 import { OriginData, TerritoryData } from "@/services/data"
 
-import { CaptchaContainer } from "./TaxSimulatorForm.styled"
+import { Select, Radio } from "@/components/Forms"
 
-import { Radio, Select } from "@/components/Inputs"
-import SubmitButton from "@/components/Buttons/SubmitButton"
+import { CaptchaContainer } from "./TaxSimulatorForm.styled"
 
 export default function TaxSimulatorForm() {
   const [state, action] = useActionState(getProductTaxes, initialFormState)
@@ -51,28 +50,20 @@ export default function TaxSimulatorForm() {
     }
   }, [state, setHasResult, setResult])
 
-  const { Field, handleSubmit, Subscribe } = useForm({
-    ...formTaxSimulatorOpts,
-    // biome-ignore lint/style/noNonNullAssertion:
-    transform: useTransform((baseForm) => mergeForm(baseForm, state!), [state]),
+  const form = useAppForm({
+    ...formOpts,
+    transform: useTransform((baseForm) => mergeForm(baseForm, state ?? {}), [state]),
   })
-
-  const handleCountryChange = (country: string) => setSelectedCountry(country)
 
   const handleFocusInput = (name: TaxSimulatorFormLabel) => {
     if (!hasResult) setFocusInput(name)
   }
 
   return (
-    <form
-      action={action}
-      onSubmit={() => {
-        handleSubmit()
-      }}
-    >
+    <form action={action} onSubmit={() => form.handleSubmit()}>
       <Select
+        {...{ form }}
         name="product"
-        {...{ Field }}
         label="Produit"
         placeholder="Smartphone"
         actions={{
@@ -81,34 +72,32 @@ export default function TaxSimulatorForm() {
         }}
       />
       <Select
+        {...{ form }}
         name="origin"
-        {...{ Field }}
         label="Origine"
         placeholder="EU"
         staticOptions={OriginData}
-        watch={handleCountryChange}
         actions={{
           handleOnFocus: handleFocusInput,
         }}
       />
       <Select
+        {...{ form }}
         name="territory"
-        {...{ Field }}
         label="Territoire d'application"
         placeholder="Réunion"
         staticOptions={TerritoryData}
-        watch={handleCountryChange}
         actions={{
           handleOnFocus: handleFocusInput,
         }}
       />
       <CaptchaContainer>
-        <Radio name="flux" {...{ Field }} label="Flux" options={["import", "export"]} disabled />
+        <Radio {...{ form }} name="flux" label="Flux" options={["import", "export"]} disabled />
         <Turnstile />
       </CaptchaContainer>
-      <Subscribe selector={(state) => [state.canSubmit]}>
-        {([canSubmit]) => <SubmitButton label="Rechercher" {...{ canSubmit }} />}
-      </Subscribe>
+      <form.AppForm>
+        <form.SubscribeButton label="Rechercher" />
+      </form.AppForm>
     </form>
   )
 }

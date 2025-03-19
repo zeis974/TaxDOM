@@ -37,7 +37,3 @@ export const Container = styled.div`
     }
   }
 `
-
-export const ParcelSimulatorSubmit = styled.div`
-  width: 100%;
-`
