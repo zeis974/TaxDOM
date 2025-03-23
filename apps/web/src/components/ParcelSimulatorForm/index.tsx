@@ -14,7 +14,7 @@ import { OriginData, TerritoryData, TransporterData } from "@/services/data"
 
 import { Container } from "./ParcelSimulator.styled"
 import { Input, Select, Radio } from "@/components/Forms"
-import ParcelSimulatorCards from "@/components/ParcelSimulatorForm/ParcelSimulatorCards"
+import { ParcelSimulatorCards } from "@/components/ParcelSimulatorForm/ParcelSimulatorCards"
 
 export default function ParcelSimulator() {
   const [state, action] = useActionState(calculateParcel, initialFormState)
@@ -48,9 +48,6 @@ export default function ParcelSimulator() {
   const form = useAppForm({
     ...formOpts,
     transform: useTransform((baseForm) => mergeForm(baseForm, state ?? {}), [state]),
-    onSubmit: (values) => {
-      console.log(values)
-    },
   })
 
   return (
@@ -95,14 +92,10 @@ export default function ParcelSimulator() {
           />
           <Turnstile />
           <form.AppForm>
-            <form.SubscribeButton label="Rechercher" />
+            <form.SubscribeButton label="Calculer" />
           </form.AppForm>
         </div>
-        <form.AppForm>
-          <div>
-            <ParcelSimulatorCards {...{ form }} />
-          </div>
-        </form.AppForm>
+        <ParcelSimulatorCards {...{ form }} />
       </form>
     </Container>
   )

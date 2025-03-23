@@ -5,7 +5,7 @@ import type {
   ParcelSimulatorFormValues,
 } from "@/services/ParcelSimulator/types"
 import { TaxSimulatorFormLabel, TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
-import { createFormHook, createFormHookContexts, formOptions } from "@tanstack/react-form"
+import { createFormHook, createFormHookContexts, formOptions, useForm } from "@tanstack/react-form"
 import { lazy } from "react"
 
 export const { fieldContext, useFieldContext, formContext, useFormContext } =
@@ -13,9 +13,6 @@ export const { fieldContext, useFieldContext, formContext, useFormContext } =
 
 const InputField = lazy(() => import("@/components/Forms/Input"))
 const RadioField = lazy(() => import("@/components/Forms/Radio"))
-const ParcelSimulatorCards = lazy(
-  () => import("@/components/ParcelSimulatorForm/ParcelSimulatorCards"),
-)
 const SelectField = lazy(() => import("@/components/Forms/Select"))
 const SubscribeButton = lazy(() => import("@/components/Forms/SubscribeButton"))
 
@@ -28,7 +25,6 @@ export const { useAppForm, withForm } = createFormHook({
     SelectField,
   },
   formComponents: {
-    ParcelSimulatorCards,
     SubscribeButton,
   },
 })

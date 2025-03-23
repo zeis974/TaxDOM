@@ -66,6 +66,4 @@ export type SelectProps = {
     dynamic?: boolean
     handleOnFocus?: (name: any) => void
   }
-
-  // name: TaxSimulatorFormLabel | ParcelSimulatorFormLabel | ""
 }
