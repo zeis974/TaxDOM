@@ -1,6 +1,6 @@
 import { styled } from "@/panda/jsx"
 
-export const RadioContainer = styled.div`
+export const Container = styled.div`
   font-family: token(fonts.nativeFont);
   display: flex;
   margin-bottom: 10px;

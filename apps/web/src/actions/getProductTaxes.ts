@@ -1,13 +1,14 @@
 "use server"
 
+import type { TaxSimulatorResult } from "@/services/TaxSimulator/types"
+
 import { ServerValidateError, createServerValidate } from "@tanstack/react-form/nextjs"
 
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
-import { formTaxSimulatorOpts } from "@/lib/form"
-import type { TaxSimulatorResult } from "@/services/TaxSimulator/types"
+import { formOpts } from "@/hooks/form"
 
 const serverValidate = createServerValidate({
-  ...formTaxSimulatorOpts,
+  ...formOpts,
   onServerValidate: ({ value }) => {
     if (value.territory !== "REUNION") {
       return "For now we only support one territory"

@@ -1,49 +1,43 @@
-import type { FieldComponent, FormState } from "@tanstack/react-form"
 import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types"
 
 import { AnimatePresence } from "motion/react"
-import { memo } from "react"
-import { useFormStatus } from "react-dom"
 
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
+import { formOpts, withForm } from "@/hooks/form"
 
 import { Card, ParcelContent, Container, Loading } from "./ParcelSimulatorCards.styled"
 
 import { AddIcon, TaxDOMLogo } from "@/components/Icons"
-import { Input, Select } from "@/components/Inputs"
+import { Input, Select } from "@/components/Forms"
 import ParcelSimulatorResult from "@/components/ParcelSimulatorForm/ParcelSimulatorResult"
 
-type SubscribeType<TFormData> = <TSelected = NoInfer<FormState<TFormData>>>(props: {
-  selector?: (state: FormState<TFormData>) => TSelected
-  children: ((state: NoInfer<TSelected>) => React.ReactNode) | React.ReactNode
-}) => React.ReactNode
-
-const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
-  Field,
-  Subscribe,
-}: {
-  Field: FieldComponent<any, undefined>
-  Subscribe: SubscribeType<ParcelSimulatorFormValues>
-}) {
-  const { pending } = useFormStatus()
-
-  console.log(pending)
-
+// TODO : Fix any types
+export default function ParcelSimulatorField({ form }: { form: any }) {
   const hasResult = useParcelSimulatorStore((s) => s.hasResult)
 
   return (
     <Container>
       <ParcelContent>
-        <Subscribe selector={(s) => s}>
+        <form.Subscribe selector={(s: any) => s}>
           {({
             values: { deliveryPrice, products, territory },
-          }: FormState<ParcelSimulatorFormValues>) => {
-            const allProductPrice = products.reduce((acc, product) => {
-              const price = Number.parseFloat(product.price?.toString() || "0") || 0
-              return acc + price
-            }, 0)
+          }: {
+            values: {
+              deliveryPrice: number
+              products: ParcelSimulatorFormValues["products"]
+              territory: string
+            }
+          }) => {
+            const allProductPrice = (products as ParcelSimulatorFormValues["products"]).reduce(
+              (acc: number, product: { name: string; price: number }) => {
+                const price = Number.parseFloat(product.price?.toString() || "0") || 0
+                return acc + price
+              },
+              0,
+            )
 
-            const deliveryPriceValue = Number.parseFloat(deliveryPrice?.toString() || "0") || 0
+            const deliveryPriceValue =
+              Number.parseFloat((deliveryPrice as number)?.toString() || "0") || 0
             const dutyPrice = allProductPrice + deliveryPriceValue
 
             return (
@@ -55,50 +49,48 @@ const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
               </>
             )
           }}
-        </Subscribe>
+        </form.Subscribe>
       </ParcelContent>
-      <Field name="products" mode="array">
-        {(field) => {
-          return (
-            <>
-              {field.state.value.map((_: any, i: number) => (
-                // biome-ignore lint/suspicious/noArrayIndexKey:
-                <Card key={i}>
-                  <Select
-                    {...{ Field }}
-                    name={`products.${i}.name`}
-                    label="Produit"
-                    placeholder="Ordinateur"
-                    actions={{
-                      dynamic: true,
-                    }}
-                  />
-                  <Input
-                    {...{ Field }}
-                    name={`products.${i}.price`}
-                    label="Prix € (HT)"
-                    placeholder="0"
-                    type="number"
-                  />
-                  <button onClick={() => field.removeValue(i)} type="button">
-                    Supprimer
-                  </button>
-                </Card>
-              ))}
-              <button
-                onClick={() => field.pushValue({ name: "", price: "" as unknown as number })}
-                type="button"
-                disabled={field.state.value.length === 10}
-              >
-                <AddIcon />
-                Ajouter un produit
-              </button>
-            </>
-          )
-        }}
-      </Field>
-      <Subscribe selector={(s) => [s.isFieldsValid, s.isSubmitting]}>
-        {([isFieldsValid, isSubmitting]) => (
+      <form.Field name="products" mode="array">
+        {(field: any) => (
+          <>
+            {(field.state.value as { name: string; price: number }[]).map((_, i: number) => (
+              // biome-ignore lint/suspicious/noArrayIndexKey:
+              <Card key={i}>
+                <Select
+                  {...{ form }}
+                  name={`products.${i}.name` as any}
+                  label="Produit"
+                  placeholder="Ordinateur"
+                  actions={{
+                    dynamic: true,
+                  }}
+                />
+                <Input
+                  {...{ form }}
+                  name={`products.${i}.price` as any}
+                  label="Prix € (HT)"
+                  placeholder="0"
+                  type="number"
+                />
+                <button onClick={() => field.removeValue(i)} type="button">
+                  Supprimer
+                </button>
+              </Card>
+            ))}
+            <button
+              onClick={() => field.pushValue({ name: "", price: "" as unknown as number })}
+              type="button"
+              disabled={(field.state.value as { name: string; price: number }[]).length === 10}
+            >
+              <AddIcon />
+              Ajouter un produit
+            </button>
+          </>
+        )}
+      </form.Field>
+      <form.Subscribe selector={(s: any) => [s.isFieldsValid, s.isSubmitting]}>
+        {([isFieldsValid, isSubmitting]: [boolean, boolean]) => (
           <AnimatePresence>
             {isFieldsValid && isSubmitting ? (
               <Loading
@@ -115,10 +107,13 @@ const ParcelSimulatorCards = memo(function ParcelSimulatorCards({
             ) : null}
           </AnimatePresence>
         )}
-      </Subscribe>
+      </form.Subscribe>
       {hasResult && <ParcelSimulatorResult />}
     </Container>
   )
-})
+}
 
-export default ParcelSimulatorCards
+export const ParcelSimulatorCards = withForm({
+  ...formOpts,
+  render: ({ form }) => <ParcelSimulatorField {...{ form }} />,
+})

@@ -11,6 +11,8 @@ export type ParcelSimulatorFormValues = {
   "cf-turnstile-response": string
 }
 
+export type ParcelSimulatorFormLabel = keyof ParcelSimulatorFormValues
+
 export type ParcelSimulatorResult = {
   carrierFee: number
   dutyPrice: number
