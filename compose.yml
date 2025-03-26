@@ -32,9 +32,7 @@ services:
       - .env.api.prod
 
   redis:
-    image: ghcr.io/zeis974/taxdom-redis:latest
-    command: sh -c "./init.sh"
-    privileged: true
+    image: redis:7.4.2-alpine
     ports:
       - 6379:6379
 
