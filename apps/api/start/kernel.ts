@@ -23,9 +23,11 @@ server.errorHandler(() => import("#exceptions/handler"))
  * the request URL.
  */
 server.use([
+  () => import("@adonisjs/cors/cors_middleware"),
+  () => import("#middleware/better_auth_middleware"),
+  () => import("@adonisjs/core/bodyparser_middleware"),
   () => import("#middleware/container_bindings_middleware"),
   () => import("#middleware/force_json_response_middleware"),
-  () => import("@adonisjs/cors/cors_middleware"),
 ])
 
 /**
@@ -39,6 +41,4 @@ server.use([
  */
 export const middleware = router.named({
   auth: () => import("#middleware/api_auth_middleware"),
-  cors: () => import("@adonisjs/cors/cors_middleware"),
-  bodyparser: () => import("@adonisjs/core/bodyparser_middleware"),
 })
