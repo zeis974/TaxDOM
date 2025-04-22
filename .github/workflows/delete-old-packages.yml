@@ -18,7 +18,9 @@ jobs:
         package:
           - taxdom-web
           - taxdom-api
-
+    permissions:
+      contents: read
+      packages: write
     steps:
       - name: Lister toutes les versions de ${{ matrix.package }}
         id: list-versions
@@ -33,7 +35,7 @@ jobs:
             /user/packages/container/${{ matrix.package }}/versions \
             --jq '.[].id' >> all_ids.txt
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Sélectionner les 10 versions les plus récentes
         id: keep-versions
@@ -42,7 +44,7 @@ jobs:
             /user/packages/container/${{ matrix.package }}/versions?per_page=10 \
             --jq '.[].id' > keep_ids.txt
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Supprimer les anciennes versions
         run: |
@@ -59,4 +61,4 @@ jobs:
             echo "Aucune ancienne version à supprimer pour ${{ matrix.package }}"
           fi
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
