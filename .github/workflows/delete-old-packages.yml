@@ -39,8 +39,7 @@ jobs:
         id: keep-versions
         run: |
           gh api \
-            /user/packages/container/${{ matrix.package }}/versions \
-            -f per_page=10 \
+            /user/packages/container/${{ matrix.package }}/versions?per_page=10 \
             --jq '.[].id' > keep_ids.txt
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
