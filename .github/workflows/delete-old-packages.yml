@@ -1,8 +1,14 @@
 name: Cleanup old GitHub Packages
 
-on:
-  schedule:
-    - cron: "0 0 1 * *"
+# on:
+#   schedule:
+#     - cron: "0 0 1 * *"
+
+on:  
+  push:
+  pull_request:
+    branches:
+      - chore/rework-clean-package
 
 jobs:
   cleanup-packages:
