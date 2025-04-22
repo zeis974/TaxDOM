@@ -30,7 +30,7 @@ jobs:
           # Récupère toutes les versions (pagination automatique)
           gh api \
             --paginate \
-            /user/packages/container/${{ github.actor }}/${{ matrix.package }}/versions \
+            /user/packages/container/${{ matrix.package }}/versions \
             --jq '.[].id' >> all_ids.txt
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,7 +39,7 @@ jobs:
         id: keep-versions
         run: |
           gh api \
-            /user/packages/container/${{ github.actor }}/${{ matrix.package }}/versions \
+            /user/packages/container/${{ matrix.package }}/versions \
             -f per_page=10 \
             --jq '.[].id' > keep_ids.txt
         env:
@@ -53,7 +53,7 @@ jobs:
               echo "Suppression de la version $version_id de ${{ matrix.package }}"
               gh api \
                 --method DELETE \
-                /user/packages/container/${{ github.actor }}/${{ matrix.package }}/versions/$version_id \
+                /user/packages/container/${{ matrix.package }}/versions/$version_id \
                 -H "Accept: application/vnd.github+json"
             done < delete_ids.txt
           else
