@@ -1,12 +1,11 @@
 "use client"
 
 import type { OptionsProps, SelectProps } from "@/components/Forms/types"
-import type { ParcelSimulatorFormLabel } from "@/services/ParcelSimulator/types"
 import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
-import { useRef, useState } from "react"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
+import { useRef, useState } from "react"
 
 import { searchProducts } from "@/actions/searchProducts"
 import { formOpts, useFieldContext, withForm } from "@/hooks/form"
@@ -22,17 +21,17 @@ export default function SelectField({
   loading,
   placeholder,
 }: SelectProps) {
-  const selectedIndexRef = useRef<number>(0)
-  const [selectedIndex, setSelectedIndex] = useState<number>(0)
+  const selectedIndexRef = useRef(0)
+  const [selectedIndex, setSelectedIndex] = useState(0)
   const [show, setShow] = useState(false)
 
   const field = useFieldContext<string>()
 
-  if (staticOptions && actions?.dynamic) {
-    throw new Error(
-      "[Select] The props 'staticOptions' and 'dynamic' are mutually exclusive. Please choose one or the other.",
-    )
-  }
+  // if (staticOptions.length > 0 && actions?.dynamic) {
+  //   throw new Error(
+  //     "[Select] The props 'staticOptions' and 'dynamic' are mutually exclusive. Please choose one or the other.",
+  //   )
+  // }
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (staticOptions.length === 0) return
@@ -66,7 +65,7 @@ export default function SelectField({
         }}
         onFocus={() => {
           setShow(true)
-          actions?.handleOnFocus?.(field.name)
+          actions?.handleOnFocus?.(field.name as TaxSimulatorFormLabel)
         }}
         onKeyDown={(e) => {
           handleKeyDown(e)
@@ -119,7 +118,7 @@ const Options = ({
   if (!Array.isArray(options) || (options.length === 0 && type === "dynamic")) return null
 
   const filteredOptions = options.filter((option) => {
-    const lowerCaseValue: string = field.state.value.toLowerCase()
+    const lowerCaseValue = field.state.value.toLowerCase()
     const exactMatchFound =
       lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
     const lowerCaseOption = option.name.toLowerCase()
@@ -137,7 +136,7 @@ const Options = ({
           onKeyUp={() => field.handleChange(option.name)}
           onMouseEnter={() => {
             watch?.(option.name)
-            setSelectedIndex(index)
+            setSelectedIndex?.(index)
           }}
         >
           {option.name}
@@ -150,12 +149,12 @@ const Options = ({
 export const Select = withForm({
   ...formOpts,
   props: {
-    name: "" as TaxSimulatorFormLabel | ParcelSimulatorFormLabel,
+    name: "" as SelectProps["name"],
     label: "",
     placeholder: "",
     staticOptions: [],
     actions: { dynamic: false },
-  } as SelectProps & { name: TaxSimulatorFormLabel | ParcelSimulatorFormLabel },
+  } as SelectProps,
   render: function Render({ form, name, label, staticOptions, placeholder, actions }) {
     if ((staticOptions?.length ?? 0) > 0 && actions?.dynamic) {
       throw new Error(
@@ -204,7 +203,10 @@ export const Select = withForm({
         }}
       >
         {(field) => (
-          <field.SelectField {...{ label, placeholder, loading }} staticOptions={options} />
+          <field.SelectField
+            {...{ name, label, actions, placeholder, loading }}
+            staticOptions={options}
+          />
         )}
       </form.AppField>
     )
