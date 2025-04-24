@@ -4,16 +4,14 @@ import { formOpts, useFieldContext, withForm } from "@/hooks/form"
 import { useStore } from "@tanstack/react-form"
 
 import { Container } from "./Input.styled"
-import type { TaxSimulatorFormLabel, TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
-import type { ParcelSimulatorFormLabel } from "@/services/ParcelSimulator/types"
 
-export default function InputField({ label, placeholder, type = "text", actions }: InputProps) {
+export default function InputField({ name, label, placeholder, type = "text" }: InputProps) {
   const field = useFieldContext<string | number>()
   const errors = useStore(field.store, (state) => state.meta.errors)
 
   return (
     <Container>
-      <label htmlFor={field.name}>
+      <label htmlFor={name}>
         {label}{" "}
         {errors.map((error: string) => (
           <span key={error} style={{ color: "red" }}>
@@ -28,7 +26,6 @@ export default function InputField({ label, placeholder, type = "text", actions 
         name={field.name}
         type={type}
         value={field.state.value}
-        onFocus={() => actions?.handleOnFocus(field.name)}
         onBlur={() => {
           field.handleBlur()
         }}
@@ -43,19 +40,14 @@ export default function InputField({ label, placeholder, type = "text", actions 
 export const Input = withForm({
   ...formOpts,
   props: {
-    name: "" as TaxSimulatorFormLabel | ParcelSimulatorFormLabel,
+    name: "" as InputProps["name"],
     label: "",
     placeholder: "",
     type: "text",
-    actions: {
-      handleOnFocus: () => {},
-    },
-  } as InputProps & {
-    name: TaxSimulatorFormLabel | ParcelSimulatorFormLabel | ParcelSimulatorFormLabel
-  },
-  render: ({ form, name, label, placeholder, type, actions }) => (
+  } as InputProps,
+  render: ({ form, name, label, placeholder, type }) => (
     <form.AppField
-      name={name as TaxSimulatorFormLabel | ParcelSimulatorFormLabel}
+      name={name}
       validators={{
         onSubmit: ({ value }) => {
           console.log(value)
@@ -65,7 +57,7 @@ export const Input = withForm({
         },
       }}
     >
-      {(field) => <field.InputField {...{ label, placeholder, actions, type }} />}
+      {(field) => <field.InputField {...{ name, label, placeholder, type }} />}
     </form.AppField>
   ),
 })
