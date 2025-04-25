@@ -50,7 +50,7 @@ export const ParcelSimulatorCards = withForm({
                       {...{ form }}
                       name={`products[${i}].name`}
                       label="Produit"
-                      placeholder="Ordinateur"
+                      placeholder="Type de produit"
                       actions={{
                         dynamic: true,
                       }}

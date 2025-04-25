@@ -54,8 +54,6 @@ export default function ParcelSimulator() {
     <Container>
       <form action={action} onSubmit={() => form.handleSubmit()}>
         <div>
-          <h1>Simuler le coût d'un colis</h1>
-          <hr />
           <Select
             {...{ form }}
             name="origin"
@@ -67,7 +65,7 @@ export default function ParcelSimulator() {
             {...{ form }}
             name="territory"
             label="Territoire d'application"
-            placeholder="Réunion"
+            placeholder="REUNION"
             staticOptions={TerritoryData}
           />
           <Radio
@@ -80,7 +78,7 @@ export default function ParcelSimulator() {
             {...{ form }}
             name="transporter"
             label="Transporteur"
-            placeholder="Colissimo"
+            placeholder="COLISSIMO"
             staticOptions={TransporterData}
           />
           <Input
