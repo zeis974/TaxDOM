@@ -27,13 +27,6 @@ const tools: Tools[] = [
     icon: <ParcelIcon />,
     slug: "/simulator",
   },
-  {
-    name: "MagicURL",
-    description: "Un lien, un produit, une taxe",
-    icon: <MagicIcon />,
-    slug: "", // /magicURL
-    disabled: true,
-  },
 ]
 
 export default function ChangeTools({
