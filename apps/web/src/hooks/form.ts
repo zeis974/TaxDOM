@@ -1,12 +1,13 @@
 "use client"
 
-import type {
-  ParcelSimulatorFormLabel,
-  ParcelSimulatorFormValues,
-} from "@/services/ParcelSimulator/types"
-import { TaxSimulatorFormLabel, TaxSimulatorFormValues } from "@/services/TaxSimulator/types"
-import { createFormHook, createFormHookContexts, formOptions, useForm } from "@tanstack/react-form"
+import type { Origin, Transporter } from "@/services/types"
+
+import { ParcelSimulatorSchema } from "@/services/ParcelSimulator/types"
+import { TaxSimulatorFormSchema } from "@/services/TaxSimulator/types"
+
+import { createFormHook, createFormHookContexts, formOptions } from "@tanstack/react-form"
 import { lazy } from "react"
+import { z } from "zod"
 
 export const { fieldContext, useFieldContext, formContext, useFormContext } =
   createFormHookContexts()
@@ -29,40 +30,21 @@ export const { useAppForm, withForm } = createFormHook({
   },
 })
 
+const schema = z.intersection(ParcelSimulatorSchema, TaxSimulatorFormSchema)
+type Schema = z.infer<typeof schema>
+
+const defaultValues: Schema = {
+  customer: "Non",
+  deliveryPrice: "" as unknown as number,
+  products: [{ name: "", price: "" as unknown as number }],
+  transporter: "" as Transporter,
+  flux: "import", // For now we only support one flux
+  origin: "" as Origin,
+  product: "",
+  territory: "REUNION", // For now we only support one territory
+  "cf-turnstile-response": "",
+}
+
 export const formOpts = formOptions({
-  defaultValues: {
-    customer: "Non",
-    deliveryPrice: "" as unknown as number,
-    products: [{ name: "", price: "" as unknown as number }],
-    transporter: "",
-    flux: "import", // For now we only support one flux
-    origin: "",
-    product: "",
-    territory: "REUNION", // For now we only support one territory
-    "cf-turnstile-response": "",
-  },
+  defaultValues,
 })
-
-// @TODO : Custom formOpts for fieldComponents
-
-// export const formTaxSimulatorOpts = formOptions({
-//   defaultValues: {
-//     product: "",
-//     territory: "REUNION", // For now we only support one territory
-//     origin: "",
-//     flux: "import", // For now we only support one flux
-//     "cf-turnstile-response": "",
-//   },
-// })
-
-// export const formParcelSimulatorOpts = formOptions({
-//   defaultValues: {
-//     customer: "Non",
-//     deliveryPrice: "" as unknown as number,
-//     origin: "",
-//     products: [{ name: "", price: "" as unknown as number }],
-//     territory: "REUNION", // For now we only support one territory
-//     transporter: "",
-//     "cf-turnstile-response": "",
-//   },
-// })

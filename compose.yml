@@ -1,6 +1,6 @@
 services:
   nginx:
-    image: nginx:1.27.4-alpine
+    image: nginx:1.27.5-alpine
     ports:
       - 80:80
       - 443:443
@@ -35,7 +35,7 @@ services:
       - 6379:6379
 
   db:
-    image: ghcr.io/tursodatabase/libsql-server:v0.24.31
+    image: ghcr.io/tursodatabase/libsql-server:v0.24.32
     ports:
       - "8080:8080"
       - "5001:5001"

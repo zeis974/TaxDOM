@@ -2,19 +2,19 @@
 
 import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
-import { initialFormState } from "@tanstack/react-form/nextjs"
 import { mergeForm, useTransform } from "@tanstack/react-form"
+import { initialFormState } from "@tanstack/react-form/nextjs"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
 import getProductTaxes from "@/actions/getProductTaxes"
 import { formOpts, useAppForm } from "@/hooks/form"
-import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 import Turnstile from "@/lib/Turnstile"
+import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 import { OriginData, TerritoryData } from "@/services/data"
 
-import { Select, Radio } from "@/components/Forms"
+import { Radio, Select } from "@/components/Forms"
 
 import { CaptchaContainer } from "./TaxSimulatorForm.styled"
 

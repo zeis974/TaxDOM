@@ -1,12 +1,10 @@
-import type { ParcelSimulatorFormLabel } from "@/services/ParcelSimulator/types"
 import type { RadioProps } from "@/components/Forms/types"
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
 
 import { formOpts, useFieldContext, withForm } from "@/hooks/form"
 
 import { Container } from "./Radio.styled"
 
-export default function RadioField({ label, options, disabled = false }: RadioProps) {
+export default function RadioField({ name, label, options, disabled = false }: RadioProps) {
   const field = useFieldContext<string>()
 
   return (
@@ -37,14 +35,14 @@ export default function RadioField({ label, options, disabled = false }: RadioPr
 export const Radio = withForm({
   ...formOpts,
   props: {
-    name: "" as TaxSimulatorFormLabel | ParcelSimulatorFormLabel,
+    name: "" as RadioProps["name"],
     label: "",
     options: [],
-  } as RadioProps & { name: TaxSimulatorFormLabel | ParcelSimulatorFormLabel },
+  } as RadioProps,
   render: ({ form, name, label, options, disabled }) => {
     return (
-      <form.AppField name={name as TaxSimulatorFormLabel | ParcelSimulatorFormLabel}>
-        {(field) => <field.RadioField {...{ label, options, disabled }} />}
+      <form.AppField name={name}>
+        {(field) => <field.RadioField {...{ name, label, options, disabled }} />}
       </form.AppField>
     )
   },
