@@ -6,9 +6,12 @@ import { ThemeProvider } from "next-themes"
 import { Toaster } from "sonner"
 import localFont from "next/font/local"
 
+import { useDetectDevice } from "@/hooks/useIsMobile"
+
 import LazyMotionProvider from "@/providers/LazyMotionProvider"
 
 import Navbar from "@/components/Navbar"
+import AlphaMode from "@/components/AlphaMode"
 
 export const metadata: Metadata = {
   title: {
@@ -36,10 +39,12 @@ const NotoSansBold = localFont({
   display: "swap",
 })
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   modal,
 }: Record<"children" | "modal", React.ReactNode>) {
+  const isMobile = await useDetectDevice()
+
   return (
     <html
       lang="fr"
@@ -47,6 +52,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body>
+        {isMobile && <AlphaMode />}
         <ThemeProvider defaultTheme="system">
           <LazyMotionProvider>
             <Navbar />
