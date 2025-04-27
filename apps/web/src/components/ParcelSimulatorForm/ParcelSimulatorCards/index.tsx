@@ -3,11 +3,12 @@ import { AnimatePresence } from "motion/react"
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 import { formOpts, withForm } from "@/hooks/form"
 
-import { Card, ParcelContent, Container, Loading } from "./ParcelSimulatorCards.styled"
-
 import { AddIcon, TaxDOMLogo } from "@/components/Icons"
 import { Input, Select } from "@/components/Forms"
 import ParcelSimulatorResult from "@/components/ParcelSimulatorForm/ParcelSimulatorResult"
+import ParcelSimulatorTemplate from "@/components/ParcelSimulatorForm/ParcelSimulatorTemplate"
+
+import { Card, ParcelContent, Container, Loading } from "./ParcelSimulatorCards.styled"
 
 export const ParcelSimulatorCards = withForm({
   ...formOpts,
@@ -32,8 +33,9 @@ export const ParcelSimulatorCards = withForm({
                 <>
                   <div>
                     {dutyPrice > 10000 ? "🤑" : "Valeur en douane"} : {dutyPrice.toFixed(2)} € (HT)
+                    <div>Pays : {territory}</div>
                   </div>
-                  <div>Pays : {territory}</div>
+                  <ParcelSimulatorTemplate form={form} />
                 </>
               )
             }}
@@ -62,7 +64,12 @@ export const ParcelSimulatorCards = withForm({
                       placeholder="0"
                       type="number"
                     />
-                    <button onClick={() => field.removeValue(i)} type="button">
+                    <button
+                      onClick={() => {
+                        field.removeValue(i)
+                      }}
+                      type="button"
+                    >
                       Supprimer
                     </button>
                   </Card>
