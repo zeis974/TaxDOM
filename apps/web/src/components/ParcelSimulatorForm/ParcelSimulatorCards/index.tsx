@@ -1,13 +1,24 @@
 import { AnimatePresence } from "motion/react"
+import dynamic from "next/dynamic"
 
-import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 import { formOpts, withForm } from "@/hooks/form"
+import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
-import { Card, ParcelContent, Container, Loading } from "./ParcelSimulatorCards.styled"
-
-import { AddIcon, TaxDOMLogo } from "@/components/Icons"
 import { Input, Select } from "@/components/Forms"
+import { AddIcon, TaxDOMLogo } from "@/components/Icons"
 import ParcelSimulatorResult from "@/components/ParcelSimulatorForm/ParcelSimulatorResult"
+const ParcelSimulatorTemplate = dynamic(
+  () => import("@/components/ParcelSimulatorForm/ParcelSimulatorTemplate"),
+  { ssr: false, loading: () => <ParcelSimulatorSkeleton /> },
+)
+
+import {
+  Card,
+  Container,
+  Loading,
+  ParcelContent,
+  ParcelSimulatorSkeleton,
+} from "./ParcelSimulatorCards.styled"
 
 export const ParcelSimulatorCards = withForm({
   ...formOpts,
@@ -32,8 +43,9 @@ export const ParcelSimulatorCards = withForm({
                 <>
                   <div>
                     {dutyPrice > 10000 ? "🤑" : "Valeur en douane"} : {dutyPrice.toFixed(2)} € (HT)
+                    <div>Pays : {territory}</div>
                   </div>
-                  <div>Pays : {territory}</div>
+                  <ParcelSimulatorTemplate form={form} />
                 </>
               )
             }}
@@ -50,7 +62,7 @@ export const ParcelSimulatorCards = withForm({
                       {...{ form }}
                       name={`products[${i}].name`}
                       label="Produit"
-                      placeholder="Ordinateur"
+                      placeholder="Type de produit"
                       actions={{
                         dynamic: true,
                       }}
@@ -62,7 +74,12 @@ export const ParcelSimulatorCards = withForm({
                       placeholder="0"
                       type="number"
                     />
-                    <button onClick={() => field.removeValue(i)} type="button">
+                    <button
+                      onClick={() => {
+                        field.removeValue(i)
+                      }}
+                      type="button"
+                    >
                       Supprimer
                     </button>
                   </Card>

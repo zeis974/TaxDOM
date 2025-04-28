@@ -65,7 +65,7 @@ export default function TaxSimulatorForm() {
         {...{ form }}
         name="product"
         label="Produit"
-        placeholder="Smartphone"
+        placeholder="Type de produit"
         actions={{
           handleOnFocus: handleFocusInput,
           dynamic: true,
@@ -74,7 +74,7 @@ export default function TaxSimulatorForm() {
       <Select
         {...{ form }}
         name="origin"
-        label="Origine"
+        label="Territoire d'origine"
         placeholder="EU"
         staticOptions={OriginData}
         actions={{

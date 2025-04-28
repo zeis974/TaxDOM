@@ -3,10 +3,11 @@ import "./globals.css"
 import type { Metadata } from "next"
 
 import { ThemeProvider } from "next-themes"
-import { Toaster } from "sonner"
 import localFont from "next/font/local"
+import { Toaster } from "sonner"
 
 import LazyMotionProvider from "@/providers/LazyMotionProvider"
+import QueryProvider from "@/providers/QueryProvider"
 
 import Navbar from "@/components/Navbar"
 
@@ -47,13 +48,15 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body>
-        <ThemeProvider defaultTheme="system">
-          <LazyMotionProvider>
-            <Navbar />
-            {children}
-            {modal}
-            <Toaster richColors closeButton />
-          </LazyMotionProvider>
+        <ThemeProvider defaultTheme="dark">
+          <QueryProvider>
+            <LazyMotionProvider>
+              <Navbar />
+              {children}
+              {modal}
+              <Toaster richColors closeButton />
+            </LazyMotionProvider>
+          </QueryProvider>
         </ThemeProvider>
       </body>
     </html>
