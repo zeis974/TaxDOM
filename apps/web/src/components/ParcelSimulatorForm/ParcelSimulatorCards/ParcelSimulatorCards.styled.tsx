@@ -39,7 +39,7 @@ export const Container = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background: #121212; 
+    background: token(colors.background); 
   }
   
   &::-webkit-scrollbar-thumb {
@@ -69,8 +69,9 @@ export const ParcelContent = styled.div`
     border-radius: 10px;
     background: token(colors.tertiaryBackground);
   }
-  
+
   button {
+    width: 100px;
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
@@ -148,4 +149,11 @@ export const Loading = styled(m.div)`
     font-family: token(fonts.Rowdies);
     margin: 10px 0;
   }
+`
+
+export const ParcelSimulatorSkeleton = styled.div`
+  width: 100px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  animation: skeleton 1s linear infinite;
 `

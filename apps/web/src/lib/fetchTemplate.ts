@@ -7,6 +7,11 @@ export const fetchTemplates = queryOptions({
   queryFn: async () => {
     const res: ParcelSimulatorTemplateType & Response = await fetch(
       `${process.env.NEXT_PUBLIC_API_URL}/simulator/templates`,
+      {
+        headers: {
+          Authorization: `Bearer ${process.env.API_KEY}`,
+        },
+      },
     ).then((res) => res.json())
 
     return res

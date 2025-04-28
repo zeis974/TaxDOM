@@ -1,14 +1,24 @@
 import { AnimatePresence } from "motion/react"
+import dynamic from "next/dynamic"
 
-import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 import { formOpts, withForm } from "@/hooks/form"
+import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
-import { AddIcon, TaxDOMLogo } from "@/components/Icons"
 import { Input, Select } from "@/components/Forms"
+import { AddIcon, TaxDOMLogo } from "@/components/Icons"
 import ParcelSimulatorResult from "@/components/ParcelSimulatorForm/ParcelSimulatorResult"
-import ParcelSimulatorTemplate from "@/components/ParcelSimulatorForm/ParcelSimulatorTemplate"
+const ParcelSimulatorTemplate = dynamic(
+  () => import("@/components/ParcelSimulatorForm/ParcelSimulatorTemplate"),
+  { ssr: false, loading: () => <ParcelSimulatorSkeleton /> },
+)
 
-import { Card, ParcelContent, Container, Loading } from "./ParcelSimulatorCards.styled"
+import {
+  Card,
+  Container,
+  Loading,
+  ParcelContent,
+  ParcelSimulatorSkeleton,
+} from "./ParcelSimulatorCards.styled"
 
 export const ParcelSimulatorCards = withForm({
   ...formOpts,
