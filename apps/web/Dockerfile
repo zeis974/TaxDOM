@@ -1,8 +1,8 @@
-FROM node:20.18.1-alpine AS base
+FROM node:22.13.1-alpine AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@9.15.1 --activate
+RUN corepack prepare pnpm@9.15.4 --activate
 
 FROM base AS builder
 # Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
@@ -36,7 +36,7 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 COPY turbo.json turbo.json
 
 RUN --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
-    pnpm turbo build --filter=@taxdom/app...
+    pnpm turbo build
 
 FROM base AS runner
 WORKDIR /app
