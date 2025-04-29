@@ -1,21 +1,20 @@
 "use client"
 
 import { initialFormState } from "@tanstack/react-form/nextjs"
-import { mergeForm, useForm, useTransform } from "@tanstack/react-form"
+import { mergeForm, useTransform } from "@tanstack/react-form"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
 import calculateParcel from "@/actions/calculateParcel"
-import { formParcelSimulatorOpts } from "@/lib/form"
+import { formOpts, useAppForm } from "@/hooks/form"
 import Turnstile from "@/lib/Turnstile"
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
 import { OriginData, TerritoryData, TransporterData } from "@/services/data"
 
-import { Container, ParcelSimulatorSubmit } from "./ParcelSimulator.styled"
-import { Input, Radio, Select } from "@/components/Inputs"
-import ParcelSimulatorCards from "@/components/ParcelSimulatorForm/ParcelSimulatorCards"
-import SubmitButton from "@/components/Buttons/SubmitButton"
+import { Container } from "./ParcelSimulator.styled"
+import { Input, Select, Radio } from "@/components/Forms"
+import { ParcelSimulatorCards } from "@/components/ParcelSimulatorForm/ParcelSimulatorCards"
 
 export default function ParcelSimulator() {
   const [state, action] = useActionState(calculateParcel, initialFormState)
@@ -46,67 +45,55 @@ export default function ParcelSimulator() {
     }
   }, [state, setHasResult, setResult])
 
-  const { Field, handleSubmit, Subscribe } = useForm({
-    ...formParcelSimulatorOpts,
-    // biome-ignore lint/style/noNonNullAssertion:
-    transform: useTransform((baseForm) => mergeForm(baseForm, state!), [state]),
+  const form = useAppForm({
+    ...formOpts,
+    transform: useTransform((baseForm) => mergeForm(baseForm, state ?? {}), [state]),
   })
 
   return (
     <Container>
-      <form
-        action={action}
-        onSubmit={() => {
-          handleSubmit()
-        }}
-      >
+      <form action={action} onSubmit={() => form.handleSubmit()}>
         <div>
-          <h1>Simuler le coût d'un colis</h1>
-          <hr />
           <Select
+            {...{ form }}
             name="origin"
-            {...{ Field }}
             label="Origine"
             placeholder="EU"
             staticOptions={OriginData}
           />
           <Select
+            {...{ form }}
             name="territory"
-            {...{ Field }}
             label="Territoire d'application"
-            placeholder="Réunion"
+            placeholder="REUNION"
             staticOptions={TerritoryData}
           />
           <Radio
+            {...{ form }}
             name="customer"
-            {...{ Field }}
             label="Envoi entre particulier ?"
             options={["Oui", "Non"]}
           />
           <Select
+            {...{ form }}
             name="transporter"
-            {...{ Field }}
             label="Transporteur"
-            placeholder="Colissimo"
+            placeholder="COLISSIMO"
             staticOptions={TransporterData}
           />
           <Input
+            {...{ form }}
             name="deliveryPrice"
-            {...{ Field }}
             label="Prix de livraison € (HT)"
             placeholder="0"
             type="number"
           />
           <Turnstile />
-          <ParcelSimulatorSubmit>
-            <Subscribe selector={(state) => [state.canSubmit]}>
-              {([canSubmit]) => <SubmitButton label="Calculer" {...{ canSubmit }} />}
-            </Subscribe>
-          </ParcelSimulatorSubmit>
+          <form.AppForm>
+            <form.SubscribeButton label="Calculer" />
+          </form.AppForm>
         </div>
-        <div>
-          <ParcelSimulatorCards {...{ Field, Subscribe }} />
-        </div>
+        <ParcelSimulatorCards {...{ form }} />
       </form>
     </Container>
   )

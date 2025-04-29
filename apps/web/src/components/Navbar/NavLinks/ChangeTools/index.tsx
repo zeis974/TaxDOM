@@ -49,7 +49,7 @@ export default function ChangeTools({
       onMouseLeave={() => setShow(false)}
     >
       {tools.map((tool) => (
-        <Link href={tool.slug} key={tool.name}>
+        <Link href={tool.slug} key={tool.name} onClick={() => setShow(false)}>
           <CardContainer>
             <div>{tool.icon}</div>
             <div>

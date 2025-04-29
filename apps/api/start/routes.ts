@@ -12,10 +12,12 @@ import { middleware } from "#start/kernel"
 import {
   calculateParcelThrottle,
   getProductsTaxesThrottle,
+  getTemplatesThrottle,
   searchProductsNameThrottle,
 } from "#start/limiter"
 
 const CalculateParcelController = () => import("#controllers/CalculateParcelController")
+const GetTemplatesController = () => import("#controllers/GetTemplatesController")
 const GetProductTaxeController = () => import("#controllers/GetProductTaxeController")
 const SearchProductsNameController = () => import("#controllers/SearchProductsNameController")
 
@@ -24,5 +26,6 @@ router
     router.get("/products/search", [SearchProductsNameController]).use([searchProductsNameThrottle])
     router.post("/products/taxes", [GetProductTaxeController]).use([getProductsTaxesThrottle])
     router.post("/simulator/parcel", [CalculateParcelController]).use([calculateParcelThrottle])
+    router.get("/simulator/templates", [GetTemplatesController]).use([getTemplatesThrottle])
   })
   .use([middleware.auth()])

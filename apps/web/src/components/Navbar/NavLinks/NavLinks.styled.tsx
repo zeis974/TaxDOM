@@ -9,6 +9,10 @@ export const Container = styled.div`
 
   font-family: token(fonts.nativeFont);
 
+  & > div:first-of-type {
+    z-index: 2;
+  }
+
   & > a,
   & span {
     padding: 10px;

@@ -8,7 +8,7 @@ export const Container = styled.div`
   font-family: token(fonts.nativeFont);
 
   & > label {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: clamp(0.875rem, 0.8529rem + 0.0941vw, 1rem);
     font-weight: 600;
     user-select: none;
