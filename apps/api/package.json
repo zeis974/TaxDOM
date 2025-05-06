@@ -41,6 +41,7 @@
     "@adonisjs/session": "7.5.1",
     "@libsql/client": "0.15.4",
     "@vinejs/vine": "3.0.1",
+    "better-auth": "1.2.7",
     "drizzle-orm": "0.42.0",
     "luxon": "3.6.1",
     "reflect-metadata": "0.2.2"
