@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   z-index: 1;
   padding: 10px 30px;
   height: 95px;
-  backdrop-filter: blur(10px);
+  background: token(colors.background);
 
   & > div:first-of-type {
     display: flex;
@@ -18,7 +18,7 @@ export const Nav = styled.nav`
 
     & > a {
       color: token(colors.primary);
-      font-size: clamp(1.4em, 5vw, 2em);    
+      font-size: clamp(1.8em, 5vw, 2em);    
       font-family: "Rowdies", serif;
       position: relative;
 

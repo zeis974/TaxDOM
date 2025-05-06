@@ -1,13 +1,63 @@
 ---
-import "../index.css"
+import { getCollection } from "astro:content"
 
-import Layout from "../layouts/Layout.astro"
-import Navbar from "../components/Navbar/index"
-import ThemeSwitcher from "../components/ThemeSwitcher.astro"
+import Layout from "@/layouts/Layout.astro"
+import FeaturedPost from "@/components/FeaturedPost.astro"
+import { Image } from "astro:assets"
+// import FormattedDate from "@/components/FormattedDate.astro"
+
+const posts = (await getCollection("posts")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+)
+const featuredPost = posts[0]
+const listPosts = posts.slice(1)
 ---
 
 <Layout>
-	<Navbar client:load>
-	  <ThemeSwitcher slot="themeSelector" />
-	</Navbar>
+  <section>
+    <FeaturedPost post={featuredPost} />
+      <ul class="list__post">
+	      {listPosts.map((post, i) => (
+          <a href={`/${post.slug}/`}>
+		        <li class="post">
+              {/* {post.data.pubDate} */}
+			        {/* <FormattedDate date={post.data.pubDate} /> */}
+			        {post.data.heroImage &&
+                <img src={post.data.heroImage} alt={post.data.title} transition:name={post.slug} />
+              }
+		          <h2>{post.data.title}</h2>
+		        </li>
+          </a>
+		    ))}</a>
+	    </ul>
+  </section>
 </Layout>
+
+<style>
+section {
+  margin: 20px;
+}
+.list__post {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--native-font);
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.post {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  & img {
+	  width: 100%;
+  }
+
+  & h2 {
+    color: var(--colors-primary);
+  }
+}
+</style>
+

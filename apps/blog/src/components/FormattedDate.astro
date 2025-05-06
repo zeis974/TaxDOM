@@ -1,0 +1,10 @@
+---
+import { format } from "date-fns"
+import { fr } from "date-fns/locale"
+
+const { date } = Astro.props
+
+const formattedDate = format(new Date(date), "d MMMM yyyy", { locale: fr })
+---
+
+<div>{formattedDate}</div>

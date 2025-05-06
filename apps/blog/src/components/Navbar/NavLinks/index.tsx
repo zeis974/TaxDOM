@@ -1,7 +1,7 @@
 import { AnimatePresence } from "motion/react"
 import { Fragment, useRef, useState } from "react"
 
-import { Backdrop, Container } from "./NavLinks.styled"
+import { Container } from "./NavLinks.styled"
 import ChevronIcon from "@/components/Icons/ChevronIcon"
 import ChangeTools from "../NavLinks/ChangeTools"
 
@@ -18,7 +18,7 @@ export default function NavLinks() {
 
   const links: NavTypes[] = [
     {
-      name: "Services",
+      name: "Outils",
       icons: <ChevronIcon />,
       showChangeTools: true,
     },
@@ -27,7 +27,8 @@ export default function NavLinks() {
       href: "/blog",
     },
     {
-      name: "Hub",
+      name: "Contribuer",
+      href: "/contributes",
     },
   ]
 
@@ -59,16 +60,6 @@ export default function NavLinks() {
                       {link.showChangeTools && show && <ChangeTools {...{ setShow }} />}
                     </AnimatePresence>
                   </div>
-                  <AnimatePresence>
-                    {link.showChangeTools && show && (
-                      <Backdrop
-                        key="backdrop"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                      />
-                    )}
-                  </AnimatePresence>
                 </>
               ) : (
                 <span>

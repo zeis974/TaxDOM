@@ -29,13 +29,8 @@ export const Container = styled.div`
     display: inherit;
     gap: 5px;
   }
-`
 
-export const Backdrop = styled(motion.div)`
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  inset: 0;
-  background: #0000008f;
-  z-index: 1;
+  @media (width < 768px) {
+    display: none;
+  }
 `

@@ -5,7 +5,10 @@ import { keyframes, semanticTokens } from "./theme"
 export default defineConfig({
   eject: true,
   presets: [],
-  hash: true,
+  hash: {
+    className: true,
+    cssVar: false,
+  },
   minify: true,
   lightningcss: true,
   include: ["./src/**/*.{ts,tsx,js,jsx,astro}", "./pages/**/*.{ts,tsx,js,jsx,astro}"],
