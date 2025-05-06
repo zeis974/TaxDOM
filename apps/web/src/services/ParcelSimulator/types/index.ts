@@ -1,31 +1,69 @@
-export type ParcelSimulatorFormValues = {
-  customer: string
-  origin: string
-  products: Array<{
-    name: string
-    price: number
-  }>
-  deliveryPrice: number
-  territory: string
-  transporter: string
-  "cf-turnstile-response": string
-}
+import type { Origin, Territory, Transporter } from "@/services/types"
 
-export type ParcelSimulatorResult = {
-  carrierFee: number
-  dutyPrice: number
-  totalTaxes: number
-  taxes: {
-    tva: number
-    om: number
-    omr: number
-  }
-  taxesInfo: {
-    applicable: boolean
-    privateCustomer: boolean
-  }
-  products: Array<{
-    name: string
-    price: number
-  }>
-}
+import { z } from "zod"
+
+export const ParcelSimulatorSchema = z.object({
+  customer: z.enum(["Oui", "Non"]),
+  deliveryPrice: z.coerce.number().min(0),
+  products: z.array(
+    z.object({
+      name: z.string(),
+      price: z.coerce.number().min(0),
+    }),
+  ),
+  origin: z.custom<Origin>(),
+  territory: z.custom<Territory>(),
+  transporter: z.custom<Transporter>(),
+  "cf-turnstile-response": z.string(),
+})
+
+export type ParcelSimulatorFormValues = z.infer<typeof ParcelSimulatorSchema>
+
+type DeepKeys<T> = T extends object
+  ? {
+      [K in keyof T & (string | number)]: T[K] extends Array<any>
+        ? `${K}` | `${K}[${number}]` | `${K}[${number}].${DeepKeys<T[K][number]>}`
+        : T[K] extends object
+          ? `${K}` | `${K}.${DeepKeys<T[K]>}`
+          : `${K}`
+    }[keyof T & (string | number)]
+  : never
+
+export type ParcelSimulatorFormLabel = DeepKeys<z.infer<typeof ParcelSimulatorSchema>>
+
+const ParcelSimulatorResultSchema = z.object({
+  carrierFee: z.number(),
+  dutyPrice: z.number(),
+  totalTaxes: z.number(),
+  taxes: z.object({
+    tva: z.number(),
+    om: z.number(),
+    omr: z.number(),
+  }),
+  taxesInfo: z.object({
+    applicable: z.boolean(),
+    privateCustomer: z.boolean(),
+  }),
+  products: z.array(
+    z.object({
+      name: z.string(),
+      price: z.number(),
+    }),
+  ),
+})
+
+export type ParcelSimulatorResult = z.infer<typeof ParcelSimulatorResultSchema>
+
+const ParcelSimulatorTemplateSchema = z.array(
+  z.object({
+    templateID: z.number(),
+    templateName: z.string(),
+    products: z.array(
+      z.object({
+        productID: z.number(),
+        productName: z.string(),
+      }),
+    ),
+  }),
+)
+export type ParcelSimulatorTemplateType = z.infer<typeof ParcelSimulatorTemplateSchema>

@@ -1,10 +1,18 @@
-import type { OriginData, TerritoryData } from "../data"
+import { z } from "zod"
 
-type OriginDataType = (typeof OriginData)[number]["name"]
-export type OriginDataValue = (typeof OriginData)[number]["name"]
+const OriginSchema = z.enum(["EU", "HORS_EU"])
+export type Origin = z.infer<typeof OriginSchema>
 
-type TerritoryDataType = typeof TerritoryData
-export type TerritoryDataValue = (typeof TerritoryData)[number]["name"]
+const TerritorySchema = z.enum([
+  "CORSE",
+  "FRANCE",
+  "GUADELOUPE",
+  "GUYANE",
+  "MARTINIQUE",
+  "MAYOTTE",
+  "REUNION",
+])
+export type Territory = z.infer<typeof TerritorySchema>
 
-export type TerritoryAndOriginDataValue = OriginDataValue | TerritoryDataValue
-export type TerritoryAndOriginType = OriginDataType | TerritoryDataType
+const TransporterSchema = z.enum(["CHRONOPOST", "COLISSIMO", "DHL", "FEDEX", "UPS"])
+export type Transporter = z.infer<typeof TransporterSchema>

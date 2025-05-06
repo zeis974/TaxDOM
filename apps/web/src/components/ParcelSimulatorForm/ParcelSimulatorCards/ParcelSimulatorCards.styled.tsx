@@ -8,8 +8,7 @@ export const Container = styled.div`
   align-content: flex-start;
   height: 100%;
   gap: 20px;
-  margin: 0 20px;
-  overflow-y: auto;
+  overflow-y: scroll;
 
   & > button {
     width: calc(100% / 3 - 15px);
@@ -40,7 +39,7 @@ export const Container = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background: #2d3436; 
+    background: token(colors.background); 
   }
   
   &::-webkit-scrollbar-thumb {
@@ -54,14 +53,36 @@ export const Container = styled.div`
 
 export const ParcelContent = styled.div`
   display: flex;
-  justify-content: space-around;
+  gap: 10px;
   width: 100%;
+  background: token(colors.background);
+  padding-bottom: 5px;
+  z-index: 1;
   top: 0;
-  position: sticky;
-  background: token(colors.tertiaryBackground);
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 6px 15px 0px token(colors.background);
+
+  & > div:first-of-type {
+    position: sticky;
+    display: inherit;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background: token(colors.tertiaryBackground);
+  }
+
+  button {
+    width: 100px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 150ms;
+    
+    &:hover {
+      background: transparent;
+      border: 2px solid token(colors.tertiaryBackground);
+    }
+  }
 `
 
 export const Card = styled.div`
@@ -76,7 +97,7 @@ export const Card = styled.div`
     padding: 10px;
     border-radius: 5px;
     border: 2px solid transparent;
-    margin-top: 15px;
+    margin-top: 5px;
     transition: 150ms;
     cursor: pointer;
 
@@ -128,4 +149,11 @@ export const Loading = styled(m.div)`
     font-family: token(fonts.Rowdies);
     margin: 10px 0;
   }
+`
+
+export const ParcelSimulatorSkeleton = styled.div`
+  width: 100px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  animation: skeleton 1s linear infinite;
 `

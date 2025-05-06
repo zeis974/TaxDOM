@@ -3,11 +3,12 @@
 import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types"
 
 import { ServerValidateError, createServerValidate } from "@tanstack/react-form/nextjs"
+
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
-import { formParcelSimulatorOpts } from "@/lib/form"
+import { formOpts } from "@/hooks/form"
 
 const serverValidate = createServerValidate({
-  ...formParcelSimulatorOpts,
+  ...formOpts,
   onServerValidate: ({ value }) => {
     if (!value.products) {
       return "Please add at least one product"
