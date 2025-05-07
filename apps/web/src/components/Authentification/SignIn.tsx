@@ -11,7 +11,7 @@ export default function SignIn() {
       onClick={async () => {
         const data = await authClient.signIn.social({
           provider: "google",
-          callbackURL: "https://taxdom.re",
+          callbackURL: process.env.NEXT_PUBLIC_URL,
         })
         if (data.error) {
           toast.error("Une erreur est survenue lors de la connexion", {

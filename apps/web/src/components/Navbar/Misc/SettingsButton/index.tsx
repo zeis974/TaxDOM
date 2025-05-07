@@ -1,13 +1,13 @@
 "use client"
 
-import Link from "next/link"
 import { styled } from "@/panda/jsx"
+import Link from "next/link"
 
 import { SettingIcon } from "@/components/Icons"
 
 export default function SettingsButton() {
   return (
-    <StyledLink href="/settings" aria-label="Ouvre les paramètres">
+    <StyledLink href="/settings">
       <SettingIcon />
     </StyledLink>
   )
@@ -19,7 +19,7 @@ export const StyledLink = styled(Link)`
   height: 45px;
   padding: 5px;
   color: token(colors.primary);
-  border-radius: 5px;
+  border-radius: 50%;
   border: 2px solid token(colors.darkGray);
   transition: border 150ms;
 
@@ -28,6 +28,7 @@ export const StyledLink = styled(Link)`
   }
 
   & > svg {
+    padding: 3px;
     transition: 250ms;
   }
 
