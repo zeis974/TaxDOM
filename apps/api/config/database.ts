@@ -1,6 +1,8 @@
-import * as schema from "#database/schema"
+// import * as schema from "#database/schema"
+// import env from "#start/env"
 
-import env from "#start/env"
+import * as schema from "../database/schema.js"
+import env from "../start/env.js"
 
 import { drizzle } from "drizzle-orm/libsql"
 import { sql } from "drizzle-orm"
