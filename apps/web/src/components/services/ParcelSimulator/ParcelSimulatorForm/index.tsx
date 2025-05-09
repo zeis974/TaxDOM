@@ -1,7 +1,7 @@
 "use client"
 
-import { initialFormState } from "@tanstack/react-form/nextjs"
 import { mergeForm, useTransform } from "@tanstack/react-form"
+import { initialFormState } from "@tanstack/react-form/nextjs"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
@@ -12,9 +12,10 @@ import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvide
 
 import { OriginData, TerritoryData, TransporterData } from "@/services/data"
 
+import { Input, Radio, Select } from "@/components/Forms"
+import { ParcelSimulatorCards } from "../ParcelSimulatorCards"
+
 import { Container } from "./ParcelSimulator.styled"
-import { Input, Select, Radio } from "@/components/Forms"
-import { ParcelSimulatorCards } from "@/components/ParcelSimulatorForm/ParcelSimulatorCards"
 
 export default function ParcelSimulator() {
   const [state, action] = useActionState(calculateParcel, initialFormState)
@@ -38,6 +39,7 @@ export default function ParcelSimulator() {
         setResult(state)
       }
     } catch (e) {
+      console.log(state)
       if (state.taxes) {
         setHasResult(true)
         setResult(state)

@@ -3,7 +3,7 @@ import { redirect } from "next/navigation"
 
 import { authClient } from "@/lib/auth-client"
 
-import SignIn from "@/components/Authentification/SignIn"
+import SignIn from "@/components/services/Auth/SignIn"
 
 import { Container } from "./Contributes.styled"
 

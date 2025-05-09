@@ -9,7 +9,7 @@ import { styled } from "@/panda/jsx"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 import MapsIllustration from "@/components/Misc/MapsIllustration"
-import TaxSimulatorResult from "@/components/TaxSimulatorForm/TaxSimulatorResult"
+import TaxSimulatorResult from "@/components/services/TaxSimulator/TaxSimulatorResult"
 
 const ProductLayer = () => {
   return (

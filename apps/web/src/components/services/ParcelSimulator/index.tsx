@@ -3,7 +3,7 @@ import { dehydrate, HydrationBoundary, QueryClient } from "@tanstack/react-query
 
 import { fetchTemplates } from "@/lib/fetchTemplate"
 
-import ParcelSimulator from "@/components/services/ParcelSimulator"
+import ParcelSimulatorForm from "./ParcelSimulatorForm"
 
 export default async function ParcelSimulatorService() {
   const queryClient = new QueryClient()
@@ -13,7 +13,7 @@ export default async function ParcelSimulatorService() {
   return (
     <Section>
       <HydrationBoundary state={dehydrate(queryClient)}>
-        <ParcelSimulator />
+        <ParcelSimulatorForm />
       </HydrationBoundary>
     </Section>
   )
