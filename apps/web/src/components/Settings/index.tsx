@@ -4,9 +4,9 @@ import ThemeSettings from "@/components/Settings/ThemeSettings"
 
 export default function Settings() {
   return (
-    <Section>
+    <div>
       <ThemeSettings />
-    </Section>
+    </div>
   )
 }
 

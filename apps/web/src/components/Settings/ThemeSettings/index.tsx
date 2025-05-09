@@ -9,13 +9,13 @@ import DarkModeThemeIcon from "./ThemeIcons/DarkModeThemeIcon"
 import SystemModeThemeIcon from "./ThemeIcons/SystemModeThemeIcon"
 import LightModeThemeIcon from "./ThemeIcons/LightModeThemeIcon"
 
-type themesProps = {
+type ThemesProps = {
   name: "system" | "light" | "dark"
   label: string
   illustration: JSX.Element
 }
 
-const themes: themesProps[] = [
+const themes: ThemesProps[] = [
   {
     name: "system",
     label: "Système",
