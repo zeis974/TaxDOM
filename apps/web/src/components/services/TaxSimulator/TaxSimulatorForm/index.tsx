@@ -1,6 +1,6 @@
 "use client"
 
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel } from "../types"
 
 import { mergeForm, useTransform } from "@tanstack/react-form"
 import { initialFormState } from "@tanstack/react-form/nextjs"
@@ -12,7 +12,7 @@ import { formOpts, useAppForm } from "@/hooks/form"
 import Turnstile from "@/lib/Turnstile"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
-import { OriginData, TerritoryData } from "@/services/data"
+import { OriginData, TerritoryData } from "@taxdom/types"
 
 import { Radio, Select } from "@/components/Forms"
 
@@ -76,7 +76,7 @@ export default function TaxSimulatorForm() {
         name="origin"
         label="Territoire d'origine"
         placeholder="EU"
-        staticOptions={OriginData}
+        staticOptions={[...OriginData]}
         actions={{
           handleOnFocus: handleFocusInput,
         }}
@@ -86,7 +86,7 @@ export default function TaxSimulatorForm() {
         name="territory"
         label="Territoire d'application"
         placeholder="Réunion"
-        staticOptions={TerritoryData}
+        staticOptions={[...TerritoryData]}
         actions={{
           handleOnFocus: handleFocusInput,
         }}
