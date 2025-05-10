@@ -1,4 +1,4 @@
-import type { Origin, Territory } from "@/services/types"
+import type { Origin, Territory } from "@taxdom/types"
 
 import { z } from "zod"
 

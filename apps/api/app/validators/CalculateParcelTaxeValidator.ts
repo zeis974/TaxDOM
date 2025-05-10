@@ -1,18 +1,21 @@
-import { OriginData, TerritoryData } from "#types/index"
+import { OriginData, TerritoryData } from "@taxdom/types"
 import vine from "@vinejs/vine"
+
+const Origin = OriginData.map((o) => o.name)
+const Territory = TerritoryData.map((t) => t.name)
 
 export const CalculateParcelTaxeValidator = vine.compile(
   vine.object({
     customer: vine.enum(["Oui", "Non"]),
     deliveryPrice: vine.number().positive(),
-    origin: vine.enum(OriginData),
+    origin: vine.enum(Origin),
     products: vine.array(
       vine.object({
         name: vine.string().alphaNumeric(),
         price: vine.number().positive(),
       }),
     ),
-    territory: vine.enum(TerritoryData),
+    territory: vine.enum(Territory),
     transporter: vine.string().alphaNumeric(),
   }),
 )

@@ -1,5 +1,5 @@
 "use client"
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel } from "@/components/services/TaxSimulator/types"
 
 import * as m from "motion/react-m"
 import { AnimatePresence } from "motion/react"

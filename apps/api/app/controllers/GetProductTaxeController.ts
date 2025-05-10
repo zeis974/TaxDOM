@@ -1,5 +1,5 @@
 import type { HttpContext } from "@adonisjs/core/http"
-import type { Origin, Territory } from "#types/index"
+import type { Origin, Territory } from "@taxdom/types"
 
 import logger from "@adonisjs/core/services/logger"
 import { and, eq } from "drizzle-orm"
