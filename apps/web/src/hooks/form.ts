@@ -1,9 +1,9 @@
 "use client"
 
-import type { Origin, Transporter } from "@/services/types"
+import type { Origin, Transporter } from "@taxdom/types"
 
-import { ParcelSimulatorSchema } from "@/services/ParcelSimulator/types"
-import { TaxSimulatorFormSchema } from "@/services/TaxSimulator/types"
+import { ParcelSimulatorSchema } from "@/components/services/ParcelSimulator/types"
+import { TaxSimulatorFormSchema } from "@/components/services/TaxSimulator/types"
 
 import { createFormHook, createFormHookContexts, formOptions } from "@tanstack/react-form"
 import { lazy } from "react"

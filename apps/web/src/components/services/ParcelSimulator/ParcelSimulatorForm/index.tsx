@@ -1,7 +1,7 @@
 "use client"
 
-import { initialFormState } from "@tanstack/react-form/nextjs"
 import { mergeForm, useTransform } from "@tanstack/react-form"
+import { initialFormState } from "@tanstack/react-form/nextjs"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
@@ -10,11 +10,12 @@ import { formOpts, useAppForm } from "@/hooks/form"
 import Turnstile from "@/lib/Turnstile"
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
-import { OriginData, TerritoryData, TransporterData } from "@/services/data"
+import { OriginData, TerritoryData, TransporterData } from "@taxdom/types"
+
+import { Input, Radio, Select } from "@/components/Forms"
+import { ParcelSimulatorCards } from "../ParcelSimulatorCards"
 
 import { Container } from "./ParcelSimulator.styled"
-import { Input, Select, Radio } from "@/components/Forms"
-import { ParcelSimulatorCards } from "@/components/ParcelSimulatorForm/ParcelSimulatorCards"
 
 export default function ParcelSimulator() {
   const [state, action] = useActionState(calculateParcel, initialFormState)
@@ -38,6 +39,7 @@ export default function ParcelSimulator() {
         setResult(state)
       }
     } catch (e) {
+      console.log(state)
       if (state.taxes) {
         setHasResult(true)
         setResult(state)
@@ -59,14 +61,14 @@ export default function ParcelSimulator() {
             name="origin"
             label="Origine"
             placeholder="EU"
-            staticOptions={OriginData}
+            staticOptions={[...OriginData]}
           />
           <Select
             {...{ form }}
             name="territory"
             label="Territoire d'application"
             placeholder="REUNION"
-            staticOptions={TerritoryData}
+            staticOptions={[...TerritoryData]}
           />
           <Radio
             {...{ form }}
@@ -79,7 +81,7 @@ export default function ParcelSimulator() {
             name="transporter"
             label="Transporteur"
             placeholder="COLISSIMO"
-            staticOptions={TransporterData}
+            staticOptions={[...TransporterData]}
           />
           <Input
             {...{ form }}

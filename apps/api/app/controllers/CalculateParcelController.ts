@@ -1,9 +1,9 @@
-import type { HttpContext } from "@adonisjs/core/http"
 import { db } from "#config/database"
+import type { HttpContext } from "@adonisjs/core/http"
 import { eq, inArray } from "drizzle-orm"
 
-import { CalculateParcelTaxeValidator } from "#validators/CalculateParcelTaxeValidator"
 import { carriers, categories, products as productsTable, taxes } from "#database/schema"
+import { CalculateParcelTaxeValidator } from "#validators/CalculateParcelTaxeValidator"
 
 // As of April 1, 2023, the “franchise threshold” was raised to 400 euros
 const FRANCHISE_THRESHOLD_PRIVATE_CUSTOMER = 400
@@ -15,23 +15,21 @@ export default class CalculateParcelController {
     const payload = await CalculateParcelTaxeValidator.validate(data)
 
     const { customer, deliveryPrice, origin, products, transporter } = payload
-    const privateCustomer = customer
 
     const allProductPrice = products.reduce((acc, product) => acc + product.price, 0)
+    const privateCustomer = customer === "Non"
     const dutyPrice = allProductPrice + deliveryPrice
 
     const isTaxesApplicable = () => {
       const isTaxesForPrivateCustomerApplicable =
-        dutyPrice > FRANCHISE_THRESHOLD_PRIVATE_CUSTOMER &&
-        privateCustomer === "Oui" &&
-        origin === "EU"
+        dutyPrice > FRANCHISE_THRESHOLD_PRIVATE_CUSTOMER && !privateCustomer && origin === "EU"
 
       const isTaxesForCustomerApplicable =
-        dutyPrice > FRANCHISE_THRESHOLD_CUSTOMER && privateCustomer === "Non" && origin === "EU"
+        dutyPrice > FRANCHISE_THRESHOLD_CUSTOMER && privateCustomer && origin === "EU"
 
       return {
         applicable: isTaxesForPrivateCustomerApplicable || isTaxesForCustomerApplicable,
-        privateCustomer: privateCustomer === "Oui",
+        privateCustomer: !privateCustomer,
       }
     }
 
@@ -71,6 +69,8 @@ export default class CalculateParcelController {
     }))
 
     const { tva, om, omr } = availableCategories[0]
+
+    console.log(availableCategories[0])
 
     const omrPrice = Math.round((dutyPrice * omr) / 100)
     const omPrice = Math.round((dutyPrice * om) / 100)

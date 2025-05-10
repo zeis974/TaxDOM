@@ -1,4 +1,4 @@
-import type { ParcelSimulatorTemplateType } from "@/services/ParcelSimulator/types"
+import type { ParcelSimulatorTemplateType } from "@/components/services/ParcelSimulator/types"
 import { queryOptions } from "@tanstack/react-query"
 
 export const fetchTemplates = queryOptions({

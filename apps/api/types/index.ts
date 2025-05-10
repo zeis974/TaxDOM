@@ -1,33 +1,19 @@
-export const TerritoryData = [
-  "CORSE",
-  "FRANCE",
-  "GUADELOUPE",
-  "GUYANE",
-  "MARTINIQUE",
-  "MAYOTTE",
-  "REUNION",
-] as const
+import type { Origin, Territory } from "@taxdom/types"
 
-export type Territory = (typeof TerritoryData)[number]
-
-export const OriginData = ["EU", "HORS_EU"] as const
-
-export type Origin = (typeof OriginData)[number]
-
-export interface TaxSimulatorFormLabel extends Record<string, any> {
+export interface TaxSimulatorFormLabel {
   product: string
   origin: Origin
   territory: Territory
   flux: "import" | "export"
 }
 
-export interface ParcelSimulatorFormLabel extends Record<string, any> {
+export interface ParcelSimulatorFormLabel {
   customer: string
-  origin: string
+  deliveryPrice: number | undefined
+  origin: Origin
+  territory: Territory
   products: Array<{
     name: string
     price: number | undefined
   }>
-  deliveryPrice: number | undefined
-  territory: string
 }

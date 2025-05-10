@@ -1,7 +1,7 @@
 "use client"
 
 import type { OptionsProps, SelectProps } from "@/components/Forms/types"
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel } from "@/components/services/TaxSimulator/types"
 
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"

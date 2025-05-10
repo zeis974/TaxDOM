@@ -1,5 +1,5 @@
 "use client"
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel } from "@/components/services/TaxSimulator/types"
 
 import * as m from "motion/react-m"
 import { AnimatePresence } from "motion/react"
@@ -9,7 +9,7 @@ import { styled } from "@/panda/jsx"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
 import MapsIllustration from "@/components/Misc/MapsIllustration"
-import TaxSimulatorResult from "@/components/TaxSimulatorForm/TaxSimulatorResult"
+import TaxSimulatorResult from "@/components/services/TaxSimulator/TaxSimulatorResult"
 
 const ProductLayer = () => {
   return (

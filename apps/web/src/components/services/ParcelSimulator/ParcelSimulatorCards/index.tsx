@@ -6,11 +6,12 @@ import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvide
 
 import { Input, Select } from "@/components/Forms"
 import { AddIcon, TaxDOMLogo } from "@/components/Icons"
-import ParcelSimulatorResult from "@/components/ParcelSimulatorForm/ParcelSimulatorResult"
-const ParcelSimulatorTemplate = dynamic(
-  () => import("@/components/ParcelSimulatorForm/ParcelSimulatorTemplate"),
-  { ssr: false, loading: () => <ParcelSimulatorSkeleton /> },
-)
+import ParcelSimulatorResult from "../ParcelSimulatorResult"
+
+const ParcelSimulatorTemplate = dynamic(() => import("../ParcelSimulatorTemplate"), {
+  ssr: false,
+  loading: () => <ParcelSimulatorSkeleton />,
+})
 
 import {
   Card,
@@ -24,6 +25,7 @@ export const ParcelSimulatorCards = withForm({
   ...formOpts,
   render: function Render({ form }) {
     const hasResult = useParcelSimulatorStore((s) => s.hasResult)
+    console.log(hasResult)
 
     return (
       <Container>

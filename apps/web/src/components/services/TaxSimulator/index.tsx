@@ -1,9 +1,9 @@
 import { styled } from "@/panda/jsx"
 
-import TaxSimulatorForm from "@/components/TaxSimulatorForm"
-import TaxSimulatorInformations from "@/components/TaxSimulatorForm/TaxSimulatorInformations"
+import TaxSimulatorForm from "./TaxSimulatorForm"
+import TaxSimulatorInformations from "./TaxSimulatorInformations"
 
-export default function TaxSimulatorService() {
+export default function TaxSimulator() {
   return (
     <Section>
       <TaxSimulatorForm />

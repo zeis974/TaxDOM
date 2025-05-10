@@ -1,6 +1,6 @@
 "use server"
 
-import type { TaxSimulatorResult } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorResult } from "@/components/services/TaxSimulator/types"
 
 import { ServerValidateError, createServerValidate } from "@tanstack/react-form/nextjs"
 

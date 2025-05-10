@@ -1,6 +1,6 @@
 "use server"
 
-import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types"
+import type { ParcelSimulatorFormValues } from "@/components/services/ParcelSimulator/types"
 
 import { ServerValidateError, createServerValidate } from "@tanstack/react-form/nextjs"
 
