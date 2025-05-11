@@ -51,6 +51,7 @@
     "@adonisjs/eslint-config": "2.0.0",
     "@adonisjs/tsconfig": "1.4.0",
     "@swc/core": "1.11.21",
+    "@taxdom/types": "workspace:*",
     "@types/luxon": "^3.6.2",
     "@types/node": "^22.14.1",
     "drizzle-kit": "0.31.0",
@@ -67,5 +68,5 @@
     "node": ">=22",
     "pnpm": ">=10"
   },
-  "packageManager": "pnpm@10.9.0"
+  "packageManager": "pnpm@10.10.0"
 }

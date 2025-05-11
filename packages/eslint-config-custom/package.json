@@ -4,6 +4,6 @@
   "main": "index.js",
   "devDependencies": {
     "eslint-config-next": "15.3.0",
-    "eslint-config-turbo": "2.5.0"
+    "eslint-config-turbo": "2.5.3"
   }
 }
