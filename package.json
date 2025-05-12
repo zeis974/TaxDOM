@@ -16,9 +16,9 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "eslint": "9.25.1",
+    "eslint": "9.26.0",
     "husky": "9.1.7",
-    "lint-staged": "15.5.1",
+    "lint-staged": "16.0.0",
     "turbo": "2.5.3",
     "typescript": "5.8.3"
   },
