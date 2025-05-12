@@ -1,6 +1,6 @@
 ---
 import Header from "@/components/Header.astro"
-import Navbar from "@/components/Navbar/index"
+import Navbar from "@/components/Navbar"
 
 const { title } = Astro.props
 ---
@@ -22,7 +22,17 @@ const { title } = Astro.props
   </head>
   <body>
     <Navbar client:load />
-	  <slot />
+    <section class="container">
+      <slot />
+    </section>
   </body>
 </html>
+
+<style>
+  .container {
+    max-width: 1300px;
+      margin: 0 auto;
+    padding: 0 20px;
+  }
+</style>
 
