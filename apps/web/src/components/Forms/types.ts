@@ -1,7 +1,7 @@
-import type { ParcelSimulatorFormLabel } from "@/services/ParcelSimulator/types"
 import type { FieldApi } from "@tanstack/react-form"
 
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
+import type { ParcelSimulatorFormLabel } from "@/components/services/ParcelSimulator/types"
+import type { TaxSimulatorFormLabel } from "@/components/services/TaxSimulator/types"
 
 import { z } from "zod"
 
@@ -85,5 +85,3 @@ const SelectSchema = z.object({
 })
 
 export type SelectProps = z.infer<typeof SelectSchema>
-
-// const test: SelectProps["name"] = "products[1].price"
