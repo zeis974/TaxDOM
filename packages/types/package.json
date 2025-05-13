@@ -1,7 +1,13 @@
 {
   "name": "@taxdom/types",
-  "main": "src/index.ts",
+  "type": "module",
   "types": "src/index.ts",
   "private": true,
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    }
+  },
   "files": ["src"]
 }
