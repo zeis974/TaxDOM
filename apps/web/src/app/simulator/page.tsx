@@ -1,5 +1,5 @@
 import ParcelSimulatorService from "@/components/services/ParcelSimulator"
 
-export default function SimulatorPage() {
+export default function ParcelSimulatorPage() {
   return <ParcelSimulatorService />
 }
