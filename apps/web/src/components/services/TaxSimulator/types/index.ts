@@ -23,17 +23,3 @@ type DeepKeys<T> = T extends object
   : never
 
 export type TaxSimulatorFormLabel = DeepKeys<z.infer<typeof TaxSimulatorFormSchema>>
-
-const TaxSimulatorResultSchema = z.object({
-  product: z.string(),
-  tva: z.number(),
-  om: z.number(),
-  omr: z.number(),
-  errors: z.array(
-    z.object({
-      message: z.string(),
-    }),
-  ),
-})
-
-export type TaxSimulatorResult = z.infer<typeof TaxSimulatorResultSchema>
