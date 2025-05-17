@@ -4,6 +4,7 @@ import type { TaxSimulatorFormLabel } from "../types"
 
 import { mergeForm, useTransform } from "@tanstack/react-form"
 import { initialFormState } from "@tanstack/react-form/nextjs"
+import { OriginData, TerritoryData } from "@taxdom/types"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
@@ -11,8 +12,6 @@ import getProductTaxes from "@/actions/getProductTaxes"
 import { formOpts, useAppForm } from "@/hooks/form"
 import Turnstile from "@/lib/Turnstile"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
-
-import { OriginData, TerritoryData } from "@taxdom/types"
 
 import { Radio, Select } from "@/components/Forms"
 
@@ -27,32 +26,24 @@ export default function TaxSimulatorForm() {
   const setResult = useTaxSimulatorStore((s) => s.setResult)
   const setSelectedCountry = useTaxSimulatorStore((s) => s.setSelectedCountry)
 
-  // @TODO : (workaround) fix multiple form re-render
+  // TODO: https://github.com/TanStack/form/issues/1018
   useEffect(() => {
-    console.log(state)
-
-    try {
-      const errors = state.errors[0]?.message
-
-      if (errors === "Please validate the captcha") {
-        toast.warning("Captcha invalide", {
-          description: "Veuillez valider le captcha",
-        })
-      } else if (errors === "Too many requests") {
-        setHasResult(true)
-        setResult(state)
-      }
-    } catch (e) {
-      if (state.tva) {
-        setHasResult(true)
-        setResult(state)
-      }
+    if (state.taxes) {
+      setHasResult(true)
+      setResult(state)
     }
-  }, [state, setHasResult, setResult])
+  }, [setHasResult, setResult, state])
 
   const form = useAppForm({
     ...formOpts,
-    transform: useTransform((baseForm) => mergeForm(baseForm, state ?? {}), [state]),
+    transform: useTransform((baseForm) => mergeForm(baseForm, state), [state]),
+    onSubmit: ({ value }) => {
+      if (value["cf-turnstile-response"] === "") {
+        toast.warning("Captcha invalide", {
+          description: "Veuillez valider le captcha",
+        })
+      }
+    },
   })
 
   const handleFocusInput = (name: TaxSimulatorFormLabel) => {

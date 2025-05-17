@@ -40,8 +40,11 @@ export default function TaxSimulatorResult() {
     )
   }
 
-  if (result?.tva) {
-    const { product, tva, om, omr } = result
+  if (result?.taxes) {
+    const {
+      product,
+      taxes: { tva, om, omr },
+    } = result
     const total = tva + om + omr
     const calculatedPrice = price * (total / 100)
 
@@ -54,7 +57,7 @@ export default function TaxSimulatorResult() {
             <br />
             <span>{product}</span>
           </h1>
-          <p>Taux de taxe maximum pouvant être appliquées au produit</p>
+          <p>Taux de taxe pouvant être appliquées au produit</p>
           <ActionBar>
             <div id="share-tooltip">
               <ShareIcon />
@@ -67,8 +70,8 @@ export default function TaxSimulatorResult() {
           </ActionBar>
         </Content>
         <TaxeCard>
-          <RateContainer>
-            <h5>Taux de taxes (détaillés)</h5>
+          <RateContainer data-total={total}>
+            <h5>Taux de taxes</h5>
             <div>
               <RateCard>
                 <span>{tva} %</span>
@@ -85,7 +88,7 @@ export default function TaxSimulatorResult() {
             </div>
           </RateContainer>
           <Line />
-          <PriceCalculator data-total={total}>
+          <PriceCalculator>
             <h5>Prix en € (HT)</h5>
             <div>
               <input

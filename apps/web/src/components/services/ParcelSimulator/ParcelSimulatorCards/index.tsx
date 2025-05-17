@@ -25,7 +25,6 @@ export const ParcelSimulatorCards = withForm({
   ...formOpts,
   render: function Render({ form }) {
     const hasResult = useParcelSimulatorStore((s) => s.hasResult)
-    console.log(hasResult)
 
     return (
       <Container>
@@ -56,37 +55,35 @@ export const ParcelSimulatorCards = withForm({
         <form.Field name="products" mode="array">
           {(field) => (
             <>
-              {field.state.value.map((_, i) => {
-                return (
-                  // biome-ignore lint/suspicious/noArrayIndexKey:
-                  <Card key={i}>
-                    <Select
-                      {...{ form }}
-                      name={`products[${i}].name`}
-                      label="Produit"
-                      placeholder="Type de produit"
-                      actions={{
-                        dynamic: true,
-                      }}
-                    />
-                    <Input
-                      {...{ form }}
-                      name={`products[${i}].price`}
-                      label="Prix € (HT)"
-                      placeholder="0"
-                      type="number"
-                    />
-                    <button
-                      onClick={() => {
-                        field.removeValue(i)
-                      }}
-                      type="button"
-                    >
-                      Supprimer
-                    </button>
-                  </Card>
-                )
-              })}
+              {field.state.value.map((_, i) => (
+                // biome-ignore lint/suspicious/noArrayIndexKey:
+                <Card key={i}>
+                  <Select
+                    {...{ form }}
+                    name={`products[${i}].name`}
+                    label="Produit"
+                    placeholder="Type de produit"
+                    actions={{
+                      dynamic: true,
+                    }}
+                  />
+                  <Input
+                    {...{ form }}
+                    name={`products[${i}].price`}
+                    label="Prix € (HT)"
+                    placeholder="0"
+                    type="number"
+                  />
+                  <button
+                    onClick={() => {
+                      field.removeValue(i)
+                    }}
+                    type="button"
+                  >
+                    Supprimer
+                  </button>
+                </Card>
+              ))}
               <button
                 onClick={() => field.pushValue({ name: "", price: "" as unknown as number })}
                 type="button"

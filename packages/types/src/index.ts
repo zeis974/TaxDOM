@@ -24,3 +24,12 @@ export const TransporterData = [
 export type Origin = (typeof OriginData)[number]["name"]
 export type Territory = (typeof TerritoryData)[number]["name"]
 export type Transporter = (typeof TransporterData)[number]["name"]
+
+export type TaxSimulatorResult = {
+  product: string
+  taxes: {
+    tva: number
+    om: number
+    omr: number
+  }
+}
