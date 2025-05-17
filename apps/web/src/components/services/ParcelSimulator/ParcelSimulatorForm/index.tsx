@@ -32,6 +32,12 @@ export default function ParcelSimulator() {
         setHasResult(true)
         setResult(state)
       }
+
+      if (errors === "Please validate the captcha") {
+        toast.warning("Captcha invalide", {
+          description: "Veuillez valider le captcha",
+        })
+      }
     } catch (e) {
       if (state.taxes) {
         setHasResult(true)
@@ -46,14 +52,6 @@ export default function ParcelSimulator() {
     onSubmit: async ({ value }) => {
       if (value.products.length === 0) {
         toast.info("Veuillez ajouter au moins un produit")
-      }
-    },
-
-    onSubmitInvalid: ({ value }) => {
-      if (value["cf-turnstile-response"] === "") {
-        toast.warning("Captcha invalide", {
-          description: "Veuillez valider le captcha",
-        })
       }
     },
   })

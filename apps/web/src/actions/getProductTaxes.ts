@@ -23,12 +23,12 @@ export default async function getProductTaxes(prev: unknown, formData: FormData)
     product: formData.get("product"),
     origin: formData.get("origin"),
     territory: formData.get("territory"),
-    token: formData.get("cf-turnstile-response") as string,
+    token: formData.get("cf-turnstile-response"),
   }
 
   try {
     await serverValidate(formData)
-    await validateTurnstileCaptcha(value.token)
+    await validateTurnstileCaptcha(value.token as string)
 
     const res = await fetch(`${process.env.API_URL}/products/taxes`, {
       method: "POST",
