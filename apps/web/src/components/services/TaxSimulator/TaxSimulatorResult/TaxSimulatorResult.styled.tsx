@@ -89,30 +89,9 @@ export const PriceCalculator = styled.div`
   padding: 10px 10px 0;    
   color: black;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 110px;
-    height: 50px;
-    background: no-repeat url("data:image/svg+xml,%3Csvg%20width%3D%22130%22%20height%3D%2238%22%20viewBox%3D%220%200%20130%2038%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M130%200H0C0%200%2010.5012%2038%2029.1775%2038H130V0Z%22%20fill%3D%22%232980B9%22%2F%3E%3C%2Fsvg%3E");
-    top: -2px;
-    right: 0;
-  }
-
-  &::after {
-    content: attr(data-total) "% total";
-    position: absolute;
-    font-weight: bold;
-    top: 0;
-    right: 0;   
-    width: 100px;
-    padding: 5px 0 5px 5px;
-  }
-
   h5 {
     font-family: token(fonts.NotoSansBold);
     text-align: left;
-    margin-bottom: 10px;
   }
   
   & > div {
@@ -161,6 +140,27 @@ export const RateContainer = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    background: no-repeat url("data:image/svg+xml,%3Csvg%20width%3D%22130%22%20height%3D%2238%22%20viewBox%3D%220%200%20130%2038%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M130%200H0C0%200%2010.5012%2038%2029.1775%2038H130V0Z%22%20fill%3D%22%232980B9%22%2F%3E%3C%2Fsvg%3E");
+    top: -2px;
+    right: 0;
+  }
+
+  &::after {
+    content: attr(data-total) "% total";
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    top: 0;
+    right: -9px;   
+    width: 100px;
+    padding: 5px 0 5px 5px;
+  }
 
   div {
     display: inherit;

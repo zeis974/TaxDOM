@@ -1,8 +1,8 @@
 import type { HttpContext } from "@adonisjs/core/http"
-import type { Origin, Territory } from "@taxdom/types"
-
+import type { Origin, TaxSimulatorResult, Territory } from "@taxdom/types"
 import logger from "@adonisjs/core/services/logger"
 import { and, eq } from "drizzle-orm"
+
 import { db } from "#config/database"
 import { products, taxes } from "#database/schema"
 import { GetProductTaxeValidator } from "#validators/GetProductTaxeValidator"
@@ -56,12 +56,16 @@ export default class GetProductTaxeController {
 
       logger.info("Fetching (%s) taxes in getProductTaxeController", product)
 
-      return {
-        product: product,
-        tva: result[0].tva,
-        om: result[0].om,
-        omr: result[0].omr,
+      const res: TaxSimulatorResult = {
+        product,
+        taxes: {
+          tva: result[0].tva,
+          om: result[0].om,
+          omr: result[0].omr,
+        },
       }
+
+      return res
     } catch (err) {
       logger.error({ err: err }, "Cannot getProductTaxes")
     }

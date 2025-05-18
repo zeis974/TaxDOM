@@ -3,7 +3,7 @@ import { styled } from "@/panda/jsx"
 import TaxSimulatorForm from "./TaxSimulatorForm"
 import TaxSimulatorInformations from "./TaxSimulatorInformations"
 
-export default function TaxSimulator() {
+export default function TaxSimulatorService() {
   return (
     <Section>
       <TaxSimulatorForm />

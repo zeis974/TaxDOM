@@ -23,33 +23,37 @@ export default function ParcelSimulator() {
   const setHasResult = useParcelSimulatorStore((s) => s.setHasResult)
   const setResult = useParcelSimulatorStore((s) => s.setResult)
 
-  // @TODO : (workaround) fix multiple form re-render
+  // TODO: https://github.com/TanStack/form/issues/1018
   useEffect(() => {
     try {
       const errors = state.errors[0]?.message
+
+      if (errors === "Too many requests") {
+        setHasResult(true)
+        setResult(state)
+      }
 
       if (errors === "Please validate the captcha") {
         toast.warning("Captcha invalide", {
           description: "Veuillez valider le captcha",
         })
-      } else if (errors === "Please add at least one product") {
-        toast.info("Veuillez ajouter au moins un produit")
-      } else if (errors === "Too many requests") {
-        setHasResult(true)
-        setResult(state)
       }
     } catch (e) {
-      console.log(state)
       if (state.taxes) {
         setHasResult(true)
         setResult(state)
       }
     }
-  }, [state, setHasResult, setResult])
+  }, [setHasResult, setResult, state])
 
   const form = useAppForm({
     ...formOpts,
     transform: useTransform((baseForm) => mergeForm(baseForm, state ?? {}), [state]),
+    onSubmit: async ({ value }) => {
+      if (value.products.length === 0) {
+        toast.info("Veuillez ajouter au moins un produit")
+      }
+    },
   })
 
   return (

@@ -1,7 +1,5 @@
-import type {
-  TaxSimulatorFormLabel,
-  TaxSimulatorResult,
-} from "@/components/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel } from "@/components/services/TaxSimulator/types"
+import type { TaxSimulatorResult } from "@taxdom/types"
 import { createStore } from "zustand/vanilla"
 
 export type TaxState = {

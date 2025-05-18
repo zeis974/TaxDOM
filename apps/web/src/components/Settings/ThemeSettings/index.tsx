@@ -4,18 +4,19 @@ import { useEffect, useState, type JSX } from "react"
 
 import { useTheme } from "next-themes"
 
-import { Container, ThemeButton, ThemeContainer } from "./ThemeSettings.styled"
 import DarkModeThemeIcon from "./ThemeIcons/DarkModeThemeIcon"
-import SystemModeThemeIcon from "./ThemeIcons/SystemModeThemeIcon"
 import LightModeThemeIcon from "./ThemeIcons/LightModeThemeIcon"
+import SystemModeThemeIcon from "./ThemeIcons/SystemModeThemeIcon"
 
-type themesProps = {
+import { Container, ThemeButton, ThemeContainer } from "./ThemeSettings.styled"
+
+type ThemesProps = {
   name: "system" | "light" | "dark"
   label: string
   illustration: JSX.Element
 }
 
-const themes: themesProps[] = [
+const themes: ThemesProps[] = [
   {
     name: "system",
     label: "Système",

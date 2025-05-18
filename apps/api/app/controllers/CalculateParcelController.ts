@@ -70,8 +70,6 @@ export default class CalculateParcelController {
 
     const { tva, om, omr } = availableCategories[0]
 
-    console.log(availableCategories[0])
-
     const omrPrice = Math.round((dutyPrice * omr) / 100)
     const omPrice = Math.round((dutyPrice * om) / 100)
     const tvaPrice = Math.round((dutyPrice * tva) / 100)
