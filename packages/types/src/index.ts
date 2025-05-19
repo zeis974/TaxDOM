@@ -14,11 +14,10 @@ export const TerritoryData = [
 ] as const
 
 export const TransporterData = [
-  { name: "CHRONOPOST", available: false },
+  { name: "CHRONOPOST", available: true },
   { name: "COLISSIMO", available: true },
   { name: "DHL", available: false },
   { name: "FEDEX", available: false },
-  { name: "UPS", available: false },
 ] as const
 
 export type Origin = (typeof OriginData)[number]["name"]

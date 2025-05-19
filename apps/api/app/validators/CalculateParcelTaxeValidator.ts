@@ -1,8 +1,9 @@
-import { OriginData, TerritoryData } from "@taxdom/types"
+import { OriginData, TerritoryData, TransporterData } from "@taxdom/types"
 import vine from "@vinejs/vine"
 
 const Origin = OriginData.map((o) => o.name)
 const Territory = TerritoryData.map((t) => t.name)
+const Transporter = TransporterData.map((t) => t.name)
 
 export const CalculateParcelTaxeValidator = vine.compile(
   vine.object({
@@ -16,6 +17,6 @@ export const CalculateParcelTaxeValidator = vine.compile(
       }),
     ),
     territory: vine.enum(Territory),
-    transporter: vine.string().alphaNumeric(),
+    transporter: vine.enum(Transporter),
   }),
 )
