@@ -32,3 +32,19 @@ export type TaxSimulatorResult = {
     omr: number
   }
 }
+
+export type ParcelSimulatorResult = {
+  carrierFee: number
+  dutyPrice: number
+  totalTaxes: number
+  taxes: {
+    applicable: "yes" | "no" | "maybe"
+    om: number
+    omr: number
+    tva: number
+  }
+  products: {
+    name: string
+    price: number
+  }[]
+}

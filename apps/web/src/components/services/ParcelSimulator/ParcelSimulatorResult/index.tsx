@@ -1,5 +1,3 @@
-import type { ParcelSimulatorResult as ParcelSimulatorResultType } from "../types"
-
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
 import {

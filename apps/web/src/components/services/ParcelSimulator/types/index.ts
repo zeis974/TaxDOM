@@ -31,29 +31,6 @@ type DeepKeys<T> = T extends object
 
 export type ParcelSimulatorFormLabel = DeepKeys<z.infer<typeof ParcelSimulatorSchema>>
 
-const ParcelSimulatorResultSchema = z.object({
-  carrierFee: z.number(),
-  dutyPrice: z.number(),
-  totalTaxes: z.number(),
-  taxes: z.object({
-    tva: z.number(),
-    om: z.number(),
-    omr: z.number(),
-  }),
-  taxesInfo: z.object({
-    applicable: z.boolean(),
-    privateCustomer: z.boolean(),
-  }),
-  products: z.array(
-    z.object({
-      name: z.string(),
-      price: z.number(),
-    }),
-  ),
-})
-
-export type ParcelSimulatorResult = z.infer<typeof ParcelSimulatorResultSchema>
-
 const ParcelSimulatorTemplateSchema = z.array(
   z.object({
     templateID: z.number(),

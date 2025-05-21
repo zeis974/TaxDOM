@@ -1,48 +1,73 @@
-import { db } from "#config/database"
 import type { HttpContext } from "@adonisjs/core/http"
+import type { ParcelSimulatorResult } from "@taxdom/types"
+import { db } from "#config/database"
 import { eq, inArray } from "drizzle-orm"
 
-import { carriers, categories, products as productsTable, taxes } from "#database/schema"
+import { categories, products as productsTable, taxes } from "#database/schema"
 import { CalculateParcelTaxeValidator } from "#validators/CalculateParcelTaxeValidator"
 
 // As of April 1, 2023, the “franchise threshold” was raised to 400 euros
-const FRANCHISE_THRESHOLD_PRIVATE_CUSTOMER = 400
+const FRANCHISE_THRESHOLD_BETWEEN_INDIVIDUALS = 400
 const FRANCHISE_THRESHOLD_CUSTOMER = 22
+
+// COLISSIMO
+const COLISSIMO_CARRIER_FEE = 5
+
+// CHRONOPOST
+const CHRONOPOST_CARRIER_FEE_INF_1000 = 21
+const CHRONOPOST_CARRIER_FEE_SUP_1000 = 29
+const CHRONOPOST_CARRIER_FEE = 10
 
 export default class CalculateParcelController {
   async handle({ request }: HttpContext) {
     const data = request.body()
+
     const payload = await CalculateParcelTaxeValidator.validate(data)
 
     const { customer, deliveryPrice, origin, products, transporter } = payload
 
-    const allProductPrice = products.reduce((acc, product) => acc + product.price, 0)
-    const privateCustomer = customer === "Non"
-    const dutyPrice = allProductPrice + deliveryPrice
+    const totalProductPrice = products.reduce((acc, product) => acc + product.price, 0)
+    const dutyPrice = totalProductPrice + deliveryPrice
+    const isBetweenIndividuals = customer === "Oui"
 
-    const isTaxesApplicable = () => {
-      const isTaxesForPrivateCustomerApplicable =
-        dutyPrice > FRANCHISE_THRESHOLD_PRIVATE_CUSTOMER && !privateCustomer && origin === "EU"
+    function getTaxApplicability({
+      dutyPrice,
+      isBetweenIndividuals,
+      origin,
+      transporter,
+    }: {
+      dutyPrice: number
+      isBetweenIndividuals: boolean
+      origin: string
+      transporter: string
+    }): "yes" | "no" | "maybe" {
+      const fromEU = origin === "EU"
 
-      const isTaxesForCustomerApplicable =
-        dutyPrice > FRANCHISE_THRESHOLD_CUSTOMER && privateCustomer && origin === "EU"
+      const privateThresholdExceeded = dutyPrice > FRANCHISE_THRESHOLD_BETWEEN_INDIVIDUALS
+      const customerThresholdExceeded = dutyPrice > FRANCHISE_THRESHOLD_CUSTOMER
 
-      return {
-        applicable: isTaxesForPrivateCustomerApplicable || isTaxesForCustomerApplicable,
-        privateCustomer: !privateCustomer,
-      }
+      const isPrivateApplicable = fromEU && privateThresholdExceeded && !isBetweenIndividuals
+      const isCustomerApplicable = fromEU && customerThresholdExceeded && isBetweenIndividuals
+
+      if (isCustomerApplicable && transporter === "CHRONOPOST") return "maybe"
+      return isPrivateApplicable || isCustomerApplicable ? "yes" : "no"
     }
 
-    const carrier = await db
-      .select({
-        carrierPrice: carriers.managementFee,
-      })
-      .from(carriers)
-      .where(eq(carriers.carrierName, transporter))
+    const taxApplicability = getTaxApplicability({
+      dutyPrice,
+      isBetweenIndividuals,
+      origin,
+      transporter,
+    })
 
-    // if (carrier.length === 0) {
-    //   throw new Error("Transporter not found")
-    // }
+    const getChronopostFee = (dutyPrice: number, isBetweenIndividuals: boolean) => {
+      if (dutyPrice < 100) {
+        return isBetweenIndividuals ? CHRONOPOST_CARRIER_FEE_INF_1000 : CHRONOPOST_CARRIER_FEE
+      }
+      if (dutyPrice < 1000) return CHRONOPOST_CARRIER_FEE_INF_1000
+
+      return CHRONOPOST_CARRIER_FEE_SUP_1000
+    }
 
     const productNames = products.map((product) => product.name)
     const productResults = await db
@@ -57,10 +82,6 @@ export default class CalculateParcelController {
       .innerJoin(taxes, eq(categories.taxID, taxes.taxID))
       .where(inArray(productsTable.productName, productNames))
 
-    // if (productResults.length === 0) {
-    //   throw new Error("Products not found")
-    // }
-
     const availableCategories = productResults.map((result) => ({
       categoryName: result.categoryName,
       tva: result.tva,
@@ -74,21 +95,27 @@ export default class CalculateParcelController {
     const omPrice = Math.round((dutyPrice * om) / 100)
     const tvaPrice = Math.round((dutyPrice * tva) / 100)
 
-    const totalTaxes = omrPrice + omPrice + tvaPrice + carrier[0].carrierPrice
+    let carrierFee = 0
 
-    const result = {
-      carrierFee: carrier[0].carrierPrice,
-      dutyPrice: dutyPrice,
-      products: products,
-      taxes: {
-        tva: tva,
-        om: om,
-        omr: omr,
-      },
-      taxesInfo: isTaxesApplicable(),
-      totalTaxes: totalTaxes,
+    if (transporter === "CHRONOPOST" && origin === "EU") {
+      carrierFee = getChronopostFee(dutyPrice, isBetweenIndividuals)
+    } else if (transporter === "COLISSIMO" && origin === "EU") {
+      carrierFee = COLISSIMO_CARRIER_FEE
     }
 
-    return result
+    const totalTaxes = omrPrice + omPrice + tvaPrice + carrierFee
+
+    return {
+      carrierFee,
+      dutyPrice,
+      products,
+      totalTaxes,
+      taxes: {
+        applicable: taxApplicability,
+        om,
+        omr,
+        tva,
+      },
+    } satisfies ParcelSimulatorResult
   }
 }
