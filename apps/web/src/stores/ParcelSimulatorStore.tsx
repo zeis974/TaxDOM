@@ -1,4 +1,4 @@
-import type { ParcelSimulatorResult } from "@/components/services/ParcelSimulator/types"
+import type { ParcelSimulatorResult } from "@taxdom/types"
 import { createStore } from "zustand/vanilla"
 
 export type ParcelState = {

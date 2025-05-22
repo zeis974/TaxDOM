@@ -8,11 +8,11 @@ export const Container = styled.div`
   background: token(colors.secondaryBackground);
   color: white;
   position: absolute;
-  z-index: 2;
   padding: 20px;
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  z-index: 1;
 
   & hr {
     margin: 0 20px;
