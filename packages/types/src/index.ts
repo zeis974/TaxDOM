@@ -1,6 +1,4 @@
 export const OriginData = [
-  { name: "EU", available: true },
-  { name: "HORS_EU", available: true },
   { name: "AFGHANISTAN", available: true },
   { name: "ALBANIE", available: true },
   { name: "ALGERIE", available: true },
