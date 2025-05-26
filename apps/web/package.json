@@ -13,6 +13,7 @@
   "dependencies": {
     "@tanstack/react-form": "1.11.2",
     "@tanstack/react-query": "5.76.1",
+    "@tanstack/react-virtual": "3.13.9",
     "better-auth": "1.2.8",
     "motion": "12.12.1",
     "next": "15.3.2",
@@ -28,7 +29,6 @@
     "@pandacss/dev": "0.53.6",
     "@taxdom/types": "workspace:*",
     "@types/node": "^22.15.21",
-    "@tanstack/react-query-devtools": "5.76.1",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "eslint": "9.27.0",
