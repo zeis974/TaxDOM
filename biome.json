@@ -23,6 +23,15 @@
     }
   },
   "files": {
-    "ignore": [".next/**", "data/**", "build", "dist", "coverage", "styled-system/**"]
+    "ignore": [
+      ".next/**",
+      "data/**",
+      "build",
+      "dist",
+      "coverage",
+      "apps/nginx",
+      "styled-system/**",
+      "packages/url-parser/pkg/**"
+    ]
   }
 }
