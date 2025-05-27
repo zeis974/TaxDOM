@@ -2,7 +2,7 @@ FROM node:22.14.0-alpine AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@10.9.0 --activate
+RUN corepack prepare pnpm@10.10.0 --activate
 
 FROM base AS builder
 # Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
@@ -20,12 +20,13 @@ FROM base AS installer
 WORKDIR /app
 
 ENV HUSKY=0
+ENV PNPM_INJECT_WORKSPACE_PACKAGES=true
 
 # First install the dependencies (as they change less often)
 COPY .gitignore .gitignore
 COPY --from=builder /app/out/json/ .
 COPY --from=builder /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile --prefer-offline
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prefer-offline
 
 # Build the project
 COPY --from=builder /app/out/full/ .
@@ -36,13 +37,13 @@ RUN pnpm turbo build
 FROM base AS deploy
 WORKDIR /app
 
+COPY --from=installer /app/pnpm-lock.yaml ./pnpm-lock.yaml
+COPY --from=installer /app/.npmrc .npmrc
+COPY --from=installer /app/package.json ./package.json
+COPY --from=installer /app/pnpm-workspace.yaml ./pnpm-workspace.yaml
 COPY --from=installer /app/apps/api/build ./
 
-# Revert internal package types in https://github.com/zeis974/TaxDOM/commit/cd69bce639cf9c81a8f85f578f3c022cc94cd85d
-# due to pnpm deploy doesn't rewrite workspace:* dependencies in package.json
-
-# https://github.com/pnpm/pnpm/issues/6269
-RUN pnpm --filter=@taxdom/api deploy --prod --legacy ./output
+RUN pnpm --filter=@taxdom/api deploy --prod ./output
 
 FROM base AS runner
 WORKDIR /app

@@ -28,4 +28,10 @@ export const Nav = styled.nav`
       }  
     }
   }
+
+  & > div:last-of-type {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
 `

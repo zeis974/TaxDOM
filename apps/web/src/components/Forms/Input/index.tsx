@@ -14,9 +14,7 @@ export default function InputField({ name, label, placeholder, type = "text" }: 
       <label htmlFor={name}>
         {label}{" "}
         {errors.map((error: string) => (
-          <span key={error} style={{ color: "red" }}>
-            {error}
-          </span>
+          <span key={error}>{error}</span>
         ))}
       </label>
       <input
@@ -50,10 +48,7 @@ export const Input = withForm({
       name={name}
       validators={{
         onSubmit: ({ value }) => {
-          console.log(value)
-          if (!value) {
-            return "Champs requis"
-          }
+          if (!value) return "Champs requis"
         },
       }}
     >

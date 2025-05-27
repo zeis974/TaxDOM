@@ -1,5 +1,5 @@
-import TaxSimulatorService from "@/services/TaxSimulator"
+import TaxSimulatorService from "@/components/services/TaxSimulator"
 
-export default function HomePage() {
+export default function TaxSimulatorPage() {
   return <TaxSimulatorService />
 }

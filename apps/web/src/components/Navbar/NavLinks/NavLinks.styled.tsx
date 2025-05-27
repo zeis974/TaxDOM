@@ -10,7 +10,7 @@ export const Container = styled.div`
   font-family: token(fonts.nativeFont);
 
   & > div:first-of-type {
-    z-index: 2;
+    z-index: 3;
   }
 
   & > a,
@@ -37,5 +37,5 @@ export const Backdrop = styled(m.div)`
   height: 100%;
   inset: 0;
   background: #0000008f;
-  z-index: 1;
+  z-index: 2;
 `
