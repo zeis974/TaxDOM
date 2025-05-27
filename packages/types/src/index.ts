@@ -143,8 +143,6 @@ export const OriginData = [
 ] as const
 
 export const TerritoryData = [
-  { name: "CORSE", available: false },
-  { name: "FRANCE", available: false },
   { name: "GUADELOUPE", available: false },
   { name: "GUYANE", available: false },
   { name: "MARTINIQUE", available: false },
