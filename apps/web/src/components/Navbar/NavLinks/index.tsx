@@ -21,7 +21,7 @@ export default function NavLinks() {
 
   const links: NavTypes[] = [
     {
-      name: "Services",
+      name: "Outils",
       icons: <ChevronIcon />,
       showChangeTools: true,
     },
@@ -30,7 +30,8 @@ export default function NavLinks() {
       href: "/blog",
     },
     {
-      name: "Hub",
+      name: "Contribuer",
+      href: "/contributes",
     },
   ]
 
