@@ -3,12 +3,13 @@ import "./globals.css"
 import type { Metadata } from "next"
 
 import { ThemeProvider } from "next-themes"
-import { Toaster } from "sonner"
 import localFont from "next/font/local"
+import { Toaster } from "sonner"
 
 import { useDetectDevice } from "@/hooks/useIsMobile"
 
 import LazyMotionProvider from "@/providers/LazyMotionProvider"
+import QueryProvider from "@/providers/QueryProvider"
 
 import Navbar from "@/components/Navbar"
 import AlphaMode from "@/components/AlphaMode"

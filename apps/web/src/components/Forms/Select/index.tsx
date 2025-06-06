@@ -1,7 +1,8 @@
 "use client"
 
 import type { OptionsProps, SelectProps } from "@/components/Forms/types"
-import type { TaxSimulatorFormLabel } from "@/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel } from "@/components/services/TaxSimulator/types"
+import { useVirtualizer } from "@tanstack/react-virtual"
 
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
@@ -26,12 +27,6 @@ export default function SelectField({
   const [show, setShow] = useState(false)
 
   const field = useFieldContext<string>()
-
-  // if (staticOptions.length > 0 && actions?.dynamic) {
-  //   throw new Error(
-  //     "[Select] The props 'staticOptions' and 'dynamic' are mutually exclusive. Please choose one or the other.",
-  //   )
-  // }
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (staticOptions.length === 0) return
@@ -125,23 +120,89 @@ const Options = ({
     return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
   })
 
+  const parentRef = useRef<HTMLUListElement>(null)
+  const itemHeight = 35
+  const maxVisibleItems = 6
+  const shouldVirtualize = filteredOptions.length > maxVisibleItems
+
+  const containerHeight = shouldVirtualize
+    ? maxVisibleItems * itemHeight
+    : filteredOptions.length * itemHeight
+
+  const virtualizer = useVirtualizer({
+    count: filteredOptions.length,
+    getScrollElement: () => parentRef.current,
+    estimateSize: () => itemHeight,
+    overscan: 5,
+  })
+
   return filteredOptions.length > 0 ? (
-    <OptionContainer aria-label="Liste déroulante">
-      {filteredOptions.map((option, index) => (
-        <li
-          key={option.name}
-          data-selected={index === selectedIndex}
-          data-available={option.available}
-          onClick={() => field.handleChange(option.name)}
-          onKeyUp={() => field.handleChange(option.name)}
-          onMouseEnter={() => {
-            watch?.(option.name)
-            setSelectedIndex?.(index)
+    <OptionContainer
+      ref={parentRef}
+      aria-label="Liste déroulante"
+      style={{
+        height: `${containerHeight}px`,
+        overflow: shouldVirtualize ? "auto" : "hidden",
+      }}
+    >
+      {shouldVirtualize ? (
+        <div
+          style={{
+            height: `${virtualizer.getTotalSize()}px`,
+            width: "100%",
+            position: "relative",
           }}
         >
-          {option.name}
-        </li>
-      ))}
+          {virtualizer.getVirtualItems().map((virtualItem) => {
+            const option = filteredOptions[virtualItem.index]
+            return (
+              <li
+                key={option.name}
+                data-selected={virtualItem.index === selectedIndex}
+                data-available={option.available}
+                onClick={() => field.handleChange(option.name)}
+                onKeyUp={() => field.handleChange(option.name)}
+                onMouseEnter={() => {
+                  watch?.(option.name)
+                  setSelectedIndex?.(virtualItem.index)
+                }}
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: `${virtualItem.size}px`,
+                  transform: `translateY(${virtualItem.start}px)`,
+                }}
+              >
+                {option.name}
+              </li>
+            )
+          })}
+        </div>
+      ) : (
+        filteredOptions.map((option, index) => (
+          <li
+            key={option.name}
+            data-selected={index === selectedIndex}
+            data-available={option.available}
+            onClick={() => field.handleChange(option.name)}
+            onKeyUp={() => field.handleChange(option.name)}
+            onMouseEnter={() => {
+              watch?.(option.name)
+              setSelectedIndex?.(index)
+            }}
+            style={{
+              height: `${itemHeight}px`,
+              display: "flex",
+              alignItems: "center",
+              padding: "0 5px",
+            }}
+          >
+            {option.name}
+          </li>
+        ))
+      )}
     </OptionContainer>
   ) : null
 }
@@ -158,7 +219,7 @@ export const Select = withForm({
   render: function Render({ form, name, label, staticOptions, placeholder, actions }) {
     if ((staticOptions?.length ?? 0) > 0 && actions?.dynamic) {
       throw new Error(
-        "[Select] The props 'staticOptions' and 'dynamic' are mutually exclusive. Please choose one or the other.",
+        "The props 'staticOptions' and 'dynamic' are mutually exclusive. Please choose one or the other.",
       )
     }
 

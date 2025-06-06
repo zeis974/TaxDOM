@@ -1,19 +1,16 @@
-import { styled } from "@/panda/jsx"
+import { headers } from "next/headers"
 
-import SettingsButton from "@/components/Settings/SettingsButton"
+import { authClient } from "@/lib/auth-client"
 
-export default function Misc() {
-  return (
-    <Container>
-      <SettingsButton />
-    </Container>
-  )
+import Avatar from "@/components/Navbar/Misc/Avatar"
+import SettingsButton from "@/components/Navbar/Misc/SettingsButton"
+
+export default async function Misc() {
+  const { data: session } = await authClient.getSession({
+    fetchOptions: {
+      headers: await headers(),
+    },
+  })
+
+  return session ? <Avatar session={session} /> : <SettingsButton />
 }
-
-const Container = styled.div`
-  display: flex;
-  position: relative;
-  align-items: center;
-  height: 45px;
-  gap: 10px;
-`

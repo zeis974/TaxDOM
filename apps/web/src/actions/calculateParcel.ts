@@ -1,6 +1,6 @@
 "use server"
 
-import type { ParcelSimulatorFormValues } from "@/services/ParcelSimulator/types"
+import type { ParcelSimulatorFormValues } from "@/components/services/ParcelSimulator/types"
 
 import { ServerValidateError, createServerValidate } from "@tanstack/react-form/nextjs"
 
@@ -23,51 +23,48 @@ const serverValidate = createServerValidate({
 export default async function calculateParcel(prev: unknown, formData: FormData) {
   const products: ParcelSimulatorFormValues["products"] = []
   formData.forEach((value, key) => {
-    const match = key.match(/^products\.(\d+)\.(\w+)$/)
-    if (match) {
-      const index = Number.parseInt(match[1], 10)
-      const field = match[2] as keyof ParcelSimulatorFormValues["products"][number]
-      products[index] = products[index] || ({} as ParcelSimulatorFormValues["products"][number])
-      // @ts-ignore
-      products[index][field] = value
+    if (key.startsWith("products[")) {
+      const index = key.match(/products\[(\d+)\]\.(\w+)/)
+      if (index) {
+        const field = index[2] as keyof ParcelSimulatorFormValues["products"][number]
+        const indexNumber = Number.parseInt(index[1], 10)
+        products[indexNumber] =
+          products[indexNumber] || ({} as ParcelSimulatorFormValues["products"][number])
+        // @ts-ignore
+        products[indexNumber][field] = value
+      }
     }
   })
 
   const value = {
-    customer: formData.get("customer") as string,
-    deliveryPrice: Number.parseFloat(formData.get("deliveryPrice") as string),
-    origin: formData.get("origin") as string,
+    customer: formData.get("customer"),
+    deliveryPrice: formData.get("deliveryPrice"),
+    origin: formData.get("origin"),
     products,
-    territory: formData.get("territory") as string,
-    transporter: formData.get("transporter") as string,
-    token: formData.get("cf-turnstile-response") as string,
+    territory: formData.get("territory"),
+    transporter: formData.get("transporter"),
+    token: formData.get("cf-turnstile-response"),
   }
 
   try {
     await serverValidate(formData)
-    await validateTurnstileCaptcha(value.token)
+    await validateTurnstileCaptcha(value.token as string)
+
+    const res = await fetch(`${process.env.API_URL}/simulator/parcel`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${process.env.API_KEY}`,
+      },
+      body: JSON.stringify(value),
+    }).then((res) => res.json())
+
+    return res
   } catch (e) {
     if (e instanceof ServerValidateError) {
-      return {
-        errors: [
-          {
-            message: e.formState.errors[0],
-          },
-        ],
-      }
+      return e.formState
     }
 
     throw e
   }
-
-  const res = await fetch(`${process.env.API_URL}/simulator/parcel`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${process.env.API_KEY}`,
-    },
-    body: JSON.stringify(value),
-  }).then((res) => res.json())
-
-  return res
 }

@@ -22,3 +22,7 @@ export const getProductsTaxesThrottle = limiter.define("getProductsTaxes", () =>
 export const searchProductsNameThrottle = limiter.define("searchProductsName", () => {
   return limiter.allowRequests(25).every("1 minute")
 })
+
+export const getTemplatesThrottle = limiter.define("getTemplates", () => {
+  return limiter.allowRequests(5).every("1 minute")
+})

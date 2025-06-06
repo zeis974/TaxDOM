@@ -1,37 +1,33 @@
-"use client"
+import { AnimatePresence } from "motion/react"
+import { Backdrop, ModalContainer } from "./Modal.styled"
 
-import type { PropsWithChildren } from "react"
-
-import { styled } from "@/panda/jsx"
-import { useRouter } from "next/navigation"
-
-export default function Modal({ children }: PropsWithChildren) {
-  const router = useRouter()
-  return (
-    <>
-      <Container>{children}</Container>
-      <Backdrop onClick={() => router.back()} />
-    </>
-  )
+type Props = {
+  children: React.ReactNode
+  show: boolean
+  setShow: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-const Container = styled.div`
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  position: absolute;
-  color: black;
-  background: token(colors.background);
-  padding: 10px;
-  border-radius: 10px;
-  z-index: 3;
-
-  animation: fadeIn 150ms, scale 150ms;
-`
-
-const Backdrop = styled.div`
-  position: fixed;
-  inset: 0;
-  background:#191a1b94;
-  z-index: 2;
-`
+export default function Modal({ children, show, setShow }: Props) {
+  return (
+    <AnimatePresence>
+      {show && (
+        <>
+          <ModalContainer
+            initial={{ opacity: 0, scale: 0.95, translate: "-50% -50%" }}
+            animate={{ opacity: 1, scale: 1, translate: "-50% -50%" }}
+            exit={{ opacity: 0, scale: 0.95, translate: "-50% -50%" }}
+            transition={{ duration: 0.15 }}
+          >
+            {children}
+          </ModalContainer>
+          <Backdrop
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setShow(false)}
+          />
+        </>
+      )}
+    </AnimatePresence>
+  )
+}

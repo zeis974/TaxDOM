@@ -1,12 +1,6 @@
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core"
 import { relations, sql } from "drizzle-orm"
 
-export const carriers = sqliteTable("carriers", {
-  carrierID: integer("carrier_id").primaryKey({ autoIncrement: true }),
-  carrierName: text("carrier_name").notNull(),
-  managementFee: integer("management_fee").notNull(),
-})
-
 export const categories = sqliteTable("categories", {
   categoryID: integer("category_id").notNull().primaryKey({ autoIncrement: true }),
   categoryName: text("category_name").notNull(),
@@ -57,10 +51,24 @@ export const products = sqliteTable("products", {
   updateAt: integer("updated_at", { mode: "timestamp" }).default(sql`(strftime('%s', 'now'))`),
 })
 
-export const ProductsRelations = relations(products, ({ one }) => ({
+export const templates = sqliteTable("templates", {
+  templateID: integer("template_id").primaryKey({ autoIncrement: true }),
+  templateName: text("template_name").notNull(),
+})
+
+export const templateProducts = sqliteTable("template_products", {
+  templateID: integer("template_id")
+    .notNull()
+    .references(() => templates.templateID),
+  productID: integer("product_id")
+    .notNull()
+    .references(() => products.productID),
+})
+
+export const ProductsRelations = relations(products, ({ one, many }) => ({
   category: one(categories, {
     fields: [products.category],
-    references: [categories.categoryName],
+    references: [categories.categoryID],
   }),
   origin: one(origins, {
     fields: [products.originID],
@@ -77,5 +85,21 @@ export const ProductsRelations = relations(products, ({ one }) => ({
   tax: one(taxes, {
     fields: [products.taxID],
     references: [taxes.taxID],
+  }),
+  templates: many(templateProducts),
+}))
+
+export const TemplateRelations = relations(templates, ({ many }) => ({
+  products: many(templateProducts),
+}))
+
+export const TemplateProductRelations = relations(templateProducts, ({ one }) => ({
+  template: one(templates, {
+    fields: [templateProducts.templateID],
+    references: [templates.templateID],
+  }),
+  product: one(products, {
+    fields: [templateProducts.productID],
+    references: [products.productID],
   }),
 }))
