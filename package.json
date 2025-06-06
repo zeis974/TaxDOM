@@ -7,9 +7,10 @@
   "scripts": {
     "prepare": "husky",
     "dev": "turbo run dev",
-    "dev:web": "pnpm --filter @taxdom/app dev",
-    "dev:db": "docker compose -f compose.dev.yml up -d --build db",
     "dev:api": "pnpm --filter @taxdom/api dev",
+    "dev:blog": "pnpm --filter @taxdom/blog dev",
+    "dev:db": "docker compose -f compose.dev.yml up -d --build db",
+    "dev:web": "pnpm --filter @taxdom/app dev",
     "build": "turbo run build",
     "build:images": "docker compose -f compose.dev.yml up -d --build",
     "format": "biome format . --write"

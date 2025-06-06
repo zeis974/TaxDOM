@@ -1,15 +1,12 @@
-import type { JSX } from "react"
 import { easeOut } from "motion/react"
-import Link from "next/link"
 
 import { CardContainer, Container } from "./ChangeTools.styled"
-
 import { MagicIcon, ParcelIcon, TaxIcon } from "@/components/Icons"
 
 type Tools = {
   name: string
   description: string
-  icon: JSX.Element
+  icon: React.JSX.Element
   slug: string
   disabled?: boolean
 }
@@ -27,6 +24,13 @@ const tools: Tools[] = [
     icon: <ParcelIcon />,
     slug: "/simulator",
   },
+  {
+    name: "MagicURL",
+    description: "Un lien, un produit, une taxe",
+    icon: <MagicIcon />,
+    slug: "", // /magicURL
+    disabled: true,
+  },
 ]
 
 export default function ChangeTools({
@@ -42,7 +46,7 @@ export default function ChangeTools({
       onMouseLeave={() => setShow(false)}
     >
       {tools.map((tool) => (
-        <Link href={tool.slug} key={tool.name} onClick={() => setShow(false)}>
+        <a href={tool.slug} key={tool.name} onClick={() => setShow(false)}>
           <CardContainer>
             <div>{tool.icon}</div>
             <div>
@@ -50,7 +54,7 @@ export default function ChangeTools({
               <p>{tool.description}</p>
             </div>
           </CardContainer>
-        </Link>
+        </a>
       ))}
     </Container>
   )

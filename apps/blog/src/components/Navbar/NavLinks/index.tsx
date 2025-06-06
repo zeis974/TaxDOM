@@ -1,17 +1,14 @@
-"use client"
-
 import { AnimatePresence } from "motion/react"
-import { Fragment, useRef, useState, type JSX } from "react"
-import Link from "next/link"
+import { Fragment, useRef, useState } from "react"
 
-import { Backdrop, Container } from "./NavLinks.styled"
-import { ChevronIcon } from "@/components/Icons"
-import ChangeTools from "@/components/Navbar/NavLinks/ChangeTools"
+import { Container } from "./NavLinks.styled"
+import ChevronIcon from "@/components/Icons/ChevronIcon"
+import ChangeTools from "../NavLinks/ChangeTools"
 
 type NavTypes = {
   name: string
   href?: string
-  icons?: JSX.Element
+  icons?: React.JSX.Element
   showChangeTools?: boolean
 }
 
@@ -46,7 +43,7 @@ export default function NavLinks() {
       {links.map((link) => (
         <Fragment key={link.name}>
           {link.href ? (
-            <Link href={link.href}>{link.name}</Link>
+            <a href={link.href}>{link.name}</a>
           ) : (
             <>
               {link.showChangeTools ? (
@@ -63,16 +60,6 @@ export default function NavLinks() {
                       {link.showChangeTools && show && <ChangeTools {...{ setShow }} />}
                     </AnimatePresence>
                   </div>
-                  <AnimatePresence>
-                    {link.showChangeTools && show && (
-                      <Backdrop
-                        key="backdrop"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                      />
-                    )}
-                  </AnimatePresence>
                 </>
               ) : (
                 <span>
