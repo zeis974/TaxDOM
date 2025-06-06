@@ -1,12 +1,12 @@
+import { db } from "#config/database"
 import type { HttpContext } from "@adonisjs/core/http"
 import type { ParcelSimulatorResult } from "@taxdom/types"
-import { db } from "#config/database"
 import { eq, inArray } from "drizzle-orm"
 
 import { categories, products as productsTable, taxes } from "#database/schema"
 import { CalculateParcelTaxeValidator } from "#validators/CalculateParcelTaxeValidator"
 
-// As of April 1, 2023, the “franchise threshold” was raised to 400 euros
+// As of April 1, 2023, the "franchise threshold" was raised to 400 euros
 const FRANCHISE_THRESHOLD_BETWEEN_INDIVIDUALS = 400
 const FRANCHISE_THRESHOLD_CUSTOMER = 22
 
@@ -17,6 +17,40 @@ const COLISSIMO_CARRIER_FEE = 5
 const CHRONOPOST_CARRIER_FEE_INF_1000 = 21
 const CHRONOPOST_CARRIER_FEE_SUP_1000 = 29
 const CHRONOPOST_CARRIER_FEE = 10
+
+const EU_COUNTRIES = [
+  "ALLEMAGNE",
+  "AUTRICHE",
+  "BELGIQUE",
+  "BULGARIE",
+  "CHYPRE",
+  "CROATIE",
+  "DANEMARK",
+  "ESPAGNE",
+  "ESTONIE",
+  "FINLANDE",
+  "FRANCE",
+  "GRECE",
+  "HONGRIE",
+  "IRLANDE",
+  "ITALIE",
+  "LETTONIE",
+  "LITUANIE",
+  "LUXEMBOURG",
+  "MALTE",
+  "PAYS-BAS",
+  "POLOGNE",
+  "PORTUGAL",
+  "REPUBLIQUE TCHEQUE",
+  "ROUMANIE",
+  "SLOVAQUIE",
+  "SLOVENIE",
+  "SUEDE",
+] as const
+
+function isEUCountry(country: string): boolean {
+  return EU_COUNTRIES.includes(country as any)
+}
 
 export default class CalculateParcelController {
   async handle({ request }: HttpContext) {
@@ -41,7 +75,7 @@ export default class CalculateParcelController {
       origin: string
       transporter: string
     }): "yes" | "no" | "maybe" {
-      const fromEU = origin === "EU"
+      const fromEU = isEUCountry(origin)
 
       const privateThresholdExceeded = dutyPrice > FRANCHISE_THRESHOLD_BETWEEN_INDIVIDUALS
       const customerThresholdExceeded = dutyPrice > FRANCHISE_THRESHOLD_CUSTOMER
@@ -97,9 +131,9 @@ export default class CalculateParcelController {
 
     let carrierFee = 0
 
-    if (transporter === "CHRONOPOST" && origin === "EU") {
+    if (transporter === "CHRONOPOST" && isEUCountry(origin)) {
       carrierFee = getChronopostFee(dutyPrice, isBetweenIndividuals)
-    } else if (transporter === "COLISSIMO" && origin === "EU") {
+    } else if (transporter === "COLISSIMO" && isEUCountry(origin)) {
       carrierFee = COLISSIMO_CARRIER_FEE
     }
 
