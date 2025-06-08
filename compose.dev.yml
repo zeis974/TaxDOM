@@ -24,7 +24,7 @@ services:
     ports:
       - 3000:3000
     env_file:
-      - apps/web/.env.local
+      - apps/web/.env
 
   api:
     container_name: api
@@ -47,18 +47,18 @@ services:
       - blog_volume:/app/dist
 
   redis:
-    image: redis:8.0.1-alpine
+    image: redis:8.0.2-alpine
     container_name: redis
     ports:
       - 6379:6379
 
   db:
-    image: ghcr.io/tursodatabase/libsql-server:41eae61
+    image: ghcr.io/tursodatabase/libsql-server:395b2ca
     container_name: db
     platform: linux/amd64
     ports:
-      - "8080:8080"
-      - "5001:5001"
+      - 8080:8080
+      - 5001:5001
     env_file:
       - apps/api/.env
 
