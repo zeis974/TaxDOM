@@ -56,7 +56,7 @@ export const ParcelSimulatorCards = withForm({
           {(field) => (
             <>
               {field.state.value.map((_, i) => (
-                // biome-ignore lint/suspicious/noArrayIndexKey:
+                // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
                 <Card key={i}>
                   <Select
                     {...{ form }}

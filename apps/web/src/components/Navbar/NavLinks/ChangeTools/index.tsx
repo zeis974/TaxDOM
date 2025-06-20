@@ -31,7 +31,9 @@ const tools: Tools[] = [
 
 export default function ChangeTools({
   setShow,
-}: { setShow: React.Dispatch<React.SetStateAction<boolean>> }) {
+}: {
+  setShow: React.Dispatch<React.SetStateAction<boolean>>
+}) {
   return (
     <Container
       key="changetools"

@@ -14,11 +14,7 @@ import {
 } from "./ParcelSimulatorTemplate.styled"
 
 // TODO: fix any types
-export default function ParcelSimulatorTemplate({
-  form,
-}: {
-  form: any
-}) {
+export default function ParcelSimulatorTemplate({ form }: { form: any }) {
   const [open, setOpen] = useState(false)
   const [selectedTemplateID, setSelectedTemplateID] = useState<number | undefined>(undefined)
 

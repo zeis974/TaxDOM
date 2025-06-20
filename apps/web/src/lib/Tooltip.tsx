@@ -66,7 +66,6 @@ class TooltipCustomElement extends HTMLElement {
   connectedCallback() {
     this.tooltipText.textContent = this.getAttribute("data-content")
     const targetId = this.getAttribute("data-anchor")
-    // biome-ignore lint/style/noNonNullAssertion:
     this.targetElement = document.getElementById(targetId!)
 
     if (this.targetElement) {
@@ -96,7 +95,6 @@ class TooltipCustomElement extends HTMLElement {
 
     if (this.targetElement) {
       requestAnimationFrame(() => {
-        // biome-ignore lint/style/noNonNullAssertion:
         const rect = this.targetElement!.getBoundingClientRect()
         const tooltipRect = this.tooltipContainer.getBoundingClientRect()
 

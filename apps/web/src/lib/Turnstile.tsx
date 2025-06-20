@@ -50,7 +50,6 @@ export default function Turnstile(
     renderWidget()
   }
 
-  // biome-ignore lint/correctness/useExhaustiveDependencies:
   useEffect(() => {
     if (!widgetID.current && (window as any).turnstile) {
       renderWidget()
