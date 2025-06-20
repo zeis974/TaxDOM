@@ -13,25 +13,42 @@
     }
   },
   "linter": {
+    "domains": {
+      "next": "all"
+    },
     "rules": {
       "suspicious": {
-        "noExplicitAny": "warn"
+        "noExplicitAny": "warn",
+        "noArrayIndexKey": "warn"
       },
       "a11y": {
         "noSvgWithoutTitle": "off"
+      },
+      "style": {
+        "noParameterAssign": "error",
+        "useAsConstAssertion": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
+        "useSelfClosingElements": "error",
+        "useSingleVarDeclarator": "error",
+        "noUnusedTemplateLiteral": "error",
+        "useNumberNamespace": "error",
+        "noInferrableTypes": "error",
+        "noUselessElse": "error"
       }
     }
   },
   "files": {
-    "ignore": [
-      ".next/**",
-      "data/**",
-      "build",
-      "dist",
-      "coverage",
-      "apps/nginx",
-      "styled-system/**",
-      "packages/url-parser/pkg/**"
+    "includes": [
+      "**",
+      "!**/.next/**",
+      "!**/data/**",
+      "!**/build",
+      "!**/dist",
+      "!**/coverage",
+      "!**/apps/nginx",
+      "!**/styled-system/**",
+      "!**/packages/url-parser/pkg/**"
     ]
   }
 }

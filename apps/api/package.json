@@ -62,7 +62,10 @@
     "typescript": "5.8.3"
   },
   "hotHook": {
-    "boundaries": ["./app/controllers/**/*.ts", "./app/middleware/*.ts"]
+    "boundaries": [
+      "./app/controllers/**/*.ts",
+      "./app/middleware/*.ts"
+    ]
   },
   "engines": {
     "node": ">=22",
