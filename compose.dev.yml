@@ -1,6 +1,6 @@
 services:
   nginx:
-    image: nginx:1.28.0-alpine
+    image: nginx:1.29.0-alpine
     container_name: nginx
     ports:
       - 80:80
@@ -47,13 +47,13 @@ services:
       - blog_volume:/app/dist
 
   redis:
-    image: redis:8.0.2-alpine
+    image: redis:8.0.3-alpine
     container_name: redis
     ports:
       - 6379:6379
 
   db:
-    image: ghcr.io/tursodatabase/libsql-server:395b2ca
+    image: ghcr.io/tursodatabase/libsql-server:cda864e
     container_name: db
     platform: linux/amd64
     ports:
