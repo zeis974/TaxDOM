@@ -1,46 +1,59 @@
-FROM node:22.13.1-alpine AS base
+FROM node:22.17.1-alpine AS base
+
+RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
+
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 --ingroup nodejs astrouser
+
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@9.15.4 --activate
+RUN corepack prepare pnpm@10.13.1 --activate
 
 FROM base AS builder
-# Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
-RUN apk update
-RUN apk add --no-cache gcompat
+RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
 
-# Set working directory
+USER astrouser
 WORKDIR /app
+
+USER root
 RUN pnpm add -g turbo
-COPY . .
+USER astrouser
+
+COPY --chown=astrouser:nodejs . .
 RUN turbo prune @taxdom/blog --docker
 
 FROM base AS installer
-RUN apk update
-RUN apk add --no-cache gcompat
+USER astrouser
 WORKDIR /app
 
 ENV HUSKY=0
 
-# First install the dependencies (as they change less often)
-COPY .gitignore .gitignore
-COPY --from=builder /app/out/json/ .
-COPY --from=builder /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile --prefer-offline
+USER root
+RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
+USER astrouser
 
-# Build the project
-COPY --from=builder /app/out/full/ .
-COPY turbo.json turbo.json
+COPY --chown=astrouser:nodejs .gitignore .gitignore
+COPY --from=builder --chown=astrouser:nodejs /app/out/json/ .
+COPY --from=builder --chown=astrouser:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
+    pnpm install --prefer-offline
+
+COPY --from=builder --chown=astrouser:nodejs /app/out/full/ .
+COPY --chown=astrouser:nodejs turbo.json turbo.json
 RUN pnpm turbo build
 
-FROM base AS deploy
+FROM base AS runner
+USER astrouser
 WORKDIR /app
 
-COPY --from=installer /app/apps/api/build ./
+ENV NODE_ENV=production
+ENV TURBO_TELEMETRY_DISABLED=1
+ENV DO_NOT_TRACK=1
 
+COPY --from=installer --chown=astrouser:nodejs /app/apps/blog/dist ./dist
 
-# ENV HOST=0.0.0.0
-# ENV PORT=4321
-# EXPOSE 4321
-# CMD ["node", "./dist/server/entry.mjs"]
+EXPOSE 4321
+
+CMD ["node", "./dist/server/entry.mjs"]
