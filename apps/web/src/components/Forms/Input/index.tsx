@@ -1,16 +1,16 @@
-import type { InputProps } from "@/components/Forms/types"
-
-import { formOpts, useFieldContext, withForm } from "@/hooks/form"
 import { useStore } from "@tanstack/react-form"
 
-import { Container } from "./Input.styled"
+import type { InputProps } from "@/components/Forms/types"
+import { formOpts, useFieldContext, withForm } from "@/hooks/form"
+
+import { InputContainer } from "./Input.styled"
 
 export default function InputField({ name, label, placeholder, type = "text" }: InputProps) {
   const field = useFieldContext<string | number>()
   const errors = useStore(field.store, (state) => state.meta.errors)
 
   return (
-    <Container>
+    <InputContainer>
       <label htmlFor={name}>
         {label}{" "}
         {errors.map((error: string) => (
@@ -31,7 +31,7 @@ export default function InputField({ name, label, placeholder, type = "text" }: 
           field.handleChange(e.target.value)
         }}
       />
-    </Container>
+    </InputContainer>
   )
 }
 
