@@ -1,6 +1,6 @@
 import vine from "@vinejs/vine"
 
-export const SearchProductsNameValidator = vine.compile(
+export const SearchProductsValidator = vine.compile(
   vine.object({
     name: vine.string().alphaNumeric(),
   }),

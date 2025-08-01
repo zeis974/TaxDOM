@@ -1,16 +1,12 @@
 import type { HttpContext } from "@adonisjs/core/http"
-import type { Origin, TaxSimulatorResult, Territory } from "@taxdom/types"
+import type { TaxSimulatorResult, Territory } from "@taxdom/types"
 import logger from "@adonisjs/core/services/logger"
 import { and, eq } from "drizzle-orm"
 
 import { db } from "#config/database"
 import { products, taxes } from "#database/schema"
 import { GetProductTaxeValidator } from "#validators/GetProductTaxeValidator"
-
-const originMap: Record<Origin, number> = {
-  EU: 1,
-  HORS_EU: 2,
-}
+import { isEUCountry } from "#lib/isEU"
 
 const territoryMap: Record<Territory, number> = {
   CORSE: 1,
@@ -28,8 +24,12 @@ export default class GetProductTaxeController {
     const payload = await GetProductTaxeValidator.validate(data)
 
     const product = payload.product.toLowerCase()
-    const origin = payload.origin.toUpperCase() as Origin
+    const origin = payload.origin.toUpperCase()
     const territory = payload.territory.toUpperCase() as Territory
+
+    // Déterminer si le pays d'origine fait partie de l'UE
+    const isEU = isEUCountry(origin)
+    const originID = isEU ? 1 : 2 // 1 pour EU, 2 pour HORS_EU
 
     try {
       const result = await db
@@ -43,7 +43,7 @@ export default class GetProductTaxeController {
         .where(
           and(
             eq(products.productName, product),
-            eq(products.originID, originMap[origin]),
+            eq(products.originID, originID),
             eq(products.territoryID, territoryMap[territory]),
           ),
         )
