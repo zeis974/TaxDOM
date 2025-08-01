@@ -16,10 +16,14 @@ import {
   searchProductsNameThrottle,
 } from "#start/limiter"
 
+const CategoriesController = () => import("#controllers/CategoriesController")
 const CalculateParcelController = () => import("#controllers/CalculateParcelController")
 const GetTemplatesController = () => import("#controllers/GetTemplatesController")
 const GetProductTaxeController = () => import("#controllers/GetProductTaxeController")
 const SearchProductsNameController = () => import("#controllers/SearchProductsNameController")
+router
+  .resource("categories", CategoriesController)
+  .use(["index", "store", "show", "update", "destroy"], middleware.auth())
 
 router
   .group(() => {

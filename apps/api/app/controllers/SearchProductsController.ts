@@ -2,11 +2,11 @@ import type { HttpContext } from "@adonisjs/core/http"
 import logger from "@adonisjs/core/services/logger"
 import { sql } from "drizzle-orm"
 import { db } from "#config/database"
-import { SearchProductsNameValidator } from "#validators/SearchProductsNameValidator"
+import { SearchProductsValidator } from "#validators/SearchProductsValidator"
 
-export default class SearchProductsNameController {
+export default class SearchProductsController {
   async handle({ request }: HttpContext) {
-    const filters = await SearchProductsNameValidator.validate(request.qs())
+    const filters = await SearchProductsValidator.validate(request.qs())
     const productName = filters.name
 
     if (!productName) {

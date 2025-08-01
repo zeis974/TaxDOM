@@ -5,7 +5,7 @@ export default class GetTemplatesController {
   async handle() {
     const allTemplatesWithProducts = await db.query.templates.findMany({
       with: {
-        products: {
+        templateProducts: {
           with: {
             product: {
               columns: {
@@ -21,7 +21,7 @@ export default class GetTemplatesController {
     const formatted = allTemplatesWithProducts.map((template) => ({
       templateID: template.templateID,
       templateName: template.templateName,
-      products: template.products.map((p) => p.product),
+      products: template.templateProducts.map((p) => p.product),
     }))
 
     logger.info("Get all templates")
