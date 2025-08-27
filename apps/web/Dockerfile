@@ -1,39 +1,48 @@
-FROM node:22.14.0-alpine AS base
+FROM node:22.17.1-alpine AS base
+
+RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
+
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 --ingroup nodejs nextjs
+
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@10.10.0 --activate
+RUN corepack prepare pnpm@10.13.1 --activate
 
 FROM base AS builder
-# Check https://github.com/nodejs/docker-node?tab=readme-ov-file#nodealpine to understand why libc6-compat might be needed.
-RUN apk update
-RUN apk add --no-cache gcompat
+RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
 
-# Set working directory
+USER nextjs
 WORKDIR /app
+
+USER root
 RUN pnpm add -g turbo
-COPY . .
+USER nextjs
+
+COPY --chown=nextjs:nodejs . .
 RUN turbo prune @taxdom/app --docker
 
-# Add lockfile and package.json's of isolated subworkspace
 FROM base AS installer
-RUN apk update
-RUN apk add --no-cache gcompat
+USER nextjs
 WORKDIR /app
 
 ENV HUSKY=0
 
-# First install the dependencies (as they change less often)
-COPY .gitignore .gitignore
-COPY --from=builder /app/out/json/ .
-COPY --from=builder /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
+USER root
+RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
+USER nextjs
 
-COPY --from=builder /app/out/full/ .
+COPY --chown=nextjs:nodejs .gitignore .gitignore
+COPY --from=builder --chown=nextjs:nodejs /app/out/json/ .
+COPY --from=builder --chown=nextjs:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile --prefer-offline
+COPY --from=builder --chown=nextjs:nodejs /app/out/full/ .
 
-# Build the project
-COPY turbo.json turbo.json
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
+    pnpm install --prefer-offline
+
+COPY --chown=nextjs:nodejs turbo.json turbo.json
 RUN --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
     --mount=type=secret,id=NEXT_PUBLIC_API_URL,env=NEXT_PUBLIC_API_URL \
     pnpm turbo build
@@ -46,18 +55,16 @@ ENV NEXT_TELEMETRY_DISABLED=1
 ENV TURBO_TELEMETRY_DISABLED=1
 ENV DO_NOT_TRACK=1
 
-# Don't run production as root
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
 USER nextjs
 
-COPY --from=installer /app/apps/web/next.config.ts .
-COPY --from=installer /app/apps/web/package.json .
+COPY --from=installer --chown=nextjs:nodejs /app/apps/web/next.config.ts .
 
 # Automatically leverage output traces to reduce image size
 # https://nextjs.org/docs/advanced-features/output-file-tracing
 COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/standalone ./
 COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/static ./apps/web/.next/static
 COPY --from=installer --chown=nextjs:nodejs /app/apps/web/public ./apps/web/public
+
+EXPOSE 3000
 
 CMD ["node", "apps/web/server.js"]

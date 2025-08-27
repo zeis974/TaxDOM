@@ -1,5 +1,12 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  },
   "formatter": {
     "enabled": true,
     "lineWidth": 100,
@@ -41,14 +48,13 @@
   "files": {
     "includes": [
       "**",
-      "!**/.next/**",
-      "!**/data/**",
+      "!**/.next/",
+      "!**/data/",
       "!**/build",
       "!**/dist",
       "!**/coverage",
       "!**/apps/nginx",
-      "!**/styled-system/**",
-      "!**/packages/url-parser/pkg/**"
+      "!**/styled-system/"
     ]
   }
 }
