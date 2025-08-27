@@ -1,17 +1,14 @@
-// import * as schema from "#database/schema"
-// import env from "#start/env"
+import { betterAuth } from "better-auth"
+import { drizzleAdapter } from "better-auth/adapters/drizzle"
 
 import * as schema from "../database/auth-schema.js"
 import env from "../start/env.js"
-
-import { betterAuth } from "better-auth"
 import { db } from "./database.js"
-import { drizzleAdapter } from "better-auth/adapters/drizzle"
 
 export const auth = betterAuth({
   appName: "TaxDOM",
   database: drizzleAdapter(db, {
-    provider: "sqlite",
+    provider: "pg",
     schema: schema,
   }),
   basePath: "/auth",
@@ -19,6 +16,12 @@ export const auth = betterAuth({
   account: {
     accountLinking: {
       trustedProviders: ["google"],
+    },
+  },
+  session: {
+    cookieCache: {
+      enabled: true,
+      maxAge: 5 * 60,
     },
   },
   socialProviders: {
