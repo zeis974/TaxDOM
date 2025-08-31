@@ -3,7 +3,7 @@
 import { useVirtualizer } from "@tanstack/react-virtual"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState, type InputHTMLAttributes, type KeyboardEvent } from "react"
 
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { LoadingCircle, OptionContainer } from "./Select.styled"
@@ -14,7 +14,12 @@ export interface BaseOption {
   value?: string
 }
 
-export interface BaseSelectProps {
+type NativeInputProps = Omit<
+  InputHTMLAttributes<HTMLInputElement>,
+  "onChange" | "value" | "defaultValue" | "children"
+>
+
+export interface BaseSelectProps extends NativeInputProps {
   id?: string
   name?: string
   label: string
@@ -36,7 +41,6 @@ interface OptionsListProps {
   onSelect: (value: string) => void
   selectedIndex: number
   setSelectedIndex: (index: number) => void
-  onWatch?: (value: string) => void
 }
 
 const OptionsList = ({
@@ -45,7 +49,6 @@ const OptionsList = ({
   onSelect,
   selectedIndex,
   setSelectedIndex,
-  onWatch,
 }: OptionsListProps) => {
   const parentRef = useRef<HTMLUListElement>(null)
   const itemHeight = 35
@@ -101,7 +104,6 @@ const OptionsList = ({
                 onClick={() => onSelect(option.value || option.name)}
                 onKeyUp={() => onSelect(option.value || option.name)}
                 onMouseEnter={() => {
-                  onWatch?.(option.name)
                   setSelectedIndex(virtualItem.index)
                 }}
                 style={{
@@ -127,7 +129,6 @@ const OptionsList = ({
             onClick={() => onSelect(option.value || option.name)}
             onKeyUp={() => onSelect(option.value || option.name)}
             onMouseEnter={() => {
-              onWatch?.(option.name)
               setSelectedIndex(index)
             }}
             style={{
@@ -150,22 +151,28 @@ export default function BaseSelect({
   name,
   label,
   placeholder,
-  options,
-  value,
+  options = [],
+  value = "",
   onChange,
   onBlur,
   onFocus,
-  loading = false,
+  loading,
   errors = [],
-  disabled = false,
-  required = false,
+  disabled,
+  required,
+  ...inputProps
 }: BaseSelectProps) {
   const selectedIndexRef = useRef(0)
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [show, setShow] = useState(false)
 
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (options.length === 0) return
+  // Keep the ref in sync with the visual selected index (mouse or keyboard)
+  useEffect(() => {
+    selectedIndexRef.current = selectedIndex
+  }, [selectedIndex])
+
+  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
+    if (options?.length === 0) return
 
     if (e.key === "ArrowUp" || e.key === "ArrowDown") {
       e.preventDefault()
@@ -177,6 +184,8 @@ export default function BaseSelect({
           const lowerCaseOption = option.name.toLowerCase()
           return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
         })
+
+        if (filteredOptions.length === 0) return prevIndex
 
         const newIndex =
           e.key === "ArrowUp"
@@ -217,6 +226,7 @@ export default function BaseSelect({
         {errors.length > 0 && <span> {errors.join(", ")}</span>}
       </label>
       <input
+        {...inputProps}
         id={id || name}
         name={name}
         autoComplete="off"

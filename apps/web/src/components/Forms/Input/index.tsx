@@ -5,7 +5,13 @@ import { formOpts, useFieldContext, withForm } from "@/hooks/form"
 
 import { InputContainer } from "./Input.styled"
 
-export default function InputField({ name, label, placeholder, type = "text" }: InputProps) {
+export default function InputField({
+  name,
+  label,
+  placeholder,
+  type = "text",
+  disabled = false,
+}: InputProps) {
   const field = useFieldContext<string | number>()
   const errors = useStore(field.store, (state) => state.meta.errors)
 
@@ -24,6 +30,8 @@ export default function InputField({ name, label, placeholder, type = "text" }: 
         name={field.name}
         type={type}
         value={field.state.value}
+        disabled={disabled}
+        aria-disabled={disabled}
         onBlur={() => {
           field.handleBlur()
         }}
@@ -42,8 +50,9 @@ export const Input = withForm({
     label: "",
     placeholder: "",
     type: "text",
+    disabled: false,
   } as InputProps,
-  render: ({ form, name, label, placeholder, type }) => (
+  render: ({ form, name, label, placeholder, type, disabled }) => (
     <form.AppField
       name={name}
       validators={{
@@ -52,7 +61,7 @@ export const Input = withForm({
         },
       }}
     >
-      {(field) => <field.InputField {...{ name, label, placeholder, type }} />}
+      {(field) => <field.InputField {...{ name, label, placeholder, type, disabled }} />}
     </form.AppField>
   ),
 })

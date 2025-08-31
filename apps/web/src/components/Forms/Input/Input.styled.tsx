@@ -38,6 +38,11 @@ export const InputContainer = styled.div`
     &:focus {
       border: 2px solid #3498db;
     }
+
+    &[disabled="true"],
+    &[aria-disabled="true"] {
+      cursor: not-allowed;
+    }
   }
 
   & > input[type="number"] {
