@@ -18,6 +18,7 @@ const InputSchema = z.object({
   name: z.custom<FormLabel>(),
   type: z.enum(["text", "number"]).optional(),
   placeholder: z.string(),
+  disabled: z.boolean(),
 })
 
 export type InputProps = z.infer<typeof InputSchema>
@@ -35,22 +36,17 @@ const SelectSchema = z.object({
   label: z.string(),
   name: z.custom<FormLabel>(),
   placeholder: z.string(),
-  staticOptions: z
+  options: z
     .array(
       z.object({
         name: z.string(),
         available: z.boolean().optional(),
+        value: z.string().optional(),
       }),
     )
     .optional(),
-  watch: z.function().optional(),
+  dynamic: z.string().optional(),
   loading: z.boolean().optional(),
-  actions: z
-    .object({
-      dynamic: z.boolean().optional(),
-      handleOnFocus: z.function(z.tuple([z.custom<TaxSimulatorFormLabel>()])).optional(),
-    })
-    .optional(),
 })
 
 export type SelectProps = z.infer<typeof SelectSchema>
