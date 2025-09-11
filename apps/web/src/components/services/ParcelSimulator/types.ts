@@ -1,23 +1,23 @@
-import type { Origin, Territory, Transporter } from "@taxdom/types"
+import type { Transporter } from "@taxdom/types"
 
 import { z } from "zod"
 
 export const ParcelSimulatorSchema = z.object({
   customer: z.enum(["Oui", "Non"]),
   deliveryPrice: z.coerce.number().min(0),
+  enterprise: z.boolean().optional(),
+  origin: z.string(),
   products: z.array(
     z.object({
       name: z.string(),
       price: z.coerce.number().min(0),
     }),
   ),
-  origin: z.custom<Origin>(),
-  territory: z.custom<Territory>(),
+  taxPaid: z.boolean(),
+  territory: z.string(),
   transporter: z.custom<Transporter>(),
   "cf-turnstile-response": z.string(),
 })
-
-export type ParcelSimulatorFormValues = z.infer<typeof ParcelSimulatorSchema>
 
 type DeepKeys<T> = T extends object
   ? {

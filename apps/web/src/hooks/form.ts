@@ -1,13 +1,12 @@
 "use client"
 
-import type { Origin, Transporter } from "@taxdom/types"
+import { createFormHook, createFormHookContexts, formOptions } from "@tanstack/react-form"
+import type { Transporter } from "@taxdom/types"
+import { lazy } from "react"
+import { z } from "zod"
 
 import { ParcelSimulatorSchema } from "@/components/services/ParcelSimulator/types"
 import { TaxSimulatorFormSchema } from "@/components/services/TaxSimulator/types"
-
-import { createFormHook, createFormHookContexts, formOptions } from "@tanstack/react-form"
-import { lazy } from "react"
-import { z } from "zod"
 
 export const { fieldContext, useFieldContext, formContext, useFormContext } =
   createFormHookContexts()
@@ -34,15 +33,17 @@ const schema = z.intersection(ParcelSimulatorSchema, TaxSimulatorFormSchema)
 type Schema = z.infer<typeof schema>
 
 const defaultValues: Schema = {
+  "cf-turnstile-response": "",
   customer: "Non",
   deliveryPrice: "" as unknown as number,
-  products: [{ name: "", price: "" as unknown as number }],
-  transporter: "" as Transporter,
+  enterprise: false,
   flux: "import", // For now we only support one flux
-  origin: "" as Origin,
+  origin: "",
   product: "",
-  territory: "REUNION", // For now we only support one territory
-  "cf-turnstile-response": "",
+  products: [{ name: "", price: "" as unknown as number }],
+  taxPaid: false,
+  territory: "REUNION",
+  transporter: "" as Transporter,
 }
 
 export const formOpts = formOptions({
