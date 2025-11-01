@@ -161,6 +161,17 @@ export type Origin = (typeof OriginData)[number]["name"]
 export type Territory = (typeof TerritoryData)[number]["name"]
 export type Transporter = (typeof TransporterData)[number]["name"]
 
+// Additional types for database mappings
+export type OriginCategory = "EU" | "HORS_EU"
+export type TerritoryCategory =
+  | "CORSE"
+  | "FRANCE"
+  | "GUADELOUPE"
+  | "GUYANE"
+  | "MARTINIQUE"
+  | "MAYOTTE"
+  | "REUNION"
+
 export type TaxSimulatorResult = {
   product: string
   taxes: {
