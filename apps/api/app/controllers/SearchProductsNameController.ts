@@ -17,6 +17,8 @@ export default class SearchProductsNameController {
       // Ensure FTS table is initialized
       await initializeFTS()
 
+      // Note: productName is validated as alphanumeric by SearchProductsNameValidator
+      // preventing SQL injection attacks. The sql template literal properly escapes parameters.
       const result = await db.run(sql`
         SELECT DISTINCT p.product_name
         FROM products p

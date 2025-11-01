@@ -117,7 +117,7 @@ export default class CalculateParcelController {
       .limit(1) // Only fetch one result since we use the first one
 
     // Use first result directly instead of creating a new array
-    if (!productResults[0]) {
+    if (productResults.length === 0) {
       return { error: "No tax data found for the provided products" }
     }
 
