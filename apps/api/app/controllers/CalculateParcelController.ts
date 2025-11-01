@@ -18,7 +18,7 @@ const CHRONOPOST_CARRIER_FEE_INF_1000 = 21
 const CHRONOPOST_CARRIER_FEE_SUP_1000 = 29
 const CHRONOPOST_CARRIER_FEE = 10
 
-const EU_COUNTRIES = [
+const EU_COUNTRIES = new Set([
   "ALLEMAGNE",
   "AUTRICHE",
   "BELGIQUE",
@@ -46,10 +46,10 @@ const EU_COUNTRIES = [
   "SLOVAQUIE",
   "SLOVENIE",
   "SUEDE",
-] as const
+])
 
 function isEUCountry(country: string): boolean {
-  return EU_COUNTRIES.includes(country as any)
+  return EU_COUNTRIES.has(country)
 }
 
 export default class CalculateParcelController {
@@ -115,15 +115,14 @@ export default class CalculateParcelController {
       .innerJoin(categories, eq(productsTable.category, categories.categoryID))
       .innerJoin(taxes, eq(categories.taxID, taxes.taxID))
       .where(inArray(productsTable.productName, productNames))
+      .limit(1) // Only fetch one result since we use the first one
 
-    const availableCategories = productResults.map((result) => ({
-      categoryName: result.categoryName,
-      tva: result.tva,
-      om: result.om,
-      omr: result.omr,
-    }))
+    // Use first result directly instead of creating a new array
+    if (!productResults[0]) {
+      return { error: "No tax data found for the provided products" }
+    }
 
-    const { tva, om, omr } = availableCategories[0]
+    const { tva, om, omr } = productResults[0]
 
     const omrPrice = Math.round((dutyPrice * omr) / 100)
     const omPrice = Math.round((dutyPrice * om) / 100)

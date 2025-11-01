@@ -1,5 +1,5 @@
 import type { HttpContext } from "@adonisjs/core/http"
-import type { Origin, TaxSimulatorResult, Territory } from "@taxdom/types"
+import type { OriginCategory, TaxSimulatorResult, TerritoryCategory } from "@taxdom/types"
 import logger from "@adonisjs/core/services/logger"
 import { and, eq } from "drizzle-orm"
 
@@ -7,12 +7,12 @@ import { db } from "#config/database"
 import { products, taxes } from "#database/schema"
 import { GetProductTaxeValidator } from "#validators/GetProductTaxeValidator"
 
-const originMap: Record<Origin, number> = {
+const originMap: Record<OriginCategory, number> = {
   EU: 1,
   HORS_EU: 2,
 }
 
-const territoryMap: Record<Territory, number> = {
+const territoryMap: Record<TerritoryCategory, number> = {
   CORSE: 1,
   FRANCE: 2,
   GUADELOUPE: 3,
@@ -28,8 +28,8 @@ export default class GetProductTaxeController {
     const payload = await GetProductTaxeValidator.validate(data)
 
     const product = payload.product.toLowerCase()
-    const origin = payload.origin.toUpperCase() as Origin
-    const territory = payload.territory.toUpperCase() as Territory
+    const origin = payload.origin.toUpperCase() as OriginCategory
+    const territory = payload.territory.toUpperCase() as TerritoryCategory
 
     try {
       const result = await db
