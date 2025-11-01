@@ -63,25 +63,24 @@ export default class CalculateParcelController {
     const totalProductPrice = products.reduce((acc, product) => acc + product.price, 0)
     const dutyPrice = totalProductPrice + deliveryPrice
     const isBetweenIndividuals = customer === "Oui"
+    const isOriginEU = isEUCountry(origin) // Cache EU check result
 
     function getTaxApplicability({
       dutyPrice,
       isBetweenIndividuals,
-      origin,
+      isOriginEU,
       transporter,
     }: {
       dutyPrice: number
       isBetweenIndividuals: boolean
-      origin: string
+      isOriginEU: boolean
       transporter: string
     }): "yes" | "no" | "maybe" {
-      const fromEU = isEUCountry(origin)
-
       const privateThresholdExceeded = dutyPrice > FRANCHISE_THRESHOLD_BETWEEN_INDIVIDUALS
       const customerThresholdExceeded = dutyPrice > FRANCHISE_THRESHOLD_CUSTOMER
 
-      const isPrivateApplicable = fromEU && privateThresholdExceeded && !isBetweenIndividuals
-      const isCustomerApplicable = fromEU && customerThresholdExceeded && isBetweenIndividuals
+      const isPrivateApplicable = isOriginEU && privateThresholdExceeded && !isBetweenIndividuals
+      const isCustomerApplicable = isOriginEU && customerThresholdExceeded && isBetweenIndividuals
 
       if (isCustomerApplicable && transporter === "CHRONOPOST") return "maybe"
       return isPrivateApplicable || isCustomerApplicable ? "yes" : "no"
@@ -90,7 +89,7 @@ export default class CalculateParcelController {
     const taxApplicability = getTaxApplicability({
       dutyPrice,
       isBetweenIndividuals,
-      origin,
+      isOriginEU,
       transporter,
     })
 
@@ -130,10 +129,12 @@ export default class CalculateParcelController {
 
     let carrierFee = 0
 
-    if (transporter === "CHRONOPOST" && isEUCountry(origin)) {
-      carrierFee = getChronopostFee(dutyPrice, isBetweenIndividuals)
-    } else if (transporter === "COLISSIMO" && isEUCountry(origin)) {
-      carrierFee = COLISSIMO_CARRIER_FEE
+    if (isOriginEU) {
+      if (transporter === "CHRONOPOST") {
+        carrierFee = getChronopostFee(dutyPrice, isBetweenIndividuals)
+      } else if (transporter === "COLISSIMO") {
+        carrierFee = COLISSIMO_CARRIER_FEE
+      }
     }
 
     const totalTaxes = omrPrice + omPrice + tvaPrice + carrierFee

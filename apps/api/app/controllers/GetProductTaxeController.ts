@@ -47,6 +47,7 @@ export default class GetProductTaxeController {
             eq(products.territoryID, territoryMap[territory]),
           ),
         )
+        .limit(1) // Only fetch one result
 
       if (result.length === 0) {
         logger.error("[PRODUCT NOT FOUND] Fetching (%s) taxes in getProductTaxeController", product)
@@ -68,6 +69,7 @@ export default class GetProductTaxeController {
       return res
     } catch (err) {
       logger.error({ err: err }, "Cannot getProductTaxes")
+      return { error: "An error occurred while fetching product taxes" }
     }
   }
 }
