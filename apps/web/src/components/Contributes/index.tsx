@@ -5,7 +5,9 @@ import { authClient } from "@/lib/auth-client"
 
 import SignIn from "@/components/services/Auth/SignIn"
 
-import { Container } from "./Contributes.styled"
+import Image from "next/image"
+
+import { Container, Content, Illustration } from "./Contributes.styled"
 
 export default async function Contributes() {
   const { data: session } = await authClient.getSession({
@@ -20,11 +22,22 @@ export default async function Contributes() {
 
   return (
     <Container>
-      <h2>Participez à l'amélioration du projet</h2>
-      <p>
-        Aidez-nous à enrichir notre base de données sur les taxes en apportant vos contributions.
-      </p>
-      <SignIn />
+      <Content>
+        <h2>Contribuez à la plateforme </h2>
+        <p>
+          Aidez-nous à enrichir notre base de données sur les taxes en apportant vos contributions.
+        </p>
+        <SignIn />
+      </Content>
+      <Illustration>
+        <Image
+          src="https://r2.taxdom.re/images/ContributesIllustrationTaxDOM.webp"
+          alt="Illustration TaxDOM Contributes"
+          fill
+          style={{ objectFit: "contain" }}
+          priority
+        />
+      </Illustration>
     </Container>
   )
 }
