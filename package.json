@@ -1,8 +1,7 @@
 {
   "name": "taxdom",
-  "version": "0.1.0",
   "author": "zeis974 <hi@zeis.dev>",
-  "description": "soon",
+  "description": "A modern tax calculation application for French overseas departments and regions",
   "license": "AGPL-3.0-only",
   "scripts": {
     "prepare": "husky",
@@ -12,21 +11,20 @@
     "dev:db": "docker compose -f compose.dev.yml up -d --build db",
     "dev:web": "pnpm --filter @taxdom/app dev",
     "build": "turbo run build",
-    "build:images": "docker compose -f compose.dev.yml up -d --build",
     "format": "biome format . --write"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.2",
+    "@biomejs/biome": "2.3.2",
     "husky": "9.1.7",
-    "lint-staged": "16.1.2",
-    "turbo": "2.5.4",
-    "typescript": "5.8.3"
+    "lint-staged": "16.2.6",
+    "turbo": "2.5.8",
+    "typescript": "5.9.3"
   },
   "engines": {
     "node": ">=22",
     "pnpm": ">=10"
   },
-  "packageManager": "pnpm@10.12.1",
+  "packageManager": "pnpm@10.20.0",
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
       "biome format --write --no-errors-on-unmatched"
