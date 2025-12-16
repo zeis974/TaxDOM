@@ -1,6 +1,6 @@
 import { styled } from "@/panda/jsx"
 
-export const Container = styled.div`
+export const InputContainer = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
@@ -8,7 +8,7 @@ export const Container = styled.div`
   font-family: token(fonts.nativeFont);
 
   & > label {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: clamp(0.875rem, 0.8529rem + 0.0941vw, 1rem);
     font-weight: 600;
     user-select: none;
@@ -37,6 +37,11 @@ export const Container = styled.div`
 
     &:focus {
       border: 2px solid #3498db;
+    }
+
+    &[disabled="true"],
+    &[aria-disabled="true"] {
+      cursor: not-allowed;
     }
   }
 

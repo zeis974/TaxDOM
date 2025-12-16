@@ -4,7 +4,6 @@ import Script from "next/script"
 import { useEffect, useRef } from "react"
 
 const scriptLink = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
-
 type TurnstileRenderParameters = Turnstile.RenderParameters
 
 export default function Turnstile(
@@ -13,6 +12,7 @@ export default function Turnstile(
     "action" | "cData" | "callback" | "tabindex" | "theme" | "language"
   > & {
     sitekey?: TurnstileRenderParameters["sitekey"]
+    size?: "flexible" | "compact"
     errorCallback?: TurnstileRenderParameters["error-callback"]
     expiredCallback?: TurnstileRenderParameters["expired-callback"]
   },
@@ -35,6 +35,7 @@ export default function Turnstile(
         ...rest,
         // Refer: https://developers.cloudflare.com/turnstile/reference/testing/
         sitekey: sitekey || process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || "",
+        size: "flexible",
         "error-callback": onError,
         "expired-callback": expiredCallback,
       })
@@ -50,6 +51,7 @@ export default function Turnstile(
     renderWidget()
   }
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: run once
   useEffect(() => {
     if (!widgetID.current && (window as any).turnstile) {
       renderWidget()
@@ -62,7 +64,8 @@ export default function Turnstile(
 
   return (
     <>
-      <div id="captcha-container" />
+      {/** biome-ignore lint/correctness/useUniqueElementIds: false positive */}
+      <div id="captcha-container" style={{ width: "100%" }} />
       <Script
         src={scriptLink}
         onLoad={onLoad}

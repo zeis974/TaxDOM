@@ -64,6 +64,12 @@ declare namespace Turnstile {
     callback?: (token: string) => void
 
     /**
+     * Optional. The size of the Turnstile widget.
+     * @default "normal"
+     */
+    size?: "flexible" | "compact"
+
+    /**
      * Optional. A JavaScript callback that is invoked when a challenge expires.
      */
     "expired-callback"?: VoidFunction
