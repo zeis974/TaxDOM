@@ -3,7 +3,8 @@ packages:
   - packages/*
 
 onlyBuiltDependencies:
-  - "@biomejs/biome"
-  - "@swc/core"
+  - '@biomejs/biome'
+  - '@swc/core'
+  - better-sqlite3
   - esbuild
   - sharp
