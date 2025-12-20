@@ -6,10 +6,14 @@ interface DeleteOriginsResponse {
 }
 
 export async function deleteOrigins(originIDs: string[]): Promise<DeleteOriginsResponse> {
+  const VALID_ID_REGEX = /^[a-zA-Z0-9\-_]{1,64}$/
+
   try {
-    // For now, we'll delete one by one since the API might not support bulk delete
     const results = await Promise.allSettled(
       originIDs.map(async (id) => {
+        if (!VALID_ID_REGEX.test(id)) {
+          throw new Error(`Invalid origin ID: ${id}`);
+        }
         const res = await fetch(`${process.env.API_URL}/dashboard/origins/${id}`, {
           method: "DELETE",
           headers: {
