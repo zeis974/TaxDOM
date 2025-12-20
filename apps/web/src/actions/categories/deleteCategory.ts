@@ -5,6 +5,9 @@ export interface DeleteCategoryResponse {
 }
 
 export async function deleteCategory(categoryID: number): Promise<DeleteCategoryResponse> {
+  if (!Number.isInteger(categoryID) || categoryID <= 0) {
+    throw new Error("Invalid category ID");
+  }
   const response = await fetch(`${process.env.API_URL}/categories/${categoryID}`, {
     method: "DELETE",
     headers: {

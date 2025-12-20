@@ -54,14 +54,13 @@
   "files": {
     "includes": [
       "**",
-      "!**/.next/**",
-      "!**/data/**",
+      "!**/.next/",
+      "!**/data/",
       "!**/build",
       "!**/dist",
       "!**/coverage",
       "!**/apps/nginx",
-      "!**/styled-system/**",
-      "!**/packages/url-parser/pkg/**"
+      "!**/styled-system/"
     ]
   }
 }

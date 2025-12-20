@@ -5,6 +5,9 @@ import { revalidateTag } from "next/cache"
 export async function deleteTerritory(
   territoryID: string,
 ): Promise<{ success: boolean; error?: string }> {
+  if (!/^[a-zA-Z0-9-]{1,64}$/.test(territoryID)) {
+    return { success: false, error: "Identifiant de territoire invalide." }
+  }
   try {
     const res = await fetch(`${process.env.API_URL}/dashboard/territories/${territoryID}`, {
       method: "DELETE",

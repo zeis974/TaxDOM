@@ -1,73 +1,101 @@
-import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core"
-import { relations, sql } from "drizzle-orm"
+import { relations } from "drizzle-orm"
+import { boolean, integer, pgTable, timestamp, varchar } from "drizzle-orm/pg-core"
 
-export const categories = sqliteTable("categories", {
-  categoryID: integer("category_id").notNull().primaryKey({ autoIncrement: true }),
-  categoryName: text("category_name").notNull(),
-  taxID: integer("tax_id").references(() => taxes.taxID),
+export const categories = pgTable("categories", {
+  categoryID: varchar("category_id").notNull().unique(),
+  categoryName: varchar("category_name").notNull(),
+  taxID: varchar("tax_id")
+    .references(() => taxes.taxID)
+    .notNull(),
 })
 
-export const flux = sqliteTable("flux", {
-  fluxID: integer("flux_id").primaryKey(),
-  fluxName: text("flux_name").notNull(),
+export const flux = pgTable("flux", {
+  fluxID: varchar("flux_id").notNull().unique(),
+  fluxName: varchar("flux_name").notNull(),
 })
 
-export const origins = sqliteTable("origins", {
-  originID: integer("origin_id").primaryKey(),
-  originName: text("origin_name").notNull(),
+export const origins = pgTable("origins", {
+  originID: varchar("origin_id").notNull().unique(),
+  originName: varchar("origin_name").notNull(),
+  available: boolean("available").notNull().default(true),
 })
 
-export const taxes = sqliteTable("taxes", {
-  taxID: integer("tax_id").primaryKey({ autoIncrement: true }),
+export const taxes = pgTable("taxes", {
+  taxID: varchar("tax_id").notNull().unique(),
   tva: integer("tva").notNull(),
   om: integer("om").notNull(),
   omr: integer("omr").notNull(),
 })
 
-export const territories = sqliteTable("territories", {
-  territoryID: integer("territory_id").primaryKey(),
-  territoryName: text("territory_name").notNull(),
+export const territories = pgTable("territories", {
+  territoryID: varchar("territory_id").notNull().unique(),
+  territoryName: varchar("territory_name").notNull(),
 })
 
-export const products = sqliteTable("products", {
-  productID: integer("product_id").primaryKey({ autoIncrement: true }).notNull(),
-  productName: text("product_name").notNull(),
-  category: integer("category")
+export const products = pgTable("products", {
+  productID: varchar("product_id").notNull().unique(),
+  productName: varchar("product_name").notNull(),
+  categoryID: varchar("category_id")
     .notNull()
     .references(() => categories.categoryID),
-  originID: integer("origin_id")
+  originID: varchar("origin_id")
     .notNull()
     .references(() => origins.originID),
-  territoryID: integer("territory_id")
+  territoryID: varchar("territory_id")
     .notNull()
     .references(() => territories.territoryID),
-  fluxID: integer("flux_id")
+  fluxID: varchar("flux_id")
     .notNull()
     .references(() => flux.fluxID),
-  taxID: integer("tax_id")
+  taxID: varchar("tax_id")
     .notNull()
     .references(() => taxes.taxID),
-  createdAt: integer("created_at", { mode: "timestamp" }).default(sql`(strftime('%s', 'now'))`),
-  updateAt: integer("updated_at", { mode: "timestamp" }).default(sql`(strftime('%s', 'now'))`),
+  createdAt: timestamp("created_at", { mode: "date" }).defaultNow(),
+  updatedAt: timestamp("updated_at", { mode: "date" }).defaultNow(),
 })
 
-export const templates = sqliteTable("templates", {
-  templateID: integer("template_id").primaryKey({ autoIncrement: true }),
-  templateName: text("template_name").notNull(),
+export const templates = pgTable("templates", {
+  templateID: varchar("template_id").notNull().unique(),
+  templateName: varchar("template_name").notNull(),
 })
 
-export const templateProducts = sqliteTable("template_products", {
-  templateID: integer("template_id")
+export const templateProducts = pgTable("template_products", {
+  templateID: varchar("template_id")
     .notNull()
     .references(() => templates.templateID),
-  productID: integer("product_id")
+  productID: varchar("product_id")
     .notNull()
     .references(() => products.productID),
 })
 
+export const CategoriesRelations = relations(categories, ({ one, many }) => ({
+  tax: one(taxes, {
+    fields: [categories.taxID],
+    references: [taxes.taxID],
+  }),
+  products: many(products),
+}))
+
+export const FluxRelations = relations(flux, ({ many }) => ({
+  products: many(products),
+}))
+
+export const OriginsRelations = relations(origins, ({ many }) => ({
+  products: many(products),
+}))
+
+export const TaxesRelations = relations(taxes, ({ many }) => ({
+  categories: many(categories),
+  products: many(products),
+}))
+
+export const TerritoriesRelations = relations(territories, ({ many }) => ({
+  products: many(products),
+}))
+
 export const ProductsRelations = relations(products, ({ one, many }) => ({
   category: one(categories, {
-    fields: [products.category],
+    fields: [products.categoryID],
     references: [categories.categoryID],
   }),
   origin: one(origins, {
@@ -86,14 +114,14 @@ export const ProductsRelations = relations(products, ({ one, many }) => ({
     fields: [products.taxID],
     references: [taxes.taxID],
   }),
-  templates: many(templateProducts),
+  templateProducts: many(templateProducts),
 }))
 
-export const TemplateRelations = relations(templates, ({ many }) => ({
-  products: many(templateProducts),
+export const TemplatesRelations = relations(templates, ({ many }) => ({
+  templateProducts: many(templateProducts),
 }))
 
-export const TemplateProductRelations = relations(templateProducts, ({ one }) => ({
+export const TemplateProductsRelations = relations(templateProducts, ({ one }) => ({
   template: one(templates, {
     fields: [templateProducts.templateID],
     references: [templates.templateID],

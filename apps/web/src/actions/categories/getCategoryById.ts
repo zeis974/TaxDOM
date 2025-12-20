@@ -1,7 +1,11 @@
 "use server"
 
 export async function getCategoryById(categoryID: string) {
-  console.log(categoryID)
+  if (!/^[a-zA-Z0-9_-]+$/.test(categoryID)) {
+    console.log("Invalid categoryID format:", categoryID)
+    return null
+  }
+
   try {
     const res = await fetch(`${process.env.API_URL}/categories/${categoryID}`, {
       method: "GET",
