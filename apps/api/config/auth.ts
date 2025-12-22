@@ -1,5 +1,6 @@
-import { betterAuth } from "better-auth"
 import { drizzleAdapter } from "better-auth/adapters/drizzle"
+import { betterAuth } from "better-auth/minimal"
+import { admin } from "better-auth/plugins"
 
 import * as schema from "../database/auth-schema.js"
 import env from "../start/env.js"
@@ -18,14 +19,20 @@ export const auth = betterAuth({
       trustedProviders: ["google"],
     },
   },
+  plugins: [
+    admin({
+      defaultRole: "user",
+    }),
+  ],
   session: {
     cookieCache: {
       enabled: true,
-      maxAge: 5 * 60,
+      maxAge: 300,
     },
   },
   socialProviders: {
     google: {
+      prompt: "select_account",
       clientId: env.get("GOOGLE_CLIENT_ID"),
       clientSecret: env.get("GOOGLE_CLIENT_SECRET"),
     },
