@@ -12,7 +12,7 @@ export async function deleteOrigins(originIDs: string[]): Promise<DeleteOriginsR
     const results = await Promise.allSettled(
       originIDs.map(async (id) => {
         if (!VALID_ID_REGEX.test(id)) {
-          throw new Error(`Invalid origin ID: ${id}`);
+          throw new Error(`Invalid origin ID: ${id}`)
         }
         const res = await fetch(`${process.env.API_URL}/dashboard/origins/${id}`, {
           method: "DELETE",

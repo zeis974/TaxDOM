@@ -99,19 +99,19 @@ export const ProductsCount = styled.span`
 export const DrawerOverlay = styled.div`
   position: fixed;
   inset: 0;
-  background: rgba(15, 23, 42, 0.45);
-  backdrop-filter: blur(4px);
+  background: color-mix(in srgb, token(colors.primary) 35%, transparent);
+  backdrop-filter: blur(2px);
   z-index: 49;
 `
 
 export const DrawerContent = styled.div`
   position: fixed;
   inset: 0 0 0 auto;
-  width: min(520px, 100vw);
+  width: min(420px, 100vw);
   height: 100vh;
   background: token(colors.background);
-  border-left: 1px solid rgba(148, 163, 184, 0.24);
-  box-shadow: -32px 0 80px rgba(15, 23, 42, 0.28);
+  border-left: 1px solid color-mix(in srgb, token(colors.darkGray) 50%, transparent);
+  box-shadow: -24px 0 64px token(colors.shadow);
   display: flex;
   flex-direction: column;
   z-index: 50;
@@ -119,31 +119,66 @@ export const DrawerContent = styled.div`
 `
 
 export const DrawerHeader = styled.header`
-  padding: 32px;
-  padding-bottom: 24px;
+  padding: 22px 22px 18px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-bottom: 1px solid rgba(148, 163, 184, 0.24);
-  gap: 24px;
+  border-bottom: 1px solid color-mix(in srgb, token(colors.darkGray) 35%, transparent);
+  gap: 20px;
+  background: token(colors.background);
+`
+
+export const DrawerHeaderContent = styled.div`
+  flex: 1;
+  min-width: 0;
+`
+
+export const DrawerHeaderActions = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+`
+
+export const DrawerHeaderButton = styled.button`
+  background: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
+  transition: all 150ms ease;
+
+  &:hover {
+    background: token(colors.tertiaryBackground);
+    color: token(colors.primary);
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
 `
 
 export const DrawerSubtitle = styled.span`
   display: block;
-  font-size: 14px;
-  color: rgba(100, 116, 139, 0.85);
+  font-size: 13px;
+  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
   font-weight: 500;
-  margin-top: 4px;
+  margin-top: 6px;
   font-family: token(fonts.nativeFont);
 `
 
 export const DrawerTitle = styled.h2`
   margin: 0;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 800;
   color: token(colors.primary);
-  letter-spacing: -0.01em;
   font-family: token(fonts.nativeFont);
+  letter-spacing: -0.01em;
 `
 
 export const DrawerBadges = styled.div`
@@ -191,28 +226,33 @@ export const DrawerMeta = styled.div`
 `
 
 export const DrawerCloseButton = styled.button`
-  background: rgba(226, 232, 240, 0.6);
-  color: rgba(30, 41, 59, 0.85);
+  background: transparent;
+  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
   border: none;
-  border-radius: 999px;
-  width: 40px;
-  height: 40px;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
-  font-weight: 600;
-  transition: background 150ms ease, transform 150ms ease;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 150ms ease;
 
   &:hover {
-    background: rgba(226, 232, 240, 0.9);
-    transform: translateY(-1px);
+    background: token(colors.tertiaryBackground);
+    color: token(colors.primary);
   }
 
   &:focus-visible {
     outline: 2px solid token(colors.primary);
-    outline-offset: 3px;
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
   }
 `
 
@@ -226,40 +266,35 @@ export const DrawerForm = styled.form`
 export const DrawerBody = styled.div`
   flex: 1;
   overflow-y: auto;
-  padding: 28px 32px;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 28px;
 `
 
 export const DrawerSection = styled.section`
   display: flex;
   flex-direction: column;
   gap: 16px;
-`
+  padding: 18px 22px;
+  border-bottom: 1px solid color-mix(in srgb, token(colors.darkGray) 25%, transparent);
 
-export const DrawerSectionTitle = styled.h3`
-  margin: 0;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: rgba(71, 85, 105, 0.85);
-  font-family: token(fonts.nativeFont);
+  &:last-child {
+    border-bottom: none;
+  }
 `
 
 export const DrawerSectionDescription = styled.p`
   margin: 0;
   font-size: 13px;
-  color: rgba(100, 116, 139, 0.85);
+  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
   line-height: 1.6;
   font-family: token(fonts.nativeFont);
 `
 
 export const FormGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
 
   &[data-columns="1"] {
     grid-template-columns: 1fr;
@@ -267,12 +302,13 @@ export const FormGrid = styled.div`
 `
 
 export const DrawerFooter = styled.footer`
-  padding: 20px 32px 32px;
-  border-top: 1px solid rgba(148, 163, 184, 0.24);
+  padding: 20px 28px 24px;
+  border-top: 1px solid color-mix(in srgb, token(colors.darkGray) 35%, transparent);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 16px;
+  background: token(colors.background);
 `
 
 export const ActionsGroup = styled.div`
@@ -280,6 +316,8 @@ export const ActionsGroup = styled.div`
   gap: 10px;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: auto;
+  justify-content: flex-end;
 `
 
 export const ErrorContainer = styled.div`
@@ -316,6 +354,315 @@ export const DeleteButton = styled.button`
   }
 `
 
+// Modern Detail List Style (like the invoice example)
+export const DetailList = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+`
+
+export const DetailRow = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 49px;
+  padding: 0;
+  border-bottom: 1px solid color-mix(in srgb, token(colors.darkGray) 25%, transparent);
+  gap: 16px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+`
+
+export const DetailLabel = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: token(fonts.nativeFont);
+  min-width: 0;
+  flex: 1;
+`
+
+export const DetailIcon = styled.span`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: color-mix(in srgb, token(colors.primary) 45%, transparent);
+  flex-shrink: 0;
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+`
+
+export const DetailValue = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: token(colors.primary);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: token(fonts.nativeFont);
+  text-align: right;
+  word-break: break-word;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  min-width: 180px;
+`
+
+export const DetailValueInput = styled.input`
+  box-sizing: border-box;
+  width: 220px;
+  max-width: 55vw;
+  height: 34px;
+  background: token(colors.secondaryBackground);
+  border: 1px solid token(colors.darkGray);
+  border-radius: 10px;
+  padding: 6px 10px;
+  color: token(colors.primary);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: token(fonts.nativeFont);
+  text-align: right;
+
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
+  }
+
+  &::placeholder {
+    color: color-mix(in srgb, token(colors.primary) 45%, transparent);
+    font-weight: 600;
+  }
+`
+
+export const DetailValueCopyable = styled.button`
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: token(colors.primary);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: token(fonts.nativeFont);
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 150ms ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  svg {
+    width: 14px;
+    height: 14px;
+    color: color-mix(in srgb, token(colors.primary) 45%, transparent);
+  }
+`
+
+export const DetailLink = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: token(colors.blue);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: token(fonts.nativeFont);
+  text-decoration: none;
+  transition: opacity 150ms ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+`
+
+export const StatusBadge = styled.span`
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+
+  &[data-status="approved"] {
+    background: color-mix(in srgb, token(colors.blue) 18%, transparent);
+    color: token(colors.blue);
+  }
+
+  &[data-status="pending"] {
+    background: token(colors.tertiaryBackground);
+    color: color-mix(in srgb, token(colors.primary) 70%, transparent);
+  }
+
+  &[data-status="failed"] {
+    background: color-mix(in srgb, token(colors.error) 12%, transparent);
+    color: token(colors.error);
+  }
+`
+
+export const StatusTagButton = styled.button`
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: opacity 150ms ease, transform 150ms ease;
+
+  &:hover:not(:disabled) {
+    opacity: 0.9;
+    transform: translateY(-0.5px);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
+  }
+
+  &[data-status="approved"] {
+    background: color-mix(in srgb, token(colors.blue) 18%, transparent);
+    color: token(colors.blue);
+  }
+
+  &[data-status="pending"] {
+    background: token(colors.tertiaryBackground);
+    color: color-mix(in srgb, token(colors.primary) 70%, transparent);
+  }
+
+  &[data-status="failed"] {
+    background: color-mix(in srgb, token(colors.error) 12%, transparent);
+    color: token(colors.error);
+  }
+`
+
+// Process History Timeline
+export const ProcessHistoryTimeline = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+`
+
+export const ProcessHistoryItem = styled.div`
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  position: relative;
+
+  &:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 48px;
+    bottom: 0;
+    width: 2px;
+    background: color-mix(in srgb, token(colors.darkGray) 45%, transparent);
+  }
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+`
+
+export const ProcessHistoryIconWrapper = styled.div`
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+
+  &[data-status="success"] {
+    background: color-mix(in srgb, token(colors.blue) 20%, transparent);
+    color: token(colors.blue);
+  }
+
+  &[data-status="info"] {
+    background: color-mix(in srgb, token(colors.blue) 20%, transparent);
+    color: token(colors.blue);
+  }
+
+  &[data-status="warning"] {
+    background: token(colors.tertiaryBackground);
+    color: color-mix(in srgb, token(colors.primary) 70%, transparent);
+  }
+
+  &[data-status="pending"] {
+    background: token(colors.tertiaryBackground);
+    color: color-mix(in srgb, token(colors.primary) 55%, transparent);
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+`
+
+export const ProcessHistoryContent = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding-top: 4px;
+`
+
+export const ProcessHistoryTitle = styled.h4`
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+`
+
+export const ProcessHistoryDescription = styled.p`
+  margin: 0;
+  font-size: 13px;
+  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
+  line-height: 1.5;
+  font-family: token(fonts.nativeFont);
+`
+
+export const ProcessHistoryTimestamp = styled.time`
+  font-size: 12px;
+  color: color-mix(in srgb, token(colors.primary) 45%, transparent);
+  font-family: token(fonts.nativeFont);
+  margin-top: 4px;
+`
+
+// Legacy components (keeping for compatibility)
 export const OriginDetailsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -356,52 +703,26 @@ export const OriginDetailValue = styled.span`
   word-break: break-word;
 `
 
-export const StatusBadge = styled.span`
-  display: inline-flex;
-  align-items: center;
-  padding: 4px 12px;
-  border-radius: 999px;
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-
-  &[data-status="approved"] {
-    background: #dcfce7;
-    color: #166534;
-  }
-
-  &[data-status="pending"] {
-    background: #fed7aa;
-    color: #9a3412;
-  }
-
-  &[data-status="failed"] {
-    background: #fee2e2;
-    color: #991b1b;
-  }
-`
-
 export const ProcessHistoryPlaceholder = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
+  padding: 32px 20px;
   background: rgba(248, 250, 252, 0.5);
-  border: 1px dashed rgba(203, 213, 225, 0.8);
+  border: 1px dashed rgba(203, 213, 225, 0.6);
   border-radius: 12px;
   gap: 12px;
 `
 
 export const ProcessHistoryPlaceholderIcon = styled.div`
-  font-size: 32px;
-  opacity: 0.6;
+  font-size: 28px;
+  opacity: 0.5;
 `
 
 export const ProcessHistoryText = styled.span`
   font-size: 13px;
-  color: rgba(100, 116, 139, 0.85);
+  color: rgba(100, 116, 139, 0.7);
   font-weight: 500;
   text-align: center;
   font-family: token(fonts.nativeFont);
@@ -411,26 +732,6 @@ export const ProcessHistoryList = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-`
-
-export const ProcessHistoryItem = styled.div`
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-  background: white;
-  border: 1px solid rgba(226, 232, 240, 0.8);
-  border-radius: 10px;
-  position: relative;
-
-  &:not(:last-child)::after {
-    content: "";
-    position: absolute;
-    left: 20px;
-    top: 100%;
-    width: 2px;
-    height: 16px;
-    background: rgba(203, 213, 225, 0.5);
-  }
 `
 
 export const ProcessHistoryIcon = styled.div`
@@ -443,35 +744,4 @@ export const ProcessHistoryIcon = styled.div`
   background: rgba(248, 250, 252, 0.8);
   border-radius: 50%;
   flex-shrink: 0;
-`
-
-export const ProcessHistoryContent = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  min-width: 0;
-`
-
-export const ProcessHistoryTitle = styled.h4`
-  margin: 0;
-  font-size: 14px;
-  font-weight: 600;
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
-`
-
-export const ProcessHistoryDescription = styled.p`
-  margin: 0;
-  font-size: 13px;
-  color: rgba(100, 116, 139, 0.85);
-  line-height: 1.5;
-  font-family: token(fonts.nativeFont);
-`
-
-export const ProcessHistoryTimestamp = styled.time`
-  font-size: 12px;
-  color: rgba(148, 163, 184, 0.85);
-  font-family: token(fonts.nativeFont);
-  margin-top: 2px;
 `
