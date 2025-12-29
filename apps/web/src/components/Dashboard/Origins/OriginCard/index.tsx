@@ -184,7 +184,6 @@ export default function OriginCard({ origin, onClick, editable = false }: Props)
       ) : (
         <Card>{renderCardContent}</Card>
       )}
-
       {editable && (
         <Drawer.Root open={open} onOpenChange={handleOpenChange} direction="right">
           <Drawer.Portal>
@@ -219,7 +218,6 @@ export default function OriginCard({ origin, onClick, editable = false }: Props)
                     </Drawer.Close>
                   </DrawerHeaderActions>
                 </DrawerHeader>
-
                 <DrawerForm action={action} autoComplete="off">
                   <input type="hidden" name="originID" value={origin.originID} />
                   <input type="hidden" name="available" value={available} />
@@ -275,7 +273,6 @@ export default function OriginCard({ origin, onClick, editable = false }: Props)
                             </DetailValueCopyable>
                           </DetailValue>
                         </DetailRow>
-
                         <DetailRow>
                           <DetailLabel>
                             <DetailIcon>
@@ -310,7 +307,6 @@ export default function OriginCard({ origin, onClick, editable = false }: Props)
                             )}
                           </DetailValue>
                         </DetailRow>
-
                         <DetailRow>
                           <DetailLabel>
                             <DetailIcon>
@@ -331,7 +327,6 @@ export default function OriginCard({ origin, onClick, editable = false }: Props)
                               : "—"}
                           </DetailValue>
                         </DetailRow>
-
                         <DetailRow>
                           <DetailLabel>
                             <DetailIcon>
@@ -366,7 +361,6 @@ export default function OriginCard({ origin, onClick, editable = false }: Props)
                             </StatusBadge>
                           )}
                         </DetailRow>
-
                         <DetailRow>
                           <DetailLabel>
                             <DetailIcon>
@@ -404,7 +398,6 @@ export default function OriginCard({ origin, onClick, editable = false }: Props)
                         </DetailRow>
                       </DetailList>
                     </DrawerSection>
-
                     <DrawerSection>
                       <ProcessHistoryTimeline>
                         <ProcessHistoryItem>
@@ -430,7 +423,6 @@ export default function OriginCard({ origin, onClick, editable = false }: Props)
                       </ProcessHistoryTimeline>
                     </DrawerSection>
                   </DrawerBody>
-
                   <DrawerFooter>
                     <ErrorContainer>
                       {formErrors.map((err, index) => (

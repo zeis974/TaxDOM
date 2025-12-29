@@ -70,6 +70,8 @@ export const Badge = styled.span`
   padding: 4px 10px;
   border-radius: 999px;
   font-weight: 600;
+  font-family: token(fonts.nativeFont);
+  line-height: 1;
   background: rgba(148, 163, 184, 0.18);
   color: token(colors.primary);
   text-transform: uppercase;
@@ -181,50 +183,6 @@ export const DrawerTitle = styled.h2`
   letter-spacing: -0.01em;
 `
 
-export const DrawerBadges = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 18px;
-`
-
-export const DrawerBadge = styled.span`
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  background: rgba(148, 163, 184, 0.18);
-  color: token(colors.primary);
-
-  &[data-variant="available"] {
-    background: #dcfce7;
-    color: #166534;
-  }
-
-  &[data-variant="unavailable"] {
-    background: #fee2e2;
-    color: #991b1b;
-  }
-
-  &[data-variant="neutral"] {
-    background: rgba(226, 232, 240, 0.7);
-    color: rgba(15, 23, 42, 0.72);
-  }
-`
-
-export const DrawerMeta = styled.div`
-  margin-top: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  color: rgba(100, 116, 139, 0.85);
-  font-size: 13px;
-`
-
 export const DrawerCloseButton = styled.button`
   background: transparent;
   color: color-mix(in srgb, token(colors.primary) 55%, transparent);
@@ -280,24 +238,6 @@ export const DrawerSection = styled.section`
 
   &:last-child {
     border-bottom: none;
-  }
-`
-
-export const DrawerSectionDescription = styled.p`
-  margin: 0;
-  font-size: 13px;
-  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
-  line-height: 1.6;
-  font-family: token(fonts.nativeFont);
-`
-
-export const FormGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.25rem;
-
-  &[data-columns="1"] {
-    grid-template-columns: 1fr;
   }
 `
 
@@ -497,6 +437,8 @@ export const StatusBadge = styled.span`
   border-radius: 999px;
   font-size: 12px;
   font-weight: 600;
+  font-family: token(fonts.nativeFont);
+  line-height: 1;
   text-transform: capitalize;
   letter-spacing: 0.01em;
 
@@ -517,6 +459,10 @@ export const StatusBadge = styled.span`
 `
 
 export const StatusTagButton = styled.button`
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: token(fonts.nativeFont);
+  line-height: 1;
   border: none;
   display: inline-flex;
   align-items: center;
@@ -660,88 +606,4 @@ export const ProcessHistoryTimestamp = styled.time`
   color: color-mix(in srgb, token(colors.primary) 45%, transparent);
   font-family: token(fonts.nativeFont);
   margin-top: 4px;
-`
-
-// Legacy components (keeping for compatibility)
-export const OriginDetailsGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 20px;
-  background: rgba(248, 250, 252, 0.5);
-  border: 1px solid rgba(226, 232, 240, 0.8);
-  border-radius: 12px;
-`
-
-export const OriginDetailItem = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-`
-
-export const OriginDetailLabel = styled.span`
-  font-size: 12px;
-  color: rgba(100, 116, 139, 0.85);
-  font-weight: 500;
-  font-family: token(fonts.nativeFont);
-  display: flex;
-  align-items: center;
-  gap: 6px;
-
-  svg {
-    width: 14px;
-    height: 14px;
-    opacity: 0.6;
-  }
-`
-
-export const OriginDetailValue = styled.span`
-  font-size: 14px;
-  color: token(colors.primary);
-  font-weight: 600;
-  font-family: token(fonts.nativeFont);
-  word-break: break-word;
-`
-
-export const ProcessHistoryPlaceholder = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 32px 20px;
-  background: rgba(248, 250, 252, 0.5);
-  border: 1px dashed rgba(203, 213, 225, 0.6);
-  border-radius: 12px;
-  gap: 12px;
-`
-
-export const ProcessHistoryPlaceholderIcon = styled.div`
-  font-size: 28px;
-  opacity: 0.5;
-`
-
-export const ProcessHistoryText = styled.span`
-  font-size: 13px;
-  color: rgba(100, 116, 139, 0.7);
-  font-weight: 500;
-  text-align: center;
-  font-family: token(fonts.nativeFont);
-`
-
-export const ProcessHistoryList = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-`
-
-export const ProcessHistoryIcon = styled.div`
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(248, 250, 252, 0.8);
-  border-radius: 50%;
-  flex-shrink: 0;
 `
