@@ -10,7 +10,6 @@ import { useDetectDevice } from "@/hooks/useIsMobile"
 import LazyMotionProvider from "@/providers/LazyMotionProvider"
 import QueryProvider from "@/providers/QueryProvider"
 
-import AlphaMode from "@/components/AlphaMode"
 import Navbar from "@/components/Navbar"
 
 export const metadata: Metadata = {
@@ -30,7 +29,10 @@ const Rowdies = localFont({
 export default async function RootLayout({
   children,
   modal,
-}: Record<"children" | "modal", React.ReactNode>) {
+}: {
+  children: React.ReactNode
+  modal?: React.ReactNode
+}) {
   const isMobile = await useDetectDevice()
 
   return (
@@ -40,7 +42,6 @@ export default async function RootLayout({
       </head>
       <body>
         <PlausibleProvider domain="taxdom.re" customDomain="https://analytics.taxdom.re">
-          {isMobile && <AlphaMode />}
           <ThemeProvider defaultTheme="system">
             <QueryProvider>
               <LazyMotionProvider>
