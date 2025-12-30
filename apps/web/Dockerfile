@@ -1,4 +1,4 @@
-FROM node:22.17.1-alpine AS base
+FROM node:24.12.0-alpine AS base
 
 RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
 
@@ -8,7 +8,7 @@ RUN addgroup --system --gid 1001 nodejs && \
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@10.13.1 --activate
+RUN corepack prepare pnpm@10.26.2 --activate
 
 FROM base AS builder
 RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
