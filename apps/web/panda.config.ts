@@ -24,7 +24,6 @@ export default defineConfig({
   },
   globalCss: {
     body: {
-      height: "100dvh",
       backgroundColor: "{colors.background}",
     },
   },

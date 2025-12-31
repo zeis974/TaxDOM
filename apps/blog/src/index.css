@@ -20,8 +20,9 @@
 
 :root {
   color-scheme: light dark;
-  --native-font: --apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, sans-serif;
+  --native-font:
+    --apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
 }
 
 body {

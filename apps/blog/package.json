@@ -21,7 +21,7 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.7.1"
+    "@pandacss/dev": "1.7.2"
   },
   "packageManager": "pnpm@10.26.0"
 }
