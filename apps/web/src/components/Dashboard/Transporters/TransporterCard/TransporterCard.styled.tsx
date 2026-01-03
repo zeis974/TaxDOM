@@ -419,6 +419,83 @@ export const DetailValueInput = styled.input`
   }
 `
 
+export const DrawerHeaderButton = styled.button`
+  background: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
+  transition: all 150ms ease;
+
+  &:hover {
+    background: token(colors.tertiaryBackground);
+    color: token(colors.primary);
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+`
+
+export const DetailValueCopyable = styled.button`
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: token(colors.primary);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: token(fonts.nativeFont);
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 150ms ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  svg {
+    width: 14px;
+    height: 14px;
+    color: color-mix(in srgb, token(colors.primary) 45%, transparent);
+  }
+`
+
+export const StatusBadge = styled.span`
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: token(fonts.nativeFont);
+  line-height: 1;
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+
+  &[data-status="approved"] {
+    background: color-mix(in srgb, token(colors.blue) 18%, transparent);
+    color: token(colors.blue);
+  }
+
+  &[data-status="pending"] {
+    background: token(colors.tertiaryBackground);
+    color: color-mix(in srgb, token(colors.primary) 70%, transparent);
+  }
+
+  &[data-status="failed"] {
+    background: color-mix(in srgb, token(colors.error) 12%, transparent);
+    color: token(colors.error);
+  }
+`
+
 export const StatusTagButton = styled.button`
   appearance: none;
   -webkit-appearance: none;
@@ -465,6 +542,108 @@ export const StatusTagButton = styled.button`
     background: color-mix(in srgb, token(colors.error) 12%, transparent);
     color: token(colors.error);
   }
+`
+
+// Process History Timeline
+export const ProcessHistoryTimeline = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+`
+
+export const ProcessHistoryItem = styled.div`
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  position: relative;
+
+  &:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 48px;
+    bottom: 0;
+    width: 2px;
+    background: color-mix(in srgb, token(colors.darkGray) 45%, transparent);
+  }
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+`
+
+export const ProcessHistoryIconWrapper = styled.div`
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+
+  &[data-status="success"] {
+    background: color-mix(in srgb, token(colors.blue) 20%, transparent);
+    color: token(colors.blue);
+  }
+
+  &[data-status="info"] {
+    background: color-mix(in srgb, token(colors.blue) 20%, transparent);
+    color: token(colors.blue);
+  }
+
+  &[data-status="warning"] {
+    background: token(colors.tertiaryBackground);
+    color: color-mix(in srgb, token(colors.primary) 70%, transparent);
+  }
+
+  &[data-status="pending"] {
+    background: token(colors.tertiaryBackground);
+    color: color-mix(in srgb, token(colors.primary) 55%, transparent);
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+`
+
+export const ProcessHistoryContent = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding-top: 4px;
+`
+
+export const ProcessHistoryTitle = styled.h4`
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+`
+
+export const ProcessHistoryDescription = styled.p`
+  margin: 0;
+  font-size: 13px;
+  color: color-mix(in srgb, token(colors.primary) 55%, transparent);
+  line-height: 1.5;
+  font-family: token(fonts.nativeFont);
+`
+
+export const ProcessHistoryTimestamp = styled.time`
+  font-size: 12px;
+  color: color-mix(in srgb, token(colors.primary) 45%, transparent);
+  font-family: token(fonts.nativeFont);
+  margin-top: 4px;
 `
 
 export const RadioGroup = styled.div`

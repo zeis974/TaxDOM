@@ -5,25 +5,25 @@ export const AddTransporterBtn = styled.button`
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background: token(colors.primary);
-  font-weight: 600;
-  border: none;
+  background: token(colors.tertiaryBackground);
+  font-weight: 500;
+  border: 1px solid token(colors.darkGray);
   cursor: pointer;
   border-radius: 8px;
-  color: token(colors.background);
+  color: token(colors.primary);
   font-family: token(fonts.nativeFont);
   font-size: 14px;
   transition: all 150ms ease;
 
   &:hover {
-    opacity: 0.9;
+    background: token(colors.secondaryBackground);
+    border-color: token(colors.primary);
   }
 
   &:focus-visible {
     outline: 2px solid token(colors.primary);
     outline-offset: 2px;
   }
-
   & svg {
     flex-shrink: 0;
   }

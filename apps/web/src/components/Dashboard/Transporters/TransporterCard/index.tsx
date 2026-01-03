@@ -9,6 +9,7 @@ import { updateTransporter } from "@/actions/transporters/updateTransporter"
 import { deleteTransporter } from "@/actions/transporters/deleteTransporter"
 import { getTransporterRules } from "@/actions/transporters/getTransporterRules"
 import { saveTransporterRules } from "@/actions/transporters/saveTransporterRules"
+import { useResettableTimeout } from "@/hooks/useResettableTimeout"
 import RulesFlowModal from "../RulesFlow/RulesFlowModal"
 import { flowToRules } from "../RulesFlow/hooks"
 import {
@@ -23,6 +24,7 @@ import {
   DrawerHeader,
   DrawerHeaderContent,
   DrawerHeaderActions,
+  DrawerHeaderButton,
   DrawerSubtitle,
   DrawerTitle,
   DrawerCloseButton,
@@ -37,7 +39,9 @@ import {
   DetailIcon,
   DetailValue,
   DetailValueInput,
+  DetailValueCopyable,
   StatusTagButton,
+  StatusBadge,
   DrawerFooter,
   ActionsGroup,
   ErrorContainer,
@@ -52,6 +56,9 @@ type Props = {
 
 export default function TransporterCard({ transporter, onClick, editable = false }: Props) {
   const [open, setOpen] = useState(false)
+  const [isEditing, setIsEditing] = useState(false)
+  const [didCopyTransporterId, setDidCopyTransporterId] = useState(false)
+  const copyResetTimeout = useResettableTimeout()
   const [state, action, pending] = useActionState(updateTransporter, {
     success: false,
     errors: [],
@@ -73,7 +80,28 @@ export default function TransporterCard({ transporter, onClick, editable = false
     setTransporterName(transporter.transporterName)
     setIsAvailable(transporter.available)
     setDeleteError(null)
+    setIsEditing(false)
   }, [transporter])
+
+  const copyToClipboard = async (value: string) => {
+    try {
+      await navigator.clipboard.writeText(value)
+      return true
+    } catch {
+      return false
+    }
+  }
+
+  const copyTransporterId = async () => {
+    const didCopy = await copyToClipboard(transporter.transporterID)
+    if (!didCopy) return
+
+    setDidCopyTransporterId(true)
+
+    copyResetTimeout.start(() => {
+      setDidCopyTransporterId(false)
+    }, 3000)
+  }
 
   const handleOpenRulesModal = useCallback(async () => {
     setRulesLoading(true)
@@ -141,9 +169,13 @@ export default function TransporterCard({ transporter, onClick, editable = false
   const handleOpenChange = useCallback(
     (nextOpen: boolean) => {
       setOpen(nextOpen)
-      if (!nextOpen) resetForm()
+      if (!nextOpen) {
+        resetForm()
+        setDidCopyTransporterId(false)
+        copyResetTimeout.clear()
+      }
     },
-    [resetForm],
+    [resetForm, copyResetTimeout],
   )
 
   // Sync form state when transporter prop changes
@@ -153,7 +185,10 @@ export default function TransporterCard({ transporter, onClick, editable = false
 
   // Close drawer on successful update
   useEffect(() => {
-    if (state?.success) setOpen(false)
+    if (state?.success) {
+      setOpen(false)
+      setIsEditing(false)
+    }
   }, [state?.success])
 
   const onDelete = useCallback(async () => {
@@ -191,6 +226,8 @@ export default function TransporterCard({ transporter, onClick, editable = false
     return <Card onClick={onClick}>{CardContent}</Card>
   }
 
+  const formErrors = open ? (state?.errors ?? []) : []
+
   return (
     <Drawer.Root open={open} onOpenChange={handleOpenChange} direction="right">
       <Drawer.Trigger asChild>
@@ -204,9 +241,21 @@ export default function TransporterCard({ transporter, onClick, editable = false
             <DrawerHeader>
               <DrawerHeaderContent>
                 <DrawerTitle>{transporter.transporterName}</DrawerTitle>
-                <DrawerSubtitle>#{transporter.transporterID.slice(0, 8)}...</DrawerSubtitle>
+                <DrawerSubtitle>#{transporter.transporterID}</DrawerSubtitle>
               </DrawerHeaderContent>
               <DrawerHeaderActions>
+                <DrawerHeaderButton
+                  type="button"
+                  title={isEditing ? "Mode édition" : "Modifier"}
+                  aria-label={isEditing ? "Mode édition" : "Modifier"}
+                  onClick={() => setIsEditing(true)}
+                  disabled={pending}
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M12 20h9" />
+                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z" />
+                  </svg>
+                </DrawerHeaderButton>
                 <Drawer.Close asChild>
                   <DrawerCloseButton aria-label="Fermer le panneau">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -218,7 +267,7 @@ export default function TransporterCard({ transporter, onClick, editable = false
               </DrawerHeaderActions>
             </DrawerHeader>
 
-            <DrawerForm action={action}>
+            <DrawerForm action={action} autoComplete="off">
               <input type="hidden" name="transporterID" value={transporter.transporterID} />
               <input type="hidden" name="available" value={String(isAvailable)} />
               <DrawerBody>
@@ -241,7 +290,36 @@ export default function TransporterCard({ transporter, onClick, editable = false
                         </DetailIcon>
                         ID
                       </DetailLabel>
-                      <DetailValue>{transporter.transporterID.slice(0, 12)}...</DetailValue>
+                      <DetailValue>
+                        <DetailValueCopyable
+                          type="button"
+                          onClick={copyTransporterId}
+                          aria-label={didCopyTransporterId ? "ID copié" : "Copier l'ID"}
+                          title={didCopyTransporterId ? "Copié" : "Copier"}
+                        >
+                          {transporter.transporterID}
+                          {didCopyTransporterId ? (
+                            <svg
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                            >
+                              <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                          ) : (
+                            <svg
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                            >
+                              <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                            </svg>
+                          )}
+                        </DetailValueCopyable>
+                      </DetailValue>
                     </DetailRow>
                     <DetailRow>
                       <DetailLabel>
@@ -261,15 +339,21 @@ export default function TransporterCard({ transporter, onClick, editable = false
                         Nom
                       </DetailLabel>
                       <DetailValue>
-                        <DetailValueInput
-                          type="text"
-                          id={transporterNameId}
-                          name="transporterName"
-                          value={transporterName}
-                          onChange={(e) => setTransporterName(e.target.value)}
-                          placeholder="Ex: DHL, FedEx..."
-                          required
-                        />
+                        {isEditing ? (
+                          <DetailValueInput
+                            type="text"
+                            id={transporterNameId}
+                            name="transporterName"
+                            value={transporterName}
+                            onChange={(e) => setTransporterName(e.target.value)}
+                            placeholder="Ex: DHL, FedEx..."
+                            autoComplete="off"
+                            required
+                            aria-label="Nom du transporteur"
+                          />
+                        ) : (
+                          transporterName
+                        )}
                       </DetailValue>
                     </DetailRow>
                     <DetailRow>
@@ -288,14 +372,22 @@ export default function TransporterCard({ transporter, onClick, editable = false
                         Statut
                       </DetailLabel>
                       <DetailValue>
-                        <StatusTagButton
-                          type="button"
-                          data-status={isAvailable ? "approved" : "failed"}
-                          onClick={() => setIsAvailable((prev) => !prev)}
-                          aria-pressed={isAvailable}
-                        >
-                          {isAvailable ? "Disponible" : "Indisponible"}
-                        </StatusTagButton>
+                        {isEditing ? (
+                          <StatusTagButton
+                            type="button"
+                            data-status={isAvailable ? "approved" : "failed"}
+                            onClick={() => setIsAvailable((prev) => !prev)}
+                            aria-pressed={isAvailable}
+                            title="Cliquer pour basculer"
+                            disabled={pending}
+                          >
+                            {isAvailable ? "Disponible" : "Indisponible"}
+                          </StatusTagButton>
+                        ) : (
+                          <StatusBadge data-status={isAvailable ? "approved" : "failed"}>
+                            {isAvailable ? "Disponible" : "Indisponible"}
+                          </StatusBadge>
+                        )}
                       </DetailValue>
                     </DetailRow>
                   </DetailList>
@@ -316,25 +408,21 @@ export default function TransporterCard({ transporter, onClick, editable = false
                     {rulesLoading ? "Chargement..." : "⚙️ Configurer les règles"}
                   </Button>
                 </DrawerSection>
-
-                {(state?.errors?.length > 0 || deleteError) && (
-                  <DrawerSection>
-                    <ErrorContainer>
-                      {state?.errors?.map((error) => (
-                        <span key={error}>{error}</span>
-                      ))}
-                      {deleteError && <span>{deleteError}</span>}
-                    </ErrorContainer>
-                  </DrawerSection>
-                )}
               </DrawerBody>
 
               <DrawerFooter>
-                <DeleteButton type="button" onClick={onDelete} disabled={isDeleting || pending}>
-                  {isDeleting ? "Suppression..." : "Supprimer"}
-                </DeleteButton>
+                <ErrorContainer>
+                  {formErrors.map((err, index) => (
+                    // biome-ignore lint/suspicious/noArrayIndexKey: feedback-only
+                    <span key={index}>{err}</span>
+                  ))}
+                  {deleteError && <span>{deleteError}</span>}
+                </ErrorContainer>
                 <ActionsGroup>
-                  <Button type="submit" disabled={!isFormValid || pending || isDeleting}>
+                  <DeleteButton type="button" onClick={onDelete} disabled={pending || isDeleting}>
+                    {isDeleting ? "Suppression..." : "Supprimer"}
+                  </DeleteButton>
+                  <Button type="submit" disabled={!isEditing || !isFormValid || pending}>
                     {pending ? "Enregistrement..." : "Enregistrer"}
                   </Button>
                 </ActionsGroup>
