@@ -9,5 +9,6 @@ export const semanticTokens = defineSemanticTokens({
     background: { value: { base: "white", _dark: "#121212" } },
     secondaryBackground: { value: { base: "#dde4e6", _dark: "#2b2b2b" } },
     tertiaryBackground: { value: { base: "#ecf0f1", _dark: "#3b3b3b" } },
+    blue: { value: { base: "#3498db", _dark: "#3498db" } },
   },
 })

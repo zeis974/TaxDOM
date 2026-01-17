@@ -30,10 +30,56 @@ export const keyframes = defineKeyframes({
       background: "#f0f0f0",
     },
     "50%": {
-      background: "#e0e0e0",
+      background: "#bababa",
     },
     "100%": {
       background: "#f0f0f0",
+    },
+  },
+  "skeleton-shimmer": {
+    "0%": {
+      backgroundPosition: "-200% 0",
+    },
+    "100%": {
+      backgroundPosition: "200% 0",
+    },
+  },
+  "origins-fade-in": {
+    from: {
+      opacity: "0",
+      transform: "translateY(8px)",
+    },
+    to: {
+      opacity: "1",
+      transform: "translateY(0)",
+    },
+  },
+  "origins-fade-in-item": {
+    from: {
+      opacity: "0",
+      transform: "translateY(4px)",
+    },
+    to: {
+      opacity: "1",
+      transform: "translateY(0)",
+    },
+  },
+  "origins-fade-out": {
+    from: {
+      opacity: "1",
+    },
+    to: {
+      opacity: "0",
+    },
+  },
+  fadeInUp: {
+    from: {
+      opacity: "0",
+      transform: "translateY(20px)",
+    },
+    to: {
+      opacity: "1",
+      transform: "translateY(0)",
     },
   },
 })

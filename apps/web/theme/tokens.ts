@@ -9,12 +9,6 @@ export const tokens = defineTokens({
     Rowdies: {
       value: "var(--rowdies), serif",
     },
-    NotoSans: {
-      value: "var(--noto-sans), sans-serif",
-    },
-    NotoSansBold: {
-      value: "var(--noto-sans-bold), sans-serif",
-    },
   },
   sizes: {
     navbarHeight: { value: "95px" },
