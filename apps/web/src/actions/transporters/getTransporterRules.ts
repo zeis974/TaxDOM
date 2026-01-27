@@ -1,7 +1,10 @@
 "use server"
 
+import type { TransporterFeeRule, TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import { cookies } from "next/headers"
-import type { TransporterFlowNode, TransporterFlowEdge, TransporterFeeRule } from "@taxdom/types"
+import { z } from "zod"
+
+const transporterIdSchema = z.uuidv7("ID du transporteur invalide")
 
 export type TransporterRulesData = {
   transporterID: string
@@ -14,26 +17,30 @@ export type TransporterRulesData = {
 export async function getTransporterRules(
   transporterID: string,
 ): Promise<{ success: boolean; data?: TransporterRulesData; error?: string }> {
+  const parsed = transporterIdSchema.safeParse(transporterID)
+  if (!parsed.success) {
+    return {
+      success: false,
+      error: "ID du transporteur invalide",
+    }
+  }
+
   try {
     const cookieStore = await cookies()
-    const res = await fetch(
-      `${process.env.API_URL}/dashboard/transporters/${transporterID}/rules`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.API_KEY}`,
-          Cookie: cookieStore.toString(),
-        },
-        credentials: "include",
+    const res = await fetch(`${process.env.API_URL}/dashboard/transporters/${parsed.data}/rules`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${process.env.API_KEY}`,
+        Cookie: cookieStore.toString(),
       },
-    )
+      credentials: "include",
+    })
 
     if (!res.ok) {
-      const errorData = await res.json().catch(() => ({}))
       return {
         success: false,
-        error: errorData.error || "Erreur lors de la récupération des règles",
+        error: "Erreur lors de la récupération des règles",
       }
     }
 

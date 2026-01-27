@@ -1,24 +1,25 @@
 "use server"
 
-import { cookies } from "next/headers"
 import { revalidateTag } from "next/cache"
+import { cookies } from "next/headers"
+import { z } from "zod"
 
-export type DeleteTransporterResult = {
-  success: boolean
-  error?: string
-}
+const transporterIdSchema = z.uuidv7("ID du transporteur invalide")
 
-export async function deleteTransporter(transporterID: string): Promise<DeleteTransporterResult> {
-  if (!transporterID || typeof transporterID !== "string") {
+export async function deleteTransporter(
+  transporterID: string,
+): Promise<{ success: boolean; error?: string }> {
+  const parsed = transporterIdSchema.safeParse(transporterID)
+  if (!parsed.success) {
     return {
       success: false,
-      error: "ID du transporteur manquant",
+      error: "ID du transporteur invalide",
     }
   }
 
   try {
     const cookieStore = await cookies()
-    const res = await fetch(`${process.env.API_URL}/dashboard/transporters/${transporterID}`, {
+    const res = await fetch(`${process.env.API_URL}/dashboard/transporters/${parsed.data}`, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${process.env.API_KEY}`,
@@ -27,14 +28,12 @@ export async function deleteTransporter(transporterID: string): Promise<DeleteTr
     })
 
     if (!res.ok) {
-      const data = await res.json().catch(() => ({}))
       return {
         success: false,
-        error: data.error || "Erreur lors de la suppression",
+        error: "Erreur lors de la suppression",
       }
     }
 
-    // Revalidate cache
     revalidateTag("transporters", "max")
     revalidateTag("count:transporters", "max")
 
