@@ -1,43 +1,77 @@
 "use client"
 
-import { useCallback, useRef, useMemo, type DragEvent } from "react"
-import { useRouter } from "next/navigation"
-import { useTheme } from "next-themes"
+import { saveTransporterRules } from "@/actions/transporters/saveTransporterRules"
+import type { TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import {
-  ReactFlow,
   Background,
   BackgroundVariant,
   Controls,
   MiniMap,
-  type Node,
-  type Edge,
-  type ColorMode,
-  useReactFlow,
+  ReactFlow,
   ReactFlowProvider,
+  useReactFlow,
+  type ColorMode,
+  type Edge,
+  type Node,
 } from "@xyflow/react"
 import "@xyflow/react/dist/style.css"
-
-import type { TransporterFlowNode, TransporterFlowEdge } from "@taxdom/types"
-import { StartNode, ConditionNode, FeeNode } from "./nodes"
-import { RightSidePanel } from "./panels"
-import { useRulesFlow, flowToRules, validateFlow } from "./hooks"
-import { saveTransporterRules } from "@/actions/transporters/saveTransporterRules"
+import { useRouter } from "next/navigation"
 import {
+  Component,
+  useCallback,
+  useMemo,
+  useRef,
+  useSyncExternalStore,
+  type DragEvent,
+  type ErrorInfo,
+  type ReactNode,
+} from "react"
+import { toast } from "sonner"
+import { flowToRules, useRulesFlow, validateFlow } from "./hooks"
+import { ConditionNode, FeeNode, StartNode } from "./nodes"
+import { RightSidePanel } from "./panels"
+import {
+  FlowCanvas,
+  PageBackButton,
+  PageBody,
   PageContainer,
   PageHeader,
   PageHeaderLeft,
-  PageBackButton,
   PageHeaderRight,
-  HeaderButton,
   PublishButton,
-  PageBody,
-  FlowCanvas,
 } from "./RulesFlowEditor.styled"
 
 const nodeTypes = {
   start: StartNode,
   condition: ConditionNode,
   fee: FeeNode,
+}
+
+class FlowErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
+  constructor(props: { children: ReactNode }) {
+    super(props)
+    this.state = { hasError: false }
+  }
+
+  static getDerivedStateFromError(): { hasError: boolean } {
+    return { hasError: true }
+  }
+
+  componentDidCatch(error: Error, info: ErrorInfo) {
+    console.error("Flow editor error:", error, info)
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div style={{ padding: "40px", textAlign: "center", color: "#6b7280" }}>
+          <h3 style={{ marginBottom: "8px" }}>Le constructeur de flux a rencontré une erreur</h3>
+          <p>Veuillez recharger la page ou contacter le support.</p>
+        </div>
+      )
+    }
+    return this.props.children
+  }
 }
 
 interface RulesFlowEditorProps {
@@ -56,20 +90,21 @@ function RulesFlowEditorInner({
   const router = useRouter()
   const reactFlowWrapper = useRef<HTMLDivElement>(null)
   const { screenToFlowPosition } = useReactFlow()
-  const { resolvedTheme } = useTheme()
 
-  const colorMode: ColorMode = resolvedTheme === "dark" ? "dark" : "light"
-  const minimapBgColor = resolvedTheme === "dark" ? "#1e293b" : "#ffffff"
+  const colorMode: ColorMode = useSyncExternalStore(
+    () => () => {},
+    () => "system",
+    () => "light",
+  )
 
   const handleSaveRules = useCallback(
     async (nodes: Node[], edges: Edge[]) => {
-      // Valider le flow avant la sauvegarde
       const validation = validateFlow(nodes, edges)
 
       if (!validation.isValid) {
-        const errorMessages = validation.errors.map((e) => e.message).join("\n")
-        console.error("Flow validation failed:", errorMessages)
-        alert(`Erreurs de validation:\n${errorMessages}`)
+        toast.error("Erreurs de validation", {
+          description: validation.errors.map((e) => e.message).join("; "),
+        })
         return
       }
 
@@ -82,15 +117,15 @@ function RulesFlowEditorInner({
         nodeType: node.type || "start",
         positionX: Math.round(node.position.x),
         positionY: Math.round(node.position.y),
-        nodeData: node.data as Record<string, unknown>,
+        nodeData: node.data,
       }))
 
       const dbEdges = edges.map((edge) => ({
         edgeID: edge.id,
         sourceNodeID: edge.source,
         targetNodeID: edge.target,
-        sourceHandle: edge.sourceHandle || null,
-        edgeLabel: (edge.label as string) || null,
+        sourceHandle: edge.sourceHandle ?? null,
+        edgeLabel: typeof edge.label === "string" ? edge.label : null,
       }))
 
       const rules = flowToRules(nodes, edges, transporterID)
@@ -107,8 +142,7 @@ function RulesFlowEditorInner({
       })
 
       if (!result.success) {
-        console.error("Error saving rules:", result.error)
-        alert(`Erreur lors de la sauvegarde: ${result.error}`)
+        toast.error(`Erreur lors de la sauvegarde: ${result.error}`)
       }
     },
     [transporterID],
@@ -138,15 +172,20 @@ function RulesFlowEditorInner({
     onSave: handleSaveRules,
   })
 
-  // Enrichir les nodes avec l'info orphelin pour l'affichage visuel
   const nodesWithOrphanStatus = useMemo(() => {
-    return nodes.map((node) => ({
-      ...node,
-      data: {
-        ...node.data,
-        isOrphaned: flowStats.orphanedNodeIds.has(node.id),
-      },
-    }))
+    return nodes.map((node) => {
+      const isOrphaned = flowStats.orphanedNodeIds.has(node.id)
+      if ((node.data as Record<string, unknown>).isOrphaned === isOrphaned) {
+        return node
+      }
+      return {
+        ...node,
+        data: {
+          ...node.data,
+          isOrphaned,
+        },
+      }
+    })
   }, [nodes, flowStats.orphanedNodeIds])
 
   const onDragOver = useCallback((event: DragEvent) => {
@@ -168,8 +207,18 @@ function RulesFlowEditorInner({
         y: event.clientY,
       })
 
-      const data = dataStr ? JSON.parse(dataStr) : {}
-      addNodeAtPosition(type as "condition" | "fee", position, data)
+      const data: Record<string, unknown> = dataStr
+        ? (() => {
+            try {
+              return JSON.parse(dataStr)
+            } catch {
+              return {}
+            }
+          })()
+        : {}
+      if (type === "condition" || type === "fee") {
+        addNodeAtPosition(type, position, data)
+      }
     },
     [screenToFlowPosition, addNodeAtPosition],
   )
@@ -195,23 +244,17 @@ function RulesFlowEditorInner({
           </PageBackButton>
         </PageHeaderLeft>
         <PageHeaderRight>
-          <HeaderButton type="button">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <polygon points="5 3 19 12 5 21 5 3" />
-            </svg>
-            Tester
-          </HeaderButton>
           <PublishButton type="button" onClick={handleSave} disabled={!isDirty}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M22 2L11 13" />
               <path d="M22 2l-7 20-4-9-9-4 20-7z" />
             </svg>
-            {isDirty ? "Publier" : "Publié"}
+            Sauvegarder
           </PublishButton>
         </PageHeaderRight>
       </PageHeader>
       <PageBody>
-        <FlowCanvas ref={reactFlowWrapper as unknown as React.RefObject<HTMLDivElement>}>
+        <FlowCanvas ref={reactFlowWrapper}>
           <ReactFlow
             nodes={nodesWithOrphanStatus}
             edges={edges}
@@ -245,7 +288,6 @@ function RulesFlowEditorInner({
                 }
               }}
               maskColor="rgba(0, 0, 0, 0.1)"
-              bgColor={minimapBgColor}
               style={{ borderRadius: "8px" }}
             />
           </ReactFlow>
@@ -264,8 +306,10 @@ function RulesFlowEditorInner({
 
 export default function RulesFlowEditor(props: RulesFlowEditorProps) {
   return (
-    <ReactFlowProvider>
-      <RulesFlowEditorInner {...props} />
-    </ReactFlowProvider>
+    <FlowErrorBoundary>
+      <ReactFlowProvider>
+        <RulesFlowEditorInner {...props} />
+      </ReactFlowProvider>
+    </FlowErrorBoundary>
   )
 }

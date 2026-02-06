@@ -5,7 +5,7 @@ import { revalidateTag } from "next/cache"
 import { z } from "zod"
 
 const updateTransporterSchema = z.object({
-  transporterID: z.string().min(1, "ID du transporteur requis"),
+  transporterID: z.string().uuid("ID du transporteur invalide"),
   transporterName: z
     .string()
     .trim()

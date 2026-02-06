@@ -3,7 +3,15 @@ import logger from "@adonisjs/core/services/logger"
 import { eq } from "drizzle-orm"
 import { v7 as uuidv7 } from "uuid"
 
+import vine from "@vinejs/vine"
+import {
+  SaveFlowBodySchema,
+  SaveRulesBodySchema,
+  SaveAllBodySchema,
+} from "../validators/TransporterRulesValidator.js"
+
 import { db } from "#config/database"
+
 import {
   transporterFeeRules,
   transporterFlowNodes,
@@ -11,19 +19,62 @@ import {
   transporters,
 } from "#database/schema"
 
+interface ValidatedFlowNode {
+  nodeID?: string
+  nodeType: "start" | "condition" | "fee"
+  positionX: number
+  positionY: number
+  nodeData: Record<string, unknown>
+}
+
+interface ValidatedFlowEdge {
+  edgeID?: string
+  sourceNodeID: string
+  targetNodeID: string
+  sourceHandle?: "yes" | "no" | "default"
+  edgeLabel?: string
+}
+
+interface ValidatedFeeRule {
+  ruleID?: string
+  minAmount: number | null
+  maxAmount: number | null
+  isIndividual: boolean | null
+  originIsEU: boolean | null
+  fee: string
+  priority: number
+}
+
+function getAuthenticatedUser(ctx: HttpContext): { id?: string; email?: string } | null {
+  return (
+    ((ctx as Record<string, unknown>).__authenticatedUser as { id?: string; email?: string }) ??
+    null
+  )
+}
+
+const UUID_V7_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i
+
+function validateTransporterId(transporterId: unknown): transporterId is string {
+  return (
+    typeof transporterId === "string" &&
+    transporterId.length > 0 &&
+    UUID_V7_REGEX.test(transporterId)
+  )
+}
+
 export default class TransporterRulesController {
   /**
    * Get all flow data (nodes, edges, and rules) for a transporter
    */
-  async show({ params, response }: HttpContext) {
+  async show(ctx: HttpContext) {
+    const { params, response } = ctx
     try {
       const { transporterId } = params
 
-      if (!transporterId) {
-        return response.status(400).json({ error: "ID du transporteur requis" })
+      if (!validateTransporterId(transporterId)) {
+        return response.status(400).json({ error: "ID du transporteur invalide (UUIDv7)" })
       }
 
-      // Vérifier que le transporteur existe
       const transporter = await db.query.transporters.findFirst({
         where: eq(transporters.transporterID, transporterId),
       })
@@ -32,7 +83,6 @@ export default class TransporterRulesController {
         return response.status(404).json({ error: "Transporteur introuvable" })
       }
 
-      // Récupérer les nœuds, edges et règles
       const [nodes, edges, rules] = await Promise.all([
         db.query.transporterFlowNodes.findMany({
           where: eq(transporterFlowNodes.transporterID, transporterId),
@@ -54,7 +104,6 @@ export default class TransporterRulesController {
         feeRules: rules,
       }
     } catch (err) {
-      console.error("Cannot get transporter rules", err)
       logger.error({ err }, "[DASHBOARD]: Cannot get transporter rules")
       return response.status(500).json({ error: "Erreur interne du serveur" })
     }
@@ -64,31 +113,28 @@ export default class TransporterRulesController {
    * Save flow data (nodes and edges) for a transporter
    * This will replace all existing nodes and edges
    */
-  async saveFlow({ params, request, response }: HttpContext) {
+  async saveFlow(ctx: HttpContext) {
+    const { params, request, response } = ctx
     try {
       const { transporterId } = params
-      const { nodes, edges } = request.body() as {
-        nodes: Array<{
-          nodeID?: string
-          nodeType: string
-          positionX: number
-          positionY: number
-          nodeData: Record<string, unknown>
-        }>
-        edges: Array<{
-          edgeID?: string
-          sourceNodeID: string
-          targetNodeID: string
-          sourceHandle?: string
-          edgeLabel?: string
-        }>
+      const authenticatedUser = getAuthenticatedUser(ctx)
+
+      if (!validateTransporterId(transporterId)) {
+        return response.status(400).json({ error: "ID du transporteur invalide (UUIDv7)" })
       }
 
-      if (!transporterId) {
-        return response.status(400).json({ error: "ID du transporteur requis" })
+      let nodes: ValidatedFlowNode[]
+      let edges: ValidatedFlowEdge[]
+      try {
+        const parsed = await vine.validate({ schema: SaveFlowBodySchema, data: request.body() })
+        nodes = parsed.nodes as ValidatedFlowNode[]
+        edges = parsed.edges as ValidatedFlowEdge[]
+      } catch (err) {
+        return response
+          .status(400)
+          .json({ error: "Données invalides", details: (err as { messages?: unknown }).messages })
       }
 
-      // Vérifier que le transporteur existe
       const transporter = await db.query.transporters.findFirst({
         where: eq(transporters.transporterID, transporterId),
       })
@@ -97,9 +143,12 @@ export default class TransporterRulesController {
         return response.status(404).json({ error: "Transporteur introuvable" })
       }
 
-      // Transaction pour supprimer et recréer les nœuds et edges
+      logger.info(
+        { userId: authenticatedUser?.id, transporterId },
+        "[DASHBOARD]: Saving transporter flow",
+      )
+
       await db.transaction(async (tx) => {
-        // Supprimer les anciennes données
         await tx
           .delete(transporterFlowEdges)
           .where(eq(transporterFlowEdges.transporterID, transporterId))
@@ -107,10 +156,8 @@ export default class TransporterRulesController {
           .delete(transporterFlowNodes)
           .where(eq(transporterFlowNodes.transporterID, transporterId))
 
-        // Créer un mapping des IDs temporaires vers les nouveaux IDs
         const idMapping: Record<string, string> = {}
 
-        // Insérer les nouveaux nœuds
         if (nodes && nodes.length > 0) {
           const nodesToInsert = nodes.map((node) => {
             const newId = node.nodeID || uuidv7()
@@ -127,16 +174,28 @@ export default class TransporterRulesController {
           await tx.insert(transporterFlowNodes).values(nodesToInsert)
         }
 
-        // Insérer les nouvelles edges avec les IDs mappés
         if (edges && edges.length > 0) {
-          const edgesToInsert = edges.map((edge) => ({
-            edgeID: edge.edgeID || uuidv7(),
-            transporterID: transporterId,
-            sourceNodeID: idMapping[edge.sourceNodeID] || edge.sourceNodeID,
-            targetNodeID: idMapping[edge.targetNodeID] || edge.targetNodeID,
-            sourceHandle: edge.sourceHandle || null,
-            edgeLabel: edge.edgeLabel || null,
-          }))
+          const validNodeIds = new Set(Object.values(idMapping))
+          const edgesToInsert = edges.map((edge) => {
+            const sourceNodeID = idMapping[edge.sourceNodeID]
+            const targetNodeID = idMapping[edge.targetNodeID]
+
+            if (!sourceNodeID || !validNodeIds.has(sourceNodeID)) {
+              throw new Error(`Edge references non-existent source node: ${edge.sourceNodeID}`)
+            }
+            if (!targetNodeID || !validNodeIds.has(targetNodeID)) {
+              throw new Error(`Edge references non-existent target node: ${edge.targetNodeID}`)
+            }
+
+            return {
+              edgeID: edge.edgeID || uuidv7(),
+              transporterID: transporterId,
+              sourceNodeID,
+              targetNodeID,
+              sourceHandle: edge.sourceHandle || null,
+              edgeLabel: edge.edgeLabel || null,
+            }
+          })
           await tx.insert(transporterFlowEdges).values(edgesToInsert)
         }
       })
@@ -145,7 +204,9 @@ export default class TransporterRulesController {
         message: "Flow sauvegardé avec succès",
       })
     } catch (err) {
-      console.error("Cannot save transporter flow", err)
+      if (err instanceof Error && err.message.startsWith("Edge references")) {
+        return response.status(400).json({ error: err.message })
+      }
       logger.error({ err }, "[DASHBOARD]: Cannot save transporter flow")
       return response.status(500).json({ error: "Erreur interne du serveur" })
     }
@@ -155,26 +216,26 @@ export default class TransporterRulesController {
    * Save fee rules for a transporter
    * This will replace all existing rules
    */
-  async saveRules({ params, request, response }: HttpContext) {
+  async saveRules(ctx: HttpContext) {
+    const { params, request, response } = ctx
     try {
       const { transporterId } = params
-      const { rules } = request.body() as {
-        rules: Array<{
-          ruleID?: string
-          minAmount: number | null
-          maxAmount: number | null
-          isIndividual: boolean | null
-          originIsEU: boolean | null
-          fee: string
-          priority: number
-        }>
+      const authenticatedUser = getAuthenticatedUser(ctx)
+
+      if (!validateTransporterId(transporterId)) {
+        return response.status(400).json({ error: "ID du transporteur invalide (UUIDv7)" })
       }
 
-      if (!transporterId) {
-        return response.status(400).json({ error: "ID du transporteur requis" })
+      let rules: ValidatedFeeRule[]
+      try {
+        const parsed = await vine.validate({ schema: SaveRulesBodySchema, data: request.body() })
+        rules = parsed.rules as ValidatedFeeRule[]
+      } catch (err) {
+        return response
+          .status(400)
+          .json({ error: "Données invalides", details: (err as { messages?: unknown }).messages })
       }
 
-      // Vérifier que le transporteur existe
       const transporter = await db.query.transporters.findFirst({
         where: eq(transporters.transporterID, transporterId),
       })
@@ -183,14 +244,16 @@ export default class TransporterRulesController {
         return response.status(404).json({ error: "Transporteur introuvable" })
       }
 
-      // Transaction pour supprimer et recréer les règles
+      logger.info(
+        { userId: authenticatedUser?.id, transporterId },
+        "[DASHBOARD]: Saving transporter rules",
+      )
+
       await db.transaction(async (tx) => {
-        // Supprimer les anciennes règles
         await tx
           .delete(transporterFeeRules)
           .where(eq(transporterFeeRules.transporterID, transporterId))
 
-        // Insérer les nouvelles règles
         if (rules && rules.length > 0) {
           const rulesToInsert = rules.map((rule) => ({
             ruleID: rule.ruleID || uuidv7(),
@@ -210,7 +273,6 @@ export default class TransporterRulesController {
         message: "Règles sauvegardées avec succès",
       })
     } catch (err) {
-      console.error("Cannot save transporter rules", err)
       logger.error({ err }, "[DASHBOARD]: Cannot save transporter rules")
       return response.status(500).json({ error: "Erreur interne du serveur" })
     }
@@ -219,40 +281,30 @@ export default class TransporterRulesController {
   /**
    * Save both flow and rules at once (convenience method)
    */
-  async saveAll({ params, request, response }: HttpContext) {
+  async saveAll(ctx: HttpContext) {
+    const { params, request, response } = ctx
     try {
       const { transporterId } = params
-      const { nodes, edges, rules } = request.body() as {
-        nodes: Array<{
-          nodeID?: string
-          nodeType: string
-          positionX: number
-          positionY: number
-          nodeData: Record<string, unknown>
-        }>
-        edges: Array<{
-          edgeID?: string
-          sourceNodeID: string
-          targetNodeID: string
-          sourceHandle?: string
-          edgeLabel?: string
-        }>
-        rules: Array<{
-          ruleID?: string
-          minAmount: number | null
-          maxAmount: number | null
-          isIndividual: boolean | null
-          originIsEU: boolean | null
-          fee: string
-          priority: number
-        }>
+      const authenticatedUser = getAuthenticatedUser(ctx)
+
+      if (!validateTransporterId(transporterId)) {
+        return response.status(400).json({ error: "ID du transporteur invalide (UUIDv7)" })
       }
 
-      if (!transporterId) {
-        return response.status(400).json({ error: "ID du transporteur requis" })
+      let nodes: ValidatedFlowNode[]
+      let edges: ValidatedFlowEdge[]
+      let rules: ValidatedFeeRule[]
+      try {
+        const parsed = await vine.validate({ schema: SaveAllBodySchema, data: request.body() })
+        nodes = parsed.nodes as ValidatedFlowNode[]
+        edges = parsed.edges as ValidatedFlowEdge[]
+        rules = parsed.rules as ValidatedFeeRule[]
+      } catch (err) {
+        return response
+          .status(400)
+          .json({ error: "Données invalides", details: (err as { messages?: unknown }).messages })
       }
 
-      // Vérifier que le transporteur existe
       const transporter = await db.query.transporters.findFirst({
         where: eq(transporters.transporterID, transporterId),
       })
@@ -261,9 +313,12 @@ export default class TransporterRulesController {
         return response.status(404).json({ error: "Transporteur introuvable" })
       }
 
-      // Transaction pour tout sauvegarder atomiquement
+      logger.info(
+        { userId: authenticatedUser?.id, transporterId },
+        "[DASHBOARD]: Saving transporter flow and rules",
+      )
+
       await db.transaction(async (tx) => {
-        // Supprimer les anciennes données
         await tx
           .delete(transporterFlowEdges)
           .where(eq(transporterFlowEdges.transporterID, transporterId))
@@ -274,10 +329,8 @@ export default class TransporterRulesController {
           .delete(transporterFeeRules)
           .where(eq(transporterFeeRules.transporterID, transporterId))
 
-        // Mapping des IDs
         const idMapping: Record<string, string> = {}
 
-        // Insérer les nœuds
         if (nodes && nodes.length > 0) {
           const nodesToInsert = nodes.map((node) => {
             const newId = node.nodeID || uuidv7()
@@ -294,20 +347,31 @@ export default class TransporterRulesController {
           await tx.insert(transporterFlowNodes).values(nodesToInsert)
         }
 
-        // Insérer les edges
         if (edges && edges.length > 0) {
-          const edgesToInsert = edges.map((edge) => ({
-            edgeID: edge.edgeID || uuidv7(),
-            transporterID: transporterId,
-            sourceNodeID: idMapping[edge.sourceNodeID] || edge.sourceNodeID,
-            targetNodeID: idMapping[edge.targetNodeID] || edge.targetNodeID,
-            sourceHandle: edge.sourceHandle || null,
-            edgeLabel: edge.edgeLabel || null,
-          }))
+          const validNodeIds = new Set(Object.values(idMapping))
+          const edgesToInsert = edges.map((edge) => {
+            const sourceNodeID = idMapping[edge.sourceNodeID]
+            const targetNodeID = idMapping[edge.targetNodeID]
+
+            if (!sourceNodeID || !validNodeIds.has(sourceNodeID)) {
+              throw new Error(`Edge references non-existent source node: ${edge.sourceNodeID}`)
+            }
+            if (!targetNodeID || !validNodeIds.has(targetNodeID)) {
+              throw new Error(`Edge references non-existent target node: ${edge.targetNodeID}`)
+            }
+
+            return {
+              edgeID: edge.edgeID || uuidv7(),
+              transporterID: transporterId,
+              sourceNodeID,
+              targetNodeID,
+              sourceHandle: edge.sourceHandle || null,
+              edgeLabel: edge.edgeLabel || null,
+            }
+          })
           await tx.insert(transporterFlowEdges).values(edgesToInsert)
         }
 
-        // Insérer les règles
         if (rules && rules.length > 0) {
           const rulesToInsert = rules.map((rule) => ({
             ruleID: rule.ruleID || uuidv7(),
@@ -327,7 +391,9 @@ export default class TransporterRulesController {
         message: "Flow et règles sauvegardés avec succès",
       })
     } catch (err) {
-      console.error("Cannot save transporter data", err)
+      if (err instanceof Error && err.message.startsWith("Edge references")) {
+        return response.status(400).json({ error: err.message })
+      }
       logger.error({ err }, "[DASHBOARD]: Cannot save transporter data")
       return response.status(500).json({ error: "Erreur interne du serveur" })
     }

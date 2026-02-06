@@ -14,12 +14,11 @@ import {
   type Node,
   type NodeTypes,
 } from "@xyflow/react"
-import { useTheme } from "next-themes"
-import { useCallback, useRef, type DragEvent } from "react"
+import { useCallback, useRef, useSyncExternalStore, type DragEvent } from "react"
 
 import { useRulesFlow } from "./hooks"
 import { ConditionNode, FeeNode, StartNode } from "./nodes"
-import { DragNodesSidebar, NodeEditor } from "./panels"
+import { RightSidePanel } from "./panels"
 
 import Button from "@/components/ui/Button"
 
@@ -29,12 +28,9 @@ import {
   FlowCanvas,
   FlowContainer,
   FlowHeader,
-  FlowInspector,
   FlowSubtitle,
   FlowTitle,
   FlowTitleWrap,
-  InspectorEmpty,
-  SidebarTitle,
 } from "./RulesFlow.styled"
 
 // Définir nodeTypes en dehors du composant pour éviter les re-renders
@@ -61,9 +57,13 @@ function RulesFlowInner({
 }: RulesFlowProps) {
   const reactFlowWrapper = useRef<HTMLDivElement>(null)
   const { screenToFlowPosition } = useReactFlow()
-  const { resolvedTheme } = useTheme()
 
-  const colorMode: ColorMode = resolvedTheme === "dark" ? "dark" : "light"
+  // Use 'light' during SSR, then switch to 'system' after hydration
+  const colorMode: ColorMode = useSyncExternalStore(
+    () => () => {},
+    () => "system",
+    () => "light",
+  )
 
   const {
     nodes,
@@ -107,7 +107,15 @@ function RulesFlowInner({
         y: event.clientY,
       })
 
-      const data = dataStr ? JSON.parse(dataStr) : {}
+      const data: Record<string, unknown> = dataStr
+        ? (() => {
+            try {
+              return JSON.parse(dataStr)
+            } catch {
+              return {}
+            }
+          })()
+        : {}
       addNodeAtPosition(type as "condition" | "fee", position, data)
     },
     [screenToFlowPosition, addNodeAtPosition],
@@ -128,7 +136,6 @@ function RulesFlowInner({
         </FlowActions>
       </FlowHeader>
       <FlowBody>
-        <DragNodesSidebar />
         <FlowCanvas ref={reactFlowWrapper as unknown as React.RefObject<HTMLDivElement>}>
           <ReactFlow
             nodes={nodes}
@@ -167,23 +174,12 @@ function RulesFlowInner({
           </ReactFlow>
         </FlowCanvas>
 
-        <FlowInspector>
-          {!selectedNode ? (
-            <>
-              <SidebarTitle>Inspector</SidebarTitle>
-              <InspectorEmpty>
-                Sélectionnez un nœud dans le canvas pour afficher ses paramètres.
-              </InspectorEmpty>
-            </>
-          ) : (
-            <NodeEditor
-              node={selectedNode}
-              onUpdate={updateNode}
-              onDelete={deleteNode}
-              onClose={() => setSelectedNode(null)}
-            />
-          )}
-        </FlowInspector>
+        <RightSidePanel
+          selectedNode={selectedNode}
+          onUpdateNode={updateNode}
+          onDeleteNode={deleteNode}
+          onCloseInspector={() => setSelectedNode(null)}
+        />
       </FlowBody>
     </FlowContainer>
   )
