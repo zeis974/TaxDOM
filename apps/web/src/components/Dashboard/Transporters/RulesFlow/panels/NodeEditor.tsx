@@ -1,18 +1,21 @@
 "use client"
 
-import { useState, useEffect, useId } from "react"
+import type { ConditionOperator, ConditionType } from "@taxdom/types"
 import type { Node } from "@xyflow/react"
-import type { ConditionType, ConditionOperator } from "@taxdom/types"
-import Button from "@/components/ui/Button"
-import {
-  NodeEditorPanel,
-  NodeEditorTitle,
-  NodeEditorField,
-  NodeEditorActions,
-  NodeEditorHelp,
-} from "../RulesFlow.styled"
+import { useEffect, useId, useState } from "react"
+import { toast } from "sonner"
+
 import type { ConditionNodeData } from "../nodes/ConditionNode"
 import type { FeeNodeData } from "../nodes/FeeNode"
+
+import Button from "@/components/ui/Button"
+import {
+  NodeEditorActions,
+  NodeEditorField,
+  NodeEditorHelp,
+  NodeEditorPanel,
+  NodeEditorTitle,
+} from "../RulesFlow.styled"
 
 interface NodeEditorProps {
   node: Node
@@ -35,6 +38,11 @@ const operatorOptions: { value: ConditionOperator; label: string }[] = [
   { value: "eq", label: "= (égal)" },
 ]
 
+function safeParseNumber(value: string, fallback = 0): number {
+  const parsed = Number(value)
+  return Number.isNaN(parsed) ? fallback : parsed
+}
+
 export default function NodeEditor({ node, onUpdate, onDelete, onClose }: NodeEditorProps) {
   const [localData, setLocalData] = useState<Record<string, unknown>>(
     node.data as Record<string, unknown>,
@@ -48,7 +56,7 @@ export default function NodeEditor({ node, onUpdate, onDelete, onClose }: NodeEd
 
   useEffect(() => {
     setLocalData(node.data as Record<string, unknown>)
-  }, [node])
+  }, [node.id])
 
   const handleChange = (key: string, value: unknown) => {
     const newData = { ...localData, [key]: value }
@@ -56,6 +64,36 @@ export default function NodeEditor({ node, onUpdate, onDelete, onClose }: NodeEd
   }
 
   const handleSave = () => {
+    if (node.type === "condition") {
+      const data = localData as ConditionNodeData
+      if (data.conditionType === "amount") {
+        if (!data.operator) {
+          toast.error("Veuillez sélectionner un opérateur")
+          return
+        }
+        if (data.value === undefined || data.value === null || Number.isNaN(data.value)) {
+          toast.error("Veuillez entrer une valeur numérique valide")
+          return
+        }
+        if (data.value < 0 || data.value > 1_000_000) {
+          toast.error("La valeur doit être comprise entre 0 et 1 000 000")
+          return
+        }
+      }
+    }
+
+    if (node.type === "fee") {
+      const data = localData as FeeNodeData
+      if (data.fee === undefined || data.fee === null || Number.isNaN(data.fee)) {
+        toast.error("Veuillez entrer un montant de frais valide")
+        return
+      }
+      if (data.fee < 0 || data.fee > 10_000) {
+        toast.error("Les frais doivent être compris entre 0 et 10 000")
+        return
+      }
+    }
+
     onUpdate(node.id, localData)
     onClose()
   }
@@ -109,8 +147,9 @@ export default function NodeEditor({ node, onUpdate, onDelete, onClose }: NodeEd
                 id={valueId}
                 type="number"
                 value={(data.value as number) || 0}
-                onChange={(e) => handleChange("value", Number(e.target.value))}
+                onChange={(e) => handleChange("value", safeParseNumber(e.target.value))}
                 min={0}
+                max={1_000_000}
               />
             </NodeEditorField>
           </>
@@ -140,8 +179,9 @@ export default function NodeEditor({ node, onUpdate, onDelete, onClose }: NodeEd
             id={feeId}
             type="number"
             value={data.fee || 0}
-            onChange={(e) => handleChange("fee", Number(e.target.value))}
+            onChange={(e) => handleChange("fee", safeParseNumber(e.target.value))}
             min={0}
+            max={10_000}
             step={0.01}
           />
         </NodeEditorField>
@@ -163,11 +203,11 @@ export default function NodeEditor({ node, onUpdate, onDelete, onClose }: NodeEd
   const getNodeTypeLabel = () => {
     switch (node.type) {
       case "start":
-        return "🟢 Nœud de départ"
+        return "Nœud de départ"
       case "condition":
-        return "🔵 Condition"
+        return "Condition"
       case "fee":
-        return "🟠 Frais"
+        return "Frais"
       default:
         return "Nœud"
     }

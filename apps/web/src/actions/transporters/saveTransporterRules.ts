@@ -1,35 +1,16 @@
 "use server"
 
+import type { TransporterFeeRule, TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import { revalidateTag } from "next/cache"
 import { cookies } from "next/headers"
 import { z } from "zod"
 
 const transporterIdSchema = z.uuidv7("ID du transporteur invalide")
 
-type FlowNode = {
-  nodeID: string
-  nodeType: string
-  positionX: number
-  positionY: number
-  nodeData: Record<string, unknown>
-}
-
-type FlowEdge = {
-  edgeID: string
-  sourceNodeID: string
-  targetNodeID: string
-  sourceHandle?: string | null
-  edgeLabel?: string | null
-}
-
-type FeeRule = {
+type FlowNode = Omit<TransporterFlowNode, "transporterID">
+type FlowEdge = Omit<TransporterFlowEdge, "transporterID">
+type FeeRule = Omit<TransporterFeeRule, "transporterID" | "ruleID" | "createdAt" | "updatedAt"> & {
   ruleID?: string
-  minAmount: number | null
-  maxAmount: number | null
-  isIndividual: boolean | null
-  originIsEU: boolean | null
-  fee: string
-  priority: number
 }
 
 export type SaveTransporterRulesInput = {

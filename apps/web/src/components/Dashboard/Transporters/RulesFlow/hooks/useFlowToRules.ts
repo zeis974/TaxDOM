@@ -16,12 +16,12 @@ interface FeeNodeData {
   label?: string
 }
 
-// Type pour les conditions accumulées pendant le parcours (utilisé en interne)
-type AccumulatedConditions = {
-  minAmount: number | null
-  maxAmount: number | null
-  isIndividual: boolean | null
-  originIsEU: boolean | null
+function isConditionNodeData(data: Record<string, unknown>): data is ConditionNodeData {
+  return typeof data === "object" && data !== null && "conditionType" in data
+}
+
+function isFeeNodeData(data: Record<string, unknown>): data is FeeNodeData {
+  return typeof data === "object" && data !== null && "fee" in data
 }
 
 // Type pour les erreurs de validation du flow
@@ -60,9 +60,10 @@ export function validateFlow(nodes: Node[], edges: Edge[]): FlowValidationResult
   }
 
   // Vérifier les nœuds orphelins (sans connexion entrante, sauf start)
+  const edgeTargets = new Set(edges.map((e) => e.target))
   const orphanedNodes = nodes.filter((n) => {
     if (n.type === "start") return false
-    return !edges.some((e) => e.target === n.id)
+    return !edgeTargets.has(n.id)
   })
 
   for (const node of orphanedNodes) {
@@ -109,13 +110,14 @@ export function validateFlow(nodes: Node[], edges: Edge[]): FlowValidationResult
   // Vérifier les conditions de type "amount" ont bien operator et value
   const conditionNodes = nodes.filter((n) => n.type === "condition")
   for (const node of conditionNodes) {
-    const data = node.data as unknown as ConditionNodeData
-    if (data.conditionType === "amount") {
-      if (!data.operator || data.value === undefined) {
+    const rawData = node.data as Record<string, unknown>
+    if (!isConditionNodeData(rawData)) continue
+    if (rawData.conditionType === "amount") {
+      if (!rawData.operator || rawData.value === undefined) {
         errors.push({
           type: "invalid_condition",
           nodeId: node.id,
-          message: `La condition "${data.label || node.id}" de type montant nécessite un opérateur et une valeur`,
+          message: `La condition "${rawData.label || node.id}" de type montant nécessite un opérateur et une valeur`,
         })
       }
     }
@@ -158,18 +160,20 @@ export function flowToRules(
 
     if (node.type === "fee") {
       // On a atteint un nœud de frais, créer une règle
-      const feeData = node.data as unknown as FeeNodeData
+      const rawData = node.data as Record<string, unknown>
+      if (!isFeeNodeData(rawData)) return
       rules.push({
         transporterID,
         ...conditions,
-        fee: String(feeData.fee || 0),
+        fee: String(rawData.fee || 0),
         priority: 100 - depth, // Plus le chemin est court, plus la priorité est haute
       })
       return
     }
 
     if (node.type === "condition") {
-      const condData = node.data as unknown as ConditionNodeData
+      const rawData = node.data as Record<string, unknown>
+      if (!isConditionNodeData(rawData)) return
 
       // Trouver les edges sortantes
       const yesEdge = edges.find((e) => e.source === nodeId && e.sourceHandle === "yes")
@@ -178,14 +182,14 @@ export function flowToRules(
       // Branche "Oui"
       if (yesEdge) {
         const yesConditions = { ...conditions }
-        applyCondition(yesConditions, condData, true)
+        applyCondition(yesConditions, rawData, true)
         traverse(yesEdge.target, yesConditions, depth + 1)
       }
 
       // Branche "Non"
       if (noEdge) {
         const noConditions = { ...conditions }
-        applyCondition(noConditions, condData, false)
+        applyCondition(noConditions, rawData, false)
         traverse(noEdge.target, noConditions, depth + 1)
       }
     }
