@@ -1,17 +1,13 @@
 "use client"
 
 import { useActionState, useEffect, useId, useMemo, useState, useCallback } from "react"
+import { useRouter } from "next/navigation"
 import { Drawer } from "vaul"
-import type { Transporter, TransporterFlowNode, TransporterFlowEdge } from "@taxdom/types"
-import type { Node, Edge } from "@xyflow/react"
+import type { Transporter } from "@taxdom/types"
 import Button from "@/components/ui/Button"
 import { updateTransporter } from "@/actions/transporters/updateTransporter"
 import { deleteTransporter } from "@/actions/transporters/deleteTransporter"
-import { getTransporterRules } from "@/actions/transporters/getTransporterRules"
-import { saveTransporterRules } from "@/actions/transporters/saveTransporterRules"
 import { useResettableTimeout } from "@/hooks/useResettableTimeout"
-import RulesFlowModal from "../RulesFlow/RulesFlowModal"
-import { flowToRules } from "../RulesFlow/hooks"
 import {
   Card,
   ClickableCard,
@@ -55,6 +51,7 @@ type Props = {
 }
 
 export default function TransporterCard({ transporter, onClick, editable = false }: Props) {
+  const router = useRouter()
   const [open, setOpen] = useState(false)
   const [isEditing, setIsEditing] = useState(false)
   const [didCopyTransporterId, setDidCopyTransporterId] = useState(false)
@@ -67,10 +64,6 @@ export default function TransporterCard({ transporter, onClick, editable = false
   const [isAvailable, setIsAvailable] = useState(transporter.available)
   const [deleteError, setDeleteError] = useState<string | null>(null)
   const [isDeleting, setIsDeleting] = useState(false)
-  const [showRulesModal, setShowRulesModal] = useState(false)
-  const [rulesLoading, setRulesLoading] = useState(false)
-  const [flowNodes, setFlowNodes] = useState<TransporterFlowNode[]>([])
-  const [flowEdges, setFlowEdges] = useState<TransporterFlowEdge[]>([])
 
   const transporterNameId = useId()
 
@@ -103,61 +96,9 @@ export default function TransporterCard({ transporter, onClick, editable = false
     }, 3000)
   }
 
-  const handleOpenRulesModal = useCallback(async () => {
-    setRulesLoading(true)
-    try {
-      const result = await getTransporterRules(transporter.transporterID)
-      if (result.success && result.data) {
-        setFlowNodes(result.data.flowNodes)
-        setFlowEdges(result.data.flowEdges)
-      }
-      setShowRulesModal(true)
-    } catch (err) {
-      console.error("Error loading rules:", err)
-    } finally {
-      setRulesLoading(false)
-    }
-  }, [transporter.transporterID])
-
-  const handleSaveRules = useCallback(
-    async (nodes: Node[], edges: Edge[]) => {
-      // Convertir les nœuds React Flow vers le format BDD
-      const dbNodes = nodes.map((node) => ({
-        nodeID: node.id,
-        nodeType: node.type || "start",
-        positionX: Math.round(node.position.x),
-        positionY: Math.round(node.position.y),
-        nodeData: node.data as Record<string, unknown>,
-      }))
-
-      const dbEdges = edges.map((edge) => ({
-        edgeID: edge.id,
-        sourceNodeID: edge.source,
-        targetNodeID: edge.target,
-        sourceHandle: edge.sourceHandle || null,
-        edgeLabel: (edge.label as string) || null,
-      }))
-
-      // Générer les règles à partir du flow
-      const rules = flowToRules(nodes, edges, transporter.transporterID)
-      const dbRules = rules.map((rule) => ({
-        ...rule,
-        fee: rule.fee,
-      }))
-
-      const result = await saveTransporterRules({
-        transporterID: transporter.transporterID,
-        nodes: dbNodes,
-        edges: dbEdges,
-        rules: dbRules,
-      })
-
-      if (!result.success) {
-        console.error("Error saving rules:", result.error)
-      }
-    },
-    [transporter.transporterID],
-  )
+  const handleOpenRulesEditor = useCallback(() => {
+    router.push(`/dashboard/transporters/editors/${transporter.transporterID}`)
+  }, [router, transporter.transporterID])
 
   const handleCardClick = useCallback(() => {
     onClick?.()
@@ -401,11 +342,10 @@ export default function TransporterCard({ transporter, onClick, editable = false
                   <Button
                     type="button"
                     variant="secondary"
-                    onClick={handleOpenRulesModal}
-                    disabled={rulesLoading}
+                    onClick={handleOpenRulesEditor}
                     style={{ marginTop: "8px" }}
                   >
-                    {rulesLoading ? "Chargement..." : "⚙️ Configurer les règles"}
+                    ⚙️ Configurer les règles
                   </Button>
                 </DrawerSection>
               </DrawerBody>
@@ -431,16 +371,6 @@ export default function TransporterCard({ transporter, onClick, editable = false
           </DrawerContent>
         </Drawer.Content>
       </Drawer.Portal>
-
-      <RulesFlowModal
-        isOpen={showRulesModal}
-        onClose={() => setShowRulesModal(false)}
-        transporterID={transporter.transporterID}
-        transporterName={transporter.transporterName}
-        initialNodes={flowNodes}
-        initialEdges={flowEdges}
-        onSave={handleSaveRules}
-      />
     </Drawer.Root>
   )
 }

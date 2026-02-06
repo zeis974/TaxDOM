@@ -54,106 +54,6 @@ export const FlowBody = styled.div`
   overflow: hidden;
 `
 
-export const FlowSidebar = styled.aside`
-  width: 280px;
-  background: token(colors.secondaryBackground);
-  border-right: 1px solid token(colors.darkGray);
-  padding: 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  overflow: auto;
-`
-
-export const FlowInspector = styled.aside`
-  width: 340px;
-  background: token(colors.secondaryBackground);
-  border-left: 1px solid token(colors.darkGray);
-  padding: 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  overflow: auto;
-`
-
-export const InspectorEmpty = styled.div`
-  padding: 12px;
-  border: 1px dashed token(colors.darkGray);
-  border-radius: 10px;
-  background: token(colors.background);
-  color: token(colors.darkGray);
-  font-size: 13px;
-  font-family: token(fonts.nativeFont);
-`
-
-export const SidebarTitle = styled.div`
-  font-size: 12px;
-  font-weight: 700;
-  color: token(colors.darkGray);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-family: token(fonts.nativeFont);
-`
-
-export const SidebarCard = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px;
-  background: token(colors.background);
-  border: 1px solid token(colors.darkGray);
-  border-radius: 10px;
-  cursor: grab;
-  transition: all 150ms ease;
-  user-select: none;
-
-  &:hover {
-    border-color: token(colors.primary);
-    box-shadow: 0 18px 32px rgba(15, 23, 42, 0.12);
-  }
-
-  &:active {
-    cursor: grabbing;
-  }
-`
-
-export const SidebarIcon = styled.span`
-  font-size: 22px;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-`
-
-export const SidebarText = styled.div`
-  flex: 1;
-  min-width: 0;
-`
-
-export const SidebarCardTitle = styled.div`
-  font-weight: 700;
-  font-size: 14px;
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
-`
-
-export const SidebarCardDesc = styled.div`
-  font-size: 12px;
-  color: token(colors.darkGray);
-  margin-top: 2px;
-  font-family: token(fonts.nativeFont);
-`
-
-export const SidebarHint = styled.div`
-  margin-top: auto;
-  padding: 12px;
-  background: token(colors.tertiaryBackground);
-  border: 1px solid token(colors.darkGray);
-  border-radius: 10px;
-  font-size: 12px;
-  color: token(colors.darkGray);
-  font-family: token(fonts.nativeFont);
-`
-
 export const FlowCanvas = styled.div`
   flex: 1;
   position: relative;
@@ -241,9 +141,14 @@ export const NodeValue = styled.div`
 `
 
 export const NodeIcon = styled.span`
-  font-size: 18px;
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
 `
 
 export const NodeBadge = styled.span`
@@ -316,53 +221,6 @@ export const ToolbarButton = styled.button`
   &.delete:hover {
     background: #ef4444;
     color: white;
-  }
-`
-
-export const AddNodePanel = styled.div`
-  position: absolute;
-  top: 70px;
-  right: 16px;
-  background: token(colors.background);
-  border: 1px solid token(colors.darkGray);
-  border-radius: 8px;
-  padding: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  min-width: 200px;
-`
-
-export const AddNodeTitle = styled.h4`
-  margin: 0 0 12px 0;
-  font-size: 14px;
-  font-weight: 600;
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
-`
-
-export const AddNodeButton = styled.button`
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-  padding: 10px 12px;
-  margin-bottom: 8px;
-  border: 1px solid token(colors.darkGray);
-  border-radius: 6px;
-  background: token(colors.background);
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
-  font-size: 13px;
-  cursor: pointer;
-  transition: all 0.2s;
-
-  &:hover {
-    background: token(colors.secondaryBackground);
-    border-color: token(colors.primary);
-  }
-
-  &:last-child {
-    margin-bottom: 0;
   }
 `
 

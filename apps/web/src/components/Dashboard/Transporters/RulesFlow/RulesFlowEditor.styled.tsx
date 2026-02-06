@@ -12,7 +12,7 @@ export const PageHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 20px;
+  padding: 0 20px 12px;
   border-bottom: 1px solid token(colors.darkGray);
   background: token(colors.background);
   flex-shrink: 0;
@@ -85,28 +85,31 @@ export const HeaderButton = styled.button`
 export const PublishButton = styled.button`
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 8px;
-  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
-  font-size: 13px;
-  font-weight: 600;
-  color: white;
+  gap: 8px;
+  padding: 10px 16px;
+  background: token(colors.tertiaryBackground);
+  font-weight: 500;
+  border: 1px solid token(colors.darkGray);
   cursor: pointer;
-  transition: all 0.15s ease;
+  border-radius: 8px;
+  color: token(colors.primary);
   font-family: token(fonts.nativeFont);
+  font-size: 14px;
+  transition: all 150ms ease;
 
-  &:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+  &:hover:not(:disabled) {
+    background: token(colors.secondaryBackground);
+    border-color: token(colors.primary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
   }
 
   &:disabled {
-    opacity: 0.6;
+    opacity: 0.5;
     cursor: not-allowed;
-    transform: none;
-    box-shadow: none;
   }
 
   svg {
@@ -153,31 +156,6 @@ export const FlowCanvas = styled.div`
   flex: 1;
   height: 100%;
   position: relative;
-`
-
-export const AddNodeButton = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
-  border: none;
-  border-radius: 12px;
-  color: white;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4);
-  }
-
-  svg {
-    width: 24px;
-    height: 24px;
-  }
 `
 
 /* Right Panel - Add Node */
@@ -232,37 +210,60 @@ export const CloseButton = styled.button`
 
 export const TabsContainer = styled.div`
   display: flex;
-  padding: 0 16px;
-  gap: 4px;
-  border-bottom: 1px solid token(colors.darkGray);
+  padding: 4px;
+  gap: 0;
+  background: token(colors.secondaryBackground);
+  border-radius: 10px;
+  margin: 12px 16px;
+  position: relative;
+  border: 1px solid token(colors.darkGray);
+`
+
+export const TabIndicator = styled.div`
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  height: calc(100% - 8px);
+  background: token(colors.background);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+
+  &[data-active="inspector"] {
+    transform: translateX(100%);
+  }
 `
 
 export const Tab = styled.button`
   flex: 1;
-  padding: 10px 12px;
+  padding: 10px 16px;
   border: none;
   background: transparent;
   font-size: 13px;
   font-weight: 500;
   color: token(colors.darkGray);
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: color 0.2s ease, font-weight 0.2s ease;
   font-family: token(fonts.nativeFont);
-  border-bottom: 2px solid transparent;
-  margin-bottom: -1px;
+  position: relative;
+  z-index: 1;
+  border-radius: 8px;
 
-  &:hover {
+  &:hover:not([data-active="true"]) {
     color: token(colors.primary);
   }
 
   &[data-active="true"] {
     color: token(colors.primary);
-    border-bottom-color: #3498db;
+    font-weight: 600;
   }
 `
 
 export const SearchContainer = styled.div`
   padding: 12px 16px;
+  border-bottom: 1px solid token(colors.darkGray);
 `
 
 export const SearchInput = styled.div`
@@ -302,18 +303,26 @@ export const SearchInput = styled.div`
   }
 `
 
+export const TabContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+`
+
 export const NodesList = styled.div`
   flex: 1;
   overflow-y: auto;
-  padding: 0 16px 16px;
+  padding: 0;
 `
 
 export const NodesSection = styled.div`
-  margin-bottom: 20px;
+  margin: 0;
 `
 
 export const NodesSectionTitle = styled.h3`
-  margin: 0 0 10px;
+  margin: 0;
+  padding: 12px 16px;
   font-size: 11px;
   font-weight: 600;
   color: token(colors.darkGray);
@@ -326,26 +335,19 @@ export const NodeCard = styled.div`
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 12px;
+  padding: 14px 16px;
   background: token(colors.background);
-  border: 1px solid token(colors.darkGray);
-  border-radius: 12px;
+  border-bottom: 1px solid token(colors.darkGray);
   cursor: grab;
   transition: all 0.15s ease;
-  margin-bottom: 8px;
   user-select: none;
 
   &:hover {
-    border-color: #3498db;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    background: token(colors.secondaryBackground);
   }
 
   &:active {
     cursor: grabbing;
-  }
-
-  &:last-child {
-    margin-bottom: 0;
   }
 `
 
@@ -356,8 +358,12 @@ export const NodeIconWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
   flex-shrink: 0;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
 `
 
 export const NodeInfo = styled.div`
@@ -378,52 +384,4 @@ export const NodeCardDesc = styled.div`
   color: token(colors.darkGray);
   font-family: token(fonts.nativeFont);
   line-height: 1.3;
-`
-
-export const SelectButton = styled.button`
-  padding: 6px 12px;
-  border: 1px solid token(colors.darkGray);
-  border-radius: 6px;
-  background: token(colors.background);
-  font-size: 12px;
-  font-weight: 500;
-  color: token(colors.primary);
-  cursor: pointer;
-  transition: all 0.15s ease;
-  font-family: token(fonts.nativeFont);
-
-  &:hover {
-    background: token(colors.secondaryBackground);
-    border-color: #3498db;
-  }
-`
-
-/* Inspector styles */
-export const InspectorEmpty = styled.div`
-  padding: 16px;
-  text-align: center;
-  color: token(colors.darkGray);
-  font-size: 13px;
-  font-family: token(fonts.nativeFont);
-`
-
-export const SidebarTitle = styled.div`
-  font-size: 12px;
-  font-weight: 700;
-  color: token(colors.darkGray);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-family: token(fonts.nativeFont);
-  padding: 16px 16px 8px;
-`
-
-export const FlowInspector = styled.aside`
-  width: 340px;
-  background: token(colors.secondaryBackground);
-  border-left: 1px solid token(colors.darkGray);
-  padding: 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  overflow: auto;
 `
