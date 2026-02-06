@@ -1,29 +1,27 @@
 "use client"
 
-import { useCallback, useState, useMemo } from "react"
+import type { FlowNodeData, TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import {
-  useNodesState,
-  useEdgesState,
   addEdge,
-  type Node,
-  type Edge,
+  useEdgesState,
+  useNodesState,
   type Connection,
-  type OnNodesChange,
+  type Edge,
+  type Node,
   type OnEdgesChange,
+  type OnNodesChange,
 } from "@xyflow/react"
-import type { TransporterFlowNode, TransporterFlowEdge, FlowNodeData } from "@taxdom/types"
+import { useCallback, useMemo, useRef, useState } from "react"
+
 import { getDefaultFlow } from "../defaultFlows"
 
-// Types internes pour améliorer la lisibilité
 type FlowPosition = { x: number; y: number }
 type NodeType = "condition" | "fee"
 
-// Constantes pour les positions par défaut
 const DEFAULT_NODE_OFFSET_Y = 150
 const DEFAULT_START_X = 250
 const DEFAULT_START_Y = 150
 
-// Convertir les données de la BDD vers le format React Flow
 export function dbNodesToFlowNodes(dbNodes: TransporterFlowNode[]): Node[] {
   return dbNodes.map((node) => ({
     id: node.nodeID,
@@ -44,7 +42,6 @@ export function dbEdgesToFlowEdges(dbEdges: TransporterFlowEdge[]): Edge[] {
   }))
 }
 
-// Convertir les données React Flow vers le format BDD
 export function flowNodesToDbNodes(
   nodes: Node[],
   transporterID: string,
@@ -79,16 +76,6 @@ interface UseRulesFlowOptions {
   onSave?: (nodes: Node[], edges: Edge[]) => Promise<void>
 }
 
-/**
- * Génère un ID unique pour un nouveau nœud
- */
-function generateNodeId(type: NodeType): string {
-  return `${type}-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`
-}
-
-/**
- * Calcule la position d'un nouveau nœud basé sur le dernier nœud existant
- */
 function calculateNewNodePosition(nodes: Node[]): FlowPosition {
   const lastNode = nodes[nodes.length - 1]
   return {
@@ -97,9 +84,6 @@ function calculateNewNodePosition(nodes: Node[]): FlowPosition {
   }
 }
 
-/**
- * Valide qu'un nœud peut être supprimé
- */
 function canDeleteNode(nodeId: string): boolean {
   return nodeId !== "start"
 }
@@ -111,8 +95,13 @@ export function useRulesFlow({
   initialEdges = [],
   onSave,
 }: UseRulesFlowOptions) {
-  // Convertir les données initiales ou utiliser le flow par défaut du transporteur
+  const nodeIdCounterRef = useRef(0)
   const defaultFlow = useMemo(() => getDefaultFlow(transporterName), [transporterName])
+
+  const generateNodeId = useCallback((type: NodeType): string => {
+    nodeIdCounterRef.current += 1
+    return `${type}-${Date.now()}-${nodeIdCounterRef.current}-${Math.random().toString(36).substring(2, 9)}`
+  }, [])
 
   const startNodes = useMemo(
     () => (initialNodes.length > 0 ? dbNodesToFlowNodes(initialNodes) : defaultFlow.nodes),
@@ -131,20 +120,18 @@ export function useRulesFlow({
   const [isDirty, setIsDirty] = useState(false)
   const [isSaving, setIsSaving] = useState(false)
 
-  // Calculer les IDs des nœuds orphelins (memoized)
   const orphanedNodeIds = useMemo(() => {
+    const edgeTargets = new Set(edges.map((e) => e.target))
     const ids = new Set<string>()
     for (const node of nodes) {
       if (node.type === "start") continue
-      const hasIncomingEdge = edges.some((e) => e.target === node.id)
-      if (!hasIncomingEdge) {
+      if (!edgeTargets.has(node.id)) {
         ids.add(node.id)
       }
     }
     return ids
   }, [nodes, edges])
 
-  // Statistiques du flow (memoized)
   const flowStats = useMemo(() => {
     const conditionNodes = nodes.filter((n) => n.type === "condition")
     const feeNodes = nodes.filter((n) => n.type === "fee")
@@ -159,10 +146,8 @@ export function useRulesFlow({
     }
   }, [nodes, orphanedNodeIds])
 
-  // Gérer les connexions avec validation
   const onConnect = useCallback(
     (connection: Connection) => {
-      // Vérifier si cette connexion existe déjà
       const existingEdge = edges.find(
         (e) =>
           e.source === connection.source &&
@@ -177,11 +162,9 @@ export function useRulesFlow({
     [setEdges, edges],
   )
 
-  // Wrapper pour marquer comme modifié
   const handleNodesChange: OnNodesChange = useCallback(
     (changes) => {
       onNodesChange(changes)
-      // Marquer comme dirty seulement pour les vrais changements (pas les sélections)
       const hasRealChange = changes.some(
         (c) => c.type === "position" || c.type === "remove" || c.type === "add",
       )
@@ -195,8 +178,9 @@ export function useRulesFlow({
   const handleEdgesChange: OnEdgesChange = useCallback(
     (changes) => {
       onEdgesChange(changes)
-      // Ne pas marquer dirty pour les suppressions liées aux suppressions de nodes
-      const hasRealChange = changes.some((c) => c.type !== "remove")
+      const hasRealChange = changes.some(
+        (c) => c.type === "add" || c.type === "remove" || c.type === "replace",
+      )
       if (hasRealChange) {
         setIsDirty(true)
       }
@@ -204,7 +188,6 @@ export function useRulesFlow({
     [onEdgesChange],
   )
 
-  // Ajouter un nœud avec ID unique garanti
   const addNode = useCallback(
     (type: NodeType, data?: Record<string, unknown>) => {
       const newId = generateNodeId(type)
@@ -217,12 +200,11 @@ export function useRulesFlow({
       }
       setNodes((nds) => [...nds, newNode])
       setIsDirty(true)
-      return newId // Retourne l'ID pour une utilisation potentielle
+      return newId
     },
     [nodes, setNodes],
   )
 
-  // Ajouter un nœud à une position spécifique (pour le drag & drop)
   const addNodeAtPosition = useCallback(
     (type: NodeType, position: FlowPosition, data?: Record<string, unknown>) => {
       const newId = generateNodeId(type)
@@ -239,22 +221,27 @@ export function useRulesFlow({
     [setNodes],
   )
 
-  // Mettre à jour un nœud avec validation
   const updateNode = useCallback(
     (nodeId: string, data: Record<string, unknown>) => {
-      const existingNode = nodes.find((n) => n.id === nodeId)
-      if (!existingNode) {
+      let found = false
+      setNodes((nds) => {
+        const nodeExists = nds.some((n) => n.id === nodeId)
+        if (!nodeExists) {
+          return nds
+        }
+        found = true
+        return nds.map((node) => (node.id === nodeId ? { ...node, data } : node))
+      })
+      if (!found) {
         console.warn(`Node with id ${nodeId} not found`)
         return false
       }
-      setNodes((nds) => nds.map((node) => (node.id === nodeId ? { ...node, data } : node)))
       setIsDirty(true)
       return true
     },
-    [setNodes, nodes],
+    [setNodes],
   )
 
-  // Supprimer un nœud avec nettoyage des edges
   const deleteNode = useCallback(
     (nodeId: string) => {
       if (!canDeleteNode(nodeId)) {
@@ -270,7 +257,6 @@ export function useRulesFlow({
     [setNodes, setEdges],
   )
 
-  // Dupliquer un nœud
   const duplicateNode = useCallback(
     (nodeId: string) => {
       const nodeToDuplicate = nodes.find((n) => n.id === nodeId)
@@ -292,52 +278,43 @@ export function useRulesFlow({
     [nodes, setNodes],
   )
 
-  // Nettoyer les nœuds orphelins (non connectés)
   const cleanOrphanedNodes = useCallback(() => {
-    const orphanedIds = nodes
-      .filter((n) => {
-        if (n.type === "start") return false
-        return !edges.some((e) => e.target === n.id)
-      })
-      .map((n) => n.id)
+    if (orphanedNodeIds.size === 0) return 0
 
-    if (orphanedIds.length === 0) return 0
-
-    setNodes((nds) => nds.filter((n) => !orphanedIds.includes(n.id)))
-    setEdges((eds) => eds.filter((e) => !orphanedIds.includes(e.source)))
+    const orphanedIdsArray = Array.from(orphanedNodeIds)
+    setNodes((nds) => nds.filter((n) => !orphanedNodeIds.has(n.id)))
+    setEdges((eds) => eds.filter((e) => !orphanedNodeIds.has(e.source)))
     setIsDirty(true)
-    return orphanedIds.length
-  }, [nodes, edges, setNodes, setEdges])
+    return orphanedIdsArray.length
+  }, [orphanedNodeIds, setNodes, setEdges])
 
-  // Sauvegarder avec état de chargement
-  const handleSave = useCallback(async () => {
-    if (!onSave || isSaving) return false
+  const handleSave = useCallback(async (): Promise<{ success: boolean; error?: Error }> => {
+    if (!onSave) return { success: false, error: new Error("No save handler provided") }
+    if (isSaving) return { success: false, error: new Error("Save already in progress") }
 
     setIsSaving(true)
     try {
       await onSave(nodes, edges)
       setIsDirty(false)
-      return true
+      return { success: true }
     } catch (error) {
-      console.error("Error saving flow:", error)
-      return false
+      const err = error instanceof Error ? error : new Error("Unknown error saving flow")
+      console.error("Error saving flow:", err)
+      return { success: false, error: err }
     } finally {
       setIsSaving(false)
     }
   }, [nodes, edges, onSave, isSaving])
 
-  // Gérer le clic sur un nœud
   const onNodeClick = useCallback((_event: React.MouseEvent, node: Node) => {
     setSelectedNode(node)
     setShowAddPanel(false)
   }, [])
 
-  // Gérer le clic sur le fond (désélectionner)
   const onPaneClick = useCallback(() => {
     setSelectedNode(null)
   }, [])
 
-  // Réinitialiser au flow par défaut
   const resetToDefault = useCallback(() => {
     setNodes(defaultFlow.nodes)
     setEdges(defaultFlow.edges)
@@ -346,7 +323,6 @@ export function useRulesFlow({
   }, [defaultFlow, setNodes, setEdges])
 
   return {
-    // État
     nodes,
     edges,
     selectedNode,
@@ -354,38 +330,25 @@ export function useRulesFlow({
     isDirty,
     isSaving,
     flowStats,
-
-    // Setters
     setSelectedNode,
     setShowAddPanel,
-
-    // Handlers pour React Flow
     onNodesChange: handleNodesChange,
     onEdgesChange: handleEdgesChange,
     onConnect,
     onNodeClick,
     onPaneClick,
-
-    // Actions sur les nodes
     addNode,
     addNodeAtPosition,
     updateNode,
     deleteNode,
     duplicateNode,
-
-    // Actions globales
     handleSave,
     resetToDefault,
     cleanOrphanedNodes,
-
-    // Meta
     transporterID,
   }
 }
 
-/**
- * Fonction utilitaire pour créer un flow par défaut vide
- */
 export function createDefaultFlow(): { nodes: Node[]; edges: Edge[] } {
   return {
     nodes: [

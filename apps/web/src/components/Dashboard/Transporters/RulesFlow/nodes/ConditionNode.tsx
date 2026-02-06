@@ -1,5 +1,6 @@
 "use client"
 
+import { memo, type ReactNode } from "react"
 import { Handle, Position, type NodeProps, type Node } from "@xyflow/react"
 import type { ConditionType, ConditionOperator } from "@taxdom/types"
 import {
@@ -20,10 +21,52 @@ export type ConditionNodeData = {
 
 export type ConditionNodeType = Node<ConditionNodeData, "condition">
 
-const conditionConfig: Record<ConditionType, { label: string; icon: string }> = {
-  eu: { label: "Origine UE ?", icon: "🇪🇺" },
-  individual: { label: "Particulier ?", icon: "👤" },
-  amount: { label: "Montant", icon: "💰" },
+const conditionIcons: Record<ConditionType, ReactNode> = {
+  eu: (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="12" r="10" />
+      <path d="M2 12h20" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>
+  ),
+  individual: (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="8" r="4" />
+      <path d="M20 21a8 8 0 1 0-16 0" />
+    </svg>
+  ),
+  amount: (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+    </svg>
+  ),
+}
+
+const conditionConfig: Record<ConditionType, { label: string; color: string }> = {
+  eu: { label: "Origine UE ?", color: "#3b82f6" },
+  individual: { label: "Particulier ?", color: "#3498db" },
+  amount: { label: "Montant", color: "#06b6d4" },
 }
 
 const operatorLabels: Record<ConditionOperator, string> = {
@@ -34,9 +77,10 @@ const operatorLabels: Record<ConditionOperator, string> = {
   eq: "=",
 }
 
-export default function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
+function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
   const conditionType = data.conditionType || "eu"
   const config = conditionConfig[conditionType]
+  const icon = conditionIcons[conditionType]
   const isOrphaned = data.isOrphaned ?? false
 
   const getConditionDisplay = () => {
@@ -46,8 +90,13 @@ export default function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
     return ""
   }
 
+  const ariaLabel =
+    conditionType === "amount"
+      ? `Condition: ${config.label} ${getConditionDisplay()}`
+      : `Condition: ${data.label || config.label}`
+
   return (
-    <ConditionNodeContainer data-orphaned={isOrphaned}>
+    <ConditionNodeContainer data-orphaned={isOrphaned} role="treeitem" aria-label={ariaLabel}>
       <Handle
         type="target"
         position={Position.Top}
@@ -60,12 +109,13 @@ export default function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
       />
 
       <NodeLabel>
-        <NodeIcon>{config.icon}</NodeIcon>
+        <NodeIcon style={{ color: config.color }}>{icon}</NodeIcon>
         {data.label || config.label}
       </NodeLabel>
       {conditionType === "amount" && <NodeValue>{getConditionDisplay()}</NodeValue>}
 
       {/* Handle Oui (gauche) */}
+      {/* biome-ignore lint: React Flow handle identifier, not HTML id */}
       <Handle
         type="source"
         position={Position.Bottom}
@@ -80,6 +130,7 @@ export default function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
       <HandleLabel style={{ bottom: "-28px", left: "15%", color: "#16a34a" }}>✓ Oui</HandleLabel>
 
       {/* Handle Non (droite) */}
+      {/* biome-ignore lint: React Flow handle identifier, not HTML id */}
       <Handle
         type="source"
         position={Position.Bottom}
@@ -95,3 +146,5 @@ export default function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
     </ConditionNodeContainer>
   )
 }
+
+export default memo(ConditionNode)

@@ -1,5 +1,6 @@
 "use client"
 
+import { memo } from "react"
 import { Handle, Position, type NodeProps, type Node } from "@xyflow/react"
 import { StartNodeContainer, NodeLabel, NodeIcon } from "../RulesFlow.styled"
 
@@ -9,13 +10,14 @@ export type StartNodeData = {
 
 export type StartNodeType = Node<StartNodeData, "start">
 
-export default function StartNode({ data }: NodeProps<StartNodeType>) {
+function StartNode({ data }: NodeProps<StartNodeType>) {
   return (
-    <StartNodeContainer>
+    <StartNodeContainer role="treeitem" aria-label={`Point de départ: ${data.label || "Début"}`}>
       <NodeLabel>
         <NodeIcon>🚀</NodeIcon>
         {data.label || "Début"}
       </NodeLabel>
+      {/* biome-ignore lint: React Flow handle identifier, not HTML id */}
       <Handle
         type="source"
         position={Position.Bottom}
@@ -30,3 +32,5 @@ export default function StartNode({ data }: NodeProps<StartNodeType>) {
     </StartNodeContainer>
   )
 }
+
+export default memo(StartNode)
