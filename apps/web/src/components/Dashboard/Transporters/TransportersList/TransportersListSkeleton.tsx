@@ -60,7 +60,10 @@ export default function TransportersListSkeleton() {
                 <div className="skeleton-badge skeleton-badge-md" />
               </div>
             </div>
-            <div className="skeleton-count" />
+            <div className="skeleton-info">
+              <div className="skeleton-line skeleton-line-md" />
+              <div className="skeleton-line skeleton-line-sm" />
+            </div>
           </SkeletonCard>
         ))}
       </SkeletonContainer>

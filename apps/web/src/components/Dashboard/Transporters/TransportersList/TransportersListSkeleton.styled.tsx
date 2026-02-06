@@ -14,8 +14,9 @@ export const SkeletonContainer = styled.div`
   width: 100%;
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 16px;
+  padding: 4px;
   opacity: 1;
   animation: transporters-fade-out 0.3s ease-in-out forwards;
   align-content: start;
@@ -63,7 +64,7 @@ export const SkeletonCard = styled.div`
   border-radius: 12px;
   padding: 18px;
   width: 100%;
-  height: 90px;
+  height: 120px;
   opacity: 1;
   box-sizing: border-box;
 
@@ -119,10 +120,15 @@ export const SkeletonCard = styled.div`
     width: 78px;
   }
 
-  .skeleton-count {
+  .skeleton-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .skeleton-line {
     height: 14px;
-    width: 50%;
-    max-width: 120px;
     border-radius: 6px;
     background: linear-gradient(
       90deg,
@@ -132,5 +138,15 @@ export const SkeletonCard = styled.div`
     );
     background-size: 200% 100%;
     animation: skeleton-shimmer 2s infinite ease-in-out;
+  }
+
+  .skeleton-line-sm {
+    width: 40%;
+    max-width: 100px;
+  }
+
+  .skeleton-line-md {
+    width: 60%;
+    max-width: 150px;
   }
 `
