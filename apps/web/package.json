@@ -12,26 +12,26 @@
   },
   "dependencies": {
     "@tanstack/react-form": "1.23.8",
-    "@tanstack/react-query": "5.90.17",
+    "@tanstack/react-query": "5.90.20",
     "@tanstack/react-virtual": "3.13.18",
-    "better-auth": "1.4.13",
-    "motion": "12.26.2",
-    "next": "16.1.2",
+    "better-auth": "1.4.18",
+    "motion": "12.33.0",
+    "next": "16.1.6",
     "next-plausible": "3.12.5",
     "next-themes": "0.4.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "sonner": "2.0.7",
     "vaul": "1.1.2",
-    "zod": "4.2.1",
-    "zustand": "5.0.10"
+    "zod": "4.3.6",
+    "zustand": "5.0.11"
   },
   "devDependencies": {
     "@pandacss/dev": "1.8.1",
-    "@tanstack/react-query-devtools": "^5.91.2",
+    "@tanstack/react-query-devtools": "^5.91.3",
     "@taxdom/types": "workspace:*",
-    "@types/node": "^25.0.9",
-    "@types/react": "^19.2.8",
+    "@types/node": "^25.2.1",
+    "@types/react": "^19.2.13",
     "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "^1.0.0",
     "typescript": "5.9.3"
@@ -40,5 +40,5 @@
     "node": ">=22",
     "pnpm": ">=10"
   },
-  "packageManager": "pnpm@10.28.0"
+  "packageManager": "pnpm@10.28.2"
 }
