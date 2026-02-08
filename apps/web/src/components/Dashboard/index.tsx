@@ -44,6 +44,7 @@ export default async function Dashboard(props: { searchParams: SearchParams }) {
     <Section>
       <Sidebar />
       <Content>{renderLayout()}</Content>
+      user={{ email: session.user.email, image: session.user.image, name: session.user.name }}
     </Section>
   )
 }
