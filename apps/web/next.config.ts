@@ -7,7 +7,10 @@ const nextConfig: NextConfig = {
   outputFileTracingRoot: path.join(url.fileURLToPath(new URL(".", import.meta.url)), "../../"),
   typedRoutes: true,
   images: {
-    remotePatterns: [new URL("https://r2.taxdom.re/images/**")],
+    remotePatterns: [
+      new URL("https://r2.taxdom.re/images/**"),
+      new URL("https://lh3.googleusercontent.com/**"),
+    ],
   },
 }
 
