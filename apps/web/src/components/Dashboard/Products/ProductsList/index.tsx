@@ -1,58 +1,105 @@
-import type { Product } from "@taxdom/types"
+"use client"
 
-import { use } from "react"
+import { useMemo } from "react"
+import type { Product, SelectOption } from "@taxdom/types"
+
+import ProductCard from "@/components/Dashboard/Products/ProductCard"
 
 import {
-  Category,
   Container,
-  Flux,
   NoProducts,
-  Origin,
-  ProductCard,
   ProductContainer,
   ProductHeader,
-  Territory,
+  ResultsCount,
 } from "./ProductsList.styled"
 
-export default function ProductsList({ products }: { products: Promise<Product[]> }) {
-  const allProducts = use(products)
+export type ProductFilterState = {
+  search: string
+  category: "all" | string
+  origin: "all" | string
+  territory: "all" | string
+}
+
+interface ProductsListProps {
+  products: Product[]
+  filters: ProductFilterState
+  formData: {
+    categories: SelectOption[]
+    origins: SelectOption[]
+    territories: SelectOption[]
+    flux: SelectOption[]
+    taxes: { taxID: string; tva: number; om: number; omr: number }[]
+  }
+}
+
+export default function ProductsList({ products, filters, formData }: ProductsListProps) {
+  const filteredProducts = useMemo(() => {
+    return products.filter((product) => {
+      if (filters.search) {
+        const searchLower = filters.search.toLowerCase()
+        if (!product.productName.toLowerCase().includes(searchLower)) return false
+      }
+      if (filters.category !== "all") {
+        if (product.category.categoryID !== filters.category) return false
+      }
+      if (filters.origin !== "all") {
+        if (product.origin.originID !== filters.origin) return false
+      }
+      if (filters.territory !== "all") {
+        if (product.territory.territoryID !== filters.territory) return false
+      }
+      return true
+    })
+  }, [products, filters])
+
+  const hasActiveFilters =
+    filters.search !== "" ||
+    filters.category !== "all" ||
+    filters.origin !== "all" ||
+    filters.territory !== "all"
+
+  if (products.length === 0) {
+    return (
+      <NoProducts>
+        <h3>Aucun produit disponible</h3>
+        <p>Ajoutez votre premier produit en cliquant sur le bouton ci-dessus.</p>
+      </NoProducts>
+    )
+  }
 
   return (
     <Container>
-      {allProducts.length === 0 && (
-        <NoProducts>
-          <span>Aucun produit trouvé</span>
-        </NoProducts>
+      {hasActiveFilters && filteredProducts.length > 0 && (
+        <ResultsCount>
+          {filteredProducts.length} résultat{filteredProducts.length !== 1 ? "s" : ""} sur{" "}
+          {products.length} produit{products.length !== 1 ? "s" : ""}
+        </ResultsCount>
       )}
-      <ProductHeader>
-        <span>Nom du produit</span>
-        <span>Origine</span>
-        <span>Flux</span>
-        <span>Territoire</span>
-        <span>Taxes</span>
-      </ProductHeader>
-      <ProductContainer>
-        {allProducts.map((product) => (
-          <ProductCard key={product.name}>
-            <div>
-              <h3>{product.name}</h3>
-              <Category>{product.category}</Category>
-            </div>
-            <div>
-              <Origin>{product.origin}</Origin>
-            </div>
-            <div>
-              <Flux>{product.flux}</Flux>
-            </div>
-            <div>
-              <Territory>{product.territory}</Territory>
-            </div>
-            <div>
-              TVA {product.tax.tva}%, OM {product.tax.om}%, OMR {product.tax.omr}%
-            </div>
-          </ProductCard>
-        ))}
-      </ProductContainer>
+
+      {filteredProducts.length === 0 && hasActiveFilters ? (
+        <NoProducts>
+          <h3>Aucun résultat</h3>
+          <p>
+            Aucun produit ne correspond aux filtres sélectionnés. Essayez de modifier vos critères
+            de recherche.
+          </p>
+        </NoProducts>
+      ) : (
+        <>
+          <ProductHeader>
+            <span>Nom du produit</span>
+            <span>Origine</span>
+            <span>Flux</span>
+            <span>Territoire</span>
+            <span>Taxes</span>
+          </ProductHeader>
+          <ProductContainer>
+            {filteredProducts.map((product) => (
+              <ProductCard key={product.productID} product={product} formData={formData} editable />
+            ))}
+          </ProductContainer>
+        </>
+      )}
     </Container>
   )
 }
