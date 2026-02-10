@@ -3,7 +3,8 @@
 import { revalidateTag } from "next/cache"
 import { z } from "zod"
 
-const createProductSchema = z.object({
+const updateProductSchema = z.object({
+  productID: z.string().trim().min(1, "PRODUCT_ID_REQUIRED"),
   productName: z.string().trim().min(1, "Le nom du produit est requis").max(255),
   categoryID: z.string().trim().min(1, "La catégorie est requise"),
   originID: z.string().trim().min(1, "L'origine est requise"),
@@ -12,8 +13,9 @@ const createProductSchema = z.object({
   taxID: z.string().trim().min(1, "La taxe est requise"),
 })
 
-export default async function createProduct(_: unknown, formData: FormData) {
+export async function updateProduct(_: unknown, formData: FormData) {
   const data = {
+    productID: formData.get("productID"),
     productName: formData.get("productName"),
     categoryID: formData.get("categoryID"),
     originID: formData.get("originID"),
@@ -22,10 +24,10 @@ export default async function createProduct(_: unknown, formData: FormData) {
     taxID: formData.get("taxID"),
   }
 
-  let validated: z.infer<typeof createProductSchema>
+  let validated: z.infer<typeof updateProductSchema>
 
   try {
-    validated = createProductSchema.parse(data)
+    validated = updateProductSchema.parse(data)
   } catch (error) {
     if (error instanceof z.ZodError) {
       return { success: false, errors: error.issues.map((e) => e.message) }
@@ -34,13 +36,15 @@ export default async function createProduct(_: unknown, formData: FormData) {
   }
 
   try {
-    const res = await fetch(`${process.env.API_URL}/dashboard/products`, {
-      method: "POST",
+    const { productID, ...body } = validated
+
+    const res = await fetch(`${process.env.API_URL}/dashboard/products/${productID}`, {
+      method: "PUT",
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${process.env.API_KEY}`,
       },
-      body: JSON.stringify(validated),
+      body: JSON.stringify(body),
     })
 
     const json = await res.json().catch(() => ({}))
@@ -48,7 +52,7 @@ export default async function createProduct(_: unknown, formData: FormData) {
     if (!res.ok) {
       return {
         success: false,
-        errors: [json.error || "Erreur lors de la création du produit"],
+        errors: [json.error || `Erreur HTTP: ${res.status}`],
       }
     }
 
@@ -56,7 +60,7 @@ export default async function createProduct(_: unknown, formData: FormData) {
 
     return { success: true, errors: [], data: json }
   } catch (error) {
-    console.error("Error creating product:", error)
-    return { success: false, errors: ["Une erreur est survenue lors de la création du produit"] }
+    console.error("Error updating product:", error)
+    return { success: false, errors: ["Erreur lors de la mise à jour du produit"] }
   }
 }

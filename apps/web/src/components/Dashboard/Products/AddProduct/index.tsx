@@ -1,14 +1,14 @@
 "use client"
 
-import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query"
-import { useId, useState } from "react"
-import { toast } from "sonner"
-import type { Origin, SelectOption } from "@taxdom/types"
+import { useActionState, useEffect, useId, useMemo, useState } from "react"
+import type { SelectOption } from "@taxdom/types"
 
+import createProduct from "@/actions/products/createProduct"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import BaseSelect from "@/components/Forms/Select/BaseSelect"
 import Modal from "@/components/Modal"
 import Button from "@/components/ui/Button"
+
 import {
   AddProductBtn,
   AddProductContainer,
@@ -16,205 +16,177 @@ import {
   ErrorContainer,
 } from "./AddProduct.styled"
 
-export default function AddProduct() {
-  const [open, setOpen] = useState(false)
+interface AddProductProps {
+  formData: {
+    categories: SelectOption[]
+    origins: SelectOption[]
+    territories: SelectOption[]
+    flux: SelectOption[]
+    taxes: { taxID: string; tva: number; om: number; omr: number }[]
+  }
+}
+
+function formatTaxLabel(t: { tva: number; om: number; omr: number }) {
+  return `TVA ${t.tva}% / OM ${t.om}% / OMR ${t.omr}%`
+}
+
+export default function AddProduct({ formData }: AddProductProps) {
+  const [state, action, pending] = useActionState(createProduct, {
+    success: false,
+    errors: [],
+  })
+  const [show, setShow] = useState(false)
+
   const [productName, setProductName] = useState("")
-  const [categoryID, setCategoryID] = useState("")
-  const [originID, setOriginID] = useState("")
-  const [territoryID, setTerritoryID] = useState("")
+  const [categoryName, setCategoryName] = useState("")
+  const [originName, setOriginName] = useState("")
+  const [territoryName, setTerritoryName] = useState("")
+  const [fluxName, setFluxName] = useState("")
+  const [taxName, setTaxName] = useState("")
 
   const productNameID = useId()
-  const queryClient = useQueryClient()
 
-  const API = process.env.NEXT_PUBLIC_API_URL
+  // Map display names to IDs for hidden form inputs
+  const categoryID = formData.categories.find((c) => c.name === categoryName)?.value ?? ""
+  const originID = formData.origins.find((o) => o.name === originName)?.value ?? ""
+  const territoryID = formData.territories.find((t) => t.name === territoryName)?.value ?? ""
+  const fluxID = formData.flux.find((f) => f.name === fluxName)?.value ?? ""
+  const taxID = formData.taxes.find((t) => formatTaxLabel(t) === taxName)?.taxID ?? ""
 
-  const fetchCategories = async (): Promise<SelectOption[]> => {
-    if (!API) throw new Error("Missing NEXT_PUBLIC_API_URL")
-    const res = await fetch(`${API}/dashboard/categories`, {
-      method: "GET",
-      credentials: "include",
-      headers: { "content-type": "application/json" },
-    })
-    if (!res.ok) throw new Error("Failed to fetch categories")
-    const data = (await res.json()) as { categoryID: string; categoryName: string }[]
-    return data.map(
-      (c): SelectOption => ({
-        name: c.categoryName,
-        value: c.categoryName,
-      }),
-    )
-  }
+  // Options for BaseSelect (name-only so onChange always returns names)
+  const categoryOptions = useMemo(
+    () => formData.categories.map((c) => ({ name: c.name })),
+    [formData.categories],
+  )
+  const originOptions = useMemo(
+    () => formData.origins.map((o) => ({ name: o.name })),
+    [formData.origins],
+  )
+  const territoryOptions = useMemo(
+    () => formData.territories.map((t) => ({ name: t.name })),
+    [formData.territories],
+  )
+  const fluxOptions = useMemo(() => formData.flux.map((f) => ({ name: f.name })), [formData.flux])
+  const taxOptions = useMemo(
+    () => formData.taxes.map((t) => ({ name: formatTaxLabel(t) })),
+    [formData.taxes],
+  )
 
-  const fetchOrigins = async (): Promise<SelectOption[]> => {
-    if (!API) throw new Error("Missing NEXT_PUBLIC_API_URL")
-    const res = await fetch(`${API}/dashboard/origins`, {
-      method: "GET",
-      credentials: "include",
-      headers: { "content-type": "application/json" },
-    })
-    if (!res.ok) throw new Error("Failed to fetch origins")
-    const data = (await res.json()) as Origin[]
-    return data.map(
-      (o): SelectOption => ({
-        name: o.name,
-        value: o.name,
-        available: o.available,
-        isEU: o.isEU,
-      }),
-    )
-  }
+  const isFormValid = Boolean(
+    productName.trim() && categoryID && originID && territoryID && fluxID && taxID,
+  )
 
-  const fetchTerritories = async (): Promise<SelectOption[]> => {
-    if (!API) throw new Error("Missing NEXT_PUBLIC_API_URL")
-    const res = await fetch(`${API}/dashboard/territories`, {
-      method: "GET",
-      credentials: "include",
-      headers: { "content-type": "application/json" },
-    })
-    if (!res.ok) throw new Error("Failed to fetch territories")
-    const data = (await res.json()) as { territoryID: string; territoryName: string }[]
-    return data.map(
-      (t): SelectOption => ({
-        name: t.territoryName,
-        value: t.territoryName,
-      }),
-    )
-  }
+  const formErrors = state?.errors ?? []
 
-  const {
-    data: categoryOptions = [],
-    isFetching: categoriesLoading,
-    error: categoriesError,
-  } = useQuery<SelectOption[], Error>({
-    queryKey: ["categories"],
-    queryFn: fetchCategories,
-    staleTime: 60 * 60 * 1000,
-  })
-
-  const {
-    data: originOptions = [],
-    isFetching: originsLoading,
-    error: originsError,
-  } = useQuery<SelectOption[], Error>({
-    queryKey: ["origins"],
-    queryFn: fetchOrigins,
-    staleTime: 24 * 60 * 60 * 1000,
-  })
-
-  const {
-    data: territoryOptions = [],
-    isFetching: territoriesLoading,
-    error: territoriesError,
-  } = useQuery<SelectOption[], Error>({
-    queryKey: ["territories"],
-    queryFn: fetchTerritories,
-    staleTime: 24 * 60 * 60 * 1000,
-  })
-
-  const isFormValid =
-    productName.trim() && categoryID.trim() && originID.trim() && territoryID.trim()
-
-  const createMutation = useMutation({
-    mutationFn: async () => {
-      if (!API) throw new Error("Missing NEXT_PUBLIC_API_URL")
-      const res = await fetch(`${API}/dashboard/products`, {
-        method: "POST",
-        credentials: "include",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({
-          productName: productName.trim(),
-          categoryName: categoryID.trim(),
-          originName: originID.trim(),
-          territoryName: territoryID.trim(),
-        }),
-      })
-      if (!res.ok) {
-        const msg = (await res.json().catch(() => ({}))).message || "Erreur de création"
-        throw new Error(msg)
-      }
-      return res.json()
-    },
-    onSuccess: () => {
-      toast.success("Produit ajouté")
-      queryClient.invalidateQueries({ queryKey: ["products"] })
-      setOpen(false)
+  // Reset form fields when modal closes
+  useEffect(() => {
+    if (!show) {
       setProductName("")
-      setCategoryID("")
-      setOriginID("")
-      setTerritoryID("")
-    },
-    onError: (err: unknown) => {
-      const message = err instanceof Error ? err.message : "Impossible d'ajouter le produit"
-      toast.error(message)
-    },
-  })
+      setCategoryName("")
+      setOriginName("")
+      setTerritoryName("")
+      setFluxName("")
+      setTaxName("")
+    }
+  }, [show])
+
+  // Auto-close on successful creation
+  useEffect(() => {
+    if (state?.success && show) {
+      setShow(false)
+    }
+  }, [state?.success, show])
 
   return (
     <>
-      <AddProductBtn onClick={() => setOpen(true)}>Ajouter un produit</AddProductBtn>
-      <Modal {...{ open, setOpen }}>
+      <AddProductBtn type="button" onClick={() => setShow(true)}>
+        Ajouter un produit
+      </AddProductBtn>
+      <Modal show={show} setShow={setShow}>
         <AddProductContainer>
           <h2>Ajouter un produit</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
-            <InputContainer>
-              <label htmlFor={productNameID}>Nom du produit</label>
-              <input
-                type="text"
-                name="productName"
-                id={productNameID}
-                value={productName}
-                onChange={(e) => setProductName(e.target.value)}
-                autoComplete="off"
+          <hr />
+          <form action={action} autoComplete="off">
+            <input type="hidden" name="categoryID" value={categoryID} />
+            <input type="hidden" name="originID" value={originID} />
+            <input type="hidden" name="territoryID" value={territoryID} />
+            <input type="hidden" name="fluxID" value={fluxID} />
+            <input type="hidden" name="taxID" value={taxID} />
+
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+              <InputContainer>
+                <label htmlFor={productNameID}>Nom du produit</label>
+                <input
+                  type="text"
+                  name="productName"
+                  id={productNameID}
+                  placeholder="Nom du produit"
+                  value={productName}
+                  onChange={(e) => setProductName(e.target.value)}
+                  autoComplete="off"
+                  required
+                />
+              </InputContainer>
+              <BaseSelect
+                label="Catégorie"
+                placeholder="Sélectionnez une catégorie"
+                options={categoryOptions}
+                value={categoryName}
+                onChange={setCategoryName}
+                required
               />
-            </InputContainer>
-            <BaseSelect
-              name="category"
-              label="Catégorie"
-              placeholder="Sélectionnez une catégorie"
-              options={categoryOptions}
-              value={categoryID}
-              onChange={setCategoryID}
-              loading={categoriesLoading}
-              errors={categoriesError ? ["Impossible de charger les catégories"] : []}
-              required
-            />
-            <BaseSelect
-              name="origin"
-              label="Origine"
-              placeholder="Sélectionnez une origine"
-              options={originOptions}
-              value={originID}
-              onChange={setOriginID}
-              loading={originsLoading}
-              errors={originsError ? ["Impossible de charger les origines"] : []}
-              required
-            />
-            <BaseSelect
-              name="territory"
-              label="Territoire"
-              placeholder="Sélectionnez un territoire"
-              options={territoryOptions}
-              value={territoryID}
-              onChange={setTerritoryID}
-              loading={territoriesLoading}
-              errors={territoriesError ? ["Impossible de charger les territoires"] : []}
-              required
-            />
-          </div>
-          <ProductActions>
-            <ErrorContainer>{/* Errors can be displayed here if needed */}</ErrorContainer>
-            <div style={{ display: "flex", gap: 8 }}>
-              <Button onClick={() => setOpen(false)}>Annuler</Button>
-              <Button
-                onClick={() => {
-                  if (!isFormValid || createMutation.isPending) return
-                  createMutation.mutate()
-                }}
-              >
-                {createMutation.isPending ? "Ajout..." : "Ajouter"}
-              </Button>
+              <BaseSelect
+                label="Origine"
+                placeholder="Sélectionnez une origine"
+                options={originOptions}
+                value={originName}
+                onChange={setOriginName}
+                required
+              />
+              <BaseSelect
+                label="Flux"
+                placeholder="Sélectionnez un flux"
+                options={fluxOptions}
+                value={fluxName}
+                onChange={setFluxName}
+                required
+              />
+              <BaseSelect
+                label="Territoire"
+                placeholder="Sélectionnez un territoire"
+                options={territoryOptions}
+                value={territoryName}
+                onChange={setTerritoryName}
+                required
+              />
+              <BaseSelect
+                label="Barème de taxes"
+                placeholder="Sélectionnez un barème"
+                options={taxOptions}
+                value={taxName}
+                onChange={setTaxName}
+                required
+              />
             </div>
-          </ProductActions>
+
+            <ProductActions>
+              <ErrorContainer>
+                {formErrors.length > 0 &&
+                  formErrors.map((error, index) => (
+                    // biome-ignore lint/suspicious/noArrayIndexKey: _
+                    <span key={index}>{error}</span>
+                  ))}
+              </ErrorContainer>
+              <div style={{ display: "flex", gap: 8 }}>
+                <Button type="button" onClick={() => setShow(false)}>
+                  Annuler
+                </Button>
+                <Button type="submit" aria-disabled={!isFormValid || pending}>
+                  {pending ? "Création..." : "Créer le produit"}
+                </Button>
+              </div>
+            </ProductActions>
+          </form>
         </AddProductContainer>
       </Modal>
     </>

@@ -1,268 +1,411 @@
-import type { Category, Origin, Product, Territory } from "@taxdom/types"
 import type { HttpContext } from "@adonisjs/core/http"
-
-import { eq, count } from "drizzle-orm"
-import { db } from "#config/database"
-import { categories, products } from "#database/schema"
 import logger from "@adonisjs/core/services/logger"
+import type { Product } from "@taxdom/types"
+import { count, eq } from "drizzle-orm"
+import { v7 as uuidv7 } from "uuid"
+
+import { db } from "#config/database"
+import {
+  categories,
+  flux,
+  origins,
+  products,
+  taxes,
+  templateProducts,
+  territories,
+} from "#database/schema"
+import { CreateProductValidator, UpdateProductValidator } from "#validators/CreateProductValidator"
+
+const productRelations = {
+  category: {
+    columns: { categoryID: true, categoryName: true },
+  },
+  origin: {
+    columns: { originID: true, originName: true, isEU: true },
+  },
+  territory: {
+    columns: { territoryID: true, territoryName: true },
+  },
+  flux: {
+    columns: { fluxID: true, fluxName: true },
+  },
+  tax: {
+    columns: { taxID: true, tva: true, om: true, omr: true },
+  },
+} as const
+
+function mapProduct(product: {
+  productID: string
+  productName: string
+  category: { categoryID: string; categoryName: string }
+  origin: { originID: string; originName: string; isEU: boolean }
+  territory: { territoryID: string; territoryName: string }
+  flux: { fluxID: string; fluxName: string }
+  tax: { taxID: string; tva: number; om: number; omr: number }
+  createdAt: Date | null
+  updatedAt: Date | null
+}): Product {
+  return {
+    productID: product.productID,
+    productName: product.productName,
+    category: {
+      categoryID: product.category.categoryID,
+      categoryName: product.category.categoryName,
+    },
+    origin: {
+      originID: product.origin.originID,
+      originName: product.origin.originName,
+      isEU: product.origin.isEU,
+    },
+    territory: {
+      territoryID: product.territory.territoryID,
+      territoryName: product.territory.territoryName,
+    },
+    flux: {
+      fluxID: product.flux.fluxID,
+      fluxName: product.flux.fluxName,
+    },
+    tax: {
+      taxID: product.tax.taxID,
+      tva: product.tax.tva,
+      om: product.tax.om,
+      omr: product.tax.omr,
+    },
+    createdAt: product.createdAt ?? new Date(),
+    updatedAt: product.updatedAt ?? new Date(),
+  }
+}
 
 export default class ProductsController {
   /**
-   * Get all producs
+   * Get products count
+   */
+  async count() {
+    try {
+      const total = await db.select({ count: count() }).from(products)
+      return { products_count: total[0].count }
+    } catch (err) {
+      logger.error({ err }, "Cannot get products count")
+    }
+  }
+
+  /**
+   * Get recent products
+   */
+  async recent() {
+    try {
+      const recentProducts = await db.query.products.findMany({
+        orderBy: (products, { desc }) => [desc(products.createdAt)],
+        limit: 5,
+        with: {
+          category: { columns: { categoryName: true } },
+        },
+      })
+      return {
+        recent_products: recentProducts.map((p) => ({
+          productID: p.productID,
+          productName: p.productName,
+          categoryName: p.category.categoryName,
+          createdAt: p.createdAt,
+        })),
+      }
+    } catch (err) {
+      logger.error({ err }, "Cannot get recent products")
+      return { recent_products: [] }
+    }
+  }
+
+  /**
+   * Get products distribution by category
+   */
+  async distribution() {
+    try {
+      const dist = await db
+        .select({
+          categoryID: categories.categoryID,
+          categoryName: categories.categoryName,
+          count: count(),
+        })
+        .from(products)
+        .innerJoin(categories, eq(products.categoryID, categories.categoryID))
+        .groupBy(categories.categoryID, categories.categoryName)
+
+      return { distribution: dist }
+    } catch (err) {
+      logger.error({ err }, "Cannot get products distribution")
+      return { distribution: [] }
+    }
+  }
+
+  /**
+   * List all flux
+   */
+  async listFlux() {
+    try {
+      const allFlux = await db.query.flux.findMany({
+        orderBy: (flux, { asc }) => [asc(flux.fluxName)],
+      })
+      return allFlux
+    } catch (err) {
+      logger.error({ err }, "Cannot get flux list")
+      return []
+    }
+  }
+
+  /**
+   * List all taxes
+   */
+  async listTaxes() {
+    try {
+      const allTaxes = await db.query.taxes.findMany()
+      return allTaxes
+    } catch (err) {
+      logger.error({ err }, "Cannot get taxes list")
+      return []
+    }
+  }
+
+  /**
+   * Get all products
    */
   async index() {
     try {
       const productsData = await db.query.products.findMany({
-        with: {
-          category: {
-            columns: {
-              categoryID: true,
-              categoryName: true,
-            },
-          },
-          origin: {
-            columns: {
-              originID: true,
-              originName: true,
-            },
-          },
-          territory: {
-            columns: {
-              territoryID: true,
-              territoryName: true,
-            },
-          },
-          flux: {
-            columns: {
-              fluxID: true,
-              fluxName: true,
-            },
-          },
-          tax: {
-            columns: {
-              taxID: true,
-              tva: true,
-              om: true,
-              omr: true,
-            },
-          },
-        },
+        with: productRelations,
       })
 
-      const allProducts: Product[] = productsData.map((product) => ({
-        name: product.productName,
-        category: product.category.categoryName,
-        origin: product.origin.originName as Origin,
-        territory: product.territory.territoryName as Territory,
-        flux: product.flux.fluxName,
-        tax: product.tax,
-        createdAt: product.createdAt ?? undefined,
-        updatedAt: product.updatedAt ?? undefined,
-      }))
+      const allProducts: Product[] = productsData.map(mapProduct)
 
       logger.info("Fetched all products successfully")
-
       return allProducts
     } catch (err) {
-      console.error("Cannot get products", err)
-      logger.error({ err: err }, "Cannot get products")
+      logger.error({ err }, "Cannot get products")
     }
   }
 
   /**
-   * Display a single post by id.
+   * Create a new product
+   */
+  async store({ request, response }: HttpContext) {
+    try {
+      const validatedData = await CreateProductValidator.validate(request.all())
+      const { productName, categoryID, originID, territoryID, fluxID, taxID } = validatedData
+
+      // Verify all FK entities exist
+      const [existingCategory, existingOrigin, existingTerritory, existingFlux, existingTax] =
+        await Promise.all([
+          db.query.categories.findFirst({ where: eq(categories.categoryID, categoryID) }),
+          db.query.origins.findFirst({ where: eq(origins.originID, originID) }),
+          db.query.territories.findFirst({ where: eq(territories.territoryID, territoryID) }),
+          db.query.flux.findFirst({ where: eq(flux.fluxID, fluxID) }),
+          db.query.taxes.findFirst({ where: eq(taxes.taxID, taxID) }),
+        ])
+
+      if (!existingCategory) {
+        return response.badRequest({ error: "La catégorie spécifiée n'existe pas" })
+      }
+      if (!existingOrigin) {
+        return response.badRequest({ error: "L'origine spécifiée n'existe pas" })
+      }
+      if (!existingTerritory) {
+        return response.badRequest({ error: "Le territoire spécifié n'existe pas" })
+      }
+      if (!existingFlux) {
+        return response.badRequest({ error: "Le flux spécifié n'existe pas" })
+      }
+      if (!existingTax) {
+        return response.badRequest({ error: "La taxe spécifiée n'existe pas" })
+      }
+
+      // Check for duplicate product name
+      const existingProduct = await db.query.products.findFirst({
+        where: eq(products.productName, productName.trim()),
+      })
+
+      if (existingProduct) {
+        return response.badRequest({ error: "Un produit avec ce nom existe déjà" })
+      }
+
+      const productID = uuidv7()
+
+      await db.insert(products).values({
+        productID,
+        productName: productName.trim(),
+        categoryID,
+        originID,
+        territoryID,
+        fluxID,
+        taxID,
+      })
+
+      const createdProduct = await db.query.products.findFirst({
+        where: eq(products.productID, productID),
+        with: productRelations,
+      })
+
+      if (!createdProduct) {
+        return response.badRequest({ error: "Erreur lors de la récupération du produit créé" })
+      }
+
+      logger.info(`Created product ${productID} successfully`)
+      return response.created(mapProduct(createdProduct))
+    } catch (err) {
+      logger.error({ err }, "Cannot create product")
+    }
+  }
+
+  /**
+   * Get a specific product by ID
    */
   async show({ params, response }: HttpContext) {
     try {
-      const categoryId = Number(params.id)
+      const productId: string = params.id
 
-      if (!categoryId || Number.isNaN(categoryId)) {
-        return response.badRequest({
-          error: "ID de catégorie invalide",
-        })
+      if (!productId || typeof productId !== "string") {
+        return response.badRequest({ error: "ID de produit invalide" })
       }
 
-      const categoryData = await db.query.categories.findFirst({
-        where: eq(categories.categoryID, categoryId),
-        with: {
-          tax: {
-            columns: {
-              tva: true,
-              om: true,
-              omr: true,
-            },
-          },
-          products: true,
-        },
+      const productData = await db.query.products.findFirst({
+        where: eq(products.productID, productId),
+        with: productRelations,
       })
 
-      if (!categoryData) {
-        return response.notFound({
-          error: "Catégorie non trouvée",
-        })
+      if (!productData) {
+        return response.notFound({ error: "Produit non trouvé" })
       }
 
-      const category: Category = {
-        uuid: categoryData.uuid,
-        name: categoryData.categoryName,
-        taxID: categoryData.taxID ?? undefined,
-        taxes: categoryData.tax ?? undefined,
-        relatedProducts: categoryData.products?.length ?? 0,
-      }
-
-      logger.info(`Fetched category ${categoryId} successfully`)
-      return category
+      logger.info(`Fetched product ${productId} successfully`)
+      return mapProduct(productData)
     } catch (err) {
-      logger.error({ err: err }, "Cannot get category")
-      console.error("Cannot get category", err)
+      logger.error({ err }, "Cannot get product")
     }
   }
 
   /**
-   * Handle the form submission to update a specific post by id
+   * Update a specific product by ID
    */
   async update({ params, request, response }: HttpContext) {
     try {
-      const categoryId = Number(params.id)
+      const productId: string = params.id
 
-      if (!categoryId || Number.isNaN(categoryId)) {
-        return response.badRequest({
-          error: "ID de catégorie invalide",
-        })
+      if (!productId) {
+        return response.badRequest({ error: "ID de produit invalide" })
       }
 
-      const existingCategory = await db.query.categories.findFirst({
-        where: eq(categories.categoryID, categoryId),
+      const existingProduct = await db.query.products.findFirst({
+        where: eq(products.productID, productId),
       })
+
+      if (!existingProduct) {
+        return response.notFound({ error: "Produit non trouvé" })
+      }
+
+      const validatedData = await UpdateProductValidator.validate(request.all())
+      const { productName, categoryID, originID, territoryID, fluxID, taxID } = validatedData
+
+      // Check for duplicate product name (excluding current product)
+      const duplicateProduct = await db.query.products.findFirst({
+        where: (products, { eq, and, ne }) =>
+          and(eq(products.productName, productName.trim()), ne(products.productID, productId)),
+      })
+
+      if (duplicateProduct) {
+        return response.badRequest({ error: "Un produit avec ce nom existe déjà" })
+      }
+
+      // Verify all FK entities exist
+      const [existingCategory, existingOrigin, existingTerritory, existingFlux, existingTax] =
+        await Promise.all([
+          db.query.categories.findFirst({ where: eq(categories.categoryID, categoryID) }),
+          db.query.origins.findFirst({ where: eq(origins.originID, originID) }),
+          db.query.territories.findFirst({ where: eq(territories.territoryID, territoryID) }),
+          db.query.flux.findFirst({ where: eq(flux.fluxID, fluxID) }),
+          db.query.taxes.findFirst({ where: eq(taxes.taxID, taxID) }),
+        ])
 
       if (!existingCategory) {
-        return response.notFound({
-          error: "Catégorie non trouvée",
-        })
+        return response.badRequest({ error: "La catégorie spécifiée n'existe pas" })
+      }
+      if (!existingOrigin) {
+        return response.badRequest({ error: "L'origine spécifiée n'existe pas" })
+      }
+      if (!existingTerritory) {
+        return response.badRequest({ error: "Le territoire spécifié n'existe pas" })
+      }
+      if (!existingFlux) {
+        return response.badRequest({ error: "Le flux spécifié n'existe pas" })
+      }
+      if (!existingTax) {
+        return response.badRequest({ error: "La taxe spécifiée n'existe pas" })
       }
 
-      const { categoryName, taxID } = request.only(["categoryName", "taxID"])
-
-      if (!categoryName || typeof categoryName !== "string") {
-        return response.badRequest({
-          error: "Le nom de la catégorie est requis et doit être une chaîne de caractères",
+      await db
+        .update(products)
+        .set({
+          productName: productName.trim(),
+          categoryID,
+          originID,
+          territoryID,
+          fluxID,
+          taxID,
         })
-      }
+        .where(eq(products.productID, productId))
 
-      const duplicateCategory = await db.query.categories.findFirst({
-        where: (categories, { eq, and, ne }) =>
-          and(eq(categories.categoryName, categoryName), ne(categories.categoryID, categoryId)),
+      const updatedProduct = await db.query.products.findFirst({
+        where: eq(products.productID, productId),
+        with: productRelations,
       })
 
-      if (duplicateCategory) {
-        return response.badRequest({
-          error: "Une catégorie avec ce nom existe déjà",
+      if (!updatedProduct) {
+        return response.internalServerError({
+          error: "Erreur lors de la récupération du produit mis à jour",
         })
       }
 
-      const updateData: Partial<typeof categories.$inferInsert> = {
-        categoryName: categoryName.trim(),
-      }
-
-      if (taxID !== undefined) {
-        const taxIdNumber = Number(taxID)
-        if (Number.isNaN(taxIdNumber)) {
-          return response.badRequest({
-            error: "L'ID de taxe doit être un nombre",
-          })
-        }
-
-        const taxExists = await db.query.taxes.findFirst({
-          where: (taxes, { eq }) => eq(taxes.taxID, taxIdNumber),
-        })
-
-        if (!taxExists) {
-          return response.badRequest({
-            error: "La taxe spécifiée n'existe pas",
-          })
-        }
-
-        updateData.taxID = taxIdNumber
-      }
-
-      await db.update(categories).set(updateData).where(eq(categories.categoryID, categoryId))
-
-      const updatedCategoryData = await db.query.categories.findFirst({
-        where: eq(categories.categoryID, categoryId),
-        with: {
-          tax: {
-            columns: {
-              tva: true,
-              om: true,
-              omr: true,
-            },
-          },
-          products: true,
-        },
-      })
-
-      if (!updatedCategoryData) return
-
-      const updatedCategory: Category = {
-        uuid: updatedCategoryData.uuid,
-        name: updatedCategoryData.categoryName,
-        taxID: updatedCategoryData.taxID ?? undefined,
-        taxes: updatedCategoryData.tax ?? undefined,
-        relatedProducts: updatedCategoryData.products?.length ?? 0,
-      }
-
-      logger.info(`Updated category ${categoryId} successfully`)
-      return updatedCategory
+      logger.info(`Updated product ${productId} successfully`)
+      return mapProduct(updatedProduct)
     } catch (err) {
-      logger.error({ err: err }, "Cannot update category")
-      console.error("Cannot update category", err)
+      logger.error({ err }, "Cannot update product")
     }
   }
 
   /**
-   * Handle the form submission to delete a specific post by id.
+   * Delete a specific product by ID
    */
   async destroy({ params, response }: HttpContext) {
     try {
-      const categoryId = Number(params.id)
+      const productId: string = params.id
 
-      if (!categoryId || Number.isNaN(categoryId)) {
-        return response.badRequest({
-          error: "ID de catégorie invalide",
-        })
+      if (!productId) {
+        return response.badRequest({ error: "ID de produit invalide" })
       }
 
-      // Vérifier que la catégorie existe
-      const existingCategory = await db.query.categories.findFirst({
-        where: eq(categories.categoryID, categoryId),
+      const existingProduct = await db.query.products.findFirst({
+        where: eq(products.productID, productId),
       })
 
-      if (!existingCategory) {
-        return response.notFound({
-          error: "Catégorie non trouvée",
-        })
+      if (!existingProduct) {
+        return response.notFound({ error: "Produit non trouvé" })
       }
 
-      const relatedProductsCount = await db
+      // Check for related template_products
+      const relatedTemplates = await db
         .select({ count: count() })
-        .from(products)
-        .where(eq(products.categoryID, categoryId))
+        .from(templateProducts)
+        .where(eq(templateProducts.productID, productId))
 
-      if (relatedProductsCount[0]?.count > 0) {
+      if (relatedTemplates[0]?.count > 0) {
         return response.badRequest({
-          error: `Impossible de supprimer cette catégorie car elle est liée à ${relatedProductsCount[0].count} produit(s). Veuillez d'abord supprimer ou réassigner ces produits.`,
+          error: `Impossible de supprimer ce produit car il est lié à ${relatedTemplates[0].count} template(s). Veuillez d'abord retirer ce produit des templates.`,
         })
       }
 
-      await db.delete(categories).where(eq(categories.categoryID, categoryId))
+      await db.delete(products).where(eq(products.productID, productId))
 
-      logger.info(`Deleted category ${categoryId} successfully`)
-      return response.ok({
-        message: "Catégorie supprimée avec succès",
-      })
+      logger.info(`Deleted product ${productId} successfully`)
+      return response.ok({ message: "Produit supprimé avec succès" })
     } catch (err) {
-      logger.error({ err: err }, "Cannot delete category")
-      console.error("Cannot delete category", err)
+      logger.error({ err }, "Cannot delete product")
     }
   }
 }
