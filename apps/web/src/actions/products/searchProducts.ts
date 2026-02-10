@@ -10,7 +10,5 @@ export async function searchProducts(value: string) {
 
   const data: { name: string }[] = await res.json()
 
-  console.log(data)
-
   return data
 }
