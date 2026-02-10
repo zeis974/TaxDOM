@@ -1,13 +1,14 @@
 "use server"
 
 import { revalidateTag } from "next/cache"
+import { cookies } from "next/headers"
 import { z } from "zod"
 
 const createCategorySchema = z.object({
-  categoryName: z.string().trim().min(1, "CATEGORY_NAME_REQUIRED"),
-  tva: z.coerce.number().positive("TAX_RATES_MUST_BE_POSITIVE"),
-  om: z.coerce.number().positive("TAX_RATES_MUST_BE_POSITIVE"),
-  omr: z.coerce.number().positive("TAX_RATES_MUST_BE_POSITIVE"),
+  categoryName: z.string().trim().min(1, "Le nom de la catégorie est requis").max(255),
+  tva: z.coerce.number().min(0, "La TVA doit être positive ou nulle"),
+  om: z.coerce.number().min(0, "L'OM doit être positive ou nulle"),
+  omr: z.coerce.number().min(0, "L'OMR doit être positive ou nulle"),
 })
 
 export default async function createCategory(_: unknown, formData: FormData) {
@@ -17,8 +18,6 @@ export default async function createCategory(_: unknown, formData: FormData) {
     om: formData.get("om"),
     omr: formData.get("omr"),
   }
-
-  console.log(data)
 
   let validatedData: z.infer<typeof createCategorySchema>
 
@@ -39,11 +38,14 @@ export default async function createCategory(_: unknown, formData: FormData) {
   }
 
   try {
+    const cookieStore = await cookies()
+
     const res = await fetch(`${process.env.API_URL}/dashboard/categories`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${process.env.API_KEY}`,
+        Cookie: cookieStore.toString(),
       },
       body: JSON.stringify(validatedData),
     })
@@ -59,6 +61,7 @@ export default async function createCategory(_: unknown, formData: FormData) {
       }
     }
 
+    revalidateTag("categories_dashboard", "max")
     revalidateTag("categories", "max")
 
     return {
