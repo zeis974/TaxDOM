@@ -12,6 +12,6 @@ export const CreateCategoryValidator = vine.compile(
 export const UpdateCategoryValidator = vine.compile(
   vine.object({
     categoryName: vine.string().trim().minLength(1).maxLength(255),
-    taxID: vine.number().positive().optional(),
+    taxID: vine.string().uuid().optional(),
   }),
 )
