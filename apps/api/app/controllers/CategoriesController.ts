@@ -2,6 +2,7 @@ import type { HttpContext } from "@adonisjs/core/http"
 import logger from "@adonisjs/core/services/logger"
 import type { Category } from "@taxdom/types"
 import { count, eq } from "drizzle-orm"
+import { v7 as uuidv7 } from "uuid"
 
 import { db } from "#config/database"
 import { categories, products, taxes } from "#database/schema"
@@ -9,15 +10,59 @@ import { CreateCategoryValidator, UpdateCategoryValidator } from "#validators/Ca
 
 export default class CategoriesController {
   /**
+   * Get categories count
+   */
+  async count({ response }: HttpContext) {
+    try {
+      const total = await db.select({ count: count() }).from(categories)
+
+      return { categories_count: total[0].count }
+    } catch (err) {
+      logger.error({ err }, "Cannot get categories count")
+      return response.internalServerError({ error: "Cannot get categories count" })
+    }
+  }
+
+  /**
+   * Get categories with stats (product counts)
+   */
+  async withStats({ response }: HttpContext) {
+    try {
+      const categoriesData = await db.query.categories.findMany({
+        with: {
+          taxes: {
+            columns: {
+              tva: true,
+              om: true,
+              omr: true,
+            },
+          },
+          products: true,
+        },
+      })
+
+      return categoriesData.map((category) => ({
+        categoryID: category.categoryID,
+        categoryName: category.categoryName,
+        taxes: category.taxes ?? undefined,
+        relatedProducts: category.products?.length ?? 0,
+      }))
+    } catch (err) {
+      logger.error({ err }, "Cannot get categories with stats")
+      return response.internalServerError({ error: "Cannot get categories with stats" })
+    }
+  }
+
+  /**
    * Get all categories
    * This method retrieves all categories from the database,
    * including their associated tax information and related products.
    */
-  async index() {
+  async index({ response }: HttpContext) {
     try {
       const categoriesData = await db.query.categories.findMany({
         with: {
-          tax: {
+          taxes: {
             columns: {
               tva: true,
               om: true,
@@ -29,10 +74,10 @@ export default class CategoriesController {
       })
 
       const allCategories: Category[] = categoriesData.map((category) => ({
-        uuid: category.uuid,
-        name: category.categoryName,
+        categoryID: category.categoryID,
+        categoryName: category.categoryName,
         taxID: category.taxID ?? undefined,
-        taxes: category.tax ?? undefined,
+        taxes: category.taxes ?? undefined,
         relatedProducts: category.products?.length ?? 0,
       }))
 
@@ -41,7 +86,7 @@ export default class CategoriesController {
       return allCategories
     } catch (err) {
       logger.error({ err: err }, "Cannot get categories")
-      console.error("Cannot get categories", err)
+      return response.internalServerError({ error: "Cannot get categories" })
     }
   }
 
@@ -71,15 +116,17 @@ export default class CategoriesController {
           and(eq(taxes.tva, tva), eq(taxes.om, om), eq(taxes.omr, omr)),
       })
 
-      let taxID: number
+      let taxID: string
 
       if (existingTax) {
         taxID = existingTax.taxID
         logger.info(`Using existing tax ${taxID} with values: TVA ${tva}%, OM ${om}%, OMR ${omr}%`)
       } else {
+        const newTaxID = uuidv7()
         const newTax = await db
           .insert(taxes)
           .values({
+            taxID: newTaxID,
             tva: tva,
             om: om,
             omr: omr,
@@ -90,10 +137,12 @@ export default class CategoriesController {
         logger.info(`Created new tax ${taxID} with values: TVA ${tva}%, OM ${om}%, OMR ${omr}%`)
       }
 
+      const categoryID = uuidv7()
+
       const newCategory = await db
         .insert(categories)
         .values({
-          uuid: crypto.randomUUID(),
+          categoryID,
           categoryName: categoryName.trim(),
           taxID: taxID,
         })
@@ -102,7 +151,7 @@ export default class CategoriesController {
       const createdCategoryData = await db.query.categories.findFirst({
         where: eq(categories.categoryID, newCategory[0].categoryID),
         with: {
-          tax: {
+          taxes: {
             columns: {
               tva: true,
               om: true,
@@ -120,18 +169,18 @@ export default class CategoriesController {
       }
 
       const createdCategory: Category = {
-        uuid: createdCategoryData.uuid,
-        name: createdCategoryData.categoryName,
+        categoryID: createdCategoryData.categoryID,
+        categoryName: createdCategoryData.categoryName,
         taxID: createdCategoryData.taxID ?? undefined,
-        taxes: createdCategoryData.tax ?? undefined,
+        taxes: createdCategoryData.taxes ?? undefined,
         relatedProducts: createdCategoryData.products?.length ?? 0,
       }
 
-      logger.info(`Created category ${createdCategory.uuid} successfully`)
+      logger.info(`Created category ${createdCategory.categoryID} successfully`)
       return response.created(createdCategory)
     } catch (err) {
       logger.error({ err: err }, "Cannot create category")
-      console.error("Cannot create category", err)
+      return response.internalServerError({ error: "Cannot create category" })
     }
   }
 
@@ -140,18 +189,18 @@ export default class CategoriesController {
    */
   async show({ params, response }: HttpContext) {
     try {
-      const categoryUuid = params.uuid
+      const categoryId: string = params.id
 
-      if (!categoryUuid || typeof categoryUuid !== "string") {
+      if (!categoryId || typeof categoryId !== "string") {
         return response.badRequest({
-          error: "Invalid category UUID",
+          error: "Invalid category ID",
         })
       }
 
       const categoryData = await db.query.categories.findFirst({
-        where: eq(categories.uuid, categoryUuid),
+        where: eq(categories.categoryID, categoryId),
         with: {
-          tax: {
+          taxes: {
             columns: {
               tva: true,
               om: true,
@@ -169,18 +218,18 @@ export default class CategoriesController {
       }
 
       const category: Category = {
-        uuid: categoryData.uuid,
-        name: categoryData.categoryName,
+        categoryID: categoryData.categoryID,
+        categoryName: categoryData.categoryName,
         taxID: categoryData.taxID ?? undefined,
-        taxes: categoryData.tax ?? undefined,
+        taxes: categoryData.taxes ?? undefined,
         relatedProducts: categoryData.products?.length ?? 0,
       }
 
-      logger.info(`Fetched category ${categoryUuid} successfully`)
+      logger.info(`Fetched category ${categoryId} successfully`)
       return category
     } catch (err) {
       logger.error({ err: err }, "Cannot get category")
-      console.error("Cannot get category", err)
+      return response.internalServerError({ error: "Cannot get category" })
     }
   }
 
@@ -192,9 +241,9 @@ export default class CategoriesController {
    */
   async update({ params, request, response }: HttpContext) {
     try {
-      const categoryId = Number(params.id)
+      const categoryId: string = params.id
 
-      if (!categoryId || Number.isNaN(categoryId)) {
+      if (!categoryId) {
         return response.badRequest({
           error: "Invalid category ID",
         })
@@ -247,7 +296,7 @@ export default class CategoriesController {
       const updatedCategoryData = await db.query.categories.findFirst({
         where: eq(categories.categoryID, categoryId),
         with: {
-          tax: {
+          taxes: {
             columns: {
               tva: true,
               om: true,
@@ -265,10 +314,10 @@ export default class CategoriesController {
       }
 
       const updatedCategory: Category = {
-        uuid: updatedCategoryData.uuid,
-        name: updatedCategoryData.categoryName,
+        categoryID: updatedCategoryData.categoryID,
+        categoryName: updatedCategoryData.categoryName,
         taxID: updatedCategoryData.taxID ?? undefined,
-        taxes: updatedCategoryData.tax ?? undefined,
+        taxes: updatedCategoryData.taxes ?? undefined,
         relatedProducts: updatedCategoryData.products?.length ?? 0,
       }
 
@@ -276,7 +325,7 @@ export default class CategoriesController {
       return updatedCategory
     } catch (err) {
       logger.error({ err: err }, "Cannot update category")
-      console.error("Cannot update category", err)
+      return response.internalServerError({ error: "Cannot update category" })
     }
   }
 
@@ -287,9 +336,9 @@ export default class CategoriesController {
    */
   async destroy({ params, response }: HttpContext) {
     try {
-      const categoryId = Number(params.id)
+      const categoryId: string = params.id
 
-      if (!categoryId || Number.isNaN(categoryId)) {
+      if (!categoryId) {
         return response.badRequest({
           error: "Invalid category ID",
         })
@@ -324,7 +373,7 @@ export default class CategoriesController {
       })
     } catch (err) {
       logger.error({ err: err }, "Cannot delete category")
-      console.error("Cannot delete category", err)
+      return response.internalServerError({ error: "Cannot delete category" })
     }
   }
 }

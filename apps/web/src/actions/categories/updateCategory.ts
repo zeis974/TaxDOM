@@ -1,58 +1,69 @@
 "use server"
 
 import { revalidateTag } from "next/cache"
-import type { Category } from "@taxdom/types"
+import { cookies } from "next/headers"
+import { z } from "zod"
 
-interface UpdateCategoryParams {
-  categoryID: number
-  categoryName: string
-  taxID?: number
-}
+const updateCategorySchema = z.object({
+  categoryID: z.string().uuid("Identifiant de catégorie invalide"),
+  categoryName: z.string().trim().min(1, "Le nom de la catégorie est requis").max(255),
+  taxID: z.string().uuid("Identifiant de taxe invalide").optional(),
+})
 
-export async function updateCategory(params: UpdateCategoryParams): Promise<{
-  success: boolean
-  data?: Category
-  error?: string
-}> {
+export async function updateCategory(_: unknown, formData: FormData) {
+  const data = {
+    categoryID: formData.get("categoryID"),
+    categoryName: formData.get("categoryName"),
+    taxID: formData.get("taxID") || undefined,
+  }
+
+  let validated: z.infer<typeof updateCategorySchema>
+
   try {
-    const { categoryID, categoryName, taxID } = params
+    validated = updateCategorySchema.parse(data)
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      const errors = error.issues.map((e) => e.message)
+      return { success: false, errors }
+    }
+    return { success: false, errors: ["Une erreur de validation est survenue"] }
+  }
 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/categories/${categoryID}`, {
+  try {
+    const cookieStore = await cookies()
+
+    const res = await fetch(`${process.env.API_URL}/dashboard/categories/${validated.categoryID}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
-        Accept: "application/json",
-        Authorization: `Bearer ${process.env.API_TOKEN}`,
+        Authorization: `Bearer ${process.env.API_KEY}`,
+        Cookie: cookieStore.toString(),
       },
       body: JSON.stringify({
-        categoryName: categoryName.trim(),
-        taxID: taxID || undefined,
+        categoryName: validated.categoryName,
+        taxID: validated.taxID,
       }),
     })
 
-    if (!response.ok) {
-      const errorData = await response.json().catch(() => ({}))
+    const json = await res.json().catch(() => ({}))
+
+    if (!res.ok) {
       return {
         success: false,
-        error: errorData.error || `Erreur HTTP: ${response.status}`,
+        errors: [json.error || `Erreur HTTP: ${res.status}`],
       }
     }
 
-    const category: Category = await response.json()
-
-    // Invalider les caches pour forcer la mise à jour
+    revalidateTag("categories_dashboard", "max")
     revalidateTag("categories", "max")
-    revalidateTag(`category-${categoryID}`, "max")
 
     return {
       success: true,
-      data: category,
+      errors: [],
+      data: json,
     }
   } catch (error) {
-    console.error("Erreur lors de la mise à jour de la catégorie:", error)
-    return {
-      success: false,
-      error: "Erreur de connexion au serveur",
-    }
+    console.error("Error updating category:", error)
+    return { success: false, errors: ["Erreur lors de la mise à jour de la catégorie"] }
   }
 }

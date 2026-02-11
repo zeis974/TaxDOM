@@ -1,25 +1,37 @@
-import { Suspense } from "react"
+"use client"
 
-import { getCategories } from "@/actions/categories/getCategories"
+import type { Category } from "@taxdom/types"
+import { useState } from "react"
 
-import { ErrorBoundary } from "@/components/shared/ErrorBoundary"
-import CategoriesList from "@/components/Dashboard/Categories/CategoriesList"
+import AddCategory from "./AddCategory"
+import FilterCategories from "./FilterCategories"
+import type { CategoryFilterState } from "./CategoriesList"
+import CategoriesList from "./CategoriesList"
 
-import { Container, Header } from "./Categories.styled"
+import { Container, Header, HeaderActions, HeaderTitle } from "./Categories.styled"
 
-export default async function Categories() {
-  const categories = getCategories()
+interface CategoriesProps {
+  categories: Category[]
+}
+
+export default function Categories({ categories }: CategoriesProps) {
+  const [filters, setFilters] = useState<CategoryFilterState>({
+    search: "",
+  })
 
   return (
     <Container>
       <Header>
-        <h1>Gestion des catégories</h1>
+        <HeaderTitle>
+          <h2>Gestion des catégories</h2>
+          <span>{categories.length} catégories</span>
+        </HeaderTitle>
+        <HeaderActions>
+          <FilterCategories filters={filters} onFiltersChange={setFilters} />
+          <AddCategory />
+        </HeaderActions>
       </Header>
-      <ErrorBoundary>
-        <Suspense fallback={<p>loading...</p>}>
-          <CategoriesList categories={categories} />
-        </Suspense>
-      </ErrorBoundary>
+      <CategoriesList categories={categories} filters={filters} />
     </Container>
   )
 }
