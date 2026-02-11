@@ -1,11 +1,15 @@
 "use server"
 
 import { revalidateTag } from "next/cache"
+import { z } from "zod"
+
+const territoryIdSchema = z.uuidv7("Identifiant de territoire invalide.")
 
 export async function deleteTerritory(
   territoryID: string,
 ): Promise<{ success: boolean; error?: string }> {
-  if (!/^[a-zA-Z0-9-]{1,64}$/.test(territoryID)) {
+  const parsed = territoryIdSchema.safeParse(territoryID)
+  if (!parsed.success) {
     return { success: false, error: "Identifiant de territoire invalide." }
   }
   try {

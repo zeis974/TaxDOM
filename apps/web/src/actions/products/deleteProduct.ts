@@ -1,11 +1,15 @@
 "use server"
 
 import { revalidateTag } from "next/cache"
+import { z } from "zod"
+
+const productIdSchema = z.uuidv7("Identifiant de produit invalide.")
 
 export async function deleteProduct(
   productID: string,
 ): Promise<{ success: boolean; error?: string }> {
-  if (!/^[a-zA-Z0-9-]{1,64}$/.test(productID)) {
+  const parsed = productIdSchema.safeParse(productID)
+  if (!parsed.success) {
     return { success: false, error: "Identifiant de produit invalide." }
   }
 
