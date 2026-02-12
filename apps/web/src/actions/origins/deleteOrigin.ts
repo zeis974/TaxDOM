@@ -2,10 +2,18 @@
 
 import { revalidateTag } from "next/cache"
 import { cookies } from "next/headers"
+import { z } from "zod"
+
+const originIdSchema = z.uuidv7("Identifiant d'origine invalide.")
 
 export async function deleteOrigin(
   originID: string,
 ): Promise<{ success: boolean; error?: string }> {
+  const parsed = originIdSchema.safeParse(originID)
+  if (!parsed.success) {
+    return { success: false, error: "Identifiant d'origine invalide." }
+  }
+
   try {
     const cookieStore = await cookies()
     const res = await fetch(`${process.env.API_URL}/dashboard/origins/${originID}`, {

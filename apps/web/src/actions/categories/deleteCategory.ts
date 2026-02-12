@@ -2,12 +2,15 @@
 
 import { revalidateTag } from "next/cache"
 import { cookies } from "next/headers"
+import { z } from "zod"
+
+const categoryIdSchema = z.uuidv7("Identifiant de catégorie invalide.")
 
 export async function deleteCategory(
   categoryID: string,
 ): Promise<{ success: boolean; error?: string }> {
-  const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
-  if (!categoryID || typeof categoryID !== "string" || !uuidRegex.test(categoryID)) {
+  const parsed = categoryIdSchema.safeParse(categoryID)
+  if (!parsed.success) {
     return { success: false, error: "Identifiant de catégorie invalide." }
   }
 
