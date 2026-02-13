@@ -39,7 +39,7 @@ export const Radio = withForm({
     label: "",
     options: [],
   } as RadioProps,
-  render: ({ form, name, label, options, disabled }) => {
+  render: function Render({ form, name, label, options, disabled }) {
     return (
       <form.AppField name={name}>
         {(field) => <field.RadioField {...{ name, label, options, disabled }} />}
