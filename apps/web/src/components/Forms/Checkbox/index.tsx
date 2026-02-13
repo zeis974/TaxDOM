@@ -37,16 +37,18 @@ export const Checkbox = withForm({
     label: "",
     name: "" as CheckboxProps["name"],
   } as CheckboxProps,
-  render: ({ form, disabled, label, name }) => (
-    <form.AppField
-      name={name}
-      validators={{
-        onSubmit: ({ value }) => {
-          if (!value) return "Champs requis"
-        },
-      }}
-    >
-      {(field) => <field.CheckboxField {...{ disabled, label, name }} />}
-    </form.AppField>
-  ),
+  render: function Render({ form, disabled, label, name }) {
+    return (
+      <form.AppField
+        name={name}
+        validators={{
+          onSubmit: ({ value }) => {
+            if (!value) return "Champs requis"
+          },
+        }}
+      >
+        {(field) => <field.CheckboxField {...{ disabled, label, name }} />}
+      </form.AppField>
+    )
+  },
 })
