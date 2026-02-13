@@ -12,7 +12,7 @@ export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding-bottom: 24px;
   background: token(colors.background);
   position: sticky;
   top: 0;
