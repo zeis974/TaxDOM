@@ -1,7 +1,7 @@
 import { AnimatePresence } from "motion/react"
 import dynamic from "next/dynamic"
 
-import { formOpts, withForm } from "@/hooks/form"
+import { parcelFormOpts, withForm } from "@/hooks/form"
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
 import { Input, Select } from "@/components/Forms"
@@ -22,15 +22,21 @@ import {
 } from "./ParcelSimulatorCards.styled"
 
 export const ParcelSimulatorCards = withForm({
-  ...formOpts,
+  ...parcelFormOpts,
   render: function Render({ form }) {
     const hasResult = useParcelSimulatorStore((s) => s.hasResult)
 
     return (
       <Container>
         <ParcelContent>
-          <form.Subscribe selector={(s) => s}>
-            {({ values: { deliveryPrice, products, territory } }) => {
+          <form.Subscribe
+            selector={(s) => ({
+              products: s.values.products,
+              deliveryPrice: s.values.deliveryPrice,
+              territory: s.values.territory,
+            })}
+          >
+            {({ products, deliveryPrice, territory }) => {
               const allProductPrice = products.reduce((acc, product) => {
                 const price = Number.parseFloat(product.price?.toString() || "0") || 0
 

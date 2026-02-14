@@ -1,16 +1,14 @@
 "use client"
 
-import { mergeForm, useTransform } from "@tanstack/react-form"
-import { initialFormState } from "@tanstack/react-form/nextjs"
+import { mergeForm } from "@tanstack/react-form"
+import { initialFormState, useTransform } from "@tanstack/react-form-nextjs"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
 import calculateParcel from "@/actions/calculateParcel"
-import { formOpts, useAppForm } from "@/hooks/form"
+import { parcelFormOpts, useAppForm } from "@/hooks/form"
 import Turnstile from "@/lib/Turnstile"
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
-
-import { OriginData, TerritoryData, TransporterData } from "@taxdom/types"
 
 import { Input, Radio, Select } from "@/components/Forms"
 import { ParcelSimulatorCards } from "../ParcelSimulatorCards"
@@ -47,7 +45,7 @@ export default function ParcelSimulator() {
   }, [setHasResult, setResult, state])
 
   const form = useAppForm({
-    ...formOpts,
+    ...parcelFormOpts,
     transform: useTransform((baseForm) => mergeForm(baseForm, state ?? {}), [state]),
     onSubmit: async ({ value }) => {
       if (value.products.length === 0) {
@@ -60,19 +58,12 @@ export default function ParcelSimulator() {
     <Container>
       <form action={action} onSubmit={() => form.handleSubmit()}>
         <div>
-          <Select
-            {...{ form }}
-            name="origin"
-            label="Origine"
-            placeholder="EU"
-            staticOptions={[...OriginData]}
-          />
+          <Select {...{ form }} name="origin" label="Origine" placeholder="EU" />
           <Select
             {...{ form }}
             name="territory"
             label="Territoire d'application"
             placeholder="REUNION"
-            staticOptions={[...TerritoryData]}
           />
           <Radio
             {...{ form }}
@@ -80,13 +71,7 @@ export default function ParcelSimulator() {
             label="Envoi entre particulier ?"
             options={["Oui", "Non"]}
           />
-          <Select
-            {...{ form }}
-            name="transporter"
-            label="Transporteur"
-            placeholder="COLISSIMO"
-            staticOptions={[...TransporterData]}
-          />
+          <Select {...{ form }} name="transporter" label="Transporteur" placeholder="COLISSIMO" />
           <Input
             {...{ form }}
             name="deliveryPrice"

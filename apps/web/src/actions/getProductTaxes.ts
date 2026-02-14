@@ -1,12 +1,12 @@
 "use server"
 
-import { ServerValidateError, createServerValidate } from "@tanstack/react-form/nextjs"
+import { ServerValidateError, createServerValidate } from "@tanstack/react-form-nextjs"
 
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
-import { formOpts } from "@/hooks/form"
+import { taxFormOpts } from "@/shared/formOpts"
 
 const serverValidate = createServerValidate({
-  ...formOpts,
+  ...taxFormOpts,
   onServerValidate: ({ value }) => {
     if (value.territory !== "REUNION") {
       return "For now we only support one territory"
@@ -42,13 +42,7 @@ export default async function getProductTaxes(prev: unknown, formData: FormData)
     return res
   } catch (e) {
     if (e instanceof ServerValidateError) {
-      return {
-        errors: [
-          {
-            message: e.formState.errors[0],
-          },
-        ],
-      }
+      return e.formState
     }
 
     throw e

@@ -2,14 +2,13 @@
 
 import type { TaxSimulatorFormLabel } from "../types"
 
-import { mergeForm, useTransform } from "@tanstack/react-form"
-import { initialFormState } from "@tanstack/react-form/nextjs"
-import { OriginData, TerritoryData } from "@taxdom/types"
+import { mergeForm } from "@tanstack/react-form"
+import { initialFormState, useTransform } from "@tanstack/react-form-nextjs"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
 import getProductTaxes from "@/actions/getProductTaxes"
-import { formOpts, useAppForm } from "@/hooks/form"
+import { taxFormOpts, useAppForm } from "@/hooks/form"
 import Turnstile from "@/lib/Turnstile"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
@@ -35,7 +34,7 @@ export default function TaxSimulatorForm() {
   }, [setHasResult, setResult, state])
 
   const form = useAppForm({
-    ...formOpts,
+    ...taxFormOpts,
     transform: useTransform((baseForm) => mergeForm(baseForm, state), [state]),
     onSubmit: ({ value }) => {
       if (value["cf-turnstile-response"] === "") {
@@ -67,7 +66,6 @@ export default function TaxSimulatorForm() {
         name="origin"
         label="Territoire d'origine"
         placeholder="EU"
-        staticOptions={[...OriginData]}
         actions={{
           handleOnFocus: handleFocusInput,
         }}
@@ -77,7 +75,6 @@ export default function TaxSimulatorForm() {
         name="territory"
         label="Territoire d'application"
         placeholder="Réunion"
-        staticOptions={[...TerritoryData]}
         actions={{
           handleOnFocus: handleFocusInput,
         }}

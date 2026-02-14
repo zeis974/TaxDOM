@@ -52,16 +52,18 @@ export const Input = withForm({
     type: "text",
     disabled: false,
   } as InputProps,
-  render: ({ form, name, label, placeholder, type, disabled }) => (
-    <form.AppField
-      name={name}
-      validators={{
-        onSubmit: ({ value }) => {
-          if (!value) return "Champs requis"
-        },
-      }}
-    >
-      {(field) => <field.InputField {...{ name, label, placeholder, type, disabled }} />}
-    </form.AppField>
-  ),
+  render: function Render({ form, name, label, placeholder, type, disabled }) {
+    return (
+      <form.AppField
+        name={name}
+        validators={{
+          onSubmit: ({ value }) => {
+            if (!value) return "Champs requis"
+          },
+        }}
+      >
+        {(field) => <field.InputField {...{ name, label, placeholder, type, disabled }} />}
+      </form.AppField>
+    )
+  },
 })
