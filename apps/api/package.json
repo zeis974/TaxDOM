@@ -39,7 +39,7 @@
     "@adonisjs/redis": "9.2.0",
     "@adonisjs/session": "7.7.1",
     "@vinejs/vine": "4.3.0",
-    "better-auth": "1.4.18",
+    "better-auth": "1.5.5",
     "drizzle-orm": "0.45.1",
     "luxon": "3.7.2",
     "pg": "8.20.0",
