@@ -8,7 +8,7 @@
     "build": "node ace build",
     "dev": "node ace serve --hmr",
     "typecheck": "tsc --noEmit",
-    "db:generate": "drizzle-kit generate && pnpx @better-auth/cli generate --config config/auth.ts --output database/auth-schema.ts --y",
+    "db:generate": "pnpm dlx auth generate --config config/auth.ts --output database/auth-schema.ts --y",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push"
   },
@@ -38,6 +38,7 @@
     "@adonisjs/limiter": "2.4.0",
     "@adonisjs/redis": "9.2.0",
     "@adonisjs/session": "7.7.1",
+    "@better-auth/drizzle-adapter": "1.5.5",
     "@vinejs/vine": "4.3.0",
     "better-auth": "1.5.5",
     "drizzle-orm": "0.45.1",
