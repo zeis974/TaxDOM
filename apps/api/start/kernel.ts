@@ -31,11 +31,6 @@ server.use([
 ])
 
 /**
- * The router middleware stack runs middleware on all the HTTP
- * requests with a registered route.
- */
-
-/**
  * Named middleware collection must be explicitly assigned to
  * the routes or the routes group.
  */

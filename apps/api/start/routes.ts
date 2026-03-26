@@ -13,78 +13,78 @@ import { middleware } from "#start/kernel"
 import {
   calculateParcelThrottle,
   getTemplatesThrottle,
+  searchProductsThrottle,
   transporterRulesThrottle,
 } from "#start/limiter"
 
-const CategoriesController = () => import("#controllers/CategoriesController")
-const OriginsController = () => import("#controllers/OriginsController")
-const CalculateParcelController = () => import("#controllers/CalculateParcelController")
-const GetTemplatesController = () => import("#controllers/GetTemplatesController")
-const SearchProductsController = () => import("#controllers/SearchProductsController")
-const ProductsController = () => import("#controllers/ProductsController")
-const TerritoriesController = () => import("#controllers/TerritoriesController")
-const TransportersController = () => import("#controllers/TransportersController")
-const TransporterRulesController = () => import("#controllers/TransporterRulesController")
+import { controllers } from "#generated/controllers"
 
-router.get("/products/search", [SearchProductsController])
+router.get("/products/search", [controllers.SearchProducts]).use([searchProductsThrottle])
 
 // Public endpoint to list origins (only names)
-router.get("/origins", [OriginsController, "list"])
+router.get("/origins", [controllers.Origins, "list"])
 
 router.group(() => {
   // router.post("/products/taxes", [GetProductTaxeController]).use([getProductsTaxesThrottle])
-  router.post("/simulator/parcel", [CalculateParcelController]).use([calculateParcelThrottle])
-  router.get("/simulator/templates", [GetTemplatesController]).use([getTemplatesThrottle])
+  router.post("/simulator/parcel", [controllers.CalculateParcel]).use([calculateParcelThrottle])
+  router.get("/simulator/templates", [controllers.GetTemplates]).use([getTemplatesThrottle])
 })
 
 // Dashboard protected routes
 router
   .group(() => {
-    router.get("/categories/count", [CategoriesController, "count"]).use(middleware.auth())
-    router.get("/categories/stats", [CategoriesController, "withStats"]).use(middleware.auth())
+    router.get("/categories/count", [controllers.Categories, "count"]).use(middleware.auth())
+    router.get("/categories/stats", [controllers.Categories, "withStats"]).use(middleware.auth())
 
-    router.get("/origins/count", [OriginsController, "count"]).use(middleware.auth())
-    router.get("/origins/top", [OriginsController, "top"]).use(middleware.auth())
+    router.get("/origins/count", [controllers.Origins, "count"]).use(middleware.auth())
+    router.get("/origins/top", [controllers.Origins, "top"]).use(middleware.auth())
 
-    router.get("/products/count", [ProductsController, "count"]).use(middleware.auth())
-    router.get("/products/recent", [ProductsController, "recent"]).use(middleware.auth())
+    router.get("/products/count", [controllers.Products, "count"]).use(middleware.auth())
+    router.get("/products/recent", [controllers.Products, "recent"]).use(middleware.auth())
     router
-      .get("/products/distribution", [ProductsController, "distribution"])
+      .get("/products/distribution", [controllers.Products, "distribution"])
       .use(middleware.auth())
 
-    router.get("/territories/count", [TerritoriesController, "count"]).use(middleware.auth())
-    router.get("/territories/top", [TerritoriesController, "top"]).use(middleware.auth())
+    router.get("/territories/count", [controllers.Territories, "count"]).use(middleware.auth())
+    router.get("/territories/top", [controllers.Territories, "top"]).use(middleware.auth())
 
-    router.get("/transporters/count", [TransportersController, "count"]).use(middleware.auth())
-    router.get("/transporters/list", [TransportersController, "list"]).use(middleware.auth())
+    router.get("/transporters/count", [controllers.Transporters, "count"]).use(middleware.auth())
+    router.get("/transporters/list", [controllers.Transporters, "list"]).use(middleware.auth())
 
     router
-      .resource("categories", CategoriesController)
+      .get("/flux", [controllers.Products, "listFlux"])
+      .use(middleware.auth({ verifySession: true }))
+    router
+      .get("/taxes", [controllers.Products, "listTaxes"])
+      .use(middleware.auth({ verifySession: true }))
+
+    router
+      .resource("categories", controllers.Categories)
       .use(
         ["index", "store", "show", "update", "destroy"],
         middleware.auth({ verifySession: true }),
       )
 
     router
-      .resource("origins", OriginsController)
+      .resource("origins", controllers.Origins)
       .use(["index", "store", "update", "destroy"], middleware.auth({ verifySession: true }))
 
     router
-      .resource("products", ProductsController)
+      .resource("products", controllers.Products)
       .use(
         ["index", "store", "show", "update", "destroy"],
         middleware.auth({ verifySession: true }),
       )
 
     router
-      .resource("territories", TerritoriesController)
+      .resource("territories", controllers.Territories)
       .use(
         ["index", "store", "show", "update", "destroy"],
         middleware.auth({ verifySession: true }),
       )
 
     router
-      .resource("transporters", TransportersController)
+      .resource("transporters", controllers.Transporters)
       .use(
         ["index", "store", "show", "update", "destroy"],
         middleware.auth({ verifySession: true }),
@@ -92,19 +92,19 @@ router
 
     // Transporter rules (flow and fee rules)
     router
-      .get("/transporters/:transporterId/rules", [TransporterRulesController, "show"])
+      .get("/transporters/:transporterId/rules", [controllers.TransporterRules, "show"])
       .use(middleware.auth({ verifySession: true }))
       .use([transporterRulesThrottle])
     router
-      .post("/transporters/:transporterId/rules/flow", [TransporterRulesController, "saveFlow"])
+      .post("/transporters/:transporterId/rules/flow", [controllers.TransporterRules, "saveFlow"])
       .use(middleware.auth({ verifySession: true }))
       .use([transporterRulesThrottle])
     router
-      .post("/transporters/:transporterId/rules/fees", [TransporterRulesController, "saveRules"])
+      .post("/transporters/:transporterId/rules/fees", [controllers.TransporterRules, "saveRules"])
       .use(middleware.auth({ verifySession: true }))
       .use([transporterRulesThrottle])
     router
-      .post("/transporters/:transporterId/rules", [TransporterRulesController, "saveAll"])
+      .post("/transporters/:transporterId/rules", [controllers.TransporterRules, "saveAll"])
       .use(middleware.auth({ verifySession: true }))
       .use([transporterRulesThrottle])
   })
