@@ -16,7 +16,7 @@ export default class Auth {
     const apiKey = Authorization?.match(/Bearer (.*)/)?.[1] ?? null
 
     if (options.verifySession) {
-      if (!apiKey || apiKey !== env.get("API_KEY")) {
+      if (!apiKey || apiKey !== env.get("API_KEY").release()) {
         return response.unauthorized({ error: "Invalid API key" })
       }
 
@@ -43,7 +43,7 @@ export default class Auth {
       return response.unauthorized({ error: "Unauthorized access" })
     }
 
-    if (apiKey && apiKey === env.get("API_KEY")) {
+    if (apiKey && apiKey === env.get("API_KEY").release()) {
       return await next()
     }
 
