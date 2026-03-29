@@ -9,3 +9,4 @@
 /// <reference path="../../config/limiter.ts" />
 /// <reference path="../../config/logger.ts" />
 /// <reference path="../../config/redis.ts" />
+/// <reference path="../../config/shield.ts" />
