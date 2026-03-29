@@ -1,4 +1,4 @@
-FROM node:24.12.0-alpine AS base
+FROM node:24.14.1-alpine AS base
 
 RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
 
