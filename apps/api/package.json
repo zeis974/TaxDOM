@@ -43,6 +43,7 @@
     "@adonisjs/limiter": "3.0.1",
     "@adonisjs/redis": "10.0.0",
     "@adonisjs/session": "8.0.0",
+    "@adonisjs/shield": "9.0.0",
     "@better-auth/drizzle-adapter": "1.5.5",
     "@vinejs/vine": "4.3.0",
     "better-auth": "1.5.5",
