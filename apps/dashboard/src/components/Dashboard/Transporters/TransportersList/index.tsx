@@ -1,0 +1,70 @@
+import type { Transporter } from "@taxdom/types"
+import TransporterCard from "@/components/Dashboard/Transporters/TransporterCard"
+import { Container, NoTransporters, TransportersContainer } from "./TransportersList.styled"
+
+interface TransportersListProps {
+  transporters: Transporter[]
+  onUpdate: (data: {
+    transporterID: string
+    transporterName: string
+    available: boolean
+  }) => Promise<unknown>
+  onDelete: (transporterID: string) => Promise<unknown>
+  isUpdating: boolean
+  isDeleting: boolean
+  updateErrors: string[]
+  deleteErrors: string[]
+}
+
+export default function TransportersList({
+  transporters,
+  onUpdate,
+  onDelete,
+  isUpdating,
+  isDeleting,
+  updateErrors,
+  deleteErrors,
+}: TransportersListProps) {
+  if (transporters.length === 0) {
+    return (
+      <NoTransporters>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
+          />
+        </svg>
+        <h3>Aucun transporteur disponible</h3>
+        <p>Ajoutez votre premier transporteur en cliquant sur le bouton ci-dessus.</p>
+      </NoTransporters>
+    )
+  }
+
+  return (
+    <Container>
+      <TransportersContainer>
+        {transporters.map((transporter: Transporter) => (
+          <div key={transporter.transporterID}>
+            <TransporterCard
+              transporter={transporter}
+              editable
+              onUpdate={onUpdate}
+              onDelete={onDelete}
+              isUpdating={isUpdating}
+              isDeleting={isDeleting}
+              updateErrors={updateErrors}
+              deleteErrors={deleteErrors}
+            />
+          </div>
+        ))}
+      </TransportersContainer>
+    </Container>
+  )
+}

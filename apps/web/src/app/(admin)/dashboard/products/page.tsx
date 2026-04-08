@@ -13,9 +13,8 @@ export default async function ProductsPage() {
   const headersList = await headers()
   const cookie = headersList.get("cookie") || ""
 
-  const response = await fetch(`${process.env.API_URL}/dashboard/products`, {
+  const response = await fetch(`${process.env.API_URL}/v1/admin/products`, {
     headers: {
-      Authorization: `Bearer ${process.env.API_KEY}`,
       "Content-Type": "application/json",
       Cookie: cookie,
     },
