@@ -1,4 +1,5 @@
-import { styled } from "@/styled-system/jsx"
+import { styled } from "@/panda/jsx"
+
 export const FlowContainer = styled.div`
   width: 100%;
   height: 100%;

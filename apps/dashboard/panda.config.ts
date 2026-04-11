@@ -15,7 +15,7 @@ export default defineConfig({
     "./src/components/**/*.{ts,tsx,js,jsx}",
     "./src/routes/**/*.{ts,tsx,js,jsx}",
   ],
-  exclude: [],
+  importMap: "@/panda",
   theme: {
     semanticTokens,
     tokens,
