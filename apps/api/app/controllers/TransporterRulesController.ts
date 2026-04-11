@@ -11,6 +11,7 @@ import {
 } from "../validators/TransporterRulesValidator.js"
 
 import { db } from "#config/database"
+import type { AuthenticatedUser } from "#types/http"
 
 import {
   transporterFeeRules,
@@ -45,11 +46,8 @@ interface ValidatedFeeRule {
   priority: number
 }
 
-function getAuthenticatedUser(ctx: HttpContext): { id?: string; email?: string } | null {
-  return (
-    ((ctx as Record<string, unknown>).__authenticatedUser as { id?: string; email?: string }) ??
-    null
-  )
+function getAuthenticatedUser(ctx: HttpContext): AuthenticatedUser | null {
+  return ctx.authenticatedUser
 }
 
 const UUID_V7_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i
