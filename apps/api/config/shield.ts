@@ -3,7 +3,7 @@ import { defineConfig } from "@adonisjs/shield"
 const shieldConfig = defineConfig({
   /**
    * CSRF — Disabled for API. CSRF protection is designed for
-   * server-rendered forms. This API uses Bearer tokens + session
+   * server-rendered forms. This API uses session
    * cookies with SameSite/secure attributes instead.
    */
   csrf: {

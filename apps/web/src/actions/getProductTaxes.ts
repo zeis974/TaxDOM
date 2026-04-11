@@ -34,7 +34,6 @@ export default async function getProductTaxes(prev: unknown, formData: FormData)
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.API_KEY}`,
       },
       body: JSON.stringify(value),
     }).then((res) => res.json())
