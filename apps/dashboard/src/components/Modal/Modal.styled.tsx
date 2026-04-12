@@ -1,5 +1,5 @@
 import * as m from "motion/react-m"
-import { styled } from "@/styled-system/jsx"
+import { styled } from "@/panda/jsx"
 
 export const ModalContainer = styled(m.div)`
   color: token(colors.primary);

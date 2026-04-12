@@ -4,6 +4,7 @@ import { keyframes, semanticTokens } from "./theme"
 
 export default defineConfig({
   eject: true,
+  preflight: false,
   presets: [],
   hash: {
     className: true,

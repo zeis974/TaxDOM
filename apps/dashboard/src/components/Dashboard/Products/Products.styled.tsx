@@ -1,4 +1,5 @@
-import { styled } from "@/styled-system/jsx"
+import { styled } from "@/panda/jsx"
+
 export const Container = styled.div`
   color: token(colors.primary);
   font-family: token(fonts.nativeFont);

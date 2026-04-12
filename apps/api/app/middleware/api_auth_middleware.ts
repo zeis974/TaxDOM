@@ -3,50 +3,44 @@ import logger from "@adonisjs/core/services/logger"
 import type { NextFn } from "@adonisjs/core/types/http"
 
 import { auth } from "#config/auth"
-import env from "#start/env"
 
 export default class Auth {
-  async handle(
-    ctx: HttpContext,
-    next: NextFn,
-    options: { verifySession: boolean } = { verifySession: false },
-  ) {
+  async handle(ctx: HttpContext, next: NextFn) {
     const { request, response } = ctx
-    const Authorization = request.header("Authorization")
-    const apiKey = Authorization?.match(/Bearer (.*)/)?.[1] ?? null
 
-    if (options.verifySession) {
-      if (!apiKey || apiKey !== env.get("API_KEY").release()) {
-        return response.unauthorized({ error: "Invalid API key" })
+    ctx.authenticatedUser = null
+
+    const headers = new Headers()
+    for (const [key, value] of Object.entries(request.headers())) {
+      if (value) {
+        headers.set(key, Array.isArray(value) ? value.join(", ") : value)
       }
+    }
 
-      try {
-        const headers = new Headers()
-        for (const [key, value] of Object.entries(request.headers())) {
-          if (value) {
-            headers.set(key, Array.isArray(value) ? value.join(", ") : value)
-          }
-        }
+    let session: Awaited<ReturnType<typeof auth.api.getSession>>
+    try {
+      session = await auth.api.getSession({
+        headers,
+      })
+    } catch (err) {
+      logger.error({ err }, "[AUTH]: Failed to validate session")
+      return response.status(500).json({ error: "Authentication check failed" })
+    }
 
-        const session = await auth.api.getSession({
-          headers,
-        })
-
-        if (session?.user?.role === "admin") {
-          ;(ctx as Record<string, unknown>).__authenticatedUser = session.user
-          return await next()
-        }
-      } catch (err) {
-        logger.error(err)
-      }
-
+    if (!session?.user) {
       return response.unauthorized({ error: "Unauthorized access" })
     }
 
-    if (apiKey && apiKey === env.get("API_KEY").release()) {
-      return await next()
+    if (session.user.role !== "admin") {
+      return response.status(403).json({ error: "Admin access required" })
     }
 
-    return response.unauthorized({ error: "Invalid API key" })
+    ctx.authenticatedUser = {
+      id: session.user.id,
+      email: session.user.email,
+      role: session.user.role ?? null,
+    }
+
+    return next()
   }
 }

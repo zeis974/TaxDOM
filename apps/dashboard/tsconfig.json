@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@/styled-system*": ["styled-system/*"]
+      "@/panda/*": ["styled-system/*"]
     },
     "skipLibCheck": true,
     "strict": true,
