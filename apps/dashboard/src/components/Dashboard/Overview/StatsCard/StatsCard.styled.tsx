@@ -1,4 +1,4 @@
-import { styled } from "@/styled-system/jsx"
+import { styled } from "@/panda/jsx"
 
 export const Card = styled.div`
   background: token(colors.secondaryBackground);

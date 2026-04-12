@@ -1,4 +1,4 @@
-import { styled } from "@/styled-system/jsx"
+import { styled } from "@/panda/jsx"
 
 export const PageContainerBase = styled.div`
   color: token(colors.primary);

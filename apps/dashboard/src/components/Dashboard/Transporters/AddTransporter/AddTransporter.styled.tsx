@@ -1,4 +1,5 @@
-import { styled } from "@/styled-system/jsx"
+import { styled } from "@/panda/jsx"
+
 export const AddTransporterBtn = styled.button`
   display: flex;
   align-items: center;

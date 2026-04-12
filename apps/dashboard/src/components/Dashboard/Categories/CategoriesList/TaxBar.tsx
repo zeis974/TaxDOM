@@ -1,3 +1,4 @@
+import { styled } from "@/panda/jsx"
 import type { Category } from "@taxdom/types"
 import {
   Container,
