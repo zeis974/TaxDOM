@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "panda codegen && vite build",
     "preview": "vite preview",
-    "lint": "biome check ."
+    "lint": "biome check .",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@tanstack/react-form": "1.28.6",

@@ -12,6 +12,7 @@
     "build": "node ace build",
     "dev": "node ace serve --hmr",
     "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
     "db:generate": "pnpm dlx auth generate --config config/auth.ts --output database/auth-schema.ts --y",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push"
