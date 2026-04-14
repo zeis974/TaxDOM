@@ -29,10 +29,6 @@ export default function NavLinks() {
       name: "Blog",
       href: "/blog",
     },
-    {
-      name: "Contribuer",
-      href: "/contributes",
-    },
   ]
 
   const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {

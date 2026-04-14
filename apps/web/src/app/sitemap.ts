@@ -15,12 +15,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: "https://taxdom.re/contribute",
-      lastModified: new Date(),
-      changeFrequency: "never",
-      priority: 0.5,
-    },
-    {
       url: "https://taxdom.re/blog",
       lastModified: new Date(),
       changeFrequency: "weekly",
