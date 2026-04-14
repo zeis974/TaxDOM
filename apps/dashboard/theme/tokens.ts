@@ -1,0 +1,17 @@
+import { defineTokens } from "@pandacss/dev"
+
+export const tokens = defineTokens({
+  fonts: {
+    nativeFont: {
+      value:
+        '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
+    },
+    Rowdies: {
+      value: "var(--rowdies), serif",
+    },
+  },
+  sizes: {
+    navbarHeight: { value: "95px" },
+    maxWidth: { value: "2400px" },
+  },
+})

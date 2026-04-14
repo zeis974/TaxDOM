@@ -1,6 +1,5 @@
 export default function SettingIcon() {
   return (
-    // biome-ignore lint/a11y/noSvgWithoutTitle: No need title
     <svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <g fill="none" stroke="currentColor" strokeWidth="1.5">
         <circle cx="12" cy="12" r="3" />

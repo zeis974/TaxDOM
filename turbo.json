@@ -1,16 +1,16 @@
 {
-  "$schema": "https://turbo.build/schema.json",
-  "globalEnv": ["API_URL", "API_KEY", "NEXT_TURNSTILE_SECRET_KEY"],
+  "$schema": "./node_modules/turbo/schema.json",
   "tasks": {
     "build": {
-      "outputs": [".next/**", "build", "!.next/cache/**"],
-      "dependsOn": ["^lint"]
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "!.next/cache/**", "dist/**", ".adonisjs/**"]
     },
     "dev": {
       "cache": false,
       "persistent": true
     },
-    "lint": {
+    "lint": {},
+    "typecheck": {
       "dependsOn": ["^build"]
     }
   }

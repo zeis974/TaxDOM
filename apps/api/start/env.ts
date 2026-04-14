@@ -14,8 +14,7 @@ import { Env } from "@adonisjs/core/env"
 export default await Env.create(new URL("../", import.meta.url), {
   NODE_ENV: Env.schema.enum(["development", "production", "test"] as const),
   PORT: Env.schema.number(),
-  API_KEY: Env.schema.string(),
-  APP_KEY: Env.schema.string(),
+  APP_KEY: Env.schema.secret(),
   HOST: Env.schema.string({ format: "host" }),
   LOG_LEVEL: Env.schema.enum(["fatal", "error", "warn", "info", "debug", "trace"]),
 
@@ -43,4 +42,15 @@ export default await Env.create(new URL("../", import.meta.url), {
   REDIS_HOST: Env.schema.string({ format: "host" }),
   REDIS_PORT: Env.schema.number(),
   REDIS_PASSWORD: Env.schema.string.optional(),
+
+  /*
+  |----------------------------------------------------------
+  | Variables for authentification
+  |----------------------------------------------------------
+  */
+  BETTER_AUTH_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
+  BETTER_AUTH_SECRET: Env.schema.string(),
+  GOOGLE_CLIENT_ID: Env.schema.string(),
+  GOOGLE_CLIENT_SECRET: Env.schema.string(),
+  TRUSTED_ORIGIN_URL: Env.schema.string(),
 })

@@ -23,18 +23,13 @@ server.errorHandler(() => import("#exceptions/handler"))
  * the request URL.
  */
 server.use([
+  () => import("@adonisjs/cors/cors_middleware"),
+  () => import("@adonisjs/shield/shield_middleware"),
+  () => import("#middleware/security_headers_middleware"),
+  () => import("#middleware/better_auth_middleware"),
+  () => import("@adonisjs/core/bodyparser_middleware"),
   () => import("#middleware/container_bindings_middleware"),
   () => import("#middleware/force_json_response_middleware"),
-  () => import("@adonisjs/cors/cors_middleware"),
-])
-
-/**
- * The router middleware stack runs middleware on all the HTTP
- * requests with a registered route.
- */
-router.use([
-  () => import("@adonisjs/core/bodyparser_middleware"),
-  () => import("@adonisjs/session/session_middleware"),
 ])
 
 /**
@@ -42,5 +37,5 @@ router.use([
  * the routes or the routes group.
  */
 export const middleware = router.named({
-  auth: () => import("#middleware/auth"),
+  auth: () => import("#middleware/api_auth_middleware"),
 })

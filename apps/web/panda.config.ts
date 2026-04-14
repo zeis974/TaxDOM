@@ -4,6 +4,7 @@ import { keyframes, semanticTokens, tokens, utilities } from "./theme"
 
 export default defineConfig({
   eject: true,
+  preflight: false,
   presets: [],
   hash: true,
   minify: true,
@@ -29,7 +30,6 @@ export default defineConfig({
   },
   globalCss: {
     body: {
-      height: "100dvh",
       backgroundColor: "{colors.background}",
     },
   },

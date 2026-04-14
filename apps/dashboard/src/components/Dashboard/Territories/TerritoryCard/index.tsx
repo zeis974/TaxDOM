@@ -1,0 +1,257 @@
+import type { Territory } from "@taxdom/types"
+import { useMemo, useState } from "react"
+import { Drawer } from "vaul"
+import { useCardDrawer } from "@/hooks/useCardDrawer"
+import Button from "@/components/ui/Button"
+import { useEntityMutations } from "@/hooks/useEntityMutations"
+import {
+  ActionsGroup,
+  Card,
+  CardHeader,
+  CardInfo,
+  CardTitle,
+  ClickableCard,
+  DeleteButton,
+  DetailIcon,
+  DetailLabel,
+  DetailList,
+  DetailRow,
+  DetailValue,
+  DetailValueInput,
+  DrawerBody,
+  DrawerCloseButton,
+  DrawerContent,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerHeaderContent,
+  DrawerOverlay,
+  DrawerSection,
+  DrawerSubtitle,
+  DrawerTitle,
+  ErrorContainer,
+  StatusBadge,
+  StatusTagButton,
+} from "./TerritoryCard.styled"
+
+type Props = {
+  territory: Territory
+  editable?: boolean
+}
+
+export default function TerritoryCard({ territory, editable = false }: Props) {
+  const drawer = useCardDrawer()
+  const [territoryName, setTerritoryName] = useState(territory.territoryName)
+  const [available, setAvailable] = useState(territory.available)
+
+  const { updateMutation, deleteMutation } = useEntityMutations({
+    queryKey: ["territories"],
+    messages: {
+      create: "Territoire créé avec succès",
+      update: "Territoire mis à jour",
+      delete: "Territoire supprimé",
+    },
+  })
+
+  const isFormValid = useMemo(() => Boolean(territoryName.trim()), [territoryName])
+
+  const handleCardClick = () => {
+    if (!editable) return
+    setTerritoryName(territory.territoryName)
+    setAvailable(territory.available)
+    drawer.openDrawer()
+  }
+
+  const handleOpenChange = (nextOpen: boolean) => {
+    if (nextOpen) {
+      drawer.setOpen(true)
+    } else {
+      drawer.closeDrawer()
+    }
+  }
+
+  const handleSave = async () => {
+    if (!isFormValid) return
+    await updateMutation.mutateAsync({
+      url: `/v1/admin/territories/${territory.territoryID}`,
+      body: {
+        territoryID: territory.territoryID,
+        territoryName: territoryName.trim(),
+        available,
+      },
+    })
+    drawer.closeDrawer()
+  }
+
+  const handleDelete = async () => {
+    if (drawer.isDeletingLocal) return
+    drawer.setIsDeletingLocal(true)
+    drawer.setDeleteError(null)
+    try {
+      await deleteMutation.mutateAsync(`/v1/admin/territories/${territory.territoryID}`)
+      drawer.closeDrawer()
+    } catch {
+      drawer.setDeleteError("Erreur lors de la suppression")
+    }
+    drawer.setIsDeletingLocal(false)
+  }
+
+  const updateErrors = updateMutation.error ? ["Erreur lors de la mise à jour"] : []
+  const deleteErrors = deleteMutation.error ? ["Erreur lors de la suppression"] : []
+
+  const renderCardContent = (
+    <>
+      <CardHeader>
+        <CardTitle title={territory.territoryName}>{territory.territoryName}</CardTitle>
+      </CardHeader>
+      <StatusBadge data-active={territory.available}>
+        {territory.available ? "Activé" : "Désactivé"}
+      </StatusBadge>
+      <CardInfo>ID: {territory.territoryID}</CardInfo>
+    </>
+  )
+
+  return (
+    <>
+      {editable ? (
+        <ClickableCard type="button" onClick={handleCardClick} data-clickable>
+          {renderCardContent}
+        </ClickableCard>
+      ) : (
+        <Card>{renderCardContent}</Card>
+      )}
+      {editable && (
+        <Drawer.Root open={drawer.open} onOpenChange={handleOpenChange} direction="right">
+          <Drawer.Portal>
+            <DrawerOverlay />
+            <Drawer.Content asChild>
+              <DrawerContent>
+                <DrawerHeader>
+                  <DrawerHeaderContent>
+                    <DrawerTitle>{territory.territoryName}</DrawerTitle>
+                    <DrawerSubtitle>#{territory.territoryID}</DrawerSubtitle>
+                  </DrawerHeaderContent>
+                  <Drawer.Close asChild>
+                    <DrawerCloseButton aria-label="Fermer">&times;</DrawerCloseButton>
+                  </Drawer.Close>
+                </DrawerHeader>
+                <DrawerBody>
+                  <DrawerSection>
+                    <DetailList>
+                      <DetailRow>
+                        <DetailLabel>
+                          <DetailIcon>
+                            <svg
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              width="16"
+                              height="16"
+                            >
+                              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                              <polyline points="14 2 14 8 20 8" />
+                            </svg>
+                          </DetailIcon>
+                          Nom
+                        </DetailLabel>
+                        <DetailValue>
+                          {drawer.isEditing ? (
+                            <DetailValueInput
+                              type="text"
+                              value={territoryName}
+                              onChange={(e) => setTerritoryName(e.target.value)}
+                            />
+                          ) : (
+                            territoryName
+                          )}
+                        </DetailValue>
+                      </DetailRow>
+                      <DetailRow>
+                        <DetailLabel>
+                          <DetailIcon>
+                            <svg
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              width="16"
+                              height="16"
+                            >
+                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                              <polyline points="22 4 12 14.01 9 11" />
+                            </svg>
+                          </DetailIcon>
+                          Statut
+                        </DetailLabel>
+                        <DetailValue>
+                          {drawer.isEditing ? (
+                            <div style={{ display: "flex", gap: 8 }}>
+                              <StatusTagButton
+                                type="button"
+                                data-active={available}
+                                onClick={() => setAvailable(true)}
+                              >
+                                Oui
+                              </StatusTagButton>
+                              <StatusTagButton
+                                type="button"
+                                data-active={!available}
+                                onClick={() => setAvailable(false)}
+                              >
+                                Non
+                              </StatusTagButton>
+                            </div>
+                          ) : (
+                            <StatusBadge data-active={available}>
+                              {available ? "Activé" : "Désactivé"}
+                            </StatusBadge>
+                          )}
+                        </DetailValue>
+                      </DetailRow>
+                    </DetailList>
+                  </DrawerSection>
+                </DrawerBody>
+                <DrawerFooter>
+                  <ErrorContainer>
+                    {updateErrors.map((err, i) => (
+                      <span key={i}>{err}</span>
+                    ))}
+                    {drawer.deleteError && <span>{drawer.deleteError}</span>}
+                    {deleteErrors.map((err, i) => (
+                      <span key={i}>{err}</span>
+                    ))}
+                  </ErrorContainer>
+                  <ActionsGroup>
+                    <DeleteButton
+                      type="button"
+                      onClick={handleDelete}
+                      disabled={
+                        updateMutation.isPending ||
+                        deleteMutation.isPending ||
+                        drawer.isDeletingLocal
+                      }
+                    >
+                      {deleteMutation.isPending || drawer.isDeletingLocal
+                        ? "Suppression..."
+                        : "Supprimer"}
+                    </DeleteButton>
+                    <Drawer.Close asChild>
+                      <Button type="button">Annuler</Button>
+                    </Drawer.Close>
+                    <Button
+                      type="button"
+                      onClick={handleSave}
+                      aria-disabled={!isFormValid || updateMutation.isPending}
+                    >
+                      {updateMutation.isPending ? "Sauvegarde..." : "Sauvegarder"}
+                    </Button>
+                  </ActionsGroup>
+                </DrawerFooter>
+              </DrawerContent>
+            </Drawer.Content>
+          </Drawer.Portal>
+        </Drawer.Root>
+      )}
+    </>
+  )
+}

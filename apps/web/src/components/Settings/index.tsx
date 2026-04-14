@@ -1,12 +1,12 @@
 import { styled } from "@/panda/jsx"
 
-import ThemeSetting from "@/components/Settings/ThemeSettings"
+import ThemeSettings from "@/components/Settings/ThemeSettings"
 
 export default function Settings() {
   return (
-    <Section>
-      <ThemeSetting />
-    </Section>
+    <div>
+      <ThemeSettings />
+    </div>
   )
 }
 
