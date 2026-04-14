@@ -2,8 +2,8 @@ import Link from "next/link"
 
 import { Nav } from "./Navbar.styled"
 
-import Misc from "@/components/Navbar/Misc"
 import NavLinks from "@/components/Navbar/NavLinks"
+import SettingsButton from "@/components/Navbar/SettingsButton"
 
 export default function Navbar() {
   return (
@@ -12,7 +12,7 @@ export default function Navbar() {
         <Link href="/">TaxDOM</Link>
         <NavLinks />
       </div>
-      <Misc />
+      <SettingsButton />
     </Nav>
   )
 }
