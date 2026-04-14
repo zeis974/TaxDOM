@@ -2,7 +2,7 @@ import "../globals.css"
 
 import type { Metadata } from "next"
 import PlausibleProvider from "next-plausible"
-import { ThemeProvider } from "next-themes"
+import { ThemeProvider } from "@wrksz/themes/next"
 import localFont from "next/font/local"
 import { Toaster } from "sonner"
 
@@ -36,13 +36,13 @@ export default async function RootLayout({
   const isMobile = await useDetectDevice()
 
   return (
-    <html lang="fr" className={`${Rowdies.variable}`} suppressHydrationWarning>
       <head>
         <script crossOrigin="anonymous" src="//unpkg.com/react-scan/dist/auto.global.js" />
       </head>
+    <html lang="fr" className={`${Rowdies.variable}`}>
       <body>
         <PlausibleProvider domain="taxdom.re" customDomain="https://analytics.taxdom.re">
-          <ThemeProvider defaultTheme="system">
+          <ThemeProvider defaultTheme="system" storage="cookie">
             <QueryProvider>
               <LazyMotionProvider>
                 <Navbar />

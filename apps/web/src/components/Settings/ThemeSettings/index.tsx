@@ -1,8 +1,5 @@
-"use client"
-
-import { useEffect, useState, type JSX } from "react"
-
-import { useTheme } from "next-themes"
+import { useTheme } from "@wrksz/themes/client"
+import type { JSX } from "react"
 
 import DarkModeThemeIcon from "./ThemeIcons/DarkModeThemeIcon"
 import LightModeThemeIcon from "./ThemeIcons/LightModeThemeIcon"
@@ -36,14 +33,6 @@ const themes: ThemesProps[] = [
 
 export default function ThemeSettings() {
   const { setTheme, theme } = useTheme()
-  const [mounted, setMounted] = useState(false)
-
-  // theme is not defined on SSR, because we cannot know the theme on the server
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  if (!mounted) return null
 
   return (
     <Container>
