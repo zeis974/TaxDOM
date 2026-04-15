@@ -4,6 +4,7 @@ import { ServerValidateError, createServerValidate } from "@tanstack/react-form-
 
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
 import { taxFormOpts } from "@/shared/formOpts"
+import { TaxSimulatorFormSchema } from "@/components/services/TaxSimulator/types"
 
 const serverValidate = createServerValidate({
   ...taxFormOpts,
@@ -19,23 +20,30 @@ const serverValidate = createServerValidate({
 })
 
 export default async function getProductTaxes(prev: unknown, formData: FormData) {
-  const value = {
-    product: formData.get("product"),
-    origin: formData.get("origin"),
-    territory: formData.get("territory"),
-    token: formData.get("cf-turnstile-response"),
-  }
-
   try {
     await serverValidate(formData)
-    await validateTurnstileCaptcha(value.token as string)
+
+    const raw = {
+      product: formData.get("product") as string,
+      origin: formData.get("origin") as string,
+      territory: formData.get("territory") as string,
+      token: formData.get("cf-turnstile-response") as string,
+    }
+
+    const parsed = TaxSimulatorFormSchema.parse(raw)
+    await validateTurnstileCaptcha(parsed["cf-turnstile-response"])
 
     const res = await fetch(`${process.env.API_URL}/products/taxes`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(value),
+      body: JSON.stringify({
+        product: parsed.product,
+        origin: parsed.origin,
+        territory: parsed.territory,
+        token: parsed["cf-turnstile-response"],
+      }),
     }).then((res) => res.json())
 
     return res
