@@ -3,7 +3,7 @@ import { controllers } from "#generated/controllers"
 import { searchProductsThrottle } from "#start/limiter"
 
 export default function registerPublicProductsRoutes(router: HttpRouterService) {
-  const SearchProductsController = controllers.SearchProducts
+  const ProductsSearchController = controllers.ProductsSearch
 
-  router.get("/products/search", [SearchProductsController, "handle"]).use([searchProductsThrottle])
+  router.get("/products/search", [ProductsSearchController, "handle"]).use([searchProductsThrottle])
 }
