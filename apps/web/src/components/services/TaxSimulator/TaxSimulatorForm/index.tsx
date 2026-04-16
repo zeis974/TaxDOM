@@ -8,7 +8,6 @@ import { useQuery } from "@tanstack/react-query"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
-import type { SelectOption } from "@taxdom/types"
 import getProductTaxes from "@/actions/getProductTaxes"
 import { taxFormOpts, useAppForm } from "@/hooks/form"
 import { originQueryOptions } from "@/lib/origins"
@@ -57,7 +56,7 @@ export default function TaxSimulatorForm() {
         name="product"
         label="Produit"
         placeholder="Type de produit"
-        options={[] as SelectOption[]}
+        options={[]}
       />
       <Select
         {...{ form }}
