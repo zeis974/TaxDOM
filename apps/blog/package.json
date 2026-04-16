@@ -11,12 +11,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@astrojs/mdx": "4.3.13",
-    "@astrojs/react": "4.4.2",
+    "@astrojs/mdx": "5.0.3",
+    "@astrojs/react": "5.0.3",
     "@astrojs/sitemap": "3.7.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "astro": "5.17.3",
+    "astro": "6.1.7",
     "date-fns": "4.1.0",
     "motion": "12.38.0",
     "react": "19.2.5",

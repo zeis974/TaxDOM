@@ -8,16 +8,17 @@
     "dev": "turbo run dev",
     "dev:api": "pnpm --filter @taxdom/api dev",
     "dev:blog": "pnpm --filter @taxdom/blog dev",
+    "dev:dashboard": "pnpm --filter @taxdom/dashboard dev",
     "dev:db": "docker compose -f compose.dev.yml up -d --build db",
     "dev:web": "pnpm --filter @taxdom/app dev",
     "build": "turbo run build",
     "format": "biome format . --write"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.11",
+    "@biomejs/biome": "2.4.12",
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
-    "turbo": "2.9.5",
+    "turbo": "2.9.6",
     "typescript": "6.0.2"
   },
   "engines": {

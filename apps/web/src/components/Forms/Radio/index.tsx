@@ -18,9 +18,9 @@ export default function RadioField({ name, label, options, disabled = false }: R
                 type="radio"
                 id={option}
                 name={field.name}
-                value={field.state.value}
-                onClick={() => field.setValue(option)}
-                defaultChecked={field.state.value === option}
+                value={option}
+                checked={field.state.value === option}
+                onChange={() => field.setValue(option)}
                 disabled={disabled}
               />
               <label htmlFor={option}>{option.toString()}</label>

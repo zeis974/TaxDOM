@@ -69,9 +69,7 @@ export const ParcelSimulatorCards = withForm({
                     name={`products[${i}].name`}
                     label="Produit"
                     placeholder="Type de produit"
-                    actions={{
-                      dynamic: true,
-                    }}
+                    options={[]}
                   />
                   <Input
                     {...{ form }}

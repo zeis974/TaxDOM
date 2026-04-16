@@ -1,16 +1,15 @@
 "use server"
 
-import type { ParcelSimulatorFormValues } from "@/components/services/ParcelSimulator/types"
-
-import { ServerValidateError, createServerValidate } from "@tanstack/react-form/nextjs"
+import { ServerValidateError, createServerValidate } from "@tanstack/react-form-nextjs"
 
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
-import { formOpts } from "@/hooks/form"
+import { parcelFormOpts } from "@/shared/formOpts"
+import { ParcelSimulatorSchema } from "@/components/services/ParcelSimulator/types"
 
 const serverValidate = createServerValidate({
-  ...formOpts,
+  ...parcelFormOpts,
   onServerValidate: ({ value }) => {
-    if (!value.products) {
+    if (!value.products || value.products.length === 0) {
       return "Please add at least one product"
     }
 
@@ -21,34 +20,43 @@ const serverValidate = createServerValidate({
 })
 
 export default async function calculateParcel(prev: unknown, formData: FormData) {
-  const products: ParcelSimulatorFormValues["products"] = []
+  const raw = {
+    customer: formData.get("customer") as string,
+    deliveryPrice: formData.get("deliveryPrice") as string,
+    origin: formData.get("origin") as string,
+    territory: formData.get("territory") as string,
+    transporter: formData.get("transporter") as string,
+    "cf-turnstile-response": formData.get("cf-turnstile-response") as string,
+    products: [] as { name: string; price: number }[],
+    enterprise:
+      formData.get("enterprise") === "on"
+        ? true
+        : formData.get("enterprise") === "true"
+          ? true
+          : false,
+    taxPaid:
+      formData.get("taxPaid") === "on" ? true : formData.get("taxPaid") === "true" ? true : false,
+  }
+
   formData.forEach((value, key) => {
-    if (key.startsWith("products[")) {
-      const index = key.match(/products\[(\d+)\]\.(\w+)/)
-      if (index) {
-        const field = index[2] as keyof ParcelSimulatorFormValues["products"][number]
-        const indexNumber = Number.parseInt(index[1], 10)
-        products[indexNumber] =
-          products[indexNumber] || ({} as ParcelSimulatorFormValues["products"][number])
-        // @ts-ignore
-        products[indexNumber][field] = value
+    const productsMatch = key.match(/^products\[(\d+)\]\.(\w+)$/)
+    if (productsMatch) {
+      const index = Number.parseInt(productsMatch[1], 10)
+      const field = productsMatch[2] as "name" | "price"
+      raw.products[index] = raw.products[index] || { name: "", price: 0 }
+      if (field === "price") {
+        raw.products[index].price = Number(value)
+      } else {
+        raw.products[index][field] = value as string
       }
     }
   })
 
-  const value = {
-    customer: formData.get("customer"),
-    deliveryPrice: formData.get("deliveryPrice"),
-    origin: formData.get("origin"),
-    products,
-    territory: formData.get("territory"),
-    transporter: formData.get("transporter"),
-    token: formData.get("cf-turnstile-response"),
-  }
-
   try {
     await serverValidate(formData)
-    await validateTurnstileCaptcha(value.token as string)
+
+    const parsed = ParcelSimulatorSchema.parse(raw)
+    await validateTurnstileCaptcha(parsed["cf-turnstile-response"])
 
     const res = await fetch(`${process.env.API_URL}/simulator/parcel`, {
       method: "POST",
@@ -56,7 +64,15 @@ export default async function calculateParcel(prev: unknown, formData: FormData)
         "Content-Type": "application/json",
         Authorization: `Bearer ${process.env.API_KEY}`,
       },
-      body: JSON.stringify(value),
+      body: JSON.stringify({
+        customer: parsed.customer,
+        deliveryPrice: parsed.deliveryPrice,
+        origin: parsed.origin,
+        products: parsed.products,
+        territory: parsed.territory,
+        transporter: parsed.transporter,
+        token: parsed["cf-turnstile-response"],
+      }),
     }).then((res) => res.json())
 
     return res
