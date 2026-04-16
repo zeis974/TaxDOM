@@ -2,11 +2,15 @@
 
 import { mergeForm } from "@tanstack/react-form"
 import { initialFormState, useTransform } from "@tanstack/react-form-nextjs"
+import { useQuery } from "@tanstack/react-query"
 import { useActionState, useEffect } from "react"
 import { toast } from "sonner"
 
 import calculateParcel from "@/actions/calculateParcel"
 import { parcelFormOpts, useAppForm } from "@/hooks/form"
+import { originQueryOptions } from "@/lib/origins"
+import { territoryQueryOptions } from "@/lib/territories"
+import { transporterQueryOptions } from "@/lib/transporters"
 import Turnstile from "@/lib/Turnstile"
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
@@ -21,7 +25,6 @@ export default function ParcelSimulator() {
   const setHasResult = useParcelSimulatorStore((s) => s.setHasResult)
   const setResult = useParcelSimulatorStore((s) => s.setResult)
 
-  // TODO: https://github.com/TanStack/form/issues/1018
   useEffect(() => {
     try {
       const errors = state.errors[0]?.message
@@ -54,16 +57,27 @@ export default function ParcelSimulator() {
     },
   })
 
+  const { data: originOptions = [] } = useQuery(originQueryOptions)
+  const { data: territoryOptions = [] } = useQuery(territoryQueryOptions)
+  const { data: transporterOptions = [] } = useQuery(transporterQueryOptions)
+
   return (
     <Container>
       <form action={action} onSubmit={() => form.handleSubmit()}>
         <div>
-          <Select {...{ form }} name="origin" label="Origine" placeholder="EU" />
+          <Select
+            {...{ form }}
+            name="origin"
+            label="Origine"
+            placeholder="EU"
+            options={originOptions}
+          />
           <Select
             {...{ form }}
             name="territory"
             label="Territoire d'application"
             placeholder="REUNION"
+            options={territoryOptions.map((t) => ({ name: t.territoryName, value: t.territoryID }))}
           />
           <Radio
             {...{ form }}
@@ -71,7 +85,13 @@ export default function ParcelSimulator() {
             label="Envoi entre particulier ?"
             options={["Oui", "Non"]}
           />
-          <Select {...{ form }} name="transporter" label="Transporteur" placeholder="COLISSIMO" />
+          <Select
+            {...{ form }}
+            name="transporter"
+            label="Transporteur"
+            placeholder="COLISSIMO"
+            options={transporterOptions}
+          />
           <Input
             {...{ form }}
             name="deliveryPrice"

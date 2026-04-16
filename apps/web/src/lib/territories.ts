@@ -1,20 +1,18 @@
-import type { Territory } from "@taxdom/types"
+import type { SelectOption, Territory } from "@taxdom/types"
+import { queryOptions } from "@tanstack/react-query"
 
 /**
  * Fetch all available territories from the server
  */
 export async function fetchTerritories(): Promise<Territory[]> {
   try {
-    const url = `${process.env.API_URL || process.env.NEXT_PUBLIC_API_URL}/dashboard/territories`
+    const url = `${process.env.API_URL || process.env.NEXT_PUBLIC_API_URL}/v1/admin/territories`
 
     const response = await fetch(url, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${process.env.API_KEY}`,
-      },
-      next: {
-        tags: ["territories"],
       },
     })
 
@@ -29,3 +27,9 @@ export async function fetchTerritories(): Promise<Territory[]> {
     return []
   }
 }
+
+export const territoryQueryOptions = queryOptions({
+  queryKey: ["territories"],
+  queryFn: fetchTerritories,
+  staleTime: 60 * 60 * 1000,
+})

@@ -3,16 +3,19 @@
 import { useVirtualizer } from "@tanstack/react-virtual"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
-import { useEffect, useRef, useState, type InputHTMLAttributes, type KeyboardEvent } from "react"
+import {
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type InputHTMLAttributes,
+  type KeyboardEvent,
+} from "react"
+
+import type { SelectOption } from "@taxdom/types"
 
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { LoadingCircle, OptionContainer } from "./Select.styled"
-
-export interface BaseOption {
-  name: string
-  available?: boolean
-  value?: string
-}
 
 type NativeInputProps = Omit<
   InputHTMLAttributes<HTMLInputElement>,
@@ -24,7 +27,7 @@ export interface BaseSelectProps extends NativeInputProps {
   name?: string
   label: string
   placeholder?: string
-  options: BaseOption[]
+  options: SelectOption[]
   value: string
   onChange: (value: string) => void
   onBlur?: () => void
@@ -36,46 +39,31 @@ export interface BaseSelectProps extends NativeInputProps {
 }
 
 interface OptionsListProps {
-  options: BaseOption[]
-  value: string
+  options: SelectOption[]
   onSelect: (value: string) => void
   selectedIndex: number
   setSelectedIndex: (index: number) => void
 }
 
-const OptionsList = ({
-  options,
-  value,
-  onSelect,
-  selectedIndex,
-  setSelectedIndex,
-}: OptionsListProps) => {
+const OptionsList = ({ options, onSelect, selectedIndex, setSelectedIndex }: OptionsListProps) => {
   const parentRef = useRef<HTMLUListElement>(null)
   const itemHeight = 35
   const maxVisibleItems = 6
 
-  const filteredOptions = options.filter((option) => {
-    const lowerCaseValue = value.toLowerCase()
-    const exactMatchFound =
-      lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
-    const lowerCaseOption = option.name.toLowerCase()
-    return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
-  })
-
-  const shouldVirtualize = filteredOptions.length > maxVisibleItems
+  const shouldVirtualize = options.length > maxVisibleItems
 
   const containerHeight = shouldVirtualize
     ? maxVisibleItems * itemHeight
-    : filteredOptions.length * itemHeight
+    : options.length * itemHeight
 
   const virtualizer = useVirtualizer({
-    count: filteredOptions.length,
+    count: options.length,
     getScrollElement: () => parentRef.current,
     estimateSize: () => itemHeight,
     overscan: 5,
   })
 
-  if (filteredOptions.length === 0) return null
+  if (options.length === 0) return null
 
   return (
     <OptionContainer
@@ -95,7 +83,7 @@ const OptionsList = ({
           }}
         >
           {virtualizer.getVirtualItems().map((virtualItem) => {
-            const option = filteredOptions[virtualItem.index]
+            const option = options[virtualItem.index]
             return (
               <li
                 key={option.name}
@@ -121,7 +109,7 @@ const OptionsList = ({
           })}
         </div>
       ) : (
-        filteredOptions.map((option, index) => (
+        options.map((option, index) => (
           <li
             key={option.name}
             data-selected={index === selectedIndex}
@@ -166,27 +154,25 @@ export default function BaseSelect({
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [show, setShow] = useState(false)
 
-  // Keep the ref in sync with the visual selected index (mouse or keyboard)
   useEffect(() => {
     selectedIndexRef.current = selectedIndex
   }, [selectedIndex])
 
+  const filteredOptions = useMemo(() => {
+    if (!value) return options
+    const lower = value.toLowerCase()
+    const exactMatch = options.some((opt) => opt.name.toLowerCase() === lower)
+    if (exactMatch) return []
+    return options.filter((opt) => opt.name.toLowerCase().includes(lower))
+  }, [options, value])
+
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (options?.length === 0) return
+    if (filteredOptions.length === 0) return
 
     if (e.key === "ArrowUp" || e.key === "ArrowDown") {
       e.preventDefault()
       setSelectedIndex((prevIndex) => {
-        const filteredOptions = options.filter((option) => {
-          const lowerCaseValue = value.toLowerCase()
-          const exactMatchFound =
-            lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
-          const lowerCaseOption = option.name.toLowerCase()
-          return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
-        })
-
         if (filteredOptions.length === 0) return prevIndex
-
         const newIndex =
           e.key === "ArrowUp"
             ? (prevIndex - 1 + filteredOptions.length) % filteredOptions.length
@@ -198,14 +184,6 @@ export default function BaseSelect({
 
     if (e.key === "Enter") {
       e.preventDefault()
-      const filteredOptions = options.filter((option) => {
-        const lowerCaseValue = value.toLowerCase()
-        const exactMatchFound =
-          lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
-        const lowerCaseOption = option.name.toLowerCase()
-        return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
-      })
-
       const selectedOption = filteredOptions[selectedIndexRef.current]
       if (selectedOption) {
         onChange(selectedOption.value || selectedOption.name)
@@ -247,7 +225,7 @@ export default function BaseSelect({
       />
       {loading && <LoadingCircle />}
       <AnimatePresence>
-        {options.length > 0 && show && (
+        {filteredOptions.length > 0 && show && (
           <m.div
             style={{ zIndex: 1, height: "100%" }}
             initial={{ translateY: "-5px", opacity: 0 }}
@@ -255,8 +233,7 @@ export default function BaseSelect({
             exit={{ translateY: "5px", opacity: 0 }}
           >
             <OptionsList
-              options={options}
-              value={value}
+              options={filteredOptions}
               onSelect={(selectedValue) => {
                 onChange(selectedValue)
                 setShow(false)

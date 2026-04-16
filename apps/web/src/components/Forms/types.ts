@@ -1,3 +1,5 @@
+import type { SelectOption } from "@taxdom/types"
+
 import { z } from "zod"
 
 import type { ParcelSimulatorFormLabel } from "@/components/services/ParcelSimulator/types"
@@ -32,21 +34,30 @@ const RadioSchema = z.object({
 
 export type RadioProps = z.infer<typeof RadioSchema>
 
-const SelectSchema = z.object({
-  label: z.string(),
-  name: z.custom<FormLabel>(),
-  placeholder: z.string(),
-  options: z
-    .array(
-      z.object({
-        name: z.string(),
-        available: z.boolean().optional(),
-        value: z.string().optional(),
-      }),
-    )
-    .optional(),
-  dynamic: z.string().optional(),
-  loading: z.boolean().optional(),
-})
+export type SelectCommonProps = {
+  label: string
+  placeholder?: string
+  loading?: boolean
+}
 
-export type SelectProps = z.infer<typeof SelectSchema>
+export type SelectStaticProps = SelectCommonProps & {
+  options: SelectOption[]
+  onSearch?: never
+}
+
+export type SelectDynamicProps = SelectCommonProps & {
+  options?: never
+  onSearch: (query: string) => Promise<SelectOption[]>
+  searchDebounceMs?: number
+  searchMinChars?: number
+}
+
+export type SelectProps = (SelectStaticProps | SelectDynamicProps) & {
+  name: FormLabel
+}
+
+export type SelectFieldProps = Omit<SelectCommonProps, never> & {
+  options?: SelectOption[]
+  onSearch?: (query: string) => Promise<SelectOption[]>
+  name?: string
+}

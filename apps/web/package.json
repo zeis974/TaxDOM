@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@tanstack/react-query": "5.97.0",
-    "@tanstack/react-form": "1.28.6",
-    "@tanstack/react-form-nextjs": "1.28.6",
+    "@tanstack/react-form": "1.29.0",
+    "@tanstack/react-form-nextjs": "1.29.0",
     "@tanstack/react-virtual": "3.13.23",
     "@wrksz/themes": "^0.8.3",
     "motion": "12.38.0",
