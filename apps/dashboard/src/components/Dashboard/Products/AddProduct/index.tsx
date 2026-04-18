@@ -1,31 +1,19 @@
-import type { SelectOption } from "@taxdom/types"
-import { useState } from "react"
+import { useId, useState } from "react"
+
+import { useEntityMutations } from "@/hooks/useEntityMutations"
+import { useProductFormOptions } from "@/hooks/useProductFormOptions"
+
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import BaseSelect from "@/components/Forms/Select/BaseSelect"
 import Modal from "@/components/Modal"
 import Button from "@/components/ui/Button"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
-import {
-  AddProductBtn,
-  AddProductContainer,
-  ErrorContainer,
-  ProductActions,
-} from "./AddProduct.styled"
 
-interface FormData {
-  categories: SelectOption[]
-  origins: SelectOption[]
-  territories: SelectOption[]
-  flux: SelectOption[]
-  taxes: { taxID: string; tva: number; om: number; omr: number }[]
-}
+import { AddProductBtn, ErrorContainer, FormGrid } from "./AddProduct.styled"
 
-interface AddProductProps {
-  formData: FormData
-}
-
-export default function AddProduct({ formData }: AddProductProps) {
+export default function AddProduct() {
   const [show, setShow] = useState(false)
+  const { data: formOptions, isLoading } = useProductFormOptions()
+  const inputId = useId()
   const [productName, setProductName] = useState("")
   const [categoryID, setCategoryID] = useState("")
   const [originID, setOriginID] = useState("")
@@ -79,81 +67,90 @@ export default function AddProduct({ formData }: AddProductProps) {
 
   const errors = createMutation.error ? ["Erreur lors de la création"] : []
 
+  const footer = (
+    <>
+      <Button type="button" onClick={handleClose}>
+        Annuler
+      </Button>
+      <Button
+        type="submit"
+        onClick={handleSubmit}
+        aria-disabled={!isFormValid || createMutation.isPending}
+      >
+        {createMutation.isPending ? "Création..." : "Créer le produit"}
+      </Button>
+    </>
+  )
+
   return (
     <>
       <AddProductBtn type="button" onClick={() => setShow(true)}>
         Ajouter un produit
       </AddProductBtn>
-      <Modal show={show} setShow={setShow}>
-        <AddProductContainer>
-          <h2>Ajouter un produit</h2>
-          <hr />
-          <form onSubmit={handleSubmit} autoComplete="off">
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              <InputContainer>
-                <label>Nom du produit *</label>
-                <input
-                  type="text"
-                  placeholder="Ex: iPhone 15"
-                  autoComplete="off"
-                  required
-                  value={productName}
-                  onChange={(e) => setProductName(e.target.value)}
-                />
-              </InputContainer>
-              <BaseSelect
-                label="Catégorie *"
-                options={formData.categories}
-                value={formData.categories.find((c) => c.value === categoryID)?.name ?? ""}
-                onChange={(val) => {
-                  const found = formData.categories.find((c) => c.name === val)
-                  if (found) setCategoryID(found.value ?? found.name)
-                }}
+      <Modal show={show} setShow={setShow} title="Ajouter un produit" size="md" footer={footer}>
+        <form onSubmit={handleSubmit} autoComplete="off">
+          <FormGrid>
+            <InputContainer>
+              <label htmlFor={inputId}>Nom du produit *</label>
+              <input
+                id={inputId}
+                type="text"
+                placeholder="Ex: iPhone 15"
+                autoComplete="off"
+                required
+                value={productName}
+                onChange={(e) => setProductName(e.target.value)}
               />
-              <BaseSelect
-                label="Origine *"
-                options={formData.origins}
-                value={formData.origins.find((o) => o.value === originID)?.name ?? ""}
-                onChange={(val) => {
-                  const found = formData.origins.find((o) => o.name === val)
-                  if (found) setOriginID(found.value ?? found.name)
-                }}
-              />
-              <BaseSelect
-                label="Territoire *"
-                options={formData.territories}
-                value={formData.territories.find((t) => t.value === territoryID)?.name ?? ""}
-                onChange={(val) => {
-                  const found = formData.territories.find((t) => t.name === val)
-                  if (found) setTerritoryID(found.value ?? found.name)
-                }}
-              />
-              <BaseSelect
-                label="Flux *"
-                options={formData.flux}
-                value={formData.flux.find((f) => f.value === fluxID)?.name ?? ""}
-                onChange={(val) => {
-                  const found = formData.flux.find((f) => f.name === val)
-                  if (found) setFluxID(found.value ?? found.name)
-                }}
-              />
-            </div>
-            <ProductActions>
-              <ErrorContainer>
-                {errors.length > 0 &&
-                  errors.map((error, index) => <span key={index}>{error}</span>)}
-              </ErrorContainer>
-              <div style={{ display: "flex", gap: 8 }}>
-                <Button type="button" onClick={handleClose}>
-                  Annuler
-                </Button>
-                <Button type="submit" aria-disabled={!isFormValid || createMutation.isPending}>
-                  {createMutation.isPending ? "Création..." : "Créer le produit"}
-                </Button>
-              </div>
-            </ProductActions>
-          </form>
-        </AddProductContainer>
+            </InputContainer>
+            <BaseSelect
+              label="Catégorie *"
+              options={formOptions?.categories ?? []}
+              value={formOptions?.categories.find((c) => c.value === categoryID)?.name ?? ""}
+              onChange={(val) => {
+                const found = formOptions?.categories.find((c) => c.name === val)
+                if (found) setCategoryID(found.value ?? found.name)
+              }}
+              disabled={isLoading}
+            />
+            <BaseSelect
+              label="Origine *"
+              options={formOptions?.origins ?? []}
+              value={formOptions?.origins.find((o) => o.value === originID)?.name ?? ""}
+              onChange={(val) => {
+                const found = formOptions?.origins.find((o) => o.name === val)
+                if (found) setOriginID(found.value ?? found.name)
+              }}
+              disabled={isLoading}
+            />
+            <BaseSelect
+              label="Territoire *"
+              options={formOptions?.territories ?? []}
+              value={formOptions?.territories.find((t) => t.value === territoryID)?.name ?? ""}
+              onChange={(val) => {
+                const found = formOptions?.territories.find((t) => t.name === val)
+                if (found) setTerritoryID(found.value ?? found.name)
+              }}
+              disabled={isLoading}
+            />
+            {/* <BaseSelect
+              label="Flux *"
+              options={formOptions?.flux ?? []}
+              value={formOptions?.flux.find((f) => f.value === fluxID)?.name ?? ""}
+              onChange={(val) => {
+                const found = formOptions?.flux.find((f) => f.name === val)
+                if (found) setFluxID(found.value ?? found.name)
+              }}
+              disabled={isLoading}
+            /> */}
+          </FormGrid>
+          {errors.length > 0 && (
+            <ErrorContainer>
+              {errors.map((error, index) => (
+                <span key={index}>{error}</span>
+              ))}
+            </ErrorContainer>
+          )}
+        </form>
       </Modal>
     </>
   )
