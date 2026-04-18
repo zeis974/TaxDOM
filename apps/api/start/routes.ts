@@ -10,15 +10,17 @@
 import router from "@adonisjs/core/services/router"
 import { middleware } from "#start/kernel"
 
-import registerAdminCategories from "#start/routes/admin/categories"
-import registerAdminOrigins from "#start/routes/admin/origins"
-import registerAdminProducts from "#start/routes/admin/products"
-import registerAdminTerritories from "#start/routes/admin/territories"
-import registerAdminTransporters from "#start/routes/admin/transporters"
+import registerAdminCategories from "#routes/admin/categories"
+import registerAdminOrigins from "#routes/admin/origins"
+import registerAdminProducts from "#routes/admin/products"
+import registerAdminTerritories from "#routes/admin/territories"
+import registerAdminTransporters from "#routes/admin/transporters"
 
-import registerPublicOrigins from "#start/routes/public/origins"
-import registerPublicProducts from "#start/routes/public/products"
-import registerPublicSimulator from "#start/routes/public/simulator"
+import registerPublicOrigins from "#routes/public/origins"
+import registerPublicProducts from "#routes/public/products"
+import registerPublicSimulator from "#routes/public/simulator"
+import registerPublicTerritories from "#routes/public/territories"
+import registerPublicTransporters from "#routes/public/transporters"
 
 // ─── Public routes ───────────────────────────────────────
 router
@@ -26,6 +28,8 @@ router
     registerPublicOrigins(router)
     registerPublicProducts(router)
     registerPublicSimulator(router)
+    registerPublicTerritories(router)
+    registerPublicTransporters(router)
   })
   .prefix("/v1/public")
 
