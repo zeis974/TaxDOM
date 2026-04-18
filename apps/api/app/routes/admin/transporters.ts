@@ -7,7 +7,6 @@ export default function registerTransportersRoutes(router: HttpRouterService) {
   const TransporterRulesController = controllers.TransporterRules
 
   router.get("/transporters/count", [TransportersController, "count"])
-  router.get("/transporters/list", [TransportersController, "list"])
   router.resource("transporters", TransportersController).apiOnly()
 
   router
