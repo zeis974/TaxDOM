@@ -124,6 +124,8 @@ export default class TerritoriesController {
 
       const trimmedName = territoryName.trim().toUpperCase()
       const territoryID = uuidv7()
+      const validatedData = await request.validateUsing(createTerritoryValidator)
+      const trimmedName = validatedData.territoryName.trim().toUpperCase()
 
       const existingTerritory = await db.query.territories.findFirst({
         where: (territories, { eq }) => eq(territories.territoryName, trimmedName),
@@ -165,14 +167,14 @@ export default class TerritoriesController {
       const territoryIdParam: string = params.id
       if (!territoryIdParam) return response.status(400).json({ error: "Paramètre manquant" })
 
-      const { territoryName, available } = request.only(["territoryName", "available"])
+      const validatedData = await request.validateUsing(updateTerritoryValidator)
 
       const updateData: Partial<typeof territories.$inferInsert> = {}
-      if (typeof territoryName === "string" && territoryName.trim().length > 0) {
-        updateData.territoryName = territoryName.trim().toUpperCase()
+      if (validatedData.territoryName) {
+        updateData.territoryName = validatedData.territoryName.trim().toUpperCase()
       }
-      if (typeof available === "boolean") {
-        updateData.available = available
+      if (validatedData.available !== undefined) {
+        updateData.available = validatedData.available
       }
 
       if (Object.keys(updateData).length === 0) {
