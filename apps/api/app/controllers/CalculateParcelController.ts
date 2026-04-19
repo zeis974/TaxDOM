@@ -54,9 +54,7 @@ function isEUCountry(country: string): boolean {
 
 export default class CalculateParcelController {
   async handle({ request }: HttpContext) {
-    const data = request.body()
-
-    const payload = await CalculateParcelTaxeValidator.validate(data)
+    const payload = await request.validateUsing(CalculateParcelTaxeValidator)
 
     const { customer, deliveryPrice, origin, products, transporter } = payload
 

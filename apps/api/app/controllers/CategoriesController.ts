@@ -98,7 +98,7 @@ export default class CategoriesController {
    */
   async store({ request, response }: HttpContext) {
     try {
-      const validatedData = await CreateCategoryValidator.validate(request.all())
+      const validatedData = await request.validateUsing(CreateCategoryValidator)
       const { categoryName, tva, om, omr } = validatedData
 
       const existingCategory = await db.query.categories.findFirst({
@@ -259,7 +259,7 @@ export default class CategoriesController {
         })
       }
 
-      const validatedData = await UpdateCategoryValidator.validate(request.all())
+      const validatedData = await request.validateUsing(UpdateCategoryValidator)
       const { categoryName, taxID } = validatedData
 
       const duplicateCategory = await db.query.categories.findFirst({

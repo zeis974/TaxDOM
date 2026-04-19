@@ -6,8 +6,8 @@ import { SearchProductsValidator } from "#validators/SearchProductsValidator"
 
 export default class SearchProductsController {
   async handle({ request }: HttpContext) {
-    const filters = await SearchProductsValidator.validate(request.qs())
-    const productName = filters.name
+    const filters = await request.validateUsing(SearchProductsValidator)
+    const productName = filters.name.trim()
 
     if (!productName) {
       return { error: "Product name is required" }
