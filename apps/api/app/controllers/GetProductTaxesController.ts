@@ -20,8 +20,7 @@ const territoryMap: Record<Territory, number> = {
 
 export default class GetProductTaxeController {
   async handle({ request }: HttpContext) {
-    const data = request.body()
-    const payload = await GetProductTaxeValidator.validate(data)
+    const payload = await request.validateUsing(GetProductTaxeValidator)
 
     const product = payload.product.toLowerCase()
     const origin = payload.origin.toUpperCase()
