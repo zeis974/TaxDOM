@@ -1,10 +1,12 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Origin } from "@taxdom/types"
 import { useMemo, useState } from "react"
+import { toast } from "sonner"
 import { Drawer } from "vaul"
 import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
 import { useResettableTimeout } from "@/hooks/useResettableTimeout"
+import { client } from "@/lib/api"
 import {
   ActionsGroup,
   Badge,
@@ -49,12 +51,32 @@ export default function OriginCard({ origin, editable = false }: Props) {
   const [didCopyOriginId, setDidCopyOriginId] = useState(false)
   const copyResetTimeout = useResettableTimeout()
 
-  const { updateMutation, deleteMutation } = useEntityMutations({
-    queryKey: ["origins"],
-    messages: {
-      create: "Origine créée avec succès",
-      update: "Origine mise à jour",
-      delete: "Origine supprimée",
+  const queryClient = useQueryClient()
+
+  const updateMutation = useMutation({
+    mutationFn: (vars: {
+      params: { id: string }
+      body: { originName: string; available: boolean; isEU: boolean }
+    }) => client.api.origins.update(vars),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["origins"] })
+      toast.success("Origine mise à jour")
+      drawer.closeDrawer()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la mise à jour")
+    },
+  })
+
+  const deleteMutation = useMutation({
+    mutationFn: (vars: { params: { id: string } }) => client.api.origins.destroy(vars),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["origins"] })
+      toast.success("Origine supprimée")
+      drawer.closeDrawer()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la suppression")
     },
   })
 
@@ -79,29 +101,17 @@ export default function OriginCard({ origin, editable = false }: Props) {
 
   const handleSave = async () => {
     if (!isFormValid) return
-    await updateMutation.mutateAsync({
-      url: `/v1/admin/origins/${origin.originID}`,
-      body: {
-        originID: origin.originID,
-        originName: originName.toUpperCase(),
-        available,
-        isEU,
-      },
+    updateMutation.mutate({
+      params: { id: origin.originID },
+      body: { originName: originName.toUpperCase(), available, isEU },
     })
-    drawer.closeDrawer()
   }
 
   const handleDelete = async () => {
     if (drawer.isDeletingLocal) return
     drawer.setIsDeletingLocal(true)
     drawer.setDeleteError(null)
-    try {
-      await deleteMutation.mutateAsync(`/v1/admin/origins/${origin.originID}`)
-      drawer.closeDrawer()
-    } catch {
-      drawer.setDeleteError("Erreur lors de la suppression")
-    }
-    drawer.setIsDeletingLocal(false)
+    deleteMutation.mutate({ params: { id: origin.originID } })
   }
 
   const copyOriginId = async () => {
@@ -111,9 +121,6 @@ export default function OriginCard({ origin, editable = false }: Props) {
       copyResetTimeout.start(() => setDidCopyOriginId(false), 3000)
     } catch {}
   }
-
-  const updateErrors = updateMutation.error ? ["Erreur lors de la mise à jour"] : []
-  const deleteErrors = deleteMutation.error ? ["Erreur lors de la suppression"] : []
 
   const renderCardContent = (
     <>
@@ -329,13 +336,7 @@ export default function OriginCard({ origin, editable = false }: Props) {
                 </DrawerBody>
                 <DrawerFooter>
                   <ErrorContainer>
-                    {updateErrors.map((err, i) => (
-                      <span key={i}>{err}</span>
-                    ))}
                     {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                    {deleteErrors.map((err, i) => (
-                      <span key={i}>{err}</span>
-                    ))}
                   </ErrorContainer>
                   <ActionsGroup>
                     <DeleteButton

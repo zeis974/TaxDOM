@@ -1,8 +1,10 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
+import { toast } from "sonner"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Modal from "@/components/Modal"
 import Button from "@/components/ui/Button"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
+import { client } from "@/lib/api"
 import {
   AddTerritoryBtn,
   AddTerritoryContainer,
@@ -15,12 +17,18 @@ export default function AddTerritory() {
   const [territoryName, setTerritoryName] = useState("")
   const territoryNameID = useId()
 
-  const { createMutation } = useEntityMutations({
-    queryKey: ["territories"],
-    messages: {
-      create: "Territoire créé avec succès",
-      update: "Territoire mis à jour",
-      delete: "Territoire supprimé",
+  const queryClient = useQueryClient()
+
+  const createMutation = useMutation({
+    mutationFn: (body: { territoryName: string; available: boolean }) =>
+      client.api.territories.store({ body }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["territories"] })
+      toast.success("Territoire créé avec succès")
+      handleClose()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la création")
     },
   })
 
@@ -38,12 +46,7 @@ export default function AddTerritory() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!isFormValid) return
-
-    await createMutation.mutateAsync({
-      url: "/v1/admin/territories",
-      body: { territoryName: territoryName.trim() },
-    })
-    handleClose()
+    createMutation.mutate({ territoryName: territoryName.trim(), available: true })
   }
 
   const errors = createMutation.error ? ["Erreur lors de la création"] : []

@@ -1,8 +1,10 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
+import { toast } from "sonner"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Modal from "@/components/Modal"
 import Button from "@/components/ui/Button"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
+import { client } from "@/lib/api"
 import {
   AddCategoryBtn,
   AddCategoryContainer,
@@ -22,12 +24,18 @@ export default function AddCategory() {
   const omID = useId()
   const omrID = useId()
 
-  const { createMutation } = useEntityMutations({
-    queryKey: ["categories"],
-    messages: {
-      create: "Catégorie créée avec succès",
-      update: "Catégorie mise à jour",
-      delete: "Catégorie supprimée",
+  const queryClient = useQueryClient()
+
+  const createMutation = useMutation({
+    mutationFn: (body: { categoryName: string; tva: number; om: number; omr: number }) =>
+      client.api.categories.store({ body }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["categories"] })
+      toast.success("Catégorie créée avec succès")
+      handleClose()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la création")
     },
   })
 
@@ -48,17 +56,12 @@ export default function AddCategory() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!isFormValid) return
-
-    await createMutation.mutateAsync({
-      url: "/v1/admin/categories",
-      body: {
-        categoryName: categoryName.trim(),
-        tva: Number(tva),
-        om: Number(om),
-        omr: Number(omr),
-      },
+    createMutation.mutate({
+      categoryName: categoryName.trim(),
+      tva: Number(tva),
+      om: Number(om),
+      omr: Number(omr),
     })
-    handleClose()
   }
 
   const errors = createMutation.error ? ["Erreur lors de la création"] : []
@@ -94,6 +97,7 @@ export default function AddCategory() {
                     id={tvaID}
                     placeholder="0"
                     min="0"
+                    step="any"
                     required
                     value={tva}
                     onChange={(e) => setTva(e.target.value)}
@@ -106,6 +110,7 @@ export default function AddCategory() {
                     id={omID}
                     placeholder="0"
                     min="0"
+                    step="any"
                     required
                     value={om}
                     onChange={(e) => setOm(e.target.value)}
@@ -118,6 +123,7 @@ export default function AddCategory() {
                     id={omrID}
                     placeholder="0"
                     min="0"
+                    step="any"
                     required
                     value={omr}
                     onChange={(e) => setOmr(e.target.value)}

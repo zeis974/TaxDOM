@@ -1,17 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router"
-import type { Category } from "@taxdom/types"
 import { Suspense } from "react"
 import Categories from "@/components/Dashboard/Categories"
 import LoadingFallback from "@/components/Dashboard/shared/LoadingFallback"
-import { fetchAPI } from "@/lib/api"
+import { client, queryClient } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/categories")({
-  loader: async ({ context }) => {
-    const categories = await context.queryClient.ensureQueryData<Category[]>({
+  loader: async () => {
+    const categories = await queryClient.ensureQueryData({
       queryKey: ["categories"],
-      queryFn: () => fetchAPI("/v1/admin/categories"),
+      queryFn: async () => client.api.categories.index({}),
     })
-
     return { categories }
   },
   component: CategoriesPage,

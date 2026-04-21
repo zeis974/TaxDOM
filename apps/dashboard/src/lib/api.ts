@@ -1,18 +1,20 @@
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3333"
+import { QueryClient } from "@tanstack/react-query"
+import { registry } from "@taxdom/api/registry"
+import { createTuyau } from "@tuyau/core/client"
 
-export async function fetchAPI<T>(endpoint: string, options?: RequestInit): Promise<T> {
-  const response = await fetch(`${API_URL}${endpoint}`, {
-    ...options,
-    credentials: "include",
-    headers: {
-      "Content-Type": "application/json",
-      ...options?.headers,
+export const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 1000 * 60 * 5,
+      retry: 1,
+      refetchOnWindowFocus: false,
     },
-  })
+  },
+})
 
-  if (!response.ok) {
-    throw new Error(`API error: ${response.statusText}`)
-  }
-
-  return response.json()
-}
+export const client = createTuyau({
+  baseUrl: import.meta.env.VITE_API_URL || "http://localhost:3333",
+  registry,
+  credentials: "include",
+  headers: { Accept: "application/json" },
+})
