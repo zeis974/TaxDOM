@@ -1,8 +1,8 @@
 import { relations } from "drizzle-orm"
 import {
   boolean,
+  decimal,
   index,
-  integer,
   pgTable,
   primaryKey,
   timestamp,
@@ -21,11 +21,6 @@ export const categories = pgTable(
   (table) => [index("categories_taxID_idx").on(table.taxID)],
 )
 
-export const flux = pgTable("flux", {
-  fluxID: varchar("flux_id").notNull().primaryKey(),
-  fluxName: varchar("flux_name").notNull(),
-})
-
 export const origins = pgTable("origins", {
   originID: varchar("origin_id").notNull().primaryKey(),
   originName: varchar("origin_name").notNull().unique(),
@@ -35,9 +30,9 @@ export const origins = pgTable("origins", {
 
 export const taxes = pgTable("taxes", {
   taxID: varchar("tax_id").notNull().primaryKey(),
-  tva: integer("tva").notNull(),
-  om: integer("om").notNull(),
-  omr: integer("omr").notNull(),
+  tva: decimal("tva", { precision: 10, scale: 2 }).notNull(),
+  om: decimal("om", { precision: 10, scale: 2 }).notNull(),
+  omr: decimal("omr", { precision: 10, scale: 2 }).notNull(),
 })
 
 export const territories = pgTable("territories", {
@@ -66,9 +61,6 @@ export const products = pgTable(
     territoryID: varchar("territory_id")
       .notNull()
       .references(() => territories.territoryID),
-    fluxID: varchar("flux_id")
-      .notNull()
-      .references(() => flux.fluxID),
     taxID: varchar("tax_id")
       .notNull()
       .references(() => taxes.taxID),
@@ -81,7 +73,6 @@ export const products = pgTable(
     index("products_categoryID_idx").on(table.categoryID),
     index("products_originID_idx").on(table.originID),
     index("products_territoryID_idx").on(table.territoryID),
-    index("products_fluxID_idx").on(table.fluxID),
     index("products_taxID_idx").on(table.taxID),
   ],
 )
@@ -112,10 +103,6 @@ export const CategoriesRelations = relations(categories, ({ one, many }) => ({
   products: many(products),
 }))
 
-export const FluxRelations = relations(flux, ({ many }) => ({
-  products: many(products),
-}))
-
 export const OriginsRelations = relations(origins, ({ many }) => ({
   products: many(products),
 }))
@@ -141,10 +128,6 @@ export const ProductsRelations = relations(products, ({ one, many }) => ({
   territory: one(territories, {
     fields: [products.territoryID],
     references: [territories.territoryID],
-  }),
-  flux: one(flux, {
-    fields: [products.fluxID],
-    references: [flux.fluxID],
   }),
   tax: one(taxes, {
     fields: [products.taxID],
