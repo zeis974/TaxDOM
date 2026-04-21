@@ -1,8 +1,10 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
+import { toast } from "sonner"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Modal from "@/components/Modal"
 import Button from "@/components/ui/Button"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
+import { client } from "@/lib/api"
 import { AddOriginBtn, AddOriginContainer, ErrorContainer, OriginActions } from "./AddOrigin.styled"
 
 export default function AddOrigin() {
@@ -11,13 +13,18 @@ export default function AddOrigin() {
   const [available, setAvailable] = useState(true)
   const [isEU, setIsEU] = useState(false)
   const originNameID = useId()
+  const queryClient = useQueryClient()
 
-  const { createMutation } = useEntityMutations({
-    queryKey: ["origins"],
-    messages: {
-      create: "Origine créée avec succès",
-      update: "Origine mise à jour",
-      delete: "Origine supprimée",
+  const createMutation = useMutation({
+    mutationFn: (body: { originName: string; available: boolean; isEU: boolean }) =>
+      client.api.origins.store({ body }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["origins"] })
+      toast.success("Origine créée avec succès")
+      handleClose()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la création")
     },
   })
 
@@ -37,12 +44,7 @@ export default function AddOrigin() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!isFormValid) return
-
-    await createMutation.mutateAsync({
-      url: "/v1/admin/origins",
-      body: { originName: originName.toUpperCase(), available, isEU },
-    })
-    handleClose()
+    createMutation.mutate({ originName: originName.toUpperCase(), available, isEU })
   }
 
   const errors = createMutation.error ? ["Erreur lors de la création"] : []

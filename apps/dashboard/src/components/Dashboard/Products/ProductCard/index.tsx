@@ -1,11 +1,14 @@
-import type { Product, SelectOption } from "@taxdom/types"
-import { useMemo, useState } from "react"
+import { useMutation, useQueryClient } from "@tanstack/react-query"
+import type { Product } from "@taxdom/types"
+import { useId, useMemo, useState } from "react"
+import { toast } from "sonner"
 import { Drawer } from "vaul"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import BaseSelect from "@/components/Forms/Select/BaseSelect"
 import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
+import { useProductFormOptions } from "@/hooks/useProductFormOptions"
+import { client } from "@/lib/api"
 import {
   ActionsGroup,
   Badge,
@@ -32,34 +35,54 @@ import {
   FormGrid,
 } from "./ProductCard.styled"
 
-interface FormData {
-  categories: SelectOption[]
-  origins: SelectOption[]
-  territories: SelectOption[]
-  flux: SelectOption[]
-  taxes: { taxID: string; tva: number; om: number; omr: number }[]
-}
-
 type Props = {
   product: Product
-  formData: FormData
   editable?: boolean
 }
 
-export default function ProductCard({ product, formData, editable = false }: Props) {
+export default function ProductCard({ product, editable = false }: Props) {
   const drawer = useCardDrawer()
+  const { data: formOptions } = useProductFormOptions()
+  const inputId = useId()
   const [productName, setProductName] = useState(product.productName)
   const [categoryID, setCategoryID] = useState(product.category.categoryID)
   const [originID, setOriginID] = useState(product.origin.originID)
   const [territoryID, setTerritoryID] = useState(product.territory.territoryID)
   const [fluxID, setFluxID] = useState(product.flux.fluxID)
 
-  const { updateMutation, deleteMutation } = useEntityMutations({
-    queryKey: ["products"],
-    messages: {
-      create: "Produit créé avec succès",
-      update: "Produit mis à jour",
-      delete: "Produit supprimé",
+  const queryClient = useQueryClient()
+
+  const updateMutation = useMutation({
+    mutationFn: (vars: {
+      params: { id: string }
+      body: {
+        productName: string
+        categoryID: string
+        originID: string
+        territoryID: string
+        fluxID: string
+        taxID: string
+      }
+    }) => client.api.products.update(vars),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["products"] })
+      toast.success("Produit mis à jour")
+      drawer.closeDrawer()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la mise à jour")
+    },
+  })
+
+  const deleteMutation = useMutation({
+    mutationFn: (vars: { params: { id: string } }) => client.api.products.destroy(vars),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["products"] })
+      toast.success("Produit supprimé")
+      drawer.closeDrawer()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la suppression")
     },
   })
 
@@ -88,39 +111,25 @@ export default function ProductCard({ product, formData, editable = false }: Pro
 
   const handleSave = async () => {
     if (!isFormValid) return
-    try {
-      await updateMutation.mutateAsync({
-        url: `/v1/admin/products/${product.productID}`,
-        body: {
-          productID: product.productID,
-          productName: productName.trim(),
-          categoryID,
-          originID,
-          territoryID,
-          fluxID,
-        },
-      })
-      drawer.closeDrawer()
-    } catch (error) {
-      // Error is handled by useEntityMutations
-    }
+    updateMutation.mutate({
+      params: { id: product.productID },
+      body: {
+        productName: productName.trim(),
+        categoryID,
+        originID,
+        territoryID,
+        fluxID,
+        taxID: product.tax?.taxID ?? "",
+      },
+    })
   }
 
   const handleDelete = async () => {
     if (drawer.isDeletingLocal) return
     drawer.setIsDeletingLocal(true)
     drawer.setDeleteError(null)
-    try {
-      await deleteMutation.mutateAsync(`/v1/admin/products/${product.productID}`)
-      drawer.closeDrawer()
-    } catch {
-      drawer.setDeleteError("Erreur lors de la suppression")
-    }
-    drawer.setIsDeletingLocal(false)
+    deleteMutation.mutate({ params: { id: product.productID } })
   }
-
-  const updateErrors = updateMutation.error ? ["Erreur lors de la mise à jour"] : []
-  const deleteErrors = deleteMutation.error ? ["Erreur lors de la suppression"] : []
 
   const renderCardContent = (
     <>
@@ -168,8 +177,9 @@ export default function ProductCard({ product, formData, editable = false }: Pro
                     </DrawerSectionDescription>
                     <FormGrid>
                       <InputContainer>
-                        <label>Nom du produit</label>
+                        <label htmlFor={inputId}>Nom du produit</label>
                         <input
+                          id={inputId}
                           type="text"
                           placeholder="Nom du produit"
                           value={productName}
@@ -186,39 +196,41 @@ export default function ProductCard({ product, formData, editable = false }: Pro
                     <FormGrid>
                       <BaseSelect
                         label="Catégorie"
-                        options={formData.categories}
-                        value={formData.categories.find((c) => c.value === categoryID)?.name ?? ""}
+                        options={formOptions?.categories ?? []}
+                        value={
+                          formOptions?.categories.find((c) => c.value === categoryID)?.name ?? ""
+                        }
                         onChange={(val) => {
-                          const found = formData.categories.find((c) => c.name === val)
+                          const found = formOptions?.categories.find((c) => c.name === val)
                           if (found) setCategoryID(found.value ?? found.name)
                         }}
                       />
                       <BaseSelect
                         label="Origine"
-                        options={formData.origins}
-                        value={formData.origins.find((o) => o.value === originID)?.name ?? ""}
+                        options={formOptions?.origins ?? []}
+                        value={formOptions?.origins.find((o) => o.value === originID)?.name ?? ""}
                         onChange={(val) => {
-                          const found = formData.origins.find((o) => o.name === val)
+                          const found = formOptions?.origins.find((o) => o.name === val)
                           if (found) setOriginID(found.value ?? found.name)
                         }}
                       />
                       <BaseSelect
                         label="Territoire"
-                        options={formData.territories}
+                        options={formOptions?.territories ?? []}
                         value={
-                          formData.territories.find((t) => t.value === territoryID)?.name ?? ""
+                          formOptions?.territories.find((t) => t.value === territoryID)?.name ?? ""
                         }
                         onChange={(val) => {
-                          const found = formData.territories.find((t) => t.name === val)
+                          const found = formOptions?.territories.find((t) => t.name === val)
                           if (found) setTerritoryID(found.value ?? found.name)
                         }}
                       />
                       <BaseSelect
                         label="Flux"
-                        options={formData.flux}
-                        value={formData.flux.find((f) => f.value === fluxID)?.name ?? ""}
+                        options={formOptions?.flux ?? []}
+                        value={formOptions?.flux.find((f) => f.value === fluxID)?.name ?? ""}
                         onChange={(val) => {
-                          const found = formData.flux.find((f) => f.name === val)
+                          const found = formOptions?.flux.find((f) => f.name === val)
                           if (found) setFluxID(found.value ?? found.name)
                         }}
                       />
@@ -227,13 +239,7 @@ export default function ProductCard({ product, formData, editable = false }: Pro
                 </DrawerBody>
                 <DrawerFooter>
                   <ErrorContainer>
-                    {updateErrors.map((err, i) => (
-                      <span key={i}>{err}</span>
-                    ))}
                     {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                    {deleteErrors.map((err, i) => (
-                      <span key={i}>{err}</span>
-                    ))}
                   </ErrorContainer>
                   <ActionsGroup>
                     <DeleteButton
