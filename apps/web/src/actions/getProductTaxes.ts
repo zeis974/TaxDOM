@@ -5,6 +5,7 @@ import { ServerValidateError, createServerValidate } from "@tanstack/react-form-
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
 import { taxFormOpts } from "@/shared/formOpts"
 import { TaxSimulatorFormSchema } from "@/components/services/TaxSimulator/types"
+import { apiClient } from "@/lib/api-server"
 
 const serverValidate = createServerValidate({
   ...taxFormOpts,
@@ -19,7 +20,7 @@ const serverValidate = createServerValidate({
   },
 })
 
-export default async function getProductTaxes(prev: unknown, formData: FormData) {
+export default async function getProductTaxes(_prev: unknown, formData: FormData) {
   try {
     await serverValidate(formData)
 
@@ -33,18 +34,14 @@ export default async function getProductTaxes(prev: unknown, formData: FormData)
     const parsed = TaxSimulatorFormSchema.parse(raw)
     await validateTurnstileCaptcha(parsed["cf-turnstile-response"])
 
-    const res = await fetch(`${process.env.API_URL}/products/taxes`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
+    const res = await apiClient.api.getProductTaxes({
+      body: {
         product: parsed.product,
         origin: parsed.origin,
         territory: parsed.territory,
         token: parsed["cf-turnstile-response"],
-      }),
-    }).then((res) => res.json())
+      },
+    })
 
     return res
   } catch (e) {

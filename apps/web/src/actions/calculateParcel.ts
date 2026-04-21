@@ -5,6 +5,7 @@ import { ServerValidateError, createServerValidate } from "@tanstack/react-form-
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
 import { parcelFormOpts } from "@/shared/formOpts"
 import { ParcelSimulatorSchema } from "@/components/services/ParcelSimulator/types"
+import { apiClient } from "@/lib/api-server"
 
 const serverValidate = createServerValidate({
   ...parcelFormOpts,
@@ -19,7 +20,7 @@ const serverValidate = createServerValidate({
   },
 })
 
-export default async function calculateParcel(prev: unknown, formData: FormData) {
+export default async function calculateParcel(_prev: unknown, formData: FormData) {
   const raw = {
     customer: formData.get("customer") as string,
     deliveryPrice: formData.get("deliveryPrice") as string,
@@ -58,13 +59,8 @@ export default async function calculateParcel(prev: unknown, formData: FormData)
     const parsed = ParcelSimulatorSchema.parse(raw)
     await validateTurnstileCaptcha(parsed["cf-turnstile-response"])
 
-    const res = await fetch(`${process.env.API_URL}/simulator/parcel`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.API_KEY}`,
-      },
-      body: JSON.stringify({
+    const res = await apiClient.api.calculateParcel({
+      body: {
         customer: parsed.customer,
         deliveryPrice: parsed.deliveryPrice,
         origin: parsed.origin,
@@ -72,8 +68,8 @@ export default async function calculateParcel(prev: unknown, formData: FormData)
         territory: parsed.territory,
         transporter: parsed.transporter,
         token: parsed["cf-turnstile-response"],
-      }),
-    }).then((res) => res.json())
+      },
+    })
 
     return res
   } catch (e) {
