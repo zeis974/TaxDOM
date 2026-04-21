@@ -62,3 +62,7 @@ export const SaveAllBodySchema = vine.object({
   edges: vine.array(FlowEdgeSchema).maxLength(1000),
   rules: vine.array(FeeRuleSchema).maxLength(200),
 })
+
+export const saveFlowValidator = vine.create(SaveFlowBodySchema)
+export const saveRulesValidator = vine.create(SaveRulesBodySchema)
+export const saveAllValidator = vine.create(SaveAllBodySchema)

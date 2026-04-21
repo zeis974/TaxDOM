@@ -24,7 +24,7 @@ export default class BetterAuthMiddleware {
     }
 
     const rawRes = response.response as ServerResponse
-    const origin = env.get("TRUSTED_ORIGIN_URL")
+    const origin = env.get("TRUSTED_DASHBOARD_ORIGIN_URL")
 
     rawRes.setHeader("Access-Control-Allow-Origin", origin)
     rawRes.setHeader("Access-Control-Allow-Credentials", "true")
@@ -46,8 +46,11 @@ export default class BetterAuthMiddleware {
 
       const req = request.request
       req.url = request.request.url
-      ;(req as any).originalUrl = request.url()
 
+      /** biome-ignore lint/suspicious/noExplicitAny: The Better Auth library expects a Node.js request object, which has an `originalUrl` property.
+       * Adonis's request object doesn't have this property, so we need to add it manually.
+       * Using `any` here is a pragmatic choice to avoid TypeScript errors. */
+      ;(req as any).originalUrl = request.url()
       await this.authHandler(req, rawRes)
     } catch (error) {
       logger.error("Error in Better Auth middleware", error)

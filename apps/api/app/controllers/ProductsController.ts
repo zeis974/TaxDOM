@@ -188,7 +188,7 @@ export default class ProductsController {
    */
   async store({ request, response }: HttpContext) {
     try {
-      const validatedData = await CreateProductValidator.validate(request.all())
+      const validatedData = await request.validateUsing(CreateProductValidator)
       const { productName, categoryID, originID, territoryID, fluxID, taxID } = validatedData
 
       // Verify all FK entities exist
@@ -300,7 +300,7 @@ export default class ProductsController {
         return response.notFound({ error: "Produit non trouvé" })
       }
 
-      const validatedData = await UpdateProductValidator.validate(request.all())
+      const validatedData = await request.validateUsing(UpdateProductValidator)
       const { productName, categoryID, originID, territoryID, fluxID, taxID } = validatedData
 
       // Check for duplicate product name (excluding current product)

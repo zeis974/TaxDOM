@@ -124,7 +124,7 @@ export default class TransporterRulesController {
       let nodes: ValidatedFlowNode[]
       let edges: ValidatedFlowEdge[]
       try {
-        const parsed = await vine.validate({ schema: SaveFlowBodySchema, data: request.body() })
+        const parsed = await request.validateUsing(saveFlowValidator)
         nodes = parsed.nodes as ValidatedFlowNode[]
         edges = parsed.edges as ValidatedFlowEdge[]
       } catch (err) {
@@ -226,7 +226,7 @@ export default class TransporterRulesController {
 
       let rules: ValidatedFeeRule[]
       try {
-        const parsed = await vine.validate({ schema: SaveRulesBodySchema, data: request.body() })
+        const parsed = await request.validateUsing(saveRulesValidator)
         rules = parsed.rules as ValidatedFeeRule[]
       } catch (err) {
         return response
@@ -293,7 +293,7 @@ export default class TransporterRulesController {
       let edges: ValidatedFlowEdge[]
       let rules: ValidatedFeeRule[]
       try {
-        const parsed = await vine.validate({ schema: SaveAllBodySchema, data: request.body() })
+        const parsed = await request.validateUsing(saveAllValidator)
         nodes = parsed.nodes as ValidatedFlowNode[]
         edges = parsed.edges as ValidatedFlowEdge[]
         rules = parsed.rules as ValidatedFeeRule[]
