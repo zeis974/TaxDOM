@@ -1,17 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router"
-import type { Origin } from "@taxdom/types"
 import { Suspense } from "react"
 import Origins from "@/components/Dashboard/Origins"
 import LoadingFallback from "@/components/Dashboard/shared/LoadingFallback"
-import { fetchAPI } from "@/lib/api"
+import { client, queryClient } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/origins")({
-  loader: async ({ context }) => {
-    const origins = await context.queryClient.ensureQueryData<Origin[]>({
+  loader: async () => {
+    const origins = await queryClient.ensureQueryData({
       queryKey: ["origins"],
-      queryFn: () => fetchAPI("/v1/admin/origins"),
+      queryFn: async () => client.api.origins.index({}),
     })
-
     return { origins }
   },
   component: OriginsPage,
