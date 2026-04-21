@@ -48,7 +48,6 @@ export default function ProductCard({ product, editable = false }: Props) {
   const [categoryID, setCategoryID] = useState(product.category.categoryID)
   const [originID, setOriginID] = useState(product.origin.originID)
   const [territoryID, setTerritoryID] = useState(product.territory.territoryID)
-  const [fluxID, setFluxID] = useState(product.flux.fluxID)
 
   const queryClient = useQueryClient()
 
@@ -60,7 +59,6 @@ export default function ProductCard({ product, editable = false }: Props) {
         categoryID: string
         originID: string
         territoryID: string
-        fluxID: string
         taxID: string
       }
     }) => client.api.products.update(vars),
@@ -87,8 +85,8 @@ export default function ProductCard({ product, editable = false }: Props) {
   })
 
   const isFormValid = useMemo(
-    () => Boolean(productName.trim() && categoryID && originID && territoryID && fluxID),
-    [productName, categoryID, originID, territoryID, fluxID],
+    () => Boolean(productName.trim() && categoryID && originID && territoryID),
+    [productName, categoryID, originID, territoryID],
   )
 
   const handleCardClick = () => {
@@ -97,7 +95,6 @@ export default function ProductCard({ product, editable = false }: Props) {
     setCategoryID(product.category.categoryID)
     setOriginID(product.origin.originID)
     setTerritoryID(product.territory.territoryID)
-    setFluxID(product.flux.fluxID)
     drawer.openDrawer()
   }
 
@@ -118,7 +115,6 @@ export default function ProductCard({ product, editable = false }: Props) {
         categoryID,
         originID,
         territoryID,
-        fluxID,
         taxID: product.tax?.taxID ?? "",
       },
     })
@@ -140,7 +136,7 @@ export default function ProductCard({ product, editable = false }: Props) {
         </BadgeContainer>
       </CardHeader>
       <CardInfo>
-        {product.origin.originName} • {product.territory.territoryName} • {product.flux.fluxName}
+        {product.origin.originName} • {product.territory.territoryName}
       </CardInfo>
     </>
   )
@@ -189,9 +185,9 @@ export default function ProductCard({ product, editable = false }: Props) {
                     </FormGrid>
                   </DrawerSection>
                   <DrawerSection>
-                    <DrawerSectionTitle>Provenance & Flux</DrawerSectionTitle>
+                    <DrawerSectionTitle>Provenance</DrawerSectionTitle>
                     <DrawerSectionDescription>
-                      Origine, flux et territoire du produit.
+                      Origine et territoire du produit.
                     </DrawerSectionDescription>
                     <FormGrid>
                       <BaseSelect
@@ -223,15 +219,6 @@ export default function ProductCard({ product, editable = false }: Props) {
                         onChange={(val) => {
                           const found = formOptions?.territories.find((t) => t.name === val)
                           if (found) setTerritoryID(found.value ?? found.name)
-                        }}
-                      />
-                      <BaseSelect
-                        label="Flux"
-                        options={formOptions?.flux ?? []}
-                        value={formOptions?.flux.find((f) => f.value === fluxID)?.name ?? ""}
-                        onChange={(val) => {
-                          const found = formOptions?.flux.find((f) => f.name === val)
-                          if (found) setFluxID(found.value ?? found.name)
                         }}
                       />
                     </FormGrid>
