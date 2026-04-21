@@ -6,7 +6,6 @@ export const CreateProductValidator = vine.create(
     categoryID: vine.string().trim().minLength(1),
     originID: vine.string().trim().minLength(1),
     territoryID: vine.string().trim().minLength(1),
-    fluxID: vine.string().trim().minLength(1),
     taxID: vine.string().trim().minLength(1).optional(),
   }),
 )
@@ -17,7 +16,6 @@ export const UpdateProductValidator = vine.create(
     categoryID: vine.string().trim().minLength(1),
     originID: vine.string().trim().minLength(1),
     territoryID: vine.string().trim().minLength(1),
-    fluxID: vine.string().trim().minLength(1),
     taxID: vine.string().trim().minLength(1).optional(),
   }),
 )

@@ -1,7 +1,6 @@
 import { z } from "zod"
 
 export const TaxSimulatorFormSchema = z.object({
-  flux: z.enum(["import", "export"]),
   origin: z.string(),
   product: z.string(),
   territory: z.string(),

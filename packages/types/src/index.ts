@@ -71,6 +71,8 @@ export type TransporterWithRules = Transporter & {
 export type Category = {
   categoryID: string
   categoryName: string
+  taxID: string
+  relatedProducts: number
   taxes?: {
     tva: number
     om: number
@@ -93,10 +95,6 @@ export type Product = {
   territory: {
     territoryID: string
     territoryName: string
-  }
-  flux: {
-    fluxID: string
-    fluxName: string
   }
   tax: {
     taxID: string

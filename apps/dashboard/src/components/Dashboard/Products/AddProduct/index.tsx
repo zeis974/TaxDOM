@@ -15,7 +15,6 @@ export default function AddProduct() {
   const [categoryID, setCategoryID] = useState("")
   const [originID, setOriginID] = useState("")
   const [territoryID, setTerritoryID] = useState("")
-  const [fluxID, setFluxID] = useState("")
 
   const inputId = useId()
   const queryClient = useQueryClient()
@@ -27,7 +26,6 @@ export default function AddProduct() {
       categoryID: string
       originID: string
       territoryID: string
-      fluxID: string
     }) => client.api.products.store({ body }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["products"] })
@@ -39,14 +37,13 @@ export default function AddProduct() {
     },
   })
 
-  const isFormValid = productName.trim() && categoryID && originID && territoryID && fluxID
+  const isFormValid = productName.trim() && categoryID && originID && territoryID
 
   const resetForm = () => {
     setProductName("")
     setCategoryID("")
     setOriginID("")
     setTerritoryID("")
-    setFluxID("")
   }
 
   const handleClose = () => {
@@ -62,7 +59,6 @@ export default function AddProduct() {
       categoryID,
       originID,
       territoryID,
-      fluxID,
     })
   }
 
@@ -131,16 +127,6 @@ export default function AddProduct() {
               onChange={(val) => {
                 const found = formOptions?.territories.find((t) => t.name === val)
                 if (found) setTerritoryID(found.value ?? found.name)
-              }}
-              disabled={isLoading}
-            />
-            <BaseSelect
-              label="Flux *"
-              options={formOptions?.flux ?? []}
-              value={formOptions?.flux.find((f) => f.value === fluxID)?.name ?? ""}
-              onChange={(val) => {
-                const found = formOptions?.flux.find((f) => f.name === val)
-                if (found) setFluxID(found.value ?? found.name)
               }}
               disabled={isLoading}
             />
