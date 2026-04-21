@@ -12,10 +12,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@tanstack/react-query": "5.99.0",
     "@tanstack/react-form": "1.29.0",
     "@tanstack/react-form-nextjs": "1.29.0",
-    "@tanstack/react-virtual": "3.13.23",
+    "@tanstack/react-query": "5.99.2",
+    "@tanstack/react-virtual": "3.13.24",
+    "@taxdom/api": "workspace:*",
+    "@tuyau/core": "^1.2.2",
     "@wrksz/themes": "^0.8.3",
     "motion": "12.38.0",
     "next": "16.2.4",
@@ -28,14 +30,14 @@
     "zustand": "5.0.12"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.9.1",
-    "@tanstack/react-query-devtools": "5.99.0",
+    "@pandacss/dev": "1.10.0",
+    "@tanstack/react-query-devtools": "5.99.2",
     "@taxdom/types": "workspace:*",
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "1.0.0",
-    "typescript": "6.0.2"
+    "typescript": "6.0.3"
   },
   "engines": {
     "node": ">=24",

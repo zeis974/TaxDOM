@@ -7,8 +7,9 @@ import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import BaseSelect from "@/components/Forms/Select/BaseSelect"
 import Modal from "@/components/Modal"
 import Button from "@/components/ui/Button"
-
 import { AddProductBtn, ErrorContainer, FormGrid } from "./AddProduct.styled"
+import { useProductFormOptions } from "@/hooks/useProductFormOptions"
+import { client } from "@/lib/api"
 
 export default function AddProduct() {
   const [show, setShow] = useState(false)
@@ -20,12 +21,25 @@ export default function AddProduct() {
   const [territoryID, setTerritoryID] = useState("")
   const [fluxID, setFluxID] = useState("")
 
-  const { createMutation } = useEntityMutations({
-    queryKey: ["products"],
-    messages: {
-      create: "Produit créé avec succès",
-      update: "Produit mis à jour",
-      delete: "Produit supprimé",
+  const inputId = useId()
+  const queryClient = useQueryClient()
+  const { data: formOptions, isLoading } = useProductFormOptions()
+
+  const createMutation = useMutation({
+    mutationFn: (body: {
+      productName: string
+      categoryID: string
+      originID: string
+      territoryID: string
+      fluxID: string
+    }) => client.api.products.store({ body }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["products"] })
+      toast.success("Produit créé avec succès")
+      handleClose()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la création")
     },
   })
 
@@ -47,22 +61,13 @@ export default function AddProduct() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!isFormValid) return
-
-    try {
-      await createMutation.mutateAsync({
-        url: "/v1/admin/products",
-        body: {
-          productName: productName.trim(),
-          categoryID,
-          originID,
-          territoryID,
-          fluxID,
-        },
-      })
-      handleClose()
-    } catch (error) {
-      // Error is handled by useEntityMutations
-    }
+    createMutation.mutate({
+      productName: productName.trim(),
+      categoryID,
+      originID,
+      territoryID,
+      fluxID,
+    })
   }
 
   const errors = createMutation.error ? ["Erreur lors de la création"] : []

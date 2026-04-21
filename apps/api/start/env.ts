@@ -52,5 +52,6 @@ export default await Env.create(new URL("../", import.meta.url), {
   BETTER_AUTH_SECRET: Env.schema.string(),
   GOOGLE_CLIENT_ID: Env.schema.string(),
   GOOGLE_CLIENT_SECRET: Env.schema.string(),
-  TRUSTED_ORIGIN_URL: Env.schema.string(),
+  TRUSTED_APP_ORIGIN_URL: Env.schema.string({ format: "url", protocol: false, tld: false }),
+  TRUSTED_DASHBOARD_ORIGIN_URL: Env.schema.string({ format: "url", protocol: false, tld: false }),
 })

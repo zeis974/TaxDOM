@@ -16,14 +16,14 @@
     "@astrojs/sitemap": "3.7.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "astro": "6.1.7",
+    "astro": "6.1.8",
     "date-fns": "4.1.0",
     "motion": "12.38.0",
     "react": "19.2.5",
     "react-dom": "19.2.5"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.9.1"
+    "@pandacss/dev": "1.10.0"
   },
   "packageManager": "pnpm@10.33.0"
 }

@@ -1,5 +1,6 @@
 import type { SelectOption } from "@taxdom/types"
 import { queryOptions } from "@tanstack/react-query"
+import { apiClient } from "./api-client"
 
 export type OriginResponse = {
   name: string
@@ -10,20 +11,7 @@ export type OriginResponse = {
  * Fetch all available origins from the public API
  */
 export async function fetchOrigins(): Promise<SelectOption[]> {
-  const url = `${process.env.NEXT_PUBLIC_API_URL}/v1/public/origins`
-
-  const response = await fetch(url, {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-    },
-  })
-
-  if (!response.ok) {
-    throw new Error(`Failed to fetch origins: ${response.status} ${response.statusText}`)
-  }
-
-  const origins = (await response.json()) as OriginResponse[]
+  const origins = await apiClient.api.origins.list({})
   return origins.map((o) => ({
     name: o.name,
     available: true,

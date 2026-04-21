@@ -1,7 +1,10 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
+import { toast } from "sonner"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Modal from "@/components/Modal"
 import Button from "@/components/ui/Button"
+import { client } from "@/lib/api"
 import {
   AddTransporterBtn,
   AddTransporterContainer,
@@ -9,16 +12,26 @@ import {
   TransporterActions,
 } from "./AddTransporter.styled"
 
-interface AddTransporterProps {
-  onCreate: (data: { transporterName: string }) => Promise<unknown>
-  isPending: boolean
-  errors: string[]
-}
-
-export default function AddTransporter({ onCreate, isPending, errors }: AddTransporterProps) {
+export default function AddTransporter() {
   const [show, setShow] = useState(false)
   const [transporterName, setTransporterName] = useState("")
   const transporterNameID = useId()
+
+  const queryClient = useQueryClient()
+
+  const createMutation = useMutation({
+    mutationFn: (body: { transporterName: string; available: boolean }) =>
+      client.api.transporters.store({ body }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["transporters"] })
+      toast.success("Transporteur créé avec succès")
+      handleClose()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la création")
+    },
+  })
+
   const isFormValid = transporterName.trim() !== ""
 
   const resetForm = () => {
@@ -33,9 +46,10 @@ export default function AddTransporter({ onCreate, isPending, errors }: AddTrans
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!isFormValid) return
-    await onCreate({ transporterName: transporterName.trim() })
-    if (!errors.length) handleClose()
+    createMutation.mutate({ transporterName: transporterName.trim(), available: true })
   }
+
+  const errors = createMutation.error ? ["Erreur lors de la création"] : []
 
   return (
     <>
@@ -68,8 +82,8 @@ export default function AddTransporter({ onCreate, isPending, errors }: AddTrans
                 <Button type="button" onClick={handleClose}>
                   Annuler
                 </Button>
-                <Button type="submit" aria-disabled={!isFormValid || isPending}>
-                  {isPending ? "Création..." : "Créer le transporteur"}
+                <Button type="submit" aria-disabled={!isFormValid || createMutation.isPending}>
+                  {createMutation.isPending ? "Création..." : "Créer le transporteur"}
                 </Button>
               </div>
             </TransporterActions>
