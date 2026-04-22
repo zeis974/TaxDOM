@@ -26,32 +26,16 @@ export const AddProductBtn = styled.button`
   }
 `
 
-export const AddProductContainer = styled.div`
-  width: 50vw;
-  padding: 15px;
-
-  & h2 {
-    margin-bottom: 25px;
-  }
-
-  & hr {
-    height: 1px;
-    background: token(colors.secondaryBackground);
-    border: none;
-    margin-bottom: 25px;
-  }
-`
-
-export const ProductActions = styled.div`
+export const FormGrid = styled.div`
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 1rem;
+  flex-direction: column;
+  gap: 1rem;
 `
 
 export const ErrorContainer = styled.div`
   color: token(colors.error);
-  flex: 1;
+  font-weight: 500;
+  font-size: 14px;
   font-family: token(fonts.nativeFont);
-  font-weight: bold;
+  margin-top: 0.75rem;
 `

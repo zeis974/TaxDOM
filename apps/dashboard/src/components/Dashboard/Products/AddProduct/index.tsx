@@ -1,6 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
 import { toast } from "sonner"
+
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import BaseSelect from "@/components/Forms/Select/BaseSelect"
 import Modal from "@/components/Modal"
@@ -11,14 +12,14 @@ import { client } from "@/lib/api"
 
 export default function AddProduct() {
   const [show, setShow] = useState(false)
+  const { data: formOptions, isLoading } = useProductFormOptions()
+  const inputId = useId()
   const [productName, setProductName] = useState("")
   const [categoryID, setCategoryID] = useState("")
   const [originID, setOriginID] = useState("")
   const [territoryID, setTerritoryID] = useState("")
 
-  const inputId = useId()
   const queryClient = useQueryClient()
-  const { data: formOptions, isLoading } = useProductFormOptions()
 
   const createMutation = useMutation({
     mutationFn: (body: {
@@ -66,14 +67,13 @@ export default function AddProduct() {
 
   const footer = (
     <>
-      <Button type="button" variant="secondary" onClick={handleClose}>
+      <Button type="button" onClick={handleClose}>
         Annuler
       </Button>
       <Button
         type="submit"
-        variant="primary"
         onClick={handleSubmit}
-        disabled={!isFormValid || createMutation.isPending}
+        aria-disabled={!isFormValid || createMutation.isPending}
       >
         {createMutation.isPending ? "Création..." : "Créer le produit"}
       </Button>
@@ -85,7 +85,7 @@ export default function AddProduct() {
       <AddProductBtn type="button" onClick={() => setShow(true)}>
         Ajouter un produit
       </AddProductBtn>
-      <Modal show={show} setShow={setShow} title="Ajouter un produit" size="lg" footer={footer}>
+      <Modal show={show} setShow={setShow} title="Ajouter un produit" size="md" footer={footer}>
         <form onSubmit={handleSubmit} autoComplete="off">
           <FormGrid>
             <InputContainer>
