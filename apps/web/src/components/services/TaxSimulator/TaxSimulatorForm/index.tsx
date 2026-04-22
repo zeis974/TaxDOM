@@ -1,7 +1,5 @@
 "use client"
 
-import type { TaxSimulatorFormLabel } from "../types"
-
 import { mergeForm } from "@tanstack/react-form"
 import { initialFormState, useTransform } from "@tanstack/react-form-nextjs"
 import { useQuery } from "@tanstack/react-query"
@@ -15,17 +13,15 @@ import { territoryQueryOptions } from "@/lib/territories"
 import Turnstile from "@/lib/Turnstile"
 import { useTaxSimulatorStore } from "@/providers/TaxSimulatorStoreProvider"
 
-import { Radio, Select } from "@/components/Forms"
+import { Select } from "@/components/Forms"
 
 import { CaptchaContainer } from "./TaxSimulatorForm.styled"
 
 export default function TaxSimulatorForm() {
   const [state, action] = useActionState(getProductTaxes, initialFormState)
 
-  const hasResult = useTaxSimulatorStore((s) => s.hasResult)
   const setHasResult = useTaxSimulatorStore((s) => s.setHasResult)
   const setResult = useTaxSimulatorStore((s) => s.setResult)
-  const setSelectedCountry = useTaxSimulatorStore((s) => s.setSelectedCountry)
 
   useEffect(() => {
     if (state.taxes) {
@@ -70,10 +66,9 @@ export default function TaxSimulatorForm() {
         name="territory"
         label="Territoire d'application"
         placeholder="Réunion"
-        options={territoryOptions.map((t) => ({ name: t.territoryName, value: t.territoryID }))}
+        options={territoryOptions}
       />
       <CaptchaContainer>
-        <Radio {...{ form }} name="flux" label="Flux" options={["import", "export"]} disabled />
         <Turnstile />
       </CaptchaContainer>
       <form.AppForm>

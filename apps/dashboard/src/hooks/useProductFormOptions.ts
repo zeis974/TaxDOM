@@ -14,11 +14,10 @@ export function useProductFormOptions() {
   return useQuery({
     queryKey: ["productFormOptions"],
     queryFn: async () => {
-      const [categoriesRaw, originsRaw, territoriesRaw, fluxRaw, taxesRaw] = await Promise.all([
+      const [categoriesRaw, originsRaw, territoriesRaw, taxesRaw] = await Promise.all([
         client.api.categories.index({}),
         client.api.origins.index({}),
         client.api.territories.index({}),
-        client.api.products.listFlux({}),
         client.api.products.listTaxes({}),
       ])
 
@@ -40,14 +39,9 @@ export function useProductFormOptions() {
         available: t.available,
       }))
 
-      const flux: FormOption[] = fluxRaw.map((f) => ({
-        name: f.fluxName,
-        value: f.fluxID,
-      }))
-
       const taxes = taxesRaw
 
-      return { categories, origins, territories, flux, taxes }
+      return { categories, origins, territories, taxes }
     },
     staleTime: 5 * 60 * 1000,
   })

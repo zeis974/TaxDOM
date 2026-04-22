@@ -7,7 +7,6 @@ import { v7 as uuidv7 } from "uuid"
 import { db } from "#config/database"
 import {
   categories,
-  flux,
   origins,
   products,
   taxes,
@@ -26,9 +25,6 @@ const productRelations = {
   territory: {
     columns: { territoryID: true, territoryName: true },
   },
-  flux: {
-    columns: { fluxID: true, fluxName: true },
-  },
   tax: {
     columns: { taxID: true, tva: true, om: true, omr: true },
   },
@@ -40,7 +36,6 @@ function mapProduct(product: {
   category: { categoryID: string; categoryName: string }
   origin: { originID: string; originName: string; isEU: boolean }
   territory: { territoryID: string; territoryName: string }
-  flux: { fluxID: string; fluxName: string }
   tax: { taxID: string; tva: number; om: number; omr: number }
   createdAt: Date | null
   updatedAt: Date | null
@@ -60,10 +55,6 @@ function mapProduct(product: {
     territory: {
       territoryID: product.territory.territoryID,
       territoryName: product.territory.territoryName,
-    },
-    flux: {
-      fluxID: product.flux.fluxID,
-      fluxName: product.flux.fluxName,
     },
     tax: {
       taxID: product.tax.taxID,
@@ -138,21 +129,6 @@ export default class ProductsController {
   }
 
   /**
-   * List all flux
-   */
-  async listFlux() {
-    try {
-      const allFlux = await db.query.flux.findMany({
-        orderBy: (flux, { asc }) => [asc(flux.fluxName)],
-      })
-      return allFlux
-    } catch (err) {
-      logger.error({ err }, "Cannot get flux list")
-      return []
-    }
-  }
-
-  /**
    * List all taxes
    */
   async listTaxes() {
@@ -189,17 +165,15 @@ export default class ProductsController {
   async store({ request, response }: HttpContext) {
     try {
       const validatedData = await request.validateUsing(CreateProductValidator)
-      const { productName, categoryID, originID, territoryID, fluxID, taxID } = validatedData
+      const { productName, categoryID, originID, territoryID, taxID } = validatedData
 
-      // Verify all FK entities exist
-      const [existingCategory, existingOrigin, existingTerritory, existingFlux, existingTax] =
-        await Promise.all([
+      const [existingCategory, existingOrigin, existingTerritory] = await Promise.all(
+        [
           db.query.categories.findFirst({ where: eq(categories.categoryID, categoryID) }),
           db.query.origins.findFirst({ where: eq(origins.originID, originID) }),
           db.query.territories.findFirst({ where: eq(territories.territoryID, territoryID) }),
-          db.query.flux.findFirst({ where: eq(flux.fluxID, fluxID) }),
-          db.query.taxes.findFirst({ where: eq(taxes.taxID, taxID) }),
-        ])
+        ],
+      )
 
       if (!existingCategory) {
         return response.badRequest({ error: "La catégorie spécifiée n'existe pas" })
@@ -210,11 +184,16 @@ export default class ProductsController {
       if (!existingTerritory) {
         return response.badRequest({ error: "Le territoire spécifié n'existe pas" })
       }
-      if (!existingFlux) {
-        return response.badRequest({ error: "Le flux spécifié n'existe pas" })
-      }
+      const derivedTaxID = existingCategory.taxID
+      const existingTax = await db.query.taxes.findFirst({ where: eq(taxes.taxID, derivedTaxID) })
       if (!existingTax) {
-        return response.badRequest({ error: "La taxe spécifiée n'existe pas" })
+        return response.badRequest({ error: "La taxe associée à la catégorie n'existe pas" })
+      }
+      if (taxID && taxID !== derivedTaxID) {
+        logger.warn(
+          { providedTaxID: taxID, derivedTaxID, categoryID },
+          "[PRODUCTS]: Ignoring mismatched taxID from payload and using category tax",
+        )
       }
 
       // Check for duplicate product name
@@ -234,8 +213,7 @@ export default class ProductsController {
         categoryID,
         originID,
         territoryID,
-        fluxID,
-        taxID,
+        taxID: derivedTaxID,
       })
 
       const createdProduct = await db.query.products.findFirst({
@@ -301,27 +279,15 @@ export default class ProductsController {
       }
 
       const validatedData = await request.validateUsing(UpdateProductValidator)
-      const { productName, categoryID, originID, territoryID, fluxID, taxID } = validatedData
+      const { productName, categoryID, originID, territoryID, taxID } = validatedData
 
-      // Check for duplicate product name (excluding current product)
-      const duplicateProduct = await db.query.products.findFirst({
-        where: (products, { eq, and, ne }) =>
-          and(eq(products.productName, productName.trim()), ne(products.productID, productId)),
-      })
-
-      if (duplicateProduct) {
-        return response.badRequest({ error: "Un produit avec ce nom existe déjà" })
-      }
-
-      // Verify all FK entities exist
-      const [existingCategory, existingOrigin, existingTerritory, existingFlux, existingTax] =
-        await Promise.all([
+      const [existingCategory, existingOrigin, existingTerritory] = await Promise.all(
+        [
           db.query.categories.findFirst({ where: eq(categories.categoryID, categoryID) }),
           db.query.origins.findFirst({ where: eq(origins.originID, originID) }),
           db.query.territories.findFirst({ where: eq(territories.territoryID, territoryID) }),
-          db.query.flux.findFirst({ where: eq(flux.fluxID, fluxID) }),
-          db.query.taxes.findFirst({ where: eq(taxes.taxID, taxID) }),
-        ])
+        ],
+      )
 
       if (!existingCategory) {
         return response.badRequest({ error: "La catégorie spécifiée n'existe pas" })
@@ -332,11 +298,16 @@ export default class ProductsController {
       if (!existingTerritory) {
         return response.badRequest({ error: "Le territoire spécifié n'existe pas" })
       }
-      if (!existingFlux) {
-        return response.badRequest({ error: "Le flux spécifié n'existe pas" })
-      }
+      const derivedTaxID = existingCategory.taxID
+      const existingTax = await db.query.taxes.findFirst({ where: eq(taxes.taxID, derivedTaxID) })
       if (!existingTax) {
-        return response.badRequest({ error: "La taxe spécifiée n'existe pas" })
+        return response.badRequest({ error: "La taxe associée à la catégorie n'existe pas" })
+      }
+      if (taxID && taxID !== derivedTaxID) {
+        logger.warn(
+          { providedTaxID: taxID, derivedTaxID, categoryID, productId },
+          "[PRODUCTS]: Ignoring mismatched taxID from payload and using category tax",
+        )
       }
 
       await db
@@ -346,8 +317,7 @@ export default class ProductsController {
           categoryID,
           originID,
           territoryID,
-          fluxID,
-          taxID,
+          taxID: derivedTaxID,
         })
         .where(eq(products.productID, productId))
 
