@@ -1,7 +1,6 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
-
-import { useEntityMutations } from "@/hooks/useEntityMutations"
-import { useProductFormOptions } from "@/hooks/useProductFormOptions"
+import { toast } from "sonner"
 
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import BaseSelect from "@/components/Forms/Select/BaseSelect"
@@ -20,9 +19,7 @@ export default function AddProduct() {
   const [originID, setOriginID] = useState("")
   const [territoryID, setTerritoryID] = useState("")
 
-  const inputId = useId()
   const queryClient = useQueryClient()
-  const { data: formOptions, isLoading } = useProductFormOptions()
 
   const createMutation = useMutation({
     mutationFn: (body: {
