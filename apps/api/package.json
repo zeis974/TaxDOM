@@ -40,16 +40,16 @@
     "#generated/*": "./.adonisjs/server/*.js"
   },
   "dependencies": {
-    "@adonisjs/core": "7.3.1",
+    "@adonisjs/core": "7.3.2",
     "@adonisjs/cors": "3.0.0",
     "@adonisjs/limiter": "3.0.1",
     "@adonisjs/redis": "10.0.0",
     "@adonisjs/session": "8.1.0",
     "@adonisjs/shield": "9.0.0",
-    "@better-auth/drizzle-adapter": "1.6.5",
-    "@tuyau/core": "^1.2.2",
-    "@vinejs/vine": "4.3.1",
-    "better-auth": "1.6.5",
+    "@better-auth/drizzle-adapter": "1.6.9",
+    "@tuyau/core": "1.2.2",
+    "@vinejs/vine": "4.4.0",
+    "better-auth": "1.6.9",
     "drizzle-orm": "0.45.2",
     "luxon": "3.7.2",
     "pg": "8.20.0",
@@ -80,5 +80,5 @@
     "node": ">=24",
     "pnpm": ">=10"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@10.33.2"
 }
