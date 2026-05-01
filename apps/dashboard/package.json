@@ -19,6 +19,7 @@
     "@tanstack/react-virtual": "3.13.24",
     "@taxdom/api": "workspace:*",
     "@tuyau/core": "1.2.2",
+    "@tuyau/react-query": "^1.1.0",
     "@xyflow/react": "12.10.2",
     "better-auth": "1.6.9",
     "motion": "12.38.0",
