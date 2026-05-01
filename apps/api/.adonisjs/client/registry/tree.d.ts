@@ -48,7 +48,6 @@ export interface ApiDefinition {
     count: (typeof routes)["products.count"]
     recent: (typeof routes)["products.recent"]
     distribution: (typeof routes)["products.distribution"]
-    listFlux: (typeof routes)["products.list_flux"]
     listTaxes: (typeof routes)["products.list_taxes"]
     index: (typeof routes)["products.index"]
     store: (typeof routes)["products.store"]
