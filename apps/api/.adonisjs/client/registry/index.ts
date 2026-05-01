@@ -263,17 +263,6 @@ const routes = {
     ],
     types: placeholder as Registry["products.distribution"]["types"],
   },
-  "products.list_flux": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products/flux",
-    tokens: [
-      { old: "/v1/admin/products/flux", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/flux", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/flux", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/flux", type: 0, val: "flux", end: "" },
-    ],
-    types: placeholder as Registry["products.list_flux"]["types"],
-  },
   "products.list_taxes": {
     methods: ["GET", "HEAD"],
     pattern: "/v1/admin/products/taxes",

@@ -3,14 +3,9 @@ import { useId, useState } from "react"
 import { toast } from "sonner"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Modal from "@/components/Modal"
-import Button from "@/components/ui/Button"
-import { client } from "@/lib/api"
-import {
-  AddCategoryBtn,
-  AddCategoryContainer,
-  CategoryActions,
-  ErrorContainer,
-} from "./AddCategory.styled"
+import ModalCard from "@/components/Modal/ModalCard"
+import { api } from "@/lib/api"
+import { AddCategoryBtn, ErrorContainer } from "./AddCategory.styled"
 
 export default function AddCategory() {
   const [show, setShow] = useState(false)
@@ -26,18 +21,18 @@ export default function AddCategory() {
 
   const queryClient = useQueryClient()
 
-  const createMutation = useMutation({
-    mutationFn: (body: { categoryName: string; tva: number; om: number; omr: number }) =>
-      client.api.categories.store({ body }),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["categories"] })
-      toast.success("Catégorie créée avec succès")
-      handleClose()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la création")
-    },
-  })
+  const createMutation = useMutation(
+    api.categories.store.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.categories.index.pathKey() })
+        toast.success("Catégorie créée avec succès")
+        handleClose()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la création")
+      },
+    }),
+  )
 
   const isFormValid = categoryName.trim() && tva !== "" && om !== "" && omr !== ""
 
@@ -53,14 +48,15 @@ export default function AddCategory() {
     resetForm()
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+  const handleSubmit = () => {
     if (!isFormValid) return
     createMutation.mutate({
-      categoryName: categoryName.trim(),
-      tva: Number(tva),
-      om: Number(om),
-      omr: Number(omr),
+      body: {
+        categoryName: categoryName.trim(),
+        tva: Number(tva),
+        om: Number(om),
+        omr: Number(omr),
+      },
     })
   }
 
@@ -72,10 +68,21 @@ export default function AddCategory() {
         Ajouter une catégorie
       </AddCategoryBtn>
       <Modal show={show} setShow={setShow}>
-        <AddCategoryContainer>
-          <h2>Ajouter une catégorie</h2>
-          <hr />
-          <form onSubmit={handleSubmit} autoComplete="off">
+        <ModalCard
+          title="Ajouter une catégorie"
+          onClose={handleClose}
+          submitLabel="Créer la catégorie"
+          onSubmit={handleSubmit}
+          submitDisabled={!isFormValid || createMutation.isPending}
+          submitLoading={createMutation.isPending}
+        >
+          <form
+            onSubmit={(e) => {
+              e.preventDefault()
+              handleSubmit()
+            }}
+            autoComplete="off"
+          >
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <InputContainer>
                 <label htmlFor={categoryNameID}>Nom de la catégorie *</label>
@@ -131,22 +138,15 @@ export default function AddCategory() {
                 </InputContainer>
               </div>
             </div>
-            <CategoryActions>
+            {errors.length > 0 && (
               <ErrorContainer>
-                {errors.length > 0 &&
-                  errors.map((error, index) => <span key={index}>{error}</span>)}
+                {errors.map((error, index) => (
+                  <span key={index}>{error}</span>
+                ))}
               </ErrorContainer>
-              <div style={{ display: "flex", gap: 8 }}>
-                <Button type="button" onClick={handleClose}>
-                  Annuler
-                </Button>
-                <Button type="submit" aria-disabled={!isFormValid || createMutation.isPending}>
-                  {createMutation.isPending ? "Création..." : "Créer la catégorie"}
-                </Button>
-              </div>
-            </CategoryActions>
+            )}
           </form>
-        </AddCategoryContainer>
+        </ModalCard>
       </Modal>
     </>
   )

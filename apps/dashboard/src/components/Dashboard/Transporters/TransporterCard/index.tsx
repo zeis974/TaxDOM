@@ -6,7 +6,7 @@ import { toast } from "sonner"
 import { Drawer } from "vaul"
 import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { client } from "@/lib/api"
+import { api } from "@/lib/api"
 import {
   ActionsGroup,
   Card,
@@ -49,32 +49,31 @@ export default function TransporterCard({ transporter, editable = false }: Props
 
   const queryClient = useQueryClient()
 
-  const updateMutation = useMutation({
-    mutationFn: (vars: {
-      params: { id: string }
-      body: { transporterName: string; available: boolean }
-    }) => client.api.transporters.update(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["transporters"] })
-      toast.success("Transporteur mis à jour")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la mise à jour")
-    },
-  })
+  const updateMutation = useMutation(
+    api.transporters.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.transporters.index.pathKey() })
+        toast.success("Transporteur mis à jour")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la mise à jour")
+      },
+    }),
+  )
 
-  const deleteMutation = useMutation({
-    mutationFn: (vars: { params: { id: string } }) => client.api.transporters.destroy(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["transporters"] })
-      toast.success("Transporteur supprimé")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la suppression")
-    },
-  })
+  const deleteMutation = useMutation(
+    api.transporters.destroy.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.transporters.index.pathKey() })
+        toast.success("Transporteur supprimé")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la suppression")
+      },
+    }),
+  )
 
   const isFormValid = useMemo(() => Boolean(transporterName.trim()), [transporterName])
 

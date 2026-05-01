@@ -3,14 +3,9 @@ import { useId, useState } from "react"
 import { toast } from "sonner"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Modal from "@/components/Modal"
-import Button from "@/components/ui/Button"
-import { client } from "@/lib/api"
-import {
-  AddTerritoryBtn,
-  AddTerritoryContainer,
-  ErrorContainer,
-  TerritoryActions,
-} from "./AddTerritory.styled"
+import ModalCard from "@/components/Modal/ModalCard"
+import { api } from "@/lib/api"
+import { AddTerritoryBtn, ErrorContainer } from "./AddTerritory.styled"
 
 export default function AddTerritory() {
   const [show, setShow] = useState(false)
@@ -19,18 +14,18 @@ export default function AddTerritory() {
 
   const queryClient = useQueryClient()
 
-  const createMutation = useMutation({
-    mutationFn: (body: { territoryName: string; available: boolean }) =>
-      client.api.territories.store({ body }),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["territories"] })
-      toast.success("Territoire créé avec succès")
-      handleClose()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la création")
-    },
-  })
+  const createMutation = useMutation(
+    api.territories.store.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.territories.index.pathKey() })
+        toast.success("Territoire créé avec succès")
+        handleClose()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la création")
+      },
+    }),
+  )
 
   const isFormValid = territoryName.trim() !== ""
 
@@ -43,10 +38,11 @@ export default function AddTerritory() {
     resetForm()
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+  const handleSubmit = () => {
     if (!isFormValid) return
-    createMutation.mutate({ territoryName: territoryName.trim(), available: true })
+    createMutation.mutate({
+      body: { territoryName: territoryName.trim(), available: true },
+    })
   }
 
   const errors = createMutation.error ? ["Erreur lors de la création"] : []
@@ -57,10 +53,21 @@ export default function AddTerritory() {
         Ajouter un territoire
       </AddTerritoryBtn>
       <Modal show={show} setShow={setShow}>
-        <AddTerritoryContainer>
-          <h2>Ajouter un territoire</h2>
-          <hr />
-          <form onSubmit={handleSubmit} autoComplete="off">
+        <ModalCard
+          title="Ajouter un territoire"
+          onClose={handleClose}
+          submitLabel="Créer le territoire"
+          onSubmit={handleSubmit}
+          submitDisabled={!isFormValid || createMutation.isPending}
+          submitLoading={createMutation.isPending}
+        >
+          <form
+            onSubmit={(e) => {
+              e.preventDefault()
+              handleSubmit()
+            }}
+            autoComplete="off"
+          >
             <InputContainer>
               <label htmlFor={territoryNameID}>Nom du territoire *</label>
               <input
@@ -73,22 +80,15 @@ export default function AddTerritory() {
                 onChange={(e) => setTerritoryName(e.target.value)}
               />
             </InputContainer>
-            <TerritoryActions>
+            {errors.length > 0 && (
               <ErrorContainer>
-                {errors.length > 0 &&
-                  errors.map((error, index) => <span key={index}>{error}</span>)}
+                {errors.map((error, index) => (
+                  <span key={index}>{error}</span>
+                ))}
               </ErrorContainer>
-              <div style={{ display: "flex", gap: 8 }}>
-                <Button type="button" onClick={handleClose}>
-                  Annuler
-                </Button>
-                <Button type="submit" aria-disabled={!isFormValid || createMutation.isPending}>
-                  {createMutation.isPending ? "Création..." : "Créer le territoire"}
-                </Button>
-              </div>
-            </TerritoryActions>
+            )}
           </form>
-        </AddTerritoryContainer>
+        </ModalCard>
       </Modal>
     </>
   )

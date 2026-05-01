@@ -6,6 +6,7 @@ import { v7 as uuidv7 } from "uuid"
 
 import { db } from "#config/database"
 import { origins, products } from "#database/schema"
+import { createOriginValidator, updateOriginValidator } from "#validators/OriginValidator"
 
 export default class OriginsController {
   /**
@@ -118,32 +119,10 @@ export default class OriginsController {
    */
   async store({ request, response }: HttpContext) {
     try {
-      const { originName, isEU, available, isActive } = request.only([
-        "originName",
-        "isEU",
-        "available",
-        "isActive",
-      ]) as {
-        originName?: unknown
-        isEU?: unknown
-        available?: unknown
-        isActive?: unknown
-      }
+      const validatedData = await request.validateUsing(createOriginValidator)
+      const { originName, isEU, available } = validatedData
 
-      if (!originName || typeof originName !== "string" || originName.trim().length === 0) {
-        return response.status(400).json({
-          error: "Le nom de l'origine est requis",
-        })
-      }
-
-      if (typeof isEU !== "boolean") {
-        return response.status(400).json({
-          error: "Le statut UE est requis",
-        })
-      }
-
-      const resolvedAvailable =
-        typeof available === "boolean" ? available : typeof isActive === "boolean" ? isActive : true
+      const resolvedAvailable = available ?? true
 
       const trimmedName = originName.trim().toUpperCase()
       const originID = uuidv7()
@@ -189,16 +168,17 @@ export default class OriginsController {
       const originIdParam: string = params.id
       if (!originIdParam) return response.status(400).json({ error: "Paramètre manquant" })
 
-      const { originName, available, isEU } = request.only(["originName", "available", "isEU"])
+      const validatedData = await request.validateUsing(updateOriginValidator)
+      const { originName, available, isEU } = validatedData
 
       const updateData: Partial<typeof origins.$inferInsert> = {}
-      if (typeof originName === "string" && originName.trim().length > 0) {
+      if (originName) {
         updateData.originName = originName.trim().toUpperCase()
       }
-      if (typeof available === "boolean") {
+      if (available !== undefined) {
         updateData.available = available
       }
-      if (typeof isEU === "boolean") {
+      if (isEU !== undefined) {
         updateData.isEU = isEU
       }
 
