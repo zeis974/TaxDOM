@@ -1,22 +1,14 @@
 import type { SelectOption } from "@taxdom/types"
-import { queryOptions } from "@tanstack/react-query"
-import { apiClient } from "./api-client"
+import { api } from "./api-client"
 
 /**
- * Fetch all available territories from the server
+ * Type-safe query options for fetching territories via Tuyau + TanStack Query.
+ * The query key is automatically managed by Tuyau.
  */
-export async function fetchTerritories(): Promise<SelectOption[]> {
-  try {
-    const territories = await apiClient.api.territories.list({})
-    return territories.map((territory) => ({ name: territory.name }))
-  } catch (error) {
-    console.error("Error fetching territories:", error)
-    return []
-  }
-}
-
-export const territoryQueryOptions = queryOptions({
-  queryKey: ["territories"],
-  queryFn: fetchTerritories,
-  staleTime: 60 * 60 * 1000,
-})
+export const territoryQueryOptions = api.territories.list.queryOptions(
+  {},
+  {
+    staleTime: 60 * 60 * 1000,
+    select: (data): SelectOption[] => data.map((territory) => ({ name: territory.name })),
+  },
+)

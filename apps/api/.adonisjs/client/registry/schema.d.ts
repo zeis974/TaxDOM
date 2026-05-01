@@ -441,22 +441,6 @@ export interface Registry {
       >
     }
   }
-  "products.list_flux": {
-    methods: ["GET", "HEAD"]
-    pattern: "/v1/admin/products/flux"
-    types: {
-      body: {}
-      paramsTuple: []
-      params: {}
-      query: {}
-      response: ExtractResponse<
-        Awaited<ReturnType<import("#controllers/ProductsController").default["listFlux"]>>
-      >
-      errorResponse: ExtractErrorResponse<
-        Awaited<ReturnType<import("#controllers/ProductsController").default["listFlux"]>>
-      >
-    }
-  }
   "products.list_taxes": {
     methods: ["GET", "HEAD"]
     pattern: "/v1/admin/products/taxes"
@@ -817,72 +801,48 @@ export interface Registry {
     methods: ["POST"]
     pattern: "/v1/admin/transporters/:transporterId/rules/flow"
     types: {
-      body: ExtractBody<
-        InferInput<typeof import("#validators/TransporterRulesValidator").saveFlowValidator>
-      >
+      body: {}
       paramsTuple: [ParamValue]
       params: { transporterId: ParamValue }
-      query: ExtractQuery<
-        InferInput<typeof import("#validators/TransporterRulesValidator").saveFlowValidator>
-      >
+      query: {}
       response: ExtractResponse<
         Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveFlow"]>>
       >
-      errorResponse:
-        | ExtractErrorResponse<
-            Awaited<
-              ReturnType<import("#controllers/TransporterRulesController").default["saveFlow"]>
-            >
-          >
-        | { status: 422; response: { errors: SimpleError[] } }
+      errorResponse: ExtractErrorResponse<
+        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveFlow"]>>
+      >
     }
   }
   "transporter_rules.save_rules": {
     methods: ["POST"]
     pattern: "/v1/admin/transporters/:transporterId/rules/fees"
     types: {
-      body: ExtractBody<
-        InferInput<typeof import("#validators/TransporterRulesValidator").saveRulesValidator>
-      >
+      body: {}
       paramsTuple: [ParamValue]
       params: { transporterId: ParamValue }
-      query: ExtractQuery<
-        InferInput<typeof import("#validators/TransporterRulesValidator").saveRulesValidator>
-      >
+      query: {}
       response: ExtractResponse<
         Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveRules"]>>
       >
-      errorResponse:
-        | ExtractErrorResponse<
-            Awaited<
-              ReturnType<import("#controllers/TransporterRulesController").default["saveRules"]>
-            >
-          >
-        | { status: 422; response: { errors: SimpleError[] } }
+      errorResponse: ExtractErrorResponse<
+        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveRules"]>>
+      >
     }
   }
   "transporter_rules.save_all": {
     methods: ["POST"]
     pattern: "/v1/admin/transporters/:transporterId/rules"
     types: {
-      body: ExtractBody<
-        InferInput<typeof import("#validators/TransporterRulesValidator").saveAllValidator>
-      >
+      body: {}
       paramsTuple: [ParamValue]
       params: { transporterId: ParamValue }
-      query: ExtractQuery<
-        InferInput<typeof import("#validators/TransporterRulesValidator").saveAllValidator>
-      >
+      query: {}
       response: ExtractResponse<
         Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveAll"]>>
       >
-      errorResponse:
-        | ExtractErrorResponse<
-            Awaited<
-              ReturnType<import("#controllers/TransporterRulesController").default["saveAll"]>
-            >
-          >
-        | { status: 422; response: { errors: SimpleError[] } }
+      errorResponse: ExtractErrorResponse<
+        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveAll"]>>
+      >
     }
   }
 }

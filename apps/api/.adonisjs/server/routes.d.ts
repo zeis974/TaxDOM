@@ -28,7 +28,6 @@ export type ScannedRoutes = {
     "products.count": { paramsTuple?: []; params?: {} }
     "products.recent": { paramsTuple?: []; params?: {} }
     "products.distribution": { paramsTuple?: []; params?: {} }
-    "products.list_flux": { paramsTuple?: []; params?: {} }
     "products.list_taxes": { paramsTuple?: []; params?: {} }
     "products.index": { paramsTuple?: []; params?: {} }
     "products.store": { paramsTuple?: []; params?: {} }
@@ -79,7 +78,6 @@ export type ScannedRoutes = {
     "products.count": { paramsTuple?: []; params?: {} }
     "products.recent": { paramsTuple?: []; params?: {} }
     "products.distribution": { paramsTuple?: []; params?: {} }
-    "products.list_flux": { paramsTuple?: []; params?: {} }
     "products.list_taxes": { paramsTuple?: []; params?: {} }
     "products.index": { paramsTuple?: []; params?: {} }
     "products.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
@@ -109,7 +107,6 @@ export type ScannedRoutes = {
     "products.count": { paramsTuple?: []; params?: {} }
     "products.recent": { paramsTuple?: []; params?: {} }
     "products.distribution": { paramsTuple?: []; params?: {} }
-    "products.list_flux": { paramsTuple?: []; params?: {} }
     "products.list_taxes": { paramsTuple?: []; params?: {} }
     "products.index": { paramsTuple?: []; params?: {} }
     "products.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }

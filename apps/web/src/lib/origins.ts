@@ -1,25 +1,18 @@
 import type { SelectOption } from "@taxdom/types"
-import { queryOptions } from "@tanstack/react-query"
-import { apiClient } from "./api-client"
-
-export type OriginResponse = {
-  name: string
-  isEU: boolean
-}
+import { api } from "./api-client"
 
 /**
- * Fetch all available origins from the public API
+ * Type-safe query options for fetching origins via Tuyau + TanStack Query.
+ * The query key is automatically managed by Tuyau.
  */
-export async function fetchOrigins(): Promise<SelectOption[]> {
-  const origins = await apiClient.api.origins.list({})
-  return origins.map((o) => ({
-    name: o.name,
-    available: true,
-  }))
-}
-
-export const originQueryOptions = queryOptions({
-  queryKey: ["origins"],
-  queryFn: fetchOrigins,
-  staleTime: 60 * 60 * 1000, // 1 hour for reference data
-})
+export const originQueryOptions = api.origins.list.queryOptions(
+  {},
+  {
+    staleTime: 60 * 60 * 1000, // 1 hour for reference data
+    select: (data): SelectOption[] =>
+      data.map((o) => ({
+        name: o.name,
+        available: true,
+      })),
+  },
+)

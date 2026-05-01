@@ -8,7 +8,7 @@ import BaseSelect from "@/components/Forms/Select/BaseSelect"
 import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
 import { useProductFormOptions } from "@/hooks/useProductFormOptions"
-import { client } from "@/lib/api"
+import { api } from "@/lib/api"
 import {
   ActionsGroup,
   Badge,
@@ -51,38 +51,31 @@ export default function ProductCard({ product, editable = false }: Props) {
 
   const queryClient = useQueryClient()
 
-  const updateMutation = useMutation({
-    mutationFn: (vars: {
-      params: { id: string }
-      body: {
-        productName: string
-        categoryID: string
-        originID: string
-        territoryID: string
-        taxID: string
-      }
-    }) => client.api.products.update(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["products"] })
-      toast.success("Produit mis à jour")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la mise à jour")
-    },
-  })
+  const updateMutation = useMutation(
+    api.products.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.products.index.pathKey() })
+        toast.success("Produit mis à jour")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la mise à jour")
+      },
+    }),
+  )
 
-  const deleteMutation = useMutation({
-    mutationFn: (vars: { params: { id: string } }) => client.api.products.destroy(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["products"] })
-      toast.success("Produit supprimé")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la suppression")
-    },
-  })
+  const deleteMutation = useMutation(
+    api.products.destroy.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.products.index.pathKey() })
+        toast.success("Produit supprimé")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la suppression")
+      },
+    }),
+  )
 
   const isFormValid = useMemo(
     () => Boolean(productName.trim() && categoryID && originID && territoryID),

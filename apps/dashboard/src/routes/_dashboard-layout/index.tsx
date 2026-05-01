@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router"
 import Overview from "@/components/Dashboard/Overview"
-import { client, queryClient } from "@/lib/api"
+import { api, queryClient } from "@/lib/api"
 
 interface DashboardStats {
   products_count: number
@@ -28,61 +28,65 @@ interface TopTerritory {
   territoryID: string
   territoryName: string
   productsCount: number
-  available: boolean
 }
 
 export const Route = createFileRoute("/_dashboard-layout/")({
   loader: async () => {
-    const productsCount = await queryClient.ensureQueryData({
-      queryKey: ["dashboard-stats-products"],
-      queryFn: async () => client.api.products.count({}),
-      staleTime: 1000 * 60 * 60,
-    })
-    const categoriesCount = await queryClient.ensureQueryData({
-      queryKey: ["dashboard-stats-categories"],
-      queryFn: async () => client.api.categories.count({}),
-      staleTime: 1000 * 60 * 60,
-    })
-    const originsCount = await queryClient.ensureQueryData({
-      queryKey: ["dashboard-stats-origins"],
-      queryFn: async () => client.api.origins.count({}),
-      staleTime: 1000 * 60 * 60,
-    })
-    const territoriesCount = await queryClient.ensureQueryData({
-      queryKey: ["dashboard-stats-territories"],
-      queryFn: async () => client.api.territories.count({}),
-      staleTime: 1000 * 60 * 60,
-    })
-    const recentProducts = await queryClient.ensureQueryData({
-      queryKey: ["dashboard-recent-products"],
-      queryFn: async () => {
-        const data = await client.api.products.recent({})
-        return (
-          Array.isArray(data) ? data : ((data as Record<string, unknown>).recent_products ?? [])
-        ) as RecentProduct[]
-      },
-      staleTime: 1000 * 60 * 5,
-    })
-    const topOrigins = await queryClient.ensureQueryData({
-      queryKey: ["dashboard-top-origins"],
-      queryFn: async () => {
-        const data = await client.api.origins.top({})
-        return (
-          Array.isArray(data) ? data : ((data as Record<string, unknown>).top_origins ?? [])
-        ) as TopOrigin[]
-      },
-      staleTime: 1000 * 60 * 60,
-    })
-    const topTerritories = await queryClient.ensureQueryData({
-      queryKey: ["dashboard-top-territories"],
-      queryFn: async () => {
-        const data = await client.api.territories.top({})
-        return (
-          Array.isArray(data) ? data : ((data as Record<string, unknown>).top_territories ?? [])
-        ) as TopTerritory[]
-      },
-      staleTime: 1000 * 60 * 60,
-    })
+    const productsCount = await queryClient.ensureQueryData(
+      api.products.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    const categoriesCount = await queryClient.ensureQueryData(
+      api.categories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    const originsCount = await queryClient.ensureQueryData(
+      api.origins.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    const territoriesCount = await queryClient.ensureQueryData(
+      api.territories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+
+    const recentProductsRaw = await queryClient.ensureQueryData(
+      api.products.recent.queryOptions({}, { staleTime: 1000 * 60 * 5 }),
+    )
+    const recentProductsArray = Array.isArray(recentProductsRaw)
+      ? recentProductsRaw
+      : (((recentProductsRaw as Record<string, unknown>).recent_products ?? []) as Array<{
+          productID: string
+          productName: string
+          categoryName?: string
+          originName?: string
+          createdAt?: string | Date | null
+        }>)
+    const recentProducts: RecentProduct[] = recentProductsArray.map((p) => ({
+      productID: p.productID,
+      productName: p.productName,
+      category: { categoryName: p.categoryName ?? "" },
+      origin: { originName: p.originName ?? "" },
+      createdAt:
+        typeof p.createdAt === "string"
+          ? p.createdAt
+          : p.createdAt instanceof Date
+            ? p.createdAt.toISOString()
+            : "",
+    }))
+
+    const topOriginsRaw = await queryClient.ensureQueryData(
+      api.origins.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    const topOrigins = (
+      Array.isArray(topOriginsRaw)
+        ? topOriginsRaw
+        : ((topOriginsRaw as Record<string, unknown>).top_origins ?? [])
+    ) as TopOrigin[]
+
+    const topTerritoriesRaw = await queryClient.ensureQueryData(
+      api.territories.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    const topTerritories = (
+      Array.isArray(topTerritoriesRaw)
+        ? topTerritoriesRaw
+        : ((topTerritoriesRaw as Record<string, unknown>).top_territories ?? [])
+    ) as TopTerritory[]
 
     return {
       stats: {
@@ -91,9 +95,9 @@ export const Route = createFileRoute("/_dashboard-layout/")({
         origins_count: (originsCount as Record<string, number>).origins_count ?? 0,
         territories_count: (territoriesCount as Record<string, number>).territories_count ?? 0,
       } as DashboardStats,
-      recentProducts: recentProducts as RecentProduct[],
-      topOrigins: topOrigins as TopOrigin[],
-      topTerritories: topTerritories as TopTerritory[],
+      recentProducts,
+      topOrigins,
+      topTerritories,
     }
   },
   component: OverviewPage,
