@@ -7,7 +7,7 @@ import TaxBar from "@/components/Dashboard/Categories/CategoriesList/TaxBar"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { client } from "@/lib/api"
+import { api } from "@/lib/api"
 import {
   ActionsGroup,
   Badge,
@@ -49,30 +49,31 @@ export default function CategoryCard({ category, onClick, editable = false }: Pr
 
   const queryClient = useQueryClient()
 
-  const updateMutation = useMutation({
-    mutationFn: (vars: { params: { id: string }; body: { categoryName: string; taxID: string } }) =>
-      client.api.categories.update(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["categories"] })
-      toast.success("Catégorie mise à jour")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la mise à jour")
-    },
-  })
+  const updateMutation = useMutation(
+    api.categories.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.categories.index.pathKey() })
+        toast.success("Catégorie mise à jour")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la mise à jour")
+      },
+    }),
+  )
 
-  const deleteMutation = useMutation({
-    mutationFn: (vars: { params: { id: string } }) => client.api.categories.destroy(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["categories"] })
-      toast.success("Catégorie supprimée")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la suppression")
-    },
-  })
+  const deleteMutation = useMutation(
+    api.categories.destroy.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.categories.index.pathKey() })
+        toast.success("Catégorie supprimée")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la suppression")
+      },
+    }),
+  )
 
   const isFormValid = useMemo(() => Boolean(categoryName.trim()), [categoryName])
 

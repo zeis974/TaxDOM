@@ -6,7 +6,7 @@ import { Drawer } from "vaul"
 import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
 import { useResettableTimeout } from "@/hooks/useResettableTimeout"
-import { client } from "@/lib/api"
+import { api } from "@/lib/api"
 import {
   ActionsGroup,
   Badge,
@@ -53,32 +53,31 @@ export default function OriginCard({ origin, editable = false }: Props) {
 
   const queryClient = useQueryClient()
 
-  const updateMutation = useMutation({
-    mutationFn: (vars: {
-      params: { id: string }
-      body: { originName: string; available: boolean; isEU: boolean }
-    }) => client.api.origins.update(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["origins"] })
-      toast.success("Origine mise à jour")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la mise à jour")
-    },
-  })
+  const updateMutation = useMutation(
+    api.origins.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.origins.index.pathKey() })
+        toast.success("Origine mise à jour")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la mise à jour")
+      },
+    }),
+  )
 
-  const deleteMutation = useMutation({
-    mutationFn: (vars: { params: { id: string } }) => client.api.origins.destroy(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["origins"] })
-      toast.success("Origine supprimée")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la suppression")
-    },
-  })
+  const deleteMutation = useMutation(
+    api.origins.destroy.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.origins.index.pathKey() })
+        toast.success("Origine supprimée")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la suppression")
+      },
+    }),
+  )
 
   const isFormValid = useMemo(() => Boolean(originName.trim()), [originName])
 

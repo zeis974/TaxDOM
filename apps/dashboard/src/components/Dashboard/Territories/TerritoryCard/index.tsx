@@ -5,7 +5,7 @@ import { toast } from "sonner"
 import { Drawer } from "vaul"
 import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { client } from "@/lib/api"
+import { api } from "@/lib/api"
 import {
   ActionsGroup,
   Card,
@@ -47,32 +47,31 @@ export default function TerritoryCard({ territory, editable = false }: Props) {
 
   const queryClient = useQueryClient()
 
-  const updateMutation = useMutation({
-    mutationFn: (vars: {
-      params: { id: string }
-      body: { territoryName: string; available: boolean }
-    }) => client.api.territories.update(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["territories"] })
-      toast.success("Territoire mis à jour")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la mise à jour")
-    },
-  })
+  const updateMutation = useMutation(
+    api.territories.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.territories.index.pathKey() })
+        toast.success("Territoire mis à jour")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la mise à jour")
+      },
+    }),
+  )
 
-  const deleteMutation = useMutation({
-    mutationFn: (vars: { params: { id: string } }) => client.api.territories.destroy(vars),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["territories"] })
-      toast.success("Territoire supprimé")
-      drawer.closeDrawer()
-    },
-    onError: () => {
-      toast.error("Erreur lors de la suppression")
-    },
-  })
+  const deleteMutation = useMutation(
+    api.territories.destroy.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.territories.index.pathKey() })
+        toast.success("Territoire supprimé")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la suppression")
+      },
+    }),
+  )
 
   const isFormValid = useMemo(() => Boolean(territoryName.trim()), [territoryName])
 
