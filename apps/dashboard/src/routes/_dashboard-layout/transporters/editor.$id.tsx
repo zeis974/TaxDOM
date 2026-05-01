@@ -3,7 +3,7 @@ import type { TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import { Suspense } from "react"
 import LoadingFallback from "@/components/Dashboard/shared/LoadingFallback"
 import RulesFlowEditor from "@/components/Dashboard/Transporters/RulesFlow/RulesFlowEditor"
-import { client } from "@/lib/api"
+import { api, client } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/transporters/editor/$id")({
   loader: async ({ context, params }) => {
@@ -11,16 +11,13 @@ export const Route = createFileRoute("/_dashboard-layout/transporters/editor/$id
 
     const [transporter, flowData] = await Promise.all([
       context.queryClient
-        .ensureQueryData({
-          queryKey: ["transporter", id],
-          queryFn: async () => client.api.transporters.show({ params: { id } }),
-        })
+        .ensureQueryData(api.transporters.show.queryOptions({ params: { id } }))
         .catch(() => null) as Promise<Record<string, string> | null>,
       context.queryClient.ensureQueryData<{
         nodes: TransporterFlowNode[]
         edges: TransporterFlowEdge[]
       }>({
-        queryKey: ["transporter-flow", id],
+        queryKey: api.transporterRules.show.queryKey({ params: { transporterId: id } }),
         queryFn: async () => {
           try {
             const result = (await client.api.transporterRules.show({
