@@ -70,7 +70,7 @@ export function OptionsList({
                 key={option.name}
                 data-selected={virtualItem.index === selectedIndex}
                 data-available={option.available}
-                onClick={() => onSelect(option.value || option.name)}
+                onMouseDown={() => onSelect(option.name)}
                 onMouseEnter={() => {
                   setSelectedIndex(virtualItem.index)
                 }}
@@ -90,7 +90,7 @@ export function OptionsList({
             key={option.name}
             data-selected={index === selectedIndex}
             data-available={option.available}
-            onClick={() => onSelect(option.value || option.name)}
+            onMouseDown={() => onSelect(option.name)}
             onMouseEnter={() => {
               setSelectedIndex(index)
             }}

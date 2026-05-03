@@ -1,19 +1,10 @@
 import type { ParcelSimulatorTemplateType } from "@/components/services/ParcelSimulator/types"
-import { queryOptions } from "@tanstack/react-query"
+import { api } from "./api-client"
 
-export const fetchTemplates = queryOptions({
-  queryKey: ["templates"],
-  staleTime: 24 * 60 * 60 * 1000, // 24 hours
-  queryFn: async () => {
-    const res: ParcelSimulatorTemplateType & Response = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/simulator/templates`,
-      {
-        headers: {
-          Authorization: `Bearer ${process.env.API_KEY}`,
-        },
-      },
-    ).then((res) => res.json())
-
-    return res
+export const fetchTemplates = api.getTemplates.queryOptions(
+  {},
+  {
+    staleTime: 24 * 60 * 60 * 1000, // 24 hours
+    select: (data) => data as ParcelSimulatorTemplateType,
   },
-})
+)

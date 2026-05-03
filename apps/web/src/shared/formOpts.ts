@@ -22,7 +22,6 @@ export const parcelFormOpts = formOptions({
 export const taxFormOpts = formOptions({
   defaultValues: {
     "cf-turnstile-response": "",
-    flux: "import" as "import" | "export",
     origin: "",
     product: "",
     territory: "REUNION",

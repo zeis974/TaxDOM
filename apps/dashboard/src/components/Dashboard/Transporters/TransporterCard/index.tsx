@@ -1,9 +1,12 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useNavigate } from "@tanstack/react-router"
 import type { Transporter } from "@taxdom/types"
 import { useMemo, useState } from "react"
+import { toast } from "sonner"
 import { Drawer } from "vaul"
-import { useCardDrawer } from "@/hooks/useCardDrawer"
 import Button from "@/components/ui/Button"
+import { useCardDrawer } from "@/hooks/useCardDrawer"
+import { api } from "@/lib/api"
 import {
   ActionsGroup,
   Card,
@@ -36,32 +39,41 @@ import {
 type Props = {
   transporter: Transporter
   editable?: boolean
-  onUpdate: (data: {
-    transporterID: string
-    transporterName: string
-    available: boolean
-  }) => Promise<unknown>
-  onDelete: (transporterID: string) => Promise<unknown>
-  isUpdating: boolean
-  isDeleting: boolean
-  updateErrors: string[]
-  deleteErrors: string[]
 }
 
-export default function TransporterCard({
-  transporter,
-  editable = false,
-  onUpdate,
-  onDelete,
-  isUpdating,
-  isDeleting,
-  updateErrors,
-  deleteErrors,
-}: Props) {
+export default function TransporterCard({ transporter, editable = false }: Props) {
   const drawer = useCardDrawer()
   const [transporterName, setTransporterName] = useState(transporter.transporterName)
   const [available, setAvailable] = useState(transporter.available)
   const navigate = useNavigate()
+
+  const queryClient = useQueryClient()
+
+  const updateMutation = useMutation(
+    api.transporters.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.transporters.index.pathKey() })
+        toast.success("Transporteur mis à jour")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la mise à jour")
+      },
+    }),
+  )
+
+  const deleteMutation = useMutation(
+    api.transporters.destroy.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.transporters.index.pathKey() })
+        toast.success("Transporteur supprimé")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la suppression")
+      },
+    }),
+  )
 
   const isFormValid = useMemo(() => Boolean(transporterName.trim()), [transporterName])
 
@@ -82,30 +94,22 @@ export default function TransporterCard({
 
   const handleSave = async () => {
     if (!isFormValid) return
-    await onUpdate({
-      transporterID: transporter.transporterID,
-      transporterName: transporterName.trim(),
-      available,
+    updateMutation.mutate({
+      params: { id: transporter.transporterID },
+      body: { transporterName: transporterName.trim(), available },
     })
-    if (!updateErrors.length) drawer.closeDrawer()
   }
 
   const handleDelete = async () => {
     if (drawer.isDeletingLocal) return
     drawer.setIsDeletingLocal(true)
     drawer.setDeleteError(null)
-    try {
-      await onDelete(transporter.transporterID)
-      drawer.closeDrawer()
-    } catch {
-      drawer.setDeleteError("Erreur lors de la suppression")
-    }
-    drawer.setIsDeletingLocal(false)
+    deleteMutation.mutate({ params: { id: transporter.transporterID } })
   }
 
   const handleOpenRulesEditor = () => {
     navigate({
-      to: "/dashboard/transporters/editor/$id",
+      to: "/transporters/editor/$id",
       params: { id: transporter.transporterID },
     })
   }
@@ -226,13 +230,7 @@ export default function TransporterCard({
                 </DrawerBody>
                 <DrawerFooter>
                   <ErrorContainer>
-                    {updateErrors.map((err, i) => (
-                      <span key={i}>{err}</span>
-                    ))}
                     {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                    {deleteErrors.map((err, i) => (
-                      <span key={i}>{err}</span>
-                    ))}
                   </ErrorContainer>
                   <ActionsGroup>
                     <RulesEditorButton type="button" onClick={handleOpenRulesEditor}>
@@ -241,9 +239,15 @@ export default function TransporterCard({
                     <DeleteButton
                       type="button"
                       onClick={handleDelete}
-                      disabled={isUpdating || isDeleting || drawer.isDeletingLocal}
+                      disabled={
+                        updateMutation.isPending ||
+                        deleteMutation.isPending ||
+                        drawer.isDeletingLocal
+                      }
                     >
-                      {isDeleting || drawer.isDeletingLocal ? "Suppression..." : "Supprimer"}
+                      {deleteMutation.isPending || drawer.isDeletingLocal
+                        ? "Suppression..."
+                        : "Supprimer"}
                     </DeleteButton>
                     <Drawer.Close asChild>
                       <Button type="button">Annuler</Button>
@@ -251,9 +255,9 @@ export default function TransporterCard({
                     <Button
                       type="button"
                       onClick={handleSave}
-                      aria-disabled={!isFormValid || isUpdating}
+                      aria-disabled={!isFormValid || updateMutation.isPending}
                     >
-                      {isUpdating ? "Sauvegarde..." : "Sauvegarder"}
+                      {updateMutation.isPending ? "Sauvegarde..." : "Sauvegarder"}
                     </Button>
                   </ActionsGroup>
                 </DrawerFooter>

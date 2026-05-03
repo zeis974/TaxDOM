@@ -4,7 +4,7 @@ import logger from "@adonisjs/core/services/logger"
 import { and, eq } from "drizzle-orm"
 
 import { db } from "#config/database"
-import { products, taxes } from "#database/schema"
+import { categories, products, taxes } from "#database/schema"
 import { GetProductTaxeValidator } from "#validators/GetProductTaxeValidator"
 import { isEUCountry } from "#lib/isEU"
 
@@ -20,8 +20,7 @@ const territoryMap: Record<Territory, number> = {
 
 export default class GetProductTaxeController {
   async handle({ request }: HttpContext) {
-    const data = request.body()
-    const payload = await GetProductTaxeValidator.validate(data)
+    const payload = await request.validateUsing(GetProductTaxeValidator)
 
     const product = payload.product.toLowerCase()
     const origin = payload.origin.toUpperCase()
@@ -39,7 +38,8 @@ export default class GetProductTaxeController {
           omr: taxes.omr,
         })
         .from(products)
-        .innerJoin(taxes, eq(products.taxID, taxes.taxID))
+        .innerJoin(categories, eq(products.categoryID, categories.categoryID))
+        .innerJoin(taxes, eq(categories.taxID, taxes.taxID))
         .where(
           and(
             eq(products.productName, product),

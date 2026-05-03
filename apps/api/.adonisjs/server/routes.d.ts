@@ -6,8 +6,11 @@ export type ScannedRoutes = {
   ALL: {
     "origins.list": { paramsTuple?: []; params?: {} }
     search_products: { paramsTuple?: []; params?: {} }
+    get_product_taxes: { paramsTuple?: []; params?: {} }
     calculate_parcel: { paramsTuple?: []; params?: {} }
     get_templates: { paramsTuple?: []; params?: {} }
+    "territories.list": { paramsTuple?: []; params?: {} }
+    "transporters.list": { paramsTuple?: []; params?: {} }
     "categories.count": { paramsTuple?: []; params?: {} }
     "categories.with_stats": { paramsTuple?: []; params?: {} }
     "categories.index": { paramsTuple?: []; params?: {} }
@@ -25,7 +28,6 @@ export type ScannedRoutes = {
     "products.count": { paramsTuple?: []; params?: {} }
     "products.recent": { paramsTuple?: []; params?: {} }
     "products.distribution": { paramsTuple?: []; params?: {} }
-    "products.list_flux": { paramsTuple?: []; params?: {} }
     "products.list_taxes": { paramsTuple?: []; params?: {} }
     "products.index": { paramsTuple?: []; params?: {} }
     "products.store": { paramsTuple?: []; params?: {} }
@@ -40,7 +42,6 @@ export type ScannedRoutes = {
     "territories.update": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "territories.destroy": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "transporters.count": { paramsTuple?: []; params?: {} }
-    "transporters.list": { paramsTuple?: []; params?: {} }
     "transporters.index": { paramsTuple?: []; params?: {} }
     "transporters.store": { paramsTuple?: []; params?: {} }
     "transporters.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
@@ -64,6 +65,8 @@ export type ScannedRoutes = {
     "origins.list": { paramsTuple?: []; params?: {} }
     search_products: { paramsTuple?: []; params?: {} }
     get_templates: { paramsTuple?: []; params?: {} }
+    "territories.list": { paramsTuple?: []; params?: {} }
+    "transporters.list": { paramsTuple?: []; params?: {} }
     "categories.count": { paramsTuple?: []; params?: {} }
     "categories.with_stats": { paramsTuple?: []; params?: {} }
     "categories.index": { paramsTuple?: []; params?: {} }
@@ -75,7 +78,6 @@ export type ScannedRoutes = {
     "products.count": { paramsTuple?: []; params?: {} }
     "products.recent": { paramsTuple?: []; params?: {} }
     "products.distribution": { paramsTuple?: []; params?: {} }
-    "products.list_flux": { paramsTuple?: []; params?: {} }
     "products.list_taxes": { paramsTuple?: []; params?: {} }
     "products.index": { paramsTuple?: []; params?: {} }
     "products.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
@@ -84,7 +86,6 @@ export type ScannedRoutes = {
     "territories.index": { paramsTuple?: []; params?: {} }
     "territories.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "transporters.count": { paramsTuple?: []; params?: {} }
-    "transporters.list": { paramsTuple?: []; params?: {} }
     "transporters.index": { paramsTuple?: []; params?: {} }
     "transporters.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "transporter_rules.show": { paramsTuple: [ParamValue]; params: { transporterId: ParamValue } }
@@ -93,6 +94,8 @@ export type ScannedRoutes = {
     "origins.list": { paramsTuple?: []; params?: {} }
     search_products: { paramsTuple?: []; params?: {} }
     get_templates: { paramsTuple?: []; params?: {} }
+    "territories.list": { paramsTuple?: []; params?: {} }
+    "transporters.list": { paramsTuple?: []; params?: {} }
     "categories.count": { paramsTuple?: []; params?: {} }
     "categories.with_stats": { paramsTuple?: []; params?: {} }
     "categories.index": { paramsTuple?: []; params?: {} }
@@ -104,7 +107,6 @@ export type ScannedRoutes = {
     "products.count": { paramsTuple?: []; params?: {} }
     "products.recent": { paramsTuple?: []; params?: {} }
     "products.distribution": { paramsTuple?: []; params?: {} }
-    "products.list_flux": { paramsTuple?: []; params?: {} }
     "products.list_taxes": { paramsTuple?: []; params?: {} }
     "products.index": { paramsTuple?: []; params?: {} }
     "products.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
@@ -113,12 +115,12 @@ export type ScannedRoutes = {
     "territories.index": { paramsTuple?: []; params?: {} }
     "territories.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "transporters.count": { paramsTuple?: []; params?: {} }
-    "transporters.list": { paramsTuple?: []; params?: {} }
     "transporters.index": { paramsTuple?: []; params?: {} }
     "transporters.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "transporter_rules.show": { paramsTuple: [ParamValue]; params: { transporterId: ParamValue } }
   }
   POST: {
+    get_product_taxes: { paramsTuple?: []; params?: {} }
     calculate_parcel: { paramsTuple?: []; params?: {} }
     "categories.store": { paramsTuple?: []; params?: {} }
     "origins.store": { paramsTuple?: []; params?: {} }

@@ -1,54 +1,50 @@
-import type { SelectOption } from "@taxdom/types"
-import { useState } from "react"
+import { useMutation, useQueryClient } from "@tanstack/react-query"
+import { useId, useState } from "react"
+import { toast } from "sonner"
+
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import BaseSelect from "@/components/Forms/Select/BaseSelect"
 import Modal from "@/components/Modal"
-import Button from "@/components/ui/Button"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
-import {
-  AddProductBtn,
-  AddProductContainer,
-  ErrorContainer,
-  ProductActions,
-} from "./AddProduct.styled"
+import ModalCard from "@/components/Modal/ModalCard"
+import { AddProductBtn, ErrorContainer, FormGrid } from "./AddProduct.styled"
+import { useProductFormOptions } from "@/hooks/useProductFormOptions"
+import { client } from "@/lib/api"
 
-interface FormData {
-  categories: SelectOption[]
-  origins: SelectOption[]
-  territories: SelectOption[]
-  flux: SelectOption[]
-  taxes: { taxID: string; tva: number; om: number; omr: number }[]
-}
-
-interface AddProductProps {
-  formData: FormData
-}
-
-export default function AddProduct({ formData }: AddProductProps) {
+export default function AddProduct() {
   const [show, setShow] = useState(false)
+  const { data: formOptions, isLoading } = useProductFormOptions()
+  const inputId = useId()
   const [productName, setProductName] = useState("")
   const [categoryID, setCategoryID] = useState("")
   const [originID, setOriginID] = useState("")
   const [territoryID, setTerritoryID] = useState("")
-  const [fluxID, setFluxID] = useState("")
 
-  const { createMutation } = useEntityMutations({
-    queryKey: ["products"],
-    messages: {
-      create: "Produit créé avec succès",
-      update: "Produit mis à jour",
-      delete: "Produit supprimé",
+  const queryClient = useQueryClient()
+
+  const createMutation = useMutation({
+    mutationFn: (body: {
+      productName: string
+      categoryID: string
+      originID: string
+      territoryID: string
+    }) => client.api.products.store({ body }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["products"] })
+      toast.success("Produit créé avec succès")
+      handleClose()
+    },
+    onError: () => {
+      toast.error("Erreur lors de la création")
     },
   })
 
-  const isFormValid = productName.trim() && categoryID && originID && territoryID && fluxID
+  const isFormValid = productName.trim() && categoryID && originID && territoryID
 
   const resetForm = () => {
     setProductName("")
     setCategoryID("")
     setOriginID("")
     setTerritoryID("")
-    setFluxID("")
   }
 
   const handleClose = () => {
@@ -56,25 +52,14 @@ export default function AddProduct({ formData }: AddProductProps) {
     resetForm()
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+  const handleSubmit = () => {
     if (!isFormValid) return
-
-    try {
-      await createMutation.mutateAsync({
-        url: "/v1/admin/products",
-        body: {
-          productName: productName.trim(),
-          categoryID,
-          originID,
-          territoryID,
-          fluxID,
-        },
-      })
-      handleClose()
-    } catch (error) {
-      // Error is handled by useEntityMutations
-    }
+    createMutation.mutate({
+      productName: productName.trim(),
+      categoryID,
+      originID,
+      territoryID,
+    })
   }
 
   const errors = createMutation.error ? ["Erreur lors de la création"] : []
@@ -85,14 +70,26 @@ export default function AddProduct({ formData }: AddProductProps) {
         Ajouter un produit
       </AddProductBtn>
       <Modal show={show} setShow={setShow}>
-        <AddProductContainer>
-          <h2>Ajouter un produit</h2>
-          <hr />
-          <form onSubmit={handleSubmit} autoComplete="off">
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+        <ModalCard
+          title="Ajouter un produit"
+          onClose={handleClose}
+          submitLabel="Créer le produit"
+          onSubmit={handleSubmit}
+          submitDisabled={!isFormValid || createMutation.isPending}
+          submitLoading={createMutation.isPending}
+        >
+          <form
+            onSubmit={(e) => {
+              e.preventDefault()
+              handleSubmit()
+            }}
+            autoComplete="off"
+          >
+            <FormGrid>
               <InputContainer>
-                <label>Nom du produit *</label>
+                <label htmlFor={inputId}>Nom du produit</label>
                 <input
+                  id={inputId}
                   type="text"
                   placeholder="Ex: iPhone 15"
                   autoComplete="off"
@@ -102,58 +99,45 @@ export default function AddProduct({ formData }: AddProductProps) {
                 />
               </InputContainer>
               <BaseSelect
-                label="Catégorie *"
-                options={formData.categories}
-                value={formData.categories.find((c) => c.value === categoryID)?.name ?? ""}
+                label="Catégorie"
+                options={formOptions?.categories ?? []}
+                value={formOptions?.categories.find((c) => c.value === categoryID)?.name ?? ""}
                 onChange={(val) => {
-                  const found = formData.categories.find((c) => c.name === val)
+                  const found = formOptions?.categories.find((c) => c.name === val)
                   if (found) setCategoryID(found.value ?? found.name)
                 }}
+                disabled={isLoading}
               />
               <BaseSelect
-                label="Origine *"
-                options={formData.origins}
-                value={formData.origins.find((o) => o.value === originID)?.name ?? ""}
+                label="Origine"
+                options={formOptions?.origins ?? []}
+                value={formOptions?.origins.find((o) => o.value === originID)?.name ?? ""}
                 onChange={(val) => {
-                  const found = formData.origins.find((o) => o.name === val)
+                  const found = formOptions?.origins.find((o) => o.name === val)
                   if (found) setOriginID(found.value ?? found.name)
                 }}
+                disabled={isLoading}
               />
               <BaseSelect
-                label="Territoire *"
-                options={formData.territories}
-                value={formData.territories.find((t) => t.value === territoryID)?.name ?? ""}
+                label="Territoire"
+                options={formOptions?.territories ?? []}
+                value={formOptions?.territories.find((t) => t.value === territoryID)?.name ?? ""}
                 onChange={(val) => {
-                  const found = formData.territories.find((t) => t.name === val)
+                  const found = formOptions?.territories.find((t) => t.name === val)
                   if (found) setTerritoryID(found.value ?? found.name)
                 }}
+                disabled={isLoading}
               />
-              <BaseSelect
-                label="Flux *"
-                options={formData.flux}
-                value={formData.flux.find((f) => f.value === fluxID)?.name ?? ""}
-                onChange={(val) => {
-                  const found = formData.flux.find((f) => f.name === val)
-                  if (found) setFluxID(found.value ?? found.name)
-                }}
-              />
-            </div>
-            <ProductActions>
+            </FormGrid>
+            {errors.length > 0 && (
               <ErrorContainer>
-                {errors.length > 0 &&
-                  errors.map((error, index) => <span key={index}>{error}</span>)}
+                {errors.map((error, index) => (
+                  <span key={index}>{error}</span>
+                ))}
               </ErrorContainer>
-              <div style={{ display: "flex", gap: 8 }}>
-                <Button type="button" onClick={handleClose}>
-                  Annuler
-                </Button>
-                <Button type="submit" aria-disabled={!isFormValid || createMutation.isPending}>
-                  {createMutation.isPending ? "Création..." : "Créer le produit"}
-                </Button>
-              </div>
-            </ProductActions>
+            )}
           </form>
-        </AddProductContainer>
+        </ModalCard>
       </Modal>
     </>
   )

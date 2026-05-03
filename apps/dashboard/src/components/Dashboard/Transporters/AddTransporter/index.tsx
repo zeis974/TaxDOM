@@ -1,24 +1,32 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
+import { toast } from "sonner"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Modal from "@/components/Modal"
-import Button from "@/components/ui/Button"
-import {
-  AddTransporterBtn,
-  AddTransporterContainer,
-  ErrorContainer,
-  TransporterActions,
-} from "./AddTransporter.styled"
+import ModalCard from "@/components/Modal/ModalCard"
+import { api } from "@/lib/api"
+import { AddTransporterBtn, ErrorContainer } from "./AddTransporter.styled"
 
-interface AddTransporterProps {
-  onCreate: (data: { transporterName: string }) => Promise<unknown>
-  isPending: boolean
-  errors: string[]
-}
-
-export default function AddTransporter({ onCreate, isPending, errors }: AddTransporterProps) {
+export default function AddTransporter() {
   const [show, setShow] = useState(false)
   const [transporterName, setTransporterName] = useState("")
   const transporterNameID = useId()
+
+  const queryClient = useQueryClient()
+
+  const createMutation = useMutation(
+    api.transporters.store.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.transporters.index.pathKey() })
+        toast.success("Transporteur créé avec succès")
+        handleClose()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la création")
+      },
+    }),
+  )
+
   const isFormValid = transporterName.trim() !== ""
 
   const resetForm = () => {
@@ -30,12 +38,14 @@ export default function AddTransporter({ onCreate, isPending, errors }: AddTrans
     resetForm()
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+  const handleSubmit = () => {
     if (!isFormValid) return
-    await onCreate({ transporterName: transporterName.trim() })
-    if (!errors.length) handleClose()
+    createMutation.mutate({
+      body: { transporterName: transporterName.trim(), available: true },
+    })
   }
+
+  const errors = createMutation.error ? ["Erreur lors de la création"] : []
 
   return (
     <>
@@ -43,10 +53,21 @@ export default function AddTransporter({ onCreate, isPending, errors }: AddTrans
         Ajouter un transporteur
       </AddTransporterBtn>
       <Modal show={show} setShow={setShow}>
-        <AddTransporterContainer>
-          <h2>Ajouter un transporteur</h2>
-          <hr />
-          <form onSubmit={handleSubmit} autoComplete="off">
+        <ModalCard
+          title="Ajouter un transporteur"
+          onClose={handleClose}
+          submitLabel="Créer le transporteur"
+          onSubmit={handleSubmit}
+          submitDisabled={!isFormValid || createMutation.isPending}
+          submitLoading={createMutation.isPending}
+        >
+          <form
+            onSubmit={(e) => {
+              e.preventDefault()
+              handleSubmit()
+            }}
+            autoComplete="off"
+          >
             <InputContainer>
               <label htmlFor={transporterNameID}>Nom du transporteur *</label>
               <input
@@ -59,22 +80,15 @@ export default function AddTransporter({ onCreate, isPending, errors }: AddTrans
                 onChange={(e) => setTransporterName(e.target.value.toUpperCase())}
               />
             </InputContainer>
-            <TransporterActions>
+            {errors.length > 0 && (
               <ErrorContainer>
-                {errors.length > 0 &&
-                  errors.map((error, index) => <span key={index}>{error}</span>)}
+                {errors.map((error, index) => (
+                  <span key={index}>{error}</span>
+                ))}
               </ErrorContainer>
-              <div style={{ display: "flex", gap: 8 }}>
-                <Button type="button" onClick={handleClose}>
-                  Annuler
-                </Button>
-                <Button type="submit" aria-disabled={!isFormValid || isPending}>
-                  {isPending ? "Création..." : "Créer le transporteur"}
-                </Button>
-              </div>
-            </TransporterActions>
+            )}
           </form>
-        </AddTransporterContainer>
+        </ModalCard>
       </Modal>
     </>
   )

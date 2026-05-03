@@ -1,17 +1,18 @@
-import { styled } from "@/styled-system/jsx"
+import { styled } from "@/panda/jsx"
 
 export const InputContainer = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   font-family: token(fonts.nativeFont);
 
   & > label {
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     font-size: clamp(0.875rem, 0.8529rem + 0.0941vw, 1rem);
     font-weight: 600;
     user-select: none;
+    color: token(colors.primary);
 
     & > span {
       color: token(colors.error);
@@ -20,29 +21,36 @@ export const InputContainer = styled.div`
 
     &:has(span) {
       & ~ input {
-        border: 2px solid red;
+        border-color: token(colors.error);
       }
     }
   }
 
   & > input {
     outline: none;
-    height: 35px;
-    border-radius: 5px;
-    background: token(colors.darkGray);
-    border: 2px solid transparent;
-    padding: 5px;
+    height: 40px;
+    border-radius: 8px;
+    background: token(colors.background);
+    border: 1px solid token(colors.darkGray);
+    padding: 8px 12px;
     font-family: inherit;
     color: token(colors.primary);
-    transition: border 150ms;
+    font-size: 0.9375rem;
+    transition: border-color 150ms, box-shadow 150ms;
+
+    &::placeholder {
+      color: token(colors.darkGray);
+    }
 
     &:focus {
-      border: 2px solid #3498db;
+      border-color: token(colors.blue);
+      box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.blue) 15%, transparent);
     }
 
     &[disabled="true"],
     &[aria-disabled="true"] {
       cursor: not-allowed;
+      background: token(colors.secondaryBackground);
     }
   }
 

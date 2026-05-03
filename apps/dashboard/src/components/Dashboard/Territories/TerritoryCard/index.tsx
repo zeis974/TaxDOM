@@ -1,9 +1,11 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Territory } from "@taxdom/types"
 import { useMemo, useState } from "react"
+import { toast } from "sonner"
 import { Drawer } from "vaul"
-import { useCardDrawer } from "@/hooks/useCardDrawer"
 import Button from "@/components/ui/Button"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
+import { useCardDrawer } from "@/hooks/useCardDrawer"
+import { api } from "@/lib/api"
 import {
   ActionsGroup,
   Card,
@@ -43,14 +45,33 @@ export default function TerritoryCard({ territory, editable = false }: Props) {
   const [territoryName, setTerritoryName] = useState(territory.territoryName)
   const [available, setAvailable] = useState(territory.available)
 
-  const { updateMutation, deleteMutation } = useEntityMutations({
-    queryKey: ["territories"],
-    messages: {
-      create: "Territoire créé avec succès",
-      update: "Territoire mis à jour",
-      delete: "Territoire supprimé",
-    },
-  })
+  const queryClient = useQueryClient()
+
+  const updateMutation = useMutation(
+    api.territories.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.territories.index.pathKey() })
+        toast.success("Territoire mis à jour")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la mise à jour")
+      },
+    }),
+  )
+
+  const deleteMutation = useMutation(
+    api.territories.destroy.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.territories.index.pathKey() })
+        toast.success("Territoire supprimé")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la suppression")
+      },
+    }),
+  )
 
   const isFormValid = useMemo(() => Boolean(territoryName.trim()), [territoryName])
 
@@ -71,32 +92,18 @@ export default function TerritoryCard({ territory, editable = false }: Props) {
 
   const handleSave = async () => {
     if (!isFormValid) return
-    await updateMutation.mutateAsync({
-      url: `/v1/admin/territories/${territory.territoryID}`,
-      body: {
-        territoryID: territory.territoryID,
-        territoryName: territoryName.trim(),
-        available,
-      },
+    updateMutation.mutate({
+      params: { id: territory.territoryID },
+      body: { territoryName: territoryName.trim(), available },
     })
-    drawer.closeDrawer()
   }
 
   const handleDelete = async () => {
     if (drawer.isDeletingLocal) return
     drawer.setIsDeletingLocal(true)
     drawer.setDeleteError(null)
-    try {
-      await deleteMutation.mutateAsync(`/v1/admin/territories/${territory.territoryID}`)
-      drawer.closeDrawer()
-    } catch {
-      drawer.setDeleteError("Erreur lors de la suppression")
-    }
-    drawer.setIsDeletingLocal(false)
+    deleteMutation.mutate({ params: { id: territory.territoryID } })
   }
-
-  const updateErrors = updateMutation.error ? ["Erreur lors de la mise à jour"] : []
-  const deleteErrors = deleteMutation.error ? ["Erreur lors de la suppression"] : []
 
   const renderCardContent = (
     <>
@@ -213,13 +220,7 @@ export default function TerritoryCard({ territory, editable = false }: Props) {
                 </DrawerBody>
                 <DrawerFooter>
                   <ErrorContainer>
-                    {updateErrors.map((err, i) => (
-                      <span key={i}>{err}</span>
-                    ))}
                     {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                    {deleteErrors.map((err, i) => (
-                      <span key={i}>{err}</span>
-                    ))}
                   </ErrorContainer>
                   <ActionsGroup>
                     <DeleteButton

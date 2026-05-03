@@ -1,31 +1,14 @@
 import type { Category } from "@taxdom/types"
+import { api } from "./api-client"
 
 /**
- * Fetch all available categories from the server
+ * Type-safe query options for fetching categories via Tuyau + TanStack Query.
+ * The query key is automatically managed by Tuyau.
  */
-export async function fetchCategories(): Promise<Category[]> {
-  try {
-    const url = `${process.env.API_URL || process.env.NEXT_PUBLIC_API_URL}/dashboard/categories`
-
-    const response = await fetch(url, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.API_KEY}`,
-      },
-      next: {
-        tags: ["categories"],
-      },
-    })
-
-    if (!response.ok) {
-      throw new Error(`Failed to fetch categories: ${response.status} ${response.statusText}`)
-    }
-
-    const categories = await response.json()
-    return categories
-  } catch (error) {
-    console.error("Error fetching categories:", error)
-    return []
-  }
-}
+export const categoryQueryOptions = api.categories.index.queryOptions(
+  {},
+  {
+    staleTime: 60 * 60 * 1000, // 1 hour for reference data
+    select: (data): Category[] => data ?? [],
+  },
+)

@@ -3,12 +3,7 @@ import type { TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import { Suspense } from "react"
 import LoadingFallback from "@/components/Dashboard/shared/LoadingFallback"
 import RulesFlowEditor from "@/components/Dashboard/Transporters/RulesFlow/RulesFlowEditor"
-import { fetchAPI } from "@/lib/api"
-
-interface Transporter {
-  transporterID: string
-  transporterName: string
-}
+import { api, client } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/transporters/editor/$id")({
   loader: async ({ context, params }) => {
@@ -16,21 +11,22 @@ export const Route = createFileRoute("/_dashboard-layout/transporters/editor/$id
 
     const [transporter, flowData] = await Promise.all([
       context.queryClient
-        .ensureQueryData<Transporter>({
-          queryKey: ["transporter", id],
-          queryFn: () => fetchAPI(`/v1/admin/transporters/${id}`),
-        })
-        .catch(() => null),
+        .ensureQueryData(api.transporters.show.queryOptions({ params: { id } }))
+        .catch(() => null) as Promise<Record<string, string> | null>,
       context.queryClient.ensureQueryData<{
         nodes: TransporterFlowNode[]
         edges: TransporterFlowEdge[]
       }>({
-        queryKey: ["transporter-flow", id],
+        queryKey: api.transporterRules.show.queryKey({ params: { transporterId: id } }),
         queryFn: async () => {
           try {
-            return await fetchAPI<{ nodes: TransporterFlowNode[]; edges: TransporterFlowEdge[] }>(
-              `/v1/admin/transporters/${id}/flow`,
-            )
+            const result = (await client.api.transporterRules.show({
+              params: { transporterId: id },
+            })) as Record<string, unknown>
+            return {
+              nodes: (result.flowNodes ?? []) as TransporterFlowNode[],
+              edges: (result.flowEdges ?? []) as TransporterFlowEdge[],
+            }
           } catch {
             return { nodes: [] as TransporterFlowNode[], edges: [] as TransporterFlowEdge[] }
           }

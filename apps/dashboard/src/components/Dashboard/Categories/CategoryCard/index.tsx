@@ -1,11 +1,13 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Category } from "@taxdom/types"
 import { useId, useMemo, useState } from "react"
+import { toast } from "sonner"
 import { Drawer } from "vaul"
-import { useCardDrawer } from "@/hooks/useCardDrawer"
 import TaxBar from "@/components/Dashboard/Categories/CategoriesList/TaxBar"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Button from "@/components/ui/Button"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
+import { useCardDrawer } from "@/hooks/useCardDrawer"
+import { api } from "@/lib/api"
 import {
   ActionsGroup,
   Badge,
@@ -45,14 +47,33 @@ export default function CategoryCard({ category, onClick, editable = false }: Pr
 
   const categoryNameId = useId()
 
-  const { updateMutation, deleteMutation } = useEntityMutations({
-    queryKey: ["categories"],
-    messages: {
-      create: "Catégorie créée avec succès",
-      update: "Catégorie mise à jour",
-      delete: "Catégorie supprimée",
-    },
-  })
+  const queryClient = useQueryClient()
+
+  const updateMutation = useMutation(
+    api.categories.update.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.categories.index.pathKey() })
+        toast.success("Catégorie mise à jour")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la mise à jour")
+      },
+    }),
+  )
+
+  const deleteMutation = useMutation(
+    api.categories.destroy.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.categories.index.pathKey() })
+        toast.success("Catégorie supprimée")
+        drawer.closeDrawer()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la suppression")
+      },
+    }),
+  )
 
   const isFormValid = useMemo(() => Boolean(categoryName.trim()), [categoryName])
 
@@ -73,32 +94,21 @@ export default function CategoryCard({ category, onClick, editable = false }: Pr
 
   const handleSave = async () => {
     if (!isFormValid) return
-    await updateMutation.mutateAsync({
-      url: `/v1/admin/categories/${category.categoryID}`,
+    updateMutation.mutate({
+      params: { id: category.categoryID },
       body: {
-        categoryID: category.categoryID,
         categoryName: categoryName.trim(),
         taxID: category.taxID,
       },
     })
-    drawer.closeDrawer()
   }
 
   const handleDelete = async () => {
     if (drawer.isDeletingLocal) return
     drawer.setIsDeletingLocal(true)
     drawer.setDeleteError(null)
-    try {
-      await deleteMutation.mutateAsync(`/v1/admin/categories/${category.categoryID}`)
-      drawer.closeDrawer()
-    } catch {
-      drawer.setDeleteError("Erreur lors de la suppression de la catégorie")
-    }
-    drawer.setIsDeletingLocal(false)
+    deleteMutation.mutate({ params: { id: category.categoryID } })
   }
-
-  const updateErrors = updateMutation.error ? ["Erreur lors de la mise à jour"] : []
-  const deleteErrors = deleteMutation.error ? ["Erreur lors de la suppression"] : []
 
   const renderCardContent = <CardContent category={category} />
 
@@ -180,13 +190,7 @@ export default function CategoryCard({ category, onClick, editable = false }: Pr
 
                   <DrawerFooter>
                     <ErrorContainer>
-                      {updateErrors.map((err, index) => (
-                        <span key={index}>{err}</span>
-                      ))}
                       {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                      {deleteErrors.map((err, index) => (
-                        <span key={index}>{err}</span>
-                      ))}
                     </ErrorContainer>
                     <ActionsGroup>
                       <DeleteButton

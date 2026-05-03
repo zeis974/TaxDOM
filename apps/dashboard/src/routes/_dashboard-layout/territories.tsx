@@ -1,17 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router"
-import type { Territory } from "@taxdom/types"
 import { Suspense } from "react"
 import LoadingFallback from "@/components/Dashboard/shared/LoadingFallback"
 import Territories from "@/components/Dashboard/Territories"
-import { fetchAPI } from "@/lib/api"
+import { api, queryClient } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/territories")({
-  loader: async ({ context }) => {
-    const territories = await context.queryClient.ensureQueryData<Territory[]>({
-      queryKey: ["territories"],
-      queryFn: () => fetchAPI("/v1/admin/territories"),
-    })
-
+  loader: async () => {
+    const territories = await queryClient.ensureQueryData(api.territories.index.queryOptions())
     return { territories }
   },
   component: TerritoriesPage,

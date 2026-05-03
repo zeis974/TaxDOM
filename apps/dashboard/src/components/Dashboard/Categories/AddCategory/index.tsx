@@ -1,14 +1,11 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
+import { toast } from "sonner"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import Modal from "@/components/Modal"
-import Button from "@/components/ui/Button"
-import { useEntityMutations } from "@/hooks/useEntityMutations"
-import {
-  AddCategoryBtn,
-  AddCategoryContainer,
-  CategoryActions,
-  ErrorContainer,
-} from "./AddCategory.styled"
+import ModalCard from "@/components/Modal/ModalCard"
+import { api } from "@/lib/api"
+import { AddCategoryBtn, ErrorContainer } from "./AddCategory.styled"
 
 export default function AddCategory() {
   const [show, setShow] = useState(false)
@@ -22,14 +19,20 @@ export default function AddCategory() {
   const omID = useId()
   const omrID = useId()
 
-  const { createMutation } = useEntityMutations({
-    queryKey: ["categories"],
-    messages: {
-      create: "Catégorie créée avec succès",
-      update: "Catégorie mise à jour",
-      delete: "Catégorie supprimée",
-    },
-  })
+  const queryClient = useQueryClient()
+
+  const createMutation = useMutation(
+    api.categories.store.mutationOptions({
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: api.categories.index.pathKey() })
+        toast.success("Catégorie créée avec succès")
+        handleClose()
+      },
+      onError: () => {
+        toast.error("Erreur lors de la création")
+      },
+    }),
+  )
 
   const isFormValid = categoryName.trim() && tva !== "" && om !== "" && omr !== ""
 
@@ -45,12 +48,9 @@ export default function AddCategory() {
     resetForm()
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+  const handleSubmit = () => {
     if (!isFormValid) return
-
-    await createMutation.mutateAsync({
-      url: "/v1/admin/categories",
+    createMutation.mutate({
       body: {
         categoryName: categoryName.trim(),
         tva: Number(tva),
@@ -58,7 +58,6 @@ export default function AddCategory() {
         omr: Number(omr),
       },
     })
-    handleClose()
   }
 
   const errors = createMutation.error ? ["Erreur lors de la création"] : []
@@ -69,10 +68,21 @@ export default function AddCategory() {
         Ajouter une catégorie
       </AddCategoryBtn>
       <Modal show={show} setShow={setShow}>
-        <AddCategoryContainer>
-          <h2>Ajouter une catégorie</h2>
-          <hr />
-          <form onSubmit={handleSubmit} autoComplete="off">
+        <ModalCard
+          title="Ajouter une catégorie"
+          onClose={handleClose}
+          submitLabel="Créer la catégorie"
+          onSubmit={handleSubmit}
+          submitDisabled={!isFormValid || createMutation.isPending}
+          submitLoading={createMutation.isPending}
+        >
+          <form
+            onSubmit={(e) => {
+              e.preventDefault()
+              handleSubmit()
+            }}
+            autoComplete="off"
+          >
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <InputContainer>
                 <label htmlFor={categoryNameID}>Nom de la catégorie *</label>
@@ -94,6 +104,7 @@ export default function AddCategory() {
                     id={tvaID}
                     placeholder="0"
                     min="0"
+                    step="any"
                     required
                     value={tva}
                     onChange={(e) => setTva(e.target.value)}
@@ -106,6 +117,7 @@ export default function AddCategory() {
                     id={omID}
                     placeholder="0"
                     min="0"
+                    step="any"
                     required
                     value={om}
                     onChange={(e) => setOm(e.target.value)}
@@ -118,6 +130,7 @@ export default function AddCategory() {
                     id={omrID}
                     placeholder="0"
                     min="0"
+                    step="any"
                     required
                     value={omr}
                     onChange={(e) => setOmr(e.target.value)}
@@ -125,22 +138,15 @@ export default function AddCategory() {
                 </InputContainer>
               </div>
             </div>
-            <CategoryActions>
+            {errors.length > 0 && (
               <ErrorContainer>
-                {errors.length > 0 &&
-                  errors.map((error, index) => <span key={index}>{error}</span>)}
+                {errors.map((error, index) => (
+                  <span key={index}>{error}</span>
+                ))}
               </ErrorContainer>
-              <div style={{ display: "flex", gap: 8 }}>
-                <Button type="button" onClick={handleClose}>
-                  Annuler
-                </Button>
-                <Button type="submit" aria-disabled={!isFormValid || createMutation.isPending}>
-                  {createMutation.isPending ? "Création..." : "Créer la catégorie"}
-                </Button>
-              </div>
-            </CategoryActions>
+            )}
           </form>
-        </AddCategoryContainer>
+        </ModalCard>
       </Modal>
     </>
   )
