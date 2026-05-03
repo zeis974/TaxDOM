@@ -1,4 +1,4 @@
-import { styled } from "@/styled-system/jsx"
+import { styled } from "@/panda/jsx"
 
 export const VirtualizerContainer = styled.div`
   height: 100%;

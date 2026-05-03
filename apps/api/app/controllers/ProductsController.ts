@@ -1,381 +1,71 @@
+import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
 import logger from "@adonisjs/core/services/logger"
-import type { Product } from "@taxdom/types"
-import { count, eq } from "drizzle-orm"
-import { v7 as uuidv7 } from "uuid"
-
-import { db } from "#config/database"
-import {
-  categories,
-  origins,
-  products,
-  taxes,
-  templateProducts,
-  territories,
-} from "#database/schema"
+import { ProductService } from "#services/ProductService"
+import { BadRequestError } from "#exceptions/ServiceErrors"
 import { CreateProductValidator, UpdateProductValidator } from "#validators/CreateProductValidator"
 
-const productRelations = {
-  category: {
-    columns: { categoryID: true, categoryName: true },
-  },
-  origin: {
-    columns: { originID: true, originName: true, isEU: true },
-  },
-  territory: {
-    columns: { territoryID: true, territoryName: true },
-  },
-  tax: {
-    columns: { taxID: true, tva: true, om: true, omr: true },
-  },
-} as const
-
-function mapProduct(product: {
-  productID: string
-  productName: string
-  category: { categoryID: string; categoryName: string }
-  origin: { originID: string; originName: string; isEU: boolean }
-  territory: { territoryID: string; territoryName: string }
-  tax: { taxID: string; tva: number; om: number; omr: number }
-  createdAt: Date | null
-  updatedAt: Date | null
-}): Product {
-  return {
-    productID: product.productID,
-    productName: product.productName,
-    category: {
-      categoryID: product.category.categoryID,
-      categoryName: product.category.categoryName,
-    },
-    origin: {
-      originID: product.origin.originID,
-      originName: product.origin.originName,
-      isEU: product.origin.isEU,
-    },
-    territory: {
-      territoryID: product.territory.territoryID,
-      territoryName: product.territory.territoryName,
-    },
-    tax: {
-      taxID: product.tax.taxID,
-      tva: product.tax.tva,
-      om: product.tax.om,
-      omr: product.tax.omr,
-    },
-    createdAt: product.createdAt ?? new Date(),
-    updatedAt: product.updatedAt ?? new Date(),
-  }
-}
-
+@inject()
 export default class ProductsController {
-  /**
-   * Get products count
-   */
+  constructor(private productService: ProductService) {}
+
   async count() {
-    try {
-      const total = await db.select({ count: count() }).from(products)
-      return { products_count: total[0].count }
-    } catch (err) {
-      logger.error({ err }, "Cannot get products count")
-    }
+    return await this.productService.count()
   }
 
-  /**
-   * Get recent products
-   */
   async recent() {
-    try {
-      const recentProducts = await db.query.products.findMany({
-        orderBy: (products, { desc }) => [desc(products.createdAt)],
-        limit: 5,
-        with: {
-          category: { columns: { categoryName: true } },
-        },
-      })
-      return {
-        recent_products: recentProducts.map((p) => ({
-          productID: p.productID,
-          productName: p.productName,
-          categoryName: p.category.categoryName,
-          createdAt: p.createdAt,
-        })),
-      }
-    } catch (err) {
-      logger.error({ err }, "Cannot get recent products")
-      return { recent_products: [] }
-    }
+    return await this.productService.findRecent()
   }
 
-  /**
-   * Get products distribution by category
-   */
   async distribution() {
-    try {
-      const dist = await db
-        .select({
-          categoryID: categories.categoryID,
-          categoryName: categories.categoryName,
-          count: count(),
-        })
-        .from(products)
-        .innerJoin(categories, eq(products.categoryID, categories.categoryID))
-        .groupBy(categories.categoryID, categories.categoryName)
-
-      return { distribution: dist }
-    } catch (err) {
-      logger.error({ err }, "Cannot get products distribution")
-      return { distribution: [] }
-    }
+    return await this.productService.findDistributionByCategory()
   }
 
-  /**
-   * List all taxes
-   */
   async listTaxes() {
-    try {
-      const allTaxes = await db.query.taxes.findMany()
-      return allTaxes
-    } catch (err) {
-      logger.error({ err }, "Cannot get taxes list")
-      return []
-    }
+    return await this.productService.findAllTaxes()
   }
 
-  /**
-   * Get all products
-   */
-  async index() {
-    try {
-      const productsData = await db.query.products.findMany({
-        with: productRelations,
-      })
-
-      const allProducts: Product[] = productsData.map(mapProduct)
-
-      logger.info("Fetched all products successfully")
-      return allProducts
-    } catch (err) {
-      logger.error({ err }, "Cannot get products")
-    }
+  async index({ request }: HttpContext) {
+    const page = Math.max(1, request.input("page", 1))
+    const limit = Math.min(Math.max(1, request.input("limit", 20)), 100)
+    return await this.productService.findAllPaginated(page, limit)
   }
 
-  /**
-   * Create a new product
-   */
   async store({ request, response }: HttpContext) {
-    try {
-      const validatedData = await request.validateUsing(CreateProductValidator)
-      const { productName, categoryID, originID, territoryID, taxID } = validatedData
-
-      const [existingCategory, existingOrigin, existingTerritory] = await Promise.all(
-        [
-          db.query.categories.findFirst({ where: eq(categories.categoryID, categoryID) }),
-          db.query.origins.findFirst({ where: eq(origins.originID, originID) }),
-          db.query.territories.findFirst({ where: eq(territories.territoryID, territoryID) }),
-        ],
-      )
-
-      if (!existingCategory) {
-        return response.badRequest({ error: "La catégorie spécifiée n'existe pas" })
-      }
-      if (!existingOrigin) {
-        return response.badRequest({ error: "L'origine spécifiée n'existe pas" })
-      }
-      if (!existingTerritory) {
-        return response.badRequest({ error: "Le territoire spécifié n'existe pas" })
-      }
-      const derivedTaxID = existingCategory.taxID
-      const existingTax = await db.query.taxes.findFirst({ where: eq(taxes.taxID, derivedTaxID) })
-      if (!existingTax) {
-        return response.badRequest({ error: "La taxe associée à la catégorie n'existe pas" })
-      }
-      if (taxID && taxID !== derivedTaxID) {
-        logger.warn(
-          { providedTaxID: taxID, derivedTaxID, categoryID },
-          "[PRODUCTS]: Ignoring mismatched taxID from payload and using category tax",
-        )
-      }
-
-      // Check for duplicate product name
-      const existingProduct = await db.query.products.findFirst({
-        where: eq(products.productName, productName.trim()),
-      })
-
-      if (existingProduct) {
-        return response.badRequest({ error: "Un produit avec ce nom existe déjà" })
-      }
-
-      const productID = uuidv7()
-
-      await db.insert(products).values({
-        productID,
-        productName: productName.trim(),
-        categoryID,
-        originID,
-        territoryID,
-        taxID: derivedTaxID,
-      })
-
-      const createdProduct = await db.query.products.findFirst({
-        where: eq(products.productID, productID),
-        with: productRelations,
-      })
-
-      if (!createdProduct) {
-        return response.badRequest({ error: "Erreur lors de la récupération du produit créé" })
-      }
-
-      logger.info(`Created product ${productID} successfully`)
-      return response.created(mapProduct(createdProduct))
-    } catch (err) {
-      logger.error({ err }, "Cannot create product")
-    }
+    const validatedData = await request.validateUsing(CreateProductValidator)
+    const product = await this.productService.create(validatedData)
+    logger.info(`Created product ${product.productID} successfully`)
+    return response.created(product)
   }
 
-  /**
-   * Get a specific product by ID
-   */
-  async show({ params, response }: HttpContext) {
-    try {
-      const productId: string = params.id
-
-      if (!productId || typeof productId !== "string") {
-        return response.badRequest({ error: "ID de produit invalide" })
-      }
-
-      const productData = await db.query.products.findFirst({
-        where: eq(products.productID, productId),
-        with: productRelations,
-      })
-
-      if (!productData) {
-        return response.notFound({ error: "Produit non trouvé" })
-      }
-
-      logger.info(`Fetched product ${productId} successfully`)
-      return mapProduct(productData)
-    } catch (err) {
-      logger.error({ err }, "Cannot get product")
+  async show({ params }: HttpContext) {
+    const productId: string = params.id
+    if (!productId || typeof productId !== "string") {
+      throw new BadRequestError("ID de produit invalide")
     }
+    const product = await this.productService.findById(productId)
+    logger.info(`Fetched product ${productId} successfully`)
+    return product
   }
 
-  /**
-   * Update a specific product by ID
-   */
-  async update({ params, request, response }: HttpContext) {
-    try {
-      const productId: string = params.id
-
-      if (!productId) {
-        return response.badRequest({ error: "ID de produit invalide" })
-      }
-
-      const existingProduct = await db.query.products.findFirst({
-        where: eq(products.productID, productId),
-      })
-
-      if (!existingProduct) {
-        return response.notFound({ error: "Produit non trouvé" })
-      }
-
-      const validatedData = await request.validateUsing(UpdateProductValidator)
-      const { productName, categoryID, originID, territoryID, taxID } = validatedData
-
-      const [existingCategory, existingOrigin, existingTerritory] = await Promise.all(
-        [
-          db.query.categories.findFirst({ where: eq(categories.categoryID, categoryID) }),
-          db.query.origins.findFirst({ where: eq(origins.originID, originID) }),
-          db.query.territories.findFirst({ where: eq(territories.territoryID, territoryID) }),
-        ],
-      )
-
-      if (!existingCategory) {
-        return response.badRequest({ error: "La catégorie spécifiée n'existe pas" })
-      }
-      if (!existingOrigin) {
-        return response.badRequest({ error: "L'origine spécifiée n'existe pas" })
-      }
-      if (!existingTerritory) {
-        return response.badRequest({ error: "Le territoire spécifié n'existe pas" })
-      }
-      const derivedTaxID = existingCategory.taxID
-      const existingTax = await db.query.taxes.findFirst({ where: eq(taxes.taxID, derivedTaxID) })
-      if (!existingTax) {
-        return response.badRequest({ error: "La taxe associée à la catégorie n'existe pas" })
-      }
-      if (taxID && taxID !== derivedTaxID) {
-        logger.warn(
-          { providedTaxID: taxID, derivedTaxID, categoryID, productId },
-          "[PRODUCTS]: Ignoring mismatched taxID from payload and using category tax",
-        )
-      }
-
-      await db
-        .update(products)
-        .set({
-          productName: productName.trim(),
-          categoryID,
-          originID,
-          territoryID,
-          taxID: derivedTaxID,
-        })
-        .where(eq(products.productID, productId))
-
-      const updatedProduct = await db.query.products.findFirst({
-        where: eq(products.productID, productId),
-        with: productRelations,
-      })
-
-      if (!updatedProduct) {
-        return response.internalServerError({
-          error: "Erreur lors de la récupération du produit mis à jour",
-        })
-      }
-
-      logger.info(`Updated product ${productId} successfully`)
-      return mapProduct(updatedProduct)
-    } catch (err) {
-      logger.error({ err }, "Cannot update product")
+  async update({ params, request }: HttpContext) {
+    const productId: string = params.id
+    if (!productId) {
+      throw new BadRequestError("ID de produit invalide")
     }
+    const validatedData = await request.validateUsing(UpdateProductValidator)
+    const product = await this.productService.update(productId, validatedData)
+    logger.info(`Updated product ${productId} successfully`)
+    return product
   }
 
-  /**
-   * Delete a specific product by ID
-   */
   async destroy({ params, response }: HttpContext) {
-    try {
-      const productId: string = params.id
-
-      if (!productId) {
-        return response.badRequest({ error: "ID de produit invalide" })
-      }
-
-      const existingProduct = await db.query.products.findFirst({
-        where: eq(products.productID, productId),
-      })
-
-      if (!existingProduct) {
-        return response.notFound({ error: "Produit non trouvé" })
-      }
-
-      // Check for related template_products
-      const relatedTemplates = await db
-        .select({ count: count() })
-        .from(templateProducts)
-        .where(eq(templateProducts.productID, productId))
-
-      if (relatedTemplates[0]?.count > 0) {
-        return response.badRequest({
-          error: `Impossible de supprimer ce produit car il est lié à ${relatedTemplates[0].count} template(s). Veuillez d'abord retirer ce produit des templates.`,
-        })
-      }
-
-      await db.delete(products).where(eq(products.productID, productId))
-
-      logger.info(`Deleted product ${productId} successfully`)
-      return response.ok({ message: "Produit supprimé avec succès" })
-    } catch (err) {
-      logger.error({ err }, "Cannot delete product")
+    const productId: string = params.id
+    if (!productId) {
+      throw new BadRequestError("ID de produit invalide")
     }
+    await this.productService.delete(productId)
+    logger.info(`Deleted product ${productId} successfully`)
+    return response.ok({ message: "Produit supprimé avec succès" })
   }
 }

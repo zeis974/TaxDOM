@@ -1,6 +1,14 @@
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
-import { type InputHTMLAttributes, type KeyboardEvent, useEffect, useRef, useState } from "react"
+import {
+  type InputHTMLAttributes,
+  type KeyboardEvent,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react"
+import { createPortal } from "react-dom"
 
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { LoadingCircle } from "./Select.styled"
@@ -50,12 +58,47 @@ export default function BaseSelect({
   ...inputProps
 }: BaseSelectProps) {
   const selectedIndexRef = useRef(0)
+  const inputRef = useRef<HTMLInputElement>(null)
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [show, setShow] = useState(false)
+  const [searchValue, setSearchValue] = useState("")
+  const [dropdownPos, setDropdownPos] = useState({ top: 0, left: 0, width: 0 })
+
+  useEffect(() => {
+    if (value) {
+      const selected = options.find((o) => o.value === value || o.name === value)
+      setSearchValue(selected?.name ?? value)
+    } else {
+      setSearchValue("")
+    }
+  }, [value, options])
 
   useEffect(() => {
     selectedIndexRef.current = selectedIndex
   }, [selectedIndex])
+
+  useLayoutEffect(() => {
+    if (show && inputRef.current) {
+      const rect = inputRef.current.getBoundingClientRect()
+      setDropdownPos({
+        top: rect.bottom,
+        left: rect.left,
+        width: rect.width,
+      })
+    }
+  }, [show])
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = e.target.value
+    setSearchValue(newValue)
+    setSelectedIndex(0)
+    if (!show) setShow(true)
+  }
+
+  const handleSelect = (selectedValue: string) => {
+    onChange(selectedValue)
+    setShow(false)
+  }
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (options?.length === 0) return
@@ -64,7 +107,7 @@ export default function BaseSelect({
       e.preventDefault()
       setSelectedIndex((prevIndex) => {
         const filteredOptions = options.filter((option) => {
-          const lowerCaseValue = value.toLowerCase()
+          const lowerCaseValue = searchValue.toLowerCase()
           const exactMatchFound =
             lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
           const lowerCaseOption = option.name.toLowerCase()
@@ -85,7 +128,7 @@ export default function BaseSelect({
     if (e.key === "Enter") {
       e.preventDefault()
       const filteredOptions = options.filter((option) => {
-        const lowerCaseValue = value.toLowerCase()
+        const lowerCaseValue = searchValue.toLowerCase()
         const exactMatchFound =
           lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
         const lowerCaseOption = option.name.toLowerCase()
@@ -94,8 +137,7 @@ export default function BaseSelect({
 
       const selectedOption = filteredOptions[selectedIndexRef.current]
       if (selectedOption) {
-        onChange(selectedOption.value || selectedOption.name)
-        setShow(false)
+        handleSelect(selectedOption.name)
       }
     }
 
@@ -112,14 +154,17 @@ export default function BaseSelect({
         {errors.length > 0 && <span> {errors.join(", ")}</span>}
       </label>
       <input
+        ref={inputRef}
         {...inputProps}
         id={id || name}
         name={name}
         autoComplete="off"
-        onChange={(e) => onChange(e.target.value)}
+        onChange={handleInputChange}
         onBlur={() => {
-          setShow(false)
-          onBlur?.()
+          setTimeout(() => {
+            setShow(false)
+            onBlur?.()
+          }, 120)
         }}
         onFocus={() => {
           setShow(true)
@@ -127,32 +172,38 @@ export default function BaseSelect({
         }}
         onKeyDown={handleKeyDown}
         placeholder={placeholder}
-        value={value}
+        value={searchValue}
         disabled={disabled}
         required={required}
       />
       {loading && <LoadingCircle />}
-      <AnimatePresence>
-        {options.length > 0 && show && (
-          <m.div
-            style={{ zIndex: 1, height: "100%" }}
-            initial={{ translateY: "-5px", opacity: 0 }}
-            animate={{ translateY: "0", opacity: 1 }}
-            exit={{ translateY: "5px", opacity: 0 }}
-          >
-            <OptionsList
-              options={options}
-              value={value}
-              onSelect={(selectedValue) => {
-                onChange(selectedValue)
-                setShow(false)
+      {createPortal(
+        <AnimatePresence>
+          {options.length > 0 && show && (
+            <m.div
+              style={{
+                position: "fixed",
+                top: dropdownPos.top,
+                left: dropdownPos.left,
+                width: dropdownPos.width,
+                zIndex: 9999,
               }}
-              selectedIndex={selectedIndex}
-              setSelectedIndex={setSelectedIndex}
-            />
-          </m.div>
-        )}
-      </AnimatePresence>
+              initial={{ translateY: "-5px", opacity: 0 }}
+              animate={{ translateY: "0", opacity: 1 }}
+              exit={{ translateY: "5px", opacity: 0 }}
+            >
+              <OptionsList
+                options={options}
+                value={searchValue}
+                onSelect={handleSelect}
+                selectedIndex={selectedIndex}
+                setSelectedIndex={setSelectedIndex}
+              />
+            </m.div>
+          )}
+        </AnimatePresence>,
+        document.body,
+      )}
     </InputContainer>
   )
 }
