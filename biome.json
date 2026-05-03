@@ -31,10 +31,6 @@
       "react": "all"
     },
     "rules": {
-      "suspicious": {
-        "noExplicitAny": "warn",
-        "noArrayIndexKey": "warn"
-      },
       "a11y": {
         "noSvgWithoutTitle": "off"
       },
@@ -49,12 +45,17 @@
         "useNumberNamespace": "error",
         "noInferrableTypes": "error",
         "noUselessElse": "error"
+      },
+      "suspicious": {
+        "noExplicitAny": "warn",
+        "noArrayIndexKey": "warn"
       }
     }
   },
   "files": {
     "includes": [
       "**",
+      "!**/.adonisjs/",
       "!**/.next/",
       "!**/data/",
       "!**/build",
