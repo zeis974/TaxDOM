@@ -48,6 +48,7 @@ export default defineConfig({
     () => import("@adonisjs/shield/shield_provider"),
     () => import("@adonisjs/limiter/limiter_provider"),
     () => import("@adonisjs/redis/redis_provider"),
+    () => import("#providers/app_provider"),
   ],
 
   /*

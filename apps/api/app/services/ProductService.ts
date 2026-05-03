@@ -389,7 +389,7 @@ export class ProductService {
    * @throws BadRequestError if any relation is missing.
    */
   private async validateRelations(
-    tx: any,
+    tx: DB,
     categoryID: string,
     originID: string,
     territoryID: string,
