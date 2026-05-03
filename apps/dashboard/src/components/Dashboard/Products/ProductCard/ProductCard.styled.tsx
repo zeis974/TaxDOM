@@ -19,9 +19,9 @@ export const ClickableCard = styled.button`
   cursor: pointer;
   width: 100%;
   text-align: left;
+
   &:hover {
     border-color: token(colors.primary);
-    box-shadow: 0 18px 32px rgba(15, 23, 42, 0.15);
   }
 `
 export const CardHeader = styled.div`
