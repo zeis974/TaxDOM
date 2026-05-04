@@ -5,7 +5,7 @@ import { v7 as uuidv7 } from "uuid"
 
 import type * as schema from "#database/schema"
 import { products, territories } from "#database/schema"
-import { ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
+import { BadRequestError, ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
 
 type DB = NodePgDatabase<typeof schema>
 
@@ -109,6 +109,22 @@ export class TerritoryService {
     }
   }
 
+  async findById(territoryId: string): Promise<Territory> {
+    const territory = await this.db.query.territories.findFirst({
+      where: eq(territories.territoryID, territoryId),
+    })
+
+    if (!territory) {
+      throw new NotFoundError("Territoire non trouvé")
+    }
+
+    return {
+      territoryID: territory.territoryID,
+      territoryName: territory.territoryName,
+      available: territory.available,
+    }
+  }
+
   async create(input: CreateTerritoryInput): Promise<Territory> {
     const trimmedName = input.territoryName.trim().toUpperCase()
 
@@ -148,7 +164,7 @@ export class TerritoryService {
     }
 
     if (Object.keys(updateData).length === 0) {
-      throw new Error("Aucune donnée à mettre à jour")
+      throw new BadRequestError("Aucune donnée à mettre à jour")
     }
 
     const [updated] = await this.db
