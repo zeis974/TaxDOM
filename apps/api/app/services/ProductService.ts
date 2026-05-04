@@ -35,7 +35,7 @@ type ProductQueryResult = InferSelectModel<typeof products> & {
 function toDecimalNumber(value: unknown): number {
   const num = Number(value)
   if (Number.isNaN(num)) {
-    throw new Error(`Invalid decimal value: ${String(value)}`)
+    throw new BadRequestError(`Invalid decimal value: ${String(value)}`)
   }
   return num
 }

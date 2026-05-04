@@ -5,7 +5,7 @@ import { v7 as uuidv7 } from "uuid"
 
 import type * as schema from "#database/schema"
 import { origins, products } from "#database/schema"
-import { ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
+import { BadRequestError, ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
 
 type DB = NodePgDatabase<typeof schema>
 
@@ -157,7 +157,7 @@ export class OriginService {
     }
 
     if (Object.keys(updateData).length === 0) {
-      throw new Error("Aucune donnée à mettre à jour")
+      throw new BadRequestError("Aucune donnée à mettre à jour")
     }
 
     const [updated] = await this.db
