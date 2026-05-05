@@ -1,14 +1,14 @@
 import type { Node } from "@xyflow/react"
 import { NodeEditor } from "./NodeEditor"
 import {
+  CloseButton,
+  EmptyState,
+  PaletteItem,
+  PaletteSection,
+  PaletteTitle,
   PanelContainer,
   PanelHeader,
   PanelTitle,
-  CloseButton,
-  EmptyState,
-  PaletteSection,
-  PaletteTitle,
-  PaletteItem,
 } from "./RightSidePanel.styled"
 
 interface RightSidePanelProps {

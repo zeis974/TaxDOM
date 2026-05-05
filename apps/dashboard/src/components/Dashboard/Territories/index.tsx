@@ -8,7 +8,6 @@ interface TerritoriesProps {
 }
 
 export default function Territories({ territories }: TerritoriesProps) {
-
   return (
     <Container>
       <Header>
