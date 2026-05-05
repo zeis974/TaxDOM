@@ -1,12 +1,13 @@
 import type { HttpContext } from "@adonisjs/core/http"
-import type { TaxSimulatorResult, Territory } from "@taxdom/types"
 import logger from "@adonisjs/core/services/logger"
+import type { TaxSimulatorResult, Territory } from "@taxdom/types"
 import { and, eq } from "drizzle-orm"
 
 import { db } from "#config/database"
 import { categories, products, taxes } from "#database/schema"
-import { GetProductTaxeValidator } from "#validators/GetProductTaxeValidator"
+import { NotFoundError } from "#exceptions/ServiceErrors"
 import { isEUCountry } from "#lib/isEU"
+import { GetProductTaxeValidator } from "#validators/GetProductTaxeValidator"
 
 const territoryMap: Record<Territory, number> = {
   CORSE: 1,
@@ -26,9 +27,8 @@ export default class GetProductTaxeController {
     const origin = payload.origin.toUpperCase()
     const territory = payload.territory.toUpperCase() as Territory
 
-    // Déterminer si le pays d'origine fait partie de l'UE
     const isEU = isEUCountry(origin)
-    const originID = isEU ? 1 : 2 // 1 pour EU, 2 pour HORS_EU
+    const originID = isEU ? 1 : 2
 
     try {
       const result = await db
@@ -51,7 +51,7 @@ export default class GetProductTaxeController {
       if (result.length === 0) {
         logger.error("[PRODUCT NOT FOUND] Fetching (%s) taxes in getProductTaxeController", product)
 
-        return { error: "Product not found" }
+        throw new NotFoundError(`Aucune taxe trouvée pour le produit "${product}"`)
       }
 
       logger.info("Fetching (%s) taxes in getProductTaxeController", product)
@@ -59,15 +59,16 @@ export default class GetProductTaxeController {
       const res: TaxSimulatorResult = {
         product,
         taxes: {
-          tva: result[0].tva,
-          om: result[0].om,
-          omr: result[0].omr,
+          tva: Number(result[0].tva),
+          om: Number(result[0].om),
+          omr: Number(result[0].omr),
         },
       }
 
       return res
     } catch (err) {
-      logger.error({ err: err }, "Cannot getProductTaxes")
+      logger.error({ err }, "Cannot getProductTaxes")
+      throw err
     }
   }
 }

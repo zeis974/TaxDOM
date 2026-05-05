@@ -4,6 +4,7 @@ import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 
 import type * as schema from "#database/schema"
 import { categories, products as productsTable, taxes } from "#database/schema"
+import { NotFoundError } from "#exceptions/ServiceErrors"
 
 type DB = NodePgDatabase<typeof schema>
 
@@ -134,7 +135,11 @@ export class ParcelCalculationService {
       omr: Number(result.omr),
     }))
 
-    const { tva, om, omr } = availableCategories[0] ?? { tva: 0, om: 0, omr: 0 }
+    if (availableCategories.length === 0) {
+      throw new NotFoundError("Aucun produit trouvé pour le calcul de taxes")
+    }
+
+    const { tva, om, omr } = availableCategories[0]
 
     const omrPrice = Math.round((dutyPrice * omr) / 100)
     const omPrice = Math.round((dutyPrice * om) / 100)

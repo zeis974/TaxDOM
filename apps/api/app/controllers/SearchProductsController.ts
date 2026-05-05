@@ -1,7 +1,9 @@
 import type { HttpContext } from "@adonisjs/core/http"
 import logger from "@adonisjs/core/services/logger"
-import { sql } from "drizzle-orm"
+import { ilike } from "drizzle-orm"
 import { db } from "#config/database"
+import { products } from "#database/schema"
+import { BadRequestError, NotFoundError } from "#exceptions/ServiceErrors"
 import { SearchProductsValidator } from "#validators/SearchProductsValidator"
 
 export default class SearchProductsController {
@@ -10,24 +12,22 @@ export default class SearchProductsController {
     const productName = filters.name.trim()
 
     if (!productName) {
-      return { error: "Product name is required" }
+      throw new BadRequestError("Product name is required")
     }
 
-    const result = await db.run(sql`
-      SELECT DISTINCT p.product_name
-      FROM products p
-      JOIN products_fts fts ON p.product_id = fts.rowid
-      WHERE products_fts MATCH ${`${productName}*`}
-      ORDER BY rank
-      LIMIT 10;
-    `)
+    const result = await db
+      .selectDistinct({ name: products.productName })
+      .from(products)
+      .where(ilike(products.productName, `${productName}%`))
+      .orderBy(products.productName)
+      .limit(10)
 
-    if (!result.rows.length) {
-      return { error: "No product found" }
+    if (!result.length) {
+      throw new NotFoundError("No product found")
     }
 
     logger.info("Fetching (%s) productName in searchProductNameController", productName)
 
-    return result.rows.map((row) => ({ name: row.product_name as string }))
+    return result.map((row) => ({ name: row.name }))
   }
 }

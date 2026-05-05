@@ -24,8 +24,12 @@ export default class TerritoriesController {
     return await this.territoryService.findTopByProductCount()
   }
 
-  async show({ response }: HttpContext) {
-    return response.status(404)
+  async show({ params }: HttpContext) {
+    const territoryIdParam: string = params.id
+    if (!territoryIdParam) {
+      throw new BadRequestError("Paramètre manquant")
+    }
+    return this.territoryService.findById(territoryIdParam)
   }
 
   async store({ request, response }: HttpContext) {
