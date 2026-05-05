@@ -4,27 +4,9 @@ import { Container, NoTransporters, TransportersContainer } from "./Transporters
 
 interface TransportersListProps {
   transporters: Transporter[]
-  onUpdate: (data: {
-    transporterID: string
-    transporterName: string
-    available: boolean
-  }) => Promise<unknown>
-  onDelete: (transporterID: string) => Promise<unknown>
-  isUpdating: boolean
-  isDeleting: boolean
-  updateErrors: string[]
-  deleteErrors: string[]
 }
 
-export default function TransportersList({
-  transporters,
-  onUpdate,
-  onDelete,
-  isUpdating,
-  isDeleting,
-  updateErrors,
-  deleteErrors,
-}: TransportersListProps) {
+export default function TransportersList({ transporters }: TransportersListProps) {
   if (transporters.length === 0) {
     return (
       <NoTransporters>
@@ -52,16 +34,7 @@ export default function TransportersList({
       <TransportersContainer>
         {transporters.map((transporter: Transporter) => (
           <div key={transporter.transporterID}>
-            <TransporterCard
-              transporter={transporter}
-              editable
-              onUpdate={onUpdate}
-              onDelete={onDelete}
-              isUpdating={isUpdating}
-              isDeleting={isDeleting}
-              updateErrors={updateErrors}
-              deleteErrors={deleteErrors}
-            />
+            <TransporterCard transporter={transporter} editable />
           </div>
         ))}
       </TransportersContainer>

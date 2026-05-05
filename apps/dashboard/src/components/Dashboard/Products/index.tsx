@@ -1,23 +1,13 @@
-import type { Product, SelectOption } from "@taxdom/types"
+import type { Product } from "@taxdom/types"
 import AddProduct from "./AddProduct"
-import ProductsList from "./ProductsList"
-
 import { Container, Header, HeaderActions, HeaderTitle } from "./Products.styled"
-
-interface FormData {
-  categories: SelectOption[]
-  origins: SelectOption[]
-  territories: SelectOption[]
-  flux: SelectOption[]
-  taxes: { taxID: string; tva: number; om: number; omr: number }[]
-}
+import ProductsList from "./ProductsList"
 
 interface ProductsProps {
   products: Product[]
-  formData: FormData
 }
 
-export default function Products({ products, formData }: ProductsProps) {
+export default function Products({ products }: ProductsProps) {
   return (
     <Container>
       <Header>
@@ -26,10 +16,10 @@ export default function Products({ products, formData }: ProductsProps) {
           <span>{products.length} produits</span>
         </HeaderTitle>
         <HeaderActions>
-          <AddProduct formData={formData} />
+          <AddProduct />
         </HeaderActions>
       </Header>
-      <ProductsList products={products} formData={formData} />
+      <ProductsList products={products} />
     </Container>
   )
 }

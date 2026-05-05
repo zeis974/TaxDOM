@@ -1,6 +1,6 @@
 export {
   PageContainerBase,
+  PageHeaderActionsBase,
   PageHeaderBase,
   PageHeaderTitleBase,
-  PageHeaderActionsBase,
 } from "./PageHeader.styled"
