@@ -1,8 +1,9 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Card = styled.div`
-  background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
+  background: ${token("colors.secondaryBackground")};
+  border: 1px solid ${token("colors.darkGray")};
   border-radius: 12px;
   padding: 18px;
   transition: all 200ms ease;
@@ -12,8 +13,8 @@ export const Card = styled.div`
 `
 
 export const ClickableCard = styled.button`
-  background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
+  background: ${token("colors.secondaryBackground")};
+  border: 1px solid ${token("colors.darkGray")};
   border-radius: 12px;
   padding: 18px;
   transition: all 200ms ease;
@@ -23,12 +24,12 @@ export const ClickableCard = styled.button`
   position: relative;
 
   &:hover {
-    border-color: token(colors.primary);
+    border-color: ${token("colors.primary")};
     box-shadow: 0 18px 32px rgba(15, 23, 42, 0.15);
   }
 
   &:focus-visible {
-    outline: 2px solid token(colors.primary);
+    outline: 2px solid ${token("colors.primary")};
     outline-offset: 3px;
   }
 `
@@ -49,7 +50,7 @@ export const CardHeader = styled.div`
 
 export const CardTitle = styled.h3`
   margin: 0;
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   font-size: 17px;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -71,7 +72,7 @@ export const Badge = styled.span`
   border-radius: 999px;
   font-weight: 600;
   background: rgba(148, 163, 184, 0.18);
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   text-transform: uppercase;
   letter-spacing: 0.08em;
 
@@ -82,7 +83,7 @@ export const Badge = styled.span`
 `
 
 export const CardInfo = styled.span`
-  color: token(colors.darkGray);
+  color: ${token("colors.darkGray")};
   font-size: 13px;
 `
 
@@ -99,13 +100,13 @@ export const DrawerContent = styled.div`
   inset: 0 0 0 auto;
   width: min(520px, 100vw);
   height: 100vh;
-  background: token(colors.background);
+  background: ${token("colors.background")};
   border-left: 1px solid rgba(148, 163, 184, 0.24);
   box-shadow: -32px 0 80px rgba(15, 23, 42, 0.28);
   display: flex;
   flex-direction: column;
   z-index: 50;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const DrawerHeader = styled.header`
@@ -133,9 +134,9 @@ export const DrawerTitle = styled.h2`
   margin: 6px 0 0;
   font-size: 26px;
   font-weight: 600;
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   letter-spacing: -0.02em;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const DrawerMeta = styled.div`
@@ -170,7 +171,7 @@ export const DrawerCloseButton = styled.button`
   }
 
   &:focus-visible {
-    outline: 2px solid token(colors.primary);
+    outline: 2px solid ${token("colors.primary")};
     outline-offset: 3px;
   }
 `
@@ -204,7 +205,7 @@ export const DrawerSectionTitle = styled.h3`
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: rgba(71, 85, 105, 0.85);
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const DrawerSectionDescription = styled.p`
@@ -212,7 +213,7 @@ export const DrawerSectionDescription = styled.p`
   font-size: 13px;
   color: rgba(100, 116, 139, 0.85);
   line-height: 1.6;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const FormGrid = styled.div`
@@ -242,9 +243,9 @@ export const ActionsGroup = styled.div`
 `
 
 export const ErrorContainer = styled.div`
-  color: token(colors.error);
+  color: ${token("colors.error")};
   flex: 1;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
   min-width: 220px;
 
   & span {
@@ -260,7 +261,7 @@ export const DeleteButton = styled.button`
   border-radius: 8px;
   padding: 10px 18px;
   cursor: pointer;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
   font-weight: 600;
   transition:
     background 150ms ease,

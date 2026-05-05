@@ -1,10 +1,11 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
-  background: token(colors.secondaryBackground);
+  background: ${token("colors.secondaryBackground")};
   border-radius: 8px;
   padding: 20px;
-  border: 1px solid token(colors.tertiaryBackground);
+  border: 1px solid ${token("colors.tertiaryBackground")};
 `
 
 export const Header = styled.div`
@@ -13,19 +14,19 @@ export const Header = styled.div`
   align-items: center;
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 1px solid token(colors.tertiaryBackground);
+  border-bottom: 1px solid ${token("colors.tertiaryBackground")};
 
   & h2 {
     font-size: 1em;
     font-weight: 600;
     margin: 0;
-    color: token(colors.primary);
-    font-family: token(fonts.nativeFont);
+    color: ${token("colors.primary")};
+    font-family: ${token("fonts.nativeFont")};
   }
 
   & > span {
     font-size: 0.813em;
-    color: token(colors.darkGray);
+    color: ${token("colors.darkGray")};
   }
 `
 
@@ -41,7 +42,7 @@ export const ListItem = styled.div`
   align-items: center;
   gap: 12px;
   padding: 10px 12px;
-  background: token(colors.tertiaryBackground);
+  background: ${token("colors.tertiaryBackground")};
   border-radius: 6px;
 
   & .rank {
@@ -50,11 +51,11 @@ export const ListItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: token(colors.secondaryBackground);
+    background: ${token("colors.secondaryBackground")};
     border-radius: 4px;
     font-weight: 600;
     font-size: 0.813em;
-    color: token(colors.primary);
+    color: ${token("colors.primary")};
   }
 
   & .info {
@@ -65,12 +66,12 @@ export const ListItem = styled.div`
     & .name {
       font-size: 0.875em;
       font-weight: 500;
-      color: token(colors.primary);
+      color: ${token("colors.primary")};
     }
 
     & .count {
       font-size: 0.75em;
-      color: token(colors.darkGray);
+      color: ${token("colors.darkGray")};
     }
   }
 
@@ -78,7 +79,7 @@ export const ListItem = styled.div`
     text-align: right;
     font-size: 0.875em;
     font-weight: 600;
-    color: token(colors.primary);
+    color: ${token("colors.primary")};
   }
 `
 
@@ -87,6 +88,6 @@ export const NoData = styled.div`
   justify-content: center;
   align-items: center;
   padding: 32px;
-  color: token(colors.darkGray);
+  color: ${token("colors.darkGray")};
   font-size: 0.875em;
 `

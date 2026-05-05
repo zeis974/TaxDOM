@@ -1,21 +1,22 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin: 20px 0;
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
 
   & > div:first-child {
     flex: 1;
     padding-bottom: 10px;
 
     & h3 {
-      font-family: token(fonts.NotoSansBold);
+      font-family: ${token("fonts.NotoSansBold")};
     }
-    
+
     & p {
-      font-family: token(fonts.NotoSans);
+      font-family: ${token("fonts.NotoSans")};
       margin: 20px 0;
       color: gray;
     }
@@ -34,9 +35,9 @@ export const ThemeButton = styled.button`
   border: 2px solid transparent;
   transition: 150ms border;
   margin-bottom: 10px;
-  
+
   &:not([data-selected="true"]):hover {
-    border: 2px solid token(colors.primary);
+    border: 2px solid ${token("colors.primary")};
   }
 
   &[data-selected="true"] {
@@ -47,7 +48,7 @@ export const ThemeButton = styled.button`
 export const ThemeContainer = styled.div`
   display: flex;
   flex: 2;
-  font-family: token(fonts.NotoSans);
+  font-family: ${token("fonts.NotoSans")};
 
   & > div {
     display: flex;

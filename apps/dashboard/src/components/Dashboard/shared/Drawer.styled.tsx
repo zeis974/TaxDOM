@@ -1,4 +1,5 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const DrawerOverlayBase = styled.div`
   position: fixed;
@@ -13,13 +14,13 @@ export const DrawerContentBase = styled.div`
   inset: 0 0 0 auto;
   width: min(520px, 100vw);
   height: 100vh;
-  background: token(colors.background);
+  background: ${token("colors.background")};
   border-left: 1px solid rgba(148, 163, 184, 0.24);
   box-shadow: -32px 0 80px rgba(15, 23, 42, 0.28);
   display: flex;
   flex-direction: column;
   z-index: 50;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const DrawerHeaderBase = styled.header`
@@ -42,9 +43,9 @@ export const DrawerTitleBase = styled.h2`
   margin: 0;
   font-size: 26px;
   font-weight: 600;
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   letter-spacing: -0.02em;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const DrawerSubtitleBase = styled.span`
@@ -119,41 +120,41 @@ export const DetailIconBase = styled.span`
 
 export const DetailValueBase = styled.dd`
   font-size: 14px;
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   font-weight: 500;
 `
 
 export const DetailValueInputBase = styled.input`
   width: 100%;
   padding: 8px 12px;
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid ${token("colors.darkGray")};
   border-radius: 6px;
   font-size: 14px;
-  background: token(colors.tertiaryBackground);
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
+  background: ${token("colors.tertiaryBackground")};
+  color: ${token("colors.primary")};
+  font-family: ${token("fonts.nativeFont")};
 
   &:focus {
     outline: none;
-    border-color: token(colors.primary);
+    border-color: ${token("colors.primary")};
   }
 `
 
 export const StatusTagButtonBase = styled.button`
   padding: 6px 14px;
   border-radius: 999px;
-  border: 1px solid token(colors.darkGray);
-  background: token(colors.tertiaryBackground);
-  color: token(colors.primary);
+  border: 1px solid ${token("colors.darkGray")};
+  background: ${token("colors.tertiaryBackground")};
+  color: ${token("colors.primary")};
   font-size: 12px;
   font-weight: 500;
   cursor: pointer;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 
   &[data-active="true"] {
-    background: token(colors.primary);
-    color: token(colors.background);
-    border-color: token(colors.primary);
+    background: ${token("colors.primary")};
+    color: ${token("colors.background")};
+    border-color: ${token("colors.primary")};
   }
 `
 
@@ -174,9 +175,9 @@ export const ActionsGroupBase = styled.div`
 `
 
 export const ErrorContainerBase = styled.div`
-  color: token(colors.error);
+  color: ${token("colors.error")};
   flex: 1;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
   min-width: 220px;
 
   & span {
@@ -192,7 +193,7 @@ export const DeleteButtonBase = styled.button`
   border-radius: 8px;
   padding: 10px 18px;
   cursor: pointer;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
   font-weight: 600;
 
   &:hover:not(:disabled) {

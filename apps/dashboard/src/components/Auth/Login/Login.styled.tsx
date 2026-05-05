@@ -1,4 +1,5 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Layout = styled.div`
   display: flex;
@@ -34,16 +35,16 @@ export const LogoCircle = styled.div`
   width: 2rem;
   height: 2rem;
   border-radius: 9999px;
-  background-color: token(colors.darkGray);
+  background-color: ${token("colors.darkGray")};
   border: 4px solid;
-  border-color: token(colors.lightGray);
+  border-color: ${token("colors.lightGray")};
 `
 
 export const BrandName = styled.span`
   font-size: 1.25rem;
   font-weight: 600;
-  color: token(colors.darkGray);
-  font-family: token(fonts.heading);
+  color: ${token("colors.darkGray")};
+  font-family: ${token("fonts.heading")};
   letter-spacing: tight;
 `
 
@@ -73,14 +74,14 @@ export const TitleSection = styled.div`
 export const Title = styled.h1`
   font-size: 1.875rem;
   font-weight: bold;
-  color: token(colors.darkGray);
+  color: ${token("colors.darkGray")};
   letter-spacing: tight;
   line-height: 1.2;
 `
 
 export const Subtitle = styled.p`
   font-size: 1rem;
-  color: token(colors.gray);
+  color: ${token("colors.gray")};
 `
 
 export const Button = styled.button`
@@ -92,18 +93,18 @@ export const Button = styled.button`
   padding: 0.875rem 1rem;
   background-color: white;
   border: 1px solid;
-  border-color: token(colors.lightGray);
+  border-color: ${token("colors.lightGray")};
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
-  color: token(colors.darkGray);
+  color: ${token("colors.darkGray")};
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
   &:hover {
-    background-color: token(colors.secondaryBackground);
-    border-color: token(colors.gray);
+    background-color: ${token("colors.secondaryBackground")};
+    border-color: ${token("colors.gray")};
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transform: translateY(-1px);
   }
@@ -111,7 +112,7 @@ export const Button = styled.button`
   &:active {
     transform: translateY(0);
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    background-color: token(colors.lightGray);
+    background-color: ${token("colors.lightGray")};
   }
 
   &:disabled {
@@ -123,7 +124,7 @@ export const Button = styled.button`
 
   &:focus-visible {
     outline: 2px solid;
-    outline-color: token(colors.primary);
+    outline-color: ${token("colors.primary")};
     outline-offset: 2px;
   }
 `
@@ -143,25 +144,25 @@ export const Icon = styled.svg`
 // export const DividerLine = styled.div`
 //   flex: 1;
 //   height: 1px;
-//   background-color: token(colors.lightGray);
+//   background-color: ${token("colors.lightGray")};
 // `
 
 // export const DividerText = styled.span`
 //   font-size: 0.75rem;
 //   font-weight: 500;
-//   color: token(colors.gray);
+//   color: ${token("colors.gray")};
 //   text-transform: uppercase;
 //   letter-spacing: 0.05em;
 // `
 
 // export const InfoText = styled.p`
 //   font-size: 0.875rem;
-//   color: token(colors.gray);
+//   color: ${token("colors.gray")};
 //   text-align: center;
 //   line-height: 1.5;
 // `
 export const FooterLink = styled.a`
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   font-weight: 500;
   text-decoration: none;
 
@@ -195,6 +196,6 @@ export const RightTitle = styled.h2`
 
 export const RightSubtitle = styled.p`
   font-size: 1.125rem;
-  /* color: token(colors.gray); */
+  /* color: ${token("colors.gray")}; */
   line-height: 1.6;
 `

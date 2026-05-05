@@ -1,22 +1,23 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const AddTerritoryBtn = styled.button`
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background: token(colors.tertiaryBackground);
+  background: ${token("colors.tertiaryBackground")};
   font-weight: 500;
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid ${token("colors.darkGray")};
   cursor: pointer;
   border-radius: 8px;
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
+  color: ${token("colors.primary")};
+  font-family: ${token("fonts.nativeFont")};
   font-size: 14px;
   transition: all 150ms ease;
   &:hover {
-    background: token(colors.secondaryBackground);
-    border-color: token(colors.primary);
+    background: ${token("colors.secondaryBackground")};
+    border-color: ${token("colors.primary")};
   }
 `
 export const AddTerritoryContainer = styled.div`
@@ -27,7 +28,7 @@ export const AddTerritoryContainer = styled.div`
   }
   & hr {
     height: 1px;
-    background: token(colors.secondaryBackground);
+    background: ${token("colors.secondaryBackground")};
     border: none;
     margin-bottom: 25px;
   }
@@ -39,8 +40,8 @@ export const TerritoryActions = styled.div`
   margin-top: 1rem;
 `
 export const ErrorContainer = styled.div`
-  color: token(colors.error);
+  color: ${token("colors.error")};
   flex: 1;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
   font-weight: bold;
 `

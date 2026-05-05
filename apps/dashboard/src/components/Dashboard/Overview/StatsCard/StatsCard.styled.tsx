@@ -1,13 +1,14 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Card = styled.div`
-  background: token(colors.secondaryBackground);
+  background: ${token("colors.secondaryBackground")};
   border-radius: 8px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  border: 1px solid token(colors.tertiaryBackground);
+  border: 1px solid ${token("colors.tertiaryBackground")};
 `
 
 export const CardContent = styled.div`
@@ -18,7 +19,7 @@ export const CardContent = styled.div`
 
 export const CardTitle = styled.h3`
   font-size: 0.875em;
-  color: token(colors.darkGray);
+  color: ${token("colors.darkGray")};
   margin: 0;
   font-weight: 500;
   text-transform: uppercase;
@@ -28,7 +29,7 @@ export const CardTitle = styled.h3`
 export const CardValue = styled.p`
   font-size: 2em;
   font-weight: bold;
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   margin: 0;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `

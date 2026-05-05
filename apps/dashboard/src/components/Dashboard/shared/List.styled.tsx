@@ -1,12 +1,13 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const ListContainerBase = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
+  color: ${token("colors.primary")};
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const ListGridBase = styled.div`
@@ -26,7 +27,7 @@ export const EmptyStateBase = styled.div`
   min-height: 400px;
   padding: 48px 24px;
   text-align: center;
-  color: token(colors.darkGray);
+  color: ${token("colors.darkGray")};
   gap: 16px;
 
   & svg {
@@ -39,7 +40,7 @@ export const EmptyStateBase = styled.div`
     margin: 0;
     font-size: 20px;
     font-weight: 600;
-    color: token(colors.primary);
+    color: ${token("colors.primary")};
   }
 
   & p {
@@ -52,7 +53,7 @@ export const EmptyStateBase = styled.div`
 
 export const ResultsCountBase = styled.div`
   margin-bottom: 1rem;
-  color: token(colors.darkGray);
+  color: ${token("colors.darkGray")};
   font-size: 14px;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
