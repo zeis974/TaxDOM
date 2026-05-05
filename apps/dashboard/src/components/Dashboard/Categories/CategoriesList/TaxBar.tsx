@@ -1,12 +1,12 @@
-import { styled } from "@/panda/jsx"
 import type { Category } from "@taxdom/types"
+import { styled } from "@/panda/jsx"
 import {
   Container,
-  TaxBarContainer,
-  TaxSegment,
-  TaxLegend,
-  LegendItem,
   LegendColor,
+  LegendItem,
+  TaxBarContainer,
+  TaxLegend,
+  TaxSegment,
   TotalTax,
 } from "./TaxBar.styled"
 
