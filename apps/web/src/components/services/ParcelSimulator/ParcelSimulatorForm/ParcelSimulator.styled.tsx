@@ -1,11 +1,10 @@
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
   display: flex;
   height: 100%;
-  color: ${token("colors.primary")};
-  font-family: ${token("fonts.nativeFont")};
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
 
   & form {
     display: inherit;
@@ -17,7 +16,7 @@ export const Container = styled.div`
       position: relative;
       height: 100%;
       padding: 20px;
-      background: ${token("colors.secondaryBackground")};
+      background: token(colors.secondaryBackground);
       border-radius: 10px;
 
       #captcha-container {

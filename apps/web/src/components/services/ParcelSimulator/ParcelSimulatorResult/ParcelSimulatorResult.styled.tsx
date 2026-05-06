@@ -1,12 +1,11 @@
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 15px;
-  background: ${token("colors.secondaryBackground")};
+  background: token(colors.secondaryBackground);
   color: white;
   position: absolute;
   padding: 20px;
@@ -23,8 +22,8 @@ export const Container = styled.div`
 export const ProductsContainer = styled.div`
   position: relative;
   grid-area: 2 / 1 / 3 / 2;
-  background: ${token("colors.background")};
-  color: ${token("colors.primary")};
+  background: token(colors.background);
+  color: token(colors.primary);
   border-radius: 10px;
   overflow-y: auto;
 
@@ -34,8 +33,8 @@ export const ProductsContainer = styled.div`
     margin: 0 10px;
     justify-content: space-between;
     align-items: center;
-    background: ${token("colors.background")};
-    color: ${token("colors.primary")};
+    background: token(colors.background);
+    color: token(colors.primary);
     position: sticky;
     top: 0;
 
@@ -44,7 +43,7 @@ export const ProductsContainer = styled.div`
       position: absolute;
       width: 100%;
       height: 10px;
-      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, ${token("colors.background")} 100%);
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, token(colors.background) 100%);
       top: 100%;
     }
 
@@ -58,22 +57,22 @@ export const ProductsContainer = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f1f1f1; 
   }
-
+  
   &::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #888; 
   }
 
   &::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #555; 
   }
 `
 
 export const ProductCard = styled.div`
   display: flex;
   justify-content: space-between;
-  background: ${token("colors.darkGray")};
+  background: token(colors.darkGray);
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
@@ -85,11 +84,11 @@ export const TaxesContainer = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  color: ${token("colors.primary")};
+  color: token(colors.primary);
 `
 
 export const TaxesInfo = styled.div`
-  background: ${token("colors.background")};
+  background: token(colors.background);
   border-radius: 10px;
   padding: 10px;
 
@@ -103,7 +102,7 @@ export const TaxesInfo = styled.div`
       flex-direction: column;
       p {
         span {
-          font: bold 1.5em ${token("fonts.NotoSansBold")};
+          font: bold 1.5em token(fonts.NotoSansBold);
           color: #2a7bb1;
           margin-right: 5px;
         }
@@ -119,11 +118,11 @@ export const DutyInfo = styled.div`
 
   & span {
     margin-bottom: 10px;
-    color: ${token("colors.primary")};
+    color: token(colors.primary);
 
     & span {
       color: #2a7bb1;
-      font: bold 1.5em ${token("fonts.NotoSansBold")};
+      font: bold 1.5em token(fonts.NotoSansBold);
     }
   }
 
@@ -132,21 +131,21 @@ export const DutyInfo = styled.div`
     font-size: 0.8em;
     text-align: justify;
     margin-left: 10px;
-
+    
     &::before {
       content: "";
       position: absolute;
       height: 100%;
       width: 2px;
       left: -10px;
-      background: ${token("colors.darkGray")};
+      background: token(colors.darkGray);
     }
   }
 `
 
 export const Informations = styled.div`
   grid-area: 1 / 1 / 2 / 3;
-  background: ${token("colors.background")};
+  background: token(colors.background);
   border-radius: 10px;
   overflow-y: auto;
 `
@@ -179,7 +178,7 @@ export const TaxesInformations = styled.div`
         position: absolute;
         height: 100%;
         width: 2px;
-        background: ${token("colors.darkGray")};
+        background: token(colors.darkGray);
       }
 
       & p {
@@ -190,7 +189,7 @@ export const TaxesInformations = styled.div`
 
         & span {
           color: #2a7bb1;
-          font: bold 1em ${token("fonts.NotoSansBold")};
+          font: bold 1em token(fonts.NotoSansBold);
         }
       }
     }

@@ -1,9 +1,8 @@
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export const CardBase = styled.div`
-  background: ${token("colors.secondaryBackground")};
-  border: 1px solid ${token("colors.darkGray")};
+  background: token(colors.secondaryBackground);
+  border: 1px solid token(colors.darkGray);
   border-radius: 12px;
   padding: 18px;
   transition: all 200ms ease;
@@ -13,8 +12,8 @@ export const CardBase = styled.div`
 `
 
 export const ClickableCardBase = styled.button`
-  background: ${token("colors.secondaryBackground")};
-  border: 1px solid ${token("colors.darkGray")};
+  background: token(colors.secondaryBackground);
+  border: 1px solid token(colors.darkGray);
   border-radius: 12px;
   padding: 18px;
   transition: all 200ms ease;
@@ -23,12 +22,12 @@ export const ClickableCardBase = styled.button`
   text-align: left;
 
   &:hover {
-    border-color: ${token("colors.primary")};
+    border-color: token(colors.primary);
     box-shadow: 0 18px 32px rgba(15, 23, 42, 0.15);
   }
 
   &:focus-visible {
-    outline: 2px solid ${token("colors.primary")};
+    outline: 2px solid token(colors.primary);
     outline-offset: 3px;
   }
 `
@@ -49,7 +48,7 @@ export const CardHeaderBase = styled.div`
 
 export const CardTitleBase = styled.h3`
   margin: 0;
-  color: ${token("colors.primary")};
+  color: token(colors.primary);
   font-size: 17px;
   font-weight: 600;
   overflow: hidden;
@@ -91,6 +90,6 @@ export const StatusBadgeBase = styled.span`
 `
 
 export const CardInfoBase = styled.span`
-  color: ${token("colors.darkGray")};
+  color: token(colors.darkGray);
   font-size: 13px;
 `

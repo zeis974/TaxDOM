@@ -2,9 +2,9 @@
   "name": "@taxdom/blog",
   "type": "module",
   "scripts": {
-    "prepare": "panda codegen && node ../../scripts/patch-styled-type.mjs",
+    "prepare": "panda codegen",
     "dev": "astro dev",
-    "build": "panda codegen && node ../../scripts/patch-styled-type.mjs && astro build",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "lint": "biome check .",

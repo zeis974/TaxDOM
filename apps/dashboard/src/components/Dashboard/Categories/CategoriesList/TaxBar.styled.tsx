@@ -1,5 +1,4 @@
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
   display: flex;
@@ -80,7 +79,7 @@ export const LegendColor = styled.div`
 export const TotalTax = styled.span`
   margin-left: auto;
   font-weight: 700;
-  color: ${token("colors.primary")};
+  color: token(colors.primary);
   font-size: 0.8rem;
   padding: 4px 8px;
   background: rgba(59, 130, 246, 0.1);

@@ -1,9 +1,7 @@
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
-
 export const Card = styled.div`
-  background: ${token("colors.secondaryBackground")};
-  border: 1px solid ${token("colors.darkGray")};
+  background: token(colors.secondaryBackground);
+  border: 1px solid token(colors.darkGray);
   border-radius: 12px;
   padding: 18px;
   transition: all 200ms ease;
@@ -12,8 +10,8 @@ export const Card = styled.div`
   text-align: left;
 `
 export const ClickableCard = styled.button`
-  background: ${token("colors.secondaryBackground")};
-  border: 1px solid ${token("colors.darkGray")};
+  background: token(colors.secondaryBackground);
+  border: 1px solid token(colors.darkGray);
   border-radius: 12px;
   padding: 18px;
   transition: all 200ms ease;
@@ -21,7 +19,7 @@ export const ClickableCard = styled.button`
   width: 100%;
   text-align: left;
   &:hover {
-    border-color: ${token("colors.primary")};
+    border-color: token(colors.primary);
     box-shadow: 0 18px 32px rgba(15, 23, 42, 0.15);
   }
 `
@@ -39,7 +37,7 @@ export const CardHeader = styled.div`
 `
 export const CardTitle = styled.h3`
   margin: 0;
-  color: ${token("colors.primary")};
+  color: token(colors.primary);
   font-size: 17px;
   font-weight: 600;
   overflow: hidden;
@@ -62,7 +60,7 @@ export const StatusBadge = styled.span`
   }
 `
 export const CardInfo = styled.span`
-  color: ${token("colors.darkGray")};
+  color: token(colors.darkGray);
   font-size: 13px;
 `
 export const DrawerOverlay = styled.div`
@@ -77,13 +75,13 @@ export const DrawerContent = styled.div`
   inset: 0 0 0 auto;
   width: min(520px, 100vw);
   height: 100vh;
-  background: ${token("colors.background")};
+  background: token(colors.background);
   border-left: 1px solid rgba(148, 163, 184, 0.24);
   box-shadow: -32px 0 80px rgba(15, 23, 42, 0.28);
   display: flex;
   flex-direction: column;
   z-index: 50;
-  font-family: ${token("fonts.nativeFont")};
+  font-family: token(fonts.nativeFont);
 `
 export const DrawerHeader = styled.header`
   padding: 32px;
@@ -103,9 +101,9 @@ export const DrawerTitle = styled.h2`
   margin: 0;
   font-size: 26px;
   font-weight: 600;
-  color: ${token("colors.primary")};
+  color: token(colors.primary);
   letter-spacing: -0.02em;
-  font-family: ${token("fonts.nativeFont")};
+  font-family: token(fonts.nativeFont);
 `
 export const DrawerSubtitle = styled.span`
   font-size: 13px;
@@ -170,38 +168,38 @@ export const DetailIcon = styled.span`
 `
 export const DetailValue = styled.dd`
   font-size: 14px;
-  color: ${token("colors.primary")};
+  color: token(colors.primary);
   font-weight: 500;
 `
 export const DetailValueInput = styled.input`
   width: 100%;
   padding: 8px 12px;
-  border: 1px solid ${token("colors.darkGray")};
+  border: 1px solid token(colors.darkGray);
   border-radius: 6px;
   font-size: 14px;
-  background: ${token("colors.tertiaryBackground")};
-  color: ${token("colors.primary")};
-  font-family: ${token("fonts.nativeFont")};
+  background: token(colors.tertiaryBackground);
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
   text-transform: uppercase;
   &:focus {
     outline: none;
-    border-color: ${token("colors.primary")};
+    border-color: token(colors.primary);
   }
 `
 export const StatusTagButton = styled.button`
   padding: 6px 14px;
   border-radius: 999px;
-  border: 1px solid ${token("colors.darkGray")};
-  background: ${token("colors.tertiaryBackground")};
-  color: ${token("colors.primary")};
+  border: 1px solid token(colors.darkGray);
+  background: token(colors.tertiaryBackground);
+  color: token(colors.primary);
   font-size: 12px;
   font-weight: 500;
   cursor: pointer;
-  font-family: ${token("fonts.nativeFont")};
+  font-family: token(fonts.nativeFont);
   &[data-active="true"] {
-    background: ${token("colors.primary")};
-    color: ${token("colors.background")};
-    border-color: ${token("colors.primary")};
+    background: token(colors.primary);
+    color: token(colors.background);
+    border-color: token(colors.primary);
   }
 `
 export const DrawerFooter = styled.footer`
@@ -219,9 +217,9 @@ export const ActionsGroup = styled.div`
   flex-wrap: wrap;
 `
 export const ErrorContainer = styled.div`
-  color: ${token("colors.error")};
+  color: token(colors.error);
   flex: 1;
-  font-family: ${token("fonts.nativeFont")};
+  font-family: token(fonts.nativeFont);
   min-width: 220px;
   & span {
     display: block;
@@ -235,7 +233,7 @@ export const DeleteButton = styled.button`
   border-radius: 8px;
   padding: 10px 18px;
   cursor: pointer;
-  font-family: ${token("fonts.nativeFont")};
+  font-family: token(fonts.nativeFont);
   font-weight: 600;
   &:hover:not(:disabled) {
     background: #fecaca;
@@ -252,7 +250,7 @@ export const RulesEditorButton = styled.button`
   border-radius: 8px;
   padding: 10px 18px;
   cursor: pointer;
-  font-family: ${token("fonts.nativeFont")};
+  font-family: token(fonts.nativeFont);
   font-weight: 600;
   &:hover:not(:disabled) {
     background: #bfdbfe;

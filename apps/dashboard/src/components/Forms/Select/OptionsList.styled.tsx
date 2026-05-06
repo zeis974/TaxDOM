@@ -1,5 +1,4 @@
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export const VirtualizerContainer = styled.div`
   height: 100%;
@@ -15,7 +14,7 @@ export const VirtualItem = styled.li`
   height: 100%;
 
   &[data-selected="true"] {
-    background: ${token("colors.primary")};
+    background: token(colors.primary);
     color: white;
   }
 
@@ -25,7 +24,7 @@ export const VirtualItem = styled.li`
   }
 
   &:hover {
-    background: ${token("colors.primary")};
+    background: token(colors.primary);
     color: white;
   }
 `
@@ -37,7 +36,7 @@ export const NonVirtualItem = styled.li`
   padding: 0 5px;
 
   &[data-selected="true"] {
-    background: ${token("colors.primary")};
+    background: token(colors.primary);
     color: white;
   }
 
@@ -47,7 +46,7 @@ export const NonVirtualItem = styled.li`
   }
 
   &:hover {
-    background: ${token("colors.primary")};
+    background: token(colors.primary);
     color: white;
   }
 `

@@ -1,8 +1,7 @@
-import { useFormStatus } from "react-dom"
-
 import { styled } from "@/panda/jsx"
 import { LoadingIcon } from "@/components/Icons"
-import { token } from "@/panda/tokens"
+import { useFormStatus } from "react-dom"
+
 export default function SubmitButton({ canSubmit, label }: { canSubmit: boolean; label: string }) {
   const { pending } = useFormStatus()
 
@@ -23,18 +22,18 @@ const StyledButton = styled.button`
   cursor: pointer;
   font-weight: bold;
   transition: 150ms;
-  background: ${token("colors.darkGray")};
+  background: token(colors.darkGray);
   border-radius: 5px;
   border: 2px solid transparent;
 
   & > svg {
-    color: ${token("colors.primary")};
+    color: token(colors.primary);
     animation: rotate 2s linear infinite;
   }
 
   &:hover:not([disabled]),
-  &:hover:not([aria-disabled]) {
-    border: 2px solid ${token("colors.darkGray")};
+  &:hover:not([aria-disabled])  {
+    border: 2px solid token(colors.darkGray);
     background: none;
   }
 

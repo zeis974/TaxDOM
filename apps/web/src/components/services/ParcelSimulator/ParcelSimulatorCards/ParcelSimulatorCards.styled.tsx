@@ -1,6 +1,5 @@
 import * as m from "motion/react-m"
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
   position: relative;
@@ -16,7 +15,7 @@ export const Container = styled.div`
     height: 220px;
     cursor: pointer;
     font-weight: bold;
-    color: ${token("colors.primary")};
+    color: token(colors.primary);
     border: 2px solid transparent;
     display: flex;
     flex-direction: column;
@@ -31,7 +30,7 @@ export const Container = styled.div`
     }
 
     &:hover:not([disabled]) {
-      border: 2px solid ${token("colors.primary")};
+      border: 2px solid token(colors.primary);
     }
   }
 
@@ -40,15 +39,15 @@ export const Container = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background: ${token("colors.background")};
+    background: token(colors.background); 
   }
-
+  
   &::-webkit-scrollbar-thumb {
-    background: #636e72;
+    background: #636e72; 
   }
-
+  
   &::-webkit-scrollbar-thumb:hover {
-    background: #b2bec3;
+    background: #b2bec3; 
   }
 `
 
@@ -56,7 +55,7 @@ export const ParcelContent = styled.div`
   display: flex;
   gap: 10px;
   width: 100%;
-  background: ${token("colors.background")};
+  background: token(colors.background);
   padding-bottom: 5px;
   z-index: 1;
   top: 0;
@@ -68,7 +67,7 @@ export const ParcelContent = styled.div`
     width: 100%;
     padding: 10px;
     border-radius: 10px;
-    background: ${token("colors.tertiaryBackground")};
+    background: token(colors.tertiaryBackground);
   }
 
   button {
@@ -78,10 +77,10 @@ export const ParcelContent = styled.div`
     border-radius: 10px;
     border: 2px solid transparent;
     transition: 150ms;
-
+    
     &:hover {
       background: transparent;
-      border: 2px solid ${token("colors.tertiaryBackground")};
+      border: 2px solid token(colors.tertiaryBackground);
     }
   }
 `
@@ -91,7 +90,7 @@ export const Card = styled.div`
   height: 220px;
   border-radius: 10px;
   padding: 10px;
-  background: ${token("colors.secondaryBackground")};
+  background: token(colors.secondaryBackground);
 
   & > button {
     width: 100%;
@@ -124,7 +123,7 @@ export const Loading = styled(m.div)`
   z-index: 2;
 
   & > div {
-    position: relative;
+    position: relative;    
     display: flex;
     width: 200px;
     height: 200px;
@@ -147,7 +146,7 @@ export const Loading = styled(m.div)`
 
   span {
     font-size: 2em;
-    font-family: ${token("fonts.Rowdies")};
+    font-family: token(fonts.Rowdies);
     margin: 10px 0;
   }
 `

@@ -52,7 +52,7 @@ export const CardContainer = styled.div`
     & h3 {
       margin-bottom: 3px;
     }
-
+    
     & p {
       line-height: 1;
       color: gray;

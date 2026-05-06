@@ -1,11 +1,10 @@
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
-  background: ${token("colors.secondaryBackground")};
+  background: token(colors.secondaryBackground);
   border-radius: 8px;
   padding: 20px;
-  border: 1px solid ${token("colors.tertiaryBackground")};
+  border: 1px solid token(colors.tertiaryBackground);
 `
 
 export const Header = styled.div`
@@ -14,19 +13,19 @@ export const Header = styled.div`
   align-items: center;
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 1px solid ${token("colors.tertiaryBackground")};
+  border-bottom: 1px solid token(colors.tertiaryBackground);
 
   & h2 {
     font-size: 1em;
     font-weight: 600;
     margin: 0;
-    color: ${token("colors.primary")};
-    font-family: ${token("fonts.nativeFont")};
+    color: token(colors.primary);
+    font-family: token(fonts.nativeFont);
   }
 
   & > span {
     font-size: 0.813em;
-    color: ${token("colors.darkGray")};
+    color: token(colors.darkGray);
   }
 `
 
@@ -41,7 +40,7 @@ export const ProductItem = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 12px;
-  background: ${token("colors.tertiaryBackground")};
+  background: token(colors.tertiaryBackground);
   border-radius: 6px;
 
   & .product-info {
@@ -53,7 +52,7 @@ export const ProductItem = styled.div`
       font-size: 0.875em;
       font-weight: 500;
       margin: 0;
-      color: ${token("colors.primary")};
+      color: token(colors.primary);
     }
 
     & .meta {
@@ -61,10 +60,10 @@ export const ProductItem = styled.div`
       align-items: center;
       gap: 8px;
       font-size: 0.75em;
-      color: ${token("colors.darkGray")};
+      color: token(colors.darkGray);
 
       & .category {
-        background: ${token("colors.secondaryBackground")};
+        background: token(colors.secondaryBackground);
         padding: 2px 6px;
         border-radius: 3px;
       }
@@ -77,7 +76,7 @@ export const ProductItem = styled.div`
 
   & .date {
     font-size: 0.75em;
-    color: ${token("colors.darkGray")};
+    color: token(colors.darkGray);
   }
 `
 
@@ -86,6 +85,6 @@ export const NoActivity = styled.div`
   justify-content: center;
   align-items: center;
   padding: 32px;
-  color: ${token("colors.darkGray")};
+  color: token(colors.darkGray);
   font-size: 0.875em;
 `

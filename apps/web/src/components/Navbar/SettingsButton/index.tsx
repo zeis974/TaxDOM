@@ -34,16 +34,16 @@ export const ButtonContainer = styled.div`
   transition: border 150ms;
   cursor: pointer;
 
-  &:hover {
-    border: 2px solid token(colors.primary);
-  }
+   &:hover {
+     border: 2px solid token(colors.primary);
+   }
 
-  & > svg {
-    padding: 3px;
-    transition: 250ms;
-  }
+   & > svg {
+     padding: 3px;
+     transition: 250ms;
+   }
 
-  &:hover > svg {
-    transform: rotate(45deg) scale(1.05);
-  }
+   &:hover > svg {
+     transform: rotate(45deg) scale(1.05);
+   }
 `

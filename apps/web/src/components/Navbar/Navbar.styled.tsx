@@ -1,5 +1,4 @@
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export const Nav = styled.nav`
   width: 100%;
@@ -7,7 +6,7 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   padding: 10px 30px;
-  height: ${token("sizes.navbarHeight")};
+  height: token(sizes.navbarHeight);
 
   & > div:first-of-type {
     display: flex;
@@ -15,8 +14,8 @@ export const Nav = styled.nav`
 
     & > a {
       color: var(--primary-color);
-      font-size: clamp(1.4em, 5vw, 2em);
-      font-family: ${token("fonts.Rowdies")};
+      font-size: clamp(1.4em, 5vw, 2em);    
+      font-family: token(fonts.Rowdies);
       position: relative;
 
       &::before {
@@ -26,7 +25,7 @@ export const Nav = styled.nav`
         font-size: 0.5em;
         position: absolute;
         color: gray;
-      }
+      }  
     }
   }
 

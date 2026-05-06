@@ -104,7 +104,7 @@ const Wrapper = styled.div`
   max-width: 85%;
   margin: 0 auto;
 
-  & > p {
+  & > p  {
     max-width: 600px;
   }
 `
