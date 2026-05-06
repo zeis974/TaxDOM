@@ -1,4 +1,5 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   type?: "button" | "submit" | "reset"
@@ -15,7 +16,7 @@ export default function Button({ type = "button", ...props }: ButtonProps) {
 const ButtonStyled = styled.button`
   height: 100%;
   padding: 10px;
-  background: token(colors.tertiaryBackground);
+  background: ${token("colors.darkGray")};
   font-weight: bold;
   border: none;
   cursor: pointer;

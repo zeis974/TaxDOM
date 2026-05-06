@@ -1,29 +1,7 @@
-"use client"
-
-import { useFormStatus } from "react-dom"
-
-import { useFormContext } from "@/hooks/form"
 import { styled } from "@/panda/jsx"
 import { token } from "@/panda/tokens"
 
-import { LoadingIcon } from "@/components/Icons"
-
-export default function SubscribeButton({ label }: { label: string }) {
-  const form = useFormContext()
-  const { pending } = useFormStatus()
-
-  return (
-    <form.Subscribe selector={(state) => [state.canSubmit]}>
-      {([canSubmit]) => (
-        <StyledButton type="submit" disabled={!canSubmit} aria-disabled={!canSubmit}>
-          {pending ? <LoadingIcon /> : label}
-        </StyledButton>
-      )}
-    </form.Subscribe>
-  )
-}
-
-const StyledButton = styled.button`
+export const SubmitButtonStyled = styled.button`
   width: 100%;
   height: 35px;
   display: flex;

@@ -1,15 +1,16 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Container = styled.nav`
   flex: 1;
-  background: token(colors.secondaryBackground);
+  background: ${token("colors.secondaryBackground")};
   height: calc(100% - 10px);
   padding: 10px;
   margin: 0 10px;
   border-radius: 10px;
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   max-width: 250px;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,7 +26,7 @@ export const Container = styled.nav`
 export const Logo = styled.h1`
   color: var(--primary-color);
   font-size: clamp(1.4em, 5vw, 2em);
-  font-family: token(fonts.Rowdies);
+  font-family: ${token("fonts.Rowdies")};
 `
 
 export const List = styled.ul`
@@ -35,7 +36,7 @@ export const List = styled.ul`
     color: inherit;
 
     &[data-active="true"] {
-      background: token(colors.tertiaryBackground);
+      background: ${token("colors.tertiaryBackground")};
     }
 
     & a {
@@ -50,7 +51,7 @@ export const List = styled.ul`
     }
 
     &:hover {
-      background: token(colors.tertiaryBackground);
+      background: ${token("colors.tertiaryBackground")};
     }
   }
 `
@@ -60,7 +61,7 @@ export const UserContainer = styled.div`
   gap: 8px;
   padding: 12px;
   border-radius: 10px;
-  background: token(colors.tertiaryBackground);
+  background: ${token("colors.tertiaryBackground")};
   align-items: center;
   justify-content: space-between;
 `
@@ -69,11 +70,11 @@ export const Avatar = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: token(colors.primary);
+  background: ${token("colors.primary")};
   display: flex;
   align-items: center;
   justify-content: center;
-  color: token(colors.secondaryBackground);
+  color: ${token("colors.secondaryBackground")};
   font-weight: 600;
   font-size: 16px;
   flex-shrink: 0;

@@ -1,11 +1,12 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const ActionBar = styled.div`
   display: flex;
   gap: 10px;
   height: 40px;
   margin-top: 25px;
-    
+
   div {
     width: 40px;
     height: 35px;
@@ -34,7 +35,7 @@ export const Content = styled.div`
   margin-bottom: 25px;
 
   & span:first-child {
-    font-family: token(fonts.Rowdies);
+    font-family: ${token("fonts.Rowdies")};
     font-size: clamp(14px, 1.5vw, 16px);
     color: white;
     padding: 5px;
@@ -43,7 +44,7 @@ export const Content = styled.div`
   }
 
   & h1 {
-    font-family: token(fonts.NotoSans);
+    font-family: ${token("fonts.NotoSans")};
     font-size: clamp(16px, 1.5vw, 24px);
     color: black;
     line-height: 1.2;
@@ -51,7 +52,7 @@ export const Content = styled.div`
     text-align: left;
 
     span {
-      font-family: token(fonts.NotoSansBold);
+      font-family: ${token("fonts.NotoSansBold")};
     }
   }
 
@@ -79,33 +80,33 @@ export const ErrorText = styled.span`
 
 export const Line = styled.hr`
   position: relative;
-  border: 2px solid #2980B9;
+  border: 2px solid #2980b9;
 `
 
-export const PriceCalculator = styled.div` 
+export const PriceCalculator = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 10px 10px 0;    
+  padding: 10px 10px 0;
   color: black;
 
   h5 {
-    font-family: token(fonts.NotoSansBold);
+    font-family: ${token("fonts.NotoSansBold")};
     text-align: left;
   }
-  
+
   & > div {
     display: inherit;
     margin-top: 10px;
   }
-   
+
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
 
-  input[type=number] {
+  input[type="number"] {
     max-width: 100px;
     background: none;
     color: black;
@@ -146,7 +147,8 @@ export const RateContainer = styled.div`
     position: absolute;
     width: 110px;
     height: 50px;
-    background: no-repeat url("data:image/svg+xml,%3Csvg%20width%3D%22130%22%20height%3D%2238%22%20viewBox%3D%220%200%20130%2038%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M130%200H0C0%200%2010.5012%2038%2029.1775%2038H130V0Z%22%20fill%3D%22%232980B9%22%2F%3E%3C%2Fsvg%3E");
+    background: no-repeat
+      url("data:image/svg+xml,%3Csvg%20width%3D%22130%22%20height%3D%2238%22%20viewBox%3D%220%200%20130%2038%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M130%200H0C0%200%2010.5012%2038%2029.1775%2038H130V0Z%22%20fill%3D%22%232980B9%22%2F%3E%3C%2Fsvg%3E");
     top: -2px;
     right: 0;
   }
@@ -157,7 +159,7 @@ export const RateContainer = styled.div`
     position: absolute;
     font-weight: bold;
     top: 0;
-    right: -9px;   
+    right: -9px;
     width: 100px;
     padding: 5px 0 5px 5px;
   }
@@ -167,8 +169,8 @@ export const RateContainer = styled.div`
     margin: 10px 0;
   }
 
-  h5 {  
-    font-family: token(fonts.NotoSansBold);
+  h5 {
+    font-family: ${token("fonts.NotoSansBold")};
     padding: 10px;
   }
 `
@@ -179,7 +181,7 @@ export const TaxeCard = styled.div`
   height: 100%;
   color: black;
   z-index: 1;
-  
+
   &::before {
     content: "";
     position: absolute;

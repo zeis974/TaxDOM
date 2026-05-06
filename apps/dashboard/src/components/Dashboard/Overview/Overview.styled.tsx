@@ -1,8 +1,9 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
+  color: ${token("colors.primary")};
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const StatsGrid = styled.div`

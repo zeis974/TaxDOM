@@ -1,4 +1,5 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const LoadingCircle = styled.div`
   position: absolute;
@@ -19,13 +20,13 @@ export const OptionContainer = styled.ul`
   top: calc(100% + 5px);
   z-index: 1;
   position: absolute;
-  border: 2px solid token(colors.darkGray);
-  background: token(colors.secondaryBackground);
+  border: 2px solid ${token("colors.darkGray")};
+  background: ${token("colors.secondaryBackground")};
 
-  & > li[data-selected=true],
-  & > div > li[data-selected=true] {
+  & > li[data-selected="true"],
+  & > div > li[data-selected="true"] {
     background: #77b4dc;
-  } 
+  }
 
   & > li,
   & > div > li {

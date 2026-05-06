@@ -4,9 +4,9 @@
   "type": "module",
   "license": "AGPL-3.0-only",
   "scripts": {
-    "prepare": "panda codegen",
+    "prepare": "panda codegen && node ../../scripts/patch-styled-type.mjs",
     "dev": "vite",
-    "build": "panda codegen && vite build",
+    "build": "panda codegen && node ../../scripts/patch-styled-type.mjs && vite build",
     "preview": "vite preview",
     "lint": "biome check .",
     "typecheck": "tsc --noEmit"

@@ -1,4 +1,6 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
+
 import * as m from "motion/react-m"
 
 export const Container = styled.div`
@@ -7,7 +9,7 @@ export const Container = styled.div`
   margin-left: 50px;
   gap: 50px;
 
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 
   & > div:first-of-type {
     z-index: 3;
@@ -17,11 +19,11 @@ export const Container = styled.div`
   & span {
     padding: 10px;
     transition: background 150ms;
-    color: token(colors.primary);
+    color: ${token("colors.primary")};
     border-radius: 5px;
 
     &:hover {
-      background: token(colors.secondaryBackground);
+      background: ${token("colors.secondaryBackground")};
     }
   }
 

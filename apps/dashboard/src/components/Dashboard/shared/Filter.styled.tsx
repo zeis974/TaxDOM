@@ -1,15 +1,16 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const FilterButtonBase = styled.button`
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background: token(colors.tertiaryBackground);
-  border: 1px solid token(colors.darkGray);
+  background: ${token("colors.tertiaryBackground")};
+  border: 1px solid ${token("colors.darkGray")};
   border-radius: 8px;
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
+  color: ${token("colors.primary")};
+  font-family: ${token("fonts.nativeFont")};
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
@@ -17,14 +18,14 @@ export const FilterButtonBase = styled.button`
   position: relative;
 
   &:hover {
-    background: token(colors.secondaryBackground);
-    border-color: token(colors.primary);
+    background: ${token("colors.secondaryBackground")};
+    border-color: ${token("colors.primary")};
   }
 
   &[data-active="true"] {
-    background: token(colors.primary);
-    color: token(colors.background);
-    border-color: token(colors.primary);
+    background: ${token("colors.primary")};
+    color: ${token("colors.background")};
+    border-color: ${token("colors.primary")};
 
     &:hover {
       opacity: 0.9;
@@ -46,7 +47,7 @@ export const FilterBadgeBase = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid token(colors.background);
+  border: 2px solid ${token("colors.background")};
 `
 
 export const FilterSectionBase = styled.div`
@@ -61,44 +62,44 @@ export const FilterLabelBase = styled.label`
   display: block;
   font-size: 13px;
   font-weight: 600;
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   margin-bottom: 8px;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const SearchInputBase = styled.input`
   width: 100%;
   padding: 10px 12px;
-  background: token(colors.tertiaryBackground);
-  border: 1px solid token(colors.darkGray);
+  background: ${token("colors.tertiaryBackground")};
+  border: 1px solid ${token("colors.darkGray")};
   border-radius: 6px;
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
+  color: ${token("colors.primary")};
+  font-family: ${token("fonts.nativeFont")};
   font-size: 14px;
 
   &::placeholder {
-    color: token(colors.darkGray);
+    color: ${token("colors.darkGray")};
   }
 
   &:focus {
     outline: none;
-    border-color: token(colors.primary);
+    border-color: ${token("colors.primary")};
   }
 `
 
 export const SelectInputBase = styled.select`
   width: 100%;
   padding: 10px 12px;
-  background: token(colors.tertiaryBackground);
-  border: 1px solid token(colors.darkGray);
+  background: ${token("colors.tertiaryBackground")};
+  border: 1px solid ${token("colors.darkGray")};
   border-radius: 6px;
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
+  color: ${token("colors.primary")};
+  font-family: ${token("fonts.nativeFont")};
   font-size: 14px;
 
   &:focus {
     outline: none;
-    border-color: token(colors.primary);
+    border-color: ${token("colors.primary")};
   }
 `
 
@@ -106,7 +107,7 @@ export const FilterActionsBase = styled.div`
   display: flex;
   gap: 8px;
   padding-top: 12px;
-  border-top: 1px solid token(colors.darkGray);
+  border-top: 1px solid ${token("colors.darkGray")};
   margin-top: 16px;
 `
 
@@ -117,12 +118,12 @@ export const FilterActionButtonBase = styled.button`
   border: none;
   font-size: 13px;
   font-weight: 500;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
   cursor: pointer;
 
   &[data-variant="primary"] {
-    background: token(colors.primary);
-    color: token(colors.background);
+    background: ${token("colors.primary")};
+    color: ${token("colors.background")};
 
     &:hover {
       opacity: 0.9;
@@ -135,12 +136,12 @@ export const FilterActionButtonBase = styled.button`
   }
 
   &[data-variant="secondary"] {
-    background: token(colors.tertiaryBackground);
-    color: token(colors.primary);
-    border: 1px solid token(colors.darkGray);
+    background: ${token("colors.tertiaryBackground")};
+    color: ${token("colors.primary")};
+    border: 1px solid ${token("colors.darkGray")};
 
     &:hover {
-      background: token(colors.secondaryBackground);
+      background: ${token("colors.secondaryBackground")};
     }
 
     &:disabled {

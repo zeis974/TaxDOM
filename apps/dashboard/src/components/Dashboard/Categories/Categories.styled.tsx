@@ -1,8 +1,9 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Container = styled.div`
-  color: token(colors.primary);
-  font-family: token(fonts.nativeFont);
+  color: ${token("colors.primary")};
+  font-family: ${token("fonts.nativeFont")};
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -13,7 +14,7 @@ export const Header = styled.div`
   justify-content: space-between;
   align-items: center;
   padding-bottom: 24px;
-  background: token(colors.background);
+  background: ${token("colors.background")};
   position: sticky;
   top: 0;
   z-index: 10;
@@ -29,7 +30,7 @@ export const HeaderTitle = styled.div`
   }
 
   & span {
-    color: token(colors.darkGray);
+    color: ${token("colors.darkGray")};
     font-size: 14px;
     font-weight: 500;
   }

@@ -1,4 +1,5 @@
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const ErrorContainer = styled.div`
   display: flex;
@@ -8,23 +9,23 @@ export const ErrorContainer = styled.div`
   min-height: 400px;
   padding: 40px;
   text-align: center;
-  font-family: token(fonts.nativeFont);
+  font-family: ${token("fonts.nativeFont")};
 `
 
 export const ErrorTitle = styled.h1`
   font-size: 24px;
   margin-bottom: 8px;
-  color: token(colors.error);
+  color: ${token("colors.error")};
 `
 
 export const ErrorMessage = styled.p`
-  color: token(colors.gray);
+  color: ${token("colors.gray")};
   margin-bottom: 24px;
 `
 
 export const RetryButton = styled.button`
   padding: 10px 24px;
-  background: token(colors.primary);
+  background: ${token("colors.primary")};
   color: white;
   border: none;
   border-radius: 8px;

@@ -1,5 +1,6 @@
 import * as m from "motion/react-m"
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 export const Container = styled(m.div)`
   position: absolute;
@@ -7,8 +8,8 @@ export const Container = styled(m.div)`
   height: calc(100% - 66px);
   border-radius: 10px;
   bottom: 0;
-  background: token(colors.secondaryBackground);
-  border: 2px solid token(colors.darkGray);
+  background: ${token("colors.secondaryBackground")};
+  border: 2px solid ${token("colors.darkGray")};
   padding: 20px;
   opacity: 0.8;
   backdrop-filter: blur(10px);
@@ -19,14 +20,14 @@ export const Container = styled(m.div)`
   transform: translate(-50%, -50%);
 
   & > div {
-  height: 100%;
-  
+    height: 100%;
+
     & > div:first-child {
       display: flex;
       justify-content: space-between;
-      color: token(colors.primary);
+      color: ${token("colors.primary")};
     }
-    
+
     & p {
       margin: 5px 0;
     }
@@ -36,7 +37,7 @@ export const Container = styled(m.div)`
       height: 1px;
       margin: 20px 0;
       width: 100%;
-      background: token(colors.darkGray);
+      background: ${token("colors.darkGray")};
     }
   }
 `
@@ -66,7 +67,7 @@ export const ErrorContainer = styled.div`
 `
 
 export const TemplateContainer = styled.div`
-  color: token(colors.primary);
+  color: ${token("colors.primary")};
   margin: 10px 0;
   display: flex;
 
@@ -86,20 +87,19 @@ export const TemplateContainer = styled.div`
       cursor: pointer;
 
       &[data-selected="true"] {
-        background: token(colors.darkGray);
+        background: ${token("colors.darkGray")};
       }
     }
   }
 
-
-  & > div:last-child  {
+  & > div:last-child {
     margin: 0 10px;
     display: flex;
     align-items: flex-start;
     gap: 10px;
 
     & span {
-      border: 2px solid token(colors.darkGray);
+      border: 2px solid ${token("colors.darkGray")};
       padding: 10px;
       border-radius: 5px;
     }
