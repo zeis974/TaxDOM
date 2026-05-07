@@ -1,7 +1,7 @@
 import { createFileRoute, Outlet, redirect } from "@tanstack/react-router"
-import { authClient } from "@/lib/auth-client"
+import { Content, Section } from "@/components/Dashboard/Dashboard.styled"
 import Sidebar from "@/components/Dashboard/Sidebar"
-import { Section, Content } from "@/components/Dashboard/Dashboard.styled"
+import { authClient } from "@/lib/auth-client"
 
 export const Route = createFileRoute("/_dashboard-layout")({
   beforeLoad: async () => {

@@ -36,7 +36,9 @@ export const InputContainer = styled.div`
     font-family: inherit;
     color: token(colors.primary);
     font-size: 0.9375rem;
-    transition: border-color 150ms, box-shadow 150ms;
+    transition:
+      border-color 150ms,
+      box-shadow 150ms;
 
     &::placeholder {
       color: token(colors.darkGray);

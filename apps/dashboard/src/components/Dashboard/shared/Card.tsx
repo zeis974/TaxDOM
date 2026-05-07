@@ -1,10 +1,10 @@
 export {
-  CardBase,
-  ClickableCardBase,
-  CardHeaderBase,
-  CardTitleBase,
-  BadgeContainerBase,
   BadgeBase,
-  StatusBadgeBase,
+  BadgeContainerBase,
+  CardBase,
+  CardHeaderBase,
   CardInfoBase,
+  CardTitleBase,
+  ClickableCardBase,
+  StatusBadgeBase,
 } from "./Card.styled"

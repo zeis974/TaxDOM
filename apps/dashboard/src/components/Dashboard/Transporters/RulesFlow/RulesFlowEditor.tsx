@@ -14,7 +14,6 @@ import {
 } from "@xyflow/react"
 import { saveTransporterRules } from "@/lib/transporterRules"
 import "@xyflow/react/dist/style.css"
-import { ErrorBoundary } from "react-error-boundary"
 import {
   type DragEvent,
   type ReactNode,
@@ -23,6 +22,7 @@ import {
   useRef,
   useSyncExternalStore,
 } from "react"
+import { ErrorBoundary } from "react-error-boundary"
 import { toast } from "sonner"
 import { flowToRules, useRulesFlow, validateFlow } from "./hooks"
 import { ConditionNode, FeeNode, StartNode } from "./nodes"

@@ -1,6 +1,5 @@
 import { Link, useLocation, useNavigate } from "@tanstack/react-router"
 import { useState } from "react"
-import { authClient } from "@/lib/auth-client"
 import {
   CategoriesIcon,
   HomeIcon,
@@ -10,6 +9,7 @@ import {
   TerritoriesIcon,
   TransporterIcon,
 } from "@/components/Icons"
+import { authClient } from "@/lib/auth-client"
 import {
   Avatar,
   Container,

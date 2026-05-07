@@ -11,8 +11,8 @@ import {
 import { createPortal } from "react-dom"
 
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
-import { LoadingCircle } from "./Select.styled"
 import { OptionsList } from "./OptionsList"
+import { LoadingCircle } from "./Select.styled"
 
 export interface BaseOption {
   name: string

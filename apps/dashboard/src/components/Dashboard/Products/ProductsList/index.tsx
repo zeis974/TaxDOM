@@ -1,21 +1,12 @@
-import type { Product, SelectOption } from "@taxdom/types"
+import type { Product } from "@taxdom/types"
 import ProductCard from "@/components/Dashboard/Products/ProductCard"
 import { Container, NoProducts, ProductsContainer } from "./ProductsList.styled"
 
-interface FormData {
-  categories: SelectOption[]
-  origins: SelectOption[]
-  territories: SelectOption[]
-  flux: SelectOption[]
-  taxes: { taxID: string; tva: number; om: number; omr: number }[]
-}
-
 interface ProductsListProps {
   products: Product[]
-  formData: FormData
 }
 
-export default function ProductsList({ products, formData }: ProductsListProps) {
+export default function ProductsList({ products }: ProductsListProps) {
   if (products.length === 0) {
     return (
       <Container>
@@ -45,7 +36,7 @@ export default function ProductsList({ products, formData }: ProductsListProps) 
       <ProductsContainer>
         {products.map((product: Product) => (
           <div key={product.productID}>
-            <ProductCard product={product} formData={formData} editable />
+            <ProductCard product={product} editable />
           </div>
         ))}
       </ProductsContainer>
