@@ -55,13 +55,11 @@
   "files": {
     "includes": [
       "**",
-      "!**/.adonisjs/",
+      "!**/.adonisjs",
       "!**/.next/",
       "!**/data/",
-      "!**/build",
-      "!**/dist",
+      "!!**/dist",
       "!**/coverage",
-      "!**/apps/nginx",
       "!**/styled-system/"
     ]
   }
