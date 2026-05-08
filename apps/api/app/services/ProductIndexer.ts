@@ -19,7 +19,24 @@ export async function indexProducts() {
   await productsIndex.addDocuments(data, { primaryKey: "id" })
 }
 
+const DEFAULT_SYNONYMS: Record<string, string[]> = {
+  telephone: ["mobile", "portable", "cellulaire"],
+  pc: ["ordinateur", "laptop", "mac", "macbook"],
+  cafe: ["café"],
+  eau: ["thé", "infusions"],
+  vin: ["raisin"],
+  biere: ["bière", "brassin"],
+  smartphone: ["iphone", "téléphone", "android", "galaxy"],
+  ordinateur: ["macbook", "laptop", "pc", "mac", "notebook"],
+}
+
 export async function configureProductsIndex() {
+  const existing = await productsIndex.getSettings()
+  const existingSynonyms = existing.synonyms ?? {}
+
+  // User-defined synonyms take precedence over defaults
+  const synonyms = { ...DEFAULT_SYNONYMS, ...existingSynonyms }
+
   await productsIndex.updateSettings({
     searchableAttributes: ["productName", "categoryName"],
     displayedAttributes: ["id", "productName", "categoryName", "categoryID"],
@@ -27,28 +44,10 @@ export async function configureProductsIndex() {
     filterableAttributes: ["categoryID"],
     typoTolerance: {
       enabled: true,
-      minWordSizeForTypos: {
-        oneTypo: 4,
-        twoTypos: 8,
-      },
+      minWordSizeForTypos: { oneTypo: 4, twoTypos: 8 },
     },
-    synonyms: {
-      telephone: ["mobile", "portable", "cellulaire"],
-      pc: ["ordinateur", "laptop", "mac", "macbook"],
-      cafe: ["café"],
-      eau: ["thé", " infusions"],
-      vin: ["raisin"],
-      biere: ["bière", "brassin"],
-    },
-    rankingRules: [
-      "words",
-      "typo",
-      "proximity",
-      "attributeRank",
-      "sort",
-      "wordPosition",
-      "exactness",
-    ],
+    synonyms,
+    rankingRules: ["words", "typo", "proximity", "attribute", "sort", "exactness"],
   })
 }
 
