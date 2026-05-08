@@ -1,16 +1,28 @@
 import { BaseCommand } from "@adonisjs/core/ace"
-import { getMeiliHealth } from "#lib/meilisearch"
+import { isMeiliHealthy, productsIndex } from "#lib/meilisearch"
 
 export default class CheckMeilisearch extends BaseCommand {
   static commandName = "meilisearch:health"
-  static description = "Check Meilisearch connection"
+  static description = "Check Meilisearch connection and index status"
 
   async run() {
-    const health = await getMeiliHealth()
-    if (health?.status === "available") {
-      console.log("Meilisearch is healthy")
-    } else {
-      console.error("Meilisearch is unavailable")
+    const healthy = await isMeiliHealthy()
+
+    if (!healthy) {
+      this.logger.error("Meilisearch is unreachable")
+      return
+    }
+
+    try {
+      const stats = await productsIndex.getStats()
+      console.log(stats)
+      this.logger.info(
+        `Meilisearch is reachable. Index "products" has ${stats.numberOfDocuments} document(s).`,
+      )
+    } catch {
+      this.logger.info(
+        'Meilisearch is reachable but index "products" does not exist or is not accessible.',
+      )
     }
   }
 }
