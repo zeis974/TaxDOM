@@ -6,8 +6,8 @@ export default class ReindexProducts extends BaseCommand {
   static description = "Reindex all products in Meilisearch"
 
   async run() {
-    console.log("Starting products reindexation...")
+    this.logger.info("Starting products reindexation...")
     await fullReindex()
-    console.log("Products reindexed successfully")
+    this.logger.info("Products reindexed successfully")
   }
 }
