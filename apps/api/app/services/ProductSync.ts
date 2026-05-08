@@ -1,46 +1,69 @@
-import { eq } from "drizzle-orm"
-import { productsIndex } from "#lib/meilisearch"
-import { db } from "#config/database"
-import { products, categories } from "#database/schema"
 import logger from "@adonisjs/core/services/logger"
+import { meiliState, productsIndex } from "#lib/meilisearch"
 
-async function getProductDocument(id: string) {
-  const data = await db
-    .select({
-      id: products.productID,
-      productName: products.productName,
-      categoryName: categories.categoryName,
-      categoryID: products.categoryID,
-    })
-    .from(products)
-    .leftJoin(categories, eq(categories.categoryID, products.categoryID))
-    .where(eq(products.productID, id))
-    .limit(1)
-
-  return data[0] ?? null
+export interface ProductDocument {
+  id: string
+  productName: string
+  categoryName: string
+  categoryID: string
 }
 
-export async function onProductCreated(productID: string) {
-  const doc = await getProductDocument(productID)
-  if (!doc) return
-  productsIndex
-    .addDocuments([doc])
-    .catch((err: unknown) => logger.error("Meilisearch add failed for %s: %O", productID, err))
-}
+/**
+ * Retry an async operation with exponential backoff.
+ * @param fn - The async function to retry.
+ * @param label - Human-readable label for logging.
+ * @param maxRetries - Maximum number of retries (default: 3).
+ */
+async function retryWithBackoff(
+  fn: () => Promise<void>,
+  label: string,
+  maxRetries = 3,
+): Promise<void> {
+  if (!meiliState.available) {
+    logger.debug("Meilisearch unavailable — skipping %s", label)
+    return
+  }
 
-export async function onProductUpdated(productID: string) {
-  const doc = await getProductDocument(productID)
-  if (doc) {
-    productsIndex
-      .updateDocuments([doc])
-      .catch((err: unknown) => logger.error("Meilisearch update failed for %s: %O", productID, err))
-  } else {
-    onProductDeleted(productID)
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      await fn()
+      return
+    } catch (error) {
+      if (attempt < maxRetries) {
+        const delay = 2 ** attempt * 1000 // 1s, 2s, 4s
+        logger.warn(
+          "Meilisearch %s - attempt %d/%d failed, retrying in %dms: %O",
+          label,
+          attempt + 1,
+          maxRetries,
+          delay,
+          error,
+        )
+        await new Promise((resolve) => setTimeout(resolve, delay))
+      } else {
+        logger.error("Meilisearch %s - FAILED after %d retries: %O", label, maxRetries, error)
+      }
+    }
   }
 }
 
+export async function onProductCreated(doc: ProductDocument) {
+  await retryWithBackoff(
+    () => productsIndex.addDocuments([doc]).then(() => {}),
+    `add product ${doc.id}`,
+  )
+}
+
+export async function onProductUpdated(doc: ProductDocument) {
+  await retryWithBackoff(
+    () => productsIndex.updateDocuments([doc]).then(() => {}),
+    `update product ${doc.id}`,
+  )
+}
+
 export async function onProductDeleted(productID: string) {
-  productsIndex
-    .deleteDocument(productID)
-    .catch((err: unknown) => logger.error("Meilisearch delete failed for %s: %O", productID, err))
+  await retryWithBackoff(
+    () => productsIndex.deleteDocument(productID).then(() => {}),
+    `delete product ${productID}`,
+  )
 }
