@@ -10,8 +10,9 @@ export const controllers = {
   GetTemplates: () => import("#controllers/GetTemplatesController"),
   Origins: () => import("#controllers/OriginsController"),
   Products: () => import("#controllers/ProductsController"),
-  SearchProducts: () => import("#controllers/SearchProductsController"),
-  Territories: () => import("#controllers/TerritoriesController"),
-  TransporterRules: () => import("#controllers/TransporterRulesController"),
+  SearchConfig: () => import("#controllers/SearchConfigController"),
   Transporters: () => import("#controllers/TransportersController"),
+  Territories: () => import("#controllers/TerritoriesController"),
+  SearchProducts: () => import("#controllers/SearchProductsController"),
+  TransporterRules: () => import("#controllers/TransporterRulesController"),
 }

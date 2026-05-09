@@ -55,10 +55,10 @@ export interface ApiDefinition {
     update: (typeof routes)["products.update"]
     destroy: (typeof routes)["products.destroy"]
   }
-  transporterRules: {
-    show: (typeof routes)["transporter_rules.show"]
-    saveFlow: (typeof routes)["transporter_rules.save_flow"]
-    saveRules: (typeof routes)["transporter_rules.save_rules"]
-    saveAll: (typeof routes)["transporter_rules.save_all"]
+  searchConfig: {
+    getConfig: (typeof routes)["search_config.get_config"]
+    updateConfig: (typeof routes)["search_config.update_config"]
+    getSynonyms: (typeof routes)["search_config.get_synonyms"]
+    updateSynonyms: (typeof routes)["search_config.update_synonyms"]
   }
 }
