@@ -1,10 +1,9 @@
 import type { HttpRouterService } from "@adonisjs/core/types"
 import { controllers } from "#generated/controllers"
-import SearchConfigController from "#controllers/SearchConfigController"
 
 export default function registerProductsRoutes(router: HttpRouterService) {
   const ProductsController = controllers.Products
-  const SearchConfig = SearchConfigController
+  const SearchConfig = controllers.SearchConfig
 
   router.get("/products/count", [ProductsController, "count"])
   router.get("/products/recent", [ProductsController, "recent"])

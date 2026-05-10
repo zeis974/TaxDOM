@@ -5,6 +5,7 @@ import {
   getSearchConfig,
   updateSearchConfig,
 } from "#services/SynonymManager"
+import { SearchConfigValidator } from "#validators/SearchConfigValidator"
 
 export default class SearchConfigController {
   async getSynonyms({ response }: HttpContext) {
@@ -27,15 +28,16 @@ export default class SearchConfigController {
   }
 
   async updateConfig({ request, response }: HttpContext) {
-    const config = request.only([
-      "searchableAttributes",
-      "displayedAttributes",
-      "sortableAttributes",
-      "filterableAttributes",
-      "typoTolerance",
-      "rankingRules",
-    ])
-    await updateSearchConfig(config as Parameters<typeof updateSearchConfig>[0])
-    return response.json({ success: true })
+    const config = await request.validateUsing(SearchConfigValidator)
+    try {
+      await updateSearchConfig(config)
+      return response.json({ success: true })
+    } catch (error) {
+      return response.status(502).json({
+        success: false,
+        error: "Failed to update Meilisearch configuration",
+        details: error instanceof Error ? error.message : String(error),
+      })
+    }
   }
 }
