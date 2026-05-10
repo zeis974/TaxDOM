@@ -8,7 +8,7 @@ export async function getSynonyms() {
 }
 
 export async function updateSynonyms(synonyms: Record<string, string[]>) {
-  await productsIndex.updateSettings({ synonyms })
+  await productsIndex.updateSettings({ synonyms }).waitTask()
 }
 
 export async function addSynonym(key: string, values: string[]) {
@@ -51,5 +51,5 @@ export async function updateSearchConfig(config: {
   typoTolerance?: TypoTolerance
   rankingRules?: string[]
 }) {
-  await productsIndex.updateSettings(config)
+  await productsIndex.updateSettings(config).waitTask()
 }
