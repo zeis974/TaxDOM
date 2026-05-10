@@ -1,3 +1,5 @@
+import type { TypoTolerance } from "meilisearch"
+
 import { productsIndex } from "#lib/meilisearch"
 
 export async function getSynonyms() {
@@ -46,7 +48,7 @@ export async function updateSearchConfig(config: {
   displayedAttributes?: string[]
   sortableAttributes?: string[]
   filterableAttributes?: string[]
-  typoTolerance?: Record<string, unknown>
+  typoTolerance?: TypoTolerance
   rankingRules?: string[]
 }) {
   await productsIndex.updateSettings(config)
