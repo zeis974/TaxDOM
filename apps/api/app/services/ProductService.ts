@@ -1,4 +1,5 @@
 import type { Product } from "@taxdom/types"
+import logger from "@adonisjs/core/services/logger"
 import { count, eq, type InferSelectModel } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 import { v7 as uuidv7 } from "uuid"
@@ -299,7 +300,7 @@ export class ProductService {
       productName: productData.productName,
       categoryName: productData.category.categoryName,
       categoryID: productData.category.categoryID,
-    }).catch(() => {})
+    }).catch((err) => logger.error("Failed to sync product creation to Meilisearch: %O", err))
 
     return mapProduct(productData)
   }
@@ -363,7 +364,7 @@ export class ProductService {
       productName: productData.productName,
       categoryName: productData.category.categoryName,
       categoryID: productData.category.categoryID,
-    }).catch(() => {})
+    }).catch((err) => logger.error("Failed to sync product update to Meilisearch: %O", err))
 
     return mapProduct(productData)
   }
@@ -399,7 +400,9 @@ export class ProductService {
       await tx.delete(products).where(eq(products.productID, productId))
     })
 
-    onProductDeleted(productId).catch(() => {})
+    onProductDeleted(productId).catch((err) =>
+      logger.error("Failed to sync product deletion to Meilisearch: %O", err),
+    )
   }
 
   /**
