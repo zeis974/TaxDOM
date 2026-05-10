@@ -60,7 +60,7 @@ export default await Env.create(new URL("../", import.meta.url), {
   | Variables for Meilisearch
   |----------------------------------------------------------
   */
-  MEILI_HOST: Env.schema.string({ format: "url", protocol: false, tld: false }),
+  MEILI_HOST: Env.schema.string({ format: "url", protocol: true, tld: false }),
   MEILI_MASTER_KEY: Env.schema.string(),
   MEILI_ENV: Env.schema.enum(["development", "production"] as const),
 })

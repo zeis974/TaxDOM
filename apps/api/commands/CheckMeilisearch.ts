@@ -15,7 +15,6 @@ export default class CheckMeilisearch extends BaseCommand {
 
     try {
       const stats = await productsIndex.getStats()
-      console.log(stats)
       this.logger.info(
         `Meilisearch is reachable. Index "products" has ${stats.numberOfDocuments} document(s).`,
       )
