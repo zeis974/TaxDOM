@@ -27,6 +27,7 @@
   },
   "linter": {
     "domains": {
+      "drizzle": "all",
       "next": "all",
       "react": "all"
     },
