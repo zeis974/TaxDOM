@@ -34,6 +34,10 @@ export type ScannedRoutes = {
     "products.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "products.update": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "products.destroy": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
+    "search_config.get_config": { paramsTuple?: []; params?: {} }
+    "search_config.update_config": { paramsTuple?: []; params?: {} }
+    "search_config.get_synonyms": { paramsTuple?: []; params?: {} }
+    "search_config.update_synonyms": { paramsTuple?: []; params?: {} }
     "territories.count": { paramsTuple?: []; params?: {} }
     "territories.top": { paramsTuple?: []; params?: {} }
     "territories.index": { paramsTuple?: []; params?: {} }
@@ -47,19 +51,6 @@ export type ScannedRoutes = {
     "transporters.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "transporters.update": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "transporters.destroy": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
-    "transporter_rules.show": { paramsTuple: [ParamValue]; params: { transporterId: ParamValue } }
-    "transporter_rules.save_flow": {
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-    }
-    "transporter_rules.save_rules": {
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-    }
-    "transporter_rules.save_all": {
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-    }
   }
   GET: {
     "origins.list": { paramsTuple?: []; params?: {} }
@@ -81,6 +72,8 @@ export type ScannedRoutes = {
     "products.list_taxes": { paramsTuple?: []; params?: {} }
     "products.index": { paramsTuple?: []; params?: {} }
     "products.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
+    "search_config.get_config": { paramsTuple?: []; params?: {} }
+    "search_config.get_synonyms": { paramsTuple?: []; params?: {} }
     "territories.count": { paramsTuple?: []; params?: {} }
     "territories.top": { paramsTuple?: []; params?: {} }
     "territories.index": { paramsTuple?: []; params?: {} }
@@ -88,7 +81,6 @@ export type ScannedRoutes = {
     "transporters.count": { paramsTuple?: []; params?: {} }
     "transporters.index": { paramsTuple?: []; params?: {} }
     "transporters.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
-    "transporter_rules.show": { paramsTuple: [ParamValue]; params: { transporterId: ParamValue } }
   }
   HEAD: {
     "origins.list": { paramsTuple?: []; params?: {} }
@@ -110,6 +102,8 @@ export type ScannedRoutes = {
     "products.list_taxes": { paramsTuple?: []; params?: {} }
     "products.index": { paramsTuple?: []; params?: {} }
     "products.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
+    "search_config.get_config": { paramsTuple?: []; params?: {} }
+    "search_config.get_synonyms": { paramsTuple?: []; params?: {} }
     "territories.count": { paramsTuple?: []; params?: {} }
     "territories.top": { paramsTuple?: []; params?: {} }
     "territories.index": { paramsTuple?: []; params?: {} }
@@ -117,7 +111,6 @@ export type ScannedRoutes = {
     "transporters.count": { paramsTuple?: []; params?: {} }
     "transporters.index": { paramsTuple?: []; params?: {} }
     "transporters.show": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
-    "transporter_rules.show": { paramsTuple: [ParamValue]; params: { transporterId: ParamValue } }
   }
   POST: {
     get_product_taxes: { paramsTuple?: []; params?: {} }
@@ -127,23 +120,13 @@ export type ScannedRoutes = {
     "products.store": { paramsTuple?: []; params?: {} }
     "territories.store": { paramsTuple?: []; params?: {} }
     "transporters.store": { paramsTuple?: []; params?: {} }
-    "transporter_rules.save_flow": {
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-    }
-    "transporter_rules.save_rules": {
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-    }
-    "transporter_rules.save_all": {
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-    }
   }
   PUT: {
     "categories.update": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "origins.update": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "products.update": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
+    "search_config.update_config": { paramsTuple?: []; params?: {} }
+    "search_config.update_synonyms": { paramsTuple?: []; params?: {} }
     "territories.update": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
     "transporters.update": { paramsTuple: [ParamValue]; params: { id: ParamValue } }
   }

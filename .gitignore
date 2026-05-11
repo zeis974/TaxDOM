@@ -30,8 +30,8 @@ next-env.d.ts
 .turbo
 
 # local env files
-.env*.local
-.secrets
+.env*
+!.env.example
 
 # PandaCSS
 styled-system

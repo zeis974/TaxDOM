@@ -54,4 +54,13 @@ export default await Env.create(new URL("../", import.meta.url), {
   GOOGLE_CLIENT_SECRET: Env.schema.string(),
   TRUSTED_APP_ORIGIN_URL: Env.schema.string({ format: "url", protocol: false, tld: false }),
   TRUSTED_DASHBOARD_ORIGIN_URL: Env.schema.string({ format: "url", protocol: false, tld: false }),
+
+  /*
+  |----------------------------------------------------------
+  | Variables for Meilisearch
+  |----------------------------------------------------------
+  */
+  MEILI_HOST: Env.schema.string({ format: "url", protocol: true, tld: false }),
+  MEILI_MASTER_KEY: Env.schema.string(),
+  MEILI_ENV: Env.schema.enum(["development", "production"] as const),
 })

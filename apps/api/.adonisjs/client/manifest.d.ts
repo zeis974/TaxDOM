@@ -4,8 +4,14 @@
  */
 
 /// <reference path="../../adonisrc.ts" />
-/// <reference path="../../config/auth.ts" />
+/// <reference path="../../config/encryption.ts" />
 /// <reference path="../../config/hash.ts" />
 /// <reference path="../../config/limiter.ts" />
+/// <reference path="../../config/session.ts" />
+/// <reference path="../../config/shield.ts" />
+/// <reference path="../../config/app.ts" />
+/// <reference path="../../config/auth.ts" />
+/// <reference path="../../config/cors.ts" />
+/// <reference path="../../config/database.ts" />
 /// <reference path="../../config/logger.ts" />
 /// <reference path="../../config/redis.ts" />

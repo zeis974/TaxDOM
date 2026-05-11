@@ -549,6 +549,54 @@ export interface Registry {
       >
     }
   }
+  "search_config.get_config": {
+    methods: ["GET", "HEAD"]
+    pattern: "/v1/admin/products/search-config"
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  "search_config.update_config": {
+    methods: ["PUT"]
+    pattern: "/v1/admin/products/search-config"
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  "search_config.get_synonyms": {
+    methods: ["GET", "HEAD"]
+    pattern: "/v1/admin/products/synonyms"
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  "search_config.update_synonyms": {
+    methods: ["PUT"]
+    pattern: "/v1/admin/products/synonyms"
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
   "territories.count": {
     methods: ["GET", "HEAD"]
     pattern: "/v1/admin/territories/count"
@@ -778,70 +826,6 @@ export interface Registry {
       >
       errorResponse: ExtractErrorResponse<
         Awaited<ReturnType<import("#controllers/TransportersController").default["destroy"]>>
-      >
-    }
-  }
-  "transporter_rules.show": {
-    methods: ["GET", "HEAD"]
-    pattern: "/v1/admin/transporters/:transporterId/rules"
-    types: {
-      body: {}
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-      query: {}
-      response: ExtractResponse<
-        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["show"]>>
-      >
-      errorResponse: ExtractErrorResponse<
-        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["show"]>>
-      >
-    }
-  }
-  "transporter_rules.save_flow": {
-    methods: ["POST"]
-    pattern: "/v1/admin/transporters/:transporterId/rules/flow"
-    types: {
-      body: {}
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-      query: {}
-      response: ExtractResponse<
-        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveFlow"]>>
-      >
-      errorResponse: ExtractErrorResponse<
-        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveFlow"]>>
-      >
-    }
-  }
-  "transporter_rules.save_rules": {
-    methods: ["POST"]
-    pattern: "/v1/admin/transporters/:transporterId/rules/fees"
-    types: {
-      body: {}
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-      query: {}
-      response: ExtractResponse<
-        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveRules"]>>
-      >
-      errorResponse: ExtractErrorResponse<
-        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveRules"]>>
-      >
-    }
-  }
-  "transporter_rules.save_all": {
-    methods: ["POST"]
-    pattern: "/v1/admin/transporters/:transporterId/rules"
-    types: {
-      body: {}
-      paramsTuple: [ParamValue]
-      params: { transporterId: ParamValue }
-      query: {}
-      response: ExtractResponse<
-        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveAll"]>>
-      >
-      errorResponse: ExtractErrorResponse<
-        Awaited<ReturnType<import("#controllers/TransporterRulesController").default["saveAll"]>>
       >
     }
   }

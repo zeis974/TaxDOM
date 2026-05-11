@@ -1,4 +1,5 @@
 import type { Product } from "@taxdom/types"
+import logger from "@adonisjs/core/services/logger"
 import { count, eq, type InferSelectModel } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 import { v7 as uuidv7 } from "uuid"
@@ -6,6 +7,7 @@ import { v7 as uuidv7 } from "uuid"
 import type * as schema from "#database/schema"
 import { categories, origins, products, templateProducts, territories } from "#database/schema"
 import { BadRequestError, ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
+import { onProductCreated, onProductDeleted, onProductUpdated } from "#services/ProductSync"
 
 type DB = NodePgDatabase<typeof schema>
 
@@ -261,7 +263,7 @@ export class ProductService {
     const { categoryID, originID, territoryID } = input
     const trimmedName = validateProductName(input.productName)
 
-    return await this.db.transaction(async (tx) => {
+    const productData = await this.db.transaction(async (tx) => {
       const existingProduct = await tx.query.products.findFirst({
         where: eq(products.productName, trimmedName),
       })
@@ -280,17 +282,27 @@ export class ProductService {
         territoryID: validated.territoryID,
       })
 
-      const productData = await tx.query.products.findFirst({
+      const created = await tx.query.products.findFirst({
         where: eq(products.productID, productID),
         with: productRelations,
       })
 
-      if (!productData) {
+      if (!created) {
         throw new NotFoundError("Produit non trouvé après création")
       }
 
-      return mapProduct(productData)
+      return created
     })
+
+    // Sync Meilisearch AFTER transaction commits (with retry + backoff)
+    onProductCreated({
+      id: productData.productID,
+      productName: productData.productName,
+      categoryName: productData.category.categoryName,
+      categoryID: productData.category.categoryID,
+    }).catch((err) => logger.error("Failed to sync product creation to Meilisearch: %O", err))
+
+    return mapProduct(productData)
   }
 
   /**
@@ -306,7 +318,7 @@ export class ProductService {
     const { categoryID, originID, territoryID } = input
     const trimmedName = validateProductName(input.productName)
 
-    return await this.db.transaction(async (tx) => {
+    const productData = await this.db.transaction(async (tx) => {
       const existingProduct = await tx.query.products.findFirst({
         where: eq(products.productID, productId),
       })
@@ -334,17 +346,27 @@ export class ProductService {
         })
         .where(eq(products.productID, productId))
 
-      const productData = await tx.query.products.findFirst({
+      const updated = await tx.query.products.findFirst({
         where: eq(products.productID, productId),
         with: productRelations,
       })
 
-      if (!productData) {
+      if (!updated) {
         throw new NotFoundError("Produit non trouvé après mise à jour")
       }
 
-      return mapProduct(productData)
+      return updated
     })
+
+    // Sync Meilisearch AFTER transaction commits (with retry + backoff)
+    onProductUpdated({
+      id: productData.productID,
+      productName: productData.productName,
+      categoryName: productData.category.categoryName,
+      categoryID: productData.category.categoryID,
+    }).catch((err) => logger.error("Failed to sync product update to Meilisearch: %O", err))
+
+    return mapProduct(productData)
   }
 
   /**
@@ -377,6 +399,10 @@ export class ProductService {
 
       await tx.delete(products).where(eq(products.productID, productId))
     })
+
+    onProductDeleted(productId).catch((err) =>
+      logger.error("Failed to sync product deletion to Meilisearch: %O", err),
+    )
   }
 
   /**

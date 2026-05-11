@@ -19,7 +19,6 @@
     "indentStyle": "space"
   },
   "javascript": {
-    "experimentalEmbeddedSnippetsEnabled": true,
     "formatter": {
       "semicolons": "asNeeded",
       "quoteStyle": "double"
@@ -27,6 +26,7 @@
   },
   "linter": {
     "domains": {
+      "drizzle": "all",
       "next": "all",
       "react": "all"
     },
@@ -55,13 +55,11 @@
   "files": {
     "includes": [
       "**",
-      "!**/.adonisjs/",
+      "!**/.adonisjs",
       "!**/.next/",
       "!**/data/",
-      "!**/build",
-      "!**/dist",
+      "!!**/dist",
       "!**/coverage",
-      "!**/apps/nginx",
       "!**/styled-system/"
     ]
   }

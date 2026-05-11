@@ -327,6 +327,50 @@ const routes = {
     ],
     types: placeholder as Registry["products.destroy"]["types"],
   },
+  "search_config.get_config": {
+    methods: ["GET", "HEAD"],
+    pattern: "/v1/admin/products/search-config",
+    tokens: [
+      { old: "/v1/admin/products/search-config", type: 0, val: "v1", end: "" },
+      { old: "/v1/admin/products/search-config", type: 0, val: "admin", end: "" },
+      { old: "/v1/admin/products/search-config", type: 0, val: "products", end: "" },
+      { old: "/v1/admin/products/search-config", type: 0, val: "search-config", end: "" },
+    ],
+    types: placeholder as Registry["search_config.get_config"]["types"],
+  },
+  "search_config.update_config": {
+    methods: ["PUT"],
+    pattern: "/v1/admin/products/search-config",
+    tokens: [
+      { old: "/v1/admin/products/search-config", type: 0, val: "v1", end: "" },
+      { old: "/v1/admin/products/search-config", type: 0, val: "admin", end: "" },
+      { old: "/v1/admin/products/search-config", type: 0, val: "products", end: "" },
+      { old: "/v1/admin/products/search-config", type: 0, val: "search-config", end: "" },
+    ],
+    types: placeholder as Registry["search_config.update_config"]["types"],
+  },
+  "search_config.get_synonyms": {
+    methods: ["GET", "HEAD"],
+    pattern: "/v1/admin/products/synonyms",
+    tokens: [
+      { old: "/v1/admin/products/synonyms", type: 0, val: "v1", end: "" },
+      { old: "/v1/admin/products/synonyms", type: 0, val: "admin", end: "" },
+      { old: "/v1/admin/products/synonyms", type: 0, val: "products", end: "" },
+      { old: "/v1/admin/products/synonyms", type: 0, val: "synonyms", end: "" },
+    ],
+    types: placeholder as Registry["search_config.get_synonyms"]["types"],
+  },
+  "search_config.update_synonyms": {
+    methods: ["PUT"],
+    pattern: "/v1/admin/products/synonyms",
+    tokens: [
+      { old: "/v1/admin/products/synonyms", type: 0, val: "v1", end: "" },
+      { old: "/v1/admin/products/synonyms", type: 0, val: "admin", end: "" },
+      { old: "/v1/admin/products/synonyms", type: 0, val: "products", end: "" },
+      { old: "/v1/admin/products/synonyms", type: 0, val: "synonyms", end: "" },
+    ],
+    types: placeholder as Registry["search_config.update_synonyms"]["types"],
+  },
   "territories.count": {
     methods: ["GET", "HEAD"],
     pattern: "/v1/admin/territories/count",
@@ -465,86 +509,6 @@ const routes = {
       { old: "/v1/admin/transporters/:id", type: 1, val: "id", end: "" },
     ],
     types: placeholder as Registry["transporters.destroy"]["types"],
-  },
-  "transporter_rules.show": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/transporters/:transporterId/rules",
-    tokens: [
-      { old: "/v1/admin/transporters/:transporterId/rules", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters/:transporterId/rules", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/transporters/:transporterId/rules", type: 0, val: "transporters", end: "" },
-      {
-        old: "/v1/admin/transporters/:transporterId/rules",
-        type: 1,
-        val: "transporterId",
-        end: "",
-      },
-      { old: "/v1/admin/transporters/:transporterId/rules", type: 0, val: "rules", end: "" },
-    ],
-    types: placeholder as Registry["transporter_rules.show"]["types"],
-  },
-  "transporter_rules.save_flow": {
-    methods: ["POST"],
-    pattern: "/v1/admin/transporters/:transporterId/rules/flow",
-    tokens: [
-      { old: "/v1/admin/transporters/:transporterId/rules/flow", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters/:transporterId/rules/flow", type: 0, val: "admin", end: "" },
-      {
-        old: "/v1/admin/transporters/:transporterId/rules/flow",
-        type: 0,
-        val: "transporters",
-        end: "",
-      },
-      {
-        old: "/v1/admin/transporters/:transporterId/rules/flow",
-        type: 1,
-        val: "transporterId",
-        end: "",
-      },
-      { old: "/v1/admin/transporters/:transporterId/rules/flow", type: 0, val: "rules", end: "" },
-      { old: "/v1/admin/transporters/:transporterId/rules/flow", type: 0, val: "flow", end: "" },
-    ],
-    types: placeholder as Registry["transporter_rules.save_flow"]["types"],
-  },
-  "transporter_rules.save_rules": {
-    methods: ["POST"],
-    pattern: "/v1/admin/transporters/:transporterId/rules/fees",
-    tokens: [
-      { old: "/v1/admin/transporters/:transporterId/rules/fees", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters/:transporterId/rules/fees", type: 0, val: "admin", end: "" },
-      {
-        old: "/v1/admin/transporters/:transporterId/rules/fees",
-        type: 0,
-        val: "transporters",
-        end: "",
-      },
-      {
-        old: "/v1/admin/transporters/:transporterId/rules/fees",
-        type: 1,
-        val: "transporterId",
-        end: "",
-      },
-      { old: "/v1/admin/transporters/:transporterId/rules/fees", type: 0, val: "rules", end: "" },
-      { old: "/v1/admin/transporters/:transporterId/rules/fees", type: 0, val: "fees", end: "" },
-    ],
-    types: placeholder as Registry["transporter_rules.save_rules"]["types"],
-  },
-  "transporter_rules.save_all": {
-    methods: ["POST"],
-    pattern: "/v1/admin/transporters/:transporterId/rules",
-    tokens: [
-      { old: "/v1/admin/transporters/:transporterId/rules", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters/:transporterId/rules", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/transporters/:transporterId/rules", type: 0, val: "transporters", end: "" },
-      {
-        old: "/v1/admin/transporters/:transporterId/rules",
-        type: 1,
-        val: "transporterId",
-        end: "",
-      },
-      { old: "/v1/admin/transporters/:transporterId/rules", type: 0, val: "rules", end: "" },
-    ],
-    types: placeholder as Registry["transporter_rules.save_all"]["types"],
   },
 } as const satisfies Record<string, AdonisEndpoint>
 
