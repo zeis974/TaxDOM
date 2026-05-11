@@ -19,7 +19,6 @@
     "indentStyle": "space"
   },
   "javascript": {
-    "experimentalEmbeddedSnippetsEnabled": true,
     "formatter": {
       "semicolons": "asNeeded",
       "quoteStyle": "double"
