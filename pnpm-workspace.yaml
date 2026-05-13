@@ -2,9 +2,8 @@ packages:
   - apps/*
   - packages/*
 
-onlyBuiltDependencies:
-  - '@biomejs/biome'
-  - '@swc/core'
-  - better-sqlite3
-  - esbuild
-  - sharp
+allowBuilds:
+  "@swc/core": true
+  esbuild: true
+  sharp: true
+
