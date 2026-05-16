@@ -46,10 +46,10 @@
     "@adonisjs/redis": "10.0.0",
     "@adonisjs/session": "8.1.0",
     "@adonisjs/shield": "9.0.0",
-    "@better-auth/drizzle-adapter": "1.6.9",
+    "@better-auth/drizzle-adapter": "1.6.10",
     "@tuyau/core": "1.2.2",
     "@vinejs/vine": "4.4.0",
-    "better-auth": "1.6.9",
+    "better-auth": "1.6.10",
     "drizzle-orm": "0.45.2",
     "luxon": "3.7.2",
     "meilisearch": "0.58.0",
@@ -63,7 +63,7 @@
     "@poppinss/ts-exec": "1.4.4",
     "@taxdom/types": "workspace:*",
     "@types/luxon": "^3.7.1",
-    "@types/node": "^25.6.0",
+    "@types/node": "^25.7.0",
     "@types/pg": "^8.20.0",
     "drizzle-kit": "0.31.10",
     "hot-hook": "1.0.0",
@@ -81,5 +81,5 @@
     "node": ">=24",
     "pnpm": ">=10"
   },
-  "packageManager": "pnpm@10.33.3"
+  "packageManager": "pnpm@11.1.1"
 }
