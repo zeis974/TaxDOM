@@ -1,0 +1,13 @@
+{
+  "name": "@taxdom/ui",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "private": true,
+  "exports": {
+    ".": "./preset.js",
+    "./preset": "./preset.js"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "1.11.1"
+  }
+}

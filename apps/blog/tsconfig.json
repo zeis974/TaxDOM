@@ -9,6 +9,6 @@
       "@/panda/*": ["./styled-system/*"]
     }
   },
-  "include": [".astro/types.d.ts", "**/*", "src", "styled-system"],
+  "include": [".astro/types.d.ts", "**/*", "src"],
   "exclude": ["dist"]
 }
