@@ -31,7 +31,7 @@ router
     registerPublicTerritories(router)
     registerPublicTransporters(router)
   })
-  .use([middleware.throttle(), middleware.apiKey()])
+  .use(middleware.apiKey())
   .prefix("/v1/public")
 
 // ─── Admin routes ────────────────────────────────────────

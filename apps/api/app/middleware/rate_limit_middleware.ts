@@ -1,16 +1,18 @@
 import type { HttpContext } from "@adonisjs/core/http"
 import type { NextFn } from "@adonisjs/core/types/http"
-import limiter from "@adonisjs/limiter/services/main"
 import { errors as limiterErrors } from "@adonisjs/limiter"
+import limiter from "@adonisjs/limiter/services/main"
+
+const rateLimiter = limiter.use({
+  requests: 20,
+  duration: "1 minute",
+})
+
 
 export default class RateLimitMiddleware {
   async handle(ctx: HttpContext, next: NextFn) {
     const { request, response } = ctx
 
-    const rateLimiter = limiter.use({
-      requests: 20,
-      duration: "1 minute",
-    })
 
     try {
       await rateLimiter.consume(request.ip())
