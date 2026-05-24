@@ -7,8 +7,8 @@
 |
 */
 
-import router from "@adonisjs/core/services/router"
 import { middleware } from "#start/kernel"
+import router from "@adonisjs/core/services/router"
 
 import registerAdminCategories from "#routes/admin/categories"
 import registerAdminOrigins from "#routes/admin/origins"
@@ -31,6 +31,7 @@ router
     registerPublicTerritories(router)
     registerPublicTransporters(router)
   })
+  .use(middleware.apiKey())
   .prefix("/v1/public")
 
 // ─── Admin routes ────────────────────────────────────────

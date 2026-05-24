@@ -6,6 +6,14 @@ export const tokens = defineTokens({
       value:
         '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
     },
+    NotoSans: {
+      value:
+        '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
+    },
+    NotoSansBold: {
+      value:
+        '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
+    },
     Rowdies: {
       value: "var(--rowdies), serif",
     },

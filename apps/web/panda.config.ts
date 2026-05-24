@@ -1,38 +1,22 @@
 import { defineConfig } from "@pandacss/dev"
 
-import { keyframes, semanticTokens, tokens, utilities } from "./theme"
+import taxdomPreset from "@taxdom/ui/preset"
 
 export default defineConfig({
   eject: true,
   preflight: false,
-  presets: [],
+  presets: [taxdomPreset],
   hash: true,
   minify: true,
   lightningcss: true,
-  include: [
-    "./src/components/**/*.{ts,tsx,js,jsx}",
-    "./src/app/**/*.{ts,tsx,js,jsx}",
-    "./src/services/**/*.{ts,tsx,js,jsx}",
-  ],
+  include: ["./src/app/**/*.{ts,tsx,js,jsx}", "./src/components/**/*.{ts,tsx,js,jsx}"],
   importMap: "@/panda",
-  theme: {
-    semanticTokens,
-    tokens,
-    keyframes,
-  },
-  utilities: {
-    utilities,
-  },
+  outdir: "styled-system",
+  syntax: "template-literal",
+  jsxFramework: "react",
   globalCss: {
     body: {
       backgroundColor: "{colors.background}",
     },
   },
-  conditions: {
-    light: ".light &",
-    dark: '.dark &, [data-theme="dark"] &',
-  },
-  outdir: "styled-system",
-  syntax: "template-literal",
-  jsxFramework: "react",
 })
