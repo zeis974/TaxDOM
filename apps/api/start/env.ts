@@ -49,11 +49,20 @@ export default await Env.create(new URL("../", import.meta.url), {
   |----------------------------------------------------------
   */
   BETTER_AUTH_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
-  BETTER_AUTH_SECRET: Env.schema.string(),
+  BETTER_AUTH_SECRET: Env.schema.secret(),
   GOOGLE_CLIENT_ID: Env.schema.string(),
   GOOGLE_CLIENT_SECRET: Env.schema.string(),
   TRUSTED_APP_ORIGIN_URL: Env.schema.string({ format: "url", protocol: false, tld: false }),
   TRUSTED_DASHBOARD_ORIGIN_URL: Env.schema.string({ format: "url", protocol: false, tld: false }),
+
+  /*
+  |----------------------------------------------------------
+  | Variables for the internal API key (shared secret between
+  | the API and the Next.js server). Used by the apiKey
+  | middleware to protect POST public routes.
+  |----------------------------------------------------------
+  */
+  API_KEY: Env.schema.string.optional(),
 
   /*
   |----------------------------------------------------------
