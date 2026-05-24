@@ -6,5 +6,8 @@ const baseUrl = process.env.API_URL ?? process.env.NEXT_PUBLIC_API_URL ?? "http:
 export const apiClient = createTuyau({
   baseUrl,
   registry,
-  headers: { Accept: "application/json" },
+  headers: {
+    Accept: "application/json",
+    "X-Api-Key": process.env.API_KEY ?? "",
+  },
 })
