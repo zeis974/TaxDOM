@@ -1,3 +1,4 @@
+import crypto from "node:crypto"
 import type { HttpContext } from "@adonisjs/core/http"
 import type { NextFn } from "@adonisjs/core/types/http"
 import logger from "@adonisjs/core/services/logger"
@@ -29,7 +30,16 @@ export default class ApiKeyMiddleware {
         .json({ error: "Unauthorized" })
     }
 
-    if (provided !== apiKey) {
+    const providedBuf = Buffer.from(provided)
+    const apiKeyBuf = Buffer.from(apiKey)
+    const len = Math.max(providedBuf.length, apiKeyBuf.length)
+
+    const a = Buffer.alloc(len)
+    const b = Buffer.alloc(len)
+    providedBuf.copy(a)
+    apiKeyBuf.copy(b)
+
+    if (!crypto.timingSafeEqual(a, b)) {
       logger.warn("Invalid API key attempt from %s to %s %s", request.ip(), method, request.url())
       return response
         .status(401)

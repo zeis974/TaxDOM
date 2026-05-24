@@ -62,7 +62,7 @@ export default await Env.create(new URL("../", import.meta.url), {
   | middleware to protect POST public routes.
   |----------------------------------------------------------
   */
-  API_KEY: Env.schema.string.optional(),
+  API_KEY: Env.schema.secret(),
 
   /*
   |----------------------------------------------------------
