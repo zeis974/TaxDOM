@@ -113,7 +113,7 @@ export type SelectOption = {
   isEU?: boolean
 }
 
-export type TaxSimulatorResult = {
+export type ProductTaxesSimulatorResult = {
   product: string
   taxes: {
     tva: number
