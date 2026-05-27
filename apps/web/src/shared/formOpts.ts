@@ -3,7 +3,7 @@ import type { Transporter } from "@taxdom/types"
 import { z } from "zod"
 
 import { ParcelSimulatorSchema } from "@/components/services/ParcelSimulator/types"
-import { TaxSimulatorFormSchema } from "@/components/services/TaxSimulator/types"
+import { TaxSimulatorFormSchema } from "@/components/services/ProductTaxesSimulator/types"
 
 export const parcelFormOpts = formOptions({
   defaultValues: {
