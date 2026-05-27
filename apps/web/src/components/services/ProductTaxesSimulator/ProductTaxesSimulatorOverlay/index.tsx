@@ -1,15 +1,17 @@
 "use client"
-import type { TaxSimulatorFormLabel } from "@/components/services/ProductTaxesSimulator/types"
 
-import * as m from "motion/react-m"
-import { AnimatePresence } from "motion/react"
-import Link from "next/link"
-import { styled } from "@/panda/jsx"
+import type { ProductTaxesSimulatorResult } from "@taxdom/types"
 
 import { useTheme } from "@wrksz/themes/client"
+import { AnimatePresence } from "motion/react"
+import * as m from "motion/react-m"
+import Link from "next/link"
 
 import CobeGlobe from "@/components/Misc/CobeGlobe"
 import TaxSimulatorResult from "@/components/services/ProductTaxesSimulator/TaxSimulatorResult"
+import type { TaxSimulatorFormLabel } from "@/components/services/ProductTaxesSimulator/types"
+
+import { Container, Underline, Wrapper } from "./ProductTaxesSimulatorOverlay.styled"
 
 const ProductLayer = () => {
   return (
@@ -49,25 +51,23 @@ function GlobeLayer({
   )
 }
 
-interface TaxSimulatorInformationsProps {
+interface ProductTaxesSimulatorOverlayProps {
   focusInput: TaxSimulatorFormLabel | null
   selectedCountry: string | null
   selectedTerritory: string | null
   hasResult: boolean
-  result: {
-    taxes?: { tva: number; om: number; omr: number }
-    product?: string
-    errors?: { message: string }[]
-  } | null
+  result: ProductTaxesSimulatorResult | null
+  onReset: () => void
 }
 
-export default function TaxSimulatorInformations({
+export default function ProductTaxesSimulatorOverlay({
   focusInput,
   selectedCountry,
   selectedTerritory,
   hasResult,
   result,
-}: TaxSimulatorInformationsProps) {
+  onReset,
+}: ProductTaxesSimulatorOverlayProps) {
   const layerMap: Partial<Record<TaxSimulatorFormLabel, React.JSX.Element>> = {
     product: <ProductLayer />,
     territory: (
@@ -98,7 +98,7 @@ export default function TaxSimulatorInformations({
         exit={{ opacity: 0 }}
         transition={{ duration: 0.15 }}
       >
-        {hasResult ? <TaxSimulatorResult result={result} /> : layers}
+        {hasResult ? <TaxSimulatorResult result={result} onReset={onReset} /> : layers}
       </Container>
     </AnimatePresence>
   )
@@ -122,40 +122,3 @@ const IntroLayer = () => {
     </div>
   )
 }
-
-const Container = styled(m.div)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0 20px;
-  font-family: token(fonts.nativeFont);
-  flex-direction: column;
-  height: inherit;
-
-  & > div {
-    position: relative;
-
-    & p {
-      margin: 10px 0;
-    }
-
-    & p:last-child {
-      margin: 20px 0;
-    }
-  }
-`
-
-const Underline = styled.span`
-  text-decoration: underline dotted;
-  text-underline-offset: 3px;
-  cursor: pointer;
-`
-const Wrapper = styled.div`
-  max-width: 85%;
-  margin: 0 auto;
-
-  & > p {
-    max-width: 600px;
-  }
-`
