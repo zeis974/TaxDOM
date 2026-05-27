@@ -3,7 +3,7 @@ import type { SelectOption } from "@taxdom/types"
 import { z } from "zod"
 
 import type { ParcelSimulatorFormLabel } from "@/components/services/ParcelSimulator/types"
-import type { TaxSimulatorFormLabel } from "@/components/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel } from "@/components/services/ProductTaxesSimulator/types"
 
 export type FormLabel = ParcelSimulatorFormLabel | TaxSimulatorFormLabel
 
@@ -59,5 +59,7 @@ export type SelectProps = (SelectStaticProps | SelectDynamicProps) & {
 export type SelectFieldProps = Omit<SelectCommonProps, never> & {
   options?: SelectOption[]
   onSearch?: (query: string) => Promise<SelectOption[]>
+  onFocus?: () => void
+  noResultsMessage?: string
   name?: string
 }

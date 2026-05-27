@@ -4,6 +4,7 @@ import { useVirtualizer } from "@tanstack/react-virtual"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
 import {
+  useCallback,
   useEffect,
   useMemo,
   useRef,
@@ -14,6 +15,7 @@ import {
 
 import type { SelectOption } from "@taxdom/types"
 
+import { useDebounce } from "@/hooks/useDebounce"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { LoadingCircle, OptionContainer } from "./Select.styled"
 
@@ -32,10 +34,12 @@ export interface BaseSelectProps extends NativeInputProps {
   onChange: (value: string) => void
   onBlur?: () => void
   onFocus?: () => void
+  onSearch?: (query: string) => Promise<SelectOption[]>
   loading?: boolean
   errors?: string[]
   disabled?: boolean
   required?: boolean
+  noResultsMessage?: string
 }
 
 interface OptionsListProps {
@@ -144,27 +148,62 @@ export default function BaseSelect({
   onChange,
   onBlur,
   onFocus,
+  onSearch,
   loading,
   errors = [],
   disabled,
   required,
+  noResultsMessage,
   ...inputProps
 }: BaseSelectProps) {
   const selectedIndexRef = useRef(0)
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [show, setShow] = useState(false)
+  const [searchResults, setSearchResults] = useState<SelectOption[]>([])
+  const [searchLoading, setSearchLoading] = useState(false)
+
+  const debouncedValue = useDebounce(value, 300)
 
   useEffect(() => {
     selectedIndexRef.current = selectedIndex
   }, [selectedIndex])
 
+  const performSearch = useCallback(
+    async (query: string) => {
+      if (!onSearch || query.length < 2) {
+        setSearchResults([])
+        return
+      }
+      setSearchLoading(true)
+      try {
+        const results = await onSearch(query)
+        setSearchResults(results)
+      } catch {
+        setSearchResults([])
+      } finally {
+        setSearchLoading(false)
+      }
+    },
+    [onSearch],
+  )
+
+  useEffect(() => {
+    if (onSearch && show) {
+      performSearch(debouncedValue)
+    }
+  }, [debouncedValue, onSearch, show, performSearch])
+
   const filteredOptions = useMemo(() => {
+    if (onSearch) {
+      if (searchLoading) return []
+      return searchResults
+    }
     if (!value) return options
     const lower = value.toLowerCase()
     const exactMatch = options.some((opt) => opt.name.toLowerCase() === lower)
     if (exactMatch) return []
     return options.filter((opt) => opt.name.toLowerCase().includes(lower))
-  }, [options, value])
+  }, [onSearch, options, value, searchResults, searchLoading])
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (filteredOptions.length === 0) return
@@ -223,7 +262,7 @@ export default function BaseSelect({
         disabled={disabled}
         required={required}
       />
-      {loading && <LoadingCircle />}
+      {(loading || searchLoading) && <LoadingCircle />}
       <AnimatePresence>
         {filteredOptions.length > 0 && show && (
           <m.div
@@ -243,6 +282,40 @@ export default function BaseSelect({
             />
           </m.div>
         )}
+        {show &&
+          onSearch &&
+          !searchLoading &&
+          filteredOptions.length === 0 &&
+          value.length >= 2 &&
+          noResultsMessage && (
+            <m.div
+              style={{ zIndex: 1 }}
+              initial={{ translateY: "-5px", opacity: 0 }}
+              animate={{ translateY: "0", opacity: 1 }}
+              exit={{ translateY: "5px", opacity: 0 }}
+            >
+              <OptionContainer
+                aria-label="Aucun résultat"
+                style={{
+                  height: "35px",
+                  overflow: "hidden",
+                }}
+              >
+                <li
+                  style={{
+                    height: "35px",
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0 5px",
+                    color: "rgba(255,255,255,0.4)",
+                    cursor: "default",
+                  }}
+                >
+                  {noResultsMessage}
+                </li>
+              </OptionContainer>
+            </m.div>
+          )}
       </AnimatePresence>
     </InputContainer>
   )

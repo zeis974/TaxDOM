@@ -5,7 +5,15 @@ import { formOpts, useFieldContext, withForm } from "@/hooks/form"
 import type { SelectFieldProps, SelectProps } from "@/components/Forms/types"
 import BaseSelect from "./BaseSelect"
 
-function SelectField({ label, options = [], placeholder, loading }: SelectFieldProps) {
+function SelectField({
+  label,
+  options = [],
+  placeholder,
+  loading,
+  onFocus,
+  onSearch,
+  noResultsMessage,
+}: SelectFieldProps) {
   const field = useFieldContext<string>()
 
   return (
@@ -18,14 +26,19 @@ function SelectField({ label, options = [], placeholder, loading }: SelectFieldP
       value={field.state.value ?? ""}
       onChange={(value) => field.handleChange(value)}
       onBlur={() => field.handleBlur()}
+      onFocus={onFocus}
+      onSearch={onSearch}
       loading={loading}
       errors={field.state.meta.errors}
+      noResultsMessage={noResultsMessage}
     />
   )
 }
 
 type SelectFormProps = SelectProps & {
   form: unknown
+  onFocus?: () => void
+  noResultsMessage?: string
 }
 
 export const Select = withForm({
@@ -35,7 +48,16 @@ export const Select = withForm({
     label: "",
     placeholder: "",
   } as SelectFormProps,
-  render: function Render({ form, name, label, options, onSearch, placeholder }) {
+  render: function Render({
+    form,
+    name,
+    label,
+    options,
+    onSearch,
+    onFocus,
+    placeholder,
+    noResultsMessage,
+  }) {
     return (
       <form.AppField
         name={name}
@@ -57,6 +79,8 @@ export const Select = withForm({
             placeholder={placeholder}
             options={options ?? []}
             onSearch={onSearch}
+            onFocus={onFocus}
+            noResultsMessage={noResultsMessage}
           />
         )}
       </form.AppField>
