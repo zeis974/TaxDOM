@@ -1,12 +1,11 @@
 import { useStore } from "@tanstack/react-form"
 
 import type { InputProps } from "@/components/Forms/types"
-import { formOpts, useFieldContext, withForm } from "@/hooks/form"
+import { useFieldContext } from "@/hooks/form"
 
 import { InputContainer } from "./Input.styled"
 
 export default function InputField({
-  name,
   label,
   placeholder,
   type = "text",
@@ -17,7 +16,7 @@ export default function InputField({
 
   return (
     <InputContainer>
-      <label htmlFor={name}>
+      <label htmlFor={field.name}>
         {label}{" "}
         {errors.map((error: string) => (
           <span key={error}>{error}</span>
@@ -42,28 +41,3 @@ export default function InputField({
     </InputContainer>
   )
 }
-
-export const Input = withForm({
-  ...formOpts,
-  props: {
-    name: "" as InputProps["name"],
-    label: "",
-    placeholder: "",
-    type: "text",
-    disabled: false,
-  } as InputProps,
-  render: function Render({ form, name, label, placeholder, type, disabled }) {
-    return (
-      <form.AppField
-        name={name}
-        validators={{
-          onSubmit: ({ value }) => {
-            if (!value) return "Champs requis"
-          },
-        }}
-      >
-        {(field) => <field.InputField {...{ name, label, placeholder, type, disabled }} />}
-      </form.AppField>
-    )
-  },
-})
