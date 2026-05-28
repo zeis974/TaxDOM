@@ -22,9 +22,16 @@ export default function TaxSimulatorService() {
   const [focusInput, setFocusInput] = useState<TaxSimulatorFormLabel | null>(null)
   const [result, setResult] = useState<ProductTaxesSimulatorResult | null>(null)
   const turnstileRef = useRef<TurnstileInstance>(null)
+  const formDataRef = useRef<FormData | null>(null)
 
   const form = useAppForm({
     ...taxFormOpts,
+    onSubmit: async () => {
+      if (formDataRef.current) {
+        mutation.mutate(formDataRef.current)
+        formDataRef.current = null
+      }
+    },
   })
 
   const { data: originOptions = [] } = useQuery(originQueryOptions)
@@ -68,7 +75,9 @@ export default function TaxSimulatorService() {
         onFocusInputChange={setFocusInput}
         originOptions={originOptions}
         territoryOptions={territoryOptions}
-        onSubmit={(formData) => mutation.mutate(formData)}
+        onCaptureFormData={(fd) => {
+          formDataRef.current = fd
+        }}
         isPending={mutation.isPending}
         hasResult={hasResult}
       />

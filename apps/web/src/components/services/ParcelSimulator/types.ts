@@ -16,7 +16,7 @@ export const ParcelSimulatorSchema = z.object({
   taxPaid: z.boolean(),
   territory: z.string(),
   transporter: z.custom<Transporter>(),
-  "cf-turnstile-response": z.string(),
+  "cf-turnstile-response": z.string().min(1, "Captcha manquant"),
 })
 
 type DeepKeys<T> = T extends object

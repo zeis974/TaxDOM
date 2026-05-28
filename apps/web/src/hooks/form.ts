@@ -3,7 +3,7 @@
 import { createFormHook, createFormHookContexts } from "@tanstack/react-form"
 import { lazy } from "react"
 
-export { formOpts, parcelFormOpts, taxFormOpts } from "@/shared/formOpts"
+export { parcelFormOpts, taxFormOpts } from "@/shared/formOpts"
 
 export const { fieldContext, useFieldContext, formContext, useFormContext } =
   createFormHookContexts()

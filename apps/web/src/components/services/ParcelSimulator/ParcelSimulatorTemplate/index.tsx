@@ -4,7 +4,7 @@ import * as m from "motion/react-m"
 import { useEffect, useMemo, useState } from "react"
 
 import { CloseIcon, NoFaceIcon } from "@/components/Icons"
-import { fetchTemplates } from "@/lib/fetchTemplate"
+import { fetchTemplates } from "@/lib/queries/fetchTemplate"
 import {
   ActionContainer,
   Backdrop,
@@ -13,8 +13,11 @@ import {
   TemplateContainer,
 } from "./ParcelSimulatorTemplate.styled"
 
-// TODO: fix any types
-export default function ParcelSimulatorTemplate({ form }: { form: any }) {
+interface ParcelSimulatorTemplateProps {
+  onAddProducts: (products: { name: string; price: number }[]) => void
+}
+
+export default function ParcelSimulatorTemplate({ onAddProducts }: ParcelSimulatorTemplateProps) {
   const [open, setOpen] = useState(false)
   const [selectedTemplateID, setSelectedTemplateID] = useState<number | undefined>(undefined)
 
@@ -37,7 +40,7 @@ export default function ParcelSimulatorTemplate({ form }: { form: any }) {
         price: "" as unknown as number,
       }))
 
-      form.setFieldValue("products", productsToAdd)
+      onAddProducts(productsToAdd)
       setOpen(false)
     } catch (error) {
       console.error("Erreur lors de l'ajout des produits :", error)
