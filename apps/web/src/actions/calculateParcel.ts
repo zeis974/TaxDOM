@@ -5,7 +5,7 @@ import { ServerValidateError, createServerValidate } from "@tanstack/react-form-
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
 import { parcelFormOpts } from "@/shared/formOpts"
 import { ParcelSimulatorSchema } from "@/components/services/ParcelSimulator/types"
-import { apiClient } from "@/lib/api-server"
+import { apiClient } from "@/lib/api/server"
 
 const serverValidate = createServerValidate({
   ...parcelFormOpts,

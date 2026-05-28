@@ -4,7 +4,7 @@ import * as m from "motion/react-m"
 import { useEffect, useMemo, useState } from "react"
 
 import { CloseIcon, NoFaceIcon } from "@/components/Icons"
-import { fetchTemplates } from "@/lib/queries/fetchTemplate"
+import { templatesQueryOptions } from "@/lib/queries/templates"
 import {
   ActionContainer,
   Backdrop,
@@ -21,7 +21,7 @@ export default function ParcelSimulatorTemplate({ onAddProducts }: ParcelSimulat
   const [open, setOpen] = useState(false)
   const [selectedTemplateID, setSelectedTemplateID] = useState<number | undefined>(undefined)
 
-  const { data, isError } = useSuspenseQuery(fetchTemplates)
+  const { data, isError } = useSuspenseQuery(templatesQueryOptions)
 
   const selectedTemplate = useMemo(
     () => data?.find((t) => t.templateID === selectedTemplateID),
