@@ -37,7 +37,7 @@ export default function ParcelSimulatorTemplate({ onAddProducts }: ParcelSimulat
     try {
       const productsToAdd = selectedTemplate.products.map((product) => ({
         name: product.productName,
-        price: "" as unknown as number,
+        price: 0,
       }))
 
       onAddProducts(productsToAdd)
