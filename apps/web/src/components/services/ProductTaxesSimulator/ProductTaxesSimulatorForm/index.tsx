@@ -16,7 +16,7 @@ interface TaxSimulatorFormProps {
   onFocusInputChange: (value: TaxSimulatorFormLabel | null) => void
   originOptions: { name: string }[]
   territoryOptions: { name: string }[]
-  onSubmit: (formData: FormData) => void
+  onCaptureFormData: (formData: FormData) => void
   isPending: boolean
   hasResult: boolean
 }
@@ -28,7 +28,7 @@ const TaxSimulatorForm = withForm({
     onFocusInputChange: () => {},
     originOptions: [],
     territoryOptions: [],
-    onSubmit: () => {},
+    onCaptureFormData: () => {},
     isPending: false,
     hasResult: false,
   } as TaxSimulatorFormProps,
@@ -38,11 +38,11 @@ const TaxSimulatorForm = withForm({
     onFocusInputChange,
     originOptions,
     territoryOptions,
-    onSubmit,
+    onCaptureFormData,
     isPending,
     hasResult,
   }) {
-    function handleSubmit(e: React.SubmitEvent<HTMLFormElement>) {
+    async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
       e.preventDefault()
 
       const formData = new FormData(e.currentTarget)
@@ -55,8 +55,8 @@ const TaxSimulatorForm = withForm({
         return
       }
 
-      form.handleSubmit()
-      onSubmit(formData)
+      onCaptureFormData(formData)
+      await form.handleSubmit()
     }
 
     return (

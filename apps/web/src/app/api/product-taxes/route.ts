@@ -1,4 +1,5 @@
-import { apiClient } from "@/lib/api-server"
+import { apiClient } from "@/lib/api/api-server"
+
 import { TaxSimulatorFormSchema } from "@/components/services/ProductTaxesSimulator/types"
 
 const verifyEndpoint = "https://challenges.cloudflare.com/turnstile/v0/siteverify"

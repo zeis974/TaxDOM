@@ -1,15 +1,15 @@
 import { styled } from "@/panda/jsx"
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query"
 
-import { fetchTemplates } from "@/lib/fetchTemplate"
 import { getQueryClient } from "@/lib/getQueryClient"
+import { templatesQueryOptions } from "@/lib/queries/templates"
 
 import ParcelSimulatorForm from "./ParcelSimulatorForm"
 
 export default function ParcelSimulatorService() {
   const queryClient = getQueryClient()
 
-  void queryClient.prefetchQuery(fetchTemplates)
+  void queryClient.prefetchQuery(templatesQueryOptions)
 
   return (
     <Section>

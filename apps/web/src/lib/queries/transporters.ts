@@ -1,10 +1,6 @@
 import type { SelectOption } from "@taxdom/types"
-import { api } from "./api-client"
+import { api } from "../api/api-client"
 
-/**
- * Type-safe query options for fetching transporters via Tuyau + TanStack Query.
- * The query key is automatically managed by Tuyau.
- */
 export const transporterQueryOptions = api.transporters.list.queryOptions(
   {},
   {
