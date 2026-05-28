@@ -4,7 +4,6 @@ import dynamic from "next/dynamic"
 import { parcelFormOpts, withForm } from "@/hooks/form"
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
-import { Input, Select } from "@/components/Forms"
 import { AddIcon, TaxDOMLogo } from "@/components/Icons"
 import ParcelSimulatorResult from "../ParcelSimulatorResult"
 
@@ -52,7 +51,9 @@ export const ParcelSimulatorCards = withForm({
                     {dutyPrice > 10000 ? "🤑" : "Valeur en douane"} : {dutyPrice.toFixed(2)} € (HT)
                     <div>Pays : {territory}</div>
                   </div>
-                  <ParcelSimulatorTemplate form={form} />
+                  <ParcelSimulatorTemplate
+                    onAddProducts={(products) => form.setFieldValue("products", products)}
+                  />
                 </>
               )
             }}
@@ -64,20 +65,25 @@ export const ParcelSimulatorCards = withForm({
               {field.state.value.map((_, i) => (
                 // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
                 <Card key={i}>
-                  <Select
-                    {...{ form }}
-                    name={`products[${i}].name`}
-                    label="Produit"
-                    placeholder="Type de produit"
-                    options={[]}
-                  />
-                  <Input
-                    {...{ form }}
-                    name={`products[${i}].price`}
-                    label="Prix € (HT)"
-                    placeholder="0"
-                    type="number"
-                  />
+                  <form.AppField name={`products[${i}].name`}>
+                    {(subField) => (
+                      <subField.SelectField
+                        label="Produit"
+                        placeholder="Type de produit"
+                        options={[]}
+                      />
+                    )}
+                  </form.AppField>
+                  <form.AppField name={`products[${i}].price`}>
+                    {(subField) => (
+                      <subField.InputField
+                        label="Prix € (HT)"
+                        placeholder="0"
+                        type="number"
+                        disabled={false}
+                      />
+                    )}
+                  </form.AppField>
                   <button
                     onClick={() => {
                       field.removeValue(i)

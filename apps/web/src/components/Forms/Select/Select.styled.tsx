@@ -22,10 +22,10 @@ export const OptionContainer = styled.ul`
   border: 2px solid token(colors.darkGray);
   background: token(colors.secondaryBackground);
 
-  & > li[data-selected=true],
-  & > div > li[data-selected=true] {
+  & > li[data-selected="true"],
+  & > div > li[data-selected="true"] {
     background: #77b4dc;
-  } 
+  }
 
   & > li,
   & > div > li {

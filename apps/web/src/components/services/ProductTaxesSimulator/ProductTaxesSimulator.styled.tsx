@@ -1,18 +1,6 @@
 import { styled } from "@/panda/jsx"
 
-import TaxSimulatorForm from "./TaxSimulatorForm"
-import TaxSimulatorInformations from "./TaxSimulatorInformations"
-
-export default function TaxSimulatorService() {
-  return (
-    <Section>
-      <TaxSimulatorForm />
-      <TaxSimulatorInformations />
-    </Section>
-  )
-}
-
-const Section = styled.section`
+export const Section = styled.section`
   display: flex;
   align-items: center;
   width: calc(100% - 20px);
@@ -23,7 +11,14 @@ const Section = styled.section`
   background: token(colors.secondaryBackground);
   border-radius: 10px;
 
-  & > form,
+  & > form {
+    flex: 1;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   & > form ~ div {
     flex: 1;
     min-width: 50%;

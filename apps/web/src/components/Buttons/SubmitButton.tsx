@@ -32,7 +32,7 @@ const StyledButton = styled.button`
   }
 
   &:hover:not([disabled]),
-  &:hover:not([aria-disabled])  {
+  &:hover:not([aria-disabled]) {
     border: 2px solid token(colors.darkGray);
     background: none;
   }

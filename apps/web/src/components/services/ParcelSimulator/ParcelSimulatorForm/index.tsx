@@ -3,19 +3,20 @@
 import { mergeForm } from "@tanstack/react-form"
 import { initialFormState, useTransform } from "@tanstack/react-form-nextjs"
 import { useQuery } from "@tanstack/react-query"
-import { useActionState, useEffect } from "react"
+import { useActionState, useEffect, useRef } from "react"
 import { toast } from "sonner"
+
+import { TurnstileInstance } from "@marsidev/react-turnstile"
 
 import calculateParcel from "@/actions/calculateParcel"
 import { parcelFormOpts, useAppForm } from "@/hooks/form"
-import { originQueryOptions } from "@/lib/origins"
-import { territoryQueryOptions } from "@/lib/territories"
-import { transporterQueryOptions } from "@/lib/transporters"
-import Turnstile from "@/lib/Turnstile"
+import { originQueryOptions } from "@/lib/queries/origins"
+import { territoryQueryOptions } from "@/lib/queries/territories"
+import { transporterQueryOptions } from "@/lib/queries/transporters"
 import { useParcelSimulatorStore } from "@/providers/ParcelSimulatorStoreProvider"
 
-import { Input, Radio, Select } from "@/components/Forms"
 import { ParcelSimulatorCards } from "../ParcelSimulatorCards"
+import ParcelSimulatorFormFields from "../ParcelSimulatorFormFields"
 
 import { Container } from "./ParcelSimulator.styled"
 
@@ -25,25 +26,26 @@ export default function ParcelSimulator() {
   const setHasResult = useParcelSimulatorStore((s) => s.setHasResult)
   const setResult = useParcelSimulatorStore((s) => s.setResult)
 
+  const turnstileRef = useRef<TurnstileInstance>(null)
+
   useEffect(() => {
-    try {
-      const errors = state.errors[0]?.message
+    const errorMessage = state.errors?.[0]?.message
 
-      if (errors === "Too many requests") {
-        setHasResult(true)
-        setResult(state)
-      }
+    if (errorMessage === "Too many requests") {
+      setHasResult(true)
+      setResult(state)
+    }
 
-      if (errors === "Please validate the captcha") {
-        toast.warning("Captcha invalide", {
-          description: "Veuillez valider le captcha",
-        })
-      }
-    } catch (e) {
-      if (state.taxes) {
-        setHasResult(true)
-        setResult(state)
-      }
+    if (errorMessage === "Please validate the captcha") {
+      toast.warning("Captcha invalide", {
+        description: "Veuillez valider le captcha",
+      })
+    }
+
+    if (state.taxes) {
+      setHasResult(true)
+      setResult(state)
+      turnstileRef.current?.reset()
     }
   }, [setHasResult, setResult, state])
 
@@ -61,50 +63,32 @@ export default function ParcelSimulator() {
   const { data: territoryOptions = [] } = useQuery(territoryQueryOptions)
   const { data: transporterOptions = [] } = useQuery(transporterQueryOptions)
 
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    const formData = new FormData(e.currentTarget)
+    const token = formData.get("cf-turnstile-response")
+
+    if (!token) {
+      e.preventDefault()
+      toast.warning("Captcha invalide", {
+        description: "Veuillez valider le captcha",
+      })
+      return
+    }
+
+    await form.handleSubmit()
+  }
+
   return (
     <Container>
-      <form action={action} onSubmit={() => form.handleSubmit()}>
-        <div>
-          <Select
-            {...{ form }}
-            name="origin"
-            label="Origine"
-            placeholder="EU"
-            options={originOptions}
-          />
-          <Select
-            {...{ form }}
-            name="territory"
-            label="Territoire d'application"
-            placeholder="REUNION"
-            options={territoryOptions.map((t) => ({ name: t.territoryName, value: t.territoryID }))}
-          />
-          <Radio
-            {...{ form }}
-            name="customer"
-            label="Envoi entre particulier ?"
-            options={["Oui", "Non"]}
-          />
-          <Select
-            {...{ form }}
-            name="transporter"
-            label="Transporteur"
-            placeholder="COLISSIMO"
-            options={transporterOptions}
-          />
-          <Input
-            {...{ form }}
-            name="deliveryPrice"
-            label="Prix de livraison € (HT)"
-            placeholder="0"
-            type="number"
-          />
-          <Turnstile />
-          <form.AppForm>
-            <form.SubscribeButton label="Calculer" />
-          </form.AppForm>
-        </div>
-        <ParcelSimulatorCards {...{ form }} />
+      <form action={action} onSubmit={handleSubmit}>
+        <ParcelSimulatorFormFields
+          form={form}
+          turnstileRef={turnstileRef}
+          originOptions={originOptions}
+          territoryOptions={territoryOptions}
+          transporterOptions={transporterOptions}
+        />
+        <ParcelSimulatorCards form={form} />
       </form>
     </Container>
   )

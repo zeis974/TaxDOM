@@ -16,11 +16,13 @@ export default class ApiKeyMiddleware {
       return next()
     }
 
-    const apiKey = env.get("API_KEY")
-    if (!apiKey) {
+    const apiKeyRaw = env.get("API_KEY")
+    if (!apiKeyRaw) {
       logger.error("API_KEY environment variable is not configured")
       return response.status(500).json({ error: "Server misconfiguration" })
     }
+
+    const apiKey = apiKeyRaw.release()
 
     const provided = request.header("X-Api-Key")
     if (!provided) {
