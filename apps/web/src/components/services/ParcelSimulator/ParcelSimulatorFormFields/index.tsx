@@ -1,8 +1,7 @@
 "use client"
 
-import { TurnstileInstance } from "@marsidev/react-turnstile"
+import { Turnstile, TurnstileInstance } from "@marsidev/react-turnstile"
 
-import Turnstile from "@/components/ui/Turnstile"
 import { parcelFormOpts, withForm } from "@/hooks/form"
 
 interface ParcelSimulatorFormFieldsProps {
