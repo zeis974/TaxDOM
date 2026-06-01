@@ -11,13 +11,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@astrojs/mdx": "5.0.6",
-    "@astrojs/react": "5.0.5",
-    "@astrojs/sitemap": "3.7.2",
+    "@astrojs/mdx": "6.0.1",
+    "@astrojs/react": "5.0.6",
+    "@astrojs/sitemap": "3.7.3",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
-    "astro": "6.3.7",
-    "date-fns": "4.3.0",
+    "astro": "6.4.2",
+    "date-fns": "4.4.0",
     "motion": "12.40.0",
     "react": "19.2.6",
     "react-dom": "19.2.6"
@@ -26,5 +26,5 @@
     "@pandacss/dev": "1.11.1",
     "@taxdom/ui": "workspace:*"
   },
-  "packageManager": "pnpm@11.3.0"
+  "packageManager": "pnpm@11.5.0"
 }
