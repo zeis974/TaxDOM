@@ -30,6 +30,7 @@ export type CreateCategoryInput = {
 export type UpdateCategoryInput = {
   categoryName: string
   taxID?: string
+  nomenclatureCode?: string | null
 }
 
 function mapCategory(
@@ -42,6 +43,7 @@ function mapCategory(
     categoryID: row.categoryID,
     categoryName: row.categoryName,
     taxID: row.taxID ?? "",
+    nomenclatureCode: row.nomenclatureCode ?? null,
     tax: row.tax
       ? {
           tva: Number(row.tax.tva),
@@ -247,6 +249,10 @@ export class CategoryService {
 
       const updateData: Partial<typeof categories.$inferInsert> = {
         categoryName: input.categoryName.trim(),
+      }
+
+      if (input.nomenclatureCode !== undefined) {
+        updateData.nomenclatureCode = input.nomenclatureCode ?? null
       }
 
       if (input.taxID !== undefined) {
