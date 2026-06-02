@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 25 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:19</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>2500000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>SEL; SOUFRE; TERRES ET PIERRES; PLÂTRES, CHAUX ET CIMENTS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2501000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sel (y compris le sel préparé pour la table et le sel dénaturé) et chlorure de sodium pur, même en solution aqueuse ou additionnés d'agents antiagglomérants ou d'agents assurant une bonne fluidité; eau de mer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2501001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Eau de mer et eaux mères de salines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2501003100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sel (y compris le sel préparé pour la table et le sel dénaturé) et chlorure de sodium pur, même en solution aqueuse ou additionnés d'agents antiagglomérants ou d'agents assurant une bonne fluidité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2501003100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à la transformation chimique (séparation Na de Cl) pour la fabrication d'autres produits</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2501005100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2501005100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dénaturés ou destinés à d'autres usages industriels (y compris le raffinage), à l'exclusion de la conservation ou la préparation de produits destinés à l'alimentation humaine ou animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2501005110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>dénaturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2501005190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à d'autres usages industriels (y compris le raffinage), à l'exclusion de la conservation ou la préparation de produits destinés à l'alimentation humaine ou animale</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2501009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2501009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Sel propre à l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2501009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2502000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pyrites de fer non grillées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2503000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Soufres de toute espèce, à l'exclusion du soufre sublimé, du soufre précipité et du soufre colloïdal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2503001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Soufres bruts et soufres non raffinés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2503009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2504000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graphite naturel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2504100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en poudre ou en paillettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2504900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2505000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sables naturels de toute espèce, même colorés, à l'exclusion des sables métallifères du chapitre|26</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2505100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sables siliceux et sables quartzeux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2505900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres sables</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2506000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Quartz (autres que les sables naturels); quartzites, même dégrossis ou simplement débités, par sciage ou autrement, en blocs ou en plaques de forme carrée ou rectangulaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2506100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Quartz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2506200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Quartzites</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2507000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Kaolin et autres argiles kaoliniques, même calcinés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2507002000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Kaolin</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2507008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres argiles kaoliniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2507008020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non calcinées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2507008080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2508000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres argiles (à l'exclusion des argiles expansées du n$o|6806), andalousite, cyanite, sillimanite, même calcinées; mullite; terres de chamotte ou de dinas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2508100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bentonite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2508300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Argiles réfractaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2508400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres argiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2508500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Andalousite, cyanite et sillimanite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2508600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mullite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2508700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Terres de chamotte ou de dinas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2509000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Craie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2510000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Phosphates de calcium naturels, phosphates aluminocalciques naturels et craies phosphatées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2510100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non moulus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2510200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>moulus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2511000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sulfate de baryum naturel (barytine); carbonate de baryum naturel (withérite), même calciné, à l'exclusion de l'oxyde de baryum du n$o|2816</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2511100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sulfate de baryum naturel (barytine)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2511200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carbonate de baryum naturel (withérite)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2512000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Farines siliceuses fossiles (kieselguhr, tripolite, diatomite, par exemple) et autres terres siliceuses analogues, d'une densité apparente n'excédant pas 1, même calcinées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2513000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pierre ponce; émeri; corindon naturel, grenat naturel et autres abrasifs naturels, même traités thermiquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2513100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pierre ponce</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2513200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Émeri, corindon naturel, grenat naturel et autres abrasifs naturels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2514000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ardoise, même dégrossie ou simplement débitée, par sciage ou autrement, en blocs ou en plaques de forme carrée ou rectangulaire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2515000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Marbres, travertins, écaussines et autres pierres calcaires de taille ou de construction d'une densité apparente égale ou supérieure à 2,5, et albâtre, même dégrossis ou simplement débités, par sciage ou autrement, en blocs ou en plaques de forme carrée ou rectangulaire</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2515110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marbres et travertins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2515110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>bruts ou dégrossis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2515120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>simplement débités, par sciage ou autrement, en blocs ou en plaques de forme carrée ou rectangulaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2515200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Écaussines et autres pierres calcaires de taille ou de construction; albâtre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2516000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Granit, porphyre, basalte, grès et autres pierres de taille ou de construction, même dégrossis ou simplement débités, par sciage ou autrement, en blocs ou en plaques de forme carrée ou rectangulaire</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2516110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Granit</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2516110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>brut ou dégrossi</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2516120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>simplement débité, par sciage ou autrement, en blocs ou en plaques de forme carrée ou rectangulaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2516200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Grès</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2516900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres pierres de taille ou de construction</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2517000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cailloux, graviers, pierres concassées, des types généralement utilisés pour le bétonnage ou pour l'empierrement des routes, des voies ferrées ou autres ballasts, galets et silex, même traités thermiquement; macadam de laitier, de scories ou de déchets industriels similaires, même comprenant des matières reprises dans la première partie du libellé; tarmacadam; granulés, éclats et poudres de pierres des n$o$s|2515|ou 2516, même traités thermiquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2517100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cailloux, graviers, pierres concassées, des types généralement utilisés pour le bétonnage ou pour l'empierrement des routes, des voies ferrées ou autres ballasts, galets et silex, même traités thermiquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2517101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cailloux, graviers, silex et galets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2517102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dolomie et pierres à chaux, concassées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2517108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2517200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Macadam de laitier, de scories ou de déchets industriels similaires, même comprenant des matières citées dans le n$o|2517|10</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2517300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tarmacadam</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2517410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Granulés, éclats et poudres de pierres des n$o$s|2515|ou 2516, même traités thermiquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2517410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de marbre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2517490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2518000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Dolomie, même frittée ou calcinée, y compris la dolomie dégrossie ou simplement débitée, par sciage ou autrement, en blocs ou en plaques de forme carrée ou rectangulaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2518100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dolomie non calcinée ni frittée, dite "crue"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2518200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dolomie calcinée ou frittée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2519000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Carbonate de magnésium naturel (magnésite); magnésie électrofondue; magnésie calcinée à mort (frittée), même contenant de faibles quantités d'autres oxydes ajoutés avant le frittage; autre oxyde de magnésium, même pur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2519100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carbonate de magnésium naturel (magnésite)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2519900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2519901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxyde de magnésium autre que le carbonate de magnésium (magnésite) calciné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2519901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Magnésie électrofondue d'une pureté en poids égale ou supérieure à 94|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2519901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2519903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Magnésie calcinée à mort (frittée)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2519909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2520000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gypse; anhydrite; plâtres, même colorés ou additionnés de faibles quantités d'accélérateurs ou de retardateurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2520100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gypse; anhydrite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2520200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plâtres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2521000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Castines; pierres à chaux ou à ciment</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2522000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chaux vive, chaux éteinte et chaux hydraulique, à l'exclusion de l'oxyde et de l'hydroxyde de calcium du n$o|2825</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2522100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaux vive</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2522200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaux éteinte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2522300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaux hydraulique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2523000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ciments hydrauliques (y compris les ciments non pulvérisés dits "clinkers"), même colorés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2523100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ciments non pulvérisés dits "clinkers"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2523210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ciments Portland</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2523210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ciments blancs, même colorés artificiellement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2523290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2523300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ciments alumineux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2523900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres ciments hydrauliques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2524000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Amiante (asbeste)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2524100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Crocidolite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2524900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2525000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mica, y compris le mica clivé en lamelles irrégulières (splittings); déchets de mica</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2525100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mica brut ou clivé en feuilles ou lamelles irrégulières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2525200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mica en poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2525300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets de mica</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2526000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Stéatite naturelle, même dégrossie ou simplement débitée, par sciage ou autrement, en blocs ou en plaques de forme carrée ou rectangulaire; talc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2526100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non broyés ni pulvérisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2526200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>broyés ou pulvérisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2528000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Borates naturels et leurs concentrés (calcinés ou non), à l'exclusion des borates extraits des saumures naturelles; acide borique naturel titrant au maximum 85|% de H@3BO@3|sur produit sec</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2529000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Feldspath; leucite; néphéline et néphéline syénite; spath fluor</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2529100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Feldspath</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2529210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Spath fluor</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2529210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids 97|% ou moins de fluorure de calcium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2529220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids plus de 97|% de fluorure de calcium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2529300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Leucite; néphéline et néphéline syénite</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2530000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Matières minérales non dénommées ni comprises ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2530100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vermiculite, perlite et chlorites, non expansées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2530200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Kiesérite, epsomite (sulfates de magnésium naturels)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2530900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2530903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Célestine et strontianite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2530904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Spodumène, pétalite, lépidolite, amblygonite, hectorite, jadarite et minéraux similaires, propres à l'extraction du lithium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2530905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bastnaésite, xénotime et minéraux similaires, propres à l'extraction des métaux des terres rares, du scandium ou de l'yttrium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2530907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2530907010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carbonate de calcium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2530907090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 60 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:46</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>6000000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>ÉTOFFES DE BONNETERIE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6001000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Velours, peluches (y compris les étoffes dites "à longs poils") et étoffes bouclées, en bonneterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6001100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Étoffes dites "à longs poils"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de laine ou de poils fins, de coton ou de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6001210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Étoffes à boucles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6001290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6001910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6001990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001990010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6001990090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6002000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Étoffes de bonneterie d'une largeur n'excédant pas 30|cm, contenant en poids 5|% ou plus de fils d'élastomères ou de fils de caoutchouc, autres que celles du n$o|6001</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6002400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant en poids 5|% ou plus de fils d'élastomères mais ne contenant pas de fils de caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6002400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6002400091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6002400091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de laine, de coton ou de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6002400099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6002900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6003000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Étoffes de bonneterie d'une largeur n'excédant pas 30|cm, autres que celles des n$o$s|6001|et 6002</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6003100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6003200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6003300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6003301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dentelles Raschel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6003309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6003400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6003900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6004000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Étoffes de bonneterie d'une largeur excédant 30|cm, contenant en poids 5|% ou plus de fils d'élastomères ou de fils de caoutchouc, autres que celles du n$o|6001</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6004100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant en poids 5|% ou plus de fils d'élastomères mais ne contenant pas de fils de caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6004100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6004100091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6004100091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de laine, de coton ou de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6004100099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6004900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6005000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Étoffes de bonneterie-chaîne (y compris celles obtenues sur métiers à galonner), autres que celles des n$o$s|6001|à 6004</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6005210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrues ou blanchies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teintes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6005350000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005350000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Étoffes mentionnées dans la note 1|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005360000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, écrues ou blanchies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005370000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, teintes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005380000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, imprimées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6005410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrues ou blanchies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teintes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6005900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6005909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6006000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres étoffes de bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6006210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrues ou blanchies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teintes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6006310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrues ou blanchies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teintes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6006410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrues ou blanchies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teintes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6006900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 16 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:12</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRÉPARATIONS DE VIANDE, DE POISSONS, DE CRUSTACÉS, DE MOLLUSQUES, D'AUTRES INVERTÉBRÉS AQUATIQUES OU D'INSECTES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Saucisses, saucissons et produits similaires, de viande, d'abats, de sang ou d'insectes; préparations alimentaires à base de ces produits</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1601001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de foie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1601001011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des animaux relevant des positions 0101 à 0104, à l'exclusion des sangliers</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1601001011</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Saucisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601001011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Saucisses sèches de poulet, de porc et de foie frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601001015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601001019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1601001091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1601001091</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Saucisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601001091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Saucisses sèches de poulet, de porc et de foie frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601001095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601001099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1601009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1601009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Saucisses et saucissons, secs ou à tartiner, non cuits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601009105</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Saucisses sèches de poulet, de porc et de foie frais</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1601009110</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601009110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>des animaux relevant des positions 0101 à 0104, à l'exclusion des sangliers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601009190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1601009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1601009911</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des animaux relevant des positions 0101 à 0104, à l'exclusion des sangliers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601009911</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Saucisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601009919</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1601009991</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601009991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Saucisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1601009999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres preparations et conserves de viande, d'abats, de sang ou d'insectes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations homogénéisées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de foies de tous animaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'oie ou de canard</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de volailles du n$o|0105</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de dinde</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602311100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 57|% ou plus de viande ou d'abats de volailles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602311100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant exclusivement de la viande de dinde non cuite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602311900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602318000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602318010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant en poids 25|% ou plus mais moins de 57|% de viande ou d'abats de volailles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602318090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de volailles de l'espèce Gallus domesticus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602321100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 57|% ou plus de viande ou d'abats de volailles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602321100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non cuits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602321110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Viande de poulet en boîte; poulet séché effiloché; riz gluant au poulet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602321190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602321900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602321910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Viande de poulet en boîte; poulet séché effiloché; riz gluant au poulet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602321990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602323000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 25|% ou plus mais moins de 57|% de viande ou d'abats de volailles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602323010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Viande de poulet en boîte; poulet séché effiloché; riz gluant au poulet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602323090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602329010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Viande de poulet en boîte; poulet séché effiloché; riz gluant au poulet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602329090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602392100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 57|% ou plus de viande ou d'abats de volailles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602392100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non cuits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602392900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602398500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602398510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Viande transformée, contenant en poids 25% ou plus de viande ou d'abats de volailles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602398590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de l'espèce porcine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Jambons et leurs morceaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602411010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Différents types de jambons réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602411090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602419010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Différents types de jambons réfrigérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602419090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Épaules et leurs morceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602421000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602429000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, y compris les mélanges</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602491100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602491100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant en poids 80|% ou plus de viande ou d'abats, de toutes espèces, y compris le lard et les graisses de toute nature ou origine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602491100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Longes (à l'exclusion des échines) et leurs morceaux, y compris les mélanges de longes et jambons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602491300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Échines et leurs morceaux, y compris les mélanges d'échines et épaules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602491500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres mélanges contenant jambons, épaules, longes ou échines et leurs morceaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602491900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602491910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Cous de porc séchés à l'air, assaisonnés ou non, en pièce entière, en morceaux ou en fines tranches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602491920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Viande de porc en boîte; porc séché effiloché</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602491990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602493000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant en poids 40|% ou plus mais moins de 80|% de viande ou d'abats, de toutes espèces, y compris le lard et les graisses de toute nature ou origine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602495000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant en poids moins de 40|% de viande ou d'abats, de toutes espèces, y compris le lard et les graisses de toute nature ou origine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de l'espèce bovine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non cuits; mélanges de viande ou d'abats cuits et de viande ou d'abats non cuits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602501010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Viande de boeuf en boîte; samoussa de boeuf haché</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602501090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602503100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602503100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Corned beef, en récipients hermétiquement clos</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602509500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602509510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Viande de boeuf en boîte; samoussa de boeuf haché</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602509590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1602900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les préparations de sang de tous animaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations de sang de tous animaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de gibier ou de lapin</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602905100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602905100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant de la viande ou des abats de l'espèce porcine domestique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602906100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602906100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>contenant de la viande ou des abats de l'espèce bovine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602906100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>non cuits; mélanges de viande ou d'abats cuits et de viande ou d'abats non cuits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602906900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1602909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'ovins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602909500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de caprins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1602909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1603000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Extraits et jus de viande, de poissons ou de crustacés, de mollusques ou d'autres invertébrés aquatiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1603001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1603001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Essence de poulet en flacon</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1603001080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1603001080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant des produits de la pêche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1603001089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1603008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1603008010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des produits de la pêche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1603008090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations et conserves de poissons; caviar et ses succédanés préparés à partir d'oeufs de poisson</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poissons entiers ou en morceaux, à l'exclusion des poissons hachés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Saumons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604110030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Saumons de l'Atlantique (Salmo salar)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Harengs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Filets crus, simplement enrobés de pâte ou de chapelure (panés), même précuits dans l'huile, congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604129100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604129100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en récipients hermétiquement clos</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604129113</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>des espèces Clupea harengus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604129113</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>épicés et/ou conservés au vinaigre, en saumure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604129113</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604129115</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604129119</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604129193</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604129193</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>épicés et/ou conservés au vinaigre, en saumure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604129193</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604129195</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604129199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604129900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sardines, sardinelles et sprats ou esprots</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604131100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sardines</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604131100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à l'huile d'olive</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604131120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de l'espèce Sardina pilchardus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604131190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604131900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604131920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de l'espèce Sardina pilchardus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604131990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604139000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604139010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Filets crus, simplement enrobés de pâtes ou de chapelure (panés), même précuits dans l'huile, congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604139091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604139091</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de Sprats ou d'esprots (Sprattus sprattus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604139091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en boîtes métalliques hermétiquement fermées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604139092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604139099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Thons, listaos et bonites (Sarda spp.)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604142100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Thons et listaos</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604142100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Listaos ou bonites à ventre rayé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604142100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>à l'huile végétale</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604142600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604142600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Filets dénommés "longes"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604142610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinés à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604142690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604142800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604143100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Thons à nageoires jaunes (Thunnus albacares)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604143100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>à l'huile végétale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604143110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Filets dénommés "longes"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604143190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604143600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604143600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Filets dénommés "longes"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604143610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinés à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604143690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604143800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604144100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604144100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>à l'huile végétale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Thons rouges (Thunnus thynnus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Thons obèses de l'Atlantique (Thunnus obesus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Thons blancs (Thunnus alalunga)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604144600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604144600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Filets dénommés "longes"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604144611</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de thons rouges (thunnus thynnus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144611</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinés à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144619</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604144621</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de thons obèses de l'Atlantique (Thunnus obesus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144621</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinés à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144629</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604144692</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604144692</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinés à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144692</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>de thons blancs (Thunnus alalunga)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144694</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604144697</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144697</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>de thons blancs (Thunnus alalunga)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144699</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604144800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de thons rouges (Thunnus thynnus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144820</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de thons obèses de l'Atlantique (Thunnus obesus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144830</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de thons blancs (Thunnus alalunga)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604144890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604149000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bonites (Sarda spp.)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Maquereaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604151100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des espèces Scomber scombrus et Scomber japonicus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604151100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Filets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604151900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604159000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'espèce Scomber australasicus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604160000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Anchois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604160010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Anchois séchés épicés (sambal ikan bilis) composés d'anchois, d'oignons, de pâte de piments, de tamarin, de belachan, de sucre brun et de sel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604160090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604170000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Anguilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604180000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ailerons de requins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Salmonidés, autres que les saumons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604191010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Truites (Oncorhynchus mykiss)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604191011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Filets de truite fumés au poivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604191090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604193100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poissons du genre Euthynnus, autres que les listaos (Katsuwonus pelamis)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604193100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Filets dénommés "longes"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604193900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604195000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poissons de l'espèce Orcynopsis unicolor</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604199100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604199100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Filets crus, simplement enrobés de pâte ou de chapelure (panés), même précuits dans l'huile, congelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'espadons (Xiphias gladius)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604199200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Morues (Gadus morhua, Gadus ogac, Gadus macrocephalus)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604199300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Lieus noirs (Pollachius virens)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Conserves de lieus noirs fumés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Merlus (Merluccius spp., Urophycis spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Lieus de l'Alaska (Theragra chalcogramma) et lieus jaunes (Pollachius pollachius)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604199700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199720</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'espadons (Xiphias gladius)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199730</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de maquereaux (Scomber colias)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199740</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'auxides (Auxis thazard, Auxis rochei)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604199790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres préparations et conserves de poissons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604200500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations de surimi</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604201000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de saumons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604201005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boulettes de poisson au curry composées de chair de poisson, de curry, d'amidon de froment, de sel, de sucre et condiments composés; rouleaux aux quatre couleurs composés de chair de poisson, de bâtonnets de crabe, d'algues, de pâte de tofu, d'huile végétale, de sucre, de sel, de fécule de pomme de terre, de glutamate de monosodium et de condiments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604201030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Saumons de l'Atlantique (Salmo salar)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de salmonidés, autres que les saumons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604203005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boulettes de poisson au curry composées de chair de poisson, de curry, d'amidon de froment, de sel, de sucre et condiments composés; rouleaux aux quatre couleurs composés de chair de poisson, de bâtonnets de crabe, d'algues, de pâte de tofu, d'huile végétale, de sucre, de sel, de fécule de pomme de terre, de glutamate de monosodium et de condiments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604203010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Truites (Oncorhynchus mykiss)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604203090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604204000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'anchois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604204005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boulettes de poisson au curry composées de chair de poisson, de curry, d'amidon de froment, de sel, de sucre et condiments composés; rouleaux aux quatre couleurs composés de chair de poisson, de bâtonnets de crabe, d'algues, de pâte de tofu, d'huile végétale, de sucre, de sel, de fécule de pomme de terre, de glutamate de monosodium et de condiments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604204090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604205000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de sardines, de bonites, de maquereaux des espèces Scomber scombrus et Scomber japonicus et poissons de l'espèce Orcynopsis unicolor</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604205005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boulettes de poisson au curry composées de chair de poisson, de curry, d'amidon de froment, de sel, de sucre et condiments composés; rouleaux aux quatre couleurs composés de chair de poisson, de bâtonnets de crabe, d'algues, de pâte de tofu, d'huile végétale, de sucre, de sel, de fécule de pomme de terre, de glutamate de monosodium et de condiments</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604205010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de sardines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604205010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de l'espèce Sardinas pilchardus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604205019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604205030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bonites (Sarda spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604205040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de maquereaux des espèces Scomber scombrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604205050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de maquereaux des espèces Scomber japonicus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604205090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604207000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de thons, listaos et autres poissons du genre Euthynnus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604207030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de thons rouges (thunnus thynnus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Conserves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604207040</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de thons obèses de l'Atlantique (Thunnus obesus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Conserves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604207050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de thons listao (Katsuwonus pelamis)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Conserves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604207092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604207092</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Conserves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de thons blancs (Thunnus alalunga)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604207097</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de thons blancs (Thunnus alalunga)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604207099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'autres poissons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boulettes de poisson au curry composées de chair de poisson, de curry, d'amidon de froment, de sel, de sucre et condiments composés; rouleaux aux quatre couleurs composés de chair de poisson, de bâtonnets de crabe, d'algues, de pâte de tofu, d'huile végétale, de sucre, de sel, de fécule de pomme de terre, de glutamate de monosodium et de condiments</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604209011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de harengs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>des espèces Clupea harengus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Conserves de lieus noirs fumés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604209030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Sprats ou esprots (Sprattus sprattus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en boîtes métalliques hermétiquement fermées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de maquereaux (Scomber australasicus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de lamproies fluviales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'espadons (Xiphias gladius)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1604310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caviar et ses succédanés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Caviar</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1604320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Succédanés de caviar</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604320020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1604320090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Crustacés, mollusques et autres invertébrés aquatiques, préparés ou conservés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Crabes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605100005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boulettes de crabe composées d'amidon de froment, de sel, de sucre, de condiments composés, de chair de crabe et de farce</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605100011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en boîtes métalliques hermétiquement fermées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605100011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cancer pagurus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605100031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605100091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605100091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cancer pagurus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605100096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Crevettes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Non présentées dans un contenant hermétique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605211005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Har gow composé de crevettes, d'amidon de froment, de tapioca, d'eau, d'échalote, de gingembre, de sucre et de sel; shaomai composé de crevettes principalement, de poulet, d'amidon de maïs, d'huile végétale, de poivre noir, d'huile de sésame et d'eau; wonton de crevettes frites composé de crevettes, de sel, d'huile, de sucre, de gingembre, de poivre, d'oeufs, de vinaigre et de sauce de soja</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605211020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>grises du genre Crangon spp.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605211020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>congelées et décortiquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605211030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605211040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crevettes de l'espèce Pandalus borealis, cuites, décortiquées et congelées, mais non autrement préparées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605211050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crevettes de l'espèce Pandalus montagui, cuites, décortiquées et congelées, mais non autrement préparées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605211091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605211091</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>décortiquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605211091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>congelées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605211096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605211099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Har gow composé de crevettes, d'amidon de froment, de tapioca, d'eau, d'échalote, de gingembre, de sucre et de sel; shaomai composé de crevettes principalement, de poulet, d'amidon de maïs, d'huile végétale, de poivre noir, d'huile de sésame et d'eau; wonton de crevettes frites composé de crevettes, de sel, d'huile, de sucre, de gingembre, de poivre, d'oeufs, de vinaigre et de sauce de soja</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605219020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>grises du genre Crangon spp.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>congelées et décortiquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605219040</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crevettes de l'espèce Pandalus borealis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>cuites, décortiquées et congelées, mais non autrement préparées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>cuites et décortiquées, destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219049</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605219055</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crevettes de l'espèce Pandalus jordani</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>cuites et décortiquées, destinées à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605219057</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219057</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>congelées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219058</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605219060</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crevettes de l'espèce Pandalus montagui</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>cuites, décortiquées et congelées, mais non autrement préparées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219062</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>cuites et décortiquées, destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219065</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605219091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605219091</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>décortiquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>congelées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605219099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Har gow composé de crevettes, d'amidon de froment, de tapioca, d'eau, d'échalote, de gingembre, de sucre et de sel; shaomai composé de crevettes principalement, de poulet, d'amidon de maïs, d'huile végétale, de poivre noir, d'huile de sésame et d'eau; wonton de crevettes frites composé de crevettes, de sel, d'huile, de sucre, de gingembre, de poivre, d'oeufs, de vinaigre et de sauce de soja</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605290020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>grises du genre Crangon spp.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>congelées et décortiquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Crevettes de l'espèce Pandalus borealis, cuites, décortiquées et congelées, mais non autrement préparées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Crevettes de l'espèce Pandalus montagui, cuites, décortiquées et congelées, mais non autrement préparées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Crevettes de l'espèce Pandalus borealis, cuites et décortiquées, destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Crevettes de l'espèce Pandalus montagui, cuites et décortiquées, destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Crevettes de l'espèce Pandalus jordani, cuites et décortiquées, destinées à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605290091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605290091</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>décortiquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>congelées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605290099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Homards</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chair de homard, cuite, pour la fabrication de beurres de homards, de terrines, de soupes ou de sauces</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres crustacés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605400020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Langoustines (Nephrops norvegicus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605400030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ecrevisses, cuites à l'aneth, congelées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605400040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Queues d'écrevisses communes de l'espèce Procambarus clarkii, cuites, destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605400070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mollusques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huîtres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Coquilles St-Jacques ou peignes, pétoncles ou vanneaux, autres coquillages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605520020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Coquilles Saint-Jacques (Pecten maximus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605520090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Moules</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605531000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en récipients hermétiquement clos</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605531010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>des espèces Mytilus spp. et Perna spp.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605531010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Moules (Mytilus edulis) congelées, cuites, même décortiquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605531020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Préparations et conserves de moules (Mytilus edulis), plats contenant des moules (Mytilus edulis), y compris les plats prêts à consommer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605531090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605531095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605539000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605539010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>des espèces Mytilus spp. et Perna spp.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605539010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Moules (Mytilus edulis) congelées, cuites, même décortiquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605539020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Préparations et conserves de moules (Mytilus edulis), plats contenant des moules (Mytilus edulis), y compris les plats prêts à consommer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605539090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605539095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605540000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Seiches, sépioles, calmars et encornets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605540010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boulettes de seiche composées de chair de seiche, d'amidon de froment, de sel, de sucre et de condiments composés; boulettes aromatisées au homard: chair de seiche, chair de poisson et chair de crabe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605540090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605550000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poulpes ou pieuvres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605560000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Clams, coques et arches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605570000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ormeaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605580000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Escargots, autres que de mer</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1605590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605590010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bulots (Buccinum Undatum)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605590090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1605610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres invertébrés aquatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bêches-de-mer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oursins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605630000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Méduses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1605690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

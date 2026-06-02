@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 76 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:58</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>7600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>ALUMINIUM ET OUVRAGES EN ALUMINIUM</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Aluminium sous forme brute</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7601100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Aluminium non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7601101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plaques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7601109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7601200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alliages d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7601203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plaques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7601204000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Billettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7601208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets et débris d'aluminium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7602001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7602001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tournures, frisons, copeaux, moulures, sciures et limailles; déchets de feuilles et de bandes minces, coloriées, revêtues ou contrecollées, d'une épaisseur n'excédant pas 0,2|mm (support non compris)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7602001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres (y compris les rebuts de fabrication)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7602009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7603000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poudres et paillettes d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7603100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres à structure non lamellaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7603200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres à structure lamellaire; paillettes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7604000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Barres et profilés en aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7604100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en aluminium non allié</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7604101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Barres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604101011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Non assemblés, ne contenant pas plus de 99,3 % d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7604109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Profilés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7604109011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>revêtus d'un numéro de fabrication spécifique, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604109011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Non assemblés, ne contenant pas plus de 99,3 % d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604109019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7604109025</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>coniques pour le renforcement des empennages latéraux, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604109025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Non assemblés, ne contenant pas plus de 99,3 % d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604109029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7604109080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604109080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Non assemblés, ne contenant pas plus de 99,3 % d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604109089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7604210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Profilés creux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7604290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7604299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Profilés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604299010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>revêtus d'un numéro de fabrication spécifique, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604299020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>coniques pour le renforcement des empennages latéraux, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7604299090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7605000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils en aluminium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7605110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en aluminium non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7605110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>dont la plus grande dimension de la section transversale excède 7|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7605190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7605190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fil en aluminium non allié, d'un diamètre de 2|mm ou plus mais n'excédant pas 6|mm, recouvert d'une couche de cuivre d'une épaisseur de 0,032|mm ou plus mais n'excédant pas 0,117|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7605190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7605210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages d'aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7605210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>dont la plus grande dimension de la section transversale excède 7|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7605210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fil en alliage d'aluminium d'un diamètre de 9,50 mm ou plus mais n'excédant pas 19,15 mm, en bobines, destiné à la fabrication de fixations aéronautiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7605210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7605290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tôles et bandes en aluminium, d'une épaisseur excédant 0,2|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de forme carrée ou rectangulaire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en aluminium non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606113000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Panneau composite en aluminium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606115000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606115000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>peintes, vernies ou revêtues de matière plastique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606115025</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606115025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606115030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606115086</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606115086</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606115089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606119100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, d'une épaisseur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606119100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieure à 3|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606119125</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119125</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606119186</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119186</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119189</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606119300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 3|mm ou plus mais inférieure à 6|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606119325</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119325</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119330</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606119386</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119386</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119389</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606119900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 6|mm ou plus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606119925</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119925</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606119986</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119986</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606119989</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en alliages d'aluminium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606121100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bandes pour corps de boîtes boisson, bandes pour couvercles de boîtes boisson et bandes pour anneaux de boîtes boisson</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606121100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bandes pour corps de boîtes boisson</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606121900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bandes pour couvercles de boîtes boisson et bandes pour anneaux de boîtes boisson</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606123000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Panneau composite en aluminium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606125000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606125000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>peintes, vernies ou revêtues de matière plastique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606125023</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606125023</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606125023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>d'une épaisseur de 0,8 mm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606125025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606125030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606125085</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606125085</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606125085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinées à être utilisés comme panneaux de carrosserie dans l'industrie automobile et d'une épaisseur n'excédant pas 6 mm, ou destinées à la fabrication de pièces d'aéronefs et d'une épaisseur de 0,8 mm ou plus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606125087</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606125087</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Rouleaux d'aluminium redressés sous tension, d'une épaisseur maximale de 1,5 mm, d'une largeur d'au moins 800 mm mais n'excédant pas 2050 mm, destinés à la production de panneaux composites en aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606125088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606125089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, d'une épaisseur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606129200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieure à 3|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129223</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129223</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129223</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>d'une épaisseur de 0,8 mm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129225</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en rouleaux ou en bandes enroulées, en feuilles coupées à dimension ou sous la forme de cercles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129227</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129230</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129291</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129291</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129291</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à être utilisés comme panneaux de carrosserie dans l'industrie automobile ou destinées à la fabrication de pièces d'aéronefs et d'une épaisseur de 0,8 mm ou plus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129292</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129292</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Rouleaux d'aluminium redressés sous tension, d'une épaisseur maximale de 1,5 mm, d'une largeur d'au moins 800 mm mais n'excédant pas 2050 mm, destinés à la production de panneaux composites en aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129293</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>en rouleaux ou en bandes enroulées en feuilles coupées à dimension ou sous la forme de cercles, d'une épaisseur de 0,2 mm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129294</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129297</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606129300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 3|mm ou plus mais inférieure à 6|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129385</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129385</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129385</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à être utilisées comme panneaux de carrosserie dans l'industrie automobile, ou destinées à la fabrication de pièces d'aéronefs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129386</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en rouleaux ou en bandes enroulées, en feuilles coupées à dimension ou sous la forme de cercles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129387</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129388</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606129900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 6|mm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129921</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tôles d'alliages aluminium-lithium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129921</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129921</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à être utilisées comme panneaux de carrosserie dans l'industrie automobile et d'une épaisseur de 6 mm, ou destinées à la fabrication de pièces d'aéronefs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129925</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en tôles, d'une épaisseur supérieure à 6 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129929</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129985</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606129985</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans support, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129985</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à être utilisées comme panneaux de carrosserie dans l'industrie automobile et d'une épaisseur de 6 mm, ou destinées à la fabrication de pièces d'aéronefs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129986</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en tôles, d'une épaisseur supérieure à 6 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129987</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606129988</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en aluminium non allié</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606910025</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606910025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sans support, sans couches intérieures en autres matières,- en rouleaux ou en bandes enroulées, sous la forme de tôles coupées à dimension ou sous la forme de cercles; d'une épaisseur n'excédant pas 6 mm;- sous la forme de tôles d'une épaisseur supérieure à 6 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606910030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606910086</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606910086</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sans support, sans couches intérieures en autres matières,- en rouleaux ou en bandes enroulées, sous la forme de tôles coupées à dimension ou sous la forme de cercles; d'une épaisseur n'excédant pas 6 mm;- sous la forme de tôles d'une épaisseur supérieure à 6 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606910088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7606920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en alliages d'aluminium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606920023</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tôles revêtues d'un numéro de fabrication spécifique, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606920023</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sans support, sans couches intérieures en autres matières,- en rouleaux ou en bandes enroulées, sous la forme de tôles coupées à dimension ou sous la forme de cercles; d'une épaisseur n'excédant pas 6 mm;- sous la forme de tôles d'une épaisseur supérieure à 6 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606920023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une épaisseur de 0,8 mm ou plus, destinées à la fabrication de pièces d'aéronefs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606920025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606920030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606920085</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606920085</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sans support, sans couches intérieures en autres matières,- en rouleaux ou en bandes enroulées, sous la forme de tôles coupées à dimension ou sous la forme de cercles; d'une épaisseur n'excédant pas 6 mm;- sous la forme de tôles d'une épaisseur supérieure à 6 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606920085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à être utilisés comme panneaux de carrosserie dans l'industrie automobile et d'une épaisseur n'excédant pas 6 mm, ou destinées à la fabrication de pièces d'aéronefs et d'une épaisseur de 0,8 mm ou plus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7606920091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606920091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Rouleaux d'aluminium redressés sous tension, d'une épaisseur maximale de 1,5 mm, d'une largeur d'au moins 800 mm mais n'excédant pas 2050 mm, destinés à la production de panneaux composites en aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606920092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7606920095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Feuilles et bandes minces en aluminium (même imprimées ou fixées sur papier, carton, matières plastiques ou supports similaires) d'une épaisseur n'excédant pas 0,2|mm (support non compris)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>sans support</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>simplement laminées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607111100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur inférieure à 0,021|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607111100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en rouleaux d'un poids n'excédant pas|10|kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607111111</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une épaisseur égale ou supérieure à 0,007 mm mais inférieure à 0,021 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111111</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Thaïlande</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111119</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607111900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>à usage domestique, d'une épaisseur de 0,008 mm ou plus mais n'excédant pas 0,018 mm, en rouleaux d'une largeur n'excédant pas 650 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>à usage domestique, d'une épaisseur non inférieure à 0,007 mm et inférieure à 0,008 mm, même recuite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>à usage domestique, d'une épaisseur non inférieure à 0,008 mm ni supérieure à 0,018 mm, présentées en rouleaux, d'une largeur supérieure à 650 mm, même recuites</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>à usage domestique, d'une épaisseur supérieure à 0,018 mm et inférieure à 0,021 mm, même recuites</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour d'autres usages que celui de papier aluminium à usage domestique,- d'une épaisseur non inférieure à 0,007 mm et inférieure à 0,008 mm, même recuites,- d'une épaisseur non inférieure à 0,008 mm ni supérieure à 0,018 mm, présentées en rouleaux d'une largeur supérieure à 650 mm, même recuites, ou,- d'une épaisseur supérieure à 0,018 mm et inférieure à 0,021 mm, même recuites</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607111991</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Feuilles et bandes minces en aluminium destinées à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111994</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Feuilles d'aluminium à usage domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607111996</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur de 0,021|mm ou plus mais n'excédant pas 0,2|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119044</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles d'aluminium en rouleaux: - d'une pureté de 99,99 % en poids, - d'une épaisseur de 0,021 mm ou plus, mais n'excédant pas 0,2 mm, - d'une largeur de 500 mm, - avec une couche d'oxydes en surface de 3 à 4 nm d'épaisseur, - et d'une texture cubique supérieure à 95 %</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119044</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une épaisseur non inférieure à 0,021 mm ni supérieure à 0,045 mm, présentée en rouleaux d'un poids unitaire excédant 10 kg,  même recuites, constituées d'au moins deux couches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119044</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,03 mm ou plus, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119046</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119048</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une épaisseur non inférieure à 0,021 mm ni supérieure à 0,045 mm, présentées en rouleaux d'un poids supérieur à 10 kg, même recuites, constituées d'au moins deux couches, destinées à d'autres usages que celui de papier d'aluminium à usage domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119048</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,03 mm ou plus, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119049</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119051</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119051</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,03 mm ou plus mais inférieure à 0,2 mm, sans couches intérieures en autres matières, en rouleaux ou en bandes enroulées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119052</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,2 mm, en rouleaux ou en bandes enroulées, sous la forme de tôles coupées à dimension ou sous la forme de cercles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119052</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119052</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en alliages, destinées à être utilisées comme panneaux de carrosserie dans l'industrie automobile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119053</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119054</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119056</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119065</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles d'aluminium lisses présentant les paramètres suivants: -|une teneur en aluminium de 99,98|% ou plus -|une épaisseur de 0,070|mm ou plus mais n'excédant pas 0,125|mm -|une texture en dé du type de celles utilisées pour la gravure haute tension</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119065</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>sans couches intérieures en autres matières, en rouleaux ou en bandes enroulées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119067</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119071</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119071</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une épaisseur non inférieure à 0,021 mm ni supérieure à 0,045 mm, présentée en rouleaux d'un poids unitaire excédant 10 kg,  même recuites, constituées d'au moins deux couches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119071</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,03 mm ou plus, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119072</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119073</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une épaisseur non inférieure à 0,021 mm ni supérieure à 0,045 mm, présentée en rouleaux d'un poids unitaire excédant 10 kg,  même recuites, constituées d'au moins deux couches, destinées à d'autres usages que celui de papier d'aluminium à usage domestique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119073</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,03 mm ou plus, sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119074</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119075</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bande ou feuille en alliage d'aluminium et de magnésium:- d'un alliage conforme aux normes 5182-H19 ou 5052-H19,- en rouleaux d'un diamètre extérieur d'au moins 1 250 mm mais n'excédant pas 1 350 mm,-  d'une épaisseur (tolérance - 0,006 mm) de 0,15 mm, 0,16 mm, 0,18 mm ou 0,20 mm,- d'une largeur (tolérance ± 0,3 mm) de 12,5 mm, 15,0 mm, 16,0 mm, 25,0 mm, 35,0 mm, 50,0 mm ou 356 mm, - d'une tolérance de courbure n'excédant pas 0,4 mm/750 mm,- présentant une mesure de la planéité: I = ±4,- dont la résistance à la traction est supérieure à (5182-H19) 365 MPa ou (5052-H19) 320 MPa,- dont l'allongement à la rupture est supérieur à (5182-H19) 3 % ou (5052-H19) 2,5 %destinée à être utilisée dans la fabrication de lamelles de stores</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,03 mm ou plus mais inférieure à 0,2 mm, sans couches intérieures en autres matières, en rouleaux ou en bandes enroulées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119076</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0.2 mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119076</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119076</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinées à être utilisées comme panneaux de carrosserie dans l'industrie automobile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119077</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119078</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119079</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,03 mm ou plus mais inférieure à 0,2 mm, sans couches intérieures en autres matières, en rouleaux ou en bandes enroulées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur de 0,2 mm, en rouleaux ou en bandes enroulées, sous la forme de tôles coupées à dimension ou sous la forme de cercles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607119092</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en alliages, destinées à être utilisées comme panneaux de carrosserie dans l'industrie automobile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119093</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607119096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur inférieure à 0,021|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607191011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une épaisseur égale ou supérieure à 0,007 mm mais inférieure à 0,021 mm, simplement laminées, gaufrées, sous forme de rouleaux dont le poids n'excède pas 10 kilogrammes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607191011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Thaïlande</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607191019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607191090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur de 0,021|mm ou plus mais n'excédant pas 0,2|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607199075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une épaisseur de 0,03 mm ou plus mais inférieure à 0,2 mm, sans couches intérieures en autres matières, en rouleaux ou en bandes enroulées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607199084</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une épaisseur de 0,2 mm, en rouleaux ou en bandes enroulées, sous la forme de tôles coupées à dimension ou sous la forme de cercles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607199084</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>sans couches intérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607199084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en alliages, destinées à être utilisées comme panneaux de carrosserie dans l'industrie automobile</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607199093</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607199093</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Rouleaux d'aluminium alliés redressés sous tension, d'une largeur d'au moins 800 mm mais n'excédant pas 2050 mm, destinés à la production de panneaux composites en aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607199094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607199095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607199096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7607200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>sur support</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur (support non compris) inférieure à 0,021|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7607209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur (support non compris) de 0,021|mm ou plus mais n'excédant pas 0,2|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Panneau composite en aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7607209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7608000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tubes et tuyaux en aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7608100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en aluminium non allié</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7608100011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608100011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non assemblés, non soudés, ne contenant pas plus de 99,3 % d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608100019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tubes et tuyaux prêts à l'emploi, utilisables comme conduites hydrauliques ou comme conduites pour carburants ou lubrifiants, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7608100080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608100080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non assemblés, non soudés, ne contenant pas plus de 99,3 % d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608100089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7608200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages d'aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7608202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>soudés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608202010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608202020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes et tuyaux prêts à l'emploi, utilisables comme conduites hydrauliques ou comme conduites pour carburants ou lubrifiants, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608202090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7608208100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7608208100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>simplement filés à chaud</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608208110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608208190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7608208900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608208910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608208920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tubes et tuyaux prêts à l'emploi, utilisables comme conduites hydrauliques ou comme conduites pour carburants ou lubrifiants, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7608208990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7609000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Accessoires de tuyauterie (raccords, coudes, manchons, par exemple), en aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7609000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7609000030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bloc de raccordement en aluminium pour systèmes de climatisation automobiles : -traité par trempe T6, -doté d'embouts ronds présentant une rainure extérieure circulaire,-percé de trous traversants ou non, constitué de profilés présentant un rayon supérieur de 8 mm ou plus mais n'excédant pas 11 mm et un rayon inférieur de 12 mm ou plus mais n'excédant pas 17 mm,-présentant une distance entre les trous de 15 mm ou plus, mais n'excédant pas 22 mm,-avec douilles conçues pour le brasage ou le serrage,-avec trous de montage pour vis de montage M6 ou M8, filetées ou non,-d'une largeur de 5 mm ou plus, mais n'excédant pas 16 mm,-destiné à raccorder un compresseur, un condenseur, un évaporateur, un refroidisseur et d'autres éléments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7609000040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bloc d'aluminium brasé à la flamme pour raccorder les flexibles dans les échangeurs de chaleur automobiles et/ou les refroidisseurs d'air à turbocompresseur et/ou les refroidisseurs de transmission automatique :-équipé de flexibles de raccordement extrudés et cintrés d'un diamètre extérieur de 5 mm ou plus, mais n'excédant pas 25 mm,-d'une masse de 0,02 kg ou plus, mais n'excédant pas 0,25 kg,destiné à la fabrication des systèmes de refroidissement des véhicules du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7609000050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Composants usinés en aluminium :-contenant en poids 0,55 % ou plus de magnésium, mais n'excédant pas 0,61, %,-contenant en poids 0,55 % ou plus de silicone, mais n'excédant pas 0,61, %,-présentant un état de durcissement T5 ou T6,-d'une masse de 0,05 kg ou plus, mais n'excédant pas 0,2 kg,destinés à la fabrication de systèmes de refroidissement au CO¿ des véhicules à moteur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7609000060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bloc de raccordement en aluminium :-d'un poids de 3 g ou plus, mais n'excédant pas 400 g,-fabriqué à partir d'aluminium de qualité 6061-T6, 6060-T6 ou 6082-T6,-faisant partie intégrante d'un assemblage de flexibles de climatisation, d'un assemblage de flexibles de refroidissement à huile, d'un assemblage de flexibles de frein à air comprimé ou d'un assemblage de flexibles de refroidissement à eau,-comportant des trous (douilles) ou des cannelures (pilotes) ou des filetages permettant l'installation dans un système de climatisation automobile ou un autre système de climatisation (également considéré comme une installation dans le conduit d'air),-avec douilles conçues pour le brasage ou la fixation,-percé d'au moins un trou traversant d'un diamètre de 3 mm ou plus, mais n'excédant pas 25 mm,-destiné à la fabrication de systèmes de refroidissement et de climatisation automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7609000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7610000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Constructions et parties de constructions (ponts et éléments de ponts, tours, pylônes, piliers, colonnes, charpentes, toitures, portes et fenêtres et leurs cadres, chambranles et seuils, balustrades, par exemple), en aluminium, à l'exception des constructions préfabriquées du n$o|9406; tôles, barres, profilés, tubes et similaires, en aluminium, préparés en vue de leur utilisation dans la construction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7610100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Portes, fenêtres et leurs cadres, chambranles et seuils</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7610900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7610901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ponts et éléments de ponts, tours et pylônes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7610909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7610909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres et profilés (creux ou non), tubes, tuyaux, non assemblés, non soudés, en aluminium, allié ou non, ne contenant pas plus de 99,3 % d'aluminium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7610909091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7610909091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Produits réunis (par exemple par soudure ou par des fixations) pour constituer des sous-assemblages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7610909092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Produits se trouvant dans un kit emballé comportant les pièces nécessaires pour être assemblées en un produit fini sans autre opération de finition ou de fabrication des pièces («kit de produits finis»)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7610909095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7611000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Réservoirs, foudres, cuves et récipients similaires pour toutes matières (à l'exception des gaz comprimés ou liquéfiés), en aluminium, d'une contenance excédant 300|l, sans dispositifs mécaniques ou thermiques, même avec revêtement intérieur ou calorifuge</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7612000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Réservoirs, fûts, tambours, bidons, boîtes et récipients similaires en aluminium (y compris les étuis tubulaires rigides ou souples), pour toutes matières (à l'exception des gaz comprimés ou liquéfiés), d'une contenance n'excédant pas 300|l, sans dispositifs mécaniques ou thermiques, même avec revêtement intérieur ou calorifuge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7612100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Étuis tubulaires souples</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7612900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7612902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Récipients des types utilisés pour aérosols</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7612903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fabriqués à partir de feuilles et bandes minces d'une épaisseur n'excédant pas 0,2|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7612908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7613000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Récipients en aluminium pour gaz comprimés ou liquéfiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7613000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bouteilles pour le gonflage des tobbogans d'évacuation, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7613000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7614000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Torons, câbles, tresses et similaires, en aluminium, non isolés pour l'électricité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7614100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>avec âme en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7614900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7615000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles de ménage ou d'économie domestique, d'hygiène ou de toilette, et leurs parties, en aluminium; éponges, torchons, gants et articles similaires pour le récurage, le polissage ou usages analogues, en aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7615100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles de ménage ou d'économie domestique et leurs parties; éponges, torchons, gants et articles similaires pour le récurage, le polissage ou usages analogues</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7615101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>coulés ou moulés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7615101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Radiateurs en aluminium et éléments ou sections composant ces radiateurs, que ces éléments soient ou non assemblés en blocs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7615101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7615103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fabriqués à partir de feuilles et bandes minces d'une épaisseur n'excédant pas 0,2|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7615108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7615108010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Radiateurs en aluminium et éléments ou sections composant ces radiateurs, que ces éléments soient ou non assemblés en blocs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7615108090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7615200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles d'hygiène ou de toilette et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7616000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7616100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pointes, clous, crampons appointés, vis, boulons, écrous, crochets à pas de vis, rivets, goupilles, chevilles, clavettes, rondelles et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boulons et écrous à blocage par simple vissage du type Hi-lok</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7616100091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616100091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616100099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7616910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Toiles métalliques, grillages et treillis, en fils d'aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7616990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7616991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>coulés ou moulés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616991010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colliers, brides et dispositifs de soutien, de raccordement, de serrage et d'espacement, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616991020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dispositifs quick change permettant la transformation d'avions de transport de passagers en avions de transport de marchandises et vice versa, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7616991091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616991091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Radiateurs en aluminium et éléments ou sections composant ces radiateurs, que ces éléments soient ou non assemblés en blocs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616991099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7616999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7616999001</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616999001</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Radiateurs en aluminium et éléments ou sections composant ces radiateurs, que ces éléments soient ou non assemblés en blocs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616999009</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7616999015</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616999020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dispositifs quick change permettant la transformation d'avions de transport de passagers en avions de transport de marchandises et vice versa, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616999030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tôles à épaisseur variable pour des largeurs égales ou supérieures à 1|200|mm, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616999070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Éléments de liaison destiné à la fabrication des arbres rotor arrière d'hélicoptères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616999077</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pieds de support pour téléviseur avec ou sans support permettant la fixation et la stabilisation de l'appareil</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7616999091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616999091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Radiateurs en aluminium et éléments ou sections composant ces radiateurs, que ces éléments soient ou non assemblés en blocs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7616999099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

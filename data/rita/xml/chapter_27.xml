@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 27 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:21</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>2700000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>COMBUSTIBLES MINÉRAUX, HUILES MINÉRALES ET PRODUITS DE LEUR DISTILLATION; MATIÈRES BITUMINEUSES; CIRES MINÉRALES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2701000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Houilles; briquettes, boulets et combustibles solides similaires obtenus à partir de la houille</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2701110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Houilles, même pulvérisées, mais non agglomérées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2701110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Anthracite</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2701120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Houille bitumineuse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2701121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Houille à coke</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2701129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2701190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres houilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2701200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Briquettes, boulets et combustibles solides similaires obtenus à partir de la houille</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2702000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lignites, même agglomérés, à l'exclusion du jais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2702100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lignites, même pulvérisés, mais non agglomérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2702200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lignites agglomérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2703000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tourbe (y compris la tourbe pour litière), même agglomérée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2704000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cokes et semi-cokes de houille, de lignite ou de tourbe, même agglomérés; charbon de cornue</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2704001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cokes et semi-cokes de houille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2704003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cokes et semi-cokes de lignite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2704009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2705000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gaz de houille, gaz à l'eau, gaz pauvre et gaz similaires, à l'exclusion des gaz de pétrole et autres hydrocarbures gazeux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2706000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Goudrons de houille, de lignite ou de tourbe et autres goudrons minéraux, même déshydratés ou étêtés, y compris les goudrons reconstitués</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2707000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huiles et autres produits provenant de la distillation des goudrons de houille de haute température; produits analogues dans lesquels les constituants aromatiques prédominent en poids par rapport aux constituants non aromatiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2707100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Benzol (benzène)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à être utilisés comme carburants ou comme combustibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à d'autres usages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2707200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Toluol (toluène)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à être utilisés comme carburants ou comme combustibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à d'autres usages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2707300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Xylol (xylènes)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à être utilisés comme carburants ou comme combustibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à d'autres usages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Naphtalène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2707500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres mélanges d'hydrocarbures aromatiques distillant 65|% ou plus de leur volume (y compris les pertes) à 250° d'après la méthode ISO 3405|(équivalente à la méthode ASTM|D|86)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707500080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à être utilisés comme carburants ou comme combustibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707500089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à d'autres usages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2707910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huiles de créosote</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2707990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2707991100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Huiles brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707991100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Huiles légères brutes distillant 90|% ou plus de leur volume jusqu'à 200|°C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707991900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2707992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Têtes sulfurées; anthracène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707992010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Huile anthracénique (CAS RN 90640-80-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707992090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits basiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Phénols</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2707999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à la fabrication des produits du n$o|2803</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2707999900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707999910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Huiles lourdes et moyennes, dont la teneur aromatique excède la teneur non aromatique, destinées à être utilisées en tant que produits d'alimentation des raffineries devant subir un des traitements spécifiques définis dans la note complémentaire 5|du chapitre 27</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2707999990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2708000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Brai et coke de brai de goudron de houille ou d'autres goudrons minéraux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2708100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Brai</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2708100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Brai de goudron de houille à haute température (CAS RN 65996-93-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2708100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2708200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coke de brai</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2709000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huiles brutes de pétrole ou de minéraux bitumineux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2709001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Condensats de gaz naturel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2709009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huiles de pétrole ou de minéraux bitumineux, autres que les huiles brutes; préparations non dénommées ni comprises ailleurs, contenant en poids 70|% ou plus d'huiles de pétrole ou de minéraux bitumineux et dont ces huiles constituent l'élément de base; déchets d'huiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles de pétrole ou de minéraux bitumineux (autres que les huiles brutes) et préparations non dénommées ni comprises ailleurs, contenant en poids 70|% ou plus d'huiles de pétrole ou de minéraux bitumineux et dont ces huiles constituent l'élément de base, autres que celles contenant du biodiesel et autres que les déchets d'huiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huiles légères et préparations</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710121100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710121500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à subir une transformation chimique par un traitement autre que ceux définis pour la sous-position|2710|12|11</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710122100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à d'autres usages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710122100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Essences spéciales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710122100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>White spirit</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710122500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710122510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Contenant de l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710122520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Mélange d'hydrocarbures aliphatiques en C6 (CAS RN 92112-69-1) contenant en poids 60 % ou plus mais pas plus de 80 % de n-hexane (CAS RN 110-54-3), avec:-une densité égale ou supérieure à 0,666 mais inférieure à 0,686,-un total de composés carbonylés inférieur à 1 ppm,-un total de composés acétyléniques inférieur à 2 ppm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710122590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710123100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710123100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Essences pour moteur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710123100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Essences d'aviation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710123110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Contenant de l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710123190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710124100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres, d'une teneur en plomb</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710124100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>n'excédant pas 0,013|g par|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710124100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>avec un indice d'octane (IOR) inférieur à 95</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710124110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Contenant de l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710124190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710124500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>avec un indice d'octane (IOR) de 95|ou plus mais inférieur à 98</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710124510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Contenant de l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710124590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710124900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>avec un indice d'octane (IOR) de 98|ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710124910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Contenant de l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710124990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710125000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>excédant 0,013|g par|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710125010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Contenant de l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710125090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710127000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Carburéacteurs, type essence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710127010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Contenant de l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710127090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres huiles légères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710129010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Contenant de l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710129090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710191100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Huiles moyennes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710191100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710191110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Carburants durables d'aviation répondant aux exigences de la norme ASTM D7566-22 Spécification standard pour carburant aviation contenant des hydrocarbures synthétisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710191190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710191500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à subir une transformation chimique par un traitement autre que ceux définis pour la sous-position|2710|19|11</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710191510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Carburants durables d'aviation répondant aux exigences de la norme ASTM D7566-22 Spécification standard pour carburant aviation contenant des hydrocarbures synthétisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710191590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710192100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à d'autres usages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710192100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pétrole lampant</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710192100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Carburéacteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710192110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Carburants durables d'aviation répondant aux exigences de la norme ASTM D7566-22 Spécification standard pour carburant aviation contenant des hydrocarbures synthétisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710192190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710192500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710192510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Carburants durables d'aviation répondant aux exigences de la norme ASTM D7566-22 Spécification standard pour carburant aviation contenant des hydrocarbures synthétisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710192590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710192900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710192910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Carburants durables d'aviation répondant aux exigences de la norme ASTM D7566-22 Spécification standard pour carburant aviation contenant des hydrocarbures synthétisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710192990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710193100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Huiles lourdes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710193100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Gazole</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710193100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destiné à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710193500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destiné à subir une transformation chimique par un traitement autre que ceux définis pour la sous-position|2710|19|31</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710194200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destiné à d'autres usages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710194200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de soufre n'excédant pas 0,001|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710194200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Ayant une teneur en carbone biosourcé d'au moins 80|% en poids</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710194221</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile, purs; mélanges contenant, en poids, plus de 20|% de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194221</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194229</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710194400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710194421</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile, purs; mélanges contenant, en poids, plus de 20|% de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194421</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194429</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194433</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710194600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,001|% mais n'excédant pas 0,002|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710194621</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile, purs; mélanges contenant, en poids, plus de 20|% de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194621</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194629</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194633</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710194700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,002|% mais n'excédant pas 0,1|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710194721</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile, purs; mélanges contenant, en poids, plus de 20|% de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194721</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194729</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194733</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710194800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,1|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>d'une teneur en poids de soufre n'excédant pas 0,2|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710194890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710195100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fuel oils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710195100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710195500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à subir une transformation chimique par un traitement autre que ceux définis pour la sous-position|2710|19|51</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710196200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à d'autres usages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710196200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de soufre n'excédant pas 0,1|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710196600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,1|% mais n'excédant pas 0,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710196700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,5|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710197100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Huiles lubrifiantes et autres huiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710197100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710197500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à subir une transformation chimique par un traitement autre que ceux définis pour la sous-position|2710|19|71</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710198100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à d'autres usages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710198100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Huiles pour moteurs, compresseurs et turbines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710198120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Huile de base hydro-isomérisée par catalyse et déparaffinée constituée d'hydrocarbures hydrogénés hautement isoparaffiniques, contenant:- au moins 90 %, en poids, de composés saturés, et- au maximum 0,03 %, en poids, (enlever la virgule) de soufre,et présentant- un indice de viscosité supérieur ou égal à 80 mais inférieur à 120, etune viscosité cinématique supérieure ou égale à 5,0 cSt à 100 °C, mais inférieure ou égale à 13,0 cSt à 100 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710198130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Huile de base hydro-isomérisée par catalyse et déparaffinée constituée d'hydrocarbures hydrogénés hautement isoparaffiniques, contenant: -au moins 90 % en poids de composés saturés, et -au maximum 0,03 % en poids de soufre, -et présentant un -indice de viscosité supérieur ou égal 80, mais inférieur à 120, ainsi qu'une -viscosité cinématique inférieur à 5,0 cSt à 100 °C ou supérieure à 13,0 cSt à 100 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710198140</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Huile de base hydro-isomérisée par catalyse et déparaffinée constituée d'hydrocarbures hydrogénés hautement isoparaffiniques, contenant: -au moins 90 % en poids de composés saturés, et -au maximum 0,03 % en poids de soufre,présentant un indice de viscosité supérieur ou égal à 120</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710198190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710198300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Huiles hydrauliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710198500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Huiles blanches, paraffine liquide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710198700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Huiles pour engrenages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710199100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Huiles pour usiner les métaux, huiles de démoulage, huiles anticorrosives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710199300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Huiles isolantes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710199900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres huiles lubrifiantes et autres huiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710199920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Huile de base déparaffinée catalytique, synthétisée à partir d'hydrocarbures gazeux et soumise ensuite à un procédé de conversion de la paraffine lourde, constituée de:- pas plus de 1 mg/kg de soufre;- plus de 99 % en poids d'hydrocarbures saturés;- plus de 75 % en poids d'hydrocarbures n-paraffiniques et isoparaffiniques présentant une chaîne carbonée de 18 ou plus, mais n'excédant pas 50; et- ayant une viscosité cinématique à 40°C de plus de 6,5 mm²/s, ou- ayant une viscosité cinématique à 40°C de plus de 11 mm²/s et un indice de viscosité d'au moins 120</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710199940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Huile de base hydro-isomérisée par catalyse et déparaffinée constituée d'hydrocarbures hydrogénés hautement isoparaffiniques, contenant:- au moins 90 %, en poids, de composés saturés, et- au maximum 0,03 %, en poids, (enlever la virgule) de soufre,et présentant- un indice de viscosité supérieur ou égal à 80 mais inférieur à 120, etune viscosité cinématique supérieure ou égale à 5,0 cSt à 100 °C, mais inférieure ou égale à 13,0 cSt à 100 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710199950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Huile de base hydro-isomérisée par catalyse et déparaffinée constituée d'hydrocarbures hydrogénés hautement isoparaffiniques, contenant: -au moins 90 % en poids de composés saturés, et -au maximum 0,03 % en poids de soufre, -et présentant un -indice de viscosité supérieur ou égal 80, mais inférieur à 120, ainsi qu'une -viscosité cinématique inférieur à 5,0 cSt à 100 °C ou supérieure à 13,0 cSt à 100 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710199960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Huile de base hydro-isomérisée par catalyse et déparaffinée constituée d'hydrocarbures hydrogénés hautement isoparaffiniques, contenant: -au moins 90 % en poids de composés saturés, et -au maximum 0,03 % en poids de soufre,présentant un indice de viscosité supérieur ou égal à 120</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710199990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles de pétrole ou de minéraux bitumineux (autres que les huiles brutes) et préparations non dénommées ni comprises ailleurs, contenant en poids 70|% ou plus d'huiles de pétrole ou de minéraux bitumineux et dont ces huiles constituent l'élément de base, contenant du biodiesel, autres que les déchets d'huiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gazole</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de soufre n'excédant pas 0,001|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710201121</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélanges contenant, en poids, plus de 20 % d'esters monoalkyles d'acides gras ou d'un mélange d'esters monoalkyles d'acides gras et de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201121</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201129</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201133</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710201600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,001|% mais n'excédant pas 0,1|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710201621</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,001|% mais n'excédant pas 0,05|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710201621</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélanges contenant, en poids, plus de 20 % d'esters monoalkyles d'acides gras ou d'un mélange d'esters monoalkyles d'acides gras et de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201621</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201629</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201633</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201693</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,05|% mais n'excédant pas 0,1|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,1|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de soufre n'excédant pas 0,2|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710201990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710203200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fuel oils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710203200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de soufre n'excédant pas 0,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710203800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de soufre excédant 0,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres huiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2710910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets d'huiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des diphényles polychlorés (PCB), des terphényles polychlorés (PCT) ou des diphényles polybromés (PBB)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Contenant des diphényles polychlorés (PCB) à une concentration égale ou supérieure à 50|mg/kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Autres, contenant des terphényles polychlorés (PCT) ou des diphényles polybromés (PBB), même contenant des diphényles polychlorés (PCB) à une concentration inférieure à 50|mg/kg</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2710990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710990010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2710990090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2711000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gaz de pétrole et autres hydrocarbures gazeux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2711110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>liquéfiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gaz naturel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2711120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Propane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2711121100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Propane d'une pureté égale ou supérieure à 99|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711121100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destiné à être utilisé comme carburant ou comme combustible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711121900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destiné à d'autres usages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2711129100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711129100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destiné à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711129300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destiné à subir une transformation chimique par un traitement autre que ceux définis pour la sous-position|2711|12|91</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2711129400</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destiné à d'autres usages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711129400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une pureté supérieure à 90|% mais inférieure à 99|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711129700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2711130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Butanes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711133000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à subir une transformation chimique par un traitement autre que ceux définis pour la sous-position|2711|13|10</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2711139100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à d'autres usages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711139100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une pureté supérieure à 90|% mais inférieure à 95|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711139700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Éthylène, propylène, butylène et butadiène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2711210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à l'état gazeux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gaz naturel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2711290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2712000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vaseline; paraffine, cire de pétrole microcristalline, slack wax, ozokérite, cire de lignite, cire de tourbe, autres cires minérales et produits similaires obtenus par synthèse ou par d'autres procédés, même colorés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2712100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vaseline</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2712200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Paraffine contenant en poids moins de 0,75|% d'huile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Paraffine synthétique d'un poids moléculaire de 460|ou plus mais n'excédant pas 1|560</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2712900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2712901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ozokérite, cire de lignite ou de tourbe (produits naturels)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2712903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2712903100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>bruts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à subir un traitement défini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712903300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à subir une transformation chimique par un traitement autre que ceux définis pour la sous-position|2712|90|31</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2712903900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à d'autres usages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712903910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Slack wax (résidus paraffineux) (CAS RN 64742-61-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712903990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2712909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélange de 1-alcènes contenant en poids 80|% ou plus de 1-alcènes d'une longueur de chaîne de 24|atomes de carbone ou plus mais n'excédant pas 28|atomes de carbone</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2712909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712909910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélange de 1-alcènes contenant en poids 90% ou plus de 1-alcènes dont la chaîne carbonée compte 24 atomes de carbone ou plus mais pas plus de 1% de 1-alcènes d'une longueur de chaîne de plus de 70 atomes de carbone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2712909990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2713000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Coke de pétrole, bitume de pétrole et autres résidus des huiles de pétrole ou de minéraux bitumineux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2713110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coke de pétrole</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2713110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non calciné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2713120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>calciné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2713200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bitume de pétrole</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2713900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres résidus des huiles de pétrole ou de minéraux bitumineux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2713901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à la fabrication des produits du n$o|2803</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2713909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2714000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bitumes et asphaltes, naturels; schistes et sables bitumineux; asphaltites et roches asphaltiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2714100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Schistes et sables bitumineux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2714900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2715000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mélanges bitumineux à base d'asphalte ou de bitume naturels, de bitume de pétrole, de goudron minéral ou de brai de goudron minéral (mastics bitumineux, cut-backs, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2716000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Énergie électrique</Description>
+</ligne></contenu></table>

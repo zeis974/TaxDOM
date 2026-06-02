@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 91 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:10</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>HORLOGERIE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Montres-bracelets, montres de poche et montres similaires (y compris les compteurs de temps des mêmes types), avec boîte en métaux précieux ou en plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9101110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Montres-bracelets, fonctionnant électriquement, même incorporant un compteur de temps</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9101110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à affichage mécanique seulement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9101190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9101210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres montres-bracelets, même incorporant un compteur de temps</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9101210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à remontage automatique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9101290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9101910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9101910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fonctionnant électriquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9101990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Montres-bracelets, montres de poche et montres similaires (y compris les compteurs de temps des mêmes types), autres que celles du n$o|9101</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9102110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Montres-bracelets, fonctionnant électriquement, même incorporant un compteur de temps</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9102110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à affichage mécanique seulement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9102120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à affichage optoélectronique seulement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9102190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9102210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres montres-bracelets, même incorporant un compteur de temps</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9102210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à remontage automatique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9102290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9102910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9102910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fonctionnant électriquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9102990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Réveils et pendulettes, à mouvement de montre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9103100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>fonctionnant électriquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9103900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Montres de tableaux de bord et montres similaires, pour automobiles, véhicules aériens, bateaux ou autres véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9104000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>destinées à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9104000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Réveils, pendules, horloges et appareils d'horlogerie similaires, à mouvement autre que de montre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9105110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Réveils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9105110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fonctionnant électriquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9105190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9105210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pendules et horloges, murales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9105210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fonctionnant électriquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9105290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9105910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9105910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fonctionnant électriquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9105990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9106000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Appareils de contrôle du temps et compteurs de temps, à mouvement d'horlogerie ou à moteur synchrone (horloges de pointage, horodateurs, horocompteurs, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9106100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Horloges de pointage; horodateurs et horocompteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9106900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9107000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Interrupteurs horaires et autres appareils permettant de déclencher un mécanisme à temps donné, munis d'un mouvement d'horlogerie ou d'un moteur synchrone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9107000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Interrupteurs horaires et autres appareils permettant de déclencher un mécanisme à temps donné, munis d'un mouvement d'horlogerie, utilisés dans les systèmes automatisés, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9107000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9108000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mouvements de montres, complets et assemblés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9108110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>fonctionnant électriquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9108110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à affichage mécanique seulement ou avec un dispositif qui permette d'incorporer un affichage mécanique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9108120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à affichage optoélectronique seulement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9108190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9108200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à remontage automatique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9108900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9109000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mouvements d'horlogerie, complets et assemblés, autres que de montres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9109100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>fonctionnant électriquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9109100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur ou d'un diamètre n'excédant pas 50|mm, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9109100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9109900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9109900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur ou d'un diamètre n'excédant pas 50|mm, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9109900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9110000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mouvements d'horlogerie complets, non assemblés ou partiellement assemblés (chablons); mouvements d'horlogerie incomplets, assemblés; ébauches de mouvements d'horlogerie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9110110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de montres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9110110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mouvements complets, non assemblés ou partiellement assemblés (chablons)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9110111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à balancier-spiral</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9110119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9110120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mouvements incomplets, assemblés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9110120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>utilisés dans les systèmes automatisés, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9110120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9110190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ébauches</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9110900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9110900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mouvements incomplets assemblés, utilisés dans les systèmes automatisés, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9110900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9111000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Boîtes de montres des n$o$s|9101|ou 9102|et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9111100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boîtes en métaux précieux ou en plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9111200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boîtes en métaux communs, même dorés ou argentés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9111800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres boîtes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9111900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9112000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cages et cabinets d'appareils d'horlogerie et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9112200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cages et cabinets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9112900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9113000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bracelets de montres et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9113100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en métaux précieux ou en plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9113101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9113109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9113200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en métaux communs, même dorés ou argentés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9113900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9113900011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cuir naturel, artificiel ou reconstitué</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9113900011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9113900019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9113900091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9113900091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9113900095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9113900099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9114000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres fournitures d'horlogerie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9114300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cadrans</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9114300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9114300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9114400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Platines et ponts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9114400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9114400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9114900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9114901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ressorts, y compris les spiraux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9114901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9114901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9114909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9114909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9114909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

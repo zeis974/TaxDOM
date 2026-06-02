@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 75 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:58</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>7500000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>NICKEL ET OUVRAGES EN NICKEL</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7501000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mattes de nickel, sinters d'oxydes de nickel et autres produits intermédiaires de la métallurgie du nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7501100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mattes de nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7501200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sinters d'oxydes de nickel et autres produits intermédiaires de la métallurgie du nickel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7502000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Nickel sous forme brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7502100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Nickel non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7502200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alliages de nickel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7503000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets et débris de nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7503001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de nickel non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7503009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'alliages de nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7504000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poudres et paillettes de nickel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7505000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Barres, profilés et fils, en nickel</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7505110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Barres et profilés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7505110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en nickel non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7505120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en alliages de nickel</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7505210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7505210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en nickel non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7505220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en alliages de nickel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7506000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tôles, bandes et feuilles, en nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7506100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en nickel non allié</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7506200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages de nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7506200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Feuilles et bandes en rouleaux, en alliage de nickel C276 (EN 2.4819) présentant:-une épaisseur de 0,5 mm ou plus mais n'excédant pas 3 mm,-une largeur de 770 mm ou plus mais n'excédant pas 1 250 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7506200020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Feuilles et bandes en bobines, en alliage de nickel à la norme ASME SB-582/UNS N06030, présentant:-une épaisseur de 0,5 mm ou plus mais n'excédant pas 3 mm,-une largeur de 250 mm ou plus mais n'excédant pas 1 219 mm,</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7506200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7507000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tubes, tuyaux et accessoires de tuyauterie (raccords, coudes, manchons, par exemple), en nickel</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7507110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7507110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en nickel non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7507120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en alliages de nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7507200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Accessoires de tuyauterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7508000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7508100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Toiles métalliques et grillages, en fils de nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7508900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

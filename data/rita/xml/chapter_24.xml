@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 24 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:18</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>2400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>TABACS ET SUCCÉDANÉS DE TABAC FABRIQUÉS; PRODUITS, CONTENANT OU NON DE LA NICOTINE, DESTINÉS A UNE INHALATION SANS COMBUSTION; AUTRES PRODUITS CONTENANT DE LA NICOTINE DESTINÉS A L'ABSORPTION DE LA NICOTINE DANS LE CORPS HUMAIN</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tabacs bruts ou non fabriqués; déchets de tabac</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tabacs non écotés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401103500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs light air cured</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401103510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabacs light air cured du type Burley, y compris les hybrides de Burley</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401103520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabacs light air cured du type Maryland</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401103591</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401103591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401103599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401106000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs sun cured du type oriental</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401107000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs dark air cured</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401107010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401107090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401108500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs flue cured</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401108510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabacs flue cured du type Virginia</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401108590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401109500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401109511</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabacs fire cured</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401109511</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>du type Kentucky</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401109511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401109519</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401109521</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401109521</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401109529</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401109591</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres tabacs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401109591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401109599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tabacs partiellement ou totalement écotés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401203500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs light air cured</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401203510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabacs light air cured du type Burley, y compris les hybrides de Burley</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401203520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabacs light air cured du type Maryland</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401203591</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401203591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401203599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401206000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs sun cured du type oriental</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401207000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs dark air cured</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401207010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401207090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401208500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs flue cured</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401208510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabacs flue cured du type Virginia</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401208590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2401209500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401209511</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabacs fire cured</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401209511</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>du type Kentucky</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401209511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401209519</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401209521</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401209521</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401209529</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2401209591</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres tabacs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401209591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>même découpés sous forme régulière, ayant une valeur en douane non inférieure à 450|Euro/100|kg net, destinés à être utilisés comme cape extérieure ou comme sous-cape dans la production des produits de la sous-position 2402 10 00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401209599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2401300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets de tabac</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2402000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cigares (y compris ceux à bouts coupés), cigarillos et cigarettes, en tabac ou en succédanés de tabac</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2402100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cigares (y compris ceux à bouts coupés) et cigarillos, contenant du tabac</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2402200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cigarettes contenant du tabac</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2402201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des girofles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2402209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2402900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2403000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres tabacs et succédanés de tabac, fabriqués; tabacs "homogénéisés" ou "reconstitués"; extraits et sauces de tabac</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2403110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tabac à fumer, même contenant des succédanés de tabac en toute proportion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2403110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabac pour pipe à eau visé à la note|1|de sous-position du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2403190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2403191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 500|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2403199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2403910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2403910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tabacs "homogénéisés" ou "reconstitués"</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2403990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2403991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tabac à mâcher et tabac à priser (à consommer par voie nasale)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2403999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits contenant du tabac, du tabac reconstitué, de la nicotine ou des succédanés de tabac ou de nicotine, destinés à une inhalation sans combustion; autres produits contenant de la nicotine, destines à l'absorption de la nicotine dans le corps humain</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2404110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits destine à une inhalation sans combustion</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2404110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Contenant du tabac ou du tabac reconstitué</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Contenant du tabac reconstitué</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2404120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autres, contenant de la nicotine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cartouches et recharges, pleines, pour cigarettes électroniques; préparations utilisées pour les cartouches et recharges pour cigarettes électroniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2404190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Contenant des succédanés de tabac</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2404910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2404910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pour une application orale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits contenant de la nicotine destinés à faciliter l'arrêt de la consommation de tabac</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pour une application percutanée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2404990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

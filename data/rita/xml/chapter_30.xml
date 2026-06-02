@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 30 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:23</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3000000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRODUITS PHARMACEUTIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3001000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Glandes et autres organes à usages opothérapiques, à l'état desséché, même pulvérisés; extraits, à usages opothérapiques, de glandes ou d'autres organes ou de leurs sécrétions; héparine et ses sels; autres substances humaines ou animales préparées à des fins thérapeutiques ou prophylactiques non dénommées ni comprises ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3001200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Extraits de glandes ou d'autres organes ou de leurs sécrétions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3001201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'origine humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3001209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3001900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3001902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'origine humaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3001909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3001909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Héparine et ses sels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3001909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3002000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sang humain; sang animal préparé en vue d'usages thérapeutiques, prophylactiques ou de diagnostic; antisérums, autres fractions du sang et produits immunologiques, même modifiés ou obtenus par voie biotechnologique; vaccins, toxines, cultures de micro-organismes (à l'exclusion des levures) et produits similaires; cultures de cellules, même modifiées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3002120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Antisérums, autres fractions du sang et produits immunologiques, même modifiés ou obtenus par voie biotechnologique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Antisérums et autres fractions du sang</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits immunologiques, non mélangés et ni présentés sous forme de doses, ni conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits immunologiques, mélangés et ni présentés sous forme de doses, ni conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits immunologiques, présentés sous forme de doses, ou conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3002410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vaccins, toxines, cultures de micro- organismes (à l'exclusion des levures) et produits similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3002410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vaccins pour la médecine humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Vaccins contre les coronavirus du SRAS (espèce SARS-CoV)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vaccins pour la médecine vétérinaire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3002490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3002490010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cultures de micro-organismes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002490010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Agents pathogènes et cultures d'agents pathogènes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002490020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3002490081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002490081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Agents pathogènes et cultures d'agents pathogènes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002490089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3002510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cultures de cellules, même modifiées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits de thérapie cellulaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3002900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sang humain</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3002903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sang animal préparé en vue d'usages thérapeutiques, prophylactiques ou de diagnostic</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3003000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Médicaments (à l'exclusion des produits des n$o$s|3002, 3005|ou 3006) constitués par des produits mélangés entre eux, préparés à des fins thérapeutiques ou prophylactiques, mais ni présentés sous forme de doses, ni conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant des pénicillines ou des dérivés de ces produits, à structure d'acide pénicillanique, ou des streptomycines ou des dérivés de ces produits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des antibiotiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3003310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des hormones ou d'autres produits du n° 2937</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'insuline</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3003410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des alcaloïdes ou leurs dérivés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'éphédrine ou ses sels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de la pseudoéphédrine (DCI) ou ses sels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de la noréphédrine ou ses sels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des principes actifs contre le paludisme décrits dans la note 2|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3003900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3004000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Médicaments (à l'exclusion des produits des n$o$s|3002, 3005|ou 3006) constitués par des produits mélangés ou non mélangés, préparés à des fins thérapeutiques ou prophylactiques, présentés sous forme de doses (y compris ceux destinés à être administrés par voie percutanée) ou conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant des pénicillines ou des dérivés de ces produits, à structure d'acide pénicillanique, ou des streptomycines ou des dérivés de ces produits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des antibiotiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3004310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des hormones ou d'autres produits du n° 2937</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'insuline</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des hormones corticostéroïdes, leurs dérivés ou analogues structurels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3004410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des alcaloïdes ou leurs dérivés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'éphédrine ou ses sels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de la pseudoéphédrine (DCI) ou ses sels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de la noréphédrine ou ses sels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des vitamines ou d'autres produits du n° 2936</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, contenant des principes actifs contre le paludisme décrits dans la note 2|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3004900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3005000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouates, gazes, bandes et articles analogues (pansements, sparadraps, sinapismes, par exemple), imprégnés ou recouverts de substances pharmaceutiques ou conditionnés pour la vente au détail à des fins médicales, chirurgicales, dentaires ou vétérinaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3005100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pansements adhésifs et autres articles ayant une couche adhésive</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3005900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3005901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ouates et articles en ouate</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3005903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3005903100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3005903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Gazes et articles en gaze</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3005905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3005909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3006000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations et articles pharmaceutiques visés à la note|4|du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3006100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Catguts stériles, ligatures stériles similaires pour sutures chirurgicales (y compris les fils résorbables stériles pour la chirurgie ou l'art dentaire) et adhésifs stériles pour tissus organiques utilisés en chirurgie pour refermer les plaies; laminaires stériles; hémostatiques résorbables stériles pour la chirurgie ou l'art dentaire; barrières anti-adhérence stériles pour la chirurgie ou l'art dentaire, résorbables ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Catguts stériles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Barrières anti-adhérence stériles pour la chirurgie ou l'art dentaire, résorbables ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations opacifiantes pour examens radiographiques; réactifs de diagnostic conçus pour être employés sur le patient</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ciments et autres produits d'obturation dentaire; ciments pour la réfection osseuse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Trousses et boîtes de pharmacie garnies, pour soins de première urgence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations chimiques contraceptives à base d'hormones, d'autres produits du n$o|2937|ou de spermicides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations présentées sous forme de gel conçues pour être utilisées en médecine humaine ou vétérinaire comme lubrifiant pour certaines parties du corps lors des opérations chirurgicales ou des examens médicaux ou comme agent de couplage entre le corps et les instruments médicaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3006910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareillages identifiables de stomie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets pharmaceutiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3006930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Placebos et trousses pour essais cliniques masqués (ou à double insu), destinés à un essai clinique reconnu, présentés sous forme de doses</Description>
+</ligne></contenu></table>

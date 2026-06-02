@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 19 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:14</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRÉPARATIONS À BASE DE CÉRÉALES, DE FARINES, D'AMIDONS, DE FÉCULES OU DE LAIT; PÂTISSERIES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1901000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Extraits de malt; préparations alimentaires de farines, gruaux, semoules, amidons, fécules ou extraits de malt, ne contenant pas de cacao ou contenant moins de 40|% en poids de cacao calculés sur une base entièrement dégraissée, non dénommées ni comprises ailleurs; préparations alimentaires de produits des n$o$s|0401|à 0404, ne contenant pas de cacao ou contenant moins de 5|% en poids de cacao calculés sur une base entièrement dégraissée, non dénommées ni comprises ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations pour l'alimentation des nourrissons et des enfants en bas âge, conditionnées pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mélanges et pâtes pour la préparation des produits de la boulangerie, de la pâtisserie ou de la biscuiterie du n$o|1905</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1901900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1901901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Extraits de malt</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en extrait sec égale ou supérieure à 90|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1901909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ne contenant pas de matières grasses provenant du lait, de saccharose, d'isoglucose, de glucose, d'amidon ou de fécule ou contenant en poids moins de 1,5|% de matières grasses provenant du lait, moins de 5|% de saccharose [y compris le sucre inverti (ou interverti)] ou d'isoglucose, moins de 5|% de glucose ou d'amidon ou de fécule, à l'exclusion des préparations alimentaires en poudre de produits des n$o$s|0401|à 0404</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901909500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparations alimentaires sous forme de poudre, consistant en un mélange de lait écrémé et/ou de lactosérum et de graisses/huiles végétales, d'une teneur en matières grasses n'excédant pas 30|% en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1901909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1901909933</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en saccharose (y compris le sucre inverti calculé ensaccharose) ou en isoglucose, calculé également en saccharose, égale ou supérieure à 60|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901909933</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre interverti calculé&lt;P&gt;en saccharose) inférieure à 70|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901909936</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1901909990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâtes alimentaires, même cuites ou farcies (de viande ou d'autres substances) ou bien autrement préparées, telles que spaghetti, macaroni, nouilles, lasagnes, gnocchi, ravioli, cannelloni; couscous, même préparé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1902110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pâtes alimentaires non cuites ni farcies ni autrement préparées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des oeufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902110020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ne contenant pas de farine ni de semoule de froment (blé) tendre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902191020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902191090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902199020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902199090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pâtes alimentaires farcies (même cuites ou autrement préparées)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids plus de 20|% de poissons et crustacés, mollusques et autres invertébrés aquatiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1902201021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902201021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Har gow composé de crevettes, d'amidon de froment, de tapioca, d'eau, d'échalote, de gingembre, de sucre et de sel; shaomai composé de crevettes principalement, de poulet, d'amidon de maïs, d'huile végétale, de poivre noir, d'huile de sésame et d'eau; wonton de crevettes frites composé de crevettes, de sel, d'huile, de sucre, de gingembre, de poivre, d'oeufs, de vinaigre et de sauce de soja</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902201029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1902201091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902201091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Har gow composé de crevettes, d'amidon de froment, de tapioca, d'eau, d'échalote, de gingembre, de sucre et de sel; shaomai composé de crevettes principalement, de poulet, d'amidon de maïs, d'huile végétale, de poivre noir, d'huile de sésame et d'eau; wonton de crevettes frites composé de crevettes, de sel, d'huile, de sucre, de gingembre, de poivre, d'oeufs, de vinaigre et de sauce de soja</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902201099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids plus de 20|% de saucisses, saucissons et similaires, de viandes et d'abats de toutes espèces, y compris les graisses de toute nature ou origine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1902203021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902203021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Samoussa de poulet haché; boulettes de volaille; shaomai au poulet; gyoza au poulet; Samoussa de boeuf haché</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902203029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1902203091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902203091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Samoussa de poulet haché; boulettes de volaille; shaomai au poulet; gyoza au poulet; Samoussa de boeuf haché</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902203099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1902209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cuites</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902209120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902209190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902209920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902209990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres pâtes alimentaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>séchées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902301020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902301040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Vermicelles contenant en poids 60 % ou plus d'amidon de haricot mungo, en emballages immédiats de 5 kg ou plus, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902301080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902309020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant du riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902309090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1902400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Couscous</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non préparé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1902409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1903000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tapioca et ses succédanés préparés à partir de fécules, sous forme de flocons, grumeaux, grains perlés, criblures ou formes similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1904000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits à base de céréales obtenus par soufflage ou grillage (corn flakes, par exemple); céréales (autres que le maïs) en grains ou sous forme de flocons ou d'autres grains travaillés (à l'exception de la farine, du gruau et de la semoule), précuites ou autrement préparées, non dénommées ni comprises ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1904100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits à base de céréales obtenus par soufflage ou grillage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1904200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations alimentaires obtenues à partir de flocons de céréales non grillés ou de mélanges de flocons de céréales non grillés et de flocons de céréales grillés ou de céréales soufflées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations du type Müsli à base de flocons de céréales non grillés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1904209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904209500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bulgur de blé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1904900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1904908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits de la boulangerie, de la pâtisserie ou de la biscuiterie, même additionnés de cacao; hosties, cachets vides des types utilisés pour médicaments, pains à cacheter, pâtes séchées de farine, d'amidon ou de fécule en feuilles et produits similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pain croustillant dit Knäckebrot</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1905200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pain d'épices</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de saccharose [y compris le sucre inverti (ou interverti) calculé en saccharose] inférieure à 30|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de saccharose [y compris le sucre inverti (ou interverti) calculé en saccharose] égale ou supérieure à 30|% et inférieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de saccharose [y compris le sucre inverti (ou interverti) calculé en saccharose] égale ou supérieure à 50|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Biscuits additionnés d'édulcorants; gaufres et gaufrettes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1905310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Biscuits additionnés d'édulcorants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905311100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>entièrement ou partiellement enrobés ou recouverts de chocolat ou d'autres préparations contenant du cacao</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905311100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 85|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905311900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905313000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905313000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de matières grasses provenant du lait égale ou supérieure à 8|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905319100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905319100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>doubles biscuits fourrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905319900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1905320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gaufres et gaufrettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905320500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en eau excédant 10|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905321100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905321100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>entièrement ou partiellement enrobées ou recouvertes de chocolat ou d'autres préparations contenant du cacao</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905321100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 85|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905321900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905329100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905329100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>salées, fourrées ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905329900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1905400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Biscottes, pain grillé et produits similaires grillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Biscottes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1905900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pain azyme (mazoth)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1905902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hosties, cachets vides des types utilisés pour médicaments, pains à cacheter, pâtes séchées de farine, d'amidon ou de fécule en feuilles et produits similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905902010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles minces en pâte de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905902090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905903000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pain sans addition de miel, d'oeufs, de fromage ou de fruits et d'une teneur en sucres et matières grasses n'excédant pas, chacune, 5|% en poids sur matière sèche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905904500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Biscuits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905905500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits extrudés ou expansés, salés ou aromatisés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1905907000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant au moins 5|% en poids de saccharose, de sucre inverti (ou interverti) ou d'isoglucose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1905908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

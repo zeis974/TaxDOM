@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 50 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:38</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5000000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>SOIE</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5001000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cocons de vers à soie propres au dévidage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5002000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Soie grège (non moulinée)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5003000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets de soie (y compris les cocons non dévidables, les déchets de fils et les effilochés)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5003000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non cardés ni peignés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5003000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5004000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de soie (autres que les fils de déchets de soie) non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5004001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus, décrués ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5004001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils entièrement de soie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5004001090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5004009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5005000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de déchets de soie, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5005001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus, décrués ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5005001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils entièrement de bourre de soie (schappe), non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5005001090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5005009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5005009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils entièrement de bourre de soie (schappe), non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5005009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5006000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de soie ou de déchets de soie, conditionnés pour la vente au détail; poil de Messine (crin de Florence)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5006001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils de soie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5006009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils de déchets de soie; poil de Messine (crin de Florence)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de soie ou de déchets de soie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus de bourrette</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>tissés sur métiers à mains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus, contenant au moins 85|% en poids de soie ou de déchets de soie autres que la bourrette</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5007201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Crêpes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus, décrués ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007201110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007201190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007201910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007201990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5007202100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pongés, habutaï, honan, shantung, corah et tissus similaires d'Extrême-Orient, de soie pure (non mélangée de bourre de soie, de déchets de bourre de soie ou d'autres matières textiles)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007202100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure toile, écrus ou simplement décrués</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007202110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers á main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007202190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5007203100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007203100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007203120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007203180</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007203900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007203920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007203980</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5007204100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007204100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus clairs (non serrés)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007204110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007204190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5007205100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007205100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>écrus, décrués ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007205110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007205190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007205900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007205910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007205990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007206000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007206010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007206090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007207100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007207110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007207190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus, décrués ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007903010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007903090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007905010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007905090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5007909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5007909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

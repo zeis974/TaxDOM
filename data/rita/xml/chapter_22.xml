@@ -1,0 +1,3728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 22 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:17</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>2200000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>BOISSONS, LIQUIDES ALCOOLIQUES ET VINAIGRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2201000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Eaux, y compris les eaux minérales naturelles ou artificielles et les eaux gazéifiées, non additionnées de sucre ou d'autres édulcorants ni aromatisées; glace et neige</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2201100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Eaux minérales et eaux gazéifiées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2201101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Eaux minérales naturelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2201101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sans dioxyde de carbone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2201101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2201109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2201900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Eaux, y compris les eaux minérales et les eaux gazéifiées, additionnées de sucre ou d'autres édulcorants ou aromatisées, et autres boissons non alcooliques, à l'exclusion des jus de fruits ou de légumes du n$o|2009</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Eaux, y compris les eaux minérales et les eaux gazéifiées, additionnées de sucre ou d'autres édulcorants ou aromatisées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bière sans alcool</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant du sucre (saccharose ou sucre interverti)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202991100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ne contenant pas de produits des n$o$s|0401|à 0404|ou de matières grasses provenant des produits des n$o$s|0401|à 0404</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202991100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boissons à base de soja d'une teneur en poids de protéines égale ou supérieure à 2,8|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202991111</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>contenant du sucre (saccharose ou sucre interverti)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991111</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991119</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202991191</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202991500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boissons à base de soja d'une teneur en poids de protéines inférieure à 2,8|%; boissons à base de fruits à coques du chapitre|8, de céréales du chapitre 10|ou de graines du chapitre|12</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202991511</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>contenant du sucre (saccharose ou sucre interverti)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991519</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202991591</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202991900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202991911</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>contenant du sucre (saccharose ou sucre interverti)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991911</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991919</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202991991</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991995</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins désalcoolisés dont le titre alcoométrique volumique n'excède pas 0,5%.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202991999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2202999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'une teneur en poids de matières grasses provenant des produits des n$o$s|0401|à 0404</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>inférieure à 0,2|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202999110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202999190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202999500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>égale ou supérieure à 0,2|% et inférieure à 2|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202999510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202999590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2202999900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>égale ou supérieure à 2|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202999910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Jus de fruits ou jus de légumes dilués avec de l'eau ou gazéifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2202999990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2203000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bières de malt</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2203000100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en récipients d'une contenance n'excédant pas 10|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2203000100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentées dans des bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2203000900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2203001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en récipients d'une contenance excédant 10|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vins de raisins frais, y compris les vins enrichis en alcool; moûts de raisin, autres que ceux du n$o|2009</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vins mousseux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Champagne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204101300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cava</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204101500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Prosecco</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Asti spumante</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204109300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>D'une valeur FOB par litre égale ou supérieure à 8 USD</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204109400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vins avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>D'une valeur FOB par litre égale ou supérieure à 8 USD</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204109600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres vins de cépages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>D'une valeur FOB par litre égale ou supérieure à 8 USD</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204109800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>D'une valeur FOB par litre égale ou supérieure à 8 USD</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204109890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres vins; moûts de raisin dont la fermentation a été empêchée ou arrêtée par addition d'alcool</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en récipients d'une contenance n'excédant pas 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204210600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Vins, autres que ceux visés à la sous-position|2204|10, présentés dans des bouteilles fermées par un bouchon "champignon" maintenu à l'aide d'attaches ou de liens; vins autrement présentés ayant, à la température de 20° C, une surpression due à l'anhydride carbonique en solution, non inférieure à 1|bar et inférieure à 3|bars</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204210600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204210700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Vins avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204210800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres vins de cépages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204210900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204211100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204211100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>produits dans l'Union européenne</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204211100</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 15|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204211100</Code>
+<Lig_Prod>40</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204211100</Code>
+<Lig_Prod>50</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204211100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Alsace</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204211200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Bordeaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204211300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Bourgogne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204211700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Val de Loire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204211800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Mosel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204211900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Pfalz (Palatinat)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204211990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204212200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Rheinhessen (Hesse rhénane)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204212300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Tokaj</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204212400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Lazio (Latium)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204212600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Toscana (Toscane)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204212700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Trentino (Trentin), Alto Adige (Haut-Adige) et Friuli (Frioul)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204212800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Veneto (Vénétie)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204212890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204213100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Sicilia</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204213200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Vinho Verde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204213400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Penedés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204213600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Rioja</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204213700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Valencia</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204213800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204213890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204214200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204214200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Bordeaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204214300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Bourgogne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204214400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Beaujolais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204214600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Vallée du Rhône</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204214700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Languedoc-Roussillon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204214800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Val de Loire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204214890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204216100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Sicilia</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204216200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Piemonte (Piémont)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204216600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Toscana (Toscane)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204216700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Trentino (Trentin) et Alto Adige (Haut-Adige)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204216800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Veneto (Vénétie)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204216900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Dão, Bairrada et Douro</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204216990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204217100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Navarra</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204217400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Penedés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204217600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Rioja</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204217700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Valdepeñas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204217800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204217900</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204217900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204217990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204218100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres vins de cépages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204218300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204218500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204218500</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP) ou avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Madère et moscatel de Setúbal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218595</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Xérès</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218695</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Marsala</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218795</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Samos et muscat de Lemnos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218895</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204218900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Porto</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204218995</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204219100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219195</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219300</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP) ou avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204219300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219311</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219311</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Aïn Bessem-Bouira, Médéa, Coteaux du Zaccar, Dahra, Coteaux de Mascara, Monts du Tessalah, Coteaux de Tlemcen</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219312</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Berkane, Saïs, Beni M'Tir, Guerrouane, Zemmour, Zennata</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219313</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Coteaux d'Utique, Kelibia, Thibar, Mornag</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219319</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219321</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219321</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Aïn Bessem-Bouira, Médéa, Coteaux du Zaccar, Dahra, Coteaux de Mascara, Monts du Tessalah, Coteaux de Tlemcen</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219322</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Berkane, Saïs, Beni M'Tir, Guerrouane, Zemmour, Zennata</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219323</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Coteaux d'Utique, Kelibia, Thibar, Mornag</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219329</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219331</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219341</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219351</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204219400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219411</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219411</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219411</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Aïn Bessem-Bouira, Médéa, Coteaux du Zaccar, Dahra, Coteaux de Mascara, Monts du Tessalah, Coteaux de Tlemcen</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219412</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Berkane, Saïs, Beni M'Tir, Guerrouane, Zemmour, Zennata</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219413</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Coteaux de Tebourba, Coteaux d'Utique, Sidi-Salem, Thibar, Mornag, grand cru Mornag</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219419</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219421</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219421</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Aïn Bessem-Bouira, Médéa, Coteaux du Zaccar, Dahra, Coteaux de Mascara, Monts du Tessalah, Coteaux de Tlemcen</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219422</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Berkane, Saïs, Beni M'Tir, Guerrouane, Zemmour, Zennata</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219423</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Coteaux de Tebourba, Coteaux d'Utique, Sidi-Salem, Thibar, Mornag, grand cru Mornag</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219429</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219431</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219441</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219451</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219461</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219461</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219471</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219481</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219491</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219495</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres vins de cépages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204219500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219521</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219531</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219541</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219551</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204219600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219611</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219611</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219621</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219631</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219641</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219651</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219661</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219661</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219671</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219681</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219691</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219695</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219700</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204219700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219711</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219721</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219731</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219741</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219751</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204219800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219811</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219811</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219821</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219831</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219841</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219851</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204219861</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219861</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219871</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219881</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219891</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204219895</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>En récipients d'une contenance excédant 2|l mais n'excédant pas 10|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Vins, autres que ceux visés à la sous-position|2204|10, présentés dans des bouteilles fermées par un bouchon "champignon" maintenu à l'aide d'attaches ou de liens; vins autrement présentés ayant, à la température de 20|degrés Celsius, une surpression due à l'anhydride carbonique en solution, non inférieure à 1|bar et inférieure à 3|bars</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204222200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204222200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>produits dans l'Union européenne</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204222200</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 15|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204222200</Code>
+<Lig_Prod>40</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204222200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Bordeaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204222300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Bourgogne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204222400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Beaujolais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204222600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vallée du Rhône</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204222700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Languedoc-Roussillon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204222800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Val de Loire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204222890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204223200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Piemonte (Piémont)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204223210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204223290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204223300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Tokaj</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204223310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204223390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204223800</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204223800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204223810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204223890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204227800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204227810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204227890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204227900</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204227900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204227910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204227990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204228000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204228100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres vins de cépages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204228100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204228200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204228300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204228300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204228400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204228500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204228500</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP) ou avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204228500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Madère et moscatel de Setúbal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204228600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Xérès</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228620</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204228800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Samos et muscat de Lemnos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228820</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204228890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204229100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229300</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP) ou avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204229300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229330</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229340</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204229400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229411</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229411</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229421</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229431</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229441</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229451</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229461</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229461</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229471</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229481</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229491</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229495</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres vins de cépages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204229500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229540</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204229600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229611</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229611</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229621</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229631</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229641</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229651</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229661</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229661</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229671</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229681</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229691</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229695</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229700</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204229700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229720</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229730</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229740</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204229800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229811</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229811</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229821</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229831</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229841</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229851</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204229861</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229861</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229871</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229881</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229891</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204229895</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Vins, autres que ceux visés à la sous-position|2204|10, présentés dans des bouteilles fermées par un bouchon "champignon" maintenu à l'aide d'attaches ou de liens; vins autrement présentés ayant, à la température de 20|degrés Celsius, une surpression due à l'anhydride carbonique en solution, non inférieure à 1|bar et inférieure à 3|bars</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204292200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204292200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>produits dans l'Union européenne</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204292200</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 15|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204292200</Code>
+<Lig_Prod>40</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204292200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Bordeaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204292300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Bourgogne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204292400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Beaujolais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204292600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vallée du Rhône</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204292700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Languedoc-Roussillon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204292800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Val de Loire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204292890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204293200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Piemonte (Piémont)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204293210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204293290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204293800</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204293800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204293810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204293890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204297800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204297810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204297890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204297900</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204297900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204297910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204297990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204298100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres vins de cépages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204298100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204298200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204298300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204298300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204298400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204298500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204298500</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP) ou indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204298500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Madère et moscatel de Setúbal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204298600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Xérès</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298699</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204298800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vin de Samos et muscat de Lemnos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204298899</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204299100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|%|vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299300</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Vins avec appellation d'origine protégée (AOP) ou indication géographique protégée (IGP)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204299300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299330</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299340</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204299400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299411</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299411</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299421</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299431</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299441</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299451</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299461</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299461</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299471</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299481</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299491</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299495</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres vins de cépages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204299500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299540</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204299600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299611</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299611</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299621</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299631</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299641</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299651</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299661</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299661</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299671</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299681</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299691</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299695</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299700</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204299700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Vins blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299720</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299730</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299740</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204299800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299811</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Vins de raisins frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299811</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299821</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299831</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299841</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299851</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204299861</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299861</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 13|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299871</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 13|% vol et n'excédant pas 15|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299881</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 15|% vol et n'excédant pas 18|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299891</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|% vol et n'excédant pas 22|% vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204299895</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 22|% vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2204300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres moûts de raisin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>partiellement fermentés, même mutés autrement qu'à l'alcool</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204309200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204309200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une masse volumique n'excédant pas 1,33|g/cm$3|à 20° C et ayant un titre alcoométrique volumique acquis de 1|%|vol ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204309200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204309400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2204309600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204309600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2204309800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2205000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vermouths et autres vins de raisins frais préparés à l'aide de plantes ou de substances aromatiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2205100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en récipients d'une contenance n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2205101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 18|%|vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2205109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2205900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2205901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis n'excédant pas 18|%|vol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2205909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant un titre alcoométrique volumique acquis excédant 18|%|vol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2206000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres boissons fermentées (cidre, poiré, hydromel, saké, par exemple); mélanges de boissons fermentées et mélanges de boissons fermentées et de boissons non alcooliques, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2206001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Piquette</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2206003100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2206003100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mousseuses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2206003100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cidre et poiré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2206003900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2206005100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non mousseuses, présentées en récipients d'une contenance</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2206005100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2206005100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cidre et poiré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2206005900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2206008100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2206008100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cidre et poiré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2206008900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2207000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Alcool éthylique non dénaturé d'un titre alcoométrique volumique de 80|%|vol ou plus; alcool éthylique et eaux-de-vie dénaturés de tous titres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2207100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alcool éthylique non dénaturé d'un titre alcoométrique volumique de 80|%|vol ou plus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2207100011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>obtenu à partir des produits agricoles repris à l'annexe I du traité sur le fonctionnement de l'Union européenne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2207100011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne), à l'exclusion des produits d'une teneur en eau supérieure à 0,3 % (m/m) mesurée conformément à la norme EN15376</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2207100019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2207100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2207200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alcool éthylique et eaux-de-vie dénaturés de tous titres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2207200011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>obtenu à partir des produits agricoles repris à l'annexe I du traité sur le fonctionnement de l'Union européenne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2207200011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne), à l'exclusion des produits d'une teneur en eau supérieure à 0,3 % (m/m) mesurée conformément à la norme EN15376</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2207200019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2207200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Alcool éthylique non dénaturé d'un titre alcoométrique volumique de moins de 80|%|vol; eaux-de-vie, liqueurs et autres boissons spiritueuses</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Eaux-de-vie de vin ou de marc de raisins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208201200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentées en récipients d'une contenance n'excédant pas 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208201200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Eaux-de-vie de vin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208201200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cognac</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208201400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Armagnac</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208201600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Brandy ou Weinbrand</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208201600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Brandy de Jerez</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208201800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208202600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Eau-de-vie de marc de raisins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208202600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Grappa</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208202800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208206200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentées en récipients d'une contenance excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208206200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Eaux-de-vie de vin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208206200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cognac</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208206600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Brandy ou Weinbrand</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208206900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208208600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Eau-de-vie de marc de raisins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208208600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Grappa</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208208800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Whiskies</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208301100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Whisky "bourbon", présenté en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208301100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208301900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208303000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Whisky écossais (Scotch whisky)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208303000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Whisky single malt</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208304100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Whisky blended malt, présenté en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208304100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208304900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208306100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Whisky single grain et blended grain, présenté en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208306100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas|2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208306900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant|2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208307100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre whisky blended, présenté en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208307100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208307900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208308200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, présentés en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208308200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208308800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rhum et autres eaux-de-vie provenant de la distillation, après fermentation, de produits de cannes à sucre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208401100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentés en récipients d'une contenance n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208401100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Rhum d'une teneur en substances volatiles autres que l'alcool éthylique et méthylique égale ou supérieure à 225|grammes par hectolitre d'alcool pur (avec une tolérance de 10|%)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208403100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208403100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une valeur excédant 7,9|Euros par litre d'alcool pur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208403900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208405100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentés en récipients d'une contenance excédant 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208405100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Rhum d'une teneur en substances volatiles autres que l'alcool éthylique et méthylique égale ou supérieure à 225|grammes par hectolitre d'alcool pur (avec une tolérance de 10|%)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208409100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208409100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une valeur excédant 2|Euros par litre d'alcool pur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208409900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gin et genièvre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208501100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gin, présenté en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208501100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208501900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208509100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Genièvre, présenté en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208509100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208509900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vodka</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208601100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un titre alcoométrique volumique de 45,4|%|vol ou moins, présentée en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208601100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208601900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208609100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un titre alcoométrique volumique supérieur à 45,4|%|vol, présentée en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208609100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208609900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Liqueurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208701000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentées en récipients d'une contenance n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208709000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentées en récipients d'une contenance excédant 2|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Arak, présenté en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208903300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Eaux-de-vie de prunes, de poires ou de cerises, présentées en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208903300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208903800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208904100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres eaux-de-vie et autres boissons spiritueuses, présentées en récipients d'une contenance</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208904100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208904100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Ouzo</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208904500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208904500</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Eaux-de-vie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208904500</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de fruits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208904500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Calvados</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208904800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208905400</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208905400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Tequila</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208905600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208906900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres boissons spiritueuses</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208907100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208907100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Eaux-de-vie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208907100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de fruits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208907500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tequila</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208907700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208907800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres boissons spiritueuses</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Alcool éthylique non dénaturé d'un titre alcoométrique volumique de moins de 80|%|vol, présenté en récipients d'une contenance</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208909110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>obtenu à partir des produits agricoles repris à l'annexe I du traité sur le fonctionnement de l'Union européenne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208909190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2208909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2208909911</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>obtenu à partir des produits agricoles repris à l'annexe I du traité sur le fonctionnement de l'Union européenne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208909911</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne), à l'exclusion des produits d'une teneur en eau supérieure à 0,3 % (m/m) mesurée conformément à la norme EN15376</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208909919</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2208909990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2209000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vinaigres comestibles et succédanés de vinaigre comestibles obtenus à partir d'acide acétique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2209001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vinaigres de vin, présentés en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2209001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2209001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 2|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2209009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, présentés en récipients d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2209009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2209009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 2|l</Description>
+</ligne></contenu></table>

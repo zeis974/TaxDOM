@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 94 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:12</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>MEUBLES; MOBILIER MÉDICO-CHIRURGICAL; ARTICLES DE LITERIE ET SIMILAIRES; LUMINAIRES ET APPAREILS D'ÉCLAIRAGE NON DÉNOMMÉS NI COMPRIS AILLEURS; LAMPES-RÉCLAMES, ENSEIGNES LUMINEUSES, PLAQUES INDICATRICES LUMINEUSES ET ARTICLES SIMILAIRES; CONSTRUCTIONS PRÉFABRIQUÉES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sièges (à l'exclusion de ceux du n$o|9402), même transformables en lits, et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sièges des types utilisés pour véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sièges des types utilisés pour véhicules automobiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9401310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sièges pivotants, ajustables en hauteur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9401410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sièges autres que le matériel de camping ou de jardin, transformables en lits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9401520000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sièges en rotin, en osier, en bambou ou en matières similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en rotin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9401610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres sièges, avec bâti en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>rembourrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9401710000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres sièges, avec bâti en métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401710000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>rembourrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401790000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres sièges</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9401910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9401910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9401911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de sièges des types utilisés pour véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401911010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>spécialement conçus pour l'équipage, destinés à être utilisés dans certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401911090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9401990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9401991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de sieges des types utilisés pour véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401991010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>spécialement conçus pour l'équipage, destinés à être utilisés dans certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401991090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9401992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de sièges des types utilisés pour véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401992010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Roue dentée utilisée dans la fabrication de sièges de voiture inclinables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401992020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cassette à positions à haute mobilité,-capable de fonctionner à des températures comprises entre -40°C et 85°C,-permettant le déplacement avant et arrière contrôlé du siège d'un véhicule,-Intégré dans le dossier du siège par un système de câble en acier, empêchant le retrait du siège lorsque le dossier est déplié et le permettant uniquement lorsque le dossier est replié,-construit à partir de composés d'un alliage d'aluminium spécial, renforcé par de la fibre de verre et muni de bagues autolubrifiantes constituées de polyoxyméthylène (POM) et de polytétrafluoroéthylène (PFTE) afin de réduire un maximum les frottements,-muni d'un système de verrouillage destiné à rester sûr lors de l'exposition à des forces allant jusqu'à 20G,requérant une force minimale de 40N pour son fonctionnement normal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401992090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9401998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9402000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mobilier pour la médecine, la chirurgie, l'art dentaire ou l'art vétérinaire (tables d'opérations, tables d'examen, lits à mécanisme pour usages cliniques, fauteuils de dentistes, par exemple); fauteuils pour salons de coiffure et fauteuils similaires, avec dispositif à la fois d'orientation et d'élévation; parties de ces articles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9402100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fauteuils de dentistes, fauteuils pour salons de coiffure et fauteuils similaires, et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9402900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres meubles et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Meubles en métal des types utilisés dans les bureaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9403105100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une hauteur n'excédant pas 80|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403105100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bureaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403105800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9403109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une hauteur excédant 80|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Armoires à portes, à volets ou à clapets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403109300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Armoires à tiroirs, classeurs et fichiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403109800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres meubles en métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Meubles en bois des types utilisés dans les bureaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9403301100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une hauteur n'excédant pas 80|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403301100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bureaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403301900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9403309100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une hauteur excédant 80|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403309100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Armoires, classeurs et fichiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403309900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Meubles en bois des types utilisés dans les cuisines</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Éléments de cuisines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403401010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403401090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403409010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403409090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Meubles en bois des types utilisés dans les chambres à coucher</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres meubles en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403601000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Meubles en bois des types utilisés dans les salles à manger et de séjour</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403603000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Meubles en bois des types utilisés dans les magasins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403609000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres meubles en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Meubles en matières plastiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9403820000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Meubles en autres matières, y compris le rotin, l'osier, le bambou ou les matières similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403820010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403820090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403830000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en rotin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403830010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403830090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403890010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403890090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9403910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403991010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403991090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9403999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9403999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sommiers; articles de literie et articles similaires (matelas, couvre-pieds, édredons, coussins, poufs, oreillers, par exemple), comportant des ressorts ou bien rembourrés ou garnis intérieurement de toutes matières, y compris ceux en caoutchouc alvéolaire ou en matières plastiques alvéolaires, recouverts ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sommiers</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9404210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Matelas</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9404210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en caoutchouc alvéolaire ou en matières plastiques alvéolaires, recouverts ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9404290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à ressorts métalliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sacs de couchage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9404400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Couvre-pieds, couvre-lits, édredons et couettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>rembourrés de plumes ou de duvet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9404900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>rembourrés de plumes ou de duvet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9404909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Luminaires et appareils d'éclairage (y compris les projecteurs) et leurs parties, non dénommés ni compris ailleurs; lampes-réclames, enseignes lumineuses, plaques indicatrices lumineuses et articles similaires, possédant une source d'éclairage fixée à demeure, et leurs parties non dénommées ni comprises ailleurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lustres et autres luminaires électriques à suspendre ou à fixer au plafond ou au mur, à l'exclusion de ceux des types utilisés pour l'éclairage des espaces et voies publiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Conçus pour être utilisés uniquement avec des sources lumineuses à diodes émettrices de lumière (LED)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405114000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques ou en matières céramiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405114010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405114090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405115000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en verre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405119010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405119020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en métaux communs, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405119090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405194000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques ou en matières céramiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405194010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405194090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405195000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en verre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405199010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405199020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en métaux communs, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405199090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lampes de table, lampes de bureau, lampes de chevet et lampadaires d'intérieur, électriques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Conçus pour être utilisés uniquement avec des sources lumineuses à diodes émettrices de lumière (LED)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405214000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques ou en matières céramiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405215000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en verre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405219010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405219090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405294000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques ou en matières céramiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405295000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en verre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405299010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405299090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Guirlandes électriques des types utilisés pour les arbres de Noël</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conçues pour être utilisées uniquement avec des sources lumineuses à diodes émettrices de lumière (LED)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres luminaires et appareils d'éclairage électriques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Photovoltaïques, conçus pour être utilisés uniquement avec des sources lumineuses à diodes émettrices de lumière (LED)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Projecteurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405413100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405413100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405413900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405413910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405413990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autres, conçus pour être utilisés uniquement avec des sources lumineuses à diodes émettrices de lumière (LED)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405421000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Projecteurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405423100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405423100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405423900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405423910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405423990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Projecteurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405494000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405494000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405499010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405499090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Luminaires et appareils d'éclairage non électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405500010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405500090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lampes-réclames, enseignes lumineuses, plaques indicatrices lumineuses et articles similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Conçus pour être utilisés uniquement avec des sources lumineuses à diodes émettrices de lumière (LED)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405612000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405612010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Enseignes lumineuses, plaques indicatrices lumineuses et articles similaires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405612090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405618000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405618010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Enseignes lumineuses, plaques indicatrices lumineuses et articles similaires, en métaux communs, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405618020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405618090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405692000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405692010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Enseignes lumineuses, plaques indicatrices lumineuses et articles similaires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405692090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405698000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405698010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Enseignes lumineuses, plaques indicatrices lumineuses et articles similaires, en métaux communs, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405698020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405698090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9405910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Articles pour l'équipement des appareils d'éclairage électriques (à l'exclusion des projecteurs)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405920010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties des articles des n!o!$ |9405|11, 9405|19, 9405|61 ou 9405|69, destinées à des           aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405920090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9405990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405990010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties des articles du n!o!|9405|11, 9405|19, 9405|61 ou 9405|69, en métaux communs, destinées à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405990020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9405990090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9406000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Constructions préfabriquées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9406100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9406200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Unités de construction modulaires en acier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9406900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9406901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résidences mobiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9406903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9406903100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en fer ou en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9406903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Serres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9406903800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9406909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne></contenu></table>

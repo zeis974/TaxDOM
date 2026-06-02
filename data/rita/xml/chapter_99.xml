@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 99 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:16</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>CODES SPECIFIQUES DE LA NOMENCLATURE COMBINEE</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9905000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Certaines marchandises visées au règlement (CE) n° 1186/2009 du Conseil (importation et exportation)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Biens personnels appartenant à des personnes physiques qui transfèrent leur résidence normale</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9919000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Les biens ci-après, autres que ceux susmentionnés:-- trousseaux et objets mobiliers appartenant à une personne qui transfère sa résidence normale à l'occasion de son mariage; biens personnels recueillis dans le cadre d'une succession.-- trousseaux, requis d'études et autres objets mobiliers d'élèves ou étudiants-- cercueils contenant des corps et urnes funéraires contenant les cendres de défunts et autres objets d'ornement funéraire-- biens adressés à des organismes à caractère charitable et philanthropique et au profit des victimes de catastrophes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9919000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Trousseaux et objets mobiliers appartenant à une personne qui transfère sa résidence normale à l'occasion de son mariage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9919000020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Biens personnels recueillis dans le cadre d'une succession</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9919000030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Trousseaux, requis d'études et autres objets mobiliers d'élèves ou étudiants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9919000040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cercueils contenant des corps et urnes funéraires contenant les cendres de défunts et autres objets d'ornement funéraire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9919000050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Biens adressés à des organismes à caractère charitable et philanthropique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9919000060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Biens adressés au profit des victimes de catastrophes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9930000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Livraisons de biens à des bateaux et à des aéronefs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9930240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises des chapitres 1 à 24 de la NC</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9930270000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises du chapitre 27 de la NC</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9930990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises classées ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9931000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Biens destinés à l'équipage de l'installation en haute mer ou nécessaires au fonctionnement des moteurs, machines et autres appareils de l'installation en haute mer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9931240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises des chapitres 1 à 24 de la NC</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9931270000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises du chapitre 27 de la NC</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9931990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises classées ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9950000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Code réservé aux échanges intra-Union qui est utilisé pour toutes les opérations effectuées au cours du mois de référence qui figurent sur la même facture dont la valeur est inférieure à 1 000  EUR, ou par des opérateurs de taille petite ou moyenne</Description>
+</ligne></contenu></table>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 34 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:26</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>SAVONS, AGENTS DE SURFACE ORGANIQUES, PRÉPARATIONS POUR LESSIVES, PRÉPARATIONS LUBRIFIANTES, CIRES ARTIFICIELLES, CIRES PRÉPARÉES, PRODUITS D'ENTRETIEN, BOUGIES ET ARTICLES SIMILAIRES, PÂTES À MODELER, "CIRES POUR L'ART DENTAIRE" ET COMPOSITIONS POUR L'ART DENTAIRE À BASE DE PLÂTRE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Savons; produits et préparations organiques tensio-actifs à usage de savon, en barres, en pains, en morceaux ou en sujets frappés, même contenant du savon; produits et préparations organiques tensio-actifs destinés au lavage de la peau, sous forme de liquide ou de crème, conditionnés pour la vente au détail, même contenant du savon; papier, ouates, feutres et nontissés, imprégnés, enduits ou recouverts de savon ou de détergents</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3401110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Savons, produits et préparations organiques tensio-actifs en barres, en pains, en morceaux ou en sujets frappés, et papier, ouates, feutres et nontissés, imprégnés, enduits ou recouverts de savon ou de détergents</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3401110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de toilette (y compris ceux à usages médicaux)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3401190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3401200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Savons sous autres formes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3401201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Flocons, paillettes, granulés ou poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3401209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3401300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits et préparations organiques tensio-actifs destinés au lavage de la peau, sous forme de liquide ou de crème, conditionnés pour la vente au détail, même contenant du savon</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3402000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Agents de surface organiques (autres que les savons); préparations tensio-actives, préparations pour lessives (y compris les préparations auxiliaires de lavage) et préparations de nettoyage, même contenant du savon, autres que celles du n$o|3401</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3402310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Agents de surface organiques anioniques, même conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Acides sulfoniques d'alkylbenzènes linéaires et leurs sels</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3402390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Solution aqueuse contenant en poids 30|% ou plus mais pas plus de 50|% d'alkyl[oxydi(benzènesulfonate)] de disodium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3402399000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402399010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Laurylméthyliséthionate de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402399090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3402410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres agents de surface organiques, même conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>cationiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3402420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non ioniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402420010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère vinylique tensioactif à base de polypropylène glycol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402420020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Agent tensioactif contenant du 1,4-diméthyl-1,4-bis(2-méthylpropyl)-2-butyne-1,4-diyl éther, polymérisé avec de l'oxiranne, à terminaison méthyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402420090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3402500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations conditionnées pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations tensio-actives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations pour lessives et préparations de nettoyage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3402900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3402901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations tensio-actives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange tensio-actif de composés de l'ion ammonium quaternaire, trialkyl en C8-10 méthyles, chlorures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402901015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tensioactif à base de silicone consistant en un mélange de:  -60 % ou plus mais n'excédant pas 85 % en poids de copolymère de polyalkylèneoxidediméthylsiloxane (CAS RN 68937-55-3), -15 % ou plus mais n'excédant pas 40 % en poids de poly(oxy-1,2-éthanediyl),alpha-hydro-¿-hydroxy-Éthane-1,2-diol, éthoxylé (CAS RN 25322-68-3), -0,8 % ou plus mais n'excédant pas 1,5 % en poids d'octaméthylcyclotétrasiloxane (CAS RN 556-67-2), -0,6 % ou plus mais n'excédant pas 1,0 % en poids de décaméthylcyclopentasiloxane (CAS RN 541-02-6),  -0,2 % ou plus mais n'excédant pas 0,5 % en poids de dodécaméthylcyclohexasiloxane (CAS RN 540-97-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402901080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange, contenant en poids:-80 % ou plus mais pas plus de 90 % de docusate sodique (INN) (CAS RN 577-11-7) et10 % ou plus mais pas plus de 20 % de benzoate de sodium (CAS RN 532-32-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3402909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations pour lessives et préparations de nettoyage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3403000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations lubrifiantes (y compris les huiles de coupe, les préparations pour le dégrippage des écrous, les préparations antirouille ou anticorrosion et les préparations pour le démoulage, à base de lubrifiants) et préparations des types utilisés pour l'ensimage des matières textiles, l'huilage ou le graissage du cuir, des pelleteries ou d'autres matières, à l'exclusion de celles contenant comme constituants de base 70|% ou davantage en poids d'huiles de pétrole ou de minéraux bitumineux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3403110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant des huiles de pétrole ou de minéraux bitumineux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3403110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations pour le traitement des matières textiles, du cuir, des pelleteries ou d'autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3403190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3403191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 70|% ou plus d'huiles de pétrole ou de minéraux bitumineux non considérés comme constituants de base</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3403192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lubrifiants d'une teneur en carbone provenant de matériaux biologiques de 25|% au moins en masse et biodégradables à hauteur d'au moins 60|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3403198000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3403910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3403910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations pour le traitement des matières textiles, du cuir, des pelleteries ou d'autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3403990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cires artificielles et cires préparées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3404200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de poly(oxyéthylène) (polyéthylène-glycol)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3404900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3405000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cirages et crèmes pour chaussures, encaustiques, brillants pour carrosseries, verre ou métaux, pâtes et poudres à récurer et préparations similaires (même sous forme de papier, ouates, feutres, nontissés, matière plastique ou caoutchouc alvéolaires, imprégnés, enduits ou recouverts de ces préparations), à l'exclusion des cires du n$o|3404</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3405100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cirages, crèmes et préparations similaires pour chaussures ou pour cuir</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3405200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Encaustiques et préparations similaires pour l'entretien des meubles en bois, des parquets ou d'autres boiseries</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3405300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Brillants et préparations similaires pour carrosseries, autres que les brillants pour métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3405400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pâtes, poudres et autres préparations à récurer</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3405900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3405901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Brillants pour métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3405909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3406000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bougies, chandelles, cierges et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3407000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâtes à modeler, y compris celles présentées pour l'amusement des enfants; compositions dites "cires pour l'art dentaire" présentées en assortiments, dans des emballages de vente au détail ou en plaquettes, fers à cheval, bâtonnets ou sous des formes similaires; autres compositions pour l'art dentaire, à base de plâtre</Description>
+</ligne></contenu></table>

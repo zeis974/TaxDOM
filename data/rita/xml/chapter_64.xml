@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 64 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:49</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>6400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>CHAUSSURES, GUÊTRES ET ARTICLES ANALOGUES; PARTIES DE CES OBJETS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chaussures étanches à semelles extérieures et dessus en caoutchouc ou en matière plastique, dont le dessus n'a été ni réuni à la semelle extérieure par couture ou par des rivets, des clous, des vis, des tétons ou des dispositifs similaires, ni formé de différentes parties assemblées par ces mêmes procédés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6401100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaussures comportant, à l'avant, une coquille de protection en métal</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6401920000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres chaussures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6401920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>couvrant la cheville mais ne couvrant pas le genou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6401921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à dessus en caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6401929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à dessus en matière plastique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6401990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6401990010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>couvrant le genou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6401990090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6402000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres chaussures à semelles extérieures et dessus en caoutchouc ou en matière plastique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6402120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaussures de sport</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6402120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chaussures de ski et chaussures pour le surf des neiges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Chaussures de ski</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Chaussures pour le surf des neiges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaussures avec dessus en lanières ou brides fixées à la semelle par des tétons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6402910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres chaussures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6402910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>couvrant la cheville</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>comportant, à l'avant, une coquille de protection en métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6402990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402990500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>comportant, à l'avant, une coquille de protection en métal</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6402991000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à dessus en caoutchouc</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6402993100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à dessus en matière plastique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6402993100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Chaussures dont la claque est constituée de lanières ou comporte une ou plusieurs découpures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402993100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>dont la plus grande hauteur du talon y compris la semelle est supérieure à 3|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402993900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pantoufles et autres chaussures d'intérieur</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6402999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>inférieure à 24|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6402999300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402999300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Chaussures qui ne sont pas reconnaissables comme étant pour hommes ou pour femmes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6402999600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402999600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6402999800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chaussures à semelles extérieures en caoutchouc, matière plastique, cuir naturel ou reconstitué et dessus en cuir naturel</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaussures de sport</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chaussures de ski et chaussures pour le surf des neiges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaussures à semelles extérieures en cuir naturel et dessus constitués par des lanières en cuir naturel passant sur le cou-de-pied et entourant le gros orteil</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres chaussures, comportant, à l'avant, une coquille de protection en métal</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres chaussures à semelles extérieures en cuir naturel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>couvrant la cheville</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403510500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à semelles principales en bois dépourvues de semelles intérieures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403510510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403510590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403511100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403511100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>couvrant la cheville, mais ne couvrant pas le mollet, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403511100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieures à 24 cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403511500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403511500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403511900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403519100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403519100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieures à 24 cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403519500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403519500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403519900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403590500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à semelles principales en bois dépourvues de semelles intérieures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403590510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403590590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403591100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403591100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Chaussures dont la claque est constituée de lanières ou comporte une ou plusieurs découpures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403591100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>dont la plus grande hauteur du talon et de la semelle réunis est supérieure à 3|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403593100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403593100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>inférieures à 24 cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403593500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403593500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403593900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403595000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pantoufles et autres chaussures d'intérieur</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403599100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403599100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieures à 24 cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403599500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403599500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403599900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres chaussures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>couvrant la cheville</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403910500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à semelles principales en bois dépourvues de semelles intérieures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403910510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403910590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403911100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403911100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>couvrant la cheville, mais ne couvrant pas le mollet, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403911100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieures à 24 cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403911110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403911190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403911300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403911300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Chaussures qui ne sont pas reconnaissables comme étant pour hommes ou pour femmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403911310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403911390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403911600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403911600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403911610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403911690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403911800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403911810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403911890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403919100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403919100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieure à 24|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403919300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403919300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Chaussures qui ne sont pas reconnaissables comme étant pour hommes ou pour femmes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403919600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403919600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403919800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403990500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à semelles principales en bois dépourvues de semelles intérieures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403990510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403990590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403991100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403991100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Chaussures dont la claque est constituée de lanières ou comporte une ou plusieurs découpures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403991100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>dont la plus grande hauteur du talon et de la semelle réunis est supérieure à 3|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403993100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403993100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>inférieure à 24|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403993300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403993300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Chaussures qui ne sont pas reconnaissables comme étant pour hommes ou pour femmes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403993600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403993600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403993800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pantoufles et autres chaussures d'intérieur</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, avec semelles intérieures d'une longueur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieure à 24|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403999110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403999190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403999300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de 24|cm ou plus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403999300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Chaussures qui ne sont pas reconnaissables comme étant pour hommes ou pour femmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403999310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403999390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6403999600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403999600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>pour hommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403999610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403999690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6403999800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>pour femmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403999810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6403999890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chaussures à semelles extérieures en caoutchouc, matière plastique, cuir naturel ou reconstitué et dessus en matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6404110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaussures à semelles extérieures en caoutchouc ou en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6404110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chaussures de sport; chaussures dites de tennis, de basket-ball, de gymnastique, d'entraînement et chaussures similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6404190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6404191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pantoufles et autres chaussures d'intérieur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6404199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6404200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaussures à semelles extérieures en cuir naturel ou reconstitué</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6404201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pantoufles et autres chaussures d'intérieur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6404209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6405000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres chaussures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6405100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à dessus en cuir naturel ou reconstitué</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6405200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à dessus en matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6405201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à semelles extérieures en bois ou en liège</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6405209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à semelles extérieures en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6405209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pantoufles et autres chaussures d'intérieur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6405209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6405900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6405901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à semelles extérieures en caoutchouc, en matière plastique, en cuir naturel ou reconstitué</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6405909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à semelles extérieures en autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parties de chaussures (y compris les dessus même fixés à des semelles autres que les semelles extérieures); semelles intérieures amovibles, talonnettes et articles similaires amovibles; guêtres, jambières et articles similaires, et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dessus de chaussures et leurs parties, à l'exclusion des contreforts et bouts durs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cuir naturel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Semelles extérieures et talons, en caoutchouc ou en matière plastique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406201010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406209010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Assemblages formés de dessus de chaussures fixés aux semelles premières ou à d'autres parties inférieures et dépourvus de semelles extérieures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406903010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406903090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Semelles intérieures et autres accessoires amovibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406905010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406905090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Semelles extérieures en cuir naturel ou reconstitué</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406906010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406906090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6406909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Guêtres, jambières et articles similaires et leurs parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6406909020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6406909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

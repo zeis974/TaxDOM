@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 55 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:42</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5500000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>FIBRES SYNTHÉTIQUES OU ARTIFICIELLES DISCONTINUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5501000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Câbles de filaments synthétiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5501110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5501110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'aramides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5501190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5501200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5501300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>acryliques ou modacryliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5501400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5501900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5502000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Câbles de filaments artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5502100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'acétate de cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5502900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5503000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fibres synthétiques discontinues, non cardées ni peignées ni autrement transformées pour la filature</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5503110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5503110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'aramides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5503190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5503200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5503300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>acryliques ou modacryliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5503400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5503900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5503900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fibres de poly(alcool vinylique), même acétalisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5503900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5504000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fibres artificielles discontinues, non cardées ni peignées ni autrement transformées pour la filature</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5504100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de rayonne viscose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5504900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5505000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets de fibres synthétiques ou artificielles (y compris les blousses, les déchets de fils et les effilochés)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5505100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5505101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5505101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>PA6 et PA66</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5505101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5505103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5505105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>acryliques ou modacryliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5505107000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5505109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5505200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5506000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fibres synthétiques discontinues, cardées, peignées ou autrement transformées pour la filature</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5506100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5506200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5506300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>acryliques ou modacryliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5506400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5506900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5506900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fibres de poly(alcool vinylique), même acétalisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5506900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5507000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fibres artificielles discontinues, cardées, peignées ou autrement transformées pour la filature</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5508000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils à coudre de fibres synthétiques ou artificielles discontinues, même conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5508100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5508101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5508109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5508200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres artificielles discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5508201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5508209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5509000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de fibres synthétiques discontinues (autres que les fils à coudre), non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5509110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de fibres discontinues de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>simples</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>retors ou câblés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5509210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>simples</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>retors ou câblés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5509310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de fibres discontinues acryliques ou modacryliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>simples</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>retors ou câblés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5509410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, contenant au moins 85|% en poids de fibres synthétiques discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>simples</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>retors ou câblés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5509510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec des fibres artificielles discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec de la laine ou des poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec du coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5509610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, de fibres discontinues acryliques ou modacryliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec de la laine ou des poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec du coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5509910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangés principalement ou uniquement avec de la laine ou des poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangés principalement ou uniquement avec du coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5509990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5510000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de fibres artificielles discontinues (autres que les fils à coudre), non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5510110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de fibres artificielles discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5510110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>simples</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5510120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>retors ou câblés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5510200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, mélangés principalement ou uniquement avec de la laine ou des poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5510300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, mélangés principalement ou uniquement avec du coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5510900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5511000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de fibres synthétiques ou artificielles discontinues (autres que les fils à coudre), conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5511100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques discontinues, contenant au moins 85|% en poids de ces fibres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5511200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques discontinues, contenant moins de 85|% en poids de ces fibres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5511300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres artificielles discontinues</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5512000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de fibres synthétiques discontinues contenant au moins 85|% en poids de fibres synthétiques discontinues</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5512110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5512190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5512210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de fibres discontinues acryliques ou modacryliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5512290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5512910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5512990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5512999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5513000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de fibres synthétiques discontinues, contenant moins de 85|% en poids de ces fibres, mélangés principalement ou uniquement avec du coton, d'un poids n'excédant pas 170|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5513110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5513110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513112000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une largeur n'excédant pas 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une largeur excédant 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5513210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure toile</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5513230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5513310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5513410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5513490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5514000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de fibres synthétiques discontinues, contenant moins de 85|% en poids de ces fibres, mélangés principalement ou uniquement avec du coton, d'un poids excédant 170|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5514110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5514190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5514210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5514300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514303000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514305000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5514410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres discontinues de polyester, à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5514490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres tissus de fibres synthétiques discontinues</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5515110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres discontinues de polyester</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec des fibres discontinues de rayonne viscose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515113000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec des filaments synthétiques ou artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515123000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec de la laine ou des poils fins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5515131100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangées principalement ou uniquement de laine ou de poils fins, cardés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515131100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515131900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5515139100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangées principalement ou uniquement de laine ou de poils fins, peignés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515139100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515139900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5515210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres discontinues acryliques ou modacryliques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec des filaments synthétiques ou artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515213000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangées principalement ou uniquement avec de la laine ou des poils fins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5515221100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangées principalement ou uniquement de laine ou de poils fins, cardés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515221100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515221900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5515229100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangées principalement ou uniquement de laine ou de poils fins, peignés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515229100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515229900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5515910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangés principalement ou uniquement avec des filaments synthétiques ou artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515913000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5515990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515994000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5515998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5516000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de fibres artificielles discontinues</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5516110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de fibres artificielles discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5516210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant moins de 85|% en poids de fibres artificielles discontinues, mélangées principalement ou uniquement avec des filaments synthétiques ou artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5516230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus Jacquard d'une largeur de 140|cm ou plus (coutils à matelas)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5516310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant moins de 85|% en poids de fibres artificielles discontinues, mélangées principalement ou uniquement avec de la laine ou des poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5516410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant moins de 85|% en poids de fibres artificielles discontinues, mélangées principalement ou uniquement avec du coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5516910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5516940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne></contenu></table>

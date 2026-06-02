@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 36 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:28</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>POUDRES ET EXPLOSIFS; ARTICLES DE PYROTECHNIE; ALLUMETTES; ALLIAGES PYROPHORIQUES; MATIÈRES INFLAMMABLES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poudres propulsives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3601000020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mélange pyrotechnique sous forme de cylindres ou de granulés, composé de nitrate de strontium, de nitrate de cuivre ou de nitrate de cuivre basique dans une matrice constituée de nitroguanidine ou de nitrate de guanidine, ainsi que d'un liant et d'additifs, utilisé comme composant du dispositif de gonflage d'airbags</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3601000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Explosifs préparés autres que les poudres propulsives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3602000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Granulés poreux fluides, à base essentiellement de nitrate d'ammonium, et dont la composition est la suivante (en pourcentage du poids) :- nitrate d'ammonium &gt; 99,4- (azote total &gt; 34,5)- polymère anionique 0,28- enrobage 0,08L'absorption d'huile des granulés est &gt; 10 % en poids.Les granulés ont une masse volumique de 0,72 g/cm³.Granulés poreux fluides, à base essentiellement de nitrate d'ammonium, et dont la composition est la suivante (en pourcentage du poids) :- nitrate d'ammonium &gt; 99- (azote total &gt; 34,5)- nitrate de magnésium 0,4- mélange de phosphate diammonique, de sulphate d'ammonium et d'acide borique 0,06- enrobage 0,08L'absorption d'huile des granulés est &gt; 7 % en poids.Les granulés ont une masse volumique de 0,80 g/cm³.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3602000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3603000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mèches de sûreté; cordeaux détonants; amorces et capsules fulminantes; allumeurs; détonateurs électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3603100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mèches de sûreté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3603200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cordeaux détonants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3603300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Amorces fulminantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3603400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Capsules fulminantes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3603500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Allumeurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3603500010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Allumeurs pour générateurs de gaz présentant:-une longueur maximale totale de 15,5mm ou plus mais n'excédant pas 29,4mm, et-comprenant une broche d'une longueur de 6,4mm ou plus mais n'excédant pas 12,6mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3603500090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3603600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Détonateurs électriques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3604000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles pour feux d'artifice, fusées de signalisation ou paragrêles et similaires, pétards et autres articles de pyrotechnie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3604100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles pour feux d'artifice</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3604900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3605000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Allumettes, autres que les articles de pyrotechnie du n$o|3604</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3606000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ferrocérium et autres alliages pyrophoriques sous toutes formes; articles en matières inflammables cités à la note|2|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3606100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Combustibles liquides et gaz combustibles liquéfiés en récipients des types utilisés pour alimenter ou recharger les briquets ou les allumeurs, et d'une capacité n'excédant pas 300|cm$3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3606900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3606901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ferrocérium et autres alliages pyrophoriques sous toutes leurs formes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3606909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

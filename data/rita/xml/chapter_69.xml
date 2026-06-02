@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 69 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:53</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>6900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRODUITS CÉRAMIQUES</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6901000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>I. PRODUITS EN FARINES SILICEUSES FOSSILES OU EN TERRES SILICEUSES ANALOGUES ET PRODUITS RÉFRACTAIRES</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6901000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Briques, dalles, carreaux et autres pièces céramiques en farines siliceuses fossiles (kieselguhr, tripolite, diatomite, par exemple) ou en terres siliceuses analogues</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6902000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Briques, dalles, carreaux et pièces céramiques analogues de construction, réfractaires, autres que ceux en farines siliceuses fossiles ou en terres siliceuses analogues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6902100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant en poids plus de 50|% des éléments Mg, Ca ou Cr, pris isolément ou ensemble, exprimés en MgO, CaO ou Cr@2O@3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6902200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant en poids plus de 50|% d'alumine (Al@2O@3), de silice (SiO@2) ou d'un mélange ou combinaison de ces produits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6902201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids 93|% ou plus de silice (SiO@2)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6902209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6902209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids plus de 7|% mais moins de 45|% d'alumine (Al@2O@3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6902209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6902900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6903000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres articles céramiques réfractaires (cornues, creusets, moufles, busettes, tampons, supports, coupelles, tubes, tuyaux, gaines, baguettes, plaques pour tiroir, par exemple), autres que ceux en farines siliceuses fossiles ou en terres siliceuses analogues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6903100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Contenant en poids plus de 50|% de carbone libre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6903200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant en poids plus de 50|% d'alumine (Al@2O@3) ou d'un mélange ou combinaison d'alumine et de silice (SiO@2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6903201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids moins de 45|% d'alumine (Al@2O@3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6903209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids 45|% ou plus d'alumine (Al@2O@3)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6903900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6903901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids plus de 25|% mais pas plus de 50|% de carbone libre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6903909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6903909040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes et supports de réacteurs en carbure de silicium ayant une température maximale de service égale ou supérieure à 1 370 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6903909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6904000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>II. AUTRES PRODUITS CÉRAMIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6904000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Briques de construction, hourdis, cache-poutrelles et articles similaires, en céramique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6904100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Briques de construction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6904900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tuiles, éléments de cheminée, conduits de fumée, ornements architectoniques, en céramique, et autres poteries de bâtiment</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6905100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tuiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6905900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6906000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tuyaux, gouttières et accessoires de tuyauterie, en céramique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6907000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Carreaux et dalles de pavement ou de revêtement, en céramique; cubes, dés et articles similaires pour mosaïques, en céramique, même sur un support; pièces de finition, en céramique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6907210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carreaux et dalles de pavement ou de revêtement, autres que ceux des n$o$s$ 6907|30|et 6907|40</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6907210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un coefficient d'absorption d'eau en poids inférieur ou égal à 0,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6907220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un coefficient d'absorption d'eau en poids supérieur à 0,5|% mais inférieur ou égal à 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6907230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un coefficient d'absorption d'eau en poids supérieur à 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6907300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>cubes, dés et articles similaires pour mosaïques autres que ceux du n° 6907|40</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6907400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pièces de finition</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6909000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Appareils et articles pour usages chimiques ou autres usages techniques, en céramique; auges, bacs et récipients similaires pour l'économie rurale, en céramique; cruchons et récipients similaires de transport ou d'emballage, en céramique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6909110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils et articles pour usages chimiques ou autres usages techniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en porcelaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Articles ayant une dureté équivalente à 9|ou davantage sur l'échelle de Mohs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6909190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909190020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Rolleaux ou billes en nitrure de silicium (Si3N4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909190025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Agents de soutènement en céramique se composant d'oxyde d'aluminium, d'oxyde de silicium et d'oxyde de fer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909190030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Support pour catalyseurs constitué d'éléments céramiques poreux en cordiérite ou en mullite, d'un volume global n'excédant pas 65|l, munis, par cm$2|de section transversale d'au moins un canal continu, ouvert à ses deux extrémités ou obturé à l'une des extrémités</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909190040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cartouches d'absorption ou d'adsorption en céramique carbone des systèmes de véhicules à moteur à carburant, présentant les caractéristiques suivantes:-une structure cylindrique multicellulaire en céramique cuite extrudée,-contenant au moins 5 % en poids mais n'excédant pas 70 % en poids de charbon actif,-contenant au moins 30 % en poids mais n'excédant pas 90 % en poids de matériau céramique,-un diamètre de 29 mm ou plus mais n'excédant pas 41 mm,-une longueur maximale de 150 mm,-cuites à une température de 800 °C ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909190050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ouvrages en céramique faits de filaments continus d'oxydes céramiques, contenant en poids: -|2|% ou plus de trioxyde de dibore, -|28|% ou moins de dioxyde de silicium et -|60|% ou plus de trioxyde de dialuminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909190060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Supports pour catalyseurs, constitués de pièces poreuses en céramique, à base d'un mélange de carbure de silicium et de silicium, d'une dureté inférieure à 9|sur l'échelle de Mohs, d'un volume total n'excédant pas 65|litres, et muni d'un ou plusieurs canaux fermés sur chaque cm$2|de la surface de la section transversale, à l'extrémité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909190070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Supports pour catalyseurs ou filtres catalytiques, constitués de pièces en céramique poreuse, à base essentiellement d'oxydes d'aluminium et de titane, d'un volume total n'excédant pas 65|litres et munis d'au moins un canal (non obturé ou obturé à une extrémité) par cm$2|de la surface de la section transversale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6909900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6910000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Éviers, lavabos, colonnes de lavabos, baignoires, bidets, cuvettes d'aisance, réservoirs de chasse, urinoirs et appareils fixes similaires pour usages sanitaires, en céramique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6910100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en porcelaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6910900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6911000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vaisselle, autres articles de ménage ou d'économie domestique et articles d'hygiène ou de toilette, en porcelaine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6911100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles pour le service de la table ou de la cuisine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6911100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Moulins à condiments et à épices en céramique, ainsi que leurs éléments de broyage en céramique, moulins à café en céramique, aiguiseurs à couteaux en céramique, fusils à aiguiser en céramique, outils de cuisine destinés à être utilisés pour les opérations de découpe, broyage, grattage, tranchage, râpage et pelage, pierres à pizza en céramique de cordiérite des types utilisés pour la cuisson de pizzas ou de pains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6911100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6911900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6912000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vaisselle, autres articles de ménage ou d'économie domestique et articles d'hygiène ou de toilette, en céramique, autres qu'en porcelaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6912002100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles pour le service de la table ou de la cuisine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6912002100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en terre commune</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6912002111</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002111</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Articles en céramique pour la table et la cuisine, à l'exclusion des moulins à condiments et à épices en céramique, ainsi que leurs éléments de broyage en céramique, des moulins à café en céramique, des aiguiseurs à couteaux en céramique, des fusils à aiguiser en céramique, des outils de cuisine destinés à être utilisés pour les opérations de découpe, broyage, grattage, tranchage, râpage et pelage, des pierres à pizza en céramique de cordiérite des types utilisés pour la cuisson de pizzas ou de pains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002119</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6912002191</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Articles en céramique pour la table et la cuisine, à l'exclusion des moulins à condiments et à épices en céramique, ainsi que leurs éléments de broyage en céramique, des moulins à café en céramique, des aiguiseurs à couteaux en céramique, des fusils à aiguiser en céramique, des outils de cuisine destinés à être utilisés pour les opérations de découpe, broyage, grattage, tranchage, râpage et pelage, des pierres à pizza en céramique de cordiérite des types utilisés pour la cuisson de pizzas ou de pains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6912002300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en grès</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Articles en céramique pour la table et la cuisine, à l'exclusion des moulins à condiments et à épices en céramique, ainsi que leurs éléments de broyage en céramique, des moulins à café en céramique, des aiguiseurs à couteaux en céramique, des fusils à aiguiser en céramique, des outils de cuisine destinés à être utilisés pour les opérations de découpe, broyage, grattage, tranchage, râpage et pelage, des pierres à pizza en céramique de cordiérite des types utilisés pour la cuisson de pizzas ou de pains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6912002500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en faïence ou en poterie fine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Articles en céramique pour la table et la cuisine, à l'exclusion des moulins à condiments et à épices en céramique, ainsi que leurs éléments de broyage en céramique, des moulins à café en céramique, des aiguiseurs à couteaux en céramique, des fusils à aiguiser en céramique, des outils de cuisine destinés à être utilisés pour les opérations de découpe, broyage, grattage, tranchage, râpage et pelage, des pierres à pizza en céramique de cordiérite des types utilisés pour la cuisson de pizzas ou de pains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6912002900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Articles en céramique pour la table et la cuisine, à l'exclusion des moulins à condiments et à épices en céramique, ainsi que leurs éléments de broyage en céramique, des moulins à café en céramique, des aiguiseurs à couteaux en céramique, des fusils à aiguiser en céramique, des outils de cuisine destinés à être utilisés pour les opérations de découpe, broyage, grattage, tranchage, râpage et pelage, des pierres à pizza en céramique de cordiérite des types utilisés pour la cuisson de pizzas ou de pains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912002990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6912008100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6912008100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en terre commune</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912008110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912008190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912008300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en grès</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912008500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en faïence ou en poterie fine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6912008900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6913000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Statuettes et autres objets d'ornementation en céramique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6913100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en porcelaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6913100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6913100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6913900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6913901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en terre commune</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6913901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6913901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6913909300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6913909300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en faïence ou en poterie fine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6913909310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6913909390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6913909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6913909810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6913909890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6914000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en céramique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6914100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en porcelaine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6914900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6914900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en terre commune faits à la main</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6914900020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6914900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ouvrages en céramique faits de filaments continus d'oxydes céramiques, contenant en poids: -|2|% ou plus de trioxyde de dibore, -|28|% ou moins de dioxyde de silicium et -|60|% ou plus de trioxyde de dialuminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6914900030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Microsphères en céramique, transparentes, obtenues à partir de dioxyde de silicium et de dioxyde de zirconium, d'un diamètre de plus de 125 µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6914900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

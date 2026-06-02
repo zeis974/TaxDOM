@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 04 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:03</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>0400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>LAIT ET PRODUITS DE LA LAITERIE; OEUFS D'OISEAUX; MIEL NATUREL; PRODUITS COMESTIBLES D'ORIGINE ANIMALE, NON DÉNOMMÉS NI COMPRIS AILLEURS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lait et crème de lait, non concentrés ni additionnés de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 1|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 1|% mais n'excédant pas 6|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0401201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>n'excédant pas 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0401209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 6|% mais n'excédant pas 10|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401401010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Crème de lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401401090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lait</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401409010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Crème de lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401409090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lait</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 10|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0401501100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>n'excédant pas 21|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401501100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401501110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crème de lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401501190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Lait</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401501900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401501910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crème de lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401501990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Lait</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0401503100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 21|% mais n'excédant pas 45|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401503100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401503110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crème de lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401503190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Lait</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401503900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401503910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crème de lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401503990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Lait</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0401509100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 45|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401509100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401509110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crème de lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401509190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Lait</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0401509900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401509910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Crème de lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0401509990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Lait</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0402000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lait et crème de lait, concentrés ou additionnés de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0402100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en poudre, en granulés ou sous d'autres formes solides, d'une teneur en poids de matières grasses n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en poudre, en granulés ou sous d'autres formes solides, d'une teneur en poids de matières grasses excédant 1,5|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0402210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402211100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402211100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402211800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402219100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402219100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402219900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0402290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402291100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402291100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Laits spéciaux, dits "pour nourrissons", en récipients hermétiquement fermés d'un contenu net n'excédant pas 500|g, d'une teneur en poids de matières grasses excédant 10|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402291500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402291500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402291900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402299100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402299100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402299900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0402910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 8|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402913000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 8|% mais n'excédant pas 10|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402915100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 10|% mais n'excédant pas 45|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402915100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402915900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402919100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 45|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402919100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402919900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0402990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 9,5|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402993100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 9,5|% mais n'excédant pas 45|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402993100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402993900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0402999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 45|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 2,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0402999900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0403000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Yoghourt; babeurre, lait et crème caillés, képhir et autres laits et crèmes fermentés ou acidifiés, même concentrés ou additionnés de sucre ou d'autres édulcorants ou aromatisés ou additionnés de fruits ou de cacao</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0403200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Yoghourt</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non aromatisés, ni additionnés de fruits, fruits à coque, cacao, chocolat, épices, café ou extrait de café, plantes, parties de plantes, céréales ou produits de la boulangerie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403201100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403201300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 3|% mais n'excédant pas 6|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 6|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403203100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403203100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403203300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 3|% mais n'excédant pas 6|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403203900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 6|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403204100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>additionnés de chocolat, épices, café ou extrait de café, plantes, parties de plantes, céréales ou produits de la boulangerie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403204100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de moins de 1,5|% de matières grasses du lait, 5|% de saccharose (y compris le sucre inverti) ou d'isoglucose, 5|% de glucose ou d'amidon ou de fécule</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0403204900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403204933</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en saccharose (y compris le sucre inverti calculé ensaccharose) ou en isoglucose, calculé également en saccharose, égale ou supérieure à 60|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403204933</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre interverti calculéen saccharose) inférieure à 70|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403204936</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403204990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403205100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, aromatisés ou additionnés de fruits, de fruits à coques ou de cacao</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403205100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en poudre, en granulés ou sous d'autres formes solides, d'une teneur en poids de matières grasses provenant du lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403205100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403205300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403205900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'une teneur en poids de matières grasses provenant du lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403209300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 3|% mais n'excédant pas 6|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 6|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0403900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non aromatisés, ni additionnés de fruits ou de cacao</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403901100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en poudre, en granulés ou sous d'autres formes solides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403901100</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403901300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403903300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403903900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403905100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403905100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403905100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403905300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 3|% mais n'excédant pas 6|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403905900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 6|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403906100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403906100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403906300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 3|% mais n'excédant pas 6|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403906900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 6|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403907100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>aromatisés ou additionnés de fruits ou de cacao</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403907100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en poudre, en granulés ou sous d'autres formes solides, d'une teneur en poids de matières grasses provenant du lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403907100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403907300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403907900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0403909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'une teneur en poids de matières grasses provenant du lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403909300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 3|% mais n'excédant pas 6|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0403909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 6|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lactosérum, même concentré ou additionné de sucre ou d'autres édulcorants; produits consistant en composants naturels du lait, même additionnés de sucre ou d'autres édulcorants, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0404100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lactosérum, modifié ou non, même concentré ou additionné de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404100200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en poudre, en granulés ou sous d'autres formes solides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404100200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants et d'une teneur en poids de protéines (teneur en azote|!x!|6,38)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404100200</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 15|% et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404100200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404100400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404100600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404101200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 15|% et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404101200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404101400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404101600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404102600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'une teneur en poids de protéines (teneur en azote|!x!|6,38)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404102600</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 15|% et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404102600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404102800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404103200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404103400</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 15|% et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404103400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404103600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404103800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404104800</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404104800</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants et d'une teneur en poids de protéines (teneur en azote|!x!|6,38)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404104800</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 15|% et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404104800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404105200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404105400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404105600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 15|% et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404105600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404105800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404106200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404107200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'une teneur en poids de protéines (teneur en azote|!x!|6,38)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404107200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 15|% et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404107200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404107400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404107600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404107800</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 15|% et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404107800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404108200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404108400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0404900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404902100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans addition de sucre ou d'autres édulcorants et d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404902100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404902300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404902900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0404908100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, d'une teneur en poids de matières grasses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404908100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 1,5|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0404908300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 1,5|% mais n'excédant pas 27|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404908310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Laits spéciaux, dits "pour nourrissons", en récipients hermétiquement fermés d'un contenu net n'excédant pas 500|g, d'une teneur en poids de matières grasses excédant 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404908390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0404908900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 27|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0405000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Beurre et autres matières grasses provenant du lait; pâtes à tartiner laitières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0405100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Beurre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0405101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 85|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0405101100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Beurre naturel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Beurre recombiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Beurre de lactosérum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0405200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pâtes à tartiner laitières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0405201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de matières grasses égale ou supérieure à 39|% mais inférieure à 60|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405201010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net inférieur ou égal à 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405201080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0405203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de matières grasses égale ou supérieure à 60|% mais n'excédant pas 75|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405203010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net inférieur ou égal à 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405203080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de matières grasses supérieure à 75|% mais inférieure à 80|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0405900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de matières grasses égale ou supérieure à 99,3|% et d'une teneur en poids d'eau n'excédant pas 0,5|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0405909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fromages et caillebotte</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fromages frais (non affinés), y compris le fromage de lactosérum, et caillebotte</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406103000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 40|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mozzarella, même dans un liquide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406103010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fromage pour pizza, congelé, découpé en morceaux d'un poids unitaire inférieur ou égal à un gramme, dans des récipients d'un contenu net de 5|kg ou plus, d'une teneur en poids d'eau de 52% ou plus et d'une teneur en poids de graisse de la matière sèche de 38% ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406103090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406105010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Skyr</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406105030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fromage pour pizza, congelé, découpé en morceaux d'un poids unitaire inférieur ou égal à un gramme, dans des récipients d'un contenu net de 5|kg ou plus, d'une teneur en poids d'eau de 52% ou plus et d'une teneur en poids de graisse de la matière sèche de 38% ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406105090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406108010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fromage pour pizza, congelé, découpé en morceaux d'un poids unitaire inférieur ou égal à un gramme, dans des récipients d'un contenu net de 5|kg ou plus, d'une teneur en poids d'eau de 52% ou plus et d'une teneur en poids de graisse de la matière sèche de 38% ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406108080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fromages râpés ou en poudre, de tous types</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fromages fondus, autres que râpés ou en poudre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>dans la fabrication desquels ne sont pas entrés d'autres fromages que l'emmental, le gruyère et l'appenzell et, éventuellement, à titre additionnel, du fromage de Glaris aux herbes (dit "schabziger"), conditionnés pour la vente au détail, d'une teneur en matières grasses en poids de la matière sèche inférieure ou égale à 56|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406301010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Emmental fondu</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406301020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Gruyère fondu</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406301090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406303100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406303100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 36|% et d'une teneur en matières grasses en poids de la matière sèche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406303100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 48|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406303900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 48|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses excédant 36|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fromages à pâte persillée et autres fromages présentant des marbrures obtenues en utilisant du Penicillium roqueforti</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Roquefort</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406405000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gorgonzola</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fromages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406900100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à la transformation</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406901300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406901300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Emmental</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406901500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Gruyère, sbrinz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406901700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bergkäse, appenzell</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406901800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fromage fribourgeois, vacherin mont d'or et tête de moine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406902100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cheddar</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406902120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en formes entières standards (meules ayant un poids net de 33|kg inclus à 44|kg inclus et les blocs de forme cubique ou parallélépipédique ayant un poids net égal ou supérieur à 10|kg) d'une teneur minimale en matières grasses de 50% en poids de la matière sèche et d'une maturation d'au moins trois mois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406902190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406902300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Edam</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406902500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tilsit</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406902900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Kashkaval</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406903200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feta</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406903500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Kefalotyri</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406903700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Finlandia</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406903900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Jarlsberg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406905000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fromages de brebis ou de bufflonne, en récipients contenant de la saumure ou en outres en peau de brebis ou de chèvre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406906100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406906100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de matières grasses n'excédant pas 40|% et d'une teneur en poids d'eau dans la matière non grasse</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406906100</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>n'excédant pas 47|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406906100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Grana padano, parmigiano reggiano</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406906300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Fiore sardo, pecorino</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406906310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Pecorino</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406906390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406906900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406907300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>excédant 47|% mais n'excédant pas 72|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Provolone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Maasdam</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406907500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Asiago, caciocavallo, montasio, ragusano</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Caciocavallo</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406907600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Danbo, fontal, fontina, fynbo, havarti, maribo, samsø</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Fontina</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Gouda</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406907900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Esrom, italico, kernhem, saint-nectaire, saint-paulin, taleggio</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Esrom, italico, kernhem, saint-paulin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406907990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406908100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Cantal, cheshire, wensleydale, lancashire, double gloucester, blarney, colby, monterey</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Cantal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Camembert</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Brie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Kefalograviera, kasseri</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0406908600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres fromages, d'une teneur en poids d'eau dans la matière non grasse</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406908600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>excédant 47|% mais n'excédant pas 52|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908620</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Tulum Peyniri, fabriqué avec du lait de brebis ou de bufflonne, en emballages en matière plastique ou autres de moins de 10 kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406908900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>excédant 52|% mais n'excédant pas 62|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Tulum Peyniri, fabriqué avec du lait de brebis ou de bufflonne, en emballages en matière plastique ou autres de moins de 10 kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406908990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0406909200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>excédant 62|% mais n'excédant pas 72|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406909210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Tulum Peyniri, fabriqué avec du lait de brebis ou de bufflonne, en emballages en matière plastique ou autres de moins de 10 kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406909290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406909300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>excédant 72|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0406909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0407000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>¿ufs d'oiseaux, en coquilles, frais, conservés ou cuits</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0407110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>OEufs fertilisés destinés à l'incubation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de volailles de l'espèce Gallus domesticus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0407190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0407191100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de volailles, autres que de volailles de l'espèce Gallus domesticus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407191100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de dindes ou d'oies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407191900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0407210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres oeufs frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de volailles de l'espèce Gallus domesticus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0407290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de volailles, autres que de volailles de l'espèce Gallus domesticus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0407900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de volailles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0407909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0408000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OEufs d'oiseaux, dépourvus de leurs coquilles, et jaunes d'oeufs, frais, séchés, cuits à l'eau ou à la vapeur, moulés, congelés ou autrement conservés, même additionnés de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0408110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Jaunes d'oeufs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0408110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>séchés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408112000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>impropres à des usages alimentaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408118000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0408190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>impropres à des usages alimentaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0408198100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408198100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>liquides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408198900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, y compris congelés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0408910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0408910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>séchés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408912000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>impropres à des usages alimentaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408918000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0408990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>impropres à des usages alimentaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0408998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0409000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Miel naturel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0409000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Miel M¿nuka</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0409000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0410000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Insectes et autres produits comestibles d'origine animale, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0410100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Insectes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0410101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>frais, réfrigérés ou congelés, autres que les farines et poudres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0410109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0410109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Farines et poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0410109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0410900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

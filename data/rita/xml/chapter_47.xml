@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 47 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:36</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>4700000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PÂTES DE BOIS OU D'AUTRES MATIÈRES FIBREUSES CELLULOSIQUES; PAPIER OU CARTON À RECYCLER (DÉCHETS ET REBUTS)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4701000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâtes mécaniques de bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4701001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pâtes thermomécaniques de bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4701009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4702000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâtes chimiques de bois, à dissoudre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4703000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâtes chimiques de bois, à la soude ou au sulfate, autres que les pâtes à dissoudre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4703110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4703110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4703190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4703210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>mi-blanchies ou blanchies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4703210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4703290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4704000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâtes chimiques de bois, au bisulfite, autres que les pâtes à dissoudre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4704110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4704110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4704190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4704210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>mi-blanchies ou blanchies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4704210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4704290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4705000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâtes de bois obtenues par la combinaison d'un traitement mécanique et d'un traitement chimique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4706000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâtes de fibres obtenues à partir de papier ou de carton recyclés (déchets et rebuts) ou d'autres matières fibreuses cellulosiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4706100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pâtes de linters de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4706200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pâtes de fibres obtenues à partir de papier ou de carton recyclés (déchets et rebuts)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4706300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, de bambou</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4706910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4706910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mécaniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4706920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>chimiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4706930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>obtenues par la combinaison d'un traitement mécanique et d'un traitement chimique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4707000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers ou cartons à recycler (déchets et rebuts)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4707100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers ou cartons kraft écrus ou papiers ou cartons ondulés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4707200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres papiers ou cartons obtenus principalement à partir de pâte chimique blanchie, non colorés dans la masse</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4707300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers ou cartons obtenus principalement à partir de pâte mécanique (journaux, périodiques et imprimés similaires, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4707301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>vieux numéros et invendus de journaux et revues, annuaires téléphoniques, brochures et imprimés publicitaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4707309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4707900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les déchets et rebuts non triés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4707901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non triés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4707909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>triés</Description>
+</ligne></contenu></table>

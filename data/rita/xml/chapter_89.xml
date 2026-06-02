@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 89 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:08</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>8900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>NAVIGATION MARITIME OU FLUVIALE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8901000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Paquebots, bateaux de croisières, transbordeurs, cargos, péniches et bateaux similaires pour le transport de personnes ou de marchandises</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8901100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Paquebots, bateaux de croisières et bateaux similaires principalement conçus pour le transport de personnes; transbordeurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8901101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8901109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8901200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bateaux-citernes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8901201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8901209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8901300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bateaux frigorifiques autres que ceux du n$o|8901|20</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8901301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8901309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8901900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres bateaux pour le transport de marchandises et autres bateaux conçus à la fois pour le transport de personnes et de marchandises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8901901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8901909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8902000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bateaux de pêche; navires-usines et autres bateaux pour le traitement ou la mise en conserve des produits de la pêche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8902001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8902009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8903000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Yachts et autres bateaux et embarcations de plaisance ou de sport; bateaux à rames et canoës</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8903110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bateaux gonflables, même à coque rigide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>comportant un moteur ou conçus pour comporter un moteur, d'un poids à vide sans moteur n'excédant pas 100|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non conçus pour être utilisés avec un moteur et d'un poids à vide n'excédant pas 100|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8903210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bateaux à voile, autres que gonflables, même avec moteur auxiliaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une longueur n'excédant pas 7,5|m</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8903220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une longueur excédant 7,5|m mais n'excédant pas 24|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8903230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une longueur excédant 24|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8903310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bateaux à moteur, autres que gonflables, ne comportant pas de moteur hors-bord</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une longueur n'excédant pas 7,5|m</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8903320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une longueur excédant 7,5|m mais n'excédant pas 24|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8903330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une longueur excédant 24|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903331000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903339000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8903930000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8903930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une longueur n'excédant pas 7,5|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903931000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids unitaire n'excédant pas 100|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903939000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8903990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids unitaire n'excédant pas 100|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8903999900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8904000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Remorqueurs et bateaux-pousseurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8904001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Remorqueurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8904009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bateaux-pousseurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8904009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8904009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bateaux-phares, bateaux-pompes, bateaux-dragueurs, pontons-grues et autres bateaux pour lesquels la navigation n'est qu'accessoire par rapport à la fonction principale; docks flottants; plates-formes de forage ou d'exploitation, flottantes ou submersibles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8905100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bateaux-dragueurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8905101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8905109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8905200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plates-formes de forage ou d'exploitation, flottantes ou submersibles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8905900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8905901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8905909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8906000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres bateaux, y compris les navires de guerre et les bateaux de sauvetage autres qu'à rames</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8906100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Navires de guerre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8906900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8906901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la navigation maritime</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8906909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8906909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids unitaire n'excédant pas 100|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8906909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8907000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres engins flottants (radeaux, réservoirs, caissons, coffres d'amarrage, bouées et balises, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8907100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Radeaux gonflables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8907900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8908000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bateaux et autres engins flottants à dépecer</Description>
+</ligne></contenu></table>

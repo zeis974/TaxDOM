@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 98 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:15</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>ENSEMBLES INDUSTRIELS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9880000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Composants d'ensembles industriels dans le cadre du commerce extérieur (Règlement d'exécution (UE) 2020/1197 de la Commission du 30 juillet 2020)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880010000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 01</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880020000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 02</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880030000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 03</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880040000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 04</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880050000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 05</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880060000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 06</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880070000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 07</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880080000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 08</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880090000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 09</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 10</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 11</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 12</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 13</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 14</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 15</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880160000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 16</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880170000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 17</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880180000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 18</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 19</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 20</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 21</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 22</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 23</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 24</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 25</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880260000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 26</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880270000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 27</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880280000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 28</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 29</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 30</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 31</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 32</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 33</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 34</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880350000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 35</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880360000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 36</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880370000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 37</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880380000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 38</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 39</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 40</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 41</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 42</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 43</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 44</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880450000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 45</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880460000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 46</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880470000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 47</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880480000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 48</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 49</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 50</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 51</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 52</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 53</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880540000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 54</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880550000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 55</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880560000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 56</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880570000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 57</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880580000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 58</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 59</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 60</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 61</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 62</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880630000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 63</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880640000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 64</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880650000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 65</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880660000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 66</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880670000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 67</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880680000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 68</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 69</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 70</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880710000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 71</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880720000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 72</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880730000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 73</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880740000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 74</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880750000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 75</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880760000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 76</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880780000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 78</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880790000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 79</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 80</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 81</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 82</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880830000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 83</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880840000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 84</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880850000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 85</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880860000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 86</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880870000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880880000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 88</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 89</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 90</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 91</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 92</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 93</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 94</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 95</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880960000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 96</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9880970000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>relevant du chapitre 97</Description>
+</ligne></contenu></table>

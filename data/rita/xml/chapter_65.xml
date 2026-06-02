@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 65 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:50</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>6500000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>COIFFURES ET PARTIES DE COIFFURES</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6501000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cloches non dressées (mises en forme) ni tournurées (mises en tournure), plateaux (disques), manchons (cylindres) même fendus dans le sens de la hauteur, en feutre, pour chapeaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6502000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cloches ou formes pour chapeaux, tressées ou fabriquées par l'assemblage de bandes en toutes matières, non dressées (mises en forme) ni tournurées (mises en tournure) ni garnies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6504000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chapeaux et autres coiffures, tressés ou fabriqués par l'assemblage de bandes en toutes matières, même garnis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6505000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chapeaux et autres coiffures en bonneterie ou confectionnés à l'aide de dentelles, de feutre ou d'autres produits textiles, en pièces (mais non en bandes), même garnis; résilles et filets à cheveux en toutes matières, même garnis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6505001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en feutre de poils ou de laine et poils, fabriqués à l'aide des cloches ou des plateaux du n$o|6501|00|00</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6505003000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6505003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Casquettes, képis et coiffures similaires comportant une visière</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6505009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6505009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bérets en laine, faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6505009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6506000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres chapeaux et coiffures, même garnis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6506100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coiffures de sécurité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6506101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6506108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6506910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6506910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en caoutchouc ou en matière plastique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6506990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6506991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en feutre de poils ou de laine et poils, fabriqués à l'aide des cloches ou des plateaux du n$o|6501|00|00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6506999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6507000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bandes pour garniture intérieure, coiffes, couvre-coiffures, carcasses, visières et jugulaires pour la chapellerie</Description>
+</ligne></contenu></table>

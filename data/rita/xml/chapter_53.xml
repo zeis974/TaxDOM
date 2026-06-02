@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 53 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:41</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>AUTRES FIBRES TEXTILES VÉGÉTALES; FILS DE PAPIER ET TISSUS DE FILS DE PAPIER</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lin brut ou travaillé mais non filé; étoupes et déchets de lin (y compris les déchets de fils et les effilochés)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5301100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lin brut ou roui</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5301210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lin brisé, teillé, peigné ou autrement travaillé, mais non filé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5301210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>brisé ou teillé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5301290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5301300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Étoupes et déchets de lin</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chanvre (Cannabis sativa L.) brut ou travaillé mais non filé; étoupes et déchets de chanvre (y compris les déchets de fils et les effilochés)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5302100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chanvre brut ou roui</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5302900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5303000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Jute et autres fibres textiles libériennes (à l'exclusion du lin, du chanvre et de la ramie), bruts ou travaillés mais non filés; étoupes et déchets de ces fibres (y compris les déchets de fils et les effilochés)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5303100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Jute et autres fibres textiles libériennes, bruts ou rouis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5303900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5305000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Coco, abaca (chanvre de Manille ou Musa textilis Nee), ramie et autres fibres textiles végétales non dénommées ni comprises ailleurs, bruts ou travaillés mais non filés; étoupes et déchets de ces fibres (y compris les déchets de fils et les effilochés)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5306000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de lin</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5306100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>simples</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5306101000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5306101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant 833,3|décitex ou plus (n'excédant pas 12|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5306101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils de lin (à l'exception des fils d'étoupe) destinés à la fabrication de fils retors ou câblés, pour l'industrie de la chaussure et pour ligaturer les câbles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5306101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5306103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant moins de 833,3|décitex mais pas moins de 277,8|décitex (excédant 12|numéros métriques mais n'excédant pas 36|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5306103010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils de lin (à l'exception des fils d'étoupe) mesurant 333,3 décitex ou plus (n'excédant pas 30 numéros métriques) destinés à la fabrication des fils retors ou câblés, pour l'industrie de la chaussure et pour ligaturer les câbles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5306103090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5306105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant moins de 277,8|décitex (excédant 36|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5306109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5306200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>retors ou câblés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5306201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5306209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5307000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de jute ou d'autres fibres textiles libériennes du n$o|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5307100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>simples</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5307200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>retors ou câblés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5308000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils d'autres fibres textiles végétales; fils de papier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5308100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils de coco</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5308200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils de chanvre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5308201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5308209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5308900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5308901200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils de ramie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5308901200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant 277,8|décitex ou plus (n'excédant pas 36|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5308901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant moins de 277,8|décitex (excédant 36|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5308905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils de papier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5308909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5309000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de lin</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5309110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de lin</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5309110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5309111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5309119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5309190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5309210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant moins de 85|% en poids de lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5309210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5309290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5310000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de jute ou d'autres fibres textiles libériennes du n$o|5303</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5310100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5310101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur n'excédant pas 150|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5310109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 150|cm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5310900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5310900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur n'excédant pas 150 cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5310900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5311000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus d'autres fibres textiles végétales; tissus de fils de papier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5311001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus de ramie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5311009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5311009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissage à armure toile de fils de papier collés sur une couche de papier mince- d'un poids de 190 g/m² ou plus mais n'excédant pas 280 g/m² et- découpé en rectangles d'une longueur de 40 cm ou plus mais n'excédant pas 140 cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5311009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 32 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:25</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3200000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>EXTRAITS TANNANTS OU TINCTORIAUX; TANINS ET LEURS DÉRIVÉS; PIGMENTS ET AUTRES MATIÈRES COLORANTES; PEINTURES ET VERNIS; MASTICS; ENCRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3201000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Extraits tannants d'origine végétale; tanins et leurs sels, éthers, esters et autres dérivés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3201100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Extrait de quebracho</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3201200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Extrait de mimosa</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3201900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3201902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Extraits de sumac, de vallonées, de chêne ou de châtaignier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3201902010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Extrait aqueux de noix de galle de Rhus chinensis (Galla chinensis) présentant une teneur en tanin inférieure ou égale à 85 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3201902090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3201909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3201909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Extraits tannants d'eucalyptus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3201909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Extraits tannants dérivés du gambier et des fruits du myrobalan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3201909030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Autres extraits tannants d'origine végétale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3201909080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3202000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits tannants organiques synthétiques; produits tannants inorganiques; préparations tannantes, même contenant des produits tannants naturels; préparations enzymatiques pour le prétannage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3202100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits tannants organiques synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3202900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3203000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Matières colorantes d'origine végétale ou animale (y compris les extraits tinctoriaux, mais à l'exclusion des noirs d'origine animale), même de constitution chimique définie; préparations visées à la note|3|du présent chapitre, à base de matières colorantes d'origine végétale ou animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3203001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Matières colorantes d'origine végétale et préparations à base de ces matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3203009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Matières colorantes d'origine animale et préparations à base de ces matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Matières colorantes organiques synthétiques, même de constitution chimique définie; préparations visées à la note|3|du présent chapitre, à base de matières colorantes organiques synthétiques; produits organiques synthétiques des types utilisés comme agents d'avivage fluorescents ou comme luminophores, même de constitution chimique définie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3204110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Matières colorantes organiques synthétiques et préparations visées à la note|3|du présent chapitre, à base de ces matières colorantes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorants dispersés et préparations à base de ces colorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204110015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Disperse Blue 360|(CAS RN 70693-64-0) et préparations à base de ce colorant dont la teneur en colorant C.I. Disperse Blue 360|est supérieure ou égale à 99|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204110025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>N-(2-chloroéthyl)-4-[(2,6-dichloro-4-nitrophenyl)azo]-N-éthyl-m-toluidine (CAS RN 63741-10-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204110050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Disperse Blue 72|(CAS RN 81-48-1) et préparations à base de ce colorant dont la teneur en colorant C.I. Disperse Blue 72|est supérieure ou égale à 95|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorants acides, même métallisés, et préparations à base de ces colorants; colorants à mordants et préparations à base de ces colorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Brown 75|(CAS|RN|8011-86-7) et préparations à base de ce colorant dont la teneur en colorant C.I. Acid Brown 75|est d'au moins 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120017</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Brown 355|(CAS|RN| 84989-26-4|ou 60181-77-3) et préparations à base de ce colorant d'une teneur en colorant C.I. Acid Brown 355|égale ou supérieure à 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Black 210|(CAS|RN|85223-29-6|or 99576-15-5) et préparations à base de ce colorant dont la teneur en colorant C.I. Acid Black 210|est d'au moins 50|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120027</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Brown 425|(CAS|RN|75234-41-2|ou 119509-49-8) et préparations à base de ce colorant d'une teneur en colorant C.I. Acid Brown 425|égale ou supérieure à 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Black 234|(CAS|RN|157577-99-6) et préparations à base de ce colorant dont la teneur en colorant C.I. Acid Black 234|est d'au moins 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120037</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sel de sodium colorant C.I. Acid Black 210|(CAS|RN 201792-73-6) et préparations à base de ce colorant d'une teneur en sel de sodium colorant C.I. Acid Black 210|égale ou supérieure à 50|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparation de colorants liquide contenant le colorant acide anionique C.I. Acid Blue 182|(CAS RN 12219-26-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Blue 161/193|(CAS|RN|12392-64-2) et préparations à base de ce colorant dont la teneur en colorant C.I.Acid Blue 161/193|est d'au moins 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120047</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Brown 58|(CAS|RN| 70210-34-3|ou 12269-87-3) et préparations à base de ce colorant d'une teneur en colorant C.I. Acid Brown 58|égale ou supérieure à 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Brown 165|(CAS|RN|61724-14-9) et préparations à base de ce colorant dont la teneur en colorant C.I. Acid Brown 165|est d'au moins 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120057</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Brown 282|(CAS|RN| 70236-60-1|ou 12219-65-7) et préparations à base de ce colorant d'une teneur en colorant C.I. Acid Brown 282|égale ou supérieure à 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Red 52 (CAS RN 3520-42-1) et préparations à base de ce colorant dont la teneur en colorant C.I. Acid Red 52 est supérieure ou égale à 97 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120065</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid Brown 432|(CAS|RN|119509-50-1) et préparations à base de ce colorant dont la teneur en colorant C.I. Acid Brown 432|est d'au moins 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Acid blue 25|(n°|CAS 6408-78-2) et préparations à base de ce pigment d'une teneur en colorant C.I. Acid blue 25|égale ou supérieure à 80|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorants basiques et préparations à base de ces colorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204130010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Basic Red 1|(CAS RN 989-38-8) et préparations à base de ce colorant dont la teneur en colorant C.I. Basic Red 1|est supérieure ou égale à 50|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204130015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Basic Blue 41|(CAS|RN|12270-13-2) et préparations à base de ce colorant dont la teneur en C.I. Basic Blue 41|est supérieure ou égale à 50|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204130035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Basic Yellow 28 (CAS RN 54060-92-3) et préparations à base de ce colorant dont la teneur en colorant C.I. Basic Yellow 28 est supérieure ou égale à 50 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204130040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Basic Violet 1|(CAS RN 603-47-4|ou CAS RN 8004-87-3) et préparations à base de ce colorant dont la teneur en colorant C.I. Basic Violet 1|est supérieure ou égale à 90|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204130060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Basic Red 1:1 (CAS RN 3068-39-1) et préparations à base de ce colorant dont la teneur en colorant C.I. Basic Red 1:1 est supérieure ou égale à 90 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204130085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange contenant en poids:-25 % ou plus mais pas plus de 40 % de colorant C.I. Basic Blue 3 (CAS RN 33203-82-6) et-25 % ou plus mais pas plus de 40 % de C.I. Basic Blue 159 (CAS RN 105953-73-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204130090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorants directs et préparations à base de ces colorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204140010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Direct Black 80 (CAS RN 8003-69-8) et préparations à base de ce colorant dont la teneur en colorant C.I. Direct Black 80 est supérieure ou égale à 90 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204140030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Direct Red 23 (CAS RN 3441-14-3) et préparations à base de ce colorant dont la teneur en colorant C.I. Direct Red 23 est supérieure ou égale à 90 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204140090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorants de cuve (y compris ceux utilisables en l'état comme colorants pigmentaires) et préparations à base de ces colorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204150015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Vat Blue 1 (CAS RN 482-89-3) et préparations à base de ce colorant dont la teneur en colorant C.I. Vat Blue 1 est supérieure ou égale à 94 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204150025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange dans un rapport de 3:2 de colorants C.I. Vat Blue 1 sel de potassium (CAS RN 835912-68-0) et C.I. Vat Blue 1 sel de sodium (CAS RN 894-86-0) et préparations à base deceux-ci avec un taux combiné de sels de colorant C.I. Vat Blue 1 de 40 % ou plus en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204150070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Vat Red 1|(CAS|RN|2379-74-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204150090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204160000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorants réactifs et préparations à base de ces colorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204160030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparations à base de colorant Reactive Black 5|(CAS|RN|7095-24-8) dont la teneur en colorant Reactive Black 5|est comprise entre 60|et 75|% en poids et contenant un ou plusieurs des composés suivants:-|colorant Reactive Yellow 201|(CAS|RN|7624-67-5),-|Sel disodique de l'acide 4-amino-3-[[4-[[2-(sulfooxy)éthyl]sulfonyl]phényl]azo]-1-naphtalène-sulfonique (CAS|RN|250688-43-8), ou-|Sel de sodium de l'acide 3,5-diamino-4-[[4-[[2-(sulfooxy)éthyl]sulfonyl]phényl]azo]-2-[[2-sulfo-4-[[2-(sulfooxy)éthyl]sulfonyl] phényl]azo]benzoïque,(CAS|RN|906532-68-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204160040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Solution aqueuse à base de colorant C.I. Reactive Red 141|(CAS|RN|61931-52-0) -|dont la teneur en colorant C.I. Reactive Red 141|est supérieure ou égale à 13|% en poids, et-|contenant un conservateur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204160090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204170000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorants pigmentaires et préparations à base de ces colorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Yellow 81|(CAS RN 22094-93-5) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Yellow 81|est supérieure ou égale à 50|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Green 7|(CAS RN 1328-53-6) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Green 7|est supérieure ou égale à 40|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Orange 16|(CAS|RN|6505-28-8) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Orange 16|est d'au moins 90|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 48:2|(CAS|RN|7023-61-2) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Red 48:2|est d'au moins 85|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Blue 15:3|(CAS RN 147-14-8) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Blue 15:3|est supérieure ou égale à 35|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Blue 15:4 (CAS RN 147-14-8) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Blue 15:4 est d'au moins 35 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170022</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 169|(CAS RN 12237-63-7) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Red 169|est supérieure ou égale à 50|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I.Pigment brun 41 (CAS RN 211502-16-8 ou CAS RN 68516-75-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170024</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 57:1|(CAS|RN|5281-04-9) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Red 57:1|est supérieure ou égale à 20|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Yellow 14|(CAS RN 5468-75-7) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Yellow 14|est supérieure ou égale à 25|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170026</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I Pigment Orange 13|(CAS|RN|3520-72-7) et préparations à base de ce colorant d'une teneur en colorant C.I. Pigment Orange 13|de 80|% ou plus en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170028</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Yellow 12 (CAS RN 6358-85-6) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Yellow 12 est égale ou supérieure à 21 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 63:1 (CAS RN 6417-83-0) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Red 63:1 est supérieure ou égale à 70 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170033</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Blue 15:1|(CAS RN 147-14-8) et préparations à base de ce pigment avec une teneur en colorant C.I. Pigment Blue 15:1|égale ou supérieure à 35|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 202|(CAS RN 3089-17-6) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Red 202|est supérieure ou égale à 70|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170037</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 81:2|(CAS|RN|75627-12-2) et préparations à base de ce colorant, contenant en poids 30|% ou plus de C.I. Pigment Red 81:2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170051</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Yellow 174 (CAS RN 78952-72-4) et préparations à base de celui-ci contenant 50 % ou plus en poids de colorant C.I. Pigment Yellow 174</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170052</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 112 (CAS RN 6535-46-2) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Pigment Red 112</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170053</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 122 (CAS RN 980-26-7) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Pigment Red 122</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170054</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Yellow 65 (CAS RN 6528-34-3) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Pigment Yellow 65</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170056</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Red 146 (CAS RN 5280-68-2) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Pigment Red 146</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170057</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Yellow 13 (CAS RN 5102-83-0) et préparations à base de celui-ci contenant 50 % ou plus en poids de colorant C.I. Pigment Yellow 13</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170058</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Yellow 17 (CAS RN 4531-49-1) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Pigment Yellow 17</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170059</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Yellow 180 (CAS RN 77804-81-0) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Pigment Yellow 180</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Orange 5|(CAS RN 3468-63-1) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Orange 5|est supérieure ou égale à 80|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Blue 61|(CAS RN 1324-76-1) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Blue 61|est supérieure ou égale à 35|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Violet 3|(CAS RN 1325-82-2|ou CAS RN 101357-19-1) et préparations à base de ce colorant dont la teneur en colorant C.I. Pigment Violet 3|est supérieure ou égale à 90|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204170090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204180000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Matières colorantes caroténoïdes et préparations à base de ces matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, y compris les mélanges de matières colorantes d'au moins deux des n$o$s|3204|11|à 3204|19</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204190013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Sulphur Black 1|(CAS|RN|1326-82-5) et préparations à base de ce colorant dont la teneur en colorant C.I. Sulphur Black 1|est d'au moins 75|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204190073</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Solvent Blue 104|(CAS RN 116-75-6) et préparations à base de ce colorant dont la teneur en colorant C.I. Solvent Blue 104|est supérieure ou égale à 97|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204190074</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Solvent Red 135 (CAS RN 71902-17-5) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Solvent Red 135</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204190076</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Solvent Red 52 (CAS RN 81-39-0) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Solvent Red 52</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204190077</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Solvent Yellow 98|(CAS RN 27870-92-4|ou CAS RN 12671-74-8) et préparations à base de ce colorant dont la teneur en colorant C.I. Solvent Yellow 98|est supérieure ou égale à 95|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204190078</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Solvent Yellow 114 (CAS RN 17772-51-9) et préparations en contenant 90 % ou plus en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits organiques synthétiques des types utilisés comme agents d'avivage fluorescents</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorant C.I. Fluorescent Brightener 184 (CAS RN  7128-64-5) et préparations à base de ce colorant dont la teneur en colorant C.I. Fluorescent Brightener 184 est supérieure ou égale à 20% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204200030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorant C.I. Fluorescent Brightener 351|(CAS RN 27344-41-8) et préparations à base de ce colorant dont la teneur en colorant C.I. Fluorescent Brightener 351|est supérieure ou égale à 90|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3204900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colorant C.I Solvent Yellow 172 (également appelé C.I. Solvent Yellow 135) (CAS RN 68427-35-0) et préparations à base de celui-ci, d'une teneur en colorant C.I Solvent Yellow 172 (également appelé C.I. Solvent Yellow 135) de 90 % ou plus en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3204900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3205000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Laques colorantes; préparations visées à la note|3|du présent chapitre, à base de laques colorantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3205000020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparation de colorant C.I. Solvent Red 48 (CAS RN 13473-26-2), sous forme de poudre sèche, contenant en poids:-16 % ou plus mais pas plus de 25 % de colorant C.I. Solvent Red 48 (CAS RN 13473-26-2)-65 % ou plus mais pas plus de 75 % d'hydroxyde d'aluminium (CAS RN 21645-51-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3205000030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparation de colorant C.I. Pigment Red 174 (CAS RN 15876-58-1), sous forme de poudre sèche, contenant en poids:-16 % ou plus mais pas plus de 21 % de colorant C.I. Pigment Red 174 (CAS RN 15876-58-1)-65 % ou plus mais pas plus de 69 % d'hydroxyde d'aluminium (CAS RN 21645-51-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3205000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3206000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres matières colorantes; préparations visées à la note|3|du présent chapitre, autres que celles des n$o$s|3203, 3204|ou 3205; produits inorganiques des types utilisés comme luminophores, même de constitution chimique définie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3206110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pigments et préparations à base de dioxyde de titane</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3206110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids 80|% ou plus de dioxyde de titane, calculé sur matière sèche</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3206110010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pour des utilisations autres que la production d'encres graphiques blanches destinées à l'impression</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dioxyde de titane enrobé de triisostéarate d'isopropoxytitane, contenant en poids 1,5|% ou plus mais pas plus de 2,5|% de triisostéarate d'isopropoxytitane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206110030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3206110080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pour une utilisation dans la production d'encres graphiques blanches destinées à l'impression</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206110080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dioxyde de titane enrobé de triisostéarate d'isopropoxytitane, contenant en poids 1,5|% ou plus mais pas plus de 2,5|% de triisostéarate d'isopropoxytitane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206110085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3206190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparation contenant en poids de: -|72|% (±2|%) de mica|(CAS RN 12001-26-2) et -|28|% (±2|%) de dioxyde de titane|(CAS RN 13463-67-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3206200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pigments et préparations à base de composés du chrome</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rouge de chromate, de molybdate et de sulfate de plomb (C. I. Pigment Red 104) (CAS-nr: 12656-85-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206200020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Jaune de sulfochromate de plomb (C.I.  Pigment Yellow 34)  (CAS RN 1344-37-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206200030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chromate octahydroxyde de pentazinc (CAS RN 49663-84-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206200040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chromate de strontium (CAS RN 7789-06-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206200050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Spinelle noire de chromite de nickel et de fer (C.I. pigment black 30) (CAS RN 71631-15-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206200060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Spinelle verte de chromite de cobalt (C.I. pigment green 26) (CAS RN 68187-49-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206200070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Spinelle noire de chromite de cuivre (C.I. pigment black 28) (CAS RN 68186-91-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3206410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres matières colorantes et autres préparations</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3206410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Outremer et ses préparations</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206410010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Colorant C.I. Pigment Blue 29 (CAS RN 57455-37-5) et préparations à base de celui-ci contenant 90 % ou plus en poids de ce colorant C.I. Pigment Blue 29</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206410090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lithopone, autres pigments et préparations à base de sulfure de zinc</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3206490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Magnétite</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3206497000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206497020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colorant C.I. Pigment Blue 27 (CAS RN 14038-43-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206497040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colorant C.I. Pigment Blue 27|(CAS|RN|25869-00-5) et préparations à base de ce colorant dont la teneur en C.I. Pigment Blue 27|est supérieure ou égale à 85|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206497050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélange concentré de pigments (mélange-maître) sous forme de pellets contenant, en poids :-50 % ou plus mais pas plus de 70 % de polyamide 6-6 (CAS RN 32131-17-2);-15 % ou plus mais pas plus de 20 % de poudre de fer (CAS RN 7439-89-6);-5 % ou plus mais pas plus de 15 % de sulfate de baryum (CAS RN 7727-43-7) et-5 % ou plus mais pas plus de 10 % de pigment bleu, constitué d'un mélange de dioxyde de titane (CAS RN 13463-67-7) et de phtalocyanine de cuivre (II) (CAS RN 147-14-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206497060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colorant C.I. Pigment Yellow 164 (CAS RN 68412-38-4) et préparations à base de celui-ci contenant 90 % ou plus en poids de colorant C.I. Pigment Yellow 164</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206497090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3206500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits inorganiques des types utilisés comme luminophores</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3207000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pigments, opacifiants et couleurs préparés, compositions vitrifiables, engobes, lustres liquides et préparations similaires, des types utilisés pour la céramique, l'émaillerie ou la verrerie; frittes de verre et autres verres, sous forme de poudre, de grenailles, de lamelles ou de flocons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3207100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pigments, opacifiants et couleurs préparés et préparations similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3207200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Compositions vitrifiables, engobes et préparations similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3207201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Engobes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3207209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3207300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lustres liquides et préparations similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3207300030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pâte d'argent, contenant en poids :-45 % ou plus mais pas plus de 90 % d'argent (CAS RN 7440-22-4), et-59 % ou plus mais pas plus 92 % de matières solides totales (y compris l'argent)-destinée à être utilisée comme conducteur dans la production de cellules solaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3207300040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pâte d'aluminium :-contenant en poids 72 % ou plus mais pas plus de 82 % d'aluminium (CAS RN 7429-90-5),-présentant une viscosité de 10 ou plus mais n'excédant pas 100 Pa.s (RVT Brookfield,14 vitesses de rotation, 20 tr/min, 25°C±0,5°C),-constituée de particules d'aluminium n'excédant pas 25 µm-destinée à la production de cellules solaires-</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3207300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3207400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Frittes et autres verres, sous forme de poudre, de grenailles, de lamelles ou de flocons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3207404000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Verre sous forme de flocons d'une longueur de 0,1|mm ou plus mais n'excédant pas 3,5|mm et d'une épaisseur de 2|micromètres ou plus mais n'excédant pas 5|micromètres; verre sous forme de poudre ou de grenaille, contenant en poids 99|% ou plus de dioxyde de silicium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3207408500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3208000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Peintures et vernis à base de polymères synthétiques ou de polymères naturels modifiés, dispersés ou dissous dans un milieu non aqueux; solutions définies à la note|4|du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3208100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à base de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Solutions définies à la note|4|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3208200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à base de polymères acryliques ou vinyliques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3208201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Solutions définies à la note|4|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208201010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de N-vinylcaprolactame, de N-vinyl-2-pyrrolidone et de méthacrylate de diméthylaminoéthyle, sous forme de solution dans de l'éthanol contenant en poids 34|% ou plus mais pas plus de 40|% de copolymère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208201020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Solutions de couches de finition par immersion contenant en poids|0,5|% ou plus mais pas plus de 15|% de copolymères d'acrylate-méthacrylate-alkénesulfonate avec des chaînes latérales fluorées, dans une solution de n-butanol et/ou 4-méthyl-2-pentanol et/ou diisoamyléther</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208201050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de vinylcaprolactame et de vinylpyrrolidone (CAS RN 51987-20-3) sous forme de solution dans du 2-butoxyéthanol (CAS RN 111-76-2) contenant en poids 45 % ou plus, mais pas plus de 58 % de copolymère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3208900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3208901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Solutions définies à la note|4|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polyuréthanne obtenu à partir de 2,2'-(tert-butylimino)diéthanol et de 4,4'-méthylènedicyclohexyldiisocyanate, sous forme de solution dans du N,N-diméthylacétamide, contenant en poids 48|% ou plus de polymère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de p-crésol et divinylbenzène, sous forme de solution dans du N,N-diméthylacétamide, contenant en poids 48|% ou plus de polymère</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3208901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901913</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélange, contenant en poids :-au moins 20% mais n'excédant pas 40% d'un copolymère d'éther méthylvinylique et de maléate de monobutyle (CAS RN 25119-68-0),-au moins 7% mais n'excédant pas 20% d'un copolymère d'éther méthylvinylique et de maléate de monoéthyle (CAS RN 25087-06-3),-au moins 40% mais n'excédant pas 65% d'éthanol (CAS RN 64-17-5),-au moins 1% mais n'excédant pas 7% de butan-1-ol (CAS RN 71-36-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901915</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polyoléfines chlorées dans une solution</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polymère de méthylsiloxane, sous forme de solution dans un mélange d'acétone, de butanol, d'éthanol et d'isopropanol, contenant en poids 5|% ou plus mais pas plus de 11|% de polymère de méthylsiloxane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901945</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>polymère composé d'un polycondensat de formaldéhyde et de naphthalénediol, chimiquement modifié par réaction avec un halogénoalcyne, dissous dans de l'acétate de méthyléther propylèneglycol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901947</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Solution contenant en poids: -|au moins 0.1|% mais pas plus de 20|% de groupements alcoxyles contenant du polymère de siloxane avec des substituants alkyles ou aryles, -|75|% ou plus de solvant organique contenant au moins de l'éther éthylique de propylène glycol (CAS|RN|1569-02-4) et/ou de l'acétate de méthyléther de propylène glycol (CAS|RN|108-65-6) et/ou du propyléther de propylène glycol (CAS|RN|1569-01-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Solution contenant en poids:-(63,5 ± 10)% de gamma-butyrolactone (CAS RN 96-48-0),-(30 ± 10)% de résine polyhydroxyamide aromatique,-(3,5 ± 1,5)% de dérivé d'ester de naphtoquinone,-(1,5 ± 0,5)% d'acide arylsilicique,-(1,5 ± 0,5)% de [3-(triméthoxysilyl)propyl]urée (CAS RN 23843-64-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901955</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Préparation de 5 % ou plus mais pas plus de 20 % en poids d'un copolymère de propylène et d'anhydride maléique, ou d'un mélange de polypropylène et d'un copolymère de propylène et d'anhydride maléique, ou d'un mélange de polypropylène et d'un copolymère de propylène, d'isobutène et d'anhydride maléique dans un solvant organique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère d'hydroxystyrène et d'au moins une des substances suivantes: - styrène - alkoxystyrène - acrylates d'alkyle dissous dans du lactate d'éthyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901965</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Silicones contenant en poids 50 % ou plus de xylène et pas plus de 25 % en poids de silice, du type utilisé dans la fabrication d'implants chirurgicaux pour le long terme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208901990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3208909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de polymères synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3208909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de polymères naturels modifiés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3209000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Peintures et vernis à base de polymères synthétiques ou de polymères naturels modifiés, dispersés ou dissous dans un milieu aqueux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3209100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à base de polymères acryliques ou vinyliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3209900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3210000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres peintures et vernis; pigments à l'eau préparés des types utilisés pour le finissage des cuirs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3210001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Peintures et vernis à l'huile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3210009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3211000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Siccatifs préparés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3212000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pigments (y compris les poudres et flocons métalliques) dispersés dans des milieux non aqueux, sous forme de liquide ou de pâte, des types utilisés pour la fabrication de peintures; feuilles pour le marquage au fer; teintures et autres matières colorantes présentées dans des formes ou emballages pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3212100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Feuilles pour le marquage au fer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3212900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3213000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Couleurs pour la peinture artistique, l'enseignement, la peinture des enseignes, la modification des nuances, l'amusement et couleurs similaires, en pastilles, tubes, pots, flacons, godets ou conditionnements similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3213100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Couleurs en assortiments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3213900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3214000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mastic de vitrier, ciments de résine et autres mastics; enduits utilisés en peinture; enduits non réfractaires des types utilisés en maçonnerie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3214100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mastic de vitrier, ciments de résine et autres mastics; enduits utilisés en peinture</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3214101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mastic de vitrier, ciments de résine et autres mastics</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3214109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Enduits utilisés en peinture</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3214900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3215000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Encres d'imprimerie, encres à écrire ou à dessiner et autres encres, même concentrées ou sous formes solides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3215110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Encres d'imprimerie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3215110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>noires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3215190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3215190020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Encre:- constituée d'un polymère de polyester et d'une dispersion d'argent (CAS RN 7440-22-4) et de chlorure d'argent (CAS RN 7783-90-6) dans du méthyl propyl cétone (CAS RN 107-87-9),- d'une teneur totale en matières sèches, en poids, d'au moins 55 % mais pas plus de 57 % et- d'une masse volumique d'au moins 1,40 g/cm³ mais pas plus de 1,60 g/cm³,destinée à être utilisée dans la fabrication d'électrodes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3215190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3215900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3215902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cartouches d'encre (sans tête d'impression intégrée) destinées à être insérées dans les appareils relevant des sous-positions 8443|31, 8443|32|ou 8443|39, et incluant des composants mécaniques ou électriques; encre solide sous forme de blocs ouvrés pour appareils relevant des sous-positions 8443|31, 8443|32|ou 8443|39</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3215907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3215907020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Encre thermosensible fixée sur une feuille en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3215907030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Encre en cartouche à usage unique, contenant en poids: -|au moins 1|%, sans toutefois dépasser10|%, de dioxyde de silicium amorphe, ou -|au moins 3,8|% de colorant C.I. Solvent Black 7|dans les solvants organiques,destinée à être utilisée dans le marquage de circuits intégrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3215907090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

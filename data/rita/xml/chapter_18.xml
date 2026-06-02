@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 18 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:14</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>CACAO ET SES PRÉPARATIONS</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cacao en fèves et brisures de fèves, bruts ou torréfiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Coques, pellicules (pelures) et autres déchets de cacao</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1803000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pâte de cacao, même dégraissée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1803100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non dégraissée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1803200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>complètement ou partiellement dégraissée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Beurre, graisse et huile de cacao</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1805000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poudre de cacao, sans addition de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chocolat et autres préparations alimentaires contenant du cacao</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudre de cacao avec addition de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806101500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ne contenant pas ou contenant en poids moins de 5|% de saccharose (y compris le sucre inverti calculé en saccharose) ou d'isoglucose calculé également en saccharose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre inverti calculé en saccharose) ou d'isoglucose calculé également en saccharose, égale ou supérieure à 5|% et inférieure à 65|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre inverti calculé en saccharose) ou d'isoglucose calculé également en saccharose, égale ou supérieure à 65|% et inférieure à 80|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806103010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en saccharose (y compris le sucre inverti calculé ensaccharose) ou en isoglucose, calculé également en saccharose, égale ou supérieure à 70|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806103090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre inverti calculé en saccharose) ou d'isoglucose calculé également en saccharose, égale ou supérieure à 80|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres préparations présentées soit en blocs ou en barres d'un poids excédant 2|kg, soit à l'état liquide ou pâteux ou en poudres, granulés ou formes similaires, en récipients ou en emballages immédiats, d'un contenu excédant 2|kg</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de beurre de cacao égale ou supérieure à 31|% ou d'une teneur totale en poids de beurre de cacao et de matières grasses provenant du lait égale ou supérieure à 31|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806201020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99, pour la préparation de boissons à base de chocolat</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur totale en poids de beurre de cacao et de matières grasses provenant du lait égale ou supérieure à 25|% et inférieure à 31|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806203020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99, pour la préparation de boissons à base de chocolat</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806203090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806205000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806205000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de beurre de cacao égale ou supérieure à 18|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806205020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65 %, des sous-positions 1701 91 à 1701 99, pour la préparation de boissons à base de chocolat</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806205090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806207000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparations dites chocolate milk crumb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806207020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99, pour la préparation de boissons à base de chocolat</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806207090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Glaçage au cacao</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806208012</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de saccharose inférieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806208012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99, pour la préparation de boissons à base de chocolat</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806208019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806208092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de saccharose égale ou supérieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806208092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 70|%, des sous-positions 1701 91 à 1701 99, pour la préparation de boissons à base de chocolat</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806208099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806209500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806209512</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de saccharose inférieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806209512</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99, pour la préparation de boissons à base de chocolat</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806209513</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tahini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806209519</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806209592</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de saccharose égale ou supérieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806209592</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 70|%, des sous-positions 1701 91 à 1701 99, pour la préparation de boissons à base de chocolat</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806209593</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tahini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806209599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, présentés en tablettes, barres ou bâtons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fourrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non fourrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>additionnés de céréales, de noix ou d'autres fruits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chocolat et articles en chocolat</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806901100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bonbons au chocolat (pralines), fourrés ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant de l'alcool</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>fourrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806903900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non fourrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sucreries et leurs succédanés fabriqués à partir de produits de substitution du sucre, contenant du cacao</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806905010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Halvas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806905090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pâtes à tartiner contenant du cacao</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806906011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806906011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tahini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806906019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806906091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806906091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tahini</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806906099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations pour boissons contenant du cacao</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806907010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806907090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1806909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806909011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806909011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de saccharose inférieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806909019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de saccharose égale ou supérieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1806909091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806909091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de saccharose inférieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1806909099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids de saccharose égale ou supérieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne></contenu></table>

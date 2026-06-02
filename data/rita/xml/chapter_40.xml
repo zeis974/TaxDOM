@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 40 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:31</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>4000000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>CAOUTCHOUC ET OUVRAGES EN CAOUTCHOUC</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4001000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caoutchouc naturel, balata, gutta-percha, guayule, chicle et gommes naturelles analogues, sous formes primaires ou en plaques, feuilles ou bandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4001100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Latex de caoutchouc naturel, même prévulcanisé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4001210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc naturel sous d'autres formes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4001210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Feuilles fumées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4001220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Caoutchoucs techniquement spécifiés (TSNR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4001290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4001300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Balata, gutta-percha, guayule, chicle et gommes naturelles analogues</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4002000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caoutchouc synthétique et factice pour caoutchouc dérivé des huiles, sous formes primaires ou en plaques, feuilles ou bandes; mélanges des produits du n$o|4001|avec des produits de la présente position, sous formes primaires ou en plaques, feuilles ou bandes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4002110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc styrène-butadiène (SBR); caoutchouc styrène-butadiène carboxylé (XSBR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Latex</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4002190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Caoutchouc styrène-butadiène fabriqué par polymérisation en émulsion (E-SBR), en balles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymères blocs styrène-butadiène-styrène fabriqués par polymérisation en solution (SBS, élastomères thermoplastiques), en granulés, miettes ou en poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Caoutchouc styrène-butadiène fabriqué par polymérisation en solution (S-SBR), en balles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc butadiène (BR)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4002310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc isobutène-isoprène (butyle) (IIR); caoutchouc isobutène-isoprène halogéné (CIIR ou BIIR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Caoutchouc isobutène-isoprène (butyle) (IIR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4002410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc chloroprène (chlorobutadiène) (CR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Latex</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4002510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc acrylonitrile-butadiène (NBR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Latex</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc isoprène (IR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc éthylène-propylène-diène non conjugué (EPDM)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mélanges des produits du n$o|4001|avec des produits de la présente position</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4002910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Latex</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4002990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits modifiés par l'incorporation de matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4002999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4003000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caoutchouc régénéré sous formes primaires ou en plaques, feuilles ou bandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4004000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets, débris et rognures de caoutchouc non durci, même réduits en poudre ou en granulés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4005000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caoutchouc mélangé, non vulcanisé, sous formes primaires ou en plaques, feuilles ou bandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4005100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caoutchouc additionné de noir de carbone ou de silice</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4005200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Solutions; dispersions autres que celles du n$o|4005|10</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4005910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4005910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plaques, feuilles et bandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4005990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4006000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres formes (baguettes, tubes, profilés, par exemple) et articles (disques, rondelles, par exemple) en caoutchouc non vulcanisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4006100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Profilés pour le rechapage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4006900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4007000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils et cordes de caoutchouc vulcanisé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4008000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaques, feuilles, bandes, baguettes et profilés, en caoutchouc vulcanisé non durci</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4008110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en caoutchouc alvéolaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4008110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plaques, feuilles et bandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4008190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4008210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en caoutchouc non alvéolaire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4008210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plaques, feuilles et bandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4008211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Revêtements de sol et tapis de pied</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4008219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4008290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4008290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Profilés, coupés à dimension, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4008290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4009000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tubes et tuyaux en caoutchouc vulcanisé non durci, même pourvus de leurs accessoires (joints, coudes, raccords, par exemple)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4009110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non renforcés à l'aide d'autres matières ni autrement associés à d'autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4009120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4009210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>renforcés seulement à l'aide de métal ou autrement associés seulement à du métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4009220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009220010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009220090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4009310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>renforcés seulement à l'aide de matières textiles ou autrement associés seulement à des matières textiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4009310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009310010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Gaine en caoutchouc multicouches, renforcée d'un tissu d'aramide, comportant ou non des éléments de connexion en polyamide et des brides en acier, destinée à la fabrication des échangeurs de chaleur automobiles et/ou des condenseurs des systèmes de climatisation automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009310090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4009320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009320010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009320020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Gaine en caoutchouc multicouches, renforcée d'un tissu d'aramide, comportant ou non des éléments de connexion en polyamide et des brides en acier, destinée à la fabrication des échangeurs de chaleur automobiles et/ou des condenseurs des systèmes de climatisation automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009320090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4009410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>renforcés à l'aide d'autres matières ou autrement associés à d'autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4009420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009420010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009420020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Flexible de frein en caoutchouc présentant les caractéristiques suivantes:-|un cordon en textile,-|une épaisseur de parois de 3,2|mm,-|un embout métallique creux estampé aux deux extrémités, et-|au moins un support de fixation,utilisé dans la fabrication de marchandises du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4009420090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4010000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Courroies transporteuses ou de transmission, en caoutchouc vulcanisé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4010110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Courroies transporteuses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>renforcées seulement de métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>renforcées seulement de matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4010310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Courroies de transmission</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4010310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Courroies de transmission sans fin, de section trapézoïdale, striées, d'une circonférence extérieure excédant 60|cm mais n'excédant pas 180|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010310010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Courroie de transmission sans fin en caoutchouc vulcanisé, de section trapézoïdale, striée dans le sens longitudinal sur la face interne et utilisée dans la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010310090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Courroies de transmission sans fin, de section trapézoïdale, autres que striées, d'une circonférence extérieure excédant 60|cm mais n'excédant pas 180|cm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4010330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Courroies de transmission sans fin, de section trapézoïdale, striées, d'une circonférence extérieure excédant 180|cm mais n'excédant pas 240|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010330010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Courroie de transmission sans fin en caoutchouc vulcanisé, de section trapézoïdale, striée dans le sens longitudinal sur la face interne et utilisée dans la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010330090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Courroies de transmission sans fin, de section trapézoïdale, autres que striées, d'une circonférence extérieure excédant 180|cm mais n'excédant pas 240|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010350000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Courroies de transmission sans fin, crantées (synchrones), d'une circonférence extérieure excédant 60|cm mais n'excédant pas 150|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010360000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Courroies de transmission sans fin, crantées (synchrones), d'une circonférence extérieure excédant 150|cm mais n'excédant pas 198|cm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4010390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Courroie de transmission sans fin en caoutchouc vulcanisé, de section trapézoïdale, striée dans le sens longitudinal sur la face interne et utilisée dans la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4010390090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4011000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pneumatiques neufs, en caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour les voitures de tourisme (y compris les voitures du type "break" et les voitures de course)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4011200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour autobus ou camions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant un indice de charge inférieur ou égal à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4011300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour motocycles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour bicyclettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour les véhicules et engins agricoles et forestiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour les véhicules et engins de génie civil, de travaux miniers et de manutention industrielle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4011900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4012000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pneumatiques rechapés ou usagés en caoutchouc; bandages, bandes de roulement pour pneumatiques et "flaps", en caoutchouc</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4012110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pneumatiques rechapés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés pour les voitures de tourisme (y compris les voitures du type "break" et les voitures de course)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4012120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés pour autobus ou camions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4012130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés pour véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012130010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012130090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4012200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pneumatiques usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4012900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bandages pleins ou creux (mi-pleins)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bandes de roulement pour pneumatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4012909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>"Flaps"</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4013000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chambres à air, en caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4013100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour les voitures de tourisme (y compris les voitures du type "break" et les voitures de course), les autobus ou les camions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4013200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour bicyclettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4013900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4014000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles d'hygiène ou de pharmacie (y compris les tétines), en caoutchouc vulcanisé non durci, même avec parties en caoutchouc durci</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4014100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préservatifs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4014900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4015000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vêtements et accessoires du vêtement (y compris les gants, mitaines et moufles) en caoutchouc vulcanisé non durci, pour tous usages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4015120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gants, mitaines et moufles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4015120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés pour la médecine, la chirurgie, l'art dentaire ou l'art vétérinaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4015190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4015900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4016000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en caoutchouc vulcanisé non durci</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4016100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en caoutchouc alvéolaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour usages techniques, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4016910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Revêtements de sol et tapis de pied</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gommes à effacer</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4016930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Joints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016930010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour usages techniques, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016930030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Joint rectangulaire en caoutchouc éthylène-propylène-diène présentant:-une longueur de 72 mm ou plus mais n'excédant pas 825 mm,-une largeur de 18 mm ou plus mais n'excédant pas 155 mm,-une température maximale de 150 °C ou plus, mais n'excédant pas 240 °C,-une sortie en un matériau admissible à l'endroit de l'ouverture du moule n'excédant pas 0,3 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016930090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pare-chocs, même gonflables, pour accostage des bateaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres articles gonflables</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4016990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4016995200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour véhicules automobiles des n$o$s|8701|à 8705</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4016995200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pièces en caoutchouc-métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016995210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Suspension de pot d'échappement comprenant :-un support en acier avec au moins un trou de fixation et-un silencieux-destinée à la fabrication des marchandises du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016995290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4016995700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016995710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tuyau d'admission d'air pour l'alimentation en air de la partie du moteur liée à la combustion, comprenant au moins:-|un tuyau flexible en caoutchouc,-|un tuyau plastique, et-|des clips métalliques,-|le cas échéant, un résonateurutilisé dans la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016995740</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Caoutchouc d'essuie-glace utilisé pour la fabrication d'essuie-glaces,-constitué d'un mélange de caoutchouc naturel et de caoutchouc chloroprène-d'une dureté Shore de 60A</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016995790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4016999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4016999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pièces en caoutchouc-métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016999110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour usages techniques, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016999190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4016999700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016999710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour usages techniques, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016999730</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Vessie pour la vulcanisation de pneus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4016999790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4017000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caoutchouc durci (ébonite, par exemple) sous toutes formes, y compris les déchets et débris; ouvrages en caoutchouc durci</Description>
+</ligne></contenu></table>

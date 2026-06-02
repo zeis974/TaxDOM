@@ -1,0 +1,3978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 39 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:30</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>MATIÈRES PLASTIQUES ET OUVRAGES EN CES MATIÈRES</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3901000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>I. FORMES PRIMAIRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polymères de l'éthylène, sous formes primaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polyéthylène d'une densité inférieure à 0,94</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polyéthylène linéaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901101020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polyéthylène-1-butène haute pression à densité linéaire / PELBD (CAS RN 25087-34-7), sous forme de poudre, avec -un indice de fluidité à chaud (MFR 190 °C / 2,16 kg) de 16 g / 10 min ou plus, mais n'excédant pas 24 g / 10 min, -une densité (ASTM D 1505) de 0,922 g/cm³ ou plus, mais n'excédant pas 0,926 g/cm³, et -une température de ramollissement Vicat d'au moins 94 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901101050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'éthylène et de 1-butène (CAS RN 25087-34-7) avec :-une masse volumique (ASTM D 1505) de 0,924 g/cm³ ou plus mais n'excédant pas 0,928 g/cm³,-un indice de fluidité à chaud (190 °C/2,16 kg) de 48 g/10 min ou plus mais n'excédant pas 52 g/10 min, et-une température de fusion maximale de 120 °C ou plus mais n'excédant pas 124 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901101060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poly[(but-1-ène)-co-éthène](CAS RN 25087-34-7) présentant :-une masse volumique (ASTM D 1505) d'au moins 0,922 g/cm³ mais n'excédant pas 0,926 g/cm³ et-un indice de fluidité à chaud (190 °C/2,16 kg) d'au moins 18 g/10 min mais n'excédant pas 22 g/10 min</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901109030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Granulés de polyéthylène contenant en poids 10|% ou plus mais pas plus de 25|% de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polyéthylène d'une densité égale ou supérieure à 0,94</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polyéthylène sous l'une des formes visées à la note|6, point|b), du présent chapitre, d'une densité de 0,958|ou plus à 23|°C, contenant:-|50|mg/kg ou moins d'aluminium,-|2|mg/kg ou moins de calcium,-|2|mg/kg ou moins de chrome,-|2|mg/kg ou moins de fer,-|2|mg/kg ou moins de nickel,-|2|mg/kg ou moins de titane,-|8|mg/kg ou moins de vanadium,destiné à la fabrication de polyéthylène chlorosulfoné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copolymères d'éthylène et d'acétate de vinyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901300020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymère d'éthylène et d'acétate de vinyle (CAS RN 24937-78-8) -contenant en poids 28 % ou plus mais n'excédant pas 49 % d'acétate de vinyle, -d'un indice de fluidité à chaud inférieur à 5 g/10 min (190 °C/2,16 kg, ASTM D1238),-sous forme de pellets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901300030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Terpolymère d'éthylène, d'acétate de vinyle et d'acide méthacrylique (CAS RN 26375-31-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901300099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copolymères d'éthylène et d'alpha-oléfine d'une densité inférieure à 0,94</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polyéthylène-1-butène haute pression à densité linéaire / PELBD (CAS RN 25087-34-7), sous forme de poudre, avec -un indice de fluidité à chaud (MFR 190 °C / 2,16 kg) de 16 g / 10 min ou plus, mais n'excédant pas 24 g / 10 min, -une densité (ASTM D 1505) de 0,922 g/cm³ ou plus, mais n'excédant pas 0,926 g/cm³, et -une température de ramollissement Vicat d'au moins 94 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901400030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polyéthylène basse densité linéaire (LLDPE) à base d'octène, fabriqué par une méthode de catalyse Ziegler-Natta, sous forme de granulés, et présentant les caractéristiques suivantes:-|plus de 10|% mais n'excédant pas 20|% en poids de copolymère,-|un indice de fluidité à chaud (MFR 190° C/2,16|kg) de 0,7|g /10|min. mais n'excédant pas 0,9|g /10|min., et-|une masse volumique (ASTM D4703) de 0,911 g/cm³ ou plus, mais n'excédant pas 0,913 g/cm³utilisé pour la coextrusion de films pour emballages alimentaires souples</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901400050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymère d'éthylène et de 1-butène (CAS RN 25087-34-7) avec :-une masse volumique (ASTM D 1505) de 0,924 g/cm³ ou plus mais n'excédant pas 0,928 g/cm³,-un indice de fluidité à chaud (190 °C/2,16 kg) de 48 g/10 min ou plus mais n'excédant pas 52 g/10 min, et-une température de fusion maximale de 120 °C ou plus mais n'excédant pas 124 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901400060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poly[(but-1-ène)-co-éthène](CAS RN 25087-34-7) présentant :-une masse volumique (ASTM D 1505) d'au moins 0,922 g/cm³ mais n'excédant pas 0,926 g/cm³ et-un indice de fluidité à chaud (190 °C/2,16 kg) d'au moins 18 g/10 min mais n'excédant pas 22 g/10 min</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résine ionomère constituée d'un sel d'un terpolymère d'éthylène, d'acrylate d'isobutyle et d'acide méthacrylique; copolymère en bloc du type A-B-A, de polystyrène, de copolymère éthylène-butylène et de polystyrène, contenant en poids 35|% ou moins de styrène, sous l'une des formes visées à la note|6, point|b), du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3901908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3901908053</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908053</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère d'éthylène et d'acide acrylique (CAS|RN|9010-77-9) avec-|une teneur en acide acrylique de 18,5|% ou plus mais pas plus de 49,5|% en poids (ASTM D 4094) et-|un indice de fluidité à chaud à 10|g/10min (indice de fluidité à chaud 125|°C/2,16|kg, ASTM D 1238) ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Sel de zinc ou de sodium d'un copolymère d'éthylène et d'acide acrylique:-|d'une teneur en acide acrylique égale ou supérieure à 6|% mais n'excédant pas 50|% en poids,-|présentant un indice de fluidité (MFR 190|C/2,16|kg, ASTM D1238) de 1|g/10|min au minimum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908067</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère fabriqué exclusivement à partir de monomères d'éthylène et d'acide méthacrylique, dont la teneur en poids d'acide méthacrylique est de 11|% ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908073</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélange contenant en poids-|80|% ou plus, mais pas plus de 94|%, de polyéthylène chloré (CAS|RN|64754-90-1) et-|6|% ou plus, mais pas plus de 20|%, de copolymère styrène acrylique (CAS|RN|27136-15-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Terpolymère d'éthylène, d'acrylate d'isobutyle et d'acide méthacrylique (CAS RN 37433-35-5), sous forme de pellets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Terpolymère d'éthylène, d'acrylate de n-butyle et de monoxyde de carbone (CAS RN 61843-70-7), sous forme de pellets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Résine ionomère constituée d'un sel d'un copolymère d'éthylène et d'acide méthacrylique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polyéthylène chlorsulfoné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908093</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère d'éthylène, d'acétate de vinyle et de monoxyde de carbone, destiné à être utilisé comme plastifiant dans la fabrication de feuilles pour toits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélanges de copolymère en bloc du type A-B, de polystyrène et de copolymère éthylène-butylène, et de copolymère en bloc du type A-B-A, de polystyrène, de copolymère éthylène-butylène et de polystyrène, contenant en poids 35|% ou moins de styrène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polyéthylène chloré, sous forme de poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3901908099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3902000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polymères de propylène ou d'autres oléfines, sous formes primaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3902100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polypropylène, ne contenant pas de plastifiant, -|d'un point de fusion de plus de 150|°C (d'après la méthode ASTM D 3417), -|d'une chaleur de fusion de 15|J/g ou plus mais n'excédant pas 70|J/g, -|d'un allongement à la rupture de 1|000|% ou plus (d'après la méthode ASTM D 638), -|d'un module de résistance à la rupture par traction (tensile modulus) de 69|MPa ou plus mais n'excédant pas 379|MPa (d'après la méthode ASTM D 638)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3902200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polyisobutylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902200020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polyisobutène hydrogéné, sous forme liquide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3902300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copolymères de propylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3902300020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902300020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère séquencé hydrogéné de styrène et d'isoprène (CAS RN 68648-89-5), contenant en poids moins de 37 % de styrène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902300030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère hydrogéné de styrène, d'isoprène et de butadiène, contenant en poids 28 % ou plus mais pas plus de 55 % de propylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902300095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère en bloc du type A-B-A composé: -|d'un copolymère de propylène et d'éthylène et  -|de 21|% (±|3|%) en poids de polystyrène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902300097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'éthylène-propylène liquide avec: -|un point d'éclair de 250|°C ou plus,  -|un indice de viscosité de 150|ou plus,  -|une masse moléculaire en nombre (M@n) de 650|ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902300099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3902900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymère en bloc du type A-B-A, de polystyrène, de copolymère éthylène-butylène et de polystyrène, contenant en poids 35|% ou moins de styrène, sous l'une des formes visées à la note|6, point|b), du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poly(but-1-ène), copolymère de but-1-ène et d'éthylène contenant en poids 10|% ou moins d'éthylène, ou un mélange de poly(but-1-ène), polyéthylène et/ou polypropylène, contenant en poids 10|% ou moins de polyéthylène et/ou 25|% ou moins de polypropylène, sous l'une des formes visées à la note|6, point|b), du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3902909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3902909060</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902909060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Résine 100|% aliphatique non hydrogénée (polymère), présentant les caractéristiques suivantes: -|liquide à température ambiante -|obtenue par polymérisation cationique de monomères d'alcènes C5 -|de masse moléculaire moyenne en nombre (Mn) égale à 370|(±|50) -|de masse moléculaire moyenne en masse (Mw) égale à 500|(±|100)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902909065</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère de butadiène-styrène bromé (CAS RN 1195978-93-8) d'une teneur en brome de 60 % en poids ou plus mais n'excédant pas 68 %, sous les formes telles que définies à la note 6, point b), du chapitre 39</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902909070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poly-alpha-oléfines synthétiques avec une viscosité à 100° Celsius (mesurée selon la méthode ASTM D-445) comprise entre 3 et 9 centistokes et obtenue par polymérisation de dodécène contenant ou non:-une teneur en poids de tétradécène n'excédant pas 40 %, et/ou-une teneur en poids de décène n'excédant pas 2 %, et/ou-une teneur en poids d'hexadécène n'excédant pas 2 %</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902909094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polyoléfines chlorées, même dans une solution ou en dispersion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3902909099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3903000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polymères du styrène, sous formes primaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3903110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polystyrène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>expansible</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3903190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903190040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polystyrène cristallin ayant: -|un point de fusion compris entre 268|°C et 272|°C -|un point de solidification compris entre 232|°C et 247|°C, -|contenant ou non des additifs et du matériau de remplissage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copolymères de styrène-acrylonitrile (SAN)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copolymères d'acrylonitrile-butadiène-styrène (ABS)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3903900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymères uniquement de styrène et d'alcool allylique, ayant un indice d'acétyle égal ou supérieur à 175</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polystyrène bromé, contenant en poids 58|% ou plus mais pas plus de 71|% de brome, sous l'une des formes visées à la note|6, point|b), de ce chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3903909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère sous forme de granules contenant en poids: -|83|±3|% de styrène, -|7|±2|% d'acrylate de n-butyl, -|9|±2|% de méthacrylate de n-butyl et -|0,01|% ou plus mais pas plus de 1|% de cire de polyoléfine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903909035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'_?_-méthylstyrène et de styrène, à point de ramollissement supérieur à 113|ºC</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903909038</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polytétrafluoroéthylène (CAS|RN|9002-84-0) encapsulé à l'aide d'un copolymère acrylonitrile-styrène (CAS|RN|9003-54-7) contenant en poids 50|% (± 1) de chaque polymère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903909043</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange de polymères constitué en poids de :-10 % ou plus mais pas plus de 30 % d'un copolymère séquencé styrène-éthylène-butylène-styrène (CAS RN 66070-58-4),-25 % ou plus mais pas plus de 45 % d'huile minérale (CAS RN 8042-47-5),-25 % ou plus mais pas plus de 45 % de carbonate de calcium (CAS RN 1317-65-3),-10 % ou plus mais pas plus de 20 % de polypropylène (CAS RN 9003-07-0), et-1 % ou plus mais pas plus de 3 % d'un copolymère d'alpha-méthylstyrène et de vinyltoluène (CAS RN 9017-27-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903909060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de styrène et d'anhydride maléique, partiellement estérifié ou totalement modifié chimiquement, sous forme de paillettes ou de poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903909070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère sous forme de granules ayant une teneur en poids de:-|75|% (± 7|%) de styrène et-|25|% (± 7|%) de méthacrylate de méthyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903909086</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange contenant, en poids ;-45% au moins, mais pas plus de 65% de polymères de styrène,-30% au moins, mais pas plus de 45% de poly(phénylène éther), et-pas plus de 11% d'additifs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3903909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polymères du chlorure de vinyle ou d'autres oléfines halogénées, sous formes primaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poly(chlorure de vinyle), non mélangé à d'autres substances</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3904100015</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présenté sous la forme de granulés, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904100015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polychlorure de vinyle («S-PVC») en suspension , non mélangé à d'autres substances</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904100025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3904100080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904100080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polychlorure de vinyle («S-PVC») en suspension , non mélangé à d'autres substances</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904100085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3904210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre poly(chlorure de vinyle)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non plastifié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présenté sous la forme de granulés, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>plastifié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904220010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présenté sous la forme de granulés, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904220090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copolymères du chlorure de vinyle et d'acétate de vinyle</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres copolymères du chlorure de vinyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904400099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polymères du chlorure de vinylidène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymère de chlorure de vinylidène et d'acrylonitrile, sous forme de billes expansibles d'un diamètre de 4|micromètres ou plus mais n'excédant pas 20|micromètres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904509010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904509099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3904610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polymères fluorés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polytétrafluoroéthylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904610020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de tétrafluoroéthylène et de trifluoro(heptafluoropropoxy)éthylène, contenant 3,2|% ou plus mais pas plus de 4,6|% en poids de trifluoro(heptafluoropropoxy)éthylène et moins de 1|mg/kg d'ions fluorure extractibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904610090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904691000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poly(fluorure de vinyle) sous l'une des formes visées à la note|6, point|b), du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904692000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fluoroélastomères FKM</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904698000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904698010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3904698020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904698020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère de tétrafluoroéthylène, d'heptafluoro-1-pentène et d'éthène (CAS RN 94228-79-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904698030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère de tétrafluoroéthylène, d'hexafluoropropène et d'éthène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904698085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère d'éthylène et de chlorotrifluoroéthylène, modifié ou non par de l'hexafluoroisobutylène, avec ou sans charges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904698088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Polytétrafluoroéthylène (CAS|RN|9002-84-0) encapsulé à l'aide d'un copolymère acrylonitrile-styrène (CAS|RN|9003-54-7) contenant en poids 50|% (± 1) de chaque polymère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904698096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Polychlorotrifluoroéthylène, sous l'une des formes visées à la note 6|points a) et b) du chapitre 39</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904698097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère de chlorotrifluoroéthylène et de difluorure de vinylidène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904698099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3904900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3904900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polymères d'acétate de vinyle ou d'autres esters de vinyle, sous formes primaires; autres polymères de vinyle, sous formes primaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3905120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poly(acétate de vinyle)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en dispersion aqueuse</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3905190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3905210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copolymères d'acétate de vinyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en dispersion aqueuse</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3905290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3905300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poly(alcool vinylique), même contenant des groupes acétate non hydrolysés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparation visqueuse, composée principalement de poly(alcool vinylique) (CAS|RN 9002-89-5), d'un solvant organique et d'eau, utilisée comme revêtement de protection des disques(wafers) lors de la fabrication de semi-conducteurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3905300091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3905300091</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sous la forme de résines homopolymères, ayant une viscosité (mesurée dans une solution aqueuse à 4 % à 20 °C) de 3 mPa.s ou plus, mais n'excédant pas 61 mPa.s et un degré d'hydrolyse de 80,0 mol % ou plus, mais n'excédant pas 99,9 mol %, ces deux propriétés étant mesurées conformément à la méthode de la norme ISO 15023-2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905300091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres que pour la fabrication d'adhésifs à base de mélange sec produits et vendus sous forme de poudre pour l'industrie du carton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905300092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905300095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3905910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3905910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de vinylcaprolactame et de vinylpyrrolidone (CAS RN 51987-20-3) sous forme de solution dans du 2-butoxyéthanol (CAS RN 111-76-2) contenant en poids 45 % ou plus, mais pas plus de 58 % de copolymère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Solution aqueuse d'un copolymère de vinylpyrrolidone et de sulfate de N,N-diméthylaminopropylméthacrylamide (CAS RN 175893-71-7), contenant en poids 8 % ou plus mais pas plus de 12 % de copolymère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'éthylène et d'alcool vinylique hydrosoluble (CAS|RN|26221-27-2), contenant en poids pas plus de 38|% de l'unité monomère éthylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Solution aqueuse contenant en poids:-10 % ou plus mais pas plus de 20 % d'un copolymère de pyrrolidone de vinyle, de N,N-méthacrylamide de diméthylaminopropyle et de chlorure de 3-(méthacryloylamino)propyllauryldiméthylammonium (CAS RN 306769-73-3),-pas plus de 1 % de conservateurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de vinylpyrrolidone, de caprolactame de vinyle et de méthacrylate de diméthylaminoéthyle (CAS RN 102972-64-5) sous forme solide, ou sous forme de solution aqueuse contenant en poids:-27 % ou plus mais pas plus de 33 % de copolymère,-pas plus d'1,5 % d'éthanol (CAS RN 64-17-5),-pas plus de 1 % de conservateurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Solution aqueuse contenant en poids-25 % ou plus mais pas plus de 35 % d'un copolymère de caprolactame de vinyle, de pyrrolidone de vinyle, de N,N-diméthylaminopropyl méthacrylamide et de chlorure de 3-(méthacryloylamino)propyllauryldiméthylammonium (CAS RN 748809-45-2),-10 % ou plus mais pas plus de 16 % d'éthanol (CAS RN 64-17-5), dénaturé ou non avec de l'alcool tert-butylique (CAS RN 75-65-0) et/ou du benzoate de dénatonium (CAS RN 3734-33-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de vinylpyrrolidone, d'acide acrylique et de méthacrylate de dodécyle (CAS RN 83120-95-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3905990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poly(formal de vinyle), sous l'une des formes visées à la note|6, point|b), du présent chapitre, d'un poids moléculaire de 10|000|ou plus mais n'excédant pas 40|000|et contenant en poids:-|9,5|% ou plus mais pas plus de 13|% de groupes acétyle, évalués en acétate de vinyle, et-|5|% ou plus mais pas plus de 6,5|% de groupes hydroxy, évalués en alcool vinylique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3905999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3905999030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905999030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Povidone iodée (INN) (CAS RN 25655-41-8) d'une pureté en poids de 92 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905999081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poly(butyral de vinyle) (CAS RN 63148-65-2):¿ contenant au minimum 17,5 % et au maximum 20 % en poids de radicaux hydroxyles, et¿ dont la valeur médiane de la taille des particules (D50) est supérieure à 0,6 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905999095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Polyvinylpyrrolidone hexadécylée ou eicosylée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905999096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Polymère de formal de vinyle, sous l'une des formes visées à la note 6|point b) du chapitre 39, d'une masse molaire moyenne en poids (M@w) de 25|000|ou plus mais n'excédant pas 150|000|et contenant en poids: -|9,5|% ou plus mais pas plus de 13|% de groupes acétyle, evalués en acétate de vinyle et -|5|% ou plus mais pas plus de 6,5|% de groupes hydroxy, evalués en alcool vinylique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905999098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poly(pyrrolidone de vinyle) substitué partiellement par des groupes triacontyl, contenant en poids 78|% ou plus mais pas plus de 82|% de groupes triacontyl</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3905999099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3906000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polymères acryliques, sous formes primaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poly(méthacrylate de méthyle)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3906900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poly[N-(3-hydroxyimino-1,1-diméthylbutyl)acrylamide]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymère de 2-diisopropylaminoéthylméthacrylate et de décylméthacrylate, sous forme de solution dans du N,N-diméthylacétamide contenant en poids 55|% ou plus de copolymère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymère d'acide acrylique et d'acrylate de 2-éthylhexyle, contenant en poids 10|% ou plus mais pas plus de 11|% d'acrylate de 2-éthylhexyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymère d'acrylonitrile et d'acrylate de méthyle, modifié au moyen de polybutadiène-acrylonitrile (NBR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits de polymérisation d'acide acrylique, méthacrylate d'alkyle et de petites quantités d'autres monomères, destinés à être utilisés comme épaississants dans la production des pâtes pour l'impression des textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Copolymère d'acrylate de méthyle, d'éthylène et d'un monomère contenant un groupe carboxyle non terminal présent en tant que substituant, contenant en poids 50|% ou plus d'acrylate de méthyle, même mélangé avec de la silice</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3906909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909017</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polymères superabsorbants, insolubles dans l'eau, qui résultent de la polymérisation de molécules monomères acryliques avec des agents réticulants pour former des réseaux de polymères réticulés et sont capables d'absorber et de retenir de grandes quantités d'eau et de liquides aqueux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de méthacrylate de méthyle, d'acrylate de butyle, de méthacrylate de glycidyle et de styrène (CAS|RN|37953-21-2), d'un poids équivalent d'époxy ne dépassant pas 500, sous la forme de paillettes avec une taille de particule n'excédant pas 1|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909033</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'acrylate de butyle et de méthacrylate d'alkyle, de type core-shell, de taille de particules de 5|µm ou plus mais pas plus de 10|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909043</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'esters méthacryliques, d'acrylate de butyle et de diméthylsiloxanes cycliques (CAS|RN|143106-82-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polymères d'esters de l'acide acrylique avec un ou plusieurs des monomères suivants dans la chaîne: -|oxyde de chlorométhyle et de vinyle, -|oxyde de chloroéthyle et de vinyle, -|chlorométhylstyrène, -|chloroacétate de vinyle, -|acide méthacrylique,-|ester monobutylique d'acide butènedioïque, -|ester monocyclohexyle d'acide butènedioïque,contenant en poids pas plus de 5|% de chaque unité monomère</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909058</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange de polymères, contenant en poids :-77 % ou plus mais pas plus de 81 % de polyacrylamide (CAS RN 9003-05-8)-18 % ou plus mais pas plus de 21 % de polyéthylène glycol (CAS RN 25322-68-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dispersion aqueuse, contenant en poids: -|plus de 10|% mais n'excédant pas 15|% d'éthanol et -|plus de 7|% mais n'excédant pas 11|%|d'un produit de réaction de poly(époxyalkylméthacrylate-co-divinylbenzène) avec un dérivé du glycérol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909071</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère acrylonitrile styrène-acrylate sous forme de granulés contenant en poids:-48 % de styrène,-22 % d'acrylonitrile,-29 % de butylacrylate, et-1 % d'acrylate de dihydrodicyclopentadiényle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909073</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Preparation contenant en poids: -|33|% ou plus mais pas plus de 37|% de copolymère de méthacrylate de butyle et d'acide méthacrylique, -|24|% ou plus mais pas plus de 28|% de propylène glycol et -|37|% ou plus mais pas plus de 41|% d'eau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3906909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polyacétals, autres polyéthers et résines époxydes, sous formes primaires; polycarbonates, résines alkydes, polyesters allyliques et autres polyesters, sous formes primaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polyacétals</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3907210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres polyéthers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Méthylphosphate de bis(polyoxyéthylène)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3907291100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Polyéther-alcools</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907291100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polyéthylèneglycols</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907291110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poly(oxyde d'éthylène) d'une masse molaire moyenne en nombre (M@n) de 100|000|ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907291120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>bis-[méthoxypoly(éthylène glycol)]-maléimidopropionamide, chimiquement modifié par de la lysine, d'une masse molaire moyenne en nombre (M@n) de 40|000</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907291130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélange contenant en poids:-75 % ou plus de polyéthylène glycol, avec une chaîne d'oxyde d'éthylène d'une longueur n'excédant pas 30, avec un groupe terminal d'acrylate de butyl-2-cyano-3-(4-hydroxy-3-méthoxyphényl) (CAS RN 780763-40-8)-pas plus de 25 % de trioléate de sorbitan éthoxylé (CAS RN 9005-70-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907291140</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Glycérol éthoxylé (CAS RN 31694-55-0) ayant un indice d'hydroxyle de 541 ou plus mais n'excédant pas 587 (ASTM 4274)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907291190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907292000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907292035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélange contenant en poids:-|5|% ou plus mais n'excédant pas 15|% d'un copolymère de glycérol, d'oxyde de propylène et d'oxyde d'éthylène (CAS|RN|9082-00-2)-|85|% ou plus mais n'excédant pas 95|% d'un copolymère de saccharose, d'oxyde de propylène et d'oxyde d'éthylène (CAS|RN|26301-10-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907292040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère de tétrahydrofurane et de tétrahydro-3-méthylfurane (CAS RN 38640-26-5)  de masse molaire moyenne en nombre (Mn) de 900 ou plus mais n'excédant pas 3 600</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907292045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>4-(1,1,3,3-tétraméthylbutyl)phénol, éthoxylé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907292050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Oxyde de poly(p-phénylène) sous forme de poudre: -|présentant une température de transition vitreuse de 210|°C ou plus,-|d'un poids moléculaire |moyen (pm) égal ou supérieur à 35|000, mais n'excédant pas 80|000 -|avec un indice logarithmique de viscosité égal ou supérieur à 0,2|mais n'excédant pas 0,6|dl/gramme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907292055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>4-Nonylphénol, ramifié et linéaire, éthoxylé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907292090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3907299100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère de 1-chloro-2,3-époxypropane et d'oxyde d'éthylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907299900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>2,3-Bis(méthylpolyoxyéthylène-oxy)-1-[(3-maléimido-1-oxopropyl)amino]propyloxy propane (CAS|RN|697278-30-1), d'un poids moléculaire (Mw) d'au moins 20|kDa, modifié ou non par une entité chimique, rendant possible la liaison de PEG avec une protéine ou un peptide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Homopolymère de 1-chloro-2,3-époxypropane (épichlorhydrine)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299945</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère d'oxyde d'éthylène et d'oxyde de propylène, ayant des groupes terminaux aminopropyl et méthoxy</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Polymère de type perfluoropolyéther à terminaison vinyl-silyle ou ensemble de deux éléments, comprenant le même polymère de type perfluoropolyéther à terminaison vinyl-silyle comme ingrédient principal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299955</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ester de succinimidyl d'acide propionique méthoxy de glycol de poly(ethylene), d'une masse molaire moyenne en nombre (Mn) de 5|000</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Polytétraméthylène oxyde di-p-aminobenzoate</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299970</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Poly(oxy-1,4-phénylèneoxy-1,4-phénylènecarbonyl-1,4-phénylène) (CAS RN 29658-26-2) contenant en poids pas plus de 35 % d'additifs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907299990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résines époxydes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3907300005</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résine époxyde, sans halogène, -|présentant une teneur en phosphore supérieure à 2|% en poids du contenu solide, aggloméré par un liant chimique dans la résine époxyde, -|présentant une teneur en chlorure hydrolysable nulle ou inférieure à 300|ppm et -|contenant un solvant,destinée à être utilisée dans la fabrication de feuilles ou rouleaux préimprégnés utilisés pour la production de circuits imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907300005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits contenant en poids plus de 35|% de résines époxy, également appelées résines époxydes ou polyépoxydes, qui sont des polymères ou prépolymères contenant des groupes époxydes réactifs, à base d'épichlorhydrine («ECH») et d'un composant alcoolique aliphatique ou aromatique (tel que le BPA), sous forme solide, semi-solide ou liquide, présentant tous les types de qualité, de pureté, de poids moléculaire ou de structure moléculaire, contenant ou non des modificateurs, des agents de durcissement ou des additifs, pour autant que ces agents de durcissement n'aient pas réagi chimiquement de façon à durcir la résine époxy ou à la transformer en un produit différent ne contenant plus de groupes époxydes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907300008</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3907300020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résine époxyde-contenant, en poids, 21% ou plus de brome-présentant une teneur en chlorure hydrolysable nulle ou inférieure à 300 ppm et-contenant un solvant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907300020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits contenant en poids plus de 35|% de résines époxy, également appelées résines époxydes ou polyépoxydes, qui sont des polymères ou prépolymères contenant des groupes époxydes réactifs, à base d'épichlorhydrine («ECH») et d'un composant alcoolique aliphatique ou aromatique (tel que le BPA), sous forme solide, semi-solide ou liquide, présentant tous les types de qualité, de pureté, de poids moléculaire ou de structure moléculaire, contenant ou non des modificateurs, des agents de durcissement ou des additifs, pour autant que ces agents de durcissement n'aient pas réagi chimiquement de façon à durcir la résine époxy ou à la transformer en un produit différent ne contenant plus de groupes époxydes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907300023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907300040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résine époxyde, contenant en poids 70|% ou plus de dioxyde de silicium, destinée à l'encapsulation de produits des postitions 8504, 8533, 8535, 8536, 8541, 8542|ou 8548</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907300070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparation de résine époxy (CAS|RN|29690-82-2) et de résine phénolique (CAS|RN|9003-35-4) contenant, en poids:-|65|% ou plus mais pas plus de 75|%, de dioxyde de silicium (CAS|RN|60676-86-0), et-| aucun ou pas plus de 0,5|% de noir de carbone (CAS|RN|1333-86-4)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3907300080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907300080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits contenant en poids plus de 35|% de résines époxy, également appelées résines époxydes ou polyépoxydes, qui sont des polymères ou prépolymères contenant des groupes époxydes réactifs, à base d'épichlorhydrine («ECH») et d'un composant alcoolique aliphatique ou aromatique (tel que le BPA), sous forme solide, semi-solide ou liquide, présentant tous les types de qualité, de pureté, de poids moléculaire ou de structure moléculaire, contenant ou non des modificateurs, des agents de durcissement ou des additifs, pour autant que ces agents de durcissement n'aient pas réagi chimiquement de façon à durcir la résine époxy ou à la transformer en un produit différent ne contenant plus de groupes époxydes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907300085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polycarbonates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907400025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange polymérique de polycarbonate et de poly (méthacrylate de méthyle), dans lequel la proportion de polycarbonate est égale ou supérieure à 98,5|% en poids, sous forme de pellets ou de granulés, présentant une transmission lumineuse de 88,5|% ou plus, mesurée sur une éprouvette de 4,0|mm d'épaisseur pour une longueur d'onde ¿ = 400|nm (conformément à la norme ISO 13468-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907400035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>alpha-Phénoxycarbonyl-¿-phénoxypoly[oxy(2,6-dibromo-1,4-phénylène) isopropylidène(3,5-dibromo-1,4-phénylène)oxycarbonyl](CAS RN 94334-64-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907400045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>alpha-(2,4,6-Tribromophényl)-¿-(2,4,6-tribromophénoxy)poly[oxy(2,6-dibromo-1,4-phénylène)isopropylidène(3,5-dibromo-1,4-phénylène)oxycarbonyle]|(CAS RN 71342-77-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résines alkydes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3907610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poly(éthylène téréphtalate)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un indice de viscosité de 78|ml/g ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907610020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'éthylène téréphtalate et de cyclohexane diméthanol contenant plus de 10 % en poids de cyclohexane diméthanol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907610080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907690010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'acide téréphtalique et d'acide isophtalique avec de l'éthylène glycol, du butane-1,4-diol et de l'hexane-1,6-diol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907690020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'éthylène téréphtalate et de cyclohexane diméthanol contenant plus de 10 % en poids de cyclohexane diméthanol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907690090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poly(acide lactique)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3907910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres polyesters</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non saturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>liquides</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907919010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Prépolymère de phtalate de diallyle, sous forme de poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907919090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907990500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymères thermoplastiques à base de polyester aromatique à cristaux liquides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poly(éthylène naphtalène-2,6-dicarboxylate)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3907998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907998025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère, constitué d'au minimum 72|% en poids d'acide téréphtalique et/ou de ses isomères et de cyclohexane diméthanol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907998030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poly(hydroxyalcanoate), composé essentiellement de poly(3-hydroxybutyrate)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907998035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère sous forme de liquide clair de couleur jaune pâle, constitué:-|d'isomères d'acide phtalique et/ou de diacides gras-|de diols aliphatiques et-|de groupes terminaux d'acides gras présentant :-|un indice d'hydroxyle de 120|mg de KOH ou plus mais n'excédant pas 350|mg de KOH-|une viscosité à 25|°C de 2|000|cP ou plus mais n'excédant pas 8|000|cP et-|un indice d'acidité inférieur à 10|mg de KOH/g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907998070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère d'éthylène téréphtalate et de cyclohexane diméthanol contenant plus de 10 % en poids de cyclohexane diméthanol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907998080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère, composé d'au moins|72|% en poids d'acide téréphtalique et/ou de ses dérivés ainsi que de cyclohexandiméthanol, complété de diols linéaires et/ou cycliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3907998090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3908000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polyamides sous formes primaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3908100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polyamide-6, -11, -12, -6,6, -6,9, -6,10|ou -6,12</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3908900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3908900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poly(iminométhylène-1,3-phénylèneméthylèneiminoadipoyle), sous l'une des formes visées à la note 6|point b) du chapitre 39</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3908900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3909000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Résines aminiques, résines phénoliques et polyuréthannes, sous formes primaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résines uréiques; résines de thiourée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3909200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résines mélaminiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange de polymères contenant, en poids:-|60|% ou plus mais pas plus de 75|%, de résine de mélamine (CAS|RN|9003-08-1),-|15|% ou plus mais pas plus de 25|%, de silice (CAS|RN|14808-60-7|ou 60676-86-0),-|5|% ou plus mais pas plus de 15|%, de cellulose (CAS|RN|9004-34-6), et-|1|% ou plus mais pas plus de 15|%, de résine phénolique (CAS|RN|25917-04-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3909310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres résines aminiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poly(méthylène phényl isocyanate) (MDI brut, MDI polymérique)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3909390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Formaldéhyde, produits de réaction oligomères avec l'aniline (MDA  technique) (CAS RN 25214-70-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909390090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résines phénoliques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3909500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polyuréthannes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Polyuréthanne obtenu à partir de 2,2'-(tert-butylimino)diéthanol et de 4,4'-méthylènedicyclohexyldiisocyanate, sous forme de solution dans du N,N-diméthylacétamide, contenant en poids 50|% ou plus de polymère</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3909509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909509020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparation contenant au poids: -|14|% ou plus mais pas plus de 18|% de polyurethane éthoxylé modifié|avec des groupements hydrophobes, -|3|% ou plus mais pas plus de 5|% d'amidon modifié par voie enzymatique et -|77|% ou plus mais pas plus de 83|% d'eau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909509030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparation contenant au poids: -|16|% ou plus mais pas plus de 20|% de polyuréthane éthoxylé modifié avec des groupements hydrophobes, -|19|% ou plus mais pas plus de 23|% de d'éther butylique du diéthylène glycol et -|60|% ou plus mais pas plus de 64|% d'eau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909509040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparation contenant en poids: -|34|% ou plus mais pas plus de 36|% de|polyuréthane éthoxylé modifié avec des groupments hydrophobes, -|37|% ou plus mais pas plus de 39|% de propylène glycol et -|26|% ou plus mais pas plus de 28|% d'eau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3909509090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3910000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Silicones sous formes primaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poly(méthylhydrosiloxane) liquide, avec des groupes triméthylsilyl terminaux (CAS RN 63148-57-2), d'une pureté en poids de 99,9 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Diméthylsiloxane, méthylsiloxane (oxyde de propylène(polypropylène)) à terminaisons triméthylsiloxy (CAS|RN|68957-00-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copolymère en bloc de poly(méthyl-3,3,3-trifluoropropylsiloxane) et de poly[méthyl(vinyl)siloxane]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations contenant en poids: -|au moins 10|% de 2-hydroxy-3-[3-[1,3,3,3-tetraméthyl-1-[(triméthylsilyl)oxy] disiloxanyl] propoxy] propyl-2-méthyl-2-propénoate (CAS|RN|69861-02-5), et -|au moins 10|% de silicone polymère à terminaison en alpha-Butyldiméthylsilyl- ¿ -3-[(2-méthyl-1-oxo-2-propén-1-yl)oxy]propyl (CAS|RN|146632-07-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations contenant en poids:-|au moins 30|% de polydiméthylsiloxane à terminaison en alpha -Butyldiméthylsilyl- ¿ -(3-méthacryloxy-2-hydroxypropyloxy)propyldiméthylsilyl (CAS|RN|662148-59-6) et-|au moins 10|% de N,N-diméthylacrylamide (CAS|RN|2680-03-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Silicones des types utilisés pour la fabrication d'implants chirurgicaux à long terme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polymère de diméthylsiloxane à terminaison hydroxy d'une viscosité de 38-100|mPa.s (CAS|RN|70131-67-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Adhésif sensible à la pression en silicone, contenant de la gomme copoly(diméthylsiloxane/diphénylsiloxane) et des solvants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparation contenant en poids:-|55|% ou plus mais pas plus de 65|% de polydiméthylsiloxane à terminaison vinyle (CAS|RN|68083-19-2),-|30|% ou plus mais pas plus de 40|% de silice triméthylée et diméthylée à terminaison vinyle (CAS|RN|68988-89-6) et-|1|% ou plus mais pas plus de 5|% d'acide silicique, de sel de sodium, de produits de la réaction entre l'alcool isopropylique et le chlorotriméthylsilane (CAS|RN|68988-56-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Revêtement de passivation en silicone sous forme primaire, destiné à protéger les bords des dispositifs à semi-conducteurs et à prévenir les courts-circuits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Silicone bicomposant, dont la viscosité du mélange est comprise entre 3 000 cps ou plus mais pas plus de 6 000 cps (selon la norme GB/T 2794) destiné à la fabrication de panneaux solaires en tant que matériau d'isolation électrique dans la boîte de dérivation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3910000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3911000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Résines de pétrole, résines de coumarone-indène, polyterpènes, polysulfures, polysulfones et autres produits mentionnés dans la note|3|du présent chapitre, non dénommés ni compris ailleurs, sous formes primaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3911100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résines de pétrole, résines de coumarone, résines d'indène, résines de coumarone-indène et polyterpènes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour le remplissage des alvéoles destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911100081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résine hydrocarbure non-hydrogénée obtenue par polymérisation d'alcènes cycloaliphatiques C-5|à C-10|à raison de plus de 75|% en poids et d'alcènes aromatiques à raison de plus de 10|% en poids, mais pas plus de 25|%, donnant une résine hydrocarbure présentant: -|un indice d'iode supérieur à 120|et -|une couleur Gardner de plus de 10|pour le produit pur, ou -|une couleur Gardner de plus de 8|pour une solution à 50|% en poids par volume de toluène (d'après la méthode ASTM D6166)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poly(1,3-phénylène méthylphosphonate)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3911900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3911901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits de polymérisation de réorganisation ou de condensation, même modifiés chimiquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3911901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poly(oxy-1,4-phénylènesulfonyl-1,4-phénylèneoxy-1,4-phénylèneisopropylidène-1,4-phénylène), sous l'une des formes visées à la note|6, point|b), du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poly(oxy-1,4-phénylènesulfonyl-1,4-phénylèneoxy-1,4-phénylèneisopropylidène-1,4-phénylène) (CAS RN 25135-51-7 et CAS RN 25154-01-2), sous l'une des formes visées à la note 6, point b), du présent chapitre, ne contenant pas plus de 20 % d'additifs en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poly(thio-1,4-phénylène)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3911901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901915</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polyéthérimide de-5,5'-[(isopropylidène)bis(4,1-phénylène)dioxy]bis(1,3-isobenzofurandione) et 1,3-benzènediamine, qu'il forme ou non un copolymère avec des diméthylsilicones, ayant des groupes terminaux 3-aminopropyle (CAS RN 61128-46-9 or 99904-16-2), ou-5,5'-[(isopropylidène)bis(4,1-phénylène)dioxy]bis(1,3-isobenzofurandione) et 1,4-benzènediamine (CAS RN 61128-47-0), ou-4,4'-[(isopropylidène)bis(4,1-phénylène)dioxy]bis(1,3-isobenzofurandione), 5,5'-[(isopropylidène)bis(4,1-phénylène)dioxy]bis(1,3-isobenzofurandione), 4,5'-[(isopropylidène)bis(4,1-phénylène)dioxy]bis(1,3-isobenzofurandione), dianhydride pyromellitique, 1,2-benzènediamine, 1,3-benzènediamine et 1,4-benzènediamine avec des groupes terminaux anhydride phthalique (CAS RN 96557-46-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901925</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polyamideimide-d'anhydride 4-chloroformylphthalique et 4,4'-méthylènedianiline (CAS RN 35463-82-2), ou-d'anhydride 4-chloroformyphthalique, 4,4'-oxydianiline et 1,3-phénylènediamine (CAS RN 25928-85-2),ne contenant en poids pas plus de 35 % d'additifs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Copolymère d'éthylèneimine et de dithiocarbamate d'éthylèneimine, dans une solution aqueuse d'hydroxyde de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901935</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poly(oxy-1,4-phénylènesulfonyl-1,4-phénylèneoxy-4,4'-biphénylène) (CAS RN 25608-64-4 et 25839-81-0) ne contenant pas plus de 20 % d'additifs en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Résine de m-xylene formaldehyde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901980</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poly(oxy-1,4-phénylènesulfonyl-1,4-phénylène) (CAS RN 25608-63-3 et CAS RN 25667-42-9) ne contenant en poids pas plus de 20 % d'additifs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911901990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3911909200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère de p-crésol et divinylbenzène, sous forme de solution dans du N,N-diméthylacétamide, contenant en poids 50|% ou plus de polymère; copolymères de vinyltoluène et d'alpha-méthylstyrène, hydrogénés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3911909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>pour le remplissage des alvéoles, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3911909923</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909923</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Solution aqueuse contenant, en poids, 25 % ou plus mais pas plus de 40 % d'un poly(anhydride isobutylène-maléique) modifié avec :-N,N'-diméthylpropane-1,3-diamine,-un copolymère d'oxyde d'éthylène et d'oxyde de propylène, possédant des groupes terminaux aminopropyle et méthoxy,-de l'éthanol(CAS RN 497926-97-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909925</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère de vinyltoluène et d'alpha-méthylstyrène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909935</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère alterné d'éthylène et d'anhydride maléique (EMA)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909938</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélange contenant en poids:-90 % (± 1 %) de polymère de 2-éthylidène-1,2,3,4,4a,5,8,8a-octahydro-1,4:5,8-diméthanonaphtalène avec du 3a,4,7,7a-tétrahydro-4,7-méthano-1H-indène, hydrogéné (CAS RN 881025-72-5), et-10 % (± 1 %) d'un copolymère de styrène butadiène hydrogéné (CAS RN 66070-58-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Sel mixte de calcium et de sodium d'un copolymère d'acide maléique et d'oxyde de méthyle et de vinyle, ayant une teneur en calcium de 9|% ou plus mais pas plus de 16|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909943</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère d'alpha-méthylstyrène et de styrène, à point de ramollissement supérieur à 113|ºC</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909945</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère d'acide maléique et d'oxyde de méthyle et de vinyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909948</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélange contenant en poids:-90 % (± 1 %) de polymère de 2-éthylidène-1,2,3,4,4a,5,8,8a-octahydro-1,4:5,8-diméthanonaphtalèneavec du 3a,4,7,7a-tétrahydro-4,7-méthano-1H-indène, hydrogéné (CAS RN 881025-72-5), et-10 % (± 1 %) d'un copolymère d'éthylène et de propylène (CAS RN 9010-79-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère de styrène et d'anhydride maléique, partiellement estérifié ou totalement modifié chimiquement, sous forme de paillettes ou de poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909963</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélange, contenant en poids :-au moins 20% mais n'excédant pas 40% d'un copolymère d'éther méthylvinylique et de maléate de monobutyle (CAS RN 25119-68-0),-au moins 7% mais n'excédant pas 20% d'un copolymère d'éther méthylvinylique et de maléate de monoéthyle (CAS RN 25087-06-3),-au moins 40% mais n'excédant pas 65% d'éthanol (CAS RN 64-17-5),-au moins 1% mais n'excédant pas 7% de butan-1-ol (CAS RN 71-36-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909965</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Sel de calcium et de zinc d'un copolymère d'acide maléique et d'oxyde de méthyle et de vinyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909970</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Solution aqueuse contenant en poids: -|30|% ou plus mais pas plus de 40|% de poly-4-vinylpyridine-N-oxyde  -|0,1|% ou plus mais pas plus de 4|% d'acide isonicotinique-N-oxyde  -|0,1|% ou plus mais pas plus de 3,5|% de sulfate de sodium  -|0,1|% ou plus mais pas plus de 2|% de 4-acétylpyridine-N-oxyde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909973</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélange contenant en poids:-89 % ou plus mais pas plus de 91 % de polymère de 2-éthylidène-1,2,3,4,4a,5,8,8a-octahydro-1,4:5,8-diméthanonaphtalène avec du 3a,4,7,7a-tétrahydro-4,7-méthano-1H-indène, hydrogéné (CAS RN 881025-72-5), et-9 % ou plus mais pas plus de 11 % d'homopolymère de polypropylène (CAS RN 9003-07-0),</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909986</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Copolymère d'éther méthylvinylique et d'anhydride d'acide maléique|(CAS RN 9011-16-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3911909990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3912000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cellulose et ses dérivés chimiques, non dénommés ni compris ailleurs, sous formes primaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3912110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Acétates de cellulose</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3912110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non plastifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912110020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Flocons d'acétate de cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912110030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Triacetate de cellulose|(CAS RN 9012-09-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912110040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poudre de diacétate de cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>plastifiés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3912200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Nitrates de cellulose (y compris les collodions)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3912201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non plastifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Collodions et celloïdine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>plastifiés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3912310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Éthers de cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carboxyméthylcellulose et ses sels</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3912390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912392000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hydroxypropylcellulose</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3912398500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912398510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Éthylcellulose non plastifiée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912398520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Éthylcellulose, sous forme de dispersion aqueuse contenant de l'hexadécane-1-ol et du sulfate de sodium et de dodécyle, contenant en poids (27|±|3)|% d'éthylcellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912398530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cellulose, à la fois hydroxyéthylée et alkylée d'une longueur de chaîne alkyle de 3|atomes de carbone ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912398550</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Polyquaternium-10|(CAS RN 68610-92-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912398560</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Hypromellose (DCI) (CAS RN 9004-65-3), destiné à être utilisé dans la fabrication de compléments alimentaires ou de produits pharmaceutiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912398590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3912900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3912901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Esters de la cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912901020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Phtalate d'hydroxypropyl méthylcellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3912909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3913000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Polymères naturels (acide alginique, par exemple) et polymères naturels modifiés (protéines durcies, dérivés chimiques du caoutchouc naturel, par exemple), non dénommés ni compris ailleurs, sous formes primaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3913100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Acide alginique, ses sels et ses esters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Alginate de sodium extrait d'algues brunes, présentant- une perte à la dessiccation n'excédant pas 15 % en poids (4 h à 105 °C),- une fraction insoluble dans l'eau n'excédant pas 2 % en poids, calculée sur produit sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3913900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poly(hydroxyalcanoate), composé essentiellement de poly(3-hydroxybutyrate)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913900040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gomme xanthane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3913900085</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hyaluronate de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913900085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hyaluronate de sodium stérile (CAS RN 9067-32-7)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3913900087</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Non stériles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913900087</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentant les caractéristiques suivantes:&lt;P&gt;- une masse moléculaire moyenne en masse (Mw) n'excédant pas 900 000,&lt;P&gt;- un taux d'endotoxines ne dépassant pas 0,008 unités d'endotoxines (UE)/mg, &lt;P&gt;- une teneur en éthanol n'excédant pas 1% en poids, &lt;P&gt;- une teneur en isopropanol n'excédant pas 0,5% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913900088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913900095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Acide chondroitinesulfurique, sel de sodium (CAS RN 9082-07-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3913900099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3914000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Échangeurs d'ions à base de polymères des n$o$s|3901|à 3913, sous formes primaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3914000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Suspension aqueuse contenant en poids :-20 % ou plus mais pas plus de 30 % d'agarose perlée modifiée avec de l'acide nitrilotriacétique et chargée avec des ions nickel divalents (CAS RN 1615227-97-8), et-20 % ou plus mais pas plus de 30 % d'éthanol (CAS RN 64-17-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3914000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3915000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>II. DÉCHETS, ROGNURES ET DÉBRIS; DEMI-PRODUITS; OUVRAGES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3915000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets, rognures et débris de matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3915100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polymères de l'éthylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3915101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une densité relative inférieure à 0,94|(par exemple, PE-LD)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3915102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une densité relative égale ou supérieure à 0,94|(par exemple, PE-HD)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3915200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polymères du styrène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3915300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polymères du chlorure de vinyle</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3915900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3915901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polymères du propylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3915902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polymères de l'éthylène téréphtalate (par exemple, PET)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3915907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3916000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Monofilaments dont la plus grande dimension de la coupe transversale excède 1|mm (monofils), joncs, bâtons et profilés, même ouvrés en surface mais non autrement travaillés, en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3916100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polymères de l'éthylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3916200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polymères du chlorure de vinyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916200099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3916900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en autres matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3916901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en produits de polymérisation de réorganisation ou de condensation, même modifiés chimiquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Joncs à structure cellulaire, constitués: -|de polyamide-6|ou de poly(époxy anhydride), -|le cas échéant, de polytétrafluoroéthylène (au minimum 7|% et au maximum 9|% en poids) -|de matières de charge inorganiques (au minimum 10|% et au maximum 25|% en poids)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3916905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en produits de polymérisation d'addition</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916905010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916905090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3916909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tubes et tuyaux et leurs accessoires (joints, coudes, raccords, par exemple), en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boyaux artificiels en protéines durcies ou en matières plastiques cellulosiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en protéines durcies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matières plastiques cellulosiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3917210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux rigides</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polymères de l'éthylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>obtenus sans soudure ni collage et d'une longueur excédant la plus grande dimension de la coupe transversale, même ouvrés en surface mais non autrement travaillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917211010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917211090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917219010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917219020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917219090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polymères du propylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>obtenus sans soudure ni collage et d'une longueur excédant la plus grande dimension de la coupe transversale, même ouvrés en surface mais non autrement travaillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917221010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917221090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917229010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917229020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917229090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polymères du chlorure de vinyle</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>obtenus sans soudure ni collage et d'une longueur excédant la plus grande dimension de la coupe transversale, même ouvrés en surface mais non autrement travaillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917231010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917231090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917239010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917239020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917239090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières plastiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3917290011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en produits de polymérisation d'addition</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917290011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917290019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3917290091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917290091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917290099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3917310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tubes et tuyaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tubes et tuyaux souples pouvant supporter au minimum une pression de 27,6|MPa</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917310010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917310020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917310030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes:-d'un diamètre extérieur égal ou supérieur à 0,33 mm, mais n'excédant pas 3,3 mm,-d'un diamètre intérieur égal ou supérieur à 0,01 mm, mais n'excédant pas 2,1 mm,-adaptés à une pression de service maximale comprise entre 2,7 MPa et 70 MPa,-convenant à toutes les solutions utilisées en chromatographie,-avec ou sans silice fondue,-recouverts ou non de PEEK,destinés à être utilisés dans un système chromatographique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917310090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, non renforcés d'autres matières ni autrement associés à d'autres matières, sans accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917320010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917320020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes:-d'un diamètre extérieur égal ou supérieur à 0,33 mm, mais n'excédant pas 3,3 mm,-d'un diamètre intérieur égal ou supérieur à 0,01 mm, mais n'excédant pas 2,1 mm,-adaptés à une pression de service maximale comprise entre 2,7 MPa et 70 MPa,-convenant à toutes les solutions utilisées en chromatographie,-avec ou sans silice fondue,-recouverts ou non de PEEK,destinés à être utilisés dans un système chromatographique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917320030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Gaine thermorétractable présentant : -une teneur en polymère d'au moins 80 % en poids, -une résistance d'isolement d'au moins 90 MW, -une rigidité diélectrique d'au moins 35 kV/mm, -une épaisseur de paroi d'au moins 0,04 mm mais n'excédant pas 0,9 mm, -une largeur à plat de 18 mm ou plus mais n'excédant pas 156 mm, -destinée à la fabrication de condensateurs électrolytiques à l'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917320090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, non renforcés d'autres matières ni autrement associés à d'autres matières, avec accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917330010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917330090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3917390020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917390020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tubes:-d'un diamètre extérieur égal ou supérieur à 0,33 mm, mais n'excédant pas 3,3 mm,-d'un diamètre intérieur égal ou supérieur à 0,01 mm, mais n'excédant pas 2,1 mm,-adaptés à une pression de service maximale comprise entre 2,7 MPa et 70 MPa,-convenant à toutes les solutions utilisées en chromatographie,-avec ou sans silice fondue,-recouverts ou non de PEEK,destinés à être utilisés dans un système chromatographique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917390091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917390099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3917400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3917400020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917400020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Raccords en plastique (kit d'écrous et embouts ou écrous) et connecteurs:-filetés,-soutenus avec ou sans bague en acier inoxydable,-adaptés à une pression de service maximale de 2,7 MPa ou plus, mais n'excédant pas114 MPa, pour les tubes:-d'un diamètre extérieur égal ou supérieur à 0,33 mm, mais n'excédant pas 3,3 mm,-adaptés à une pression de service maximale de 2,7 MPa ou plus, mais n'excédant pas114 MPa,-convenant à toutes les solutions utilisées en chromatographie,destinés à la fabrication de systèmes chromatographiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917400091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Connecteurs en plastique contenant des joints toriques, une patte de fixation et un système de déverrouillage, destinés à être insérés dans les tuyaux de carburant des automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3917400099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3918000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Revêtements de sols en matières plastiques, même auto-adhésifs, en rouleaux ou sous formes de carreaux ou de dalles; revêtements de murs ou de plafonds en matières plastiques définis dans la note|9|du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3918100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polymères du chlorure de vinyle</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3918101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>consistant en un support imprégné, enduit ou recouvert de poly(chlorure de vinyle)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3918101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3918101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3918109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3918109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3918109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3918900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en autres matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3918900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3918900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3919000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaques, feuilles, bandes, rubans, pellicules et autres formes plates, auto-adhésifs, en matières plastiques, même en rouleaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3919100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en rouleaux d'une largeur n'excédant pas 20|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3919101200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bandes dont l'enduit consiste en caoutchouc, naturel ou synthétique, non vulcanisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919101200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en poly(chlorure de vinyle) ou en polyéthylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919101500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en polypropylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3919101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919101910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante, constituée d'une couche de polyuréthane présentant, sur une face, des marques de sécurité contre la contrefaçon, l'altération ou la substitution de données ou la duplication, ou une marque officielle pour un usage déterminé, et des billes de verre encastrées et, sur l'autre face, une couche adhésive, recouverte sur une face ou sur les deux faces d'une feuille de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919101990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3919108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3919108025</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante, constituée d'une couche de polyuréthane présentant, sur une face, des marques de sécurité contre la contrefaçon, l'altération ou la substitution de données ou la duplication, ou une marque officielle pour un usage déterminé, et des billes de verre encastrées et, sur l'autre face, une couche adhésive, recouverte sur une face ou sur les deux faces d'une feuille de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108027</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de polyester: -|revêtu sur une face d'un adhésif acrylique sensible à la température qui se décolle à des températures comprises entre 90|°C et|200|°C et d'une pellicule de protection amovible en polyester, et -|non revêtu sur l'autre face ou revêtu d'un adhésif acrylique sensible à la pression ou d'un adhésif acrylique sensible à la température qui se décolle à des températures comprises entre|90|°C et |200|°C, et d'une pellicule de protection amovible en polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante, constituée d'une couche de poly(chlorure de vinyle), une couche de polyester alkyde, présentant, sur une face, des marques de sécurité contre la contrefaçon, l'altération ou la substitution de données ou la duplication, ou une marque officielle pour un usage déterminé, seulement visible au moyen d'un éclairage rétroréfléchissant, et des billes de verre encastrées et, sur l'autre face, une couche adhésive, recouverte sur une face ou sur les deux faces d'une feuille de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bande renforcée en mousse de polyéthylène, revêtue sur les deux faces, d'un adhésif acrylique sensible à la pression, à microcanaux et, sur une face, d'une feuille de protection amovible, d'une épaisseur d'application de 0,38|mm ou plus mais n'excédant pas 1,53|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bande de mousse acrylique:-recouverte sur une face d'un adhésif activable à la chaleur ou d'un adhésif acrylique sensible à la pression, -recouverte sur l'autre face d'un adhésif acrylique sensible à la pression, -recouverte sur une ou sur les deux faces d'une feuille de protection amovible,-d'une adhérence par pelage (peel adhesion) de plus de 25 N/cm (à un angle de 90 º d'après la méthode ASTM D 3330)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108057</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante constituée: -|d'un film polymère acrylique ou de polycarbonate dont une des faces est entièrement estampée d'un motif régulier,| | -|recouvert sur une face|ou sur les deux faces d'une ou plusieurs couches de matière plastique, et -|éventuellement recouvert sur une face d'une couche adhésive et d'une pellicule amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108063</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante consistant en-|une couche de résine acrylique présentant des marques de sécurité contre la contrefaçon, l'altération ou la substitution de données ou la duplication, ou une marque officielle pour un usage déterminé,-|une couche de résine acrylique ayant intégré des billes de verre,-|une couche de résine acrylique durcie par un agent de réticulation en mélamine,-|une couche métallique,-|un adhésif acrylique et-|une pellicule de protection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108073</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante autoadhésive, découpée ou non en morceaux:-|présentant ou non un filigrane,-|avec ou sans couche de ruban adhésif sur un côté,-|la feuille réfléchissante consiste en-|une couche de polymère acrylique ou vinylique,-|une couche de polyméthacrylate de méthyle ou de polycarbonate contenant des microprismes,-|une couche de métallisation-|une couche adhésive, et-|une feuille détachable-|comportant ou non une couche supplémentaire de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante auto-adhésive, constituée de plusieurs couches: -|copolymère de résine acrylique,  -|polyuréthane,  -|couche métallisée présentant, sur une face, des marques laser contre la contrefaçon, l'altération ou la substitution de données ou la duplication, ou une marque officielle pour un usage déterminé,  -|microsphères de verre, et  -|couche adhésive, recouverte sur une face ou sur les deux faces d'une pellicule de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108078</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de polytétrafluoroéthylène,-d'une épaisseur de 50 µm ou plus,-d'une largeur d'au moins 6,30 mm mais n'excédant pas 740 mm,-d'un allongement à la rupture n'excédant pas 200 %, et-recouvert sur une face d'un adhésif en silicone sensible à la pression d'une épaisseur maximale de 50 µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919108090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3919900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tampons circulaires à polir autoadhésifs du type utilisé pour la fabrication de disques (wafers) à semi-conducteur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3919908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3919908020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de polyester: -|revêtu sur une face d'un adhésif acrylique sensible à la température qui se décolle à des températures comprises entre 90|°C et|200|°C et d'une pellicule de protection amovible en polyester, et -|non revêtu sur l'autre face ou revêtu d'un adhésif acrylique sensible à la pression ou d'un adhésif acrylique sensible à la température qui se décolle à des températures comprises entre|90|°C et |200|°C, et d'une pellicule de protection amovible en polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille constituée de 1|à 3|couches stratifiées de poly(éthylène téréphtalate) et d'un copolymère d'acide téréphtalique, d'acide sébacique et d'éthylène glycol, enduite sur une face d'un enduit acrylique résistant à l'abrasion et sur l'autre face d'un adhésif acrylique sensible à la pression, d'un enduit de méthylcellulose soluble dans l'eau et d'une feuille de protection en poly(éthylène téréphtalate)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908024</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille stratifiée réfléchissante: -|constituée d'une couche d'époxyacrylate estampée sur une face d'un motif régulier, -|recouverte sur les deux faces d'une ou plusieurs couches de matière plastique, et -|recouverte sur une face d'une couche adhésive et d'un pellicule amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante constituée: -|d'un film polymère acrylique ou de polycarbonate dont une des faces est entièrement estampée d'un motif régulier,| | -|recouvert sur une face|ou sur les deux faces d'une ou plusieurs couches de matière plastique, et -|éventuellement recouvert sur une face d'une couche adhésive et d'une pellicule amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante, constituée d'une couche de polyuréthane présentant, sur une face, des marques de sécurité contre la contrefaçon, l'altération ou la substitution de données ou la duplication, ou une marque officielle pour un usage déterminé, et des billes de verre encastrées et, sur l'autre face, une couche adhésive, recouverte sur une face ou sur les deux faces d'une feuille de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908033</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film autocollant transparent en poly(éthylène), sans aucune impureté ou défaut, recouvert sur une face d'un adhésif de contact acrylique, d'une épaisseur de 60|µm ou plus mais n'excédant pas 70|µm et d'une largeur de plus de 1|245|mm mais n'excédant pas 1|255|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bande renforcée en mousse de polyéthylène, revêtue sur les deux faces, d'un adhésif acrylique sensible à la pression, à microcanaux et, sur une face, d'une feuille de protection amovible, d'une épaisseur d'application de 0,38|mm ou plus mais n'excédant pas 1,53|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908048</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de polytétrafluoroéthylène,-d'une épaisseur de 50 µm ou plus,-d'une largeur d'au moins 6,30 mm mais n'excédant pas 740 mm,-d'un allongement à la rupture n'excédant pas 200 %, et-recouvert sur une face d'un adhésif en silicone sensible à la pression d'une épaisseur maximale de 50 µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908049</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille autoadhésive stratifiée réfléchissante consistant d'un film de poly(méthacrylate de méthyle) embouti sur une face d'une manière régulière, d'un film contenant des microsphères de verre, d'une couche adhésive et d'une feuille détachable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante autoadhésive, découpée ou non en morceaux:-|présentant ou non un filigrane,-|avec ou sans couche de ruban adhésif sur un côté,-|la feuille réfléchissante consiste en-|une couche de polymère acrylique ou vinylique,-|une couche de polyméthacrylate de méthyle ou de polycarbonate contenant des microprismes,-|une couche de métallisation-|une couche adhésive, et-|une feuille détachable-|comportant ou non une couche supplémentaire de polyester</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908051</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille biaxialement orientée en poly(méthacrylate de méthyle), d'une épaisseur de 50µm ou plus mais n'excédant pas 90µm, recouverte sur une face d'une couche adhésive et d'une feuille de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908053</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bande de mousse acrylique:-recouverte sur une face d'un adhésif activable à la chaleur ou d'un adhésif acrylique sensible à la pression, -recouverte sur l'autre face d'un adhésif acrylique sensible à la pression, -recouverte sur une ou sur les deux faces d'une feuille de protection amovible,-d'une adhérence par pelage (peel adhesion) de plus de 25 N/cm (à un angle de 90 º d'après la méthode ASTM D 3330)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908054</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de poly(chlorure de vinyle) comportant un côté recouvert:-d'une couche de polymère,-d'une couche adhésive,-d'une pellicule de protection estampée sur un côté et contenant des sphères aplaties,et un autre côté recouvert ou non d'une couche adhésive et d'une couche polymère métallisée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de poly(chlorure de vinyle) noir :-d'une brillance supérieure à 25 degrés, (d'après la méthode ASTM D 2457),-recouvert ou non, sur une face, d'une pellicule de protection en polyéthylène téréphtalate et, sur l'autre, d'un adhésif acrylique microstructuré sensible à la pression et d'une pellicule de protection amovible-destiné à la fabrication de films découpés à la forme pour les surfaces intérieures et extérieures des véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908056</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de polyéthylène transparent recouvert sur une face d'un adhésif acrylique aqueux, d'une épaisseur de 30 µm à 50 µm, conditionné en rouleaux d'une largeur de 52 cm ou plus mais n'excédant pas 154 cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908065</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film autoadhésif d'une épaisseur égale ou supérieure à 40 µm, mais ne dépassant pas 475µm, consistant en une ou plusieurs couches de poly(éthylène téréphtalate) transparent, métallisé ou teint, recouvert, sur une face, d'un revêtement résistant aux rayures et, sur l'autre, d'un adhésif sensible à la pression et d'une pellicule antiadhésive</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Disques à polir auto-adhésifs de polyuréthane microporeux, revêtus ou non d'un tampon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante auto-adhésive, constituée de plusieurs couches: -|copolymère de résine acrylique,  -|polyuréthane,  -|couche métallisée présentant, sur une face, des marques laser contre la contrefaçon, l'altération ou la substitution de données ou la duplication, ou une marque officielle pour un usage déterminé,  -|microsphères de verre, et  -|couche adhésive, recouverte sur une face ou sur les deux faces d'une pellicule de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908082</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille réfléchissante comprenant:-|une couche de polyuréthane,-|une couche de microsphères de verre,-|une couche métallisée en aluminium et-|une couche adhésive recouverte, sur une face ou sur les deux, d'une pellicule de protection amovible,-|même une couche de chlorure de polyvinyle,-|une couche pouvant incorporer des marques de sécurité contre la contrefaçon, l'altération ou la substitution de données ou la duplication, ou une marque officielle pour un usage déterminé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film réfléchissant ou diffusant en rouleaux, utilisé-comme protection contre le rayonnement thermique ultraviolet ou infrarouge, à poser sur les vitrages, ou-pour assurer une transmission et une répartition égales de la lumière, dans les modules LCD</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3919908099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres plaques, feuilles, pellicules, bandes et lames, en matières plastiques non alvéolaires, non renforcées, ni stratifiées, ni munies d'un support, ni pareillement associées à d'autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polymères de l'éthylène</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920102300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur n'excédant pas 0,125|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920102300</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en polyéthylène d'une densité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920102300</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>inférieure à 0,94</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920102300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille en polyéthylène, d'une épaisseur de 20|micromètres ou plus mais n'excédant pas 40|micromètres, destinée à la fabrication de film photorésistant pour les semi-conducteurs ou des circuits imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920102400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuilles étirables, non imprimées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920102410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920102490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920102500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920102505</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920102590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920102800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>égale ou supérieure à 0,94</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920102810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920102899</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920104000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920104010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920104099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920108100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur excédant 0,125|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920108100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pâte à papier synthétique, sous forme de feuilles humides, composée de fibrilles non cohérentes en polyéthylène, mélangées ou non à des fibres de cellulose dans une proportion de 15|% ou moins, contenant, comme agent humidifiant, de poly(alcool vinylique) dissous dans l'eau</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920108900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920108910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920108940</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920108940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille multicouche avec revêtement acrylique et stratifiée en couche de polyéthylène haute densité, d'une épaisseur totale de 0,8|mm ou plus mais n'excédant pas 1,2|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920108990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polymères du propylène</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920202100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur n'excédant pas 0,10|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920202100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>biaxialement orientés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920202110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920202150</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film biaxialement orienté de plusieurs couches de polypropylène, d'une épaisseur totale n'excédant pas 14 microns</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920202190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920202900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920202910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920202970</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920202970</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille orientée monoaxialement, constituée de trois couches, chaque couche étant constituée d'un mélange de polypropylène et d'un copolymère d'éthylène et d'acétate de vinyle, avec une couche centrale contenant ou non du dioxyde de titane, ayant:-|une épaisseur de 55|µm ou plus mais n'excédant pas 97|µm,-|un module d'élasticité dans le sens machine de 0,30|GPa ou plus mais n'excédant pas 1,45|GPa et-|un module d'élasticité dans le sens transverse de 0,20|GPa ou plus mais n'excédant pas 0,70|GPa</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920202994</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Film orienté monoaxialement, coextrudé:-composé de 3 à 5 couches,-dont chaque couche se compose principalement de polypropylène et/ou de polyéthylène,-dont chaque couche contient au maximum 10 % en poids d'autres polymères,-dont la couche centrale contient ou non du dioxyde de titane,-d'une épaisseur totale n'excédant pas 75 µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920202999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur excédant 0,10|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920208010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920208090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polymères du styrène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Acrylonitrilebutadiène styrène, destiné à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920300030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Feuilles en polystyrène à fort impact (HIPS) non alvéolaire orienté biaxialement en rouleaux, à couche opaque, même imprimées, présentant les caractéristiques suivantes:-une épaisseur de 0,229 mm ou plus, mais n'excédant pas 0,279 mm,-une teneur en dioxyde de titane en poids de 3 % ou plus mais n'excédant pas 3,5 %,-sur une face, un revêtement superhydrophobique, chimiquement neutre et non réactif</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920430000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polymères du chlorure de vinyle</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids au moins 6|% de plastifiants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920431000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur n'excédant pas 1|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920431010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920431092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920431092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille en poly(chlorure de vinyle), stabilisée contre les rayons ultraviolets, sans trou, même microscopique, d'une épaisseur de 60|µm ou plus mais n'excédant pas 80|µm, et contenant 30|parts ou plus mais pas plus de 40|parts de plastifiant pour 100|parts de poly(chlorure de vinyle)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920431095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille stratifiée réfléchissante, constituée d'une feuille de poly(chlorure de vinyle) et d'une feuille en une autre matière plastique totalement emboutie d'une manière régulière pyramidale, recouverte sur une face d'une feuille de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920431099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920439000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur excédant 1|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920439010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920439090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur n'excédant pas 1|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920491010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920491030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920491030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille de copolymère de poly(chlorure de vynile) -|contenant en poids 45|% ou plus de charges -|sur un support</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920491099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur excédant 1|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920499010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920499090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polymères acryliques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en poly(méthacrylate de méthyle)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920510020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plaque en poly(méthacrylate de méthyle) contenant du trihydroxyde d'aluminium, d'une épaisseur de 3,5|mm ou plus mais n'excédant pas 19|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920510030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuille biaxialement orientée en poly(méthacrylate de méthyle), d'une épaisseur de 50µm ou plus mais n'excédant pas 125µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920510040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plaque en polymethylmetacrylate répondant à la norme EN 4366 (MIL-PRF-25690)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920510050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plaque en polymethylmetacrylate répondant aux normes:¿ EN 4364 (MIL-P-5425E) et DTD5592A, ou¿ EN 4365 (MIL-P-8184) et DTD5592A</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920510090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920591000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Copolymère d'esters acryliques et méthacryliques, sous forme de film de pellicule d'une épaisseur n'excédant pas 150|micromètres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920599000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en polycarbonates, en résines alkydes, en polyesters allyliques ou en autres polyesters</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polycarbonates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920610030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuille réfléchissante constituée: - d'un film polymère acrylique ou de polycarbonate dont une des faces est entièrement estampée d'un motif régulier,- recouvert sur une face|ou sur les deux faces d'une ou plusieurs couches de matière plastique, et- éventuellement recouvert sur une face d'une couche adhésive et d'une pellicule amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920610040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pellicules ou films thermoplastiques extrudés en polycarbonate présentant :-une texture de surface mate sur les deux faces,-une épaisseur de plus de 50 µm, mais n'excédant pas 200 µm,-une largeur de 800 mm ou plus, mais n'excédant pas 1 500 mm et-une longueur de 300 m ou plus, mais n'excédant pas 2 500 m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920610050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuille coextrudée de polycarbonate (couche principale) et de polyméthyle méthacrylate (couche supérieure) présentant : -une épaisseur totale supérieure à 230 µm, mais n'excédant pas 270 µm,-une épaisseur de la couche supérieure de plus de 40 µm, mais n'excédant pas 55 µm,-une rugosité de surface définie de la couche supérieure de 0,5 µm ou moins (selon la norme ISO 4287),-une couche supérieure résistante aux UV</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920610090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en poly(éthylène téréphtalate)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920621200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur n'excédant pas 0,35|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pellicule en poly(éthylène téréphtalate), d'une épaisseur de 72|micromètres ou plus mais n'excédant pas 79|micromètres, destinées à la fabrication de disques magnétiques souples; feuilles en poly(éthylène téréphtalate), d'une épaisseur de 100|micromètres ou plus mais n'excédant pas 150|micromètres, destinées à la fabrication de plaques d'impression photopolymères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920621900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621905</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Film de polyéthylène téréphtalate conditionné en rouleaux,-|d'une épaisseur égale ou supérieure à|0,335|mm mais n'excédant pas 0,365|mm, et-|recouvert d'une couche d'or d'une épaisseur égale ou supérieure à|0,03|µm mais n'excédant pas|0,06|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621908</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pellicule en poly(éthylène téréphtalate), non revêtue d'une couche adhésive, d'une épaisseur n'excédant pas 25|µm: -|soit uniquement teintée dans la masse, -|soit teintée dans la masse et métallisée sur une face</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621928</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Film en poly(éthylène téréphtalate) non transparent :-dont chaque couche extérieure a une épaisseur de 7 nm ou plus mais n'excédant pas 80 nm,-présentant une résistance à la traction de 300 N/cm ou plus (ASTM D-882),-d'une épaisseur totale de 200 µm ou plus mais sans dépasser 350 µm, et-d'une largeur de 600 mm ou plus mais sans dépasser 1 600 mm-  recouvert sur une face d'une couche de fluoropolymère, et sur l'autre face d'un adhésif et d'une couche de difluorure de polyvinylidène, ou revêtu sur les deux faces de difluorure de polyvinylidène ou de fluorure de polyvinyle à base de composites polymères fluorés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621932</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Film de poly(éthylène téréphtalate) transparent :-d'une épaisseur des deux faces de 7 nm ou plus, mais n'excédant pas 80 nm, ou d'une épaisseur des deux faces de 7 µm ou plus, mais n'excédant pas 80 µm, recouverte ou non d'un matériau organique à base d'acrylique,-d'une tension superficielle de 36 Dyne/cm ou plus, mais n'excédant pas 39 Dyne/cm, ou de 3 ou 4 couches transparentes, la deuxième couche de PET et les autres couches contiennent de la résine fluorée, -d'une transmission de la lumière supérieure à 70 %, -d'une valeur de halo (diffusion de la lumière) inférieure ou égale à 1,3 %,-d'une épaisseur totale de 10 µm ou plus, mais n'excédant pas 350 µm, -d'une largeur de 800 mm ou plus, mais n'excédant pas 1 600 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621938</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille en poly(éthylène téréphtalate), d'une épaisseur n'excédant pas 12|µm, revêtue sur une face d'une couche d'oxyde d'aluminium d'une épaisseur n'excédant pas 35|nm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621948</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuilles ou rouleaux en poly(éthylène téréphtalate): -|recouvert sur les deux faces d'une couche de résine epoxy acrylique, -|d'une épaisseur totale de 37|micromètres (±|3|µm)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621952</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille de poly(éthylène téréphtalate), de poly(éthylène naphtalate) ou de polyester similaire, recouverte sur une face de métal et/ou d'oxydes de métaux, contenant en poids moins de 0,1|% d'aluminium, d'une épaisseur n'excédant pas 300|µm et d'une résistivité de surface n'excédant pas 10|000|ohms (par carré) (d'après la méthode ASTM D 257)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille en poly(éthylène téréphtalate): -|d'une épaisseur n'excédant pas 20|µm, -|recouverte sur au moins une face d'une couche étanche au gaz consistant en une matrice de polymères dans laquelle est dispersée de la silice ou de l'oxyde d'aluminium et d'une épaisseur n'excédant pas 2|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621979</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille réfléchissante de polyéthylène téréphthalate, présentant des gaufrures en forme de pyramides, avec -une épaisseur de 0,07 mm ou plus mais n'excédant pas 0,15 mm,-une largeur de 762 mm ou plus, mais n'excédant pas 1 350 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621985</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Film plastique transparent à trois couches, composé d'une couche de polymère fluoré de 15 µm (FCC) (EVA), d'une couche de polyéthylène téréphtalate (PET) de 275 µm et d'une couche de polymère fluoré (FCC) de 25 µm présentant les caractéristiques suivantes:-une épaisseur totale de 300 µm ou plus, mais n'excédant pas 330 µm,-une résistance à la traction de 375 N/cm ou plus dans le sens longitudinal et transversal (ASTM D-882),-un faible rétrécissement thermique de 1 % ou moins à 150 °C pendant 30 minutes,-une faible perméabilité à la vapeur d'eau de 2,5 g/m²&lt;strike&gt;22&lt;/strike&gt;.d ou moins, et-une tension de rupture élevée de 18 kV ou plus et-une tension de décharge partielle de 1 500 VDC ou plus (BG/T 123542.2-2009)à utiliser comme couche de protection à l'arrière des modules photovoltaïques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920621999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920629000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur excédant 0,35|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920629010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de polyéthylène téréphtalate conditionné en rouleaux,-|d'une épaisseur égale ou supérieure à|0,335|mm mais n'excédant pas 0,365|mm, et-|recouvert d'une couche d'or d'une épaisseur égale ou supérieure à|0,03|µm mais n'excédant pas|0,06|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920629090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920630000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polyesters non saturés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920690020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuille en poly(éthylène naphtalène-2,6-dicarboxylate)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920690030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuille rétractable, mono- ou multicouche, transversalement orientée:-constituée de plus de 85 % en poids d'acide polylactique, de maximum 5 % en poids d'additifs inorganiques ou organiques et de maximum 10 % en poids d'additifs à base de polyesters biodégradables,-d'une épaisseur égale ou supérieure à 20 µm mais n'excédant pas 100 µm,-d'une longueur égale ou supérieure à 2 385 m mais n'excédant pas 9 075 m-biodégradable et compostable (conformément à la méthode EN 13432)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920690070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuille mono- ou multicouche, biaxialement orientée:-constituée de plus de 85 % en poids d'acide polylactique, de maximum 5 % en poids d'additifs inorganiques ou organiques et de maximum 10 % en poids d'additifs à base de polyesters biodégradables,-d'une épaisseur égale ou supérieure à 9 µm mais n'excédant pas 120 µm,-d'une longueur égale ou supérieure à 1 395 m mais n'excédant pas 21 560 m-biodégradable et compostable (conformément à la méthode EN 13432)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920690090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920710000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en cellulose ou en ses dérivés chimiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920710000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cellulose régénérée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920730000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en acétate de cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920731000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pellicules en rouleaux ou en bandes, pour la cinématographie ou la photographie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920738000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920790000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres dérivés de la cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920791000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en fibre vulcanisée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920799000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en autres matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en poly(butyral de vinyle)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920910052</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920910052</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille en poly(butyral de vinyle): -|contenant en poids au moins 26|%, mais pas plus de 30|%, de bis(2-éthylhexanoate) de triéthylène glycol utilisé comme plastifiant, -|d'une épaisseur d'au moins 0,73|mm mais ne dépassant pas 1,50|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920910091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille en poly(butyral de vinyle) comportant une bande colorée dégradée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920910093</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film en poly(éthylène téréphtalate), métallisé ou non sur une ou les deux faces, ou film stratifié de feuilles en poly(éthylène téréphtalate), métallisé sur les faces externes seulement, et ayant les caractéristiques suivantes : -|une transmission de la lumière visible de 50|% ou plus, -|recouvert sur une ou deux faces d'une couche de poly(butyral de vinyle) mais non enduit d'adhésif ou de matériaux autres que le poly(butyral de vinyle), -|une épaisseur totale n'excédant pas 0,2|mm sans prendre en compte la présence du poly(butyral de vinyle) et une épaisseur de poly(butyral de vinyle) de plus de 0,2|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920910095</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film de polybutyral de vinyle tricouche co-extrudé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920910095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Film de poly(butyral de vinyle) tricouche co-extrudé, présentant une bande colorée graduée, et contenant du bis(2-éthylhexanoate) de 2,2'-éthylènedioxydiéthyle comme plastifiant dans une proportion égale ou supérieure à 29|% mais n'excédant pas 31|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920910097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920910099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en résines aminiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en résines phénoliques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières plastiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920992100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en produits de polymérisation de réorganisation ou de condensation, même modifiés chimiquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920992100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles ou lames en polyimide, non enduites, ou seulement enduites ou recouvertes de matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920992800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920992840</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Film fabriqué à partir d'un polymère contenant les monomères suivants: -|poly(tétraméthylène-éther-glycol), -|bis(4-isocyanotocyclohéxyl) méthane, -|1,4-butanédiol ou 1,3-butanédiol -|d'une épaisseur de 0,25|mm ou plus mais n'excédant pas 5,0|mm, -|décoré d'un motif régulier sur une face, -|recouvert d'une feuille de protection amovible</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920992850</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Film thermoplastique en polyuréthane (TPU) à base de polycaprolactone aliphatique (PCL), renforcé de façon transparente sur une face par une pellicule de protection amovible (film PET), avec une transmission de la lumière de plus de 93% (conformément à la norme DIN EN ISO 13468-1), d'une épaisseur de 25µm ou plus mais n'excédant pas 500µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920992865</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuille de polyuréthane thermoplastique mate en rouleaux: -|d'une largeur de 1|640|mm (± 10|mm), -|d'une brillance de 3,3|degrés ou plus, mais n'excédant pas 3,8|degrés (déterminée par la méthode ASTM D2457), -|d'une rugosité de 1,9|Ra ou plus, mais n'excédant pas 2,8|Ra (déterminée par la méthode ISO 4287), -|d'une épaisseur de plus de 365|µm, mais n'excédant pas 760|µm, -|d'une dureté de 90|(± 4) (déterminée par la méthode Shore A [ASTM D2240]), -|d'un allongement à la rupture de 470|% (déterminé par la méthode EN ISO 527)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920992870</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuilles de résine époxyde sur rouleaux, dotées de propriétés conductrices, contenant: -|des microsphères avec enduit métallique, avec ou sans alliage d'or,  -|une couche adhésive,  -|revêtues d'une couche de protection en silicone|ou en poly(éthylène téréphtalate), sur une face,|  -|revêtues d'une couche de protection en poly(ethylène téréphthalate) sur l'autre face, et |  -|d'une largeur égale ou supérieure à 5|cm mais n'excédant pas 100|cm, et  -|d'une longueur n'excédant pas 2|000|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920992890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920995200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en produits de polymérisation d'addition</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920995200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles en poly(fluorure de vinyle); feuille en poly(alcool vinylique), biaxialement orientée, non enduite, d'une épaisseur n'excédant pas 1|mm et contenant en poids 97|% ou plus de poly(alcool vinylique)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920995300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Membrane échangeuse d'ions, en matière plastique fluorée, destinée à être utilisée dans des cellules d'électrolyse chlore-soude</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3920995900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920995910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3920995925</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920995925</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Pellicule en poly(1-chlorotrifluoroéthylène)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920995965</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Feuille d'un copolymère d'alcool vinylique, soluble dans l'eau froide, d'une épaisseur de 34|µm ou plus mais n'excédant pas 90|µm, d'une résistance à la rupture par traction de 20|MPa ou plus mais n'excédant pas 55|Mpa et d'un allongement à la rupture de 250|% ou plus mais n'excédant pas 900|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920995990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3920999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres plaques, feuilles, pellicules, bandes et lames, en matières plastiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3921110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits alvéolaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polymères du styrène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Acrylonitrilebutadiène styrène, destiné à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polymères du chlorure de vinyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921120020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polyuréthannes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>flexibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921139000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cellulose régénérée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921140020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bloc alvéolaire en cellulose régénérée, imprégné d'eau contenant du chlorure de magnésium et des composés d'ammonium quaternaire, mesurant 100 cm (± 10 cm) × 100 cm (± 10 cm) × 40 cm (± 5 cm)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921140080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3921190030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921190030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Blocs à structure cellulaire, constitués: -|de polyamide-6|ou de poly(époxy anhydride), -|le cas échéant, de polytétrafluoroéthylène (au minimum 7|% et au maximum 9|% en poids) -|de matières de charge inorganiques (au minimum 10|% et au maximum 25|% en poids)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921190050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Membrane poreuse de polytétrafluoréthylène (PTFE) combinée à un tissu non tissé en polyester obtenu par filé-lié:-|d'une épaisseur totale supérieure à 0,05|mm mais n'excédant pas|0,20|mm,-|d'une pression d'eau à l'entrée comprise entre 5|et 200|kPa selon|la norme ISO 811, et-|d'une perméabilité à l'air de 0,08|cm$3/cm$2/s ou plus selon la norme|ISO 5636-5</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921190055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bande en polytétrafluoroéthylène microporeux sur un support en non tissé-enroulée sur un rouleau au noyau de 3 pouces,-d'une largeur de 69,5 mm, 40,8 mm, 36,5 mm, 20 mm, 13,5 mm ou 10 mmdestinée à être utilisée dans la fabrication de filtres pour équipement de dialyse rénale et application intraveineuse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921190065</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film transparent, microporeux, en polyéthylène greffé à l'acide acrylique, sous forme de rouleaux, destiné à la fabrication de séparateurs pour batteries alcalines présentant:-une largeur de 98 mm ou plus mais n'excédant pas 170 mm-une épaisseur de 15 µm ou plus mais n'excédant pas 36 µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921190075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Film monocouche microporeux en polypropylène ou film à trois couches microporeux en polypropylène, polyéthylène et polypropylène, chaque film présentant les caractéristiques suivantes: -absence de retrait dans le sens transversal de la fabrication, -épaisseur totale de 8 µm ou plus mais n'excédant pas 50 µm, -largeur de 15 mm ou plus mais n'excédant pas 900 mm, -longueur supérieure à 200 m mais n'excédant pas 8 000 m, -taille moyenne des pores comprise entre 0,02 µm et 0,1 µm, -stratifié ou non avec un voile non tissé de polypropylène d'une épaisseur de 50 à 200 µm, -enduit ou non d'un agent de surface, -revêtu ou non d'une couche de céramique d'une épaisseur de 1 µm ou plus mais n'excédant pas 5 µm, sur 1 ou 2 faces, -revêtu ou non d'une couche adhésive de type poly(fluorure de vinylidène) ou similaire d'une épaisseur de 0,5 µm ou plus mais n'excédant pas 5 µm, sur 1 ou 2 faces</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921190095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille en polyethersulfone, d'une épaisseur n'excédant pas 200|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921190099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3921901000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en produits de polymérisation de réorganisation ou de condensation, même modifiés chimiquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921901005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles et plaques ondulées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Plaque composite en poly(éthylène téréphtalate) ou en poly(butylène téréphtalate), armée de fibres de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921901030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuille stratifiée composée des éléments suivants: -|une feuille en poly(éthylène téréphtalate) d'une épaisseur de plus de 100|µm mais n'excédant pas 150|µm, -|une base de matériau phénolique d'une épaisseur de plus de 8|µm mais n'excédant pas 15|µm, -|une couche adhésive de caoutchouc synthétique de plus de 20|µm mais n'excédant pas 30|µm, -|et une couche en poly(éthylène téréphtalate) transparent d'une épaisseur de plus de 35|µm mais n'excédant pas 40|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en résines phénoliques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3921904100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en résines aminiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3921904100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>stratifiées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921904100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>sous haute pression, avec couche décorative sur une ou sur les deux faces</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921904300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921904900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921905500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921905525</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles ou rouleaux préimprégnés contenant de la résine polyimide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921905535</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fibre de verre imprégnée de résine époxy, destinée à la fabrication de cartes à puce</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921905540</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pièce de tissu tricouche, en rouleaux, -|comprenant une couche centrale de 100|% de taffetas nylon ou de taffetas nylon/polyester, -|enduite sur les deux faces avec une solution polyamide, -|d'une épaisseur totale de 135|µm, -|d'un poids total n'excédant pas 80|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921905570</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Membrane constituée d'une couche de polyamide et d'une couche de polysulfone sur une couche de support en polyéthylène téréphtalate présentant :-une épaisseur totale de 0,25 mm ou plus mais n'excédant pas 0,40 mm,-un poids total de 109 g/m² ou plus mais n'excédant pas 114 g/m²</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921905590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3921906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en produits de polymérisation d'addition</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921906010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921906090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3921909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3922000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Baignoires, douches, éviers, lavabos, bidets, cuvettes d'aisance et leurs sièges et couvercles, réservoirs de chasse et articles similaires pour usages sanitaires ou hygiéniques, en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3922100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Baignoires, douches, éviers et lavabos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3922200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sièges et couvercles de cuvettes d'aisance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3922900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3923000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles de transport ou d'emballage, en matières plastiques; bouchons, couvercles, capsules et autres dispositifs de fermeture, en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3923100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boîtes, caisses, casiers et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boîtes, caisses, casiers et articles similaires en matières plastiques, spécialement conçus pour le transport ou l'emballage de disques (wafers) à semi-conducteur, de masques ou de réticules</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3923109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtiers de photomasques ou de plaquettes: -|composés de matériaux antistatiques ou de mélanges thermoplastiques démontrant des propriétés spécifiques de décharge électrostatique (DES) et de dégazage, -|présentant des surfaces non poreuses, résistantes à l'abrasion ou aux chocs, -|équipés d'un système de retenue spécialement conçu qui protège le photomasque ou les plaquettes des dommages superficiels ou esthétiques, et -|équipés ou non d'un joint d'étanchéité,du type utilisé dans la production photolithographique ou les autres types de production de semiconducteurs pour loger les photomasques ou les plaquettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3923210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sacs, sachets, pochettes et cornets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en polymères de l'éthylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3923290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en poly(chlorure de vinyle)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3923300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bonbonnes, bouteilles, flacons et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une contenance n'excédant pas 2|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une contenance excédant 2|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3923400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bobines, fusettes, canettes et supports similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bobines et supports similaires pour l'enroulement de films et pellicules photographiques et cinématographiques ou de bandes, films, etc., visés au n$o|8523</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3923500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bouchons, couvercles, capsules et autres dispositifs de fermeture</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Capsules de bouchage ou de surbouchage pour bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3923900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3924000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vaisselle, autres articles de ménage ou d'économie domestique et articles d'hygiène ou de toilette, en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3924100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vaisselle et autres articles pour le service de la table ou de la cuisine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3924100011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ustensiles de cuisine contenant du polyamide ou de la mélamine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3924100011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance de Chine ou de Hong Kong</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3924100019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3924100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3924900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3924900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Planches à repasser, y compris jeannettes de repassage, montées ou non sur pied, et leurs pieds et planches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3924900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3925000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles d'équipement pour la construction, en matières plastiques, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3925100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Réservoirs, foudres, cuves et récipients analogues, d'une contenance excédant 300|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3925200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Portes, fenêtres et leurs cadres, chambranles et seuils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3925300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Volets, stores (y compris les stores vénitiens) et articles similaires, et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3925900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3925901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Accessoires et garnitures destinés à être fixés à demeure aux portes, fenêtres, escaliers, murs ou autres parties de bâtiment</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3925902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Profilés et chemins de câbles pour canalisations électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3925908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3926000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en matières plastiques et ouvrages en autres matières des n$o$s|3901|à 3914</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles de bureau et articles scolaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vêtements et accessoires du vêtement (y compris les gants, mitaines et moufles)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3926300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Garnitures pour meubles, carrosseries ou similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926300040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poignée de porte intérieure en matière plastique utilisée dans la fabrication de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926300050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Éléments décoratifs intérieurs ou extérieurs avec revêtement, constitués:-d'un copolymère d'acrylonitrile-butadiène-styrène (ABS), mélangé ou non avec du polycarbonate, et-d'un film PVC,-ne contenant pas de couches de cuivre, de nickel ou de chrome,destinés à la fabrication de parties de véhicules à moteur des positions 8701 à 8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Statuettes et autres objets d'ornementation</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3926900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Paniers et articles similaires pour filtrer l'eau à l'entrée des égouts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Écrans faciaux/visières de protection</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3926909700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909705</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour usages techniques, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909710</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Microsphères de polymère de divinylbenzène, d'un diamètre de 4,5|µm ou plus mais n'excédant pas 80|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909722</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Joints pour rétroviseurs de véhicules routiers et leurs composants, en mousse de polyéthylène, fabriqués par thermoformage et présentant les caractéristiques suivantes : -une densité de 20 kg/m³ ou plus,mais pas plus de 40 kg/m³, -une résistance minimale à la traction de 170 kPa, -un coefficient d'absorption d'eau n'excédant pas 1 %, -une longueur de 5 mm ou plus mais pas plus de 300 mm, -une hauteur de 10 mm ou plus mais pas plus de 400 mm, -une profondeur de 5 mm ou plus mais pas plus de 250 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909723</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtier en plastique de rétroviseur extérieur pour véhicules à moteur comportant des supports de fixation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909727</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Joint de mousse de polyéthylène destiné à combler l'espace entre la carrosserie d'un véhicule automobile et la base d'un rétroviseur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909730</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Éléments de façades d'autoradios et de systèmes de climatisation de voiture -|en acrylonitrile-butadiène-styrène avec ou sans polycarbonate, -|recouverts de couches de cuivre, de nickel et de chrome, -|dont l'épaisseur totale du revêtement est de 5,54|µm ou plus, mais n'excède pas 49,6|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909733</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtiers, pièces de boîtiers, cylindres, molettes de réglage, châssis, couvercles, partie supérieure, planche de conception et autres parties en acrylonitrile-butadiène-styrène, polycarbonate, polyméthylmétacrylate ou polyuréthanne thermoplastique, du type utilisé dans la fabrication de télécommandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909740</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Enveloppe en silicone pour implants mammaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909743</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange d'eau et de 19 % en poids ou plus mais n'excédant pas 35 % de microsphères creuses expansées d'un copolymère d'acrylonitrile, de méthacrylonitrile et de méthacrylate d'isobornyle ou d'un autre méthacrylate, d'un diamètre de 3 µm ou plus mais n'excédant pas 4,95 µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909748</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Éléments décoratifs intérieurs ou extérieurs avec revêtement, constitués:-d'un copolymère d'acrylonitrile-butadiène-styrène (ABS), mélangé ou non avec du polycarbonate, et-d'un film PVC,-ne contenant pas de couches de cuivre, de nickel ou de chrome,destinés à la fabrication de parties de véhicules à moteur des positions 8701 à 8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909758</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Embouts et/ou bouchons en plastique:-soutenus avec ou sans bague en acier inoxydable,-adaptés à une pression de service maximale de 2,7 MPa ou plus, mais n'excédant pas114 MPa, pour les tubes:-d'un diamètre extérieur égal ou supérieur à 0,33 mm, mais n'excédant pas 3,3 mm,-adaptés à une pression de service maximale de 2,7 MPa ou plus, mais n'excédant pas114 MPa,-convenant à toutes les solutions utilisées en chromatographie, destinés à la fabrication de systèmes chromatographiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909760</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préservatifs en polyuréthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909777</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Anneau de découplage en silicone, d'un diamètre intérieur de 14,7mm ou plus mais n'excédant pas 16,0mm, en emballages immédiats de 2 500 pièces ou plus, du type utilisé dans les systèmes de capteurs d'aide au stationnement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3926909790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

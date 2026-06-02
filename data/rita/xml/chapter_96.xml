@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 96 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:14</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OUVRAGES DIVERS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ivoire, os, écaille de tortue, corne, bois d'animaux, corail, nacre et autres matières animales à tailler, travaillés, et ouvrages en ces matières (y compris les ouvrages obtenus par moulage)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9601100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ivoire travaillé et ouvrages en ivoire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9601100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9601100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9601900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Matières végétales ou minérales à tailler, travaillées, et ouvrages en ces matières; ouvrages moulés ou taillés en cire, en paraffine, en stéarine, en gommes ou résines naturelles, en pâtes à modeler, et autres ouvrages moulés ou taillés, non dénommés ni compris ailleurs; gélatine non durcie travaillée, autre que celle du n$o|3503, et ouvrages en gélatine non durcie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9602000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9602000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9603000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Balais et brosses, même constituant des parties de machines, d'appareils ou de véhicules, balais mécaniques pour emploi à la main, autres qu'à moteur, pinceaux et plumeaux; têtes préparées pour articles de brosserie; tampons et rouleaux à peindre; raclettes en caoutchouc ou en matières souples analogues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Balais et balayettes consistant en brindilles ou autres matières végétales en bottes liées, emmanchés ou non</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9603210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Brosses à dents, brosses et pinceaux à barbe, à cheveux, à cils ou à ongles et autres brosses pour la toilette des personnes, y compris ceux constituant des parties d'appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Brosses à dents, y compris les brosses à dentiers</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9603290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603293000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Brosses à cheveux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9603300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pinceaux et brosses pour artistes, pinceaux à écrire et pinceaux similaires pour l'application des produits cosmétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pinceaux et brosses pour artistes, pinceaux à écrire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pinceaux pour l'application des produits cosmétiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9603400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Brosses et pinceaux à peindre, à badigeonner, à vernir ou similaires (autres que les pinceaux du n$o|9603|30); tampons et rouleaux à peindre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Brosses et pinceaux à peindre, à badigeonner, à vernir ou similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tampons et rouleaux à peindre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres brosses constituant des parties de machines, d'appareils ou de véhicules</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9603900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Balais mécaniques pour emploi à la main, autres qu'à moteur</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9603909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Brosses et balais-brosses pour l'entretien des surfaces ou pour le ménage, y compris les brosses à vêtements ou à chaussures; articles de brosserie pour la toilette des animaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9603909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9604000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tamis et cribles, à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9605000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Assortiments de voyage pour la toilette des personnes, la couture ou le nettoyage des chaussures ou des vêtements</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9606000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Boutons et boutons-pression; formes pour boutons et autres parties de boutons ou de boutons-pression; ébauches de boutons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9606100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boutons-pression et leurs parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9606210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boutons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9606210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matières plastiques, non recouverts de matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9606220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en métaux communs, non recouverts de matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9606290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9606300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Formes pour boutons et autres parties de boutons; ébauches de boutons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9607000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fermetures à glissière et leurs parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9607110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fermetures à glissière</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9607110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec agrafes en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9607190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9607200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9607201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en métaux communs (y compris les rubans munis d'agrafes en métaux communs)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9607209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9608000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Stylos et crayons à bille; stylos et marqueurs à mèche feutre ou à autres pointes poreuses; stylos à plume et autres stylos; stylets pour duplicateurs; porte-mine; porte-plume, porte-crayon et articles similaires; parties (y compris les capuchons et les agrafes) de ces articles, à l'exclusion de celles du n$o|9609</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9608100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Stylos et crayons à bille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à encre liquide</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9608109200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608109200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>avec cartouche remplaçable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Stylos et marqueurs à mèche feutre ou à autres pointes poreuses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Stylos à plume et autres stylos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Porte-mine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Assortiments d'articles relevant d'au moins deux des sous-positions précitées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cartouches de rechange pour stylos ou crayons à bille, associées à leur pointe</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9608910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9608910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plumes à écrire et becs pour plumes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pointes non fibreuses en matière plastique pour marqueurs, comportant un canal interne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608910020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mèches feutre ou autres pointes poreuses pour marqueurs, sans canal intérieur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9608990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9609000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Crayons (autres que les crayons du n$o|9608), mines, pastels, fusains, craies à écrire ou à dessiner et craies de tailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9609100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Crayons à gaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9609101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec mine de graphite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9609109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9609200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mines pour crayons ou porte-mine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9609900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9609901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pastels et fusains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9609909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9610000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ardoises et tableaux pour l'écriture ou le dessin, même encadrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9611000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Dateurs, cachets, numéroteurs, timbres et articles similaires (y compris les appareils pour l'impression d'étiquettes), à main; composteurs et imprimeries comportant des composteurs, à main</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9612000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Rubans encreurs pour machines à écrire et rubans encreurs similaires, encrés ou autrement préparés en vue de laisser des empreintes, même montés sur bobines ou en cartouches; tampons encreurs même imprégnés, avec ou sans boîte</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9612100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rubans encreurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9612101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9612101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Rubans encreurs en matière plastique composés de plusieurs segments de couleurs différentes, où les substances colorantes sont amenées par la chaleur dans un support (dit sublimation de substances colorantes)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9612101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9612102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres synthétiques ou artificielles, d'une largeur inférieure à 30|mm, placés en permanence dans des cartouches en plastique ou en métal du type utilisé pour les machines à écrire automatiques, les machines automatiques de traitement de l'information et les autres machines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9612108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9612200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tampons encreurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9613000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Briquets et allumeurs (à l'exclusion des allumeurs du n$o|3603), même mécaniques ou électriques, et leurs parties autres que les pierres et les mèches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9613100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Briquets de poche, à gaz, non rechargeables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9613200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Briquets de poche, à gaz, rechargeables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9613800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres briquets et allumeurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9613900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9614000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pipes (y compris les têtes de pipes), fume-cigare et fume-cigarette, et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9614001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ébauchons de pipes, en bois ou en racines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9614009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9615000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Peignes à coiffer, peignes de coiffure, barrettes et articles similaires; épingles à cheveux; pince-guiches, ondulateurs, bigoudis et articles similaires pour la coiffure, autres que ceux du n$o|8516, et leurs parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9615110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Peignes à coiffer, peignes de coiffure, barrettes et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9615110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en caoutchouc durci ou en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9615190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9615900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9616000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vaporisateurs de toilette, leurs montures et têtes de montures; houppes et houppettes à poudre ou pour l'application d'autres cosmétiques ou produits de toilette</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9616100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vaporisateurs de toilette, leurs montures et têtes de montures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9616101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vaporisateurs de toilette</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9616109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Montures et têtes de montures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9616200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Houppes et houppettes à poudre ou pour l'application d'autres cosmétiques ou produits de toilette</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9617000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bouteilles isolantes et autres récipients isothermiques montés, dont l'isolation est assurée par le vide, ainsi que leurs parties (à l'exclusion des ampoules en verre)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9618000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mannequins et articles similaires; automates et scènes animées pour étalages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9619000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Serviettes et tampons hygiéniques, couches, langes et articles similaires, en toutes matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en ouate de matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9619004000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en autres matières textiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9619004000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Serviettes, tampons hygiéniques et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619004010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619004090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9619005000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Couches, langes et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619005010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619005090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9619007100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9619007100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Serviettes, tampons hygiéniques et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619007100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Serviettes hygiéniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619007500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tampons hygiéniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619007900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9619008100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Couches, langes et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619008100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Couches et langes pour bébés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9619008900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres (articles pour l'incontinence, par exemple)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9620000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Monopodes, bipieds, trépieds et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9620001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour les appareils de photographie ou de vidéographie numériques, les caméras et projecteurs cinématographiques; des types utilisés pour d'autres appareils du chapitre 90</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9620009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9620009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matières plastiques ou en aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9620009110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9620009190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9620009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

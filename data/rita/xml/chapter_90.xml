@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 90 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:09</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9000000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>INSTRUMENTS ET APPAREILS D'OPTIQUE, DE PHOTOGRAPHIE OU DE CINÉMATOGRAPHIE, DE MESURE, DE CONTRÔLE OU DE PRÉCISION; INSTRUMENTS ET APPAREILS MÉDICO-CHIRURGICAUX; PARTIES ET ACCESSOIRES DE CES INSTRUMENTS OU APPAREILS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fibres optiques et faisceaux de fibres optiques; câbles de fibres optiques autres que ceux du n$o|8544; matières polarisantes en feuilles ou en plaques; lentilles (y compris les verres de contact), prismes, miroirs et autres éléments d'optique en toutes matières, non montés, autres que ceux en verre non travaillé optiquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fibres optiques, faisceaux et câbles de fibres optiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Câbles conducteurs d'images</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Inverseur d'images constitué par un assemblage de fibres optiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Matières polarisantes en feuilles ou en plaques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verres de contact</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verres de lunetterie en verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001402000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non correcteurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9001404100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>correcteurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9001404100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>complètement ouvrés sur les deux faces</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001404100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>unifocaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001404900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001408000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verres de lunetterie en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001502000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non correcteurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9001504100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>correcteurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9001504100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>complètement ouvrés sur les deux faces</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001504100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>unifocaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001504140</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Verre de lunetterie correcteur non détouré, organique, ouvré sur les deux faces, destiné à faire l'objet d'un traitement (revêtement, coloration, usinage des bords, montage ou tout autre traitement substantiel) en vue de son utilisation dans la fabrication de lunettes correctrices</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001504190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001504900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001504940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Verre de lunetterie correcteur non détouré, organique, ouvré sur les deux faces, destiné à faire l'objet d'un traitement (revêtement, coloration, usinage des bords, montage ou tout autre traitement substantiel) en vue de son utilisation dans la fabrication de lunettes correctrices</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001504990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001508000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001508030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Verre de lunetterie correcteur non détouré semi-fini, organique, ouvré sur une face, de forme ronde, du type utilisé pour la fabrication de verres de lunetterie finis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001508090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9001900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9001900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9002000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lentilles, prismes, miroirs et autres éléments d'optique en toutes matières, montés, pour instruments ou appareils, autres que ceux en verre non travaillé optiquement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9002110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Objectifs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9002110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour appareils de prise de vues, pour projecteurs ou pour appareils photographiques ou cinématographiques d'agrandissement ou de réduction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002110018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bloc de lentilles composé d'un couvercle de forme cylindrique constitué d'éléments optiques en métal ou matière plastique offrant:-un champ de vision horizontal maximal de 120 degrés,-un champ de vision diagonal maximal de 105 degrés,-une distance focale maximale de 7,50 mm,-une ouverture relative maximale de F/2,90,-un diamètre maximal de 22 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002110020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Objectifs- dont les dimensions n'excèdent pas 95 mm x 55 mm x 50 mm,- présentant une résolution d'au moins 160 lignes/mm et- ayant un facteur de zoom de 3 fois ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002110023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Objectifs avec:-mise au point, zoom et ouverture motorisés,-un filtre infrarouge (IR Cut) à commutation électronique,-une distance focale réglable d'au moins 2,7 mm et d'au maximum 55 mm,-un poids n'excédant pas 120 g,-une longueur inférieure à 70 mm,-un diamètre n'excédant pas 70 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002110045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Unité optique infrarouge-équipée de lentilles en verre de silicone, de germanium ou de chalcogénures d'un diamètre maximal de 62 mm (± 0,05 mm),-fixée ou non à un support en alliage d'aluminium usinédu type de celle utilisée pour les caméras thermiques ou de caméras en réseau IP</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002110050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Objectif: -|d'une longueur focale de 25|mm ou plus mais n'excédant pas 150|mm, -|constitué de lentilles en verre ou en matière plastique d'un diamètre de 60|mm ou plus mais n'excédant pas 190|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002110085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bloc de lentilles présentant:- un champ de vision horizontal de 20 degrés ou plus mais n'excédant pas 200 degrés,-une distance focale de 1,16 mm ou plus mais n'excédant pas 20 mm,-une ouverture relative de F/1,2 ou plus mais n'excédant pas F/4, et-un diamètre de 5 mm ou plus mais n'excédant pas 40 mm,utilisé pour la fabrication d'appareils photographiques automatiques CMOS ou dans la production de caméras du réseau IP</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Filtres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9002900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9003000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Montures de lunettes ou d'articles similaires, et leurs parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9003110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Montures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9003110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9003190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9003190040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9003190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9003900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9003900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties de montures de lunettes, y compris:-|les branches de lunettes,-|les ébauches utilisées pour la fabrication de pièces de lunettes, et-|les boulons des types utilisés pour les montures de lunettes,composées d'un alliage de titane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9003900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9004000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lunettes (correctrices, protectrices ou autres) et articles similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9004100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lunettes solaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9004101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec verres travaillés optiquement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9004109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9004109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>avec verres en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9004109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9004900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9004901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec verres en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9004909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9005000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Jumelles, longues-vues, lunettes astronomiques, télescopes optiques, et leurs bâtis; autres instruments d'astronomie et leurs bâtis, à l'exclusion des appareils de radio-astronomie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9005100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Jumelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9005800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9005900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires (y compris les bâtis)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9006000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Appareils photographiques; appareils et dispositifs, y compris les lampes et tubes, pour la production de la lumière-éclair en photographie, à l'exclusion des lampes et tubes à décharge du n$o|8539</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils photographiques spécialement conçus pour la photographie sous-marine ou aérienne, pour l'examen médical d'organes internes ou pour les laboratoires de médecine légale ou d'identité judiciaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils photographiques à développement et tirage instantanés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9006530000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres appareils photographiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9006530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour pellicules en rouleaux d'une largeur de 35|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006531000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Appareils photographiques jetables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006538000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9006610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils et dispositifs, y compris les lampes et tubes, pour la production de la lumière-éclair en photographie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils à tube à décharge pour la production de la lumière-éclair (dits "flashes électroniques")</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9006910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'appareils photographiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9006990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9007000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caméras et projecteurs cinématographiques, même incorporant des appareils d'enregistrement ou de reproduction du son</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9007100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caméras</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9007200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Projecteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9007200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9007200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9007910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9007910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de caméras</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9007920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de projecteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9007920010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9007920090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9008000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Projecteurs d'images fixes; appareils photographiques d'agrandissement ou de réduction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9008500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Projecteurs et appareils d'agrandissement ou de réduction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9008900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9010000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Appareils et matériel pour laboratoires photographiques ou cinématographiques, non dénommés ni compris ailleurs dans le présent chapitre; négatoscopes; écrans pour projections</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9010100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils et matériel pour le développement automatique des pellicules photographiques, des films cinématographiques ou du papier photographique en rouleaux ou pour l'impression automatique des pellicules développées sur des rouleaux de papier photographique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9010500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres appareils et matériel pour laboratoires photographiques ou cinématographiques; négatoscopes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9010600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Écrans pour projections</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9010900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9010902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des appareils et matériel relevant des sous-positions 9010|50|00|ou 9010|60|00</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9010908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9011000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Microscopes optiques, y compris les microscopes pour la photomicrographie, la cinéphotomicrographie ou la microprojection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9011100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Microscopes stéréoscopiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9011200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres microscopes, pour la photomicrographie, la cinéphotomicrographie ou la microprojection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9011201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Microscopes pour la photomicrographie munis d'équipements spécifiquement conçus pour la manipulation et le transport de disques (wafers) à semi-conducteur ou de réticules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9011209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9011800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres microscopes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9011900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9012000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Microscopes autres qu'optiques; diffractographes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9012100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Microscopes autres qu'optiques; diffractographes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9012900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9013000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lasers, autres que les diodes laser; autres appareils et instruments d'optique, non dénommés ni compris ailleurs dans le présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9013100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lunettes de visée pour armes; périscopes; lunettes pour machines, appareils ou instruments du présent chapitre ou de la section|XVI</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9013101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lunettes pour machines, appareils ou instruments du présent chapitre ou de la section XVI</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9013109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9013200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lasers, autres que les diodes laser</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9013800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres dispositifs, appareils et instruments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9013804000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Séparateurs optiques passifs, ne comportant pas d'éléments électriques ou électroniques, pour les télécommunications</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9013808000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9013900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9013900500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de lunettes de visée pour armes et de périscopes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9013908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9014000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Boussoles, y compris les compas de navigation; autres instruments et appareils de navigation</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9014100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boussoles, y compris les compas de navigation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9014100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9014100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9014200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Instruments et appareils pour la navigation aérienne ou spatiale (autres que les boussoles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9014202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Centrales inertielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9014208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9014800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9014900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9015000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments et appareils de géodésie, de topographie, d'arpentage, de nivellement, de photogrammétrie, d'hydrographie, d'océanographie, d'hydrologie, de météorologie ou de géophysique, à l'exclusion des boussoles; télémètres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Télémètres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Théodolites et tachéomètres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9015300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Niveaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>électroniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Instruments et appareils de photogrammétrie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9015800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015802000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de météorologie, d'hydrologie et de géophysique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015804000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de géodésie, de topographie, d'arpentage, de nivellement et d'hydrographie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015808000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9015900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9016000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Balances sensibles à un poids de 5|cg ou moins, avec ou sans poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9016001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Balances</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9016009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9017000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments de dessin, de traçage ou de calcul (machines à dessiner, pantographes, rapporteurs, étuis de mathématiques, règles et cercles à calcul, par exemple); instruments de mesure de longueurs, pour emploi à la main (mètres, micromètres, pieds à coulisse et calibres, par exemple), non dénommés ni compris ailleurs dans le présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9017100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tables et machines à dessiner, même automatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Traceurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9017200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments de dessin, de traçage ou de calcul</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017200500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Traceurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres instruments de dessin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017203900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Instruments de traçage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Instruments de calcul</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Micromètres, pieds à coulisse, calibres et jauges</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9017800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017801000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mètres et règles divisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017809000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9017900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9018000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments et appareils pour la médecine, la chirurgie, l'art dentaire ou l'art vétérinaire, y compris les appareils de scintigraphie et autres appareils électromédicaux ainsi que les appareils pour tests visuels</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9018110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils d'électrodiagnostic (y compris les appareils d'exploration fonctionnelle ou de surveillance de paramètres physiologiques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Électrocardiographes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils de diagnostic par balayage ultrasonique (scanners)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils de diagnostic par visualisation à résonance magnétique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils de scintigraphie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9018190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Appareils de surveillance simultanée de deux ou plusieurs paramètres physiologiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils à rayons ultraviolets ou infrarouges</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9018310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Seringues, aiguilles, cathéters, canules et instruments similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9018310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Seringues, avec ou sans aiguilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018311000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018319000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9018320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Aiguilles tubulaires en métal et aiguilles à sutures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Aiguilles tubulaires en métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Aiguilles à sutures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9018410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils, pour l'art dentaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tours dentaires, même combinés sur une base commune avec d'autres équipements dentaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9018490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Meulettes, disques, fraises et brosses, pour tours dentaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9018500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils d'ophtalmologie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non optiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>optiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9018900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Instruments et appareils pour la mesure de la pression artérielle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Endoscopes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Reins artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils de diathermie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils de transfusion et de perfusion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Instruments et appareils d'anesthésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018907500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils pour la stimulation nerveuse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9018908400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9019000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Appareils de mécanothérapie; appareils de massage; appareils de psychotechnie; appareils d'ozonothérapie, d'oxygénothérapie, d'aérosolthérapie, appareils respiratoires de réanimation et autres appareils de thérapie respiratoire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9019100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils de mécanothérapie; appareils de massage; appareils de psychotechnie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9019101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vibromasseurs électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9019109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9019200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils d'ozonothérapie, d'oxygénothérapie, d'aérosolthérapie, appareils respiratoires de réanimation et autres appareils de thérapie respiratoire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9019201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils de ventilation mécanique, capables d'assurer une ventilation invasive</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9019202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils de ventilation mécanique, non invasive</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9019209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autres, y compris les parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9020000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres appareils respiratoires et masques à gaz, à l'exclusion des masques de protection dépourvus de mécanisme et d'élément filtrant amovible</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9020001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Masques à gaz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9020001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9020001090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9020009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres, y compris les parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9020009011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils respiratoires (à l'exclusion de leurs parties), destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9020009091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9020009091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties pour les appareils respiratoires et pour les masques à gaz, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9020009099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9021000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles et appareils d'orthopédie, y compris les ceintures et bandages médico-chirurgicaux et les béquilles; attelles, gouttières et autres articles et appareils pour fractures; articles et appareils de prothèse; appareils pour faciliter l'audition aux sourds et autres appareils à tenir à la main, à porter sur la personne ou à implanter dans l'organisme, afin de compenser une déficience ou une infirmité</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9021100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles et appareils d'orthopédie ou pour fractures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Articles et appareils d'orthopédie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Articles et appareils pour fractures</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9021210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles et appareils de prothèse dentaire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9021210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dents artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9021310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres articles et appareils de prothèse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Prothèses articulaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9021390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Prothèses oculaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021399000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils pour faciliter l'audition aux sourds, à l'exclusion des parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Stimulateurs cardiaques, à l'exclusion des parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9021900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties et accessoires d'appareils pour faciliter l'audition aux sourds</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9021909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9022000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Appareils à rayons|X et appareils utilisant les radiations alpha, bêta gamma ou d'autres radiations ionisantes, même à usage médical, chirurgical, dentaire ou vétérinaire, y compris les appareils de radiophotographie ou de radiothérapie, les tubes à rayons|X et autres dispositifs générateurs de rayons|X, les générateurs de tension, les pupitres de commande, les écrans, les tables, fauteuils et supports similaires d'examen ou de traitement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9022120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils à rayons|X, même à usage médical, chirurgical, dentaire ou vétérinaire, y compris les appareils de radiophotographie ou de radiothérapie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils de tomographie pilotés par une machine automatique de traitement de l'information</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, pour l'art dentaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, pour usages médicaux, chirurgicaux ou vétérinaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour autres usages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9022210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils utilisant les radiations alpha, bêta gamma ou d'autres radiations ionisantes, même à usage médical, chirurgical, dentaire ou vétérinaire, y compris les appareils de radiophotographie ou de radiothérapie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à usage médical, chirurgical, dentaire ou vétérinaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour autres usages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes à rayons|X</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9022900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>parties et accessoires d'appareils à rayons X</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9022908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9023000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments, appareils et modèles conçus pour la démonstration (dans l'enseignement ou les expositions, par exemple), non susceptibles d'autres emplois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9023001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour l'enseignement de la physique, de la chimie ou de la technique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9023008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9024000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Machines et appareils d'essais de dureté, de traction, de compression, d'élasticité ou d'autres propriétés mécaniques des matériaux (métaux, bois, textiles, papier, matières plastiques, par exemple)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9024100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Machines et appareils d'essais des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9024102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>universels et pour essais de traction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9024104000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'essais de dureté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9024108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9024800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres machines et appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9024900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9025000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Densimètres, aréomètres, pèse-liquides et instruments flottants similaires, thermomètres, pyromètres, baromètres, hygromètres et psychromètres, enregistreurs ou non, même combinés entre eux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9025110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Thermomètres et pyromètres, non combinés à d'autres instruments</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9025110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à liquide, à lecture directe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025112000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>médicaux ou vétérinaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9025118000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025118010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025118090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9025190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9025800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025802000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Baromètres, non combinés à d'autres instruments</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9025804000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9025804000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>électroniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025804010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9025804030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025804050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Capteur électronique à semi-conducteurs permettant de mesurer au moins deux des éléments suivants:-|la pression atmosphérique, la température (également pour la compensation de la température), l'humidité ou les composés organiques volatils, -|dans un boîtier adapté à l'assemblage entièrement automatisé de circuits imprimés ou nu, composé des éléments suivants:-|un ou plusieurs circuits intégrés monolithiques à application spécifique (ASIC)-|un ou plusieurs capteurs microélectromécaniques (MEMS), avec des éléments mécaniques intégrés dans des structures tridimensionnelles sur le matériau semi-conducteur, fabriqués selon la technique des semi-conducteurs,du type destiné à être incorporé aux produits relevant des chapitres 84|à 90|et du chapitre 95</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025804089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9025808000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025808010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025808090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9025900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9025900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9026000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments et appareils pour la mesure ou le contrôle du débit, du niveau, de la pression ou d'autres caractéristiques variables des liquides ou des gaz (débitmètres, indicateurs de niveau, manomètres, compteurs de chaleur, par exemple), à l'exclusion des instruments et appareils des n$o$s|9014, 9015, 9028|ou 9032</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9026100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour la mesure ou le contrôle du débit ou du niveau des liquides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9026102100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>électroniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026102100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Débitmètres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026102900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9026108100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026108100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Débitmètres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026108900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9026200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour la mesure ou le contrôle de la pression</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>électroniques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9026204000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026204000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Manomètres à spire ou à membrane manométrique métallique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9026800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026802000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>électroniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026808000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9026900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9027000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments et appareils pour analyses physiques ou chimiques (polarimètres, réfractomètres, spectromètres, analyseurs de gaz ou de fumées, par exemple); instruments et appareils pour essais de viscosité, de porosité, de dilatation, de tension superficielle ou similaires ou pour mesures calorimétriques, acoustiques ou photométriques (y compris les indicateurs de temps de pose); microtomes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9027100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Analyseurs de gaz ou de fumées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>électroniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chromatographes et appareils d'électrophorèse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Spectromètres, spectrophotomètres et spectrographes utilisant les rayonnements optiques (UV, visibles, IR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils utilisant les rayonnements optiques (UV, visibles, IR)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9027810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Spectromètres de masse</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9027890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027891000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Posemètres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027893000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pH mètres, rH mètres et autres appareils pour mesurer la conductivité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027899000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9027900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Microtomes; parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9028000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Compteurs de gaz, de liquides ou d'électricité, y compris les compteurs pour leur étalonnage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9028100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Compteurs de gaz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9028200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Compteurs de liquides</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9028300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Compteurs d'électricité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9028301100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour courant alternatif</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9028301100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>monophasé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9028301900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>polyphasé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9028309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9028900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9028901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de compteurs d'électricité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9028909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9029000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres compteurs (compteurs de tours, compteurs de production, taximètres, totalisateurs de chemin parcouru, podomètres, par exemple); indicateurs de vitesse et tachymètres, autres que ceux des n$o$s|9014|ou 9015; stroboscopes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9029100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Compteurs de tours ou de production, taximètres, totalisateurs de chemin parcouru, podomètres et compteurs similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Compteurs de tours électriques ou électroniques, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9029200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Indicateurs de vitesse et tachymètres; stroboscopes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9029203100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Indicateurs de vitesse et tachymètres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9029203100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Indicateurs de vitesse pour véhicules terrestres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029203150</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Combiné d'instruments pour tableau de bord, communiquant via les protocoles CAN-BUS et/ou K-LINE, avec:- ou sans moteurs pas à pas,- pointeurs et cadrans analogiques ou numériques,- ou sans carte de commande à microprocesseur,- ou sans indicateurs DEL ou affichage à cristaux liquides,affichant au moins:- la vitesse,- le régime du moteur,- la température du moteur,- le niveau de carburant,destiné à la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029203190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9029203800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029203810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029203890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Stroboscopes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9029900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de compteurs de tours, d'indicateurs de vitesse et de tachymètres, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029900050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Combiné d'instruments pour tableau de bord, communiquant via les protocoles CAN-BUS et/ou K-LINE, avec:- ou sans moteurs pas à pas,- pointeurs et cadrans analogiques ou numériques,- ou sans carte de commande à microprocesseur,- ou sans indicateurs DEL ou affichage à cristaux liquides,affichant au moins:- la vitesse,- le régime du moteur,- la température du moteur,- le niveau de carburant,destiné à la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9029900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9030000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oscilloscopes, analyseurs de spectre et autres instruments et appareils pour la mesure ou le contrôle de grandeurs électriques; instruments et appareils pour la mesure ou la détection des radiations alpha, bêta, gamma, X, cosmiques ou autres radiations ionisantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Instruments et appareils pour la mesure ou la détection des radiations ionisantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oscilloscopes et oscillographes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9030310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils pour la mesure ou le contrôle de la tension, de l'intensité, de la résistance ou de la puissance (autres que ceux pour la mesure ou le contrôle des disques ou des dispositifs à semi-conducteur)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9030310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Multimètres, sans dispositif enregistreur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030310010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030310090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Multimètres, avec dispositif enregistreur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9030330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, sans dispositif enregistreur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9030332000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Instruments pour la mesure de la résistance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030332010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030332090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030337000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, avec dispositif enregistreur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils, spécialement conçus pour les techniques de la télécommunication (hypsomètres, kerdomètres, distorsiomètres, psophomètres, par exemple)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9030820000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la mesure ou le contrôle des disques ou des dispositifs à semi-conducteur (y compris les circuits intégrés)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030840000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, avec dispositif enregistreur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9030900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9031000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments, appareils et machines de mesure ou de contrôle, non dénommés ni compris ailleurs dans le présent chapitre; projecteurs de profils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9031100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Machines à équilibrer les pièces mécaniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9031200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bancs d'essai</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9031410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils optiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9031410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour le contrôle des disques ou des dispositifs à semi-conducteur (y compris les circuits intégrés) ou pour le contrôle des masques photographiques ou des réticules utilisés dans la fabrication de dispositifs à semi-conducteur (y compris les circuits intégrés)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9031490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9031491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Projecteurs de profils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9031499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9031800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments, appareils et machines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9031802000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la mesure ou le contrôle de grandeurs géométriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9031808000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9031900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9032000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments et appareils pour la régulation ou le contrôle automatiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9032100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Thermostats</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9032102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>électroniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032102010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032102090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9032108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032108010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032108090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9032200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Manostats (pressostats)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9032810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres instruments et appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>hydrauliques ou pneumatiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9032890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032890010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032890030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Commande électronique de servodirection électrique (EPS controller)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032890040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Régulateur de vanne numérique assurant la régulation de liquides et de gaz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032890050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Panneau à gaz servant à réguler et mesurer le débit de gaz, fonctionnant avec la technologie plasma, comprenant-|un régulateur de débit massique, adapté pour recevoir et émettre des signaux analogiques et numériques,-|quatre capteurs de pression,-|deux vannes de refoulement ou plus,-|des interfaces électriques et-|plusieurs raccordements pour conduites de gaz-|adapté aux processus de collage plasma in situ ou aux processus d'activation du collage plasma multi-fréquence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032890090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9032900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9032900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9033000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parties et accessoires non dénommés ni compris ailleurs dans le présent chapitre, pour machines, appareils, instruments ou articles du chapitre|90</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9033001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Unités de rétroéclairage à diodes émettrices de lumière (DEL): sources lumineuses constituées d'une ou de plusieurs DEL, d'un ou de plusieurs connecteurs et d'autres composants passifs, montées sur un circuit imprimé ou sur un substrat similaire, associées ou non à un composant optique ou à des diodes de protection et conçues pour le rétroéclairage de dispositifs d'affichage à cristaux liquides (LCD)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9033009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>
