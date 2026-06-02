@@ -11,6 +11,7 @@ import { middleware } from "#start/kernel"
 import router from "@adonisjs/core/services/router"
 
 import registerAdminCategories from "#routes/admin/categories"
+import registerAdminCustomsNomenclatures from "#routes/admin/customs_nomenclatures"
 import registerAdminOrigins from "#routes/admin/origins"
 import registerAdminProducts from "#routes/admin/products"
 import registerAdminTerritories from "#routes/admin/territories"
@@ -38,6 +39,7 @@ router
 router
   .group(() => {
     registerAdminCategories(router)
+    registerAdminCustomsNomenclatures(router)
     registerAdminOrigins(router)
     registerAdminProducts(router)
     registerAdminTerritories(router)

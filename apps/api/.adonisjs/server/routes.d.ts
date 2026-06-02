@@ -18,6 +18,12 @@ export type ScannedRoutes = {
     'categories.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'categories.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'categories.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'customs_nomenclatures.chapters': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.tree': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.search': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.products': { paramsTuple: [ParamValue]; params: {'code': ParamValue} }
+    'customs_nomenclatures.trigger_sync': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.sync_stream': { paramsTuple: [ParamValue]; params: {'runId': ParamValue} }
     'origins.count': { paramsTuple?: []; params?: {} }
     'origins.top': { paramsTuple?: []; params?: {} }
     'origins.index': { paramsTuple?: []; params?: {} }
@@ -62,6 +68,11 @@ export type ScannedRoutes = {
     'categories.with_stats': { paramsTuple?: []; params?: {} }
     'categories.index': { paramsTuple?: []; params?: {} }
     'categories.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'customs_nomenclatures.chapters': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.tree': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.search': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.products': { paramsTuple: [ParamValue]; params: {'code': ParamValue} }
+    'customs_nomenclatures.sync_stream': { paramsTuple: [ParamValue]; params: {'runId': ParamValue} }
     'origins.count': { paramsTuple?: []; params?: {} }
     'origins.top': { paramsTuple?: []; params?: {} }
     'origins.index': { paramsTuple?: []; params?: {} }
@@ -92,6 +103,11 @@ export type ScannedRoutes = {
     'categories.with_stats': { paramsTuple?: []; params?: {} }
     'categories.index': { paramsTuple?: []; params?: {} }
     'categories.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'customs_nomenclatures.chapters': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.tree': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.search': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.products': { paramsTuple: [ParamValue]; params: {'code': ParamValue} }
+    'customs_nomenclatures.sync_stream': { paramsTuple: [ParamValue]; params: {'runId': ParamValue} }
     'origins.count': { paramsTuple?: []; params?: {} }
     'origins.top': { paramsTuple?: []; params?: {} }
     'origins.index': { paramsTuple?: []; params?: {} }
@@ -116,6 +132,7 @@ export type ScannedRoutes = {
     'get_product_taxes': { paramsTuple?: []; params?: {} }
     'calculate_parcel': { paramsTuple?: []; params?: {} }
     'categories.store': { paramsTuple?: []; params?: {} }
+    'customs_nomenclatures.trigger_sync': { paramsTuple?: []; params?: {} }
     'origins.store': { paramsTuple?: []; params?: {} }
     'products.store': { paramsTuple?: []; params?: {} }
     'territories.store': { paramsTuple?: []; params?: {} }
