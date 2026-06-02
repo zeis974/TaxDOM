@@ -1,5 +1,14 @@
 import { styled } from "@/panda/jsx"
 
+export const HintText = styled.span`
+  display: block;
+  font-size: 0.75rem;
+  font-family: token(fonts.nativeFont);
+  color: token(colors.darkGray);
+  margin-top: 4px;
+  line-height: 1.4;
+`
+
 export const LoadingCircle = styled.div`
   position: absolute;
   right: 12px;

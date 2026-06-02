@@ -12,7 +12,7 @@ import { createPortal } from "react-dom"
 
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { OptionsList } from "./OptionsList"
-import { LoadingCircle } from "./Select.styled"
+import { HintText, LoadingCircle } from "./Select.styled"
 
 export interface BaseOption {
   name: string
@@ -30,6 +30,7 @@ export interface BaseSelectProps extends NativeInputProps {
   name?: string
   label: string
   placeholder?: string
+  hint?: string
   options: BaseOption[]
   value: string
   onChange: (value: string) => void
@@ -46,6 +47,7 @@ export default function BaseSelect({
   name,
   label,
   placeholder,
+  hint,
   options = [],
   value = "",
   onChange,
@@ -146,6 +148,8 @@ export default function BaseSelect({
     }
   }
 
+  const hintId = id ? `${id}-hint` : undefined
+
   return (
     <InputContainer>
       <label htmlFor={id || name}>
@@ -175,8 +179,12 @@ export default function BaseSelect({
         value={searchValue}
         disabled={disabled}
         required={required}
+        aria-required={required}
+        aria-invalid={errors.length > 0}
+        aria-describedby={hint && hintId ? hintId : undefined}
       />
       {loading && <LoadingCircle />}
+      {hint && <HintText id={hintId}>{hint}</HintText>}
       {createPortal(
         <AnimatePresence>
           {options.length > 0 && show && (

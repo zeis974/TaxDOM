@@ -30,6 +30,10 @@ export const FormGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+
+  & > *:first-child {
+    grid-column: 1 / -1;
+  }
 `
 
 export const ErrorContainer = styled.div`
@@ -38,4 +42,18 @@ export const ErrorContainer = styled.div`
   font-size: 14px;
   font-family: token(fonts.nativeFont);
   margin-top: 0.75rem;
+`
+
+export const CharCount = styled.span`
+  display: block;
+  text-align: right;
+  font-size: 0.75rem;
+  font-family: token(fonts.nativeFont);
+  color: token(colors.darkGray);
+  margin-top: 4px;
+  transition: color 150ms;
+
+  &[data-warning="true"] {
+    color: token(colors.error);
+  }
 `
