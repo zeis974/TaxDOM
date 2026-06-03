@@ -22,6 +22,7 @@ import {
   HeaderActions,
   HeaderInfo,
   HeaderText,
+  LastSyncLabel,
   PageLayout,
   ProgressBar,
   ProgressFill,
@@ -85,9 +86,30 @@ async function triggerSync(): Promise<{ runId: string }> {
   return res.json()
 }
 
+type LastSync = {
+  finishedAt: string | null
+  status: string
+  rowsImported: number | null
+} | null
+
+async function fetchLastSync(): Promise<LastSync> {
+  const res = await fetch(`${API_BASE}/v1/admin/customs-nomenclatures/sync/last`, {
+    credentials: "include",
+    headers: { Accept: "application/json" },
+  })
+  if (!res.ok) throw new Error("Erreur chargement dernière synchronisation")
+  const json = await res.json()
+  return json.data ?? null
+}
+
+const lastSyncFormatter = new Intl.DateTimeFormat("fr-FR", {
+  dateStyle: "medium",
+  timeStyle: "short",
+})
+
 type SyncProgressState = { chapter: number; total: number }
 
-function useSyncProgress() {
+function useSyncProgress(onDone?: () => void) {
   const [progress, setProgress] = useState<SyncProgressState | null>(null)
 
   const startSSE = (runId: string) => {
@@ -110,6 +132,7 @@ function useSyncProgress() {
       } else {
         toast.error("Synchronisation terminée avec des erreurs")
       }
+      onDone?.()
     })
 
     evtSource.onerror = () => {
@@ -192,13 +215,21 @@ export default function CustomsTree() {
   const [codeSearch, setCodeSearch] = useState("")
   const [drawerNode, setDrawerNode] = useState<NomenclatureNode | null>(null)
   const searchAnchorRef = useRef<HTMLDivElement>(null)
-  const { progress, startSSE } = useSyncProgress()
+  const { progress, startSSE } = useSyncProgress(() =>
+    queryClient.invalidateQueries({ queryKey: ["customs-nomenclatures"] }),
+  )
 
   const { suggestions: codeSuggestions } = useNomenclatureSearch(codeSearch)
 
   const { data: chapters = [], isLoading: chaptersLoading } = useQuery<ChapterSummary[]>({
     queryKey: ["customs-nomenclatures", "chapters"],
     queryFn: fetchChapters,
+    staleTime: 1000 * 60 * 10,
+  })
+
+  const { data: lastSync } = useQuery<LastSync>({
+    queryKey: ["customs-nomenclatures", "last-sync"],
+    queryFn: fetchLastSync,
     staleTime: 1000 * 60 * 10,
   })
 
@@ -383,6 +414,19 @@ export default function CustomsTree() {
               </SyncProgress>
             ) : (
               <>
+                {lastSync?.finishedAt && (
+                  <LastSyncLabel
+                    data-status={lastSync.status}
+                    title={
+                      lastSync.status === "ok"
+                        ? `${lastSync.rowsImported ?? "?"} lignes importées`
+                        : "La dernière synchronisation a échoué"
+                    }
+                  >
+                    {lastSync.status === "ok" ? "Dernière synchro" : "Échec"} ·{" "}
+                    {lastSyncFormatter.format(new Date(lastSync.finishedAt))}
+                  </LastSyncLabel>
+                )}
                 <SearchWrapper ref={searchAnchorRef}>
                   <SearchIcon viewBox="0 0 20 20" fill="none" aria-hidden="true">
                     <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" strokeWidth="1.6" />

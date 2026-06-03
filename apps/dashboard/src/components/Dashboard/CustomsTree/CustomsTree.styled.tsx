@@ -220,6 +220,17 @@ export const SearchWrapper = styled.div`
   align-items: center;
 `
 
+export const LastSyncLabel = styled.span`
+  font-size: 11px;
+  color: rgba(100, 116, 139, 0.85);
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &[data-status="error"] {
+    color: #ef4444;
+  }
+`
+
 export const SearchIcon = styled.svg`
   position: absolute;
   left: 10px;
