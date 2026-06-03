@@ -8,6 +8,7 @@ export default function registerAdminCustomsNomenclaturesRoutes(router: HttpRout
   router.get("/customs-nomenclatures/tree", [CustomsNomenclatures, "tree"])
   router.get("/customs-nomenclatures/search", [CustomsNomenclatures, "search"])
   router.get("/customs-nomenclatures/:code/products", [CustomsNomenclatures, "products"])
+  router.get("/customs-nomenclatures/sync/last", [CustomsNomenclatures, "lastSync"])
   router.post("/customs-nomenclatures/sync", [CustomsNomenclatures, "triggerSync"])
   router.get("/customs-nomenclatures/sync/:runId/stream", [CustomsNomenclatures, "syncStream"])
 }

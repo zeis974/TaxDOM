@@ -1,6 +1,6 @@
 import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
-import { eq } from "drizzle-orm"
+import { desc, eq, isNotNull } from "drizzle-orm"
 import { v7 as uuidv7 } from "uuid"
 import { db } from "#config/database"
 import { ritaSyncRuns } from "#database/schema"
@@ -47,6 +47,23 @@ export default class CustomsNomenclaturesController {
 
     const data = await this.nomenclaturesService.listProductsByPrefix(code)
     return response.ok({ data })
+  }
+
+  async lastSync({ response }: HttpContext) {
+    const run = await db.query.ritaSyncRuns.findFirst({
+      where: isNotNull(ritaSyncRuns.finishedAt),
+      orderBy: [desc(ritaSyncRuns.finishedAt)],
+    })
+
+    return response.ok({
+      data: run
+        ? {
+            finishedAt: run.finishedAt,
+            status: run.status,
+            rowsImported: run.rowsImported,
+          }
+        : null,
+    })
   }
 
   async triggerSync({ response }: HttpContext) {
