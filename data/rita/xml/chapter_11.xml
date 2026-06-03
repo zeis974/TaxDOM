@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 11 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:08</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRODUITS DE LA MINOTERIE; MALT; AMIDONS ET FÉCULES; INULINE; GLUTEN DE FROMENT</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Farines de froment (blé) ou de méteil</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1101001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1101001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de froment (blé) dur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1101001500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de froment (blé) tendre et d'épeautre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1101009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de méteil</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Farines de céréales autres que de froment (blé) ou de méteil</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1102200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Farine de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1102201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en matières grasses inférieure ou égale à 1,5|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1102209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1102900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1102901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'orge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1102903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'avoine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1102905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Farine de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1102907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Farine de seigle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1102909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gruaux, semoules et agglomérés sous forme de pellets, de céréales</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1103110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gruaux et semoules</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1103110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de froment (blé) dur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de froment (blé) tendre et d'épeautre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1103130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en matières grasses inférieure ou égale à 1,5|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103139000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1103190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres céréales</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1103192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de seigle ou d'orge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103192010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'orge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103192090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103194000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'avoine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103195000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1103200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Agglomérés sous forme de pellets</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1103202500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de seigle ou d'orge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103202510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de seigle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103202590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'orge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'avoine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103204000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103205000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103206000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1103209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Grains de céréales autrement travaillés (mondés, aplatis, en flocons, perlés, tranchés ou concassés, par exemple), à l'exception du riz du n$o|1006; germes de céréales, entiers, aplatis, en flocons ou moulus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1104120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Grains aplatis ou en flocons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'avoine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Grains aplatis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Flocons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres céréales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de seigle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104195000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de maïs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1104196100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'orge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104196100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Grains aplatis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104196900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Flocons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1104199100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104199100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Flocons de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104199900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1104220000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres grains travaillés (mondés, perlés, tranchés ou concassés, par exemple)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'avoine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104224000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mondés (décortiqués ou pelés), même tranchés ou concassés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104225000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>perlés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104229500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104234000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mondés (décortiqués ou pelés), même tranchés ou concassés; perlés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104239800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres céréales</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1104290400</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'orge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104290400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>mondés (décortiqués ou pelés), même tranchés ou concassés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104290500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>perlés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104290800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1104291700</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104291700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>mondés (décortiqués ou pelés), même tranchés ou concassés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104291750</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de seigle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104291790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104293000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>perlés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104293050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de seigle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104293090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1104295100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>seulement concassés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104295100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104295500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de seigle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104295900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1104298100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104298100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104298500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de seigle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104298900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1104300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Germes de céréales, entiers, aplatis, en flocons ou moulus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1104309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Farine, semoule, poudre, flocons, granulés et agglomérés sous forme de pellets, de pommes de terre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1105100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Farine, semoule et poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1105200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Flocons, granulés et agglomérés sous forme de pellets</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1106000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Farines, semoules et poudres de légumes à cosse secs du n$o|0713, de sagou ou des racines ou tubercules du n$o|0714|et des produits du chapitre|8</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de légumes à cosse secs du n$o|0713</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1106200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de sagou ou des racines ou tubercules du n$o|0714</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>dénaturées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1106300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des produits du chapitre|8</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de bananes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1106309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106309030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de graines de pastèque (egusi, Citrullus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106309040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de noisettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106309050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de pistaches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106309060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de figues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1106309080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1107000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Malt, même torréfié</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1107100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non torréfié</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1107101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1107101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présenté sous forme de farine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1107101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1107109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1107109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présenté sous forme de farine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1107109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1107200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>torréfié</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1108000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Amidons et fécules; inuline</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1108110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Amidons et fécules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1108110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Amidon de froment (blé)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1108120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Amidon de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1108130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fécule de pommes de terre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1108140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fécule de manioc (cassave)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1108190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres amidons et fécules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1108191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Amidon de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1108199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1108200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Inuline</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1109000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gluten de froment (blé), même à l'état sec</Description>
+</ligne></contenu></table>

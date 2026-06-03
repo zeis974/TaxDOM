@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 71 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:55</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>7100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PERLES FINES OU DE CULTURE, PIERRES GEMMES OU SIMILAIRES, MÉTAUX PRÉCIEUX, PLAQUÉS OU DOUBLÉS DE MÉTAUX PRÉCIEUX ET OUVRAGES EN CES MATIÈRES; BIJOUTERIE DE FANTAISIE; MONNAIES</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7101000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>I. PERLES FINES OU DE CULTURE, PIERRES GEMMES ET SIMILAIRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Perles fines ou de culture, même travaillées ou assorties mais non enfilées, ni montées ni serties; perles fines ou de culture, enfilées temporairement pour la facilité du transport</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7101100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Perles fines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7101210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Perles de culture</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7101210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7101220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>travaillées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Diamants, même travaillés, mais non montés ni sertis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7102100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non triés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7102210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>industriels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7102210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>bruts ou simplement sciés, clivés ou débrutés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7102290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7102310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non industriels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7102310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>bruts ou simplement sciés, clivés ou débrutés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7102390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pierres gemmes (précieuses ou fines) autres que les diamants, même travaillées ou assorties mais non enfilées, ni montées, ni serties; pierres gemmes (précieuses ou fines) autres que les diamants, non assorties, enfilées temporairement pour la facilité du transport</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7103100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>brutes ou simplement sciées ou dégrossies</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7103910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autrement travaillées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7103910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rubis, saphirs et émeraudes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7103990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pierres synthétiques ou reconstituées, même travaillées ou assorties mais non enfilées ni montées ni serties; pierres synthétiques ou reconstituées non assorties, enfilées temporairement pour la facilité du transport</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7104100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Quartz piézo-électrique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7104210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, brutes ou simplement sciées ou dégrossies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7104210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Diamants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7104290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7104910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7104910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Diamants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7104990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Égrisés et poudres de pierres gemmes ou de pierres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7105100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de diamants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7105900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7106000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>II. MÉTAUX PRÉCIEUX, PLAQUÉS OU DOUBLÉS DE MÉTAUX PRÉCIEUX</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7106000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Argent (y compris l'argent doré ou vermeil et l'argent platiné), sous formes brutes ou mi-ouvrées, ou en poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7106100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7106910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7106910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous formes brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7106920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous formes mi-ouvrées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7107000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaqué ou doublé d'argent sur métaux communs, sous formes brutes ou mi-ouvrées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7108000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Or (y compris l'or platiné), sous formes brutes ou mi-ouvrées, ou en poudre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7108110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à usages non monétaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7108110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7108120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous autres formes brutes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7108130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous autres formes mi-ouvrées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7108131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres, fils et profilés, de section pleine; planches; feuilles et bandes dont l'épaisseur, support non compris, excède 0,15|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7108138000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7108200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à usage monétaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7109000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaqué ou doublé d'or sur métaux communs ou sur argent, sous formes brutes ou mi-ouvrées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7110000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Platine, sous formes brutes ou mi-ouvrées, ou en poudre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7110110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Platine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous formes brutes ou en poudre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7110190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres, fils et profilés, de section pleine; planches; feuilles et bandes dont l'épaisseur, support non compris, excède 0,15|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110198000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7110210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Palladium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous formes brutes ou en poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7110310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rhodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous formes brutes ou en poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7110410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Iridium, osmium et ruthénium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous formes brutes ou en poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7110490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7111000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaqué ou doublé de platine sur métaux communs, sur argent ou sur or, sous formes brutes ou mi-ouvrées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7112000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets et débris de métaux précieux ou de plaqué ou doublé de métaux précieux; autres déchets et débris contenant des métaux précieux ou des composés de métaux précieux du type de ceux utilisés principalement pour la récupération des métaux précieux autres que les produits du n° 8549</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7112300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cendres contenant des métaux précieux ou des composés de métaux précieux, à l'exclusion des cendres d'orfèvre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7112910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7112910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'or, même de plaqué ou doublé d'or, à l'exclusion des cendres d'orfèvre contenant d'autres métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7112920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de platine, même de plaqué ou doublé de platine, à l'exclusion des cendres d'orfèvre contenant d'autres métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7112990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7113000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>III. BIJOUTERIE, JOAILLERIE ET AUTRES OUVRAGES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7113000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles de bijouterie ou de joaillerie et leurs parties, en métaux précieux ou en plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7113110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en métaux précieux, même revêtus, plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7113110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en argent, même revêtu, plaqué ou doublé d'autres métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7113190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres métaux précieux, même revêtus, plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7113200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en plaqués ou doublés de métaux précieux sur métaux communs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7114000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles d'orfèvrerie et leurs parties, en métaux précieux ou en plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7114110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en métaux précieux, même revêtus, plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7114110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en argent, même revêtu, plaqué ou doublé d'autres métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7114190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres métaux précieux, même revêtus, plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7114200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en plaqués ou doublés de métaux précieux sur métaux communs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7115000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en métaux précieux ou en plaqués ou doublés de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7115100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Catalyseurs sous forme de toiles ou de treillis en platine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7115900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7116000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages en perles fines ou de culture, en pierres gemmes ou en pierres synthétiques ou reconstituées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7116100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en perles fines ou de culture</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7116200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en pierres gemmes ou en pierres synthétiques ou reconstituées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7116201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colliers, bracelets et autres ouvrages exclusivement en pierres gemmes simplement enfilées, sans dispositif de fermeture ou autres accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7116208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7117000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bijouterie de fantaisie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7117110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en métaux communs, même argentés, dorés ou platinés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7117110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boutons de manchettes et boutons similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7117190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7117190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ne comportant pas des parties en verre, faite à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7117190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7117900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7118000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Monnaies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7118100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Monnaies n'ayant pas cours légal, autres que les pièces d'or</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7118900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

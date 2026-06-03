@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 48 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:37</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>4800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PAPIERS ET CARTONS; OUVRAGES EN PÂTE DE CELLULOSE, EN PAPIER OU EN CARTON</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papier journal, en rouleaux ou en feuilles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers et cartons, non couchés ni enduits, des types utilisés pour l'écriture, l'impression ou d'autres fins graphiques et papiers et cartons pour cartes ou bandes à perforer, non perforés, en rouleaux ou en feuilles de forme carrée ou rectangulaire, de tout format, autres que les papiers des n$o$s|4801|ou 4803; papiers et cartons formés feuille à feuille (papiers et cartons à la main)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons formés feuille à feuille (papiers à la main)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons supports pour papiers ou cartons photosensibles, sensibles à la chaleur ou électrosensibles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers supports pour papiers peints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans fibres obtenues par un procédé mécanique ou dont 10|% au plus en poids de la composition fibreuse totale sont constitués par de telles fibres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4802540000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres papiers et cartons, sans fibres obtenues par un procédé mécanique ou chimico-mécanique ou dont 10|% au plus en poids de la composition fibreuse totale sont constitués par de telles fibres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802540000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré inférieur à 40|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802540010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Papier décor présentant les caractéristiques suivantes:- un poids égal ou supérieur à 30 g par m²; une teneur en cendres comprise entre 5 % et 50 %;- un pouvoir absorbant déterminé selon la méthode de Klemm d'au moins 12 millimètres par 10 minutes ou un taux d'absorption de la résine compris entre 20 % et 200 %;- une résistance à la traction à l'état humide comprise entre 6 et 12 Newton (N) par 15 millimètres;- une porosité déterminée selon la méthode de Gurley comprise entre 3 et 80 secondes par 100 millilitres;- un lissé déterminé selon la méthode de Bekk compris entre 20 et 300;- en rouleaux d'une largeur maximale de 300 centimètres;- préimprégnés ou non au moyen d'une combinaison de latex ou de liants naturels (tel que l'amidon);- à l'exclusion du papier peint et des revêtements muraux similaires;- à l'exclusion des papiers saturés de solutions aqueuses à base de résine mélamine, de résine uréique, de résine phénolique ou de toute autre résine thermodurcissable ou thermoplastique.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802540090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802550000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré de 40|g ou plus mais n'excédant pas 150|g, en rouleaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802551500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids au mètre carré de 40|g ou plus mais inférieur à 60|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802551510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Papier décor présentant les caractéristiques suivantes:- une teneur en cendres comprise entre 5 % et 50 %;- un pouvoir absorbant déterminé selon la méthode de Klemm d'au moins 12 millimètres par 10 minutes ou un taux d'absorption de la résine compris entre 20 % et 200 %;- une résistance à la traction à l'état humide comprise entre 6 et 12 Newton (N) par 15 millimètres;- une porosité déterminée selon la méthode de Gurley comprise entre 3 et 80 secondes par 100 millilitres;- un lissé déterminé selon la méthode de Bekk compris entre 20 et 300;- en rouleaux d'une largeur maximale de 300 centimètres;- préimprégnés ou non au moyen d'une combinaison de latex ou de liants naturels (tel que l'amidon);- à l'exclusion du papier peint et des revêtements muraux similaires;- à l'exclusion des papiers saturés de solutions aqueuses à base de résine mélamine, de résine uréique, de résine phénolique ou de toute autre résine thermodurcissable ou thermoplastique.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802551590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802552500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids au mètre carré de 60|g ou plus mais inférieur à 75|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802552510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Papier décor présentant les caractéristiques suivantes:- une teneur en cendres comprise entre 5 % et 50 %;- un pouvoir absorbant déterminé selon la méthode de Klemm d'au moins 12 millimètres par 10 minutes ou un taux d'absorption de la résine compris entre 20 % et 200 %;- une résistance à la traction à l'état humide comprise entre 6 et 12 Newton (N) par 15 millimètres;- une porosité déterminée selon la méthode de Gurley comprise entre 3 et 80 secondes par 100 millilitres;- un lissé déterminé selon la méthode de Bekk compris entre 20 et 300;- en rouleaux d'une largeur maximale de 300 centimètres;- préimprégnés ou non au moyen d'une combinaison de latex ou de liants naturels (tel que l'amidon);- à l'exclusion du papier peint et des revêtements muraux similaires;- à l'exclusion des papiers saturés de solutions aqueuses à base de résine mélamine, de résine uréique, de résine phénolique ou de toute autre résine thermodurcissable ou thermoplastique.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802552590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802553000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids au mètre carré de 75|g ou plus mais inférieur à 80|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802553010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Papier décor présentant les caractéristiques suivantes:- une teneur en cendres comprise entre 5 % et 50 %;- un pouvoir absorbant déterminé selon la méthode de Klemm d'au moins 12 millimètres par 10 minutes ou un taux d'absorption de la résine compris entre 20 % et 200 %;- une résistance à la traction à l'état humide comprise entre 6 et 12 Newton (N) par 15 millimètres;- une porosité déterminée selon la méthode de Gurley comprise entre 3 et 80 secondes par 100 millilitres;- un lissé déterminé selon la méthode de Bekk compris entre 20 et 300;- en rouleaux d'une largeur maximale de 300 centimètres;- préimprégnés ou non au moyen d'une combinaison de latex ou de liants naturels (tel que l'amidon);- à l'exclusion du papier peint et des revêtements muraux similaires;- à l'exclusion des papiers saturés de solutions aqueuses à base de résine mélamine, de résine uréique, de résine phénolique ou de toute autre résine thermodurcissable ou thermoplastique.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802553090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802559000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids au mètre carré de 80|g ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802559010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Papier décor présentant les caractéristiques suivantes:- une teneur en cendres comprise entre 5 % et 50 %;- un pouvoir absorbant déterminé selon la méthode de Klemm d'au moins 12 millimètres par 10 minutes ou un taux d'absorption de la résine compris entre 20 % et 200 %;- une résistance à la traction à l'état humide comprise entre 6 et 12 Newton (N) par 15 millimètres;- une porosité déterminée selon la méthode de Gurley comprise entre 3 et 80 secondes par 100 millilitres;- un lissé déterminé selon la méthode de Bekk compris entre 20 et 300;- en rouleaux d'une largeur maximale de 300 centimètres;- préimprégnés ou non au moyen d'une combinaison de latex ou de liants naturels (tel que l'amidon);- à l'exclusion du papier peint et des revêtements muraux similaires;- à l'exclusion des papiers saturés de solutions aqueuses à base de résine mélamine, de résine uréique, de résine phénolique ou de toute autre résine thermodurcissable ou thermoplastique.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802559090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802560000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré de 40|g ou plus mais n'excédant pas 150|g, en feuilles dont un côté n'excède pas 435|mm et l'autre n'excède pas 297|mm à l'état non plié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802562000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont un côté mesure 297|mm et l'autre mesure 210|mm (format|A4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802568000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802570000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, d'un poids au mètre carré de 40|g ou plus mais n'excédant pas 150|g</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802580000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré excédant 150|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802581000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en rouleaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802589000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4802610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres papiers et cartons, dont plus de 10|% en poids de la composition fibreuse totale sont constitués par des fibres obtenues par un procédé mécanique ou chimico-mécanique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4802610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en rouleaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802611500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids au mètre carré inférieur à 72|g et dont plus de 50|% en poids de la composition fibreuse totale sont constitués par des fibres obtenues par un procédé mécanique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802618000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en feuilles dont un côté n'excède pas 435|mm et l'autre n'excède pas 297|mm à l'état non plié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4802690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4803000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers des types utilisés pour papiers de toilette, pour serviettes à démaquiller, pour essuie-mains, pour serviettes ou pour papiers similaires à usages domestiques, d'hygiène ou de toilette, ouate de cellulose et nappes de fibres de cellulose, même crêpés, plissés, gaufrés, estampés, perforés, coloriés en surface, décorés en surface ou imprimés, en rouleaux ou en feuilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4803001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ouate de cellulose</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4803003100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papier crêpe et nappes de fibres de cellulose dites "tissue", d'un poids, par pli, au mètre carré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4803003100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>n'excédant pas 25|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4803003900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 25|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4803009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers et cartons kraft, non couchés ni enduits, en rouleaux ou en feuilles, autres que ceux des n$o$s|4802|ou 4803</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons pour couverture, dits kraftliner</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804111100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la composition fibreuse totale est constituée par 80|% au moins en poids par des fibres de conifères obtenues par le procédé chimique au sulfate ou à la soude</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804111100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids au mètre carré inférieur à 150|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804111500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids au mètre carré compris entre 150|g inclus et 175|g exclus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804111900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids au mètre carré égal ou supérieur à 175|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804191200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la composition fibreuse totale est constituée par 80|% au moins en poids par des fibres de conifères obtenues par le procédé chimique au sulfate ou à la soude</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804191200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>composés d'une ou plusieurs couches écrues et d'une couche extérieure blanchie, mi-blanchie ou colorée dans la masse, d'un poids au mètre carré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804191200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>inférieur à 175|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804191900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>égal ou supérieur à 175|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers kraft pour sacs de grande contenance</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la composition fibreuse totale est constituée par 80|% au moins en poids par des fibres de conifères obtenues par le procédé chimique au sulfate ou à la soude</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la composition fibreuse totale est constituée par 80|% au moins en poids par des fibres de conifères obtenues par le procédé chimique au sulfate ou à la soude</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres papiers et cartons kraft d'un poids au mètre carré n'excédant pas 150|g</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804315100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la composition fibreuse totale est constituée par 80|% au moins en poids par des fibres de conifères obtenues par le procédé chimique au sulfate ou à la soude</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804315100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>servant d'isolant pour des usages électrotechniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804315800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804318000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804395100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la composition fibreuse totale est constituée par 80|% au moins en poids par des fibres de conifères obtenues par le procédé chimique au sulfate ou à la soude</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804395100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>blanchis uniformément dans la masse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804395800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804398000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres papiers et cartons kraft d'un poids au mètre carré compris entre 150|g exclus et 225|g exclus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804419100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Papiers et cartons, dits saturating kraft</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804419800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>blanchis uniformément dans la masse et dont plus de 95|% en poids de la composition fibreuse totale sont constitués par des fibres de bois obtenues par un procédé chimique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4804510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres papiers et cartons kraft d'un poids au mètre carré égal ou supérieur à 225|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>blanchis uniformément dans la masse et dont plus de 95|% en poids de la composition fibreuse totale sont constitués par des fibres de bois obtenues par un procédé chimique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4804590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804591000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la composition fibreuse totale est constituée par 80|% au moins en poids par des fibres de conifères obtenues par le procédé chimique au sulfate ou à la soude</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4804599000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4805000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres papiers et cartons, non couchés ni enduits, en rouleaux ou en feuilles, n'ayant pas subi d'ouvraison complémentaire ou de traitements autres que ceux stipulés dans la note|3|du présent chapitre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4805110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papier pour cannelure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papier mi-chimique pour cannelure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papier paille pour cannelure</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4805190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Wellenstoff</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4805240000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Testliner (fibres récupérées)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré n'excédant pas 150|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré excédant 150|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papier sulfite d'emballage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papier et carton filtre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papier et carton feutre, papier et carton laineux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4805910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4805910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré n'excédant pas 150|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Papier décor présentant les caractéristiques suivantes:- un poids compris entre 30 et 150 g par m²; une teneur en cendres comprise entre 5 % et 50 %;- un pouvoir absorbant déterminé selon la méthode de Klemm d'au moins 12 millimètres par 10 minutes ou un taux d'absorption de la résine compris entre 20 % et 200 %;- une résistance à la traction à l'état humide comprise entre 6 et 12 Newton (N) par 15 millimètres;- une porosité déterminée selon la méthode de Gurley comprise entre 3 et 80 secondes par 100 millilitres;- un lissé déterminé selon la méthode de Bekk compris entre 20 et 300;- en rouleaux d'une largeur maximale de 300 centimètres;- préimprégnés ou non au moyen d'une combinaison de latex ou de liants naturels (tel que l'amidon);- à l'exclusion du papier peint et des revêtements muraux similaires;- à l'exclusion des papiers saturés de solutions aqueuses à base de résine mélamine, de résine uréique, de résine phénolique ou de toute autre résine thermodurcissable ou thermoplastique.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré excédant 150|g, mais inférieur à 225|g</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4805930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au mètre carré égal ou supérieur à 225|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805932000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de papiers recyclés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4805938000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers et cartons sulfurisés, papiers ingraissables, papiers-calques et papier dit "cristal" et autres papiers calandrés transparents ou translucides, en rouleaux ou en feuilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4806100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons sulfurisés (parchemin végétal)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4806200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers ingraissables (greaseproof)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4806300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers-calques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4806400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papier dit "cristal" et autres papiers calandrés transparents ou translucides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4806401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papier dit "cristal"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4806409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4807000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers et cartons assemblés à plat par collage, non couchés ni enduits à la surface ni imprégnés, même renforcés intérieurement, en rouleaux ou en feuilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4807003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à base de papiers recyclés, même recouverts de papier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4807008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4808000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers et cartons ondulés (même avec recouvrement par collage), crêpés, plissés, gaufrés, estampés ou perforés, en rouleaux ou en feuilles, autres que les papiers des types décrits dans le libellé du n$o|4803</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4808100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons ondulés, même perforés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4808400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers Kraft, crêpés ou plissés, même gaufrés, estampés ou perforés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4808900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4809000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers carbone, papiers dits "autocopiants" et autres papiers pour duplication ou reports (y compris les papiers couchés, enduits ou imprégnés pour stencils ou pour plaques offset), même imprimés, en rouleaux ou en feuilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4809200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers dits "autocopiants"</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4809900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4809900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papiers thermosensibles légers d'un poids au mètre carré n'excédant pas 65 g; présentés en rouleaux d'une largeur de 20 cm ou plus, d'un poids (papier compris) de 50 kg ou plus et d'un diamètre (papier compris) de 40 cm ou plus («rouleaux jumbo»), avec ou sans couche de base sur une face ou sur les deux; enduits d'une substance thermosensible sur une face ou sur les deux; et avec ou sans couche de protection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4809900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papier thermosensible lourd de plus de 65 g/m²; présenté en rouleaux d'une largeur égale ou supérieure à 20 cm, d'un poids égal ou supérieur à 50 kg (papier compris) et d'un diamètre égal ou supérieur à 40 cm (rouleaux jumbo), avec ou sans couche de base sur une face ou sur les deux; enduits d'une substance thermosensible sur une face ou sur les deux; et avec ou sans couche de protection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4809900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers et cartons couchés au kaolin ou à d'autres substances inorganiques sur une ou sur les deux faces, avec ou sans liants, à l'exclusion de tout autre couchage ou enduction, même coloriés en surface, décorés en surface ou imprimés, en rouleaux ou en feuilles de forme carrée ou rectangulaire, de tout format</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4810130000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons des types utilisés pour l'écriture, l'impression ou d'autres fins graphiques, sans fibres obtenues par un procédé mécanique ou chimico-mécanique ou dont 10|% au plus en poids de la composition fibreuse totale sont constitués par de telles fibres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en rouleaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810130020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids supérieur ou égal à 70 g/m² mais pas plus de 400 g/m² et d'un degré de blancheur supérieur à 84 (mesuré selon la norme ISO 2470-1), à l'exception du papier et carton multicouche, du papier et carton kraft et des rouleaux pour presses à bobines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810130080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en feuilles dont un des côtés n'excède pas 435|mm et dont l'autre côté n'excède pas 297|mm à l'état non plié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810140020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids supérieur ou égal à 70|g/m² mais pas plus de 400|g/m² et d'un degré de blancheur supérieur à 84 (mesuré selon la norme ISO 2470-1), à l'exception du papier et carton multicouche, du papier et carton kraft</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810140080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810190020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids supérieur ou égal à 70|g/m² mais pas plus de 400|g/m² et d'un degré de blancheur supérieur à 84 (mesuré selon la norme ISO 2470-1), à l'exception du papier et carton multicouche, du papier et carton kraft</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810190080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4810220000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons des types utilisés pour l'écriture, l'impression ou d'autres fins graphiques, dont plus de 10|% en poids de la composition fibreuse totale sont constitués par des fibres obtenues par un procédé mécanique ou chimico-mécanique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papier couché léger, dit LWC</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810220020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids supérieur ou égal à 70 g/m² mais pas plus de 400 g/m² et d'un degré de blancheur supérieur à 84 (mesuré selon la norme ISO 2470-1), à l'exception du papier et carton multicouche, du papier et carton kraft et des rouleaux pour presses à bobines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810220080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810293000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en rouleaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810293020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids supérieur ou égal à 70 g/m² mais pas plus de 400 g/m² et d'un degré de blancheur supérieur à 84 (mesuré selon la norme ISO 2470-1), à l'exception du papier et carton multicouche, du papier et carton kraft et des rouleaux pour presses à bobines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810293080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810298020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids supérieur ou égal à 70|g/m² mais pas plus de 400|g/m² et d'un degré de blancheur supérieur à 84 (mesuré selon la norme ISO 2470-1),  à l'exception du papier et carton multicouche, du papier et carton kraft</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810298080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4810310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons kraft autres que ceux des types utilisés pour l'écriture, l'impression ou d'autres fins graphiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>blanchis uniformément dans la masse et dont plus de 95|% en poids de la composition fibreuse totale sont constitués par des fibres de bois obtenues par un procédé chimique, d'un poids au mètre carré n'excédant pas 150|g</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>blanchis uniformément dans la masse et dont plus de 95|% en poids de la composition fibreuse totale sont constitués par des fibres de bois obtenues par un procédé chimique, d'un poids au mètre carré excédant 150|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>couchés ou enduits de kaolin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4810920000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres papiers et cartons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>multicouches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont chaque couche est blanchie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810923000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont une seule couche extérieure est blanchie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de pâte blanchie, couchés ou enduits de kaolin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810991020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids supérieur ou égal à 70|g/m² mais pas plus de 400|g/m² et d'un degré de blancheur supérieur à 84 (mesuré selon la norme ISO 2470-1), à l'exception des rouleaux pour presses à bobines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810991080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4810998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810998020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un poids supérieur ou égal à 70|g/m² mais pas plus de 400|g/m² et d'un degré de blancheur supérieur à 84 (mesuré selon la norme ISO 2470-1), à l'exception des rouleaux pour presses à bobines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4810998080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4811000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers, cartons, ouate de cellulose et nappes de fibres de cellulose, couchés, enduits, imprégnés, recouverts, coloriés en surface, décorés en surface ou imprimés, en rouleaux ou en feuilles de forme carrée ou rectangulaire, de tout format, autres que les produits des types décrits dans les libellés des n$o$s|4803, 4809|ou 4810</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons goudronnés, bitumés ou asphaltés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4811410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons gommés ou adhésifs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4811410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>auto-adhésifs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811412000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une largeur n'excédant pas 10|cm, dont l'enduit consiste en caoutchouc, naturel ou synthétique, non vulcanisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4811510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons enduits, imprégnés ou recouverts de matière plastique (à l'exclusion des adhésifs)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>blanchis, d'un poids au mètre carré excédant 150|g</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4811590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811590020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Papier thermosensible lourd de plus de 65 g/m²; présenté en rouleaux d'une largeur égale ou supérieure à 20 cm, d'un poids égal ou supérieur à 50 kg (papier compris) et d'un diamètre égal ou supérieur à 40 cm (rouleaux jumbo), avec ou sans couche de base sur une face ou sur les deux; enduits d'une substance thermosensible sur une face ou sur les deux; et avec ou sans couche de protection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811590090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4811600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers et cartons enduits, imprégnés ou recouverts de cire, de paraffine, de stéarine, d'huile ou de glycérol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811600010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papier décor présentant les caractéristiques suivantes:- un poids compris entre 30 et 150 g par m²; une teneur en cendres comprise entre 5 % et 50 %;- un pouvoir absorbant déterminé selon la méthode de Klemm d'au moins 12 millimètres par 10 minutes ou un taux d'absorption de la résine compris entre 20 % et 200 %;- une résistance à la traction à l'état humide comprise entre 6 et 12 Newton (N) par 15 millimètres;- une porosité déterminée selon la méthode de Gurley comprise entre 3 et 80 secondes par 100 millilitres;- un lissé déterminé selon la méthode de Bekk compris entre 20 et 300;- en rouleaux d'une largeur maximale de 300 centimètres;- préimprégnés ou non au moyen d'une combinaison de latex ou de liants naturels (tel que l'amidon);- à l'exclusion du papier peint et des revêtements muraux similaires;- à l'exclusion des papiers saturés de solutions aqueuses à base de résine mélamine, de résine uréique, de résine phénolique ou de toute autre résine thermodurcissable ou thermoplastique.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811600090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4811900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres papiers, cartons, ouate de cellulose et nappes de fibres de cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papiers thermosensibles légers d'un poids au mètre carré n'excédant pas 65 g; présentés en rouleaux d'une largeur de 20 cm ou plus, d'un poids (papier compris) de 50 kg ou plus et d'un diamètre (papier compris) de 40 cm ou plus («rouleaux jumbo»), avec ou sans couche de base sur une face ou sur les deux; enduits d'une substance thermosensible sur une face ou sur les deux; et avec ou sans couche de protection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papier thermosensible lourd de plus de 65 g/m²; présenté en rouleaux d'une largeur égale ou supérieure à 20 cm, d'un poids égal ou supérieur à 50 kg (papier compris) et d'un diamètre égal ou supérieur à 40 cm (rouleaux jumbo), avec ou sans couche de base sur une face ou sur les deux; enduits d'une substance thermosensible sur une face ou sur les deux; et avec ou sans couche de protection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4811900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4812000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Blocs filtrants et plaques filtrantes, en pâte à papier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4813000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papier à cigarettes, même découpé à format ou en cahiers ou en tubes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4813100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en cahiers ou en tubes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4813200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en rouleaux d'une largeur n'excédant pas 5|cm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4813900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4813901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en rouleaux d'une largeur excédant 5|cm mais n'excédant pas 15|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4813909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4814000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers peints et revêtements muraux similaires; vitrauphanies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4814200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers peints et revêtements muraux similaires, constitués par du papier enduit ou recouvert, sur l'endroit, d'une couche de matière plastique grainée, gaufrée, coloriée, imprimée de motifs ou autrement décorée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4814900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4814901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papiers peints et revêtements muraux similaires, constitués de papier grainé, gaufré, colorié en surface, imprimé de motifs ou autrement décoré en surface, enduits ou recouverts de matière plastique protectrice transparente</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4814907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4816000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers carbone, papiers dits "autocopiants" et autres papiers pour duplication ou reports (autres que ceux du n$o|4809), stencils complets et plaques offset, en papier, même conditionnés en boîtes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4816200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers dits "autocopiants"</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4816900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4816900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papiers thermosensibles légers d'un poids au mètre carré n'excédant pas 65 g; présentés en rouleaux d'une largeur de 20 cm ou plus, d'un poids (papier compris) de 50 kg ou plus et d'un diamètre (papier compris) de 40 cm ou plus («rouleaux jumbo»), avec ou sans couche de base sur une face ou sur les deux; enduits d'une substance thermosensible sur une face ou sur les deux; et avec ou sans couche de protection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4816900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4817000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Enveloppes, cartes-lettres, cartes postales non illustrées et cartes pour correspondance, en papier ou carton; boîtes, pochettes et présentations similaires, en papier ou carton, renfermant un assortiment d'articles de correspondance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4817100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Enveloppes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4817200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cartes-lettres, cartes postales non illustrées et cartes pour correspondance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4817300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boîtes, pochettes et présentations similaires, en papier ou carton, renfermant un assortiment d'articles de correspondance</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4818000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers des types utilisés pour papiers de toilette et pour papiers similaires, ouate de cellulose ou nappes de fibres de cellulose, des types utilisés à des fins domestiques ou sanitaires, en rouleaux d'une largeur n'excédant pas 36|cm, ou coupés à format; mouchoirs, serviettes à démaquiller, essuie-mains, nappes, serviettes de table, draps de lit et articles similaires à usages domestiques, de toilette, hygiéniques ou hospitaliers, vêtements et accessoires du vêtement, en pâte à papier, papier, ouate de cellulose ou nappes de fibres de cellulose</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4818100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papier hygiénique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids, par pli, au mètre carré n'excédant pas 25|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids, par pli, au mètre carré excédant 25|g</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4818200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mouchoirs, serviettes à démaquiller et essuie-mains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mouchoirs et serviettes à démaquiller</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4818209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Essuie-mains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en rouleaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Nappes et serviettes de table</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vêtements et accessoires du vêtement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4818900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Articles à usage chirurgical, médical ou hygiénique, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4818909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4819000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Boîtes, sacs, pochettes, cornets et autres emballages en papier, carton, ouate de cellulose ou nappes de fibres de cellulose; cartonnages de bureau, de magasin ou similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4819100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boîtes et caisses en papier ou carton ondulé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4819200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boîtes et cartonnages, pliants, en papier ou carton non ondulé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4819300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sacs d'une largeur à la base de 40|cm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4819400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres sacs; sachets, pochettes (autres que celles pour disques) et cornets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4819500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres emballages, y compris les pochettes pour disques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4819600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cartonnages de bureau, de magasin ou similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4820000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Registres, livres comptables, carnets (de notes, de commandes, de quittances), agendas, blocs-mémorandums, blocs de papier à lettres et ouvrages similaires, cahiers, sous-main, classeurs, reliures (à feuillets mobiles ou autres), chemises et couvertures à dossiers et autres articles scolaires, de bureau ou de papeterie, y compris les liasses et carnets manifold, même comportant des feuilles de papier carbone, en papier ou carton; albums pour échantillonnages ou pour collections et couvertures pour livres, en papier ou carton</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4820100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Registres, livres comptables, carnets (de notes, de commandes, de quittances), blocs-mémorandums, blocs de papier à lettres, agendas et ouvrages similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Registres, livres comptables et carnets de commandes ou de quittances</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carnets de notes, blocs de papier à lettres et blocs-mémorandums</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Agendas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cahiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Classeurs, reliures (autres que les couvertures pour livres), chemises et couvertures à dossiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Liasses et carnets manifold, même comportant des feuilles de papier carbone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Albums pour échantillonnages ou pour collections</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4820900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4821000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Étiquettes de tous genres, en papier ou carton, imprimées ou non</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4821100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>imprimées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4821101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autoadhésives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4821109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4821900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4821901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autoadhésives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4821909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4822000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tambours, bobines, fusettes, canettes et supports similaires, en pâte à papier, papier ou carton, même perforés ou durcis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4822100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour l'enroulement des fils textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4822900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4823000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres papiers, cartons, ouate de cellulose et nappes de fibres de cellulose découpés à format; autres ouvrages en pâte à papier, papier, carton, ouate de cellulose ou nappes de fibres de cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papier et carton-filtre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papiers à diagrammes pour appareils enregistreurs, en bobines, en feuilles ou en disques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4823610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plateaux, plats, assiettes, tasses, gobelets et articles similaires, en papier ou carton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4823690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823691000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plateaux, plats et assiettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823699000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4823700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles moulés ou pressés en pâte à papier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823701000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Emballages alvéolaires pour oeufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823709000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4823900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papiers et cartons des types utilisés pour l'écriture, l'impression ou d'autres fins graphiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4823908500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823908520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Papiers thermosensibles légers d'un poids au mètre carré n'excédant pas 65 g; présentés en rouleaux d'une largeur de 20 cm ou plus, d'un poids (papier compris) de 50 kg ou plus et d'un diamètre (papier compris) de 40 cm ou plus («rouleaux jumbo»), avec ou sans couche de base sur une face ou sur les deux; enduits d'une substance thermosensible sur une face ou sur les deux; et avec ou sans couche de protection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4823908580</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -65,6 +65,10 @@ function mapProduct(row: ProductQueryResult): Product {
       om: toDecimalNumber(row.category.tax.om),
       omr: toDecimalNumber(row.category.tax.omr),
     },
+    nomenclatureCode: row.nomenclatureCode ?? null,
+    tvaOverride: row.tvaOverride != null ? toDecimalNumber(row.tvaOverride) : null,
+    omOverride: row.omOverride != null ? toDecimalNumber(row.omOverride) : null,
+    omrOverride: row.omrOverride != null ? toDecimalNumber(row.omrOverride) : null,
     createdAt: row.createdAt ?? new Date(),
     updatedAt: row.updatedAt ?? new Date(),
   }
@@ -75,6 +79,10 @@ export type CreateProductInput = {
   categoryID: string
   originID: string
   territoryID: string
+  nomenclatureCode?: string | null
+  tvaOverride?: number | null
+  omOverride?: number | null
+  omrOverride?: number | null
 }
 
 export type UpdateProductInput = CreateProductInput
@@ -114,6 +122,7 @@ export type TaxResult = {
 type ValidatedRelations = {
   categoryID: string
   categoryName: string
+  categoryNomenclatureCode: string | null
   originID: string
   originName: string
   isEU: boolean
@@ -121,13 +130,25 @@ type ValidatedRelations = {
   territoryName: string
 }
 
+function validateNomenclatureHierarchy(
+  productCode: string,
+  categoryCode: string | null | undefined,
+): void {
+  if (!categoryCode) return
+  if (!productCode.startsWith(categoryCode)) {
+    throw new BadRequestError(
+      `Le code SH produit "${productCode}" doit commencer par le préfixe de la catégorie "${categoryCode}"`,
+    )
+  }
+}
+
 function validateProductName(name: string): string {
   const trimmed = name.trim()
   if (trimmed.length === 0) {
-    throw new BadRequestError("Le nom du produit ne peut pas être vide")
+    throw new BadRequestError("Product name cannot be empty")
   }
   if (trimmed.length > 255) {
-    throw new BadRequestError("Le nom du produit ne peut pas dépasser 255 caractères")
+    throw new BadRequestError("Product name cannot exceed 255 characters")
   }
   return trimmed
 }
@@ -246,7 +267,7 @@ export class ProductService {
     })
 
     if (!productData) {
-      throw new NotFoundError("Produit non trouvé")
+      throw new NotFoundError("Product not found")
     }
 
     return mapProduct(productData)
@@ -268,10 +289,15 @@ export class ProductService {
         where: eq(products.productName, trimmedName),
       })
       if (existingProduct) {
-        throw new ConflictError("Un produit avec ce nom existe déjà")
+        throw new ConflictError("A product with this name already exists")
       }
 
       const validated = await this.validateRelations(tx, categoryID, originID, territoryID)
+
+      if (input.nomenclatureCode) {
+        validateNomenclatureHierarchy(input.nomenclatureCode, validated.categoryNomenclatureCode)
+      }
+
       const productID = uuidv7()
 
       await tx.insert(products).values({
@@ -280,6 +306,10 @@ export class ProductService {
         categoryID: validated.categoryID,
         originID: validated.originID,
         territoryID: validated.territoryID,
+        nomenclatureCode: input.nomenclatureCode ?? null,
+        tvaOverride: input.tvaOverride != null ? String(input.tvaOverride) : null,
+        omOverride: input.omOverride != null ? String(input.omOverride) : null,
+        omrOverride: input.omrOverride != null ? String(input.omrOverride) : null,
       })
 
       const created = await tx.query.products.findFirst({
@@ -288,7 +318,7 @@ export class ProductService {
       })
 
       if (!created) {
-        throw new NotFoundError("Produit non trouvé après création")
+        throw new NotFoundError("Product not found after creation")
       }
 
       return created
@@ -323,17 +353,21 @@ export class ProductService {
         where: eq(products.productID, productId),
       })
       if (!existingProduct) {
-        throw new NotFoundError("Produit non trouvé")
+        throw new NotFoundError("Product not found")
       }
 
       const duplicateProduct = await tx.query.products.findFirst({
         where: eq(products.productName, trimmedName),
       })
       if (duplicateProduct && duplicateProduct.productID !== productId) {
-        throw new ConflictError("Un produit avec ce nom existe déjà")
+        throw new ConflictError("A product with this name already exists")
       }
 
       const validated = await this.validateRelations(tx, categoryID, originID, territoryID)
+
+      if (input.nomenclatureCode) {
+        validateNomenclatureHierarchy(input.nomenclatureCode, validated.categoryNomenclatureCode)
+      }
 
       await tx
         .update(products)
@@ -342,6 +376,10 @@ export class ProductService {
           categoryID: validated.categoryID,
           originID: validated.originID,
           territoryID: validated.territoryID,
+          nomenclatureCode: input.nomenclatureCode ?? null,
+          tvaOverride: input.tvaOverride != null ? String(input.tvaOverride) : null,
+          omOverride: input.omOverride != null ? String(input.omOverride) : null,
+          omrOverride: input.omrOverride != null ? String(input.omrOverride) : null,
           updatedAt: new Date(),
         })
         .where(eq(products.productID, productId))
@@ -352,7 +390,7 @@ export class ProductService {
       })
 
       if (!updated) {
-        throw new NotFoundError("Produit non trouvé après mise à jour")
+        throw new NotFoundError("Product not found after update")
       }
 
       return updated
@@ -382,7 +420,7 @@ export class ProductService {
       })
 
       if (!existingProduct) {
-        throw new NotFoundError("Produit non trouvé")
+        throw new NotFoundError("Product not found")
       }
 
       const relatedTemplates = await tx
@@ -393,7 +431,7 @@ export class ProductService {
       const templateCount = relatedTemplates[0]?.count ?? 0
       if (templateCount > 0) {
         throw new BadRequestError(
-          `Impossible de supprimer ce produit car il est lié à ${templateCount} template(s). Veuillez d'abord retirer ce produit des templates.`,
+          `Cannot delete this product because it is linked to ${templateCount} template(s). Please remove this product from the templates first.`,
         )
       }
 
@@ -425,7 +463,7 @@ export class ProductService {
     })
 
     if (!existingCategory) {
-      throw new BadRequestError("La catégorie spécifiée n'existe pas")
+      throw new BadRequestError("The specified category does not exist")
     }
 
     const [existingOrigin, existingTerritory] = await Promise.all([
@@ -434,15 +472,16 @@ export class ProductService {
     ])
 
     if (!existingOrigin) {
-      throw new BadRequestError("L'origine spécifiée n'existe pas")
+      throw new BadRequestError("The specified origin does not exist")
     }
     if (!existingTerritory) {
-      throw new BadRequestError("Le territoire spécifié n'existe pas")
+      throw new BadRequestError("The specified territory does not exist")
     }
 
     return {
       categoryID: existingCategory.categoryID,
       categoryName: existingCategory.categoryName,
+      categoryNomenclatureCode: existingCategory.nomenclatureCode ?? null,
       originID: existingOrigin.originID,
       originName: existingOrigin.originName,
       isEU: existingOrigin.isEU,

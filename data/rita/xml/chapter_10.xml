@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 10 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:07</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1000000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>CÉRÉALES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1001000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Froment (blé) et méteil</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1001110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Froment (blé) dur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1001190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1001190012</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Froment (blé) dur de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001190012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Blé dur avec- un poids spécifique en kg/hl supérieur ou égal à 80,- d'un maximum de 20,0 % grains mitadinés,- d'un maximum de 10,0 % d 'éléments qui ne sont pas de grains de blé de qualité irréprochable, dont un maximum de 7,0 % de grains brisés et/ou échaudés, d'un maximum de 2,0 % de grains attaqués par les prédateurs, d'un maximum de 5,0 % de grains fusariés et/ou mouchetés, d'un maximum de 0,5 % de grains germés,- d'un maximum de 1,0 % d'impuretés diverses (Schwarzbesatz),- un temps de chute (Hagberg) d'un minimum de 250</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001190018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001190020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Froment (blé) dur de qualité moyenne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001190030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Froment (blé) dur de qualité basse</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1001910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1001910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Epeautre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1001912000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Froment (blé) tendre et méteil</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001912010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Méteil</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001912020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Froment (blé) tendre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1001990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1001990013</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Froment (blé) tendre de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001990013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>avec- un poids spécifique en kg/hl supérieur ou égal à 78,- d'un maximum de 10,0|% d'éléments qui ne sont pas de grains de blé de qualité irréprochable, dont un maximum de 7,0|% de grains brisés et/ou échaudés, d'unmaximum de 2,0|% de grains attaqués par les prédateurs, d'un maximum de 0,5|% de grains germés,- d'un maximum de 1,0|% d'impuretés diverses (Schwarzbesatz),- un temps de chute (Hagberg) d'un minimum de 230,- un taux de protéine (à 13,5|% d'humidité) d'un minimum de 14,6|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001990015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001990040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Froment (blé) tendre de qualité moyenne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001990050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Froment (blé) tendre de qualité basse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001990060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Epeautre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001990092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Méteil</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1001990094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1002000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Seigle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1002100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1002900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1003000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Orge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1003100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1003900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1003900020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la fabrication du malt</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1003900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>avec les critères de qualité suivants:- poids spécifique 60,5 kg/hl ou plus,- grains endommagés 1|%  ou moins,- teneur en humidité 13,5|% ou moins,- grains d'orge saine, loyal et marchande 96|% ou plus,à utiliser pour la production de bière maturée dans des récipients contenant du bois de hêtre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1003900030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1003900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1004000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Avoine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1004100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1004900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1005000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Maïs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1005100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1005101300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>hybride</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1005101300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>hybride trois voies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1005101500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>hybride simple</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1005101800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1005109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1005900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1005900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Maïs vitreux d'un poids spécifique égal ou supérieur à 75,5 kg/hl, d'une teneur en grains vitreux égale ou supérieure à 92 % en poids et, d'un indice maximal de flottation de 26, destiné à la transformation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1005900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Riz</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Riz en paille (riz paddy)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destiné à l'ensemencement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006103000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains ronds</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains moyens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006107100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains longs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006107100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentant un rapport longueur/largeur supérieur à 2|mais inférieur à 3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006107900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentant un rapport longueur/largeur égal ou supérieur à 3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Riz décortiqué (riz cargo ou riz brun)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>étuvé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains ronds</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains moyens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006201500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains longs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentant un rapport longueur/largeur supérieur à 2|mais inférieur à 3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006201700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentant un rapport longueur/largeur égal ou supérieur à 3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006201713</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006201713</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201713</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>des variétés Basmati 217 (India), Basmati 370, Basmati 386 (India), Kernel (Basmati) (Pakistan), Pusa Basmati, Ranbir Basmati (India), Super Basmati, Taraori Basmati (HBC-19) (India), Type-3 (Dehradun) (India)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201718</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201791</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201799</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006201913</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006201913</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201913</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>des variétés Basmati 217 (India), Basmati 370, Basmati 386 (India), Kernel (Basmati) (Pakistan), Pusa Basmati, Ranbir Basmati (India), Super Basmati, Taraori Basmati (HBC-19) (India), Type-3 (Dehradun) (India)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201918</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006201999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006209200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains ronds</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains moyens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006209600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à grains longs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentant un rapport longueur/largeur supérieur à 2|mais inférieur à 3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006209800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentant un rapport longueur/largeur égal ou supérieur à 3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006209813</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006209813</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209813</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>des variétés Basmati 217 (India), Basmati 370, Basmati 386 (India), Kernel (Basmati) (Pakistan), Pusa Basmati, Ranbir Basmati (India), Super Basmati, Taraori Basmati (HBC-19) (India), Type-3 (Dehradun) (India)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209818</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209891</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209899</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006209913</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006209913</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209913</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>des variétés Basmati 217 (India), Basmati 370, Basmati 386 (India), Kernel (Basmati) (Pakistan), Pusa Basmati, Ranbir Basmati (India), Super Basmati, Taraori Basmati (HBC-19) (India), Type-3 (Dehradun) (India)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209918</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006209999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Riz semi-blanchi ou blanchi, même poli ou glacé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Riz semi-blanchi</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>étuvé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006302100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains ronds</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006302300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains moyens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains longs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006302500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentant un rapport longueur/largeur supérieur à 2|mais inférieur à 3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006302700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentant un rapport longueur/largeur égal ou supérieur à 3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302712</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302712</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302712</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302714</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302716</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302722</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302722</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302722</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302724</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302726</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302792</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302792</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302792</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302794</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302796</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006302900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302912</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302912</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302912</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302914</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302916</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302922</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302922</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302922</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302924</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302926</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302992</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006302992</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302992</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302994</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006302996</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006304200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains ronds</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304220</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006304400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains moyens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304420</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains longs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006304600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentant un rapport longueur/largeur supérieur à 2|mais inférieur à 3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304620</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006304800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentant un rapport longueur/largeur égal ou supérieur à 3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304812</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304812</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304812</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304814</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304816</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304822</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304822</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304822</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304824</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304826</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304892</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304892</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304892</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304894</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304896</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006304900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304912</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304912</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304912</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304914</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304916</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304922</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304922</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304922</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304924</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304926</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304992</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006304992</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304992</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304994</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006304996</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Riz blanchi</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>étuvé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006306100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains ronds</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006306300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains moyens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains longs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006306500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentant un rapport longueur/largeur supérieur à 2|mais inférieur à 3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006306700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentant un rapport longueur/largeur égal ou supérieur à 3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306712</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306712</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306712</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306714</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306716</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306722</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306722</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306722</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306724</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306726</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306792</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306792</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306792</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306794</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306796</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006306900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306912</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306912</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306912</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306914</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306916</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306922</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306922</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306922</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306924</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306926</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306992</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006306992</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306992</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306994</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006306996</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006309200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains ronds</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309220</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006309400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains moyens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309420</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à grains longs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006309600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentant un rapport longueur/largeur supérieur à 2|mais inférieur à 3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309620</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006309800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentant un rapport longueur/largeur égal ou supérieur à 3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309812</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309812</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309812</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309814</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309816</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309822</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309822</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309822</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309824</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309826</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309892</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309892</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309892</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309894</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309896</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006309900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309912</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net n'excédant pas 5|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309912</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309912</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309914</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309916</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309922</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net excédant 5|kg mais n'excédant pas 20|Kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309922</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309922</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309924</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309926</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309992</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1006309992</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Riz parfumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309992</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Riz Basmati</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309994</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006309996</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1006400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Riz en brisures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à la production de préparations alimentaires de la sous-position 1901 10</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1006400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1007000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sorgho à grains</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1007100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1007101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>hybride, destiné à l'ensemencement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1007109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1007900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1008000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sarrasin, millet et alpiste; autres céréales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1008100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sarrasin</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1008210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Millet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1008210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1008290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1008300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alpiste</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1008400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fonio (Digitaria spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1008500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Quinoa (Chenopodium quinoa)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1008600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Triticale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1008900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres céréales</Description>
+</ligne></contenu></table>

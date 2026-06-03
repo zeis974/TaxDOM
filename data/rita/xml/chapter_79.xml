@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 79 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:00</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>7900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>ZINC ET OUVRAGES EN ZINC</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7901000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Zinc sous forme brute</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7901110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Zinc non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7901110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids 99,99|% ou plus de zinc</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7901120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids moins de 99,99|% de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7901121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 99,95|% ou plus mais moins de 99,99|% de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7901123000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 98,5|% ou plus mais moins de 99,95|% de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7901129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 97,5|% ou plus mais moins de 98,5|% de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7901200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alliages de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7902000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets et débris de zinc</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7903000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poussières, poudres et paillettes, de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7903100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poussières de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7903900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7904000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Barres, profilés et fils, en zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tôles, feuilles et bandes, en zinc</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7907000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7907000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poids en fer, en acier et/ou en alliage de zinc:-d'un poids n'excédant pas 500 grammes et ne mesurant pas plus de 107 mm x 107 mm x 11 mm,-avec ou sans parties en autres matières,-avec ou sans parties en autres métaux,-avec ou sans traitement de surface,-imprimés ou non,du type utilisé pour la fabrication de télécommandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7907000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

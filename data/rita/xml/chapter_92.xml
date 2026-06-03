@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 92 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:11</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9200000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>INSTRUMENTS DE MUSIQUE; PARTIES ET ACCESSOIRES DE CES INSTRUMENTS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9201000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pianos, même automatiques; clavecins et autres instruments à cordes à clavier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9201100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pianos droits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9201101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9201109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9201200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pianos à queue</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9201900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9202000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres instruments de musique à cordes (guitares, violons, harpes, par exemple)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9202100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à cordes frottées à l'aide d'un archet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9202101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Violons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9202109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9202900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9202903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Guitares</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9202908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9205000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments de musique à vent (orgues à tuyaux et à clavier, accordéons, clarinettes, trompettes, cornemuses, par exemple), autres que les orchestrions et les orgues de Barbarie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9205100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Instruments dits "cuivres"</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9205900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9205901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Accordéons et instruments similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9205903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Harmonicas à bouche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9205905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Orgues à tuyaux et à clavier; harmoniums et instruments similaires à clavier et à anches libres métalliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9205909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9206000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments de musique à percussion (tambours, caisses, xylophones, cymbales, castagnettes, maracas, par exemple)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9207000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Instruments de musique dont le son est produit ou doit être amplifié par des moyens électriques (orgues, guitares, accordéons, par exemple)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9207100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Instruments à clavier, autres que les accordéons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9207101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Orgues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9207103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pianos numériques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9207105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Synthétiseurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9207108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9207900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9207901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Guitares</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9207909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9208000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Boîtes à musique, orchestrions, orgues de Barbarie, oiseaux chanteurs, scies musicales et autres instruments de musique non repris dans une autre position du présent chapitre; appeaux de tous types, sifflets, cornes d'appel et autres instruments d'appel ou de signalisation à bouche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9208100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boîtes à musique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9208900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9209000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parties (mécanismes de boîtes à musique, par exemple) et accessoires (cartes, disques et rouleaux pour appareils à jouer mécaniquement, par exemple) d'instruments de musique; métronomes et diapasons de tous types</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9209300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cordes harmoniques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9209910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9209910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties et accessoires de pianos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9209920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties et accessoires des instruments de musique du n$o|9202</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9209940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties et accessoires des instruments de musique du n$o|9207</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9209990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9209992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties et accessoires des instruments de musique du n$o|9205</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9209994000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9209994000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Métronomes et diapasons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9209995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mécanismes de boîtes à musique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9209997000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

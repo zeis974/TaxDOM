@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 63 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:48</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>6300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>AUTRES ARTICLES TEXTILES CONFECTIONNÉS; ASSORTIMENTS; FRIPERIE ET CHIFFONS</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6301000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>I. AUTRES ARTICLES TEXTILES CONFECTIONNÉS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Couvertures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Couvertures chauffantes électriques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Couvertures (autres que les couvertures chauffantes électriques) de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301209010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Couvertures (autres que les couvertures chauffantes électriques) de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301309010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301309090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Couvertures (autres que les couvertures chauffantes électriques) de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301409010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6301409091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301409091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301409099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres couvertures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6301909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6301909021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6301909021</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301909021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301909029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6301909091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301909091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6301909099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Linge de lit, de table, de toilette ou de cuisine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Linge de lit en bonneterie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6302210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre linge de lit, imprimé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6302210021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302210021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302210029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6302210081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302210081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302210089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lin ou de ramie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6302310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre linge de lit</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302392000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lin ou de ramie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302399000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Linge de table en bonneterie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6302510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre linge de table</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302510010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302510090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302531000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302539000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302591000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lin</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302599000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302599010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de ramie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302599090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Linge de toilette ou de cuisine, bouclé du genre éponge, de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302600010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302600090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6302910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302931000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302939000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lin</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6302999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de ramie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6302999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6303000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vitrages, rideaux et stores d'intérieur; cantonnières et tours de lit</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6303120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6303910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6303910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Vitrages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6303910091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303910091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303910099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6303920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6303929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303929010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Vitrages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303929090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6303990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6303999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de lin ou de ramie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6303999020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303999020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Vitrages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6303999031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>doubles rideaux en laine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303999031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303999039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6303999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6304000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres articles d'ameublement, à l'exclusion de ceux du n$o|9404</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6304110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Couvre-lits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6304190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6304191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304191010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimés à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304191090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lin ou de ramie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6304199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304199010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6304199091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304199091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de laine ou de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304199099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Moustiquaires pour lits mentionnées dans la note 1|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6304910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6304920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres qu'en bonneterie, de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304920010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304920090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6304930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres qu'en bonneterie, de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304930010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304930090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6304990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres qu'en bonneterie, d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304990010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lin ou de ramie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6304990091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304990091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6304990092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304990092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de laine ou de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6304990099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6305000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sacs et sachets d'emballage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6305100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n$o|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6305200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6305320000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de matières textiles synthétiques ou artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6305320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Contenants souples pour matières en vrac</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6305321100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>obtenus à partir de lames ou formes similaires de polyéthylène ou de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305321100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305321900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6305329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305329010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6305329091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305329091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305329099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6305330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, obtenues à partir de lames ou formes similaires de polyéthylène ou de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305331000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305339000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6305390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6305390091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305390091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305390099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6305900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6305900010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sacs et sachets d'emballage, usagés, de lin ou de sisal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6305900093</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305900093</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés, de lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6305900099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6306000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bâches et stores d'extérieur; tentes (y compris les tonnelles temporaires et articles similaires); voiles pour embarcations, planches à voile ou chars à voile; articles de campement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6306120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bâches et stores d'extérieur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6306220000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tentes (y compris les tonnelles temporaires et articles similaires)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Voiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Matelas pneumatiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6306900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6306900011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306900011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hamacs, faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306900019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6306900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6307000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres articles confectionnés, y compris les patrons de vêtements</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6307100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Serpillières ou wassingues, lavettes, chamoisettes et articles d'entretien similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6307109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ceintures et gilets de sauvetage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6307900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en feutre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Draps à usage unique confectionnés en produits du n$o|5603, du type utilisé au cours d'interventions chirurgicales</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Masques de protection</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6307909300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pièces faciales filtrantes (FFP) conformément à la norme EN149; autres masques conformes à une norme similaire pour les masques servant d'appareils de protection respiratoire contre les particules</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909311</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Non-tissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909311</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Pièces faciales filtrantes FFP2 et FFP3 conformément à la norme EN149 et masques similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909311</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Pièces faciales filtrantes FFP2 et FFP3 conformément à la norme EN149</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909319</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6307909500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909511</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Non-tissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909511</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Masques à usage médical conformément à la norme EN14683; autres masques conformes à une norme similaire pour les masques à usage médical</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Masques à usage médical conformément à la norme EN14683</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909519</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909591</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909595</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6307909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909820</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Non-tissés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6307909891</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909891</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6307909899</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6308000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>II. ASSORTIMENTS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6308000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Assortiments composés de pièces de tissus et de fils, même avec accessoires, pour la confection de tapis, de tapisseries, de nappes de table ou de serviettes brodées, ou d'articles textiles similaires, en emballages pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6308000015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6308000020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6308000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6309000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>III. FRIPERIE ET CHIFFONS</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6309000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles de friperie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6310000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chiffons, ficelles, cordes et cordages, en matières textiles, sous forme de déchets ou d'articles hors d'usage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6310100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>triés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6310900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

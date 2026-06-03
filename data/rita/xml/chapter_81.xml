@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 81 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:02</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>8100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>AUTRES MÉTAUX COMMUNS; CERMETS; OUVRAGES EN CES MATIÈRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tungstène (wolfram) et ouvrages en tungstène, y compris les déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8101100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8101940000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8101940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tungstène sous forme brute, y compris les barres simplement obtenues par frittage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8101960000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8101960010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils en tungstène contenant en poids 99|% ou plus de tungstène:-|dont la dimension maximale de la section transversale n'excède pas 50|µm,-|d'une résistance de 40|ohm/m ou plus mais n'excédant pas 300|ohm/m,</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8101960020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils en tungstène-|contenant 99,95|% en poids ou plus de tungstène et-|dont le diamètre maximal de la section transversale n'excède pas 1,02|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8101960090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8101970000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8101990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8101991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres, autres que celles simplement obtenues par frittage, profilés, tôles, bandes et feuilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8101999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Molybdène et ouvrages en molybdène, y compris les déchets et débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8102100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Molybdène en poudre -|d'une pureté en poids de 99|% ou plus, et -|d'une granulométrie de 1,0|µm ou plus|mais n'exédant pas 5,0|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8102940000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Molybdène sous forme brute, y compris les barres simplement obtenues par frittage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Barres, autres que celles simplement obtenues par frittage, profilés, tôles, bandes et feuilles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8102960000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8102960011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils en molybdène contenant, en poids, au moins 99,95 % de molybdène, dont la plus grande dimension de la section transversale est supérieure à 1,35 mm, mais n'excède pas 4,0 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102960011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102960019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102960020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils en molybdène contenant, en poids, au moins 99,95 % de molybdène, dont la plus grande dimension de la section transversale est supérieure à 4,0 mm, mais n'excède pas 11,0 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102960030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils en molybdène contenant, en poids, 97 % ou plus mais moins que 99,95 % de molybdène, dont la plus grande dimension de la section transversale est supérieure à 1,35 mm, mais n'excède pas 4,0 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102960040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils en molybdène contenant, en poids, 97 % ou plus mais moins que 99,95 % de molybdène, dont la plus grande dimension de la section transversale est supérieure à 4,0 mm, mais n'excède pas 11,0 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102960098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102970000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8102990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tantale et ouvrages en tantale, y compris les déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8103200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tantale sous forme brute, y compris les barres simplement obtenues par frittage; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8103300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8103910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8103910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Creusets</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8103990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8103991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres (autres que les barres simplement obtenues par frittage), profilés, fils, tôles, bandes et feuilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8103999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Magnésium et ouvrages en magnésium, y compris les déchets et débris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8104110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Magnésium sous forme brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8104110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant au moins 99,8|% en poids de magnésium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8104190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8104200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8104300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Copeaux, tournures et granulés calibrés; poudres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8104300020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poudre de magnésium d'une granulométrie de|0,2|mm au minimum et de|0,8|mm au maximum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8104300020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une pureté de 98% (en poids) au minimum et de 99,5% au maximum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8104300035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poudre de magnésium:-d'une pureté de plus de 99,5 % en poids, et-d'une granulométrie n'excédant pas 0,8 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8104300040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8104300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8104900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mattes de cobalt et autres produits intermédiaires de la métallurgie du cobalt; cobalt et ouvrages en cobalt, y compris les déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8105200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mattes de cobalt et autres produits intermédiaires de la métallurgie du cobalt; cobalt sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8105300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8105900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8106000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bismuth et ouvrages en bismuth, y compris les déchets et débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8106100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Contenant plus de 99,99|% en poids de bismuth</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8106101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bismuth sous forme brute; déchets et débris; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8106109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8106900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8106901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bismuth sous forme brute; déchets et débris; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8106909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8108000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Titane et ouvrages en titane, y compris les déchets et débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8108200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Titane sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Titane spongieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108200030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Titane sous forme de poudre, dont le taux de passage dans une ouverture de maille de 0,224|mm est supérieur ou égal à 90|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8108300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets et débris de titane et d'alliages de titane, exceptés ceux contenant en poids 1|% ou plus mais pas plus de 2|% d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8108900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8108903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Barres, profilés et fils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108903010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres en alliage de titane conformes aux normes EN 2002-1, EN 4267 ou DIN 65040</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108903015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils ou barres en alliage de titane présentant les caractéristiques suivantes:-|une section transversale pleine et constante en forme disque,-|d'un diamètre de 0,8|mm mais pas plus de 5|mm,-|une teneur en aluminium de|0,3|% en poids mais pas plus de 0,7|%,-|une teneur en silicone de 0,3|% en poids mais pas plus de 0,6|%,-|une teneur en niobium de 0,1|% en poids mais pas plus de 0,3|%,-|une teneur en fer n'excédant pas 0,2|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108903035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres et fils de titane ayant une teneur en titane égale ou supérieure à 98,8 % mais n'excédant pas 99,9 %, d'un diamètre inférieur à 20 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108903045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fil en alliage de titane, aluminium et vanadium (TiAl6V4), d'un diamètre inférieur à 20 mm et conforme aux normes AMS 4928, 4965 ou 4967</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108903055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils en alliage de titane :-dont la teneur en niobium est égale ou supérieure à 42 % en poids, sans excéder 47 %,-d'un diamètre de 2,36 mm ou plus, mais n'excédant pas 7,85 mm,-en bobines de 15 kg ou plus, mais n'excédant pas 45 kg,-conformes à la norme AMS 4982</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108903060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titane sous forme de billettes forgées cylindriques,-|d'une pureté égale ou supérieure à 99,995|% en poids,-|d'un diamètre de 140|mm ou plus mais n'excédant pas 200|mm,-|d'un poids de 5|kg ou plus mais n'excédant pas 300|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108903070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fil composé d'un alliage de titane contenant en poids:-|22|% (± 1|%) de vanadium et-|4|% (± 0,5|%) d'aluminiumou-|15|% (± 1|%) de vanadium,-|3|% (± 0,5|%) de chrome,-|3|% (± 0,5|%) d'étain et-|3|% (± 0,5|%) d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108903090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8108905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tôles, bandes et feuilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108905045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tôles, bandes et feuilles de titane non allié laminées à froid ou à chaud présentant:-|une épaisseur de 0,4|mm ou plus mais pas plus de 100|mm,-|une longueur n'excédant pas 14|m, et-|une largeur n'excédant pas 4|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108905055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tôles, bandes et feuilles en alliage de titane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108905080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tôles, bandes et feuilles de titane non allié- d'une largeur supérieure à 750 mm- d'une épaisseur maximal de 3 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108905085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles de titane non allié : -|contenant plus de 0,07|% en poids d'oxygène (O@2), -|d'une épaisseur de 0,4|mm ou plus mais pas plus de 2,5|mm -|d'une dureté Vickers HV1|de moins de 170du type utilisé pour la fabrication de tubes soudés pour condenseurs de centrales nucléaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108905090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8108906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tubes et tuyaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108906010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes et tuyaux, munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108906020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes à parois minces prêts à l'emploi utilisés dans le système de conditionnement de l'air, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108906090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8108909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boulons et écrous à blocage par simple vissage du type Hi-lok</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108909030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties de montures de lunettes, y compris:-|les branches de lunettes,-|les ébauches utilisées pour la fabrication de pièces de lunettes, et-|les boulons des types utilisés pour les montures de lunettes,composées d'un alliage de titane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8108909091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108909091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boulons, écrous, vis, rivets et articles similaires de boulonnerie et de visserie, répondant aux normes US, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8108909099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8109000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Zirconium et ouvrages en zirconium, y compris les déchets et débris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8109210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Zirconium sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8109210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant moins d'une partie de hafnium pour 500|parties en poids de zirconium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8109290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8109290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Zirconium non allié, sous forme d'éponges ou de lingots, contenant en poids plus de 0,01 % de hafnium destiné à être utilisé dans la fabrication de tubes, barres ou lingots élargis par refonte pour l'industrie non nucléaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8109290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8109310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8109310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant moins d'une partie de hafnium pour 500|parties en poids de zirconium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8109390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8109910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8109910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant moins d'une partie de hafnium pour 500|parties en poids de zirconium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8109990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8110000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Antimoine et ouvrages en antimoine, y compris les déchets et débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8110100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Antimoine sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8110100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Antimoine sous forme de lingots</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8110100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8110200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8110900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8111000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Manganèse et ouvrages en manganèse, y compris les déchets et débris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8111001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Manganèse sous forme brute; déchets et débris; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8111001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Manganèse sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8111001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8111009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8112000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Béryllium, chrome, hafnium (celtium), rhénium, thallium, cadmium, germanium, vanadium, gallium, indium et niobium (columbium), ainsi que les ouvrages en ces métaux, y compris les déchets et débris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8112120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Béryllium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8112210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chrome</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8112210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Alliages de chrome contenant en poids plus de 10|% de nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8112310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hafnium (celtium)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous forme brute; déchets et débris; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8112410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rhénium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8112410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous forme brute; déchets et débris; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8112510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Thallium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8112610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cadmium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8112690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112691000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cadmium sous forme brute; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112699000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8112920000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8112920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sous forme brute; déchets et débris; poudres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112922100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8112924000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112924000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Niobium (columbium)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112928100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Indium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112928900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Gallium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112929100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Vanadium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112929500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Germanium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8112990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112994000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Germanium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8112995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Niobium (columbium)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112995010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Alliage de niobium (columbium) et titane, sous forme de barres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112995090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8112997000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Gallium, indium, vanadium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8113000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cermets et ouvrages en cermets, y compris les déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8113002000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>sous forme brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8113004000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8113009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8113009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plaque de support en aluminium-carbure de silicium (AlSiC-9) pour circuits électroniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8113009020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Entretoises sous forme de pavés droits en composite d'aluminium-carbure de silicium (AlSiC) utilisées dans les modules IGBT</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8113009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

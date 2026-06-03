@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 08 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:06</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>0800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>FRUITS COMESTIBLES; ÉCORCES D'AGRUMES OU DE MELONS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Noix de coco, noix du Brésil et noix de cajou, fraîches ou sèches, même sans leurs coques ou décortiquées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0801110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix de coco</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0801110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>desséchées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0801120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques internes (endocarpe)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0801190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0801210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix du Brésil</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0801210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0801220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans coques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0801310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix de cajou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0801310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0801320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans coques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres fruits à coques, frais ou secs, même sans leurs coques ou décortiqués</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0802110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Amandes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0802110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>amères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0802120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>amères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0802210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noisettes (Corylus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans coques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0802310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix communes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans coques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0802410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Châtaignes et marrons (Castanea spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans coques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0802510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pistaches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans coques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0802610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix macadamia</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sans coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix de cola (Cola spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix d'arec</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0802910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pignons, en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pignons, sans coques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0802990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Noix de Pécan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0802999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0803000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bananes, y compris les plantains, fraîches ou sèches</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0803100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plantains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0803101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0803109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>secs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0803900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0803901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0803901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plátano de Canarias</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0803901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0803909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sèches</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Dattes, figues, ananas, avocats, goyaves, mangues et mangoustans, frais ou secs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0804100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dattes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804100030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dattes, fraîches ou sèches destinées à la fabrication (à l'exclusion du reconditionnement) des produits des industries alimentaires ou des boissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0804100091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804100091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net inférieur ou égal à 35|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804100099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0804200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Figues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sèches</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0804300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ananas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>secs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0804400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Avocats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0804500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Goyaves, mangues et mangoustans</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804500030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Goyaves (guajava L.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804500040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mangues (Mangifera indica)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0804500089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Agrumes, frais ou secs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oranges</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805102200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oranges douces, fraîches</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805102200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oranges navel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805102210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805102290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805102400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oranges blanches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805102410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805102490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805102800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805102810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de haute qualité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805102890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805108010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805108090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mandarines (y compris les tangerines et satsumas); clémentines, wilkings et hybrides similaires d'agrumes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mandarines (y compris les tangerines et satsumas)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Satsumas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805211010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805211090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805219011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mandarines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805219011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805219019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805219091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tangerines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805219091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805219099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Clémentines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805220011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Monreales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805220011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805220019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805220020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805220020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805220090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805290011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Wilkings</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805290011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805290019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805290021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hybrides d'agrumes, dénommés "minneolas"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805290021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805290029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805290091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805290091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>fraîches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805290099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pamplemousses et pomelos</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805400011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pamplemousses frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805400011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805400019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>roses</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0805400031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pomelos frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805400031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805400039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>roses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Citrons (Citrus limon, Citrus limonum) et limes (Citrus aurantifolia, Citrus latifolia)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Citrons (Citrus limon, Citrus limonum)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805501010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805501090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Limes (Citrus aurantifolia, Citrus latifolia)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805509010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805509090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0805900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cédrats (Citrus medica)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0805900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Raisins, frais ou secs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0806100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0806101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de table</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0806101005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de la variété Empereur (Vitis vinifera c.v.), du 1$e$r janvier au 31 janvier et du 1$e$r décembre au 31 décembre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0806101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0806109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0806200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>secs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0806201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Raisins de Corinthe</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0806203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sultanines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0806203010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentés en emballages immédiats d'un contenu net inférieur ou égal à 2|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0806203090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0806209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0807000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Melons (y compris les pastèques) et papayes, frais</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0807110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Melons (y compris les pastèques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0807110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pastèques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0807190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0807190050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Amarillo, Cuper, Honey Dew (y compris Cantalene), Onteniente, Piel de Sapo (y compris Verde Liso), Rochet, Tendral, Futuro</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0807190060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Melon Galia (C. melo var. reticulatus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0807190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0807200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Papayes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0808000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pommes, poires et coings, frais</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0808100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pommes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0808101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pommes à cidre, présentées en vrac, du 16|septembre au 15|décembre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0808108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0808108010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pommes à cidre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0808108020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de la variété Fuji</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0808108090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0808300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0808301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poires à poiré, présentées en vrac, du 1$e$r|août au 31|décembre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0808309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0808309010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de la variété Nashi (Pyrus pyrifolia), Ya (Pyrus bretscheideri)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0808309090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0808400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coings</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0809000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Abricots, cerises, pêches (y compris les brugnons et nectarines), prunes et prunelles, frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Abricots</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0809210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cerises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cerises acides (Prunus cerasus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0809300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pêches, y compris les brugnons et nectarines</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0809302000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pêches plates (Prunus persica var. platycarpa) et nectarines plates (Prunus persica var. platerina)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809302010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pêches plates (Prunus persica var. platycarpa)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809302090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Nectarines plates (Prunus persica var. platerina)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0809303000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809303000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Brugnons et nectarines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809308000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0809400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Prunes et prunelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809400500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Prunes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0809409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Prunelles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0810000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres fruits frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fraises</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0810200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Framboises, mûres de ronce ou de mûrier et mûres-framboises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Framboises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0810300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Groseilles à grappes ou à maquereau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Groseilles à grappes noires (cassis)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810303000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Groseilles à grappes rouges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0810400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Airelles, myrtilles et autres fruits du genre Vaccinium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Airelles (fruits du Vaccinium vitis-idaea)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810403000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Myrtilles (fruits du Vaccinium myrtillus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810405000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fruits du Vaccinium macrocarpon et du Vaccinium corymbosum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Kiwis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Durians</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Kakis (Plaquemines)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0810900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0810902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tamarins, pommes de cajou, fruits du jaquier, litchis, sapotilles, fruits de la passion, caramboles et pitahayas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810902010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pitahayas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810902020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fruits du jacquier (Artocarpus heterophyllus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810902040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Grenadilles (Passiflora ligularis)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810902050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fruits de la passion (Passiflora edulis)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810902090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0810907500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810907520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pommes-cannelles (Annona squamosa)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810907530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Grenades</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810907550</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Figues de Barbarie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810907560</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Nèfles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0810907590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fruits, non cuits ou cuits à l'eau ou à la vapeur, congelés, même additionnés de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fraises</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0811101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>additionnées de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en sucres supérieure à 13|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Framboises, mûres de ronce ou de mûrier, mûres-framboises et groseilles à grappes ou à maquereau</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0811201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>additionnées de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en sucres supérieure à 13|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Framboises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201115</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mûres de ronce</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mûres de mûrier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201125</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mûres-framboises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Groseilles à grappes noires (cassis)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201135</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Groseilles blanches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201140</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Groseilles à grappes rouges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201145</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Groseilles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Framboises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201915</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mûres de ronce</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mûres de mûrier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201925</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mûres-framboises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Groseilles à grappes noires (cassis)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201935</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Groseilles blanches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Groseilles à grappes rouges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811201945</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Groseilles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0811203100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811203100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Framboises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811203900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Groseilles à grappes noires (cassis)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811205100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Groseilles à grappes rouges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811205900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mûres de ronce ou de mûrier et mûres-framboises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0811901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>additionnés de sucre ou d'autres édulcorants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0811901100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en sucres supérieure à 13|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fruits tropicaux et fruits à coques tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811901912</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cerises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811901990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0811903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fruits tropicaux et fruits à coques tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811903900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811903912</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cerises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811903990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0811905000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Myrtilles (fruits du Vaccinium myrtillus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Myrtilles des espèces Vaccinium myrtilloides et Vaccinium angustifolium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0811907500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cerises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811907500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cerises acides (Prunus cerasus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811908500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fruits tropicaux et fruits à coques tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0811909500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811909520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mûres de Boysen (boysenberries), congelées, sans addition de sucre, non conditionnées pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811909530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Ananas (Ananas comosus), en morceaux, congelé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0811909590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0812000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fruits conservés provisoirement, mais impropres, en l'état, à l'alimentation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cerises</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0812900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0812902500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Abricots; oranges</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0812902511</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oranges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812902511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>finement broyées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812902519</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812902590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abricots</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papayes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Myrtilles (fruits du Vaccinium myrtillus)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Goyaves, mangues, mangoustans, tamarins, pommes de cajou, litchis, fruits du jaquier, sapotilles, fruits de la passion, caramboles, pitahayas et noix tropicales</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0812909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0812909811</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fruits des Nos et sous-positions 0803, 0804 10, 0805 40, 0810 20 90,  0810 30 90, 0810 40 10, 0810 40 50, 0810 50, 0810 60, 0810 70 et 0810 90 75</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812909811</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pamplemousses et pomélos, finement broyés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812909819</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812909820</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres agrumes, finement broyés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0812909890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0813000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fruits séchés autres que ceux des n$o$s|0801|à 0806|inclus; mélanges de fruits séchés ou de fruits à coques du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Abricots</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pruneaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pommes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0813400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fruits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pêches, y compris les brugnons et nectarines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813403000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813405000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Papayes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813406500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tamarins, pommes de cajou, litchis, fruits du jaquier, sapotilles, fruits de la passion, caramboles et pitahayas</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0813409500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813409510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Baies de goji (Lycium barbarum L.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813409580</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0813500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mélanges de fruits séchés ou de fruits à coques du présent chapitre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0813501200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélanges de fruits séchés autres que ceux des n$o$s|0801|à 0806</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0813501200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sans pruneaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813501200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de papayes, tamarins, pommes de cajou, litchis, fruits du jaquier, sapotilles, fruits de la passion, caramboles et pitahayas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813501500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813501900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>avec pruneaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0813503100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélanges constitués exclusivement de fruits à coques des n$o$s|0801|et 0802</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0813503100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de fruits à coques tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813503120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des noix du Brésil en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813503180</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0813503900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813503920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des noix du Brésil en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813503960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des pistaches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813503970</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des noisettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813503980</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0813509100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres mélanges</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0813509100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sans pruneaux ni figues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des noix du Brésil en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509160</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des pistaches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509170</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des noisettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509180</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0813509900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des noix du Brésil en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des figues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des pistaches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509970</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant des noisettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0813509980</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0814000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Écorces d'agrumes ou de melons (y compris de pastèques), fraîches, congelées, présentées dans l'eau salée, soufrée ou additionnée d'autres substances servant à assurer provisoirement leur conservation ou bien séchées</Description>
+</ligne></contenu></table>

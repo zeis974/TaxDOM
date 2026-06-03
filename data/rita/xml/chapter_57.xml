@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 57 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:44</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5700000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>TAPIS ET AUTRES REVÊTEMENTS DE SOL EN MATIÈRES TEXTILES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5701000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tapis en matières textiles, à points noués ou enroulés, même confectionnés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5701100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5701101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids plus de 10|% au total de soie ou de bourre de soie (schappe)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5701101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5701101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5701109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5701900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5701901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de soie, de bourre de soie (schappe), de fibres synthétiques, de filés ou fils du n$o|5605|ou en matières textiles avec des fils de métal incorporés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5701901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5701901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5701909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5701909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5701909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tapis et autres revêtements de sol en matières textiles, tissés, non touffetés ni floqués, même confectionnés, y compris les tapis dits "kelim" ou "kilim", "schumacks" ou "soumak", "karamanie" et tapis similaires tissés à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tapis dits "kelim" ou "kilim", "schumacks" ou "soumak", "karamanie" et tapis similaires tissés à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Revêtements de sol en coco</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5702310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, à velours, non confectionnés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702311000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tapis Axminster</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702318000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de matières textiles synthétiques ou artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n!o!|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702390020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de sisal, d'autres fibres textiles du genre Agave ou de chanvre de Manille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702390030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702390090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5702410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, à velours, confectionnés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tapis Axminster</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de matières textiles synthétiques ou artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702490020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n!o!|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702490030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de sisal, d'autres fibres textiles du genre Agave ou de chanvre de Manille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702490090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, sans velours, non confectionnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5702503100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de matières textiles synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702503100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702503900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702509010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n!o!|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702509030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de sisal, d'autres fibres textiles du genre Agave ou de chanvre de Manille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702509090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5702910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, sans velours, confectionnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de matières textiles synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5702990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702990010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n!o!|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702990030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de sisal, d'autres fibres textiles du genre Agave ou de chanvre de Manille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5702990090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5703000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tapis et autres revêtements de sol en matières textiles (y compris le gazon), touffetés, même confectionnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5703210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>gazon</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5703290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5703291000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Carreaux dont la superficie n'excède pas 1|m²</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703291900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5703299100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703299100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Carreaux dont la superficie n'excède pas 1|m²</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703299900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5703310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres matières textiles synthétiques ou de matières textiles artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Gazon</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5703390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5703391000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Carreaux dont la superficie n'excède pas 1|m²</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703391900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5703399100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703399100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Carreaux dont la superficie n'excède pas 1|m²</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703399900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5703900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5703902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carreaux dont la superficie n'excède pas 1|m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703902010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n!o!|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703902090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5703908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703908010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n!o!|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5703908090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5704000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tapis et autres revêtements de sol, en feutre, non touffetés ni floqués, même confectionnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5704100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carreaux dont la surface n'excède pas 0,3|m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5704200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carreaux dont la surface excède 0,3|m$2|mais n'excède pas 1|m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5704200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5704200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5704900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5704900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5704900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5705000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres tapis et revêtements de sol en matières textiles, même confectionnés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5705003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de matières textiles synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5705003010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5705003090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5705008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5705008031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de sisal, d'autres fibres textiles du genre Agave ou de chanvre de Manille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5705008031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5705008039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5705008091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5705008091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5705008099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 51 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:39</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>LAINE, POILS FINS OU GROSSIERS; FILS ET TISSUS DE CRIN</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Laines, non cardées ni peignées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5101110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en suint, y compris les laines lavées à dos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5101110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Laines de tonte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5101190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5101210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>dégraissées, non carbonisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5101210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Laines de tonte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5101290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5101300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>carbonisées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poils fins ou grossiers, non cardés ni peignés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5102110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5102110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de chèvre du Cachemire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5102190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5102191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lapin angora</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5102193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'alpaga, de lama, de vigogne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5102194000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de chameau et dromadaire, de yack, de chèvre mohair, de chèvre du Tibet et de chèvres similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5102199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'autres lapins que le lapin angora, de lièvre, de castor, de ragondin et de rat musqué</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5102200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poils grossiers</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets de laine ou de poils fins ou grossiers, y compris les déchets de fils mais à l'exclusion des effilochés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5103100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Blousses de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5103101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non carbonisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5103109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>carbonisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5103200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres déchets de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5103300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets de poils grossiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Effilochés de laine ou de poils fins ou grossiers</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Laine, poils fins ou grossiers, cardés ou peignés (y compris la "laine peignée en vrac")</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5105100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Laine cardée</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5105210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Laine peignée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5105210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>"Laine peignée en vrac"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5105290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5105310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poils fins, cardés ou peignés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5105310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de chèvre du Cachemire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5105390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5105400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poils grossiers, cardés ou peignés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5106000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de laine cardée, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5106100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de laine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5106101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5106109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5106200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant moins de 85|% en poids de laine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5106201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant au moins 85|% en poids de laine et de poils fins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5106209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5106209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5106209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5107000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de laine peignée, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5107100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de laine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5107101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5107109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5107200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant moins de 85|% en poids de laine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5107201000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant au moins 85|% en poids de laine et de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5107201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5107203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5107205100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5107205100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec des fibres synthétiques discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5107205100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5107205900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5107209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5107209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5107209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5108000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de poils fins, cardés ou peignés, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5108100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>cardés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5108101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5108109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5108200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>peignés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5108201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5108209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5109000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de laine ou de poils fins, conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5109100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5109101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en boules, en pelotes, en écheveaux ou en échevettes d'un poids excédant 125|g mais n'excédant pas 500|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5109109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5109900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5110000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de poils grossiers ou de crin (y compris les fils de crin guipés), même conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5111000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de laine cardée ou de poils fins cardés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5111110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5111110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids n'excédant pas 300|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5111190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5111200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, mélangés principalement ou uniquement avec des filaments synthétiques ou artificiels</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5111300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, mélangés principalement ou uniquement avec des fibres synthétiques ou artificielles discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5111301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids n'excédant pas 300|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5111308000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids excédant 300|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5111900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5111901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids plus de 10|% au total de matières textiles du chapitre|50</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5111909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5111909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids n'excédant pas 300|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5111909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids excédant 300|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5112000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de laine peignée ou de poils fins peignés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5112110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de laine ou de poils fins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5112110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids n'excédant pas 200|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5112190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5112200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, mélangés principalement ou uniquement avec des filaments synthétiques ou artificiels</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5112300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, mélangés principalement ou uniquement avec des fibres synthétiques ou artificielles discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5112301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids n'excédant pas 200|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5112308000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids excédant 200|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5112900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5112901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids plus de 10|% au total de matières textiles du chapitre|50</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5112909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5112909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids n'excédant pas 200|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5112909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids excédant 200|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5113000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de poils grossiers ou de crin</Description>
+</ligne></contenu></table>

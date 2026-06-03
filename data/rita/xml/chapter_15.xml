@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 15 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:11</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1500000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>GRAISSES ET HUILES ANIMALES, VÉGÉTALES OU D'ORIGINE MICROBIENNE ET PRODUITS DE LEUR DISSOCIATION;GRAISSES ALIMENTAIRES ÉLABORÉES;CIRES D'ORIGINE ANIMALE OU VÉGÉTALE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1501000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graisses de porc (y compris le saindoux) et graisses de volailles, autres que celles du n$o|0209|ou du n$o|1503</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1501100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Saindoux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1501101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destiné à des usages industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1501109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1501200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres graisses de porc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1501201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des usages industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1501209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1501900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1502000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graisses des animaux des espèces bovine, ovine ou caprine, autres que celles du n$o|1503</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1502100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Suif</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1502101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destiné à des usages industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1502109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1502109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>De l'espèce bovine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1502109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1502900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1502901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des usages industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1502909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1502909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>De l'espèce bovine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1502909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1503000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Stéarine solaire, huile de saindoux, oléostéarine, oléomargarine et huile de suif, non émulsionnées, ni mélangées ni autrement préparées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1503001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Stéarine solaire et oléostéarine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1503001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des usages industriels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1503001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1503003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile de suif, destinée à des usages industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1503009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1504000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graisses et huiles et leurs fractions, de poissons ou de mammifères marins, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1504100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles de foies de poissons et leurs fractions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en vitamine|A égale ou inférieure à 2|500|unités internationales par gramme</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1504109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de flétans</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1504200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graisses et huiles de poissons et leurs fractions, autres que les huiles de foies</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1504201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fractions solides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504201010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1504300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graisses et huiles de mammifères marins et leurs fractions</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1504301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fractions solides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504301010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de baleine ou de cachalot</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1504301091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504301091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentées en emballages inmédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504301099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1504309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1505000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graisse de suint et substances grasses dérivées, y compris la lanoline</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1505001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graisse de suint brute (suintine)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1505009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1506000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres graisses et huiles animales et leurs fractions, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1507000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huile de soja et ses fractions, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1507100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile brute, même dégommée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1507101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinée à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1507109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1507900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1507901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1507909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1508000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huile d'arachide et ses fractions, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1508100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1508101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinée à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1508109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1508900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1508901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1508909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1509000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huile d'olive et ses fractions, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1509200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile d'olive vierge extra</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1509200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en récipients d'une contenance n'excédant pas 5 l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1509200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1509300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile d'olive vierge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1509300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en récipients d'une contenance n'excédant pas 5 l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1509300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1509400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres huiles d'olive vierge</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1509900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1509900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en récipients d'une contenance n'excédant pas 5 l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1509900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1510000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres huiles et leurs fractions, obtenues exclusivement à partir d'olives, même raffinées, mais non chimiquement modifiées et mélanges de ces huiles ou fractions avec des huiles ou fractions du no|1509</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1510100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile de grignons d'olive brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1510900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1511000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huile de palme et ses fractions, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1511100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1511101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinée à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1511109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1511900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1511901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fractions solides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1511901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1511901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement présentées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1511901920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à la fabrication:-|d'acides gras monocarboxyliques industriels de la sous-position 3823|19|10,-|d'esters méthyliques d'acides gras des positions 2915|ou 2916,-|d'alcools gras des sous-positions 2905|17|et 2905|19|et 3823|70|destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'alcools gras de la sous-position 2905|16, purs ou en mélange, destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'acide stéarique de la sous-position 3823|11|00,-|de produits de la position 3401|ou-|d'acides gras d'une grande pureté de la position 2915</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1511901990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1511909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1511909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1511909120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à la fabrication:-|d'acides gras monocarboxyliques industriels de la sous-position 3823|19|10,-|d'esters méthyliques d'acides gras des positions 2915|ou 2916,-|d'alcools gras des sous-positions 2905|17|et 2905|19|et 3823|70|destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'alcools gras de la sous-position 2905|16, purs ou en mélange, destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'acide stéarique de la sous-position 3823|11|00,-|de produits de la position 3401|ou-|d'acides gras d'une grande pureté de la position 2915</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1511909190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1511909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1512000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huiles de tournesol, de carthame ou de coton et leurs fractions, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1512110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles de tournesol ou de carthame et leurs fractions</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1512110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huiles brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1512119100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512119100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de tournesol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512119900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de carthame</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1512190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1512199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512199010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de tournesol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512199090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de carthame</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1512210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile de coton et ses fractions</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1512210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile brute, même dépourvue de gossipol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinée à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1512290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1512299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huiles de coco (huile de coprah), de palmiste ou de babassu et leurs fractions, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile de coco (huile de coprah) et ses fractions</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile brute</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinée à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513111020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à la fabrication:-|d'acides gras monocarboxyliques industriels de la sous-position 3823|19|10,-|d'esters méthyliques d'acides gras des positions 2915|ou 2916,-|d'alcools gras des sous-positions 2905|17|et 2905|19|et 3823|70|destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'alcools gras de la sous-position 2905|16, purs ou en mélange, destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'acide stéarique de la sous-position 3823|11|00,-|de produits de la position 3401|ou-|d'acides gras d'une grande pureté de la position 2915</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513111090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513119100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513119100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentée en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513119900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autrement présentée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513191100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fractions solides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513191100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513191900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autrement présentées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513193000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513193020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinées à la fabrication:-|d'acides gras monocarboxyliques industriels de la sous-position 3823|19|10,-|d'esters méthyliques d'acides gras des positions 2915|ou 2916,-|d'alcools gras des sous-positions 2905|17|et 2905|19|et 3823|70|destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'alcools gras de la sous-position 2905|16, purs ou en mélange, destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'acide stéarique de la sous-position 3823|11|00,-|de produits de la position 3401|ou-|d'acides gras d'une grande pureté de la position 2915</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513193090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513199100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513199100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513199900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autrement présentées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles de palmiste ou de babassu et leurs fractions</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huiles brutes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513211020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Huile de palmiste destinée à la fabrication:-|d'acides gras monocarboxyliques industriels de la sous-position 3823|19|10,-|d'esters méthyliques d'acides gras des positions 2915|ou 2916,-|d'alcools gras des sous-positions 2905|17|et 2905|19|et 3823|70|destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'alcools gras de la sous-position 2905|16, purs ou en mélange, destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'acide stéarique de la sous-position 3823|11|00,-|de produits de la position 3401|ou-|d'acides gras d'une grande pureté de la position 2915</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513211090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513213000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513213000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autrement présentées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513291100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fractions solides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513291100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513291900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autrement présentées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513293000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1513293000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513293020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Huile de palmiste destinée à la fabrication:-|d'acides gras monocarboxyliques industriels de la sous-position 3823|19|10,-|d'esters méthyliques d'acides gras des positions 2915|ou 2916,-|d'alcools gras des sous-positions 2905|17|et 2905|19|et 3823|70|destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'alcools gras de la sous-position 2905|16, purs ou en mélange, destinés à la fabrication de détergents, de cosmétiques ou de produits pharmaceutiques,-|d'acide stéarique de la sous-position 3823|11|00,-|de produits de la position 3401|ou-|d'acides gras d'une grande pureté de la position 2915</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513293090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1513295000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513295000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1513299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autrement présentées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1514000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huiles de navette, de colza ou de moutarde et leurs fractions, même raffinées, mais non chimiquement modifiées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1514110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles de navette ou de colza à faible teneur en acide érucique et leurs fractions</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1514110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huiles brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1514111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1514119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1514190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1514191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1514199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1514910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1514910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huiles brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1514911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1514919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1514990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1514991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1514999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres graisses et huiles végétales ou d'origine microbienne (y compris l'huile de jojoba) et leurs fractions, fixes, même raffinées, mais non chimiquement modifié</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile de lin et ses fractions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile brute</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile de maïs et ses fractions</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinée à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile de ricin et ses fractions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à la production de l'acide amino-undécanoïque pour la fabrication soit de fibres synthétiques, soit de matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huile de sésame et ses fractions</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515501100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515501100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinée à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515501900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515509100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515509100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515509900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graisses et huiles d'origine microbienne et leurs fractions</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515601100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515601100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515605100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515605100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>concrètes, présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515605900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>concrètes, autrement présentées; fluides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515606000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515606000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515609100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515609100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>concrètes, présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515609110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Huile d'acide arachidonique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515609190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515609900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>concrètes, autrement présentées; fluides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515609910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Huile d'acide arachidonique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515609990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile de tung (d'abrasin); huiles de jojoba, d'oïticica; cire de myrica, cire du Japon; leurs fractions</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515902100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile de graines de tabac et ses fractions</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515902100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Huile brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515902100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinée à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515902900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515903900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515904000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres huiles et leurs fractions</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515904000</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Huiles brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515905100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515905100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>concrètes, présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515905900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>concrètes, autrement présentées; fluides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515906000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1515909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>concrètes, présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1515909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>concrètes, autrement présentées; fluides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515909920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Huile de noisette</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515909992</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Huile végétale, raffinée ou semi-raffinée, contenant en poids 35 % ou plus mais pas plus de 57 % d'acide arachidonique ou 35 % ou plus mais pas plus de 50 % d'acide docosahexaénoïque</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1515909999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1516000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graisses et huiles animales, végétales ou d'origine microbienne et leurs fractions, partiellement ou totalement hydrogénées, interestérifiées, réestérifiées ou élaïdinisées, même raffinées, mais non autrement préparées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1516100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graisses et huiles animales et leurs fractions</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1516101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de poissons et de mammifères marins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1516109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autrement présentées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de poissons et de mammifères marins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1516200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graisses et huiles végétales et leurs fractions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huiles de ricin hydrogénées, dites "opalwax"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1516209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1516209500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement présentées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516209500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Huiles de navette, de colza, de lin, de tournesol, d'illipé, de karité, de makoré, de touloucouna ou de babassu, destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1516209600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516209600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Huiles d'arachide, de coton, de soja ou de tournesol; autres huiles d'une teneur en acides gras libres de moins de 50|% en poids et à l'exclusion des huiles de palmiste, d'illipé, de coco, de navette, de colza ou de copaïba</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1516209800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1516209821</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Mélanges contenant, en poids, plus de 20 % d'esters monoalkyles d'acides gras et/ou de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516209821</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516209829</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516209833</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % d'esters monoalkyles d'acides gras et/ou de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516209880</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1516300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graisses et huiles d'origine microbienne et leurs fractions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516309100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présentées en emballages immédiats d'un contenu net de 1|kg ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1516309800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1517000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Margarine; mélanges ou préparations alimentaires de graisses ou d'huiles animales, végétales ou d'origine microbienne ou de fractions de différentes graisses ou huiles du présent chapitre, autres que les graisses et huiles alimentaires et leurs fractions du n$o|1516</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1517100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Margarine, à l'exclusion de la margarine liquide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de matières grasses provenant du lait excédant 10|% mais n'excédant pas 15|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1517109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de matières grasses provenant du lait n'excédant pas 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1517900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de matières grasses provenant du lait excédant 10|% mais n'excédant pas 15|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1517909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Huiles végétales fixes, fluides, mélangées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517909300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélanges ou préparations culinaires utilisés pour le démoulage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1517909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1517909930</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Contenant de l'huile d'acide arachidonique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517909930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Huile d'origine végétale et/ou microbienne, raffinée, contenant en poids:-25 % ou plus, mais pas plus de 70 % d'acide arachidonique et pas plus de 5 % d'acide docosahexaénoïque, ou-10 % ou plus, mais pas plus de 80 % d'acide eicosapenténoïque et un rapport minimum d'EPA/(EPA+DHA) supérieur à 20 %,normalisée avec de l'huile d'origine végétale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517909990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1517909999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1518000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graisses et huiles animales, végétales ou d'origine microbienne et leurs fractions, cuites, oxydées, déshydratées, sulfurées, soufflées, standolisées ou autrement modifiées chimiquement, à l'exclusion de celles du n$o|1516; mélanges ou préparations non alimentaires de graisses ou d'huiles animales, végétales ou d'origine microbienne ou de fractions de différentes graisses ou huiles du présent chapitre, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Linoxyne</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1518003100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles végétales fixes, fluides, mélangées, destinées à des usages techniques ou industriels autres que la fabrication de produits pour l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518003100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518003900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1518009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1518009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Graisses et huiles animales, végétales ou d'origine microbienne et leurs fractions, cuites, oxydées, déshydratées, sulfurées, soufflées, standolisées ou autrement modifiées chimiquement, à l'exclusion de celles du n$o|1516</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1518009121</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélanges contenant, en poids, plus de 20 % d'esters monoalkyles d'acides gras et/ou de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009121</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009129</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009133</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % d'esters monoalkyles d'acides gras et/ou de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009180</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1518009500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1518009500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélanges ou préparations non alimentaires de graisses et d'huiles animales et de leurs fractions, ou de graisses et d'huiles animales et végétales et de leurs fractions, ou de graisses et d'huiles animales et d'origine microbienne et de leurs fractions, ou de graisses et d'huiles animales, végétales et d'origine microbienne et de leurs fractions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009521</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % d'esters monoalkyles d'acides gras et/ou de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009533</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélanges contenant, en poids, plus de 20 % d'esters monoalkyles d'acides gras et/ou de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1518009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1518009921</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélanges contenant, en poids, plus de 20 % d'esters monoalkyles d'acides gras et/ou de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009921</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009929</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009933</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % d'esters monoalkyles d'acides gras et/ou de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1518009990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1520000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Glycérol brut; eaux et lessives glycérineuses</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1521000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cires végétales (autres que les triglycérides), cires d'abeilles ou d'autres insectes et spermaceti, même raffinés ou colorés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1521100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cires végétales</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1521900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1521901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Spermaceti, même raffiné ou coloré</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1521909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cires d'abeilles ou d'autres insectes, même raffinées ou colorées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1521909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1521909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1522000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Dégras; résidus provenant du traitement des corps gras ou des cires animales ou végétales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1522001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dégras</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1522003100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résidus provenant du traitement des corps gras ou des cires animales ou végétales</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1522003100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'huile ayant les caractères de l'huile d'olive</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1522003100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pâtes de neutralisation (soap-stocks)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1522003900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1522009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1522009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lies ou fèces d'huiles, pâtes de neutralisation (soap-stocks)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1522009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -44,6 +44,14 @@ export interface ApiDefinition {
     update: typeof routes['categories.update']
     destroy: typeof routes['categories.destroy']
   }
+  customsNomenclatures: {
+    chapters: typeof routes['customs_nomenclatures.chapters']
+    tree: typeof routes['customs_nomenclatures.tree']
+    search: typeof routes['customs_nomenclatures.search']
+    products: typeof routes['customs_nomenclatures.products']
+    triggerSync: typeof routes['customs_nomenclatures.trigger_sync']
+    syncStream: typeof routes['customs_nomenclatures.sync_stream']
+  }
   products: {
     count: typeof routes['products.count']
     recent: typeof routes['products.recent']

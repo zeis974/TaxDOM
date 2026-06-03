@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 54 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:41</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>FILAMENTS SYNTHÉTIQUES OU ARTIFICIELS;</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils à coudre de filaments synthétiques ou artificiels, même conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5401100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de filaments synthétiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5401101200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5401101200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils à âme dits core yarn</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5401101200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Filaments de polyester enrobés de fibres de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5401101400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5401101600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5401101600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5401101800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5401109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5401200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de filaments artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5401201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5401209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5402000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de filaments synthétiques (autres que les fils à coudre), non conditionnés pour la vente au détail, y compris les monofilaments synthétiques de moins de 67|décitex</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5402110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils à haute ténacité de nylon ou d'autres polyamides, même texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'aramides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5402200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils à haute ténacité de polyesters, même texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402200005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils retors et fils câblés tordus en Z destinés à la fabrication de fil à coudre, prêts pour la teinture et pour un traitement de finition, enroulés de façon lâche sur un tube en plastique perforé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5402310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de nylon ou d'autres polyamides, titrant en fils simples 50|tex ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de nylon ou d'autres polyamides, titrant en fils simples plus de 50|tex</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5402330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402330010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils texturés de polyesters:-texturés en recourant aux méthodes de traitement thermique unique ou double conformément à la norme DIN 53840-T1,-d'une densité linéaire de 83 dtex ou plus, mais n'excédant pas 666 dtex,-d'une ténacité moyenne minimale de 32 cN/tex,-comptant 36 filaments ou plus, mais pas plus de 192,-d'une élongation à la rupture de 16 % ou plus, mais n'excédant pas 33 %,-d'un rétrécissement à l'eau bouillante de 3 % ou plus, mais n'excédant pas 8 %,-contenant 1 % ou plus mais pas plus de 3 % en poids d'huile minérale, d'huile synthétique ou d'huiles mélangées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402330090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5402440000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, simples, sans torsion ou d'une torsion n'excédant pas 50|tours au mètre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'élastomères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402450000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402460000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, de polyesters, partiellement orientés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402470000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402480000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, de polypropylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5402490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402490030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils d'un copolymère d'acide glycolique et d'acide lactique, destinés à la fabrication de ligatures pour sutures chirurgicales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402490050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils de poly(alcool vinylique), non texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402490090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5402510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, simples, d'une torsion excédant 50|tours au mètre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5402610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, retors ou câblés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402630000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5402690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5403000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de filaments artificiels (autres que les fils à coudre), non conditionnés pour la vente au détail, y compris les monofilaments artificiels de moins de 67|décitex</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils à haute ténacité en rayonne viscose</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5403310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, simples</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5403310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de rayonne viscose, sans torsion ou d'une torsion n'excédant pas 120|tours au mètre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403310010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils continus de filaments de rayonne viscose de 105 dtex ou plus mais n'excédant pas 117 dtex, et constitués de 36 monofilaments ou plus mais n'excédant pas 40 monofilaments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403310020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils de filaments de rayonne viscose centrifuges, avec :-une densité linéaire de 80 décitex ou plus mais n'excédant pas 88 décitex, et-24 filaments ou plus mais pas plus de 36 monofilaments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403310090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5403320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de rayonne viscose, d'une torsion excédant 120|tours au mètre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5403320011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une torsion n'excédant pas 250|tours au mètre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403320011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403320019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403320090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5403330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'acétate de cellulose</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5403330011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>simples, sans torsion ou d'une torsion n'excédant pas 250|tours au mètre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403330011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403330019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403330090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5403410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fils, retors ou câblés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de rayonne viscose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'acétate de cellulose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5403490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Monofilaments synthétiques de 67|décitex ou plus et dont la plus grande dimension de la coupe transversale n'excède pas 1|mm; lames et formes similaires (paille artificielle, par exemple) en matières textiles synthétiques, dont la largeur apparente n'excède pas 5|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5404110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Monofilaments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5404110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'élastomères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5404120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, de polypropylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5404190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5404190060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Filaments synthétiques de polyester obtenus par voie chimique, présentant :-un diamètre de 0,1 mm ou plus mais n'excédant pas 0,6 mm, -une longueur de 30 mm ou plus mais n'excédant pas 120 mm,destinés à la fabrication de pinceaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5404190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5404900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5404901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polypropylène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5404909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5404909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lame de polyimide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5404909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5405000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Monofilaments artificiels de 67|décitex ou plus et dont la plus grande dimension de la coupe transversale n'excède pas 1|mm; lames et formes similaires (paille artificielle, par exemple) en matières textiles artificielles, dont la largeur apparente n'excède pas 5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5406000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de filaments synthétiques ou artificiels (autres que les fils à coudre), conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5407000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de fils de filaments synthétiques, y compris les tissus obtenus à partir des produits du n$o|5404</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus obtenus à partir de fils à haute ténacité de nylon ou d'autres polyamides ou de polyesters</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5407200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus obtenus à partir de lames ou formes similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5407201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de polyéthylène ou de polypropylène, d'une largeur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de moins de 3|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de 3|m ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5407300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>"Tissus" visés à la note|9|de la section|XI</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissu à maille ouverte constitué de filaments d'une polyoléfine réticulés par un procédé thermique, d'une masse volumique de 0,94 g/cm³ ou plus, caractérisé par :-un poids de 21 g/m2 ou plus, mais pas plus de 24 g/m2,-une largeur de 560 mm ou plus, mais pas plus de 1 200 mm,-une épaisseur de 100 µm ou plus, mais pas plus de 120 µm,-un allongement à la rupture de 20 % au maximum (ASTM D5034, sens machine),-un allongement à la rupture de 22 % au maximum (ASTM D5034, sens travers),-un étirement de 100 N/5 cm au maximum (ASTM D882, sens machine), et-un étirement de 130 N/5 cm au maximum (ASTM D882, sens travers)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5407410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus, contenant au moins 85|% en poids de filaments de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5407510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus, contenant au moins 85|% en poids de filaments de polyester texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407540000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5407610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus, contenant au moins 85|% en poids de filaments de polyester</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5407610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant au moins 85|% en poids de filaments de polyester non texturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407611000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407613000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407615000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407619000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5407690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407691000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407699000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5407710000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus, contenant au moins 85|% en poids de filaments synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407710000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407720000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407730000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407740000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5407810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus, contenant moins de 85|% en poids de filaments synthétiques et mélangés principalement ou uniquement avec du coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407830000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407840000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5407910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5407940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5408000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de fils de filaments artificiels, y compris les tissus obtenus à partir des produits du n$o|5405</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus obtenus à partir de fils à haute ténacité de rayonne viscose</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5408210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus, contenant au moins 85|% en poids de filaments ou de lames ou formes similaires, artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5408220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5408221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une largeur excédant 135|cm mais n'excédant pas 155|cm, à armure toile, sergé, croisé ou satin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408221010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fabrication à partir de fils de filaments artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408221090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5408229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408229010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fabrication à partir de fils de filaments artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408229090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5408310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus ou blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5408320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408320010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fabrication à partir de fils de filaments artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408320090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5408340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne></contenu></table>

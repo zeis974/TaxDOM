@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 05 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:04</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>0500000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>AUTRES PRODUITS D'ORIGINE ANIMALE, NON DÉNOMMÉS NI COMPRIS AILLEURS</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0501000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cheveux bruts, même lavés ou dégraissés; déchets de cheveux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0502000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Soies de porc ou de sanglier; poils de blaireau et autres poils pour la brosserie; déchets de ces soies ou poils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0502100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Soies de porc ou de sanglier et déchets de ces soies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0502900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0504000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Boyaux, vessies et estomacs d'animaux, entiers ou en morceaux, autres que ceux de poissons, à l'état frais, réfrigéré, congelé, salé ou en saumure, séché ou fumé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0504000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boyaux traités</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0504000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0505000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Peaux et autres parties d'oiseaux revêtues de leurs plumes ou de leur duvet, plumes et parties de plumes (même rognées), duvet, bruts ou simplement nettoyés, désinfectés ou traités en vue de leur conservation; poudres et déchets de plumes ou de parties de plumes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0505100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plumes des espèces utilisées pour le rembourrage; duvet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0505101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>bruts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0505109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0505900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0506000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Os et cornillons, bruts, dégraissés, simplement préparés (mais non découpés en forme), acidulés ou dégélatinés; poudres et déchets de ces matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0506100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Osséine et os acidulés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0506900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0507000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ivoire, écaille de tortue, fanons (y compris les barbes) de baleine ou d'autres mammifères marins, cornes, bois, sabots, ongles, griffes et becs, bruts ou simplement préparés mais non découpés en forme; poudres et déchets de ces matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0507100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ivoire; poudre et déchets d'ivoire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0507900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0508000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Corail et matières similaires, bruts ou simplement préparés, mais non autrement travaillés; coquilles et carapaces de mollusques, de crustacés ou d'échinodermes et os de seiches, bruts ou simplement préparés, mais non découpés en forme, leurs poudres et leurs déchets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0508001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Corail rouge (Corallium rubrum)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0508009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0508009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Coquilles et carapaces vides utilisées pour l'alimentation humaine et comme matière première de la glucosamine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0508009020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Les coquilles et carapaces, dont les os de seiches, contenant des corps mous et de la chair, tels que visés à l'article 10, point k) i), du règlement (CE) no 1069/2009.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0508009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0510000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ambre gris, castoréum, civette et musc; cantharides; bile, même séchée; glandes et autres substances d'origine animale utilisées pour la préparation de produits pharmaceutiques, fraîches, réfrigérées, congelées ou autrement conservées de façon provisoire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0511000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits d'origine animale, non dénommés ni compris ailleurs; animaux morts des chapitres|1|ou 3, impropres à l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sperme de taureaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0511910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0511910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits de poissons ou de crustacés, mollusques ou autres invertébrés aquatiques; animaux morts du chapitre|3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Déchets de poissons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0511990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tendons et nerfs, rognures et autres déchets similaires de peaux brutes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0511993100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Éponges naturelles d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511993100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>brutes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511993900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0511998500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511998510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Semence de mammifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511998520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Ovules et embryons de mammifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0511998590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

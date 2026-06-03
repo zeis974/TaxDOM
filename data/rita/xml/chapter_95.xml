@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 95 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:13</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9500000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>JOUETS, JEUX, ARTICLES POUR DIVERTISSEMENTS OU POUR SPORTS; LEURS PARTIES ET ACCESSOIRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tricycles, trottinettes, autos à pédales et jouets à roues similaires; landaus et poussettes pour poupées; poupées; autres jouets; modèles réduits et modèles similaires pour le divertissement, animés ou non; puzzles de tout genre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tricycles, trottinettes, autos à pédales et jouets à roues similaires; landaus et poussettes pour poupées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9503002100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poupées représentant uniquement l'être humain et leurs parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503002100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poupées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503002110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poupées décoratives habillées d'une manière folklorique caractéristique du pays d'origine, faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503002190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503002900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Trains électriques, y compris les rails, les signaux et autres accessoires; modèles réduits, animés ou non, à assembler</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9503003500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres assortiments et jouets de construction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503003500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matière plastique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503003900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503003910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main, en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503003990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9503004100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Jouets représentant des animaux ou des créatures non humaines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503004100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>rembourrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503004900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503004910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main, en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503004990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503005500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Instruments et appareils de musique-jouets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503005510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main, en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503005590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9503006100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Puzzles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503006100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503006110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503006190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503006900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503007000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres jouets, présentés en assortiments ou en panoplies</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9503007500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres jouets et modèles, à moteur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503007500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503007900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9503008100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503008100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Armes-jouets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503008110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main, en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503008190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503008500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Modèles miniatures obtenus par moulage, en métal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503008700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dispositifs éducatifs électroniques interactifs portatifs principalement conçus pour les enfants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9503009500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503009500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503009530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Moteur miniature:-constitué d'un corps en matière plastique,-contenant un ressort,-mettant en mouvement les arbres à pignon par tension du ressort,destiné à la fabrication de jouets relevant de la position 9503</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503009540</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Moteur miniature actionné par frottement mécanique:-constitué d'un corps en matière plastique,-d'une longueur d'arbre comprise entre 10,5 cm et 14,5 cm,-comportant un disque métallique,-déclenchant le mouvement en faisant tourner les pignons grâce à la force exercée par frottementdestiné à la fabrication de jouets relevant de la position 9503</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503009590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9503009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503009910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main, en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9503009990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9504000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Consoles et machines de jeux vidéo, jeux de société, y compris les jeux à moteur ou à mouvement, les billards, les tables spéciales pour jeux de casino, les jeux de quilles automatiques (bowlings, par exemple), les jeux fonctionnant par l'introduction d'une pièce de monnaie, d'un billet de banque, d'une carte bancaire, d'un jeton ou par tout autre moyen de paiement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9504200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Billards de tout genre et leurs accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9504300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres jeux fonctionnant par l'introduction d'une pièce de monnaie, d'un billet de banque, d'une carte bancaire, d'un jeton ou par tout autre moyen de paiement, à l'exclusion des jeux de quilles automatiques (bowlings)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9504301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Jeux avec écran</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9504302000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres jeux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9504309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9504400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cartes à jouer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9504500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Consoles et machines de jeux vidéo, autres que celles du n$o|9504|30</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9504900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9504901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Circuits électriques de voitures automobiles présentant les caractéristiques de jeux de compétition</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9504908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9505000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles pour fêtes, carnaval ou autres divertissements, y compris les articles de magie et articles-surprises</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9505100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles pour fêtes de Noël</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9505101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9505109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9505900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9506000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles et matériel pour la culture physique, la gymnastique, l'athlétisme, les autres sports (y compris le tennis de table) ou les jeux de plein air, non dénommés ni compris ailleurs dans le présent chapitre; piscines et pataugeoires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9506110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Skis de neige et autre matériel pour la pratique du ski de neige</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9506110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Skis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Skis de fond</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9506112100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Skis alpins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506112100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Monoskis et surfs des neiges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506112900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506118000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres skis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fixations pour skis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9506210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Skis nautiques, aquaplanes, planches à voile et autre matériel pour la pratique des sports nautiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Planches à voile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9506310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Clubs de golf et autre matériel pour le golf</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Clubs complets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Balles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9506390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties de clubs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506399000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles et matériel pour le tennis de table</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9506510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Raquettes de tennis, de badminton ou similaires, même non cordées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Raquettes de tennis, même non cordées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9506610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ballons et balles, autres que les balles de golf ou de tennis de table</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Balles de tennis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>gonflables</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9506690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506691000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Balles de cricket ou de polo</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506699000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9506700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Patins à glace et patins à roulettes, y compris les chaussures auxquelles sont fixés des patins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506701000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Patins à glace</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506703000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Patins à roulettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506709000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties et accessoires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9506910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9506910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Articles et matériel pour la culture physique, la gymnastique ou l'athlétisme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Appareils d'exercices à système d'effort modulable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9506990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Articles de cricket ou de polo autres que les balles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9506999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9507000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cannes à pêche, hameçons et autres articles pour la pêche à la ligne; épuisettes pour tous usages; leurres (autres que ceux des n$o$s|9208|ou 9705) et articles de chasse similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9507100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cannes à pêche</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9507200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hameçons, même montés sur avançons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9507201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hameçons non montés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9507209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9507300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Moulinets pour la pêche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9507900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9508000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cirques ambulants et ménageries ambulantes; manèges pour parcs de loisirs et attractions de parcs aquatiques; attractions foraines, y compris les stands de tir; théâtres ambulants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9508100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cirques ambulants et ménageries ambulantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>comprenant des animaux vivants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9508210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Manèges pour parcs de loisirs et attractions de parcs aquatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Montagnes russes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carrousels, balançoires et manèges</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autos tamponneuses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Simulateurs de mouvements et cinémas dynamiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Manèges aquatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508260000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Attractions de parcs aquatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Attractions foraines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9508400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Théâtres ambulants</Description>
+</ligne></contenu></table>

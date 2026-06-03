@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 74 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:57</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>7400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>CUIVRE ET OUVRAGES EN CUIVRE</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mattes de cuivre; cuivre de cément (précipité de cuivre)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7402000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuivre non affiné; anodes en cuivre pour affinage électrolytique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7403000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuivre affiné et alliages de cuivre sous forme brute</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7403110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cuivre affiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7403110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cathodes et sections de cathodes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7403120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Barres à fil (wire-bars)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7403130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Billettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7403190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7403210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alliages de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7403210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de cuivre-zinc (laiton)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7403220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de cuivre-étain (bronze)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7403290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres alliages de cuivre (à l'exception des alliages mères du n$o|7405)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets et débris de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7404001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de cuivre affiné</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7404009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'alliages de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7404009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de cuivre-zinc (laiton)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7404009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7405000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Alliages mères de cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7406000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poudres et paillettes de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7406100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres à structure non lamellaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7406200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres à structure lamellaire; paillettes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7407000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Barres et profilés en cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7407100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en cuivre affiné</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7407210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages de cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7407210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de cuivre-zinc (laiton)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7407211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7407219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Profilés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7407290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7408000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de cuivre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7408110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en cuivre affiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7408110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>dont la plus grande dimension de la section transversale excède 6|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7408190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7408191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la plus grande dimension de la section transversale excède 0,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7408199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la plus grande dimension de la section transversale n'excède pas 0,5|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7408210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7408210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de cuivre-zinc (laiton)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7408220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de cuivre-nickel (cupronickel) ou de cuivre-nickel-zinc (maillechort)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7408290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7409000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tôles et bandes en cuivre, d'une épaisseur excédant 0,15|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7409110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en cuivre affiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7409110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>enroulées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7409190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7409210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages à base de cuivre-zinc (laiton)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7409210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>enroulées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7409290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7409310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages à base de cuivre-étain (bronze)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7409310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>enroulées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7409390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7409400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages à base de cuivre-nickel (cupronickel) ou de cuivre-nickel-zinc (maillechort)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7409900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en autres alliages de cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7410000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Feuilles et bandes minces en cuivre (même imprimées ou fixées sur papier, carton, matière plastique ou supports similaires) d'une épaisseur n'excédant pas 0,15|mm (support non compris)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7410110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>sans support</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7410110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cuivre affiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410110050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles et bandes en cuivre affiné, fabriquées par voie électrolytique, d'une épaisseur supérieure ou égale à 0,015 mm mais n'excédant pas 0,150 mm, utilisées pour la fabrication de stratifiés pour cartes de circuits imprimés et de cartes de circuits imprimés dans le secteur des cartes de circuits imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en alliages de cuivre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7410210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>sur support</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7410210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cuivre affiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tablette ou plaque de polytétrafluoroéthylène, contenant de l'oxyde d'aluminium ou du dioxyde de titane comme charge ou armée d'un tissu de fibres de verre, recouverte sur les deux faces d'une pellicule de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410210020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plaques, feuilles, rouleaux, constitués d'une couche de tissu de fibre de verre imprégné de résine époxy de 110|µm, recouverts sur une face ou sur les deux faces d'un film de cuivre affiné d'une épaisseur de 35|µm avec une tolérance de 10|%destinés à la fabrication de cartes intelligentes à puce</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410210030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Film de polyimide contenant ou non de la résine époxyde et/ou des fibres de verre, recouvert sur une face ou sur les deux faces d'une pellicule de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410210040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles ou plaques -|constituées d'au moins une couche centrale de papier ou d'une feuille centrale de tout type de fibre non tissée, stratifiées sur chaque face avec un tissu de fibres de verre et imprégnées de résine époxy, ou -|constituées de plusieurs couches de papier, imprégnées de résine phénolique,recouvertes sur une face ou sur les deux faces d'une pellicule de cuivre d'une épaisseur maximale de 0,15|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410210050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plaques:-constituées d'au moins une couche de tissu de fibre de verre imprégné de résine thermodurcissable,-recouvertes sur une ou deux faces d'une feuille de cuivre d'une épaisseur maximale de 0,15 mm, et-ayant une constante diélectrique (DK) inférieure à 3,9 et un facteur de perte (Df) inférieur à 0,015 à une fréquence de mesure de 10 GHz, mesurés conformément à la procédure IPC-TM-650</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410210055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plaques: ¿ constituées d'au moins une couche de tissu de fibre de verre imprégné de résine époxy, ¿ recouvertes sur une face ou sur leurs deux faces d'un film de cuivre d'une épaisseur ne dépassant pas 0,15 mm, ¿ présentant une constante diélectrique inférieure à 5,4 à 1 MHz, mesurée selon la méthode IPC-TM-650 2.5.5.2, ¿ présentant une tangente de perte inférieure à 0,035 à 1 MHz, mesurée selon la méthode IPC-TM-650 2.5.5.2, ¿ présentant un indice de résistance au cheminement (CTI) supérieur ou égal à 600</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7410220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en alliages de cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7411000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tubes et tuyaux en cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7411100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en cuivre affiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7411101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>droits</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7411109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7411109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes et des tuyaux en cuivre affiné, en bobines trancannées, lisses ou rainurés à l'intérieur, non transformés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7411109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7411210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages de cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7411210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de cuivre-zinc (laiton)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7411211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>droits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7411219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7411220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de cuivre-nickel (cupronickel) ou de cuivre-nickel-zinc (maillechort)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7411290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7412000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Accessoires de tuyauterie (raccords, coudes, manchons, par exemple), en cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7412100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en cuivre affiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7412200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en alliages de cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7413000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Torons, câbles, tresses et articles similaires, en cuivre, non isolés pour l'électricité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7413000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7413000020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bague de centrage de haut-parleur, constituée d'un ou de plusieurs amortisseurs de vibrations et d'au minimum 2 fils de cuivre non isolés, enfilés ou pressés à l'intérieur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7413000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7415000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pointes, clous, punaises, crampons appointés et articles similaires, en cuivre ou avec tige en fer ou en acier et tête en cuivre; vis, boulons, écrous, crochets à pas de vis, rivets, goupilles, chevilles, clavettes, rondelles (y compris les rondelles destinées à faire ressort) et articles similaires, en cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7415100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pointes et clous, punaises, crampons appointés et articles similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7415210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres articles, non filetés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7415210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rondelles (y compris les rondelles destinées à faire ressort)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7415290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7415330000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres articles, filetés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7415330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vis; boulons et écrous</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7415390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7418000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles de ménage ou d'économie domestique, d'hygiène ou de toilette, et leurs parties, en cuivre; éponges, torchons, gants et articles similaires pour le récurage, le polissage ou usages analogues, en cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7418100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles de ménage ou d'économie domestique et leurs parties; éponges, torchons, gants et articles similaires pour le récurage, le polissage ou usages analogues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7418101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils non électriques de cuisson ou de chauffage, des types servant à des usages domestiques, et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7418109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7418109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7418109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7418200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles d'hygiène ou de toilette et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7418200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7418200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7419000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7419200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coulés, moulés, estampés ou forgés, mais non autrement travaillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7419200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7419200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7419800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7419801000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Toiles métalliques (y compris les toiles continues ou sans fin), grillages et treillis, en fils, dont la plus grande dimension de la coupe transversale n'excède pas 6|mm; tôles et bandes déployées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7419803000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ressorts</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7419809000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7419809010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7419809098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

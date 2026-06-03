@@ -1,10 +1,14 @@
 import { relations, sql } from "drizzle-orm"
 import {
   boolean,
+  date,
   decimal,
   index,
+  integer,
   pgTable,
   primaryKey,
+  smallint,
+  text,
   timestamp,
   uuid,
   varchar,
@@ -18,6 +22,7 @@ export const categories = pgTable(
     taxID: uuid("tax_id")
       .notNull()
       .references(() => taxes.taxID, { onDelete: "restrict", onUpdate: "cascade" }),
+    nomenclatureCode: varchar("nomenclature_code", { length: 10 }),
   },
   (table) => [index("categories_taxID_idx").on(table.taxID)],
 )
@@ -63,6 +68,10 @@ export const products = pgTable(
       .notNull()
       .references(() => territories.territoryID, { onDelete: "restrict", onUpdate: "cascade" }),
     available: boolean("available").notNull().default(true),
+    nomenclatureCode: varchar("nomenclature_code", { length: 10 }),
+    tvaOverride: decimal("tva_override", { precision: 6, scale: 4 }),
+    omOverride: decimal("om_override", { precision: 6, scale: 4 }),
+    omrOverride: decimal("omr_override", { precision: 6, scale: 4 }),
     createdAt: timestamp("created_at", { mode: "date" }).defaultNow(),
     updatedAt: timestamp("updated_at", { mode: "date" })
       .defaultNow()
@@ -72,6 +81,7 @@ export const products = pgTable(
     index("products_categoryID_idx").on(table.categoryID),
     index("products_originID_idx").on(table.originID),
     index("products_territoryID_idx").on(table.territoryID),
+    index("products_nomenclatureCode_idx").on(table.nomenclatureCode),
   ],
 )
 
@@ -143,3 +153,31 @@ export const TemplateProductsRelations = relations(templateProducts, ({ one }) =
     references: [products.productID],
   }),
 }))
+
+export const customsNomenclatures = pgTable(
+  "customs_nomenclatures",
+  {
+    code: varchar("code", { length: 10 }).primaryKey(),
+    parentCode: varchar("parent_code", { length: 10 }),
+    description: text("description").notNull(),
+    alinea: smallint("alinea").notNull(),
+    type: smallint("type").notNull(),
+    chapter: smallint("chapter").notNull(),
+    validAt: date("valid_at").notNull(),
+    updatedAt: timestamp("updated_at", { withTimezone: true }),
+  },
+  (table) => [
+    index("customs_nomenclatures_parentCode_idx").on(table.parentCode),
+    index("customs_nomenclatures_chapter_idx").on(table.chapter),
+  ],
+)
+
+export const ritaSyncRuns = pgTable("rita_sync_runs", {
+  id: uuid("id").primaryKey().default(sql`uuidv7()`),
+  startedAt: timestamp("started_at", { withTimezone: true }).defaultNow(),
+  finishedAt: timestamp("finished_at", { withTimezone: true }),
+  chapter: smallint("chapter"),
+  rowsImported: integer("rows_imported"),
+  status: varchar("status", { length: 20 }).notNull().default("running"),
+  errorMessage: text("error_message"),
+})

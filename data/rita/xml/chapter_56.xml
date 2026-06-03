@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 56 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:43</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OUATES, FEUTRES ET NONTISSÉS; FILS SPÉCIAUX; FICELLES, CORDES ET CORDAGES; ARTICLES DE CORDERIE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouates de matières textiles et articles en ces ouates; fibres textiles d'une longueur n'excédant pas 5|mm (tontisses), noeuds et noppes (boutons) de matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5601210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ouates de matières textiles et articles en ces ouates</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5601210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5601211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>hydrophile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5601219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5601220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5601221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Rouleaux d'un diamètre n'excédant pas 8|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5601229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5601290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5601300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tontisses, noeuds et noppes (boutons) de matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5601300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fibres de poly(alcool vinylique), même acétalisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5601300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Feutres, même imprégnés, enduits, recouverts ou stratifiés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5602100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Feutres aiguilletés et produits cousus-tricotés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5602101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non imprégnés, ni enduits, ni recouverts, ni stratifiés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5602101100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feutres aiguilletés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n$o|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5602103100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits cousus-tricotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602103100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5602103800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602103810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de poils grossiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602103890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprégnés, enduits, recouverts ou stratifiés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5602210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres feutres, non imprégnés ni enduits ni recouverts ni stratifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5602290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de poils grossiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5602900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Nontissés, même imprégnés, enduits, recouverts ou stratifiés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5603110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de filaments synthétiques ou artificiels</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids n'excédant pas 25|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>enduits ou recouverts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603111010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de poly(alcool vinylique), en pièces ou simplement découpé de forme carrée ou rectangulaire: -|d'une épaisseur de 200|µm ou plus mais n'excédant pas 280|µm et -|d'un poids de 20|g/m$2|ou plus mais n'excédant pas 50|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603111090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603119010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de poly(alcool vinylique), en pièces ou simplement découpé de forme carrée ou rectangulaire: -|d'une épaisseur de 200|µm ou plus mais n'excédant pas 280|µm et -|d'un poids de 20|g/m$2|ou plus mais n'excédant pas 50|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603119090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids supérieur à 25|g/m$2|mais n'excédant pas 70|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>enduits ou recouverts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603121010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de poly(alcool vinylique), en pièces ou simplement découpé de forme carrée ou rectangulaire: -|d'une épaisseur de 200|µm ou plus mais n'excédant pas 280|µm et -|d'un poids de 20|g/m$2|ou plus mais n'excédant pas 50|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603121090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603129010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de poly(alcool vinylique), en pièces ou simplement découpé de forme carrée ou rectangulaire: -|d'une épaisseur de 200|µm ou plus mais n'excédant pas 280|µm et -|d'un poids de 20|g/m$2|ou plus mais n'excédant pas 50|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603129030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé en pièces ou simplement découpés, de forme carrée ou rectangulaire, en polyamide aromatique obtenu par polycondensation de m-phénylènediamine et d'acide isophtalique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603129060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de fibres obtenues par filage direct de polyéthylène, d'un poids de plus de 60 g/m² mais n'excédent pas 80 g/m² et d'une résistance à l'air (Gurley) de 8 s ou plus mais n'excédant pas 36 s (d'après la méthode ISO 5636/5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603129090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids supérieur à 70|g/m$2|mais n'excédant pas 150|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>enduits ou recouverts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603131020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Non tissé obtenu par filage direct de polyéthylène, avec revêtement, -|d'un poids supérieur à 80|g/m$2|mais n'excédant pas 105|g/m$2, et  -|présentant une résistance à l'air (Gurley) de8secondes au minimum et de75|secondes au maximum (déterminée par la méthode ISO5636/5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603131090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603139000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603139030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé en pièces ou simplement découpés, de forme carrée ou rectangulaire, en polyamide aromatique obtenu par polycondensation de m-phénylènediamine et d'acide isophtalique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603139060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de fibres obtenues par filage direct de polyéthylène, d'un poids de plus de 60 g/m² mais n'excédant pas 80 g/m² et d'une résistance à l'air (Gurley) de 8 s ou plus mais n'excédant pas 36 s (d'après la méthode ISO 5636/5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603139070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles de filaments de polyester aiguilletées, non tissées, renforcées ou non par des fibres de verre, d'une épaisseur excédant 0,5 mm mais n'excédant pas 1,8 mm, imprégnées d'un ou de plusieurs liants, contenant moins de 30 % en poids de fibres de verre, non enduites ni recouvertes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603139090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids supérieur à 150|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603141000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>enduits ou recouverts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603141030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissés, constitués d'un matériau filé-lié de poly(téréphtalate d'éthylène) :-d'un poids de 160 g/m² ou plus mais n'excédant pas 300 g/m²,-d'une efficacité de filtration de classe M ou supérieure (selon la norme DIN 60335-2-69),-pouvant être plissés,-ayant subi au moins l'un des traitements suivants :-enduction ou recouvrement avec du polytétrafluoréthylène (PTFE),-enduction avec des particules d'aluminium,-enduction de retardateurs de flamme phosphorés,-enduction des nano fibres de polyamide, de polyuréthane ou d'un polymère à base de fluorine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603141090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5603142000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603142000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles de support, en polyester, visées à la note complémentaire 1|du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603148000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603148010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Nontissé en pièces ou simplement découpés, de forme carrée ou rectangulaire, en polyamide aromatique obtenu par polycondensation de m-phénylènediamine et d'acide isophtalique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603148060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Non-tissés, constitués d'un matériau filé-lié de poly(téréphtalate d'éthylène):-d'un poids de 160 g/m² ou plus mais n'excédant pas 300 g/m²-avec une efficacité de filtration conforme à la classe M minimale de filtre DIN 60335-2-69:2008- pouvant être plissés- avec ou sans membrane de polytétrafluoroéthylène expansé (ePTFE)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603148070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Feuilles de filaments de polyester aiguilletées, non tissées, renforcées ou non par des fibres de verre, d'une épaisseur excédant 0,5 mm mais n'excédant pas 1,8 mm, imprégnées d'un ou de plusieurs liants, contenant moins de 30 % en poids de fibres de verre, non enduites ni recouvertes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603148090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5603910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids n'excédant pas 25|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>enduits ou recouverts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603911010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de poly(alcool vinylique), en pièces ou simplement découpé de forme carrée ou rectangulaire: -|d'une épaisseur de 200|µm ou plus mais n'excédant pas 280|µm et -|d'un poids de 20|g/m$2|ou plus mais n'excédant pas 50|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603911090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603919010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de poly(alcool vinylique), en pièces ou simplement découpé de forme carrée ou rectangulaire: -|d'une épaisseur de 200|µm ou plus mais n'excédant pas 280|µm et -|d'un poids de 20|g/m$2|ou plus mais n'excédant pas 50|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603919090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids supérieur à 25|g/m$2|mais n'excédant pas 70|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>enduits ou recouverts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603921010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de poly(alcool vinylique), en pièces ou simplement découpé de forme carrée ou rectangulaire: -|d'une épaisseur de 200|µm ou plus mais n'excédant pas 280|µm et -|d'un poids de 20|g/m$2|ou plus mais n'excédant pas 50|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603921090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603929010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé de poly(alcool vinylique), en pièces ou simplement découpé de forme carrée ou rectangulaire: -|d'une épaisseur de 200|µm ou plus mais n'excédant pas 280|µm et -|d'un poids de 20|g/m$2|ou plus mais n'excédant pas 50|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603929060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé en pièces ou simplement découpés, de forme carrée ou rectangulaire, en polyamide aromatique obtenu par polycondensation de m-phénylènediamine et d'acide isophtalique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603929070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Non-tissés constitués de multiples couches d'un mélange de fibres de polypropylène et de polyester obtenues par procédé de fusion-soufflage et de fibres discontinues de ces polymères, même recouvertes sur une face ou sur les deux de filaments de polypropylène obtenus par filature directe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603929080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Non-tissé en polyoléfines, constitué d'une couche d'élastomère recouverte sur chaque face de filaments de polyoléfines:- d'un poids égal ou supérieur à de 25 g/m², mais n'excédant pas 70 g/m²,- d'une seule pièce ou simplement découpé en carrés ou en rectangles,- non imprégné,- extensible dans le sens travers ou le sens machine,entrant dans la fabrication d'articles de puériculture</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603929090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids supérieur à 70|g/m$2|mais n'excédant pas 150|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603931000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>enduits ou recouverts</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603939000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603939040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Nontissé en pièces ou simplement découpés, de forme carrée ou rectangulaire, en polyamide aromatique obtenu par polycondensation de m-phénylènediamine et d'acide isophtalique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603939050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Non-tissé en polyoléfines, constitué d'une couche d'élastomère recouverte sur chaque face de filaments de polyoléfines:- d'un poids égal ou supérieur à de 70 g/m², mais n'excédant pas 150 g/m²,- d'une seule pièce ou simplement découpé en carrés ou en rectangles,- non imprégné,- extensible dans le sens travers ou le sens machine,entrant dans la fabrication d'articles de puériculture</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603939090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids supérieur à 150|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603941000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>enduits ou recouverts</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5603942000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603942000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Feuilles de support, en polyester, visées à la note complémentaire 1|du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5603948000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603948020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Joncs de fibres acryliques, d'une longueur n'excédant pas 50 cm, destinés à la fabrication de pointes pour marqueurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603948030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Nontissé en pièces ou simplement découpés, de forme carrée ou rectangulaire, en polyamide aromatique obtenu par polycondensation de m-phénylènediamine et d'acide isophtalique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603948040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Non-tissés constitués de multiples couches d'un mélange de fibres de polypropylène et de polyester obtenues par procédé de fusion-soufflage et de fibres discontinues de ces polymères, même recouvertes sur une face ou sur les deux de filaments de polypropylène obtenus par filature directe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5603948090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5604000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils et cordes de caoutchouc, recouverts de textiles; fils textiles, lames et formes similaires des n$o$s|5404|ou 5405, imprégnés, enduits, recouverts ou gainés de caoutchouc ou de matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils et cordes de caoutchouc, recouverts de textiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5604900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5604901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils à haute ténacité de polyesters, de nylon ou d'autres polyamides ou de rayonne viscose, imprégnés ou enduits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de filaments synthétiques continus, non conditionnés pour la vente au détail, autres que fils non texturés, simples, sans torsion ou d'une torsion jusqu'à 50 tours au mètre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604901020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de rayonne viscose, non conditionnés pour la vente au détail, autres que fils simples, sans torsion ou d'une torsion jusqu'à 250 tours au mètre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5604909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils de soie de bourre de soie et poils de Messine (crin de Florence)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Monofils, lames et formes similaires (paille artificielle) et imitations de catguts en matières textiles synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604909030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de monofils artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604909050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fils de coton non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5604909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5605000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Filés métalliques et fils métallisés, même guipés, constitués par des fils textiles, des lames ou formes similaires des n$o$s|5404|ou 5405, combinés avec du métal sous forme de fils, de lames ou de poudres, ou recouverts de métal</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5606000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils guipés, lames et formes similaires des n$o$s|5404|ou 5405|guipées, autres que ceux du n$o|5605|et autres que les fils de crin guipés; fils de chenille; fils dits "de chaînette"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5606001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils dits "de chaînette"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5606009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5606009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils guipés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5606009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ficelles, cordes et cordages, tressés ou non, même imprégnés, enduits, recouverts ou gainés de caoutchouc ou de matière plastique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5607210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de sisal ou d'autres fibres textiles du genre Agave</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ficelles lieuses ou botteleuses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour machines agricoles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5607410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polyéthylène ou de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ficelles lieuses ou botteleuses</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5607491100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant plus de 50|000|décitex (5|grammes par mètre)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607491100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tressés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607491900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant 50|000|décitex (5|grammes par mètre) ou moins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres fibres synthétiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5607501100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de nylon ou d'autres polyamides ou de polyesters</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5607501100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant plus de 50|000|décitex (5|grammes par mètre)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607501100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tressés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607501110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ficelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607501190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607501900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607501910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ficelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607501990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607503000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant 50|000|décitex (5|grammes par mètre) ou moins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607503010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Ficelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607503090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607509090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ficelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607509098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'abaca (chanvre de Manille ou Musa textilis Nee) ou d'autres fibres (de feuilles) dures; de jute ou d'autres fibres textiles libériennes du n$o|5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607902010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'abaca (chanvre de Manille ou Musa textilis Nee) ou d'autres fibres (de feuilles) dures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607902020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de jute ou d'autres fibres textiles libériennes du n!o!||5303</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5607909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de chanvre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lin ou de ramie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5607909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5608000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Filets à mailles nouées, en nappes ou en pièces, obtenus à partir de ficelles, cordes ou cordages; filets confectionnés pour la pêche et autres filets confectionnés, en matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5608110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en matières textiles synthétiques ou artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5608110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Filets confectionnés pour la pêche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5608112000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en ficelles, cordes ou cordages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5608118000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5608190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5608191100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Filets confectionnés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5608191100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en nylon ou en autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5608191100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en ficelles, cordes ou cordages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5608191900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5608193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5608199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5608900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5608900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hamacs, de coton, faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5608900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5609000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles en fils, lames ou formes similaires des n$o$s|5404|ou 5405, ficelles, cordes ou cordages, non dénommés ni compris ailleurs</Description>
+</ligne></contenu></table>

@@ -73,6 +73,7 @@ export type Category = {
   categoryName: string
   taxID: string
   relatedProducts: number
+  nomenclatureCode?: string | null
   taxes?: {
     tva: number
     om: number
@@ -102,6 +103,10 @@ export type Product = {
     om: number
     omr: number
   }
+  nomenclatureCode?: string | null
+  tvaOverride?: number | null
+  omOverride?: number | null
+  omrOverride?: number | null
   createdAt: Date
   updatedAt: Date
 }
@@ -131,6 +136,10 @@ export type ParcelSimulatorResult = {
     om: number
     omr: number
     tva: number
+  }
+  taxesInfo?: {
+    applicable: "yes" | "no" | "maybe"
+    privateCustomer: boolean
   }
   products: {
     name: string

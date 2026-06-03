@@ -90,6 +90,42 @@ const routes = {
     tokens: [{"old":"/v1/admin/categories/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/categories/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/categories/:id","type":0,"val":"categories","end":""},{"old":"/v1/admin/categories/:id","type":1,"val":"id","end":""}],
     types: placeholder as Registry['categories.destroy']['types'],
   },
+  'customs_nomenclatures.chapters': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/chapters',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/chapters","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/chapters","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/chapters","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/chapters","type":0,"val":"chapters","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.chapters']['types'],
+  },
+  'customs_nomenclatures.tree': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/tree',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/tree","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/tree","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/tree","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/tree","type":0,"val":"tree","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.tree']['types'],
+  },
+  'customs_nomenclatures.search': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/search',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/search","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/search","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/search","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/search","type":0,"val":"search","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.search']['types'],
+  },
+  'customs_nomenclatures.products': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/:code/products',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":1,"val":"code","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"products","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.products']['types'],
+  },
+  'customs_nomenclatures.trigger_sync': {
+    methods: ["POST"],
+    pattern: '/v1/admin/customs-nomenclatures/sync',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/sync","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/sync","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/sync","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/sync","type":0,"val":"sync","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.trigger_sync']['types'],
+  },
+  'customs_nomenclatures.sync_stream': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/sync/:runId/stream',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"sync","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":1,"val":"runId","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"stream","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.sync_stream']['types'],
+  },
   'origins.count': {
     methods: ["GET","HEAD"],
     pattern: '/v1/admin/origins/count',

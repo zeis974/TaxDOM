@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 12 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:09</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1200000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>GRAINES ET FRUITS OLÉAGINEUX; GRAINES, SEMENCES ET FRUITS DIVERS; PLANTES INDUSTRIELLES OU MÉDICINALES; PAILLES ET FOURRAGES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1201000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fèves de soja, même concassées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1201100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1201900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1202000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Arachides non grillées ni autrement cuites, même décortiquées ou concassées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1202300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1202410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1202410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en coques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1202420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>décortiquées, même concassées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1203000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Coprah</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1204000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graines de lin, même concassées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1204001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>destinées à l'ensemencement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1204009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1205000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graines de navette ou de colza, même concassées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1205100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de navette ou de colza à faible teneur en acide érucique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1205101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à l'ensemencement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1205109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1205900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1206000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graines de tournesol, même concassées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1206001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>destinées à l'ensemencement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1206009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1206009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>décortiquées; en coques striées gris et blanc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1206009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1207000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres graines et fruits oléagineux, même concassés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix et amandes de palmiste</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1207210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de semence</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de ricin</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1207400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de sésame</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à l'ensemencement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1207500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de moutarde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à l'ensemencement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de carthame (Carthamus tinctorius)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1207700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de melon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207700010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Graines de pastèque (egusi, Citrullus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207700090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1207910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1207910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Graines d'oeillette ou de pavot</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à l'ensemencement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1207990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1207992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'ensemencement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207992010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Graines de chanvre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207992090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1207999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Graines de chanvre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1207999600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207999610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Graines de courge (Cucurbita pepo L. convar. citrullinia Greb. var. styriaca et Cucurbita pepo L. var. oleifera Pietsch)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1207999690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1208000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Farines de graines ou de fruits oléagineux, autres que la farine de moutarde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1208100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fèves de soja</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1208900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1208900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de graines de pastèque (egusi, Citrullus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1208900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Farines d'arachides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1208900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graines, fruits et spores à ensemencer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de betteraves à sucre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1209210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines fourragères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de luzerne</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de trèfle (Trifolium spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Trèfle violet (Trifolium pratense L.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209228000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fétuque</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209231100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fétuque des prés (Festuca pratensis Huds.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209231500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fétuque rouge (Festuca rubra L.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209238000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de pâturin des prés du Kentucky (Poa pratensis L.)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de ray-grass (Lolium multiflorum Lam., Lolium perenne L.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209251000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ray-grass d'Italie (Lolium multiflorum Lam.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209259000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ray-grass anglais (Lolium perenne L.)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209294500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Graines de fléole des prés; vesces; graines des espèces Poa palustris L. et Poa trivialis L.; dactyle (Dactylis glomerata L.); agrostide (Agrostides)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209295000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Graines de lupin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209296000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Graines de betteraves fourragères (Beta vulgaris var. alba)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de plantes herbacées utilisées principalement pour leurs fleurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1209910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Graines de légumes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209913000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Graines de betteraves à salade ou "betteraves rouges" (Beta vulgaris var. conditiva)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209918000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209918010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Semences</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209918090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Graines forestières</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1209999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Graines de plantes utilisées principalement pour leurs fleurs, autres que celles visées au n$o|1209|30</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1209999900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209999910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Semences</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1209999990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1210000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cônes de houblon frais ou secs, même broyés, moulus ou sous forme de pellets; lupuline</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1210100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cônes de houblon, non broyés ni moulus ni sous forme de pellets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1210100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en paquets individuels dont le poids n'excède pas 1 kilogramme, destinés à la vente aux particuliers pour leur usage privé, à l'expérimentation scientifique et technique ou aux foires bénéficiant du régime douanier prévu à cet effet avec la désignation, le poids et l'utilisation finale sur l'emballage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1210100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1210200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cônes de houblon, broyés, moulus ou sous forme de pellets; lupuline</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1210201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cônes de houblon, broyés, moulus ou sous forme de pellets, enrichis en lupuline; lupuline</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1210201010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poudre de houblon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1210201010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en paquets individuels dont le poids n'excède pas 1 kilogramme, destinés à la vente aux particuliers pour leur usage privé, à l'expérimentation scientifique et technique ou aux foires bénéficiant du régime douanier prévu à cet effet avec la désignation, le poids et l'utilisation finale sur l'emballage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1210201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1210201099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1210209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1210209010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poudre de houblon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1210209010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en paquets individuels dont le poids n'excède pas 1 kilogramme, destinés à la vente aux particuliers pour leur usage privé, à l'expérimentation scientifique et technique ou aux foires bénéficiant du régime douanier prévu à cet effet avec la désignation, le poids et l'utilisation finale sur l'emballage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1210209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1210209099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1211000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plantes, parties de plantes, graines et fruits des espèces utilisées principalement en parfumerie, en médecine ou à usages insecticides, parasiticides ou similaires, frais, réfrigérés, congelés ou séchés, même coupés, concassés ou pulvérisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Racines de ginseng</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coca (feuille de)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Paille de pavot</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ephédra</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Écorce de cerisier africain (Prunus africana)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1211900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fèves de tonka</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1211908600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211908610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles de curry (Bergera/ Murraya koenigii)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211908620</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Basilic (sacré, vert) (fraîche ou réfrigéré)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211908630</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Menthe (fraîche ou réfrigéré)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211908640</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Origan séché</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211908660</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Gotu kola (Centella asiatica)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1211908690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1212000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caroubes, algues, betteraves à sucre et cannes à sucre, fraîches, réfrigérées, congelées ou séchées, même pulvérisées; noyaux et amandes de fruits et autres produits végétaux (y compris les racines de chicorée non torréfiées de la variété Cichorium intybus sativum), servant principalement à l'alimentation humaine, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1212210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Algues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à l'alimentation humaine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1212290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1212910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1212910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Betteraves à sucre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212912000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>séchées, même pulvérisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212918000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Caroubes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cannes à sucre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Racines de chicorée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1212990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1212994100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Graines de caroubes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212994100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non décortiquées, ni concassées, ni moulues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212994900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1212999500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212999510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pollen d'abeilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212999520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Amandes d'abricot non transformées entières, broyées, moulues, brisées ou concassées destinées à être mises sur le marché pour la vente au consommateur final</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1212999590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1213000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pailles et balles de céréales brutes, même hachées, moulues, pressées ou agglomérées sous forme de pellets</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1213000011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pailles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1213000011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à la combustion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1213000019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1213000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1214000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Rutabagas, betteraves fourragères, racines fourragères, foin, luzerne, trèfle, sainfoin, choux fourragers, lupin, vesces et produits fourragers similaires, même agglomérés sous forme de pellets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1214100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Farine et agglomérés sous forme de pellets, de luzerne</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1214900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1214901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Betteraves fourragères, rutabagas et autres racines fourragères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1214909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1214909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Foin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1214909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

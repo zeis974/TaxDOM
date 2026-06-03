@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 26 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:20</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>2600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>MINERAIS, SCORIES ET CENDRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de fer et leurs concentrés, y compris les pyrites de fer grillées (cendres de pyrites)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2601110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Minerais de fer et leurs concentrés, autres que les pyrites de fer grillées (cendres de pyrites)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2601110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non agglomérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2601120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>agglomérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2601200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pyrites de fer grillées (cendres de pyrites)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de manganèse et leurs concentrés, y compris les minerais de manganèse ferrugineux et leurs concentrés d'une teneur en manganèse de 20|% ou plus en poids, sur produit sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2603000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de cuivre et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2604000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de nickel et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2605000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de cobalt et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2606000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais d'aluminium et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2607000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de plomb et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2608000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de zinc et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2609000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais d'étain et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2610000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de chrome et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2611000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de tungstène et leurs concentrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2612000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais d'uranium ou de thorium et leurs concentrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2612100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Minerais d'uranium et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2612101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Minerais d'uranium et pechblende, d'une teneur en uranium supérieure à 5|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2612109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2612200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Minerais de thorium et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2612201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Monazite; uranothorianite et autres minerais de thorium, d'une teneur en thorium supérieure à 20|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2612209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2613000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de molybdène et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2613100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>grillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2613900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2614000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de titane et leurs concentrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2615000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de niobium, de tantale, de vanadium ou de zirconium et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2615100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Minerais de zirconium et leurs concentrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2615900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2615900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Minerais de tantale ou de niobium et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2615900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2616000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Minerais de métaux précieux et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2616100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Minerais d'argent et leurs concentrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2616900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2616900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Minerais d'or et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2616900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2617000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres minerais et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2617100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Minerais d'antimoine et leurs concentrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2617900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2618000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Laitier granulé (sable-laitier) provenant de la fabrication de la fonte, du fer ou de l'acier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2619000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Scories, laitiers (autres que le laitier granulé), battitures et autres déchets de la fabrication de la fonte, du fer ou de l'acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2619002000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets propres à la récupération du fer ou du manganèse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2619009500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets propres à la récupération du vanadium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2619009700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2620000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Scories, cendres et résidus (autres que ceux provenant de la fabrication de la fonte, du fer ou de l'acier) contenant des métaux, de l'arsenic, ou leurs composés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2620110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant principalement du zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mattes de galvanisation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2620210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant principalement du plomb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boues d'essence au plomb et boues de composés antidétonants contenant du plomb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant principalement du cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant principalement de l'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant de l'arsenic, du mercure, du thallium ou leurs mélanges, des types utilisés pour l'extraction de l'arsenic ou de ces métaux ou pour la fabrication de leurs composés chimiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2620910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'antimoine, du béryllium, du cadmium, du chrome ou leurs mélanges</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2620990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant principalement du nickel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant principalement du niobium ou du tantale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620994000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant principalement de l'étain</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620996000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant principalement du titane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2620999500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2621000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres scories et cendres, y compris les cendres de varech; cendres et résidus provenant de l'incinération des déchets municipaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2621100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cendres et résidus provenant de l'incinération des déchets municipaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2621900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

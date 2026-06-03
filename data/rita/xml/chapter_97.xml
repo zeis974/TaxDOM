@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 97 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:15</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9700000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OBJETS D'ART, DE COLLECTION OU D'ANTIQUITÉ</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9701000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tableaux, peintures et dessins, faits entièrement à la main, à l'exclusion des dessins du n$o|4906|et des articles manufacturés décorés à la main; collages, mosaïques et tableautins similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9701210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ayant plus de 100|ans d'âge</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9701210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tableaux, peintures et dessins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9701220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mosaïques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701220010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701220090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9701290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9701910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tableaux, peintures et dessins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mosaïques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9701990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9702000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gravures, estampes et lithographies originales</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9702100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>ayant plus de 100|ans d'âge</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9702100010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Manuscrits rares</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9702100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9702100015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9702100080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9702100080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9702100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9702900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9702900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bois sous forme de grumes ou billes équarries avec un simple traitement de surface, sculpté ou finement fileté ou peint, sans valeur ajoutée significative et aucune modification substantielle de forme</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9702900080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9702900080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Manuscrits rares</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9702900085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9703000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Productions originales de l'art statuaire ou de la sculpture, en toutes matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9703100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>ayant plus de 100|ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9703100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9703100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9703900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9704000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Timbres-poste, timbres fiscaux, marques postales, enveloppes premier jour, entiers postaux et analogues, oblitérés, ou bien non oblitérés, autres que les articles du n$o|4907</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9705000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Collections et pièces de collection présentant un intérêt archéologique, ethnographique, historique, zoologique, botanique, minéralogique, anatomique, paléontologique ou numismatique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9705100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Collections et pièces de collection présentant un intérêt archéologique, ethnographique, historique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100012</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits de fouilles archéologiques (régulières et clandestines) et des découvertes archéologiques terrestres ou sous-marines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100012</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 250 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100016</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100018</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100022</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100024</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Éléments provenant du démembrement de monuments artistiques ou historiques et des sites archéologiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100024</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 250 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100024</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100026</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100028</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100032</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100032</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100034</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100036</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100038</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Biens concernant l'histoire, y compris l'histoire des sciences et des techniques, l'histoire militaire et sociale ainsi que la vie des dirigeants, penseurs, savants et artistes nationaux, et les événements d'importance nationale</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100038</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100038</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100042</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100044</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100044</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100046</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100048</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Matériel ethnologique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100050</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100052</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100054</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100056</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100056</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100058</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100062</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Livres, documents et publications anciens d'intérêt spécial (historique, artistique, scientifique, littéraire, etc.), isolés ou en collections</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100062</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100064</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100066</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Archives, y compris les archives phonographiques, photographiques et cinématographiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100068</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Objets d'ameublement ayant plus de cent ans d'âge et instruments de musique anciens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705100070</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Spécimens pour collections en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100072</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705100074</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Collections et pièces de collection présentant un intérêt zoologique, botanique, minéralogique, anatomique ou paléontologique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9705210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Spécimens humains et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705210012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9705220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Espèces éteintes ou menacées d'extinction, et leurs parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705220012</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705220012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705220014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705220016</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705220016</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705220080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9705290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705290012</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705290012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705290014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705290016</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705290016</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Collections et pièces de collection d'origine animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705290080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9705310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Collections et pièces de collection présentant un intérêt numismatique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant plus de 100|ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9705390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9706000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Objets d'antiquité ayant plus de cent ans d'âge</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9706100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>ayant plus de 250|ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706100012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits de fouilles archéologiques (régulières et clandestines) et des découvertes archéologiques terrestres ou sous-marines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706100014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Éléments provenant du démembrement de monuments artistiques ou historiques et des sites archéologiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706100016</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Objets d'antiquité tels qu'inscriptions, monnaies et sceaux gravés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Manuscrits rares et incunables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706100024</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Livres, documents et publications anciens d'intérêt spécial (historique, artistique, scientifique, littéraire, etc.), isolés ou en collections</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706100028</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Objets d'ameublement et instruments de musique anciens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9706900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits de fouilles archéologiques (régulières et clandestines) et des découvertes archéologiques terrestres ou sous-marines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Éléments provenant du démembrement de monuments artistiques ou historiques et des sites archéologiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9706900016</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Objets d'antiquité tels qu'inscriptions, monnaies et sceaux gravés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900016</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9706900020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Manuscrits rares</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900022</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9706900024</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Livres, documents et publications anciens d'intérêt spécial (historique, artistique, scientifique, littéraire, etc.), isolés ou en collections</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900024</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant plus de 200 ans d'âge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900026</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900028</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Archives, y compris les archives phonographiques, photographiques et cinématographiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Objets d'ameublement ayant plus de cent ans d'âge et instruments de musique anciens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9706900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

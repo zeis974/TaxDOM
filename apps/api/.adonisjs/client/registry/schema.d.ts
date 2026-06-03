@@ -175,6 +175,78 @@ export interface Registry {
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CategoriesController').default['destroy']>>>
     }
   }
+  'customs_nomenclatures.chapters': {
+    methods: ["GET","HEAD"]
+    pattern: '/v1/admin/customs-nomenclatures/chapters'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['chapters']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['chapters']>>>
+    }
+  }
+  'customs_nomenclatures.tree': {
+    methods: ["GET","HEAD"]
+    pattern: '/v1/admin/customs-nomenclatures/tree'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['tree']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['tree']>>>
+    }
+  }
+  'customs_nomenclatures.search': {
+    methods: ["GET","HEAD"]
+    pattern: '/v1/admin/customs-nomenclatures/search'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['search']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['search']>>>
+    }
+  }
+  'customs_nomenclatures.products': {
+    methods: ["GET","HEAD"]
+    pattern: '/v1/admin/customs-nomenclatures/:code/products'
+    types: {
+      body: {}
+      paramsTuple: [ParamValue]
+      params: { code: ParamValue }
+      query: {}
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['products']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['products']>>>
+    }
+  }
+  'customs_nomenclatures.trigger_sync': {
+    methods: ["POST"]
+    pattern: '/v1/admin/customs-nomenclatures/sync'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['triggerSync']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['triggerSync']>>>
+    }
+  }
+  'customs_nomenclatures.sync_stream': {
+    methods: ["GET","HEAD"]
+    pattern: '/v1/admin/customs-nomenclatures/sync/:runId/stream'
+    types: {
+      body: {}
+      paramsTuple: [ParamValue]
+      params: { runId: ParamValue }
+      query: {}
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['syncStream']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['syncStream']>>>
+    }
+  }
   'origins.count': {
     methods: ["GET","HEAD"]
     pattern: '/v1/admin/origins/count'

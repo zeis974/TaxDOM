@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 52 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:40</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5200000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>COTON</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5201000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Coton, non cardé ni peigné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5201001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>hydrophile ou blanchi</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5201009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5202000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets de coton (y compris les déchets de fils et les effilochés)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5202100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets de fils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5202910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5202910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Effilochés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5202990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5203000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Coton, cardé ou peigné</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5204000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils à coudre de coton, même conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5204110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5204110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant au moins 85|% en poids de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5204190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5204200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5205000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de coton (autres que les fils à coudre), contenant au moins 85|% en poids de coton, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5205110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils simples, en fibres non peignées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant 714,29|décitex ou plus (n'excédant pas 14|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 714,29|décitex mais pas moins de 232,56|décitex (excédant 14|numéros métriques mais n'excédant pas 43|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 232,56|décitex mais pas moins de 192,31|décitex (excédant 43|numéros métriques mais n'excédant pas 52|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 192,31|décitex mais pas moins de 125|décitex (excédant 52|numéros métriques mais n'excédant pas 80|numéros métriques)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5205150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 125|décitex (excédant 80|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205151000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant moins de 125|décitex mais pas moins de 83,33|décitex (excédant 80|numéros métriques mais n'excédant pas 120|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205159000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>titrant moins de 83,33|décitex (excédant 120|numéros métriques)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5205210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils simples, en fibres peignées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant 714,29|décitex ou plus (n'excédant pas 14|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 714,29|décitex mais pas moins de 232,56|décitex (excédant 14|numéros métriques mais n'excédant pas 43|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 232,56|décitex mais pas moins de 192,31|décitex (excédant 43|numéros métriques mais n'excédant pas 52|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 192,31|décitex mais pas moins de 125|décitex (excédant 52|numéros métriques mais n'excédant pas 80|numéros métriques)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5205260000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 125|décitex mais pas moins de 106,38|décitex (excédant 80|numéros métriques mais n'excédant pas 94|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205260010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fil simple de coton brut blanc- dont la longueur moyenne des fibres est égale ou supérieure à 36,5 mm,- produit par le procédé de filature compact à anneaux avec compression pneumatique,- présentant une résistance à la déchirure de 26,5 cN/tex (conformément à la norme ISO 2062:2009, à une vitesse de 5 000  mm/min)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205260090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5205270000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 106,38|décitex mais pas moins de 83,33|décitex (excédant 94|numéros métriques mais n'excédant pas 120|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205270010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fil simple de coton brut blanc- dont la longueur moyenne des fibres est égale ou supérieure à 36,5 mm,- produit par le procédé de filature compact à anneaux avec compression pneumatique,- présentant une résistance à la déchirure de 26,5 cN/tex (conformément à la norme ISO 2062:2009, à une vitesse de 5 000  mm/min)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205270090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205280000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 83,33|décitex (excédant 120|numéros métriques)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5205310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils retors ou câblés, en fibres non peignées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples 714,29|décitex ou plus (n'excédant pas 14|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 714,29|décitex mais pas moins de 232,56|décitex (excédant 14|numéros métriques mais n'excédant pas 43|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 232,56|décitex mais pas moins de 192,31|décitex (excédant 43|numéros métriques mais n'excédant pas 52|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 192,31|décitex mais pas moins de 125|décitex (excédant 52|numéros métriques mais n'excédant pas 80|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205350000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 125|décitex (excédant 80|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5205410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils retors ou câblés, en fibres peignées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples 714,29|décitex ou plus (n'excédant pas 14|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 714,29|décitex mais pas moins de 232,56|décitex (excédant 14|numéros métriques mais n'excédant pas 43|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 232,56|décitex mais pas moins de 192,31|décitex (excédant 43|numéros métriques mais n'excédant pas 52|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 192,31|décitex mais pas moins de 125|décitex (excédant 52|numéros métriques mais n'excédant pas 80|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205460000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 125|décitex mais pas moins de 106,38|décitex (excédant 80|numéros métriques mais n'excédant pas 94|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205470000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 106,38|décitex mais pas moins de 83,33|décitex (excédant 94|numéros métriques mais n'excédant pas 120|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5205480000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 83,33|décitex (excédant 120|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5206000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de coton (autres que les fils à coudre), contenant moins de 85|% en poids de coton, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5206110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils simples, en fibres non peignées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant 714,29|décitex ou plus (n'excédant pas 14|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 714,29|décitex mais pas moins de 232,56|décitex (excédant 14|numéros métriques mais n'excédant pas 43|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 232,56|décitex mais pas moins de 192,31|décitex (excédant 43|numéros métriques mais n'excédant pas 52|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 192,31|décitex mais pas moins de 125|décitex (excédant 52|numéros métriques mais n'excédant pas 80|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 125|décitex (excédant 80|numéros métriques)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5206210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils simples, en fibres peignées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant 714,29|décitex ou plus (n'excédant pas 14|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 714,29|décitex mais pas moins de 232,56|décitex (excédant 14|numéros métriques mais n'excédant pas 43|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 232,56|décitex mais pas moins de 192,31|décitex (excédant 43|numéros métriques mais n'excédant pas 52|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 192,31|décitex mais pas moins de 125|décitex (excédant 52|numéros métriques mais n'excédant pas 80|numéros métriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant moins de 125|décitex (excédant 80|numéros métriques)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5206310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils retors ou câblés, en fibres non peignées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples 714,29|décitex ou plus (n'excédant pas 14|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 714,29|décitex mais pas moins de 232,56|décitex (excédant 14|numéros métriques mais n'excédant pas 43|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 232,56|décitex mais pas moins de 192,31|décitex (excédant 43|numéros métriques mais n'excédant pas 52|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 192,31|décitex mais pas moins de 125|décitex (excédant 52|numéros métriques mais n'excédant pas 80|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206350000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 125|décitex (excédant 80|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5206410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils retors ou câblés, en fibres peignées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples 714,29|décitex ou plus (n'excédant pas 14|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 714,29|décitex mais pas moins de 232,56|décitex (excédant 14|numéros métriques mais n'excédant pas 43|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 232,56|décitex mais pas moins de 192,31|décitex (excédant 43|numéros métriques mais n'excédant pas 52|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 192,31|décitex mais pas moins de 125|décitex (excédant 52|numéros métriques mais n'excédant pas 80|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5206450000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>titrant en fils simples moins de 125|décitex (excédant 80|numéros métriques en fils simples)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5207000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils de coton (autres que les fils à coudre) conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5207100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant au moins 85|% en poids de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5207900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de coton, contenant au moins 85|% en poids de coton, d'un poids n'excédant pas 200|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids n'excédant pas 100|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus pour la fabrication de bandages, pansements et gazes à pansement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids excédant 100|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208121600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure toile, d'un poids excédant 100|g/m$2|mais n'excédant pas 130|g/m$2, d'une largeur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208121600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208121900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 165|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208129600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure toile, d'un poids excédant 130|g/m$2, d'une largeur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208129600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208129900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids n'excédant pas 100|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus pour la fabrication de bandages, pansements et gazes à pansement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids excédant 100|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208221600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure toile, d'un poids excédant 100|g/m$2|mais n'excédant pas 130|g/m$2, d'une largeur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208221600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208221900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 165|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208229600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure toile, d'un poids excédant 130 g/m², d'une largeur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208229600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208229900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids n'excédant pas 100|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids excédant 100|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208321600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure toile, d'un poids excédant 100|g/m$2|mais n'excédant pas 130|g/m$2, d'une largeur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208321600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208321900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 165|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208329600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure toile, d'un poids excédant 130|g/m$2, d'une largeur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208329600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208329900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 165|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids n'excédant pas 100|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids excédant 100|g/m$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids n'excédant pas 100|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208510011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208510011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208510019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208510091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208510091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208510099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile, d'un poids excédant 100|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208520011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208520011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208520019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208520091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208520091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208520099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208591000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208591011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208591011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208591019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208591091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208591091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208591099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5208599000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208599011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208599011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208599019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5208599091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208599091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5208599099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5209000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de coton, contenant au moins 85|% en poids de coton, d'un poids excédant 200|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus dits "denim"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5209510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209510011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209510011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209510019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209510091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209510091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209510099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5209520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209520011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209520011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209520019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209520091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209520091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209520099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5209590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209590011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209590011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209590019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5209590091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209590091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5209590099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de coton, contenant moins de 85|% en poids de coton, mélangés principalement ou uniquement avec des fibres synthétiques ou artificielles, d'un poids n'excédant pas 200|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5210110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5210210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5210310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210310010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210310090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210320010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210320090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210390090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5210410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210410010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210410090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210490010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210490090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5210510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210510010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210510090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5210590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210590010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5210590090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de coton, contenant moins de 85|% en poids de coton, mélangés principalement ou uniquement avec des fibres synthétiques ou artificielles, d'un poids excédant 200|g/m$2</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5211110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>blanchis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5211310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211310010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211310090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211320010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211320090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211390090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5211410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211410010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211410090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus dits "denim"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211420010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211420090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211430010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211430090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus Jacquard</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211491010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211491090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211499010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211499090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5211510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure toile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211510010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211510090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à armure sergé, y compris le croisé, dont le rapport d'armure n'excède pas 4</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211520010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211520090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5211590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tissus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211590010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5211590090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres tissus de coton</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'un poids n'excédant pas 200|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212111010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212111090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212119010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212119090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212121010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212121090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212129010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212129090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212131010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212131090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212139000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212139010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212139090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212141000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212141010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212141090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212149000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212149010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212149090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212151000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212151011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212151011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212151019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212151091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212151091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212151099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212159000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212159011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212159011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212159019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212159091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212159091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212159099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'un poids excédant 200|g/m$2</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>écrus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212211010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212211090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212219010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212219090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>blanchis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212221010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212221090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212229010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212229090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>teints</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212231010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212231090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212239010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212239090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils de diverses couleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212241000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212241010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212241090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212249000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212249010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212249090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprimés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212251000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>mélangés principalement ou uniquement avec du lin</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212251011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212251011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212251019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212251091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212251091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212251099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5212259000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autrement mélangés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212259011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212259011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212259019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5212259091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212259091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>imprimé à la main selon le procédé "batik"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5212259099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -1,5 +1,14 @@
 import { styled } from "@/panda/jsx"
 
+export const HintText = styled.span`
+  display: block;
+  font-size: 0.75rem;
+  font-family: token(fonts.nativeFont);
+  color: token(colors.darkGray);
+  margin-top: 4px;
+  line-height: 1.4;
+`
+
 export const InputContainer = styled.div`
   display: flex;
   position: relative;
@@ -47,6 +56,11 @@ export const InputContainer = styled.div`
     &:focus {
       border-color: token(colors.blue);
       box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.blue) 15%, transparent);
+    }
+
+    &[aria-invalid="true"] {
+      border-color: token(colors.error);
+      box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.error) 15%, transparent);
     }
 
     &[disabled="true"],
