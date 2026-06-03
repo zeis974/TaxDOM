@@ -486,7 +486,12 @@ export default function CustomsTree() {
           )}
           {selectedChapter && treeData && (
             <div
-              style={{ height: rowVirtualizer.getTotalSize(), position: "relative", width: "100%" }}
+              style={{
+                height: rowVirtualizer.getTotalSize(),
+                position: "relative",
+                width: "100%",
+                animation: "fadeIn 0.28s ease-out both",
+              }}
             >
               {rowVirtualizer.getVirtualItems().map((virtualItem) => {
                 const row = flatRows[virtualItem.index]

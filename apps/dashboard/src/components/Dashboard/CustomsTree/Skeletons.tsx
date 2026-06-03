@@ -1,5 +1,9 @@
 import { SkeletonRect } from "./CustomsTree.styled"
 
+// Kept invisible for the first 180ms then fades in: fast (cached) responses
+// unmount the skeleton before it is ever seen, so there is no sub-100ms flash.
+const DELAYED_FADE = "fadeIn 0.2s ease-out 180ms both"
+
 // ── Chapter list skeleton ─────────────────────────────────────────────────────
 
 const CHAPTER_WIDTHS = [72, 88, 60, 78, 55, 82, 68, 90, 65, 74, 58, 85]
@@ -8,7 +12,7 @@ export function ChapterListSkeleton() {
   return (
     <>
       {CHAPTER_WIDTHS.map((w, i) => (
-        <li key={i} aria-hidden="true" style={{ padding: "2px 8px" }}>
+        <li key={i} aria-hidden="true" style={{ padding: "2px 8px", animation: DELAYED_FADE }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "7px 2px" }}>
             <SkeletonRect style={{ width: 22, height: 13, flexShrink: 0 }} />
             <SkeletonRect style={{ width: `${w}%`, height: 12 }} />
@@ -38,7 +42,7 @@ const TREE_NODES: Array<{ depth: number; codeW: number; descW: number }> = [
 
 export function TreeSkeleton() {
   return (
-    <div style={{ paddingTop: 4 }} aria-hidden="true">
+    <div style={{ paddingTop: 4, animation: DELAYED_FADE }} aria-hidden="true">
       {TREE_NODES.map((node, i) => (
         <div
           key={i}
@@ -67,7 +71,10 @@ export function TreeSkeleton() {
 
 export function HeaderSkeleton() {
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: 14, flex: 1, minWidth: 0 }} aria-hidden="true">
+    <div
+      style={{ display: "flex", alignItems: "center", gap: 14, flex: 1, minWidth: 0, animation: DELAYED_FADE }}
+      aria-hidden="true"
+    >
       {/* chapter number */}
       <SkeletonRect style={{ width: 36, height: 32, borderRadius: 6, flexShrink: 0 }} />
       {/* title + subtitle */}

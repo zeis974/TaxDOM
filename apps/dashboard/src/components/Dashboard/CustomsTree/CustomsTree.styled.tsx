@@ -103,6 +103,7 @@ export const ChapterItem = styled.button`
   transition: background 120ms ease;
   color: token(colors.primary);
   font-family: token(fonts.nativeFont);
+  animation: fadeIn 0.28s ease both;
 
   &:hover {
     background: token(colors.tertiaryBackground);
@@ -168,6 +169,7 @@ export const HeaderInfo = styled.div`
   gap: 14px;
   flex: 1;
   min-width: 0;
+  animation: fadeIn 0.28s ease both;
 `
 
 export const ChapterNum = styled.span`
