@@ -4,6 +4,7 @@ import type React from "react"
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { toast } from "sonner"
 import { useNomenclatureSearch } from "@/hooks/useNomenclatureSearch"
+import { useOutsideClick } from "@/hooks/useOutsideClick"
 import { Route } from "@/routes/_dashboard-layout/customs-tree"
 import {
   ChapterBadge,
@@ -162,7 +163,6 @@ function SuggestionDropdown({
   onSelect,
   onClose,
 }: SuggestionDropdownProps) {
-  const listRef = useRef<HTMLDivElement>(null)
   const [style, setStyle] = useState<React.CSSProperties>({})
 
   // Keep the fixed dropdown anchored to the search input on scroll / resize.
@@ -182,21 +182,13 @@ function SuggestionDropdown({
     }
   }, [anchorRef])
 
-  // Close when clicking outside the input or the dropdown.
-  useEffect(() => {
-    const handler = (e: MouseEvent) => {
-      const target = e.target as Node
-      if (anchorRef.current?.contains(target) || listRef.current?.contains(target)) return
-      onClose()
-    }
-    document.addEventListener("mousedown", handler)
-    return () => document.removeEventListener("mousedown", handler)
-  }, [anchorRef, onClose])
+  // The dropdown is rendered inside the search wrapper, so anchorRef covers it too.
+  useOutsideClick(anchorRef, onClose)
 
   if (suggestions.length === 0) return null
 
   return (
-    <SuggestionList ref={listRef} style={style}>
+    <SuggestionList style={style}>
       {suggestions.map((s) => (
         <SuggestionItem key={s.code} type="button" onClick={() => onSelect(s.code, s.chapter)}>
           <SuggestionCode>{formatHsCode(s.code)}</SuggestionCode>

@@ -1,5 +1,6 @@
 import { useQuery } from "@tanstack/react-query"
-import { useEffect, useRef } from "react"
+import { useRef } from "react"
+import { useEscapeKey } from "@/hooks/useEscapeKey"
 import { styled } from "@/panda/jsx"
 import { formatHsCode } from "./format"
 import type { NomenclatureNode } from "./TreeNode"
@@ -172,14 +173,7 @@ export default function ProductsDrawer({ node, onClose }: ProductsDrawerProps) {
     staleTime: 1000 * 60,
   })
 
-  // Close on Escape
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose()
-    }
-    document.addEventListener("keydown", handler)
-    return () => document.removeEventListener("keydown", handler)
-  }, [onClose])
+  useEscapeKey({ isActive: true, onEscape: onClose })
 
   return (
     <>
