@@ -462,17 +462,12 @@ export const SkeletonRect = styled.span`
   border-radius: 4px;
   background: linear-gradient(
     90deg,
-    rgba(148, 163, 184, 0.08) 25%,
-    rgba(148, 163, 184, 0.18) 50%,
-    rgba(148, 163, 184, 0.08) 75%
+    rgba(148, 163, 184, 0.12) 25%,
+    rgba(148, 163, 184, 0.38) 50%,
+    rgba(148, 163, 184, 0.12) 75%
   );
   background-size: 200% 100%;
-  animation: skeletonShimmer 1.6s ease-in-out infinite;
-
-  @keyframes skeletonShimmer {
-    0%   { background-position: 200% 0; }
-    100% { background-position: -200% 0; }
-  }
+  animation: skeleton-shimmer 1.6s ease-in-out infinite;
 `
 
 // ── Suggestions ───────────────────────────────────────────────────────────────
