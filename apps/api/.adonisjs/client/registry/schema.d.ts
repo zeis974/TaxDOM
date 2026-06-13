@@ -43,6 +43,30 @@ export interface Registry {
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/GetProductTaxesController').default['handle']>>> | { status: 422; response: { errors: SimpleError[] } }
     }
   }
+  'resolve_product_taxes': {
+    methods: ["POST"]
+    pattern: '/v1/public/products/resolve'
+    types: {
+      body: ExtractBody<InferInput<(typeof import('#validators/ResolveProductTaxesValidator').ResolveProductTaxesValidator)>>
+      paramsTuple: []
+      params: {}
+      query: ExtractQuery<InferInput<(typeof import('#validators/ResolveProductTaxesValidator').ResolveProductTaxesValidator)>>
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/ResolveProductTaxesController').default['handle']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/ResolveProductTaxesController').default['handle']>>> | { status: 422; response: { errors: SimpleError[] } }
+    }
+  }
+  'scrape_product_url': {
+    methods: ["POST"]
+    pattern: '/v1/public/products/scrape'
+    types: {
+      body: ExtractBody<InferInput<(typeof import('#validators/ScrapeProductUrlValidator').ScrapeProductUrlValidator)>>
+      paramsTuple: []
+      params: {}
+      query: ExtractQuery<InferInput<(typeof import('#validators/ScrapeProductUrlValidator').ScrapeProductUrlValidator)>>
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/ScrapeProductUrlController').default['handle']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/ScrapeProductUrlController').default['handle']>>> | { status: 422; response: { errors: SimpleError[] } }
+    }
+  }
   'calculate_parcel': {
     methods: ["POST"]
     pattern: '/v1/public/simulator/parcel'
@@ -89,6 +113,18 @@ export interface Registry {
       query: {}
       response: ExtractResponse<Awaited<ReturnType<import('#controllers/TransportersController').default['list']>>>
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/TransportersController').default['list']>>>
+    }
+  }
+  'get_nomenclature_taxes': {
+    methods: ["POST"]
+    pattern: '/v1/public/url-taxes'
+    types: {
+      body: ExtractBody<InferInput<(typeof import('#validators/NomenclatureTaxesValidator').NomenclatureTaxesValidator)>>
+      paramsTuple: []
+      params: {}
+      query: ExtractQuery<InferInput<(typeof import('#validators/NomenclatureTaxesValidator').NomenclatureTaxesValidator)>>
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/GetNomenclatureTaxesController').default['handle']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/GetNomenclatureTaxesController').default['handle']>>> | { status: 422; response: { errors: SimpleError[] } }
     }
   }
   'categories.count': {
@@ -221,6 +257,18 @@ export interface Registry {
       query: {}
       response: ExtractResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['products']>>>
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['products']>>>
+    }
+  }
+  'customs_nomenclatures.last_sync': {
+    methods: ["GET","HEAD"]
+    pattern: '/v1/admin/customs-nomenclatures/sync/last'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: ExtractResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['lastSync']>>>
+      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/CustomsNomenclaturesController').default['lastSync']>>>
     }
   }
   'customs_nomenclatures.trigger_sync': {
@@ -437,54 +485,6 @@ export interface Registry {
       query: {}
       response: ExtractResponse<Awaited<ReturnType<import('#controllers/ProductsController').default['destroy']>>>
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/ProductsController').default['destroy']>>>
-    }
-  }
-  'search_config.get_config': {
-    methods: ["GET","HEAD"]
-    pattern: '/v1/admin/products/search-config'
-    types: {
-      body: {}
-      paramsTuple: []
-      params: {}
-      query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/SearchConfigController').default['getConfig']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/SearchConfigController').default['getConfig']>>>
-    }
-  }
-  'search_config.update_config': {
-    methods: ["PUT"]
-    pattern: '/v1/admin/products/search-config'
-    types: {
-      body: ExtractBody<InferInput<(typeof import('#validators/SearchConfigValidator').SearchConfigValidator)>>
-      paramsTuple: []
-      params: {}
-      query: ExtractQuery<InferInput<(typeof import('#validators/SearchConfigValidator').SearchConfigValidator)>>
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/SearchConfigController').default['updateConfig']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/SearchConfigController').default['updateConfig']>>> | { status: 422; response: { errors: SimpleError[] } }
-    }
-  }
-  'search_config.get_synonyms': {
-    methods: ["GET","HEAD"]
-    pattern: '/v1/admin/products/synonyms'
-    types: {
-      body: {}
-      paramsTuple: []
-      params: {}
-      query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/SearchConfigController').default['getSynonyms']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/SearchConfigController').default['getSynonyms']>>>
-    }
-  }
-  'search_config.update_synonyms': {
-    methods: ["PUT"]
-    pattern: '/v1/admin/products/synonyms'
-    types: {
-      body: {}
-      paramsTuple: []
-      params: {}
-      query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/SearchConfigController').default['updateSynonyms']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/SearchConfigController').default['updateSynonyms']>>>
     }
   }
   'territories.count': {

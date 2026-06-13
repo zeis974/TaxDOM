@@ -24,6 +24,18 @@ const routes = {
     tokens: [{"old":"/v1/public/products/taxes","type":0,"val":"v1","end":""},{"old":"/v1/public/products/taxes","type":0,"val":"public","end":""},{"old":"/v1/public/products/taxes","type":0,"val":"products","end":""},{"old":"/v1/public/products/taxes","type":0,"val":"taxes","end":""}],
     types: placeholder as Registry['get_product_taxes']['types'],
   },
+  'resolve_product_taxes': {
+    methods: ["POST"],
+    pattern: '/v1/public/products/resolve',
+    tokens: [{"old":"/v1/public/products/resolve","type":0,"val":"v1","end":""},{"old":"/v1/public/products/resolve","type":0,"val":"public","end":""},{"old":"/v1/public/products/resolve","type":0,"val":"products","end":""},{"old":"/v1/public/products/resolve","type":0,"val":"resolve","end":""}],
+    types: placeholder as Registry['resolve_product_taxes']['types'],
+  },
+  'scrape_product_url': {
+    methods: ["POST"],
+    pattern: '/v1/public/products/scrape',
+    tokens: [{"old":"/v1/public/products/scrape","type":0,"val":"v1","end":""},{"old":"/v1/public/products/scrape","type":0,"val":"public","end":""},{"old":"/v1/public/products/scrape","type":0,"val":"products","end":""},{"old":"/v1/public/products/scrape","type":0,"val":"scrape","end":""}],
+    types: placeholder as Registry['scrape_product_url']['types'],
+  },
   'calculate_parcel': {
     methods: ["POST"],
     pattern: '/v1/public/simulator/parcel',
@@ -47,6 +59,12 @@ const routes = {
     pattern: '/v1/public/transporters',
     tokens: [{"old":"/v1/public/transporters","type":0,"val":"v1","end":""},{"old":"/v1/public/transporters","type":0,"val":"public","end":""},{"old":"/v1/public/transporters","type":0,"val":"transporters","end":""}],
     types: placeholder as Registry['transporters.list']['types'],
+  },
+  'get_nomenclature_taxes': {
+    methods: ["POST"],
+    pattern: '/v1/public/url-taxes',
+    tokens: [{"old":"/v1/public/url-taxes","type":0,"val":"v1","end":""},{"old":"/v1/public/url-taxes","type":0,"val":"public","end":""},{"old":"/v1/public/url-taxes","type":0,"val":"url-taxes","end":""}],
+    types: placeholder as Registry['get_nomenclature_taxes']['types'],
   },
   'categories.count': {
     methods: ["GET","HEAD"],
@@ -113,6 +131,12 @@ const routes = {
     pattern: '/v1/admin/customs-nomenclatures/:code/products',
     tokens: [{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":1,"val":"code","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"products","end":""}],
     types: placeholder as Registry['customs_nomenclatures.products']['types'],
+  },
+  'customs_nomenclatures.last_sync': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/sync/last',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"sync","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"last","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.last_sync']['types'],
   },
   'customs_nomenclatures.trigger_sync': {
     methods: ["POST"],
@@ -221,30 +245,6 @@ const routes = {
     pattern: '/v1/admin/products/:id',
     tokens: [{"old":"/v1/admin/products/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/:id","type":0,"val":"products","end":""},{"old":"/v1/admin/products/:id","type":1,"val":"id","end":""}],
     types: placeholder as Registry['products.destroy']['types'],
-  },
-  'search_config.get_config': {
-    methods: ["GET","HEAD"],
-    pattern: '/v1/admin/products/search-config',
-    tokens: [{"old":"/v1/admin/products/search-config","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/search-config","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/search-config","type":0,"val":"products","end":""},{"old":"/v1/admin/products/search-config","type":0,"val":"search-config","end":""}],
-    types: placeholder as Registry['search_config.get_config']['types'],
-  },
-  'search_config.update_config': {
-    methods: ["PUT"],
-    pattern: '/v1/admin/products/search-config',
-    tokens: [{"old":"/v1/admin/products/search-config","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/search-config","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/search-config","type":0,"val":"products","end":""},{"old":"/v1/admin/products/search-config","type":0,"val":"search-config","end":""}],
-    types: placeholder as Registry['search_config.update_config']['types'],
-  },
-  'search_config.get_synonyms': {
-    methods: ["GET","HEAD"],
-    pattern: '/v1/admin/products/synonyms',
-    tokens: [{"old":"/v1/admin/products/synonyms","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/synonyms","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/synonyms","type":0,"val":"products","end":""},{"old":"/v1/admin/products/synonyms","type":0,"val":"synonyms","end":""}],
-    types: placeholder as Registry['search_config.get_synonyms']['types'],
-  },
-  'search_config.update_synonyms': {
-    methods: ["PUT"],
-    pattern: '/v1/admin/products/synonyms',
-    tokens: [{"old":"/v1/admin/products/synonyms","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/synonyms","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/synonyms","type":0,"val":"products","end":""},{"old":"/v1/admin/products/synonyms","type":0,"val":"synonyms","end":""}],
-    types: placeholder as Registry['search_config.update_synonyms']['types'],
   },
   'territories.count': {
     methods: ["GET","HEAD"],
