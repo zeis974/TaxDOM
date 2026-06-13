@@ -42,7 +42,7 @@ export const taxFormOpts = formOptions({
   defaultValues: {
     "cf-turnstile-response": "",
     origin: "",
-    product: "",
+    query: "",
     territory: "REUNION",
   },
   validators: {
