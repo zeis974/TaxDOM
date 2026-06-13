@@ -1,10 +1,9 @@
-import { eq, ilike, sql } from "drizzle-orm"
+import { eq, ilike, or, sql } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 
 import type * as schema from "#database/schema"
 import { customsNomenclatures } from "#database/schema"
 import { NotFoundError } from "#exceptions/ServiceErrors"
-import meiliClient, { meiliState } from "#lib/meilisearch"
 
 type DB = NodePgDatabase<typeof schema>
 
@@ -37,8 +36,6 @@ export type ProductSummary = {
   categoryName: string
   nomenclatureCode: string | null
 }
-
-export const nomenclaturesIndex = meiliClient.index("customs_nomenclatures")
 
 export class CustomsNomenclaturesService {
   constructor(private db: DB) {}
@@ -150,18 +147,13 @@ export class CustomsNomenclaturesService {
     return root
   }
 
+  /**
+   * Searches nomenclatures by HS code OR description (case-insensitive substring).
+   * Powers the optional "Code SH" autocomplete in the dashboard. Plain SQL — no
+   * external search engine.
+   */
   async search(query: string): Promise<NomenclatureSearchResult[]> {
-    if (meiliState.available) {
-      try {
-        const results = await nomenclaturesIndex.search<NomenclatureSearchResult>(query, {
-          limit: 20,
-          attributesToRetrieve: ["code", "description", "chapter", "alinea", "parentCode"],
-        })
-        return results.hits
-      } catch {
-        // Fallback to DB search if Meilisearch is unavailable
-      }
-    }
+    const pattern = `%${query}%`
 
     const rows = await this.db
       .select({
@@ -172,7 +164,12 @@ export class CustomsNomenclaturesService {
         parentCode: customsNomenclatures.parentCode,
       })
       .from(customsNomenclatures)
-      .where(ilike(customsNomenclatures.description, `%${query}%`))
+      .where(
+        or(
+          ilike(customsNomenclatures.code, pattern),
+          ilike(customsNomenclatures.description, pattern),
+        ),
+      )
       .limit(20)
 
     return rows.map((r) => ({
@@ -211,47 +208,6 @@ export class CustomsNomenclaturesService {
       categoryName: r.category_name,
       nomenclatureCode: r.nomenclature_code,
     }))
-  }
-
-  async reindexToMeilisearch(): Promise<void> {
-    const rows = await this.db
-      .select({
-        code: customsNomenclatures.code,
-        description: customsNomenclatures.description,
-        chapter: customsNomenclatures.chapter,
-        alinea: customsNomenclatures.alinea,
-        parentCode: customsNomenclatures.parentCode,
-      })
-      .from(customsNomenclatures)
-
-    if (rows.length === 0) return
-
-    const BATCH_SIZE = 1000
-    for (let i = 0; i < rows.length; i += BATCH_SIZE) {
-      const batch = rows.slice(i, i + BATCH_SIZE).map((r) => ({
-        id: r.code,
-        code: r.code,
-        description: r.description,
-        chapter: r.chapter,
-        alinea: r.alinea,
-        parentCode: r.parentCode,
-      }))
-      await nomenclaturesIndex.addDocuments(batch, { primaryKey: "id" })
-    }
-  }
-
-  async configureIndex(): Promise<void> {
-    await nomenclaturesIndex.updateSettings({
-      searchableAttributes: ["description", "code"],
-      displayedAttributes: ["code", "description", "chapter", "alinea", "parentCode"],
-      sortableAttributes: ["code", "chapter"],
-      filterableAttributes: ["chapter", "alinea"],
-      typoTolerance: {
-        enabled: true,
-        minWordSizeForTypos: { oneTypo: 4, twoTypos: 8 },
-      },
-      rankingRules: ["words", "typo", "proximity", "attribute", "sort", "exactness"],
-    })
   }
 }
 

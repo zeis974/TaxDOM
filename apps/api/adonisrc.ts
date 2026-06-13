@@ -49,6 +49,7 @@ export default defineConfig({
     () => import("@adonisjs/limiter/limiter_provider"),
     () => import("@adonisjs/redis/redis_provider"),
     () => import("#providers/app_provider"),
+    () => import("#providers/chroma_provider"),
   ],
 
   /*

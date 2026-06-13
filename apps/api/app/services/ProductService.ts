@@ -7,7 +7,7 @@ import { v7 as uuidv7 } from "uuid"
 import type * as schema from "#database/schema"
 import { categories, origins, products, templateProducts, territories } from "#database/schema"
 import { BadRequestError, ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
-import { onProductCreated, onProductDeleted, onProductUpdated } from "#services/ProductSync"
+import { onProductCreated, onProductDeleted, onProductUpdated } from "#services/VectorSync"
 
 type DB = NodePgDatabase<typeof schema>
 
@@ -324,13 +324,13 @@ export class ProductService {
       return created
     })
 
-    // Sync Meilisearch AFTER transaction commits (with retry + backoff)
+    // Sync the vector store AFTER transaction commits (with retry + backoff)
     onProductCreated({
       id: productData.productID,
       productName: productData.productName,
       categoryName: productData.category.categoryName,
       categoryID: productData.category.categoryID,
-    }).catch((err) => logger.error("Failed to sync product creation to Meilisearch: %O", err))
+    }).catch((err) => logger.error("Failed to sync product creation to Chroma: %O", err))
 
     return mapProduct(productData)
   }
@@ -396,13 +396,13 @@ export class ProductService {
       return updated
     })
 
-    // Sync Meilisearch AFTER transaction commits (with retry + backoff)
+    // Sync the vector store AFTER transaction commits (with retry + backoff)
     onProductUpdated({
       id: productData.productID,
       productName: productData.productName,
       categoryName: productData.category.categoryName,
       categoryID: productData.category.categoryID,
-    }).catch((err) => logger.error("Failed to sync product update to Meilisearch: %O", err))
+    }).catch((err) => logger.error("Failed to sync product update to Chroma: %O", err))
 
     return mapProduct(productData)
   }
@@ -439,7 +439,7 @@ export class ProductService {
     })
 
     onProductDeleted(productId).catch((err) =>
-      logger.error("Failed to sync product deletion to Meilisearch: %O", err),
+      logger.error("Failed to sync product deletion to Chroma: %O", err),
     )
   }
 
