@@ -1,30 +1,31 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
-import { toast } from "sonner"
+import {
+  AddEntityDrawer,
+  crudHandlers,
+  DrawerSection,
+  DrawerSectionTitle,
+  FormGrid,
+} from "@/components/Dashboard/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
-import Modal from "@/components/Modal"
-import ModalCard from "@/components/Modal/ModalCard"
 import { api } from "@/lib/api"
-import { AddTerritoryBtn, ErrorContainer } from "./AddTerritory.styled"
 
 export default function AddTerritory() {
-  const [show, setShow] = useState(false)
+  const [open, setOpen] = useState(false)
   const [territoryName, setTerritoryName] = useState("")
-  const territoryNameID = useId()
 
+  const formId = useId()
+  const territoryNameID = useId()
   const queryClient = useQueryClient()
 
   const createMutation = useMutation(
-    api.territories.store.mutationOptions({
-      onSuccess: () => {
-        queryClient.invalidateQueries({ queryKey: api.territories.index.pathKey() })
-        toast.success("Territoire créé avec succès")
-        handleClose()
-      },
-      onError: () => {
-        toast.error("Erreur lors de la création")
-      },
-    }),
+    api.territories.store.mutationOptions(
+      crudHandlers(queryClient, api.territories.index.pathKey(), {
+        success: "Territoire créé avec succès",
+        error: "Erreur lors de la création",
+        onSuccess: () => handleClose(),
+      }),
+    ),
   )
 
   const isFormValid = territoryName.trim() !== ""
@@ -34,8 +35,13 @@ export default function AddTerritory() {
   }
 
   const handleClose = () => {
-    setShow(false)
+    setOpen(false)
     resetForm()
+  }
+
+  const handleOpenChange = (nextOpen: boolean) => {
+    setOpen(nextOpen)
+    if (!nextOpen) resetForm()
   }
 
   const handleSubmit = () => {
@@ -45,51 +51,38 @@ export default function AddTerritory() {
     })
   }
 
-  const errors = createMutation.error ? ["Erreur lors de la création"] : []
-
   return (
-    <>
-      <AddTerritoryBtn type="button" onClick={() => setShow(true)}>
-        Ajouter un territoire
-      </AddTerritoryBtn>
-      <Modal show={show} setShow={setShow}>
-        <ModalCard
-          title="Ajouter un territoire"
-          onClose={handleClose}
-          submitLabel="Créer le territoire"
-          onSubmit={handleSubmit}
-          submitDisabled={!isFormValid || createMutation.isPending}
-          submitLoading={createMutation.isPending}
-        >
-          <form
-            onSubmit={(e) => {
-              e.preventDefault()
-              handleSubmit()
-            }}
-            autoComplete="off"
-          >
-            <InputContainer>
-              <label htmlFor={territoryNameID}>Nom du territoire *</label>
-              <input
-                type="text"
-                id={territoryNameID}
-                placeholder="Ex: France métropolitaine"
-                autoComplete="off"
-                required
-                value={territoryName}
-                onChange={(e) => setTerritoryName(e.target.value)}
-              />
-            </InputContainer>
-            {errors.length > 0 && (
-              <ErrorContainer>
-                {errors.map((error, index) => (
-                  <span key={index}>{error}</span>
-                ))}
-              </ErrorContainer>
-            )}
-          </form>
-        </ModalCard>
-      </Modal>
-    </>
+    <AddEntityDrawer
+      triggerLabel="Ajouter un territoire"
+      title="Ajouter un territoire"
+      subtitle="Nouveau territoire"
+      open={open}
+      onOpenChange={handleOpenChange}
+      onTriggerClick={() => setOpen(true)}
+      formId={formId}
+      onSubmit={handleSubmit}
+      submitLabel="Créer le territoire"
+      submitting={createMutation.isPending}
+      submitDisabled={!isFormValid}
+      error={createMutation.error ? "Erreur lors de la création du territoire." : null}
+    >
+      <DrawerSection>
+        <DrawerSectionTitle>Informations générales</DrawerSectionTitle>
+        <FormGrid>
+          <InputContainer>
+            <label htmlFor={territoryNameID}>Nom du territoire *</label>
+            <input
+              type="text"
+              id={territoryNameID}
+              placeholder="Ex: France métropolitaine"
+              autoComplete="off"
+              required
+              value={territoryName}
+              onChange={(e) => setTerritoryName(e.target.value)}
+            />
+          </InputContainer>
+        </FormGrid>
+      </DrawerSection>
+    </AddEntityDrawer>
   )
 }

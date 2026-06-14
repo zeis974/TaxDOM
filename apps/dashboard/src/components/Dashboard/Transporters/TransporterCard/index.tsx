@@ -2,39 +2,24 @@ import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useNavigate } from "@tanstack/react-router"
 import type { Transporter } from "@taxdom/types"
 import { useMemo, useState } from "react"
-import { toast } from "sonner"
-import { Drawer } from "vaul"
-import Button from "@/components/ui/Button"
-import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { api } from "@/lib/api"
 import {
-  ActionsGroup,
-  Card,
-  CardHeader,
-  CardTitle,
-  ClickableCard,
-  DeleteButton,
+  BooleanToggle,
+  crudHandlers,
   DetailIcon,
   DetailLabel,
   DetailList,
   DetailRow,
   DetailValue,
   DetailValueInput,
-  DrawerBody,
-  DrawerCloseButton,
-  DrawerContent,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerHeaderContent,
-  DrawerOverlay,
   DrawerSection,
-  DrawerSubtitle,
-  DrawerTitle,
-  ErrorContainer,
+  EntityCard,
+  EntityDrawer,
+  EntityDrawerActions,
   RulesEditorButton,
   StatusBadge,
-  StatusTagButton,
-} from "./TransporterCard.styled"
+} from "@/components/Dashboard/shared"
+import { useCardDrawer } from "@/hooks/useCardDrawer"
+import { api } from "@/lib/api"
 
 type Props = {
   transporter: Transporter
@@ -50,49 +35,39 @@ export default function TransporterCard({ transporter, editable = false }: Props
   const queryClient = useQueryClient()
 
   const updateMutation = useMutation(
-    api.transporters.update.mutationOptions({
-      onSuccess: () => {
-        queryClient.invalidateQueries({ queryKey: api.transporters.index.pathKey() })
-        toast.success("Transporteur mis à jour")
-        drawer.closeDrawer()
-      },
-      onError: () => {
-        toast.error("Erreur lors de la mise à jour")
-      },
-    }),
+    api.transporters.update.mutationOptions(
+      crudHandlers(queryClient, api.transporters.index.pathKey(), {
+        success: "Transporteur mis à jour",
+        error: "Erreur lors de la mise à jour",
+        onSuccess: drawer.closeDrawer,
+      }),
+    ),
   )
 
   const deleteMutation = useMutation(
-    api.transporters.destroy.mutationOptions({
-      onSuccess: () => {
-        queryClient.invalidateQueries({ queryKey: api.transporters.index.pathKey() })
-        toast.success("Transporteur supprimé")
-        drawer.closeDrawer()
-      },
-      onError: () => {
-        toast.error("Erreur lors de la suppression")
-      },
-    }),
+    api.transporters.destroy.mutationOptions(
+      crudHandlers(queryClient, api.transporters.index.pathKey(), {
+        success: "Transporteur supprimé",
+        error: "Erreur lors de la suppression",
+        onSuccess: drawer.closeDrawer,
+      }),
+    ),
   )
 
   const isFormValid = useMemo(() => Boolean(transporterName.trim()), [transporterName])
 
   const handleCardClick = () => {
-    if (!editable) return
     setTransporterName(transporter.transporterName)
     setAvailable(transporter.available)
     drawer.openDrawer()
   }
 
   const handleOpenChange = (nextOpen: boolean) => {
-    if (nextOpen) {
-      drawer.setOpen(true)
-    } else {
-      drawer.closeDrawer()
-    }
+    if (nextOpen) drawer.setOpen(true)
+    else drawer.closeDrawer()
   }
 
-  const handleSave = async () => {
+  const handleSave = () => {
     if (!isFormValid) return
     updateMutation.mutate({
       params: { id: transporter.transporterID },
@@ -100,7 +75,7 @@ export default function TransporterCard({ transporter, editable = false }: Props
     })
   }
 
-  const handleDelete = async () => {
+  const handleDelete = () => {
     if (drawer.isDeletingLocal) return
     drawer.setIsDeletingLocal(true)
     drawer.setDeleteError(null)
@@ -114,157 +89,97 @@ export default function TransporterCard({ transporter, editable = false }: Props
     })
   }
 
-  const renderCardContent = (
-    <>
-      <CardHeader>
-        <CardTitle title={transporter.transporterName}>{transporter.transporterName}</CardTitle>
-      </CardHeader>
-      <StatusBadge data-active={transporter.available}>
-        {transporter.available ? "Activé" : "Désactivé"}
-      </StatusBadge>
-    </>
-  )
-
   return (
     <>
-      {editable ? (
-        <ClickableCard type="button" onClick={handleCardClick} data-clickable>
-          {renderCardContent}
-        </ClickableCard>
-      ) : (
-        <Card>{renderCardContent}</Card>
-      )}
+      <EntityCard
+        title={transporter.transporterName}
+        onClick={editable ? handleCardClick : undefined}
+      >
+        <StatusBadge active={transporter.available}>
+          {transporter.available ? "Activé" : "Désactivé"}
+        </StatusBadge>
+      </EntityCard>
+
       {editable && (
-        <Drawer.Root open={drawer.open} onOpenChange={handleOpenChange} direction="right">
-          <Drawer.Portal>
-            <DrawerOverlay />
-            <Drawer.Content asChild>
-              <DrawerContent>
-                <DrawerHeader>
-                  <DrawerHeaderContent>
-                    <DrawerTitle>{transporter.transporterName}</DrawerTitle>
-                    <DrawerSubtitle>#{transporter.transporterID}</DrawerSubtitle>
-                  </DrawerHeaderContent>
-                  <Drawer.Close asChild>
-                    <DrawerCloseButton aria-label="Fermer">&times;</DrawerCloseButton>
-                  </Drawer.Close>
-                </DrawerHeader>
-                <DrawerBody>
-                  <DrawerSection>
-                    <DetailList>
-                      <DetailRow>
-                        <DetailLabel>
-                          <DetailIcon>
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              width="16"
-                              height="16"
-                            >
-                              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                              <polyline points="14 2 14 8 20 8" />
-                            </svg>
-                          </DetailIcon>
-                          Nom
-                        </DetailLabel>
-                        <DetailValue>
-                          {drawer.isEditing ? (
-                            <DetailValueInput
-                              type="text"
-                              value={transporterName}
-                              onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                                setTransporterName(e.target.value.toUpperCase())
-                              }
-                            />
-                          ) : (
-                            transporterName
-                          )}
-                        </DetailValue>
-                      </DetailRow>
-                      <DetailRow>
-                        <DetailLabel>
-                          <DetailIcon>
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              width="16"
-                              height="16"
-                            >
-                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                              <polyline points="22 4 12 14.01 9 11" />
-                            </svg>
-                          </DetailIcon>
-                          Statut
-                        </DetailLabel>
-                        <DetailValue>
-                          {drawer.isEditing ? (
-                            <div style={{ display: "flex", gap: 8 }}>
-                              <StatusTagButton
-                                type="button"
-                                data-active={available}
-                                onClick={() => setAvailable(true)}
-                              >
-                                Oui
-                              </StatusTagButton>
-                              <StatusTagButton
-                                type="button"
-                                data-active={!available}
-                                onClick={() => setAvailable(false)}
-                              >
-                                Non
-                              </StatusTagButton>
-                            </div>
-                          ) : (
-                            <StatusBadge data-active={available}>
-                              {available ? "Activé" : "Désactivé"}
-                            </StatusBadge>
-                          )}
-                        </DetailValue>
-                      </DetailRow>
-                    </DetailList>
-                  </DrawerSection>
-                </DrawerBody>
-                <DrawerFooter>
-                  <ErrorContainer>
-                    {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                  </ErrorContainer>
-                  <ActionsGroup>
-                    <RulesEditorButton type="button" onClick={handleOpenRulesEditor}>
-                      Éditeur de règles
-                    </RulesEditorButton>
-                    <DeleteButton
-                      type="button"
-                      onClick={handleDelete}
-                      disabled={
-                        updateMutation.isPending ||
-                        deleteMutation.isPending ||
-                        drawer.isDeletingLocal
-                      }
+        <EntityDrawer
+          open={drawer.open}
+          onOpenChange={handleOpenChange}
+          title={transporter.transporterName}
+          subtitle={`Transporteur · #${transporter.transporterID}`}
+          footer={
+            <EntityDrawerActions
+              onDelete={handleDelete}
+              onSave={handleSave}
+              saving={updateMutation.isPending}
+              deleting={deleteMutation.isPending || drawer.isDeletingLocal}
+              saveDisabled={!isFormValid}
+              error={drawer.deleteError}
+              extraActions={
+                <RulesEditorButton type="button" onClick={handleOpenRulesEditor}>
+                  Éditeur de règles
+                </RulesEditorButton>
+              }
+            />
+          }
+        >
+          <DrawerSection>
+            <DetailList>
+              <DetailRow>
+                <DetailLabel>
+                  <DetailIcon>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      width="16"
+                      height="16"
                     >
-                      {deleteMutation.isPending || drawer.isDeletingLocal
-                        ? "Suppression..."
-                        : "Supprimer"}
-                    </DeleteButton>
-                    <Drawer.Close asChild>
-                      <Button type="button">Annuler</Button>
-                    </Drawer.Close>
-                    <Button
-                      type="button"
-                      onClick={handleSave}
-                      aria-disabled={!isFormValid || updateMutation.isPending}
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                    </svg>
+                  </DetailIcon>
+                  Nom
+                </DetailLabel>
+                <DetailValue>
+                  <DetailValueInput
+                    type="text"
+                    value={transporterName}
+                    onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                      setTransporterName(e.target.value.toUpperCase())
+                    }
+                  />
+                </DetailValue>
+              </DetailRow>
+              <DetailRow>
+                <DetailLabel>
+                  <DetailIcon>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      width="16"
+                      height="16"
                     >
-                      {updateMutation.isPending ? "Sauvegarde..." : "Sauvegarder"}
-                    </Button>
-                  </ActionsGroup>
-                </DrawerFooter>
-              </DrawerContent>
-            </Drawer.Content>
-          </Drawer.Portal>
-        </Drawer.Root>
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                      <polyline points="22 4 12 14.01 9 11" />
+                    </svg>
+                  </DetailIcon>
+                  Statut
+                </DetailLabel>
+                <DetailValue>
+                  <BooleanToggle
+                    value={available}
+                    onChange={setAvailable}
+                    trueLabel="Activé"
+                    falseLabel="Désactivé"
+                  />
+                </DetailValue>
+              </DetailRow>
+            </DetailList>
+          </DrawerSection>
+        </EntityDrawer>
       )}
     </>
   )
