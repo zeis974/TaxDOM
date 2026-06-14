@@ -105,8 +105,7 @@ export function EntityDrawerActions({
         <Drawer.Close asChild>
           <Button type="button">Annuler</Button>
         </Drawer.Close>
-        <Button type="button" onClick={onSave} aria-disabled={saveDisabled || saving}>
-          {saving ? "Sauvegarde..." : "Sauvegarder"}
+        <Button type="button" onClick={onSave} disabled={saveDisabled || saving}>
         </Button>
       </ActionsGroup>
     </>
