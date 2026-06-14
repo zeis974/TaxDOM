@@ -1,6 +1,6 @@
 import { styled } from "@/panda/jsx"
 
-export const PageContainerBase = styled.div`
+export const PageContainer = styled.div`
   color: token(colors.primary);
   font-family: token(fonts.nativeFont);
   height: 100%;
@@ -8,7 +8,7 @@ export const PageContainerBase = styled.div`
   flex-direction: column;
 `
 
-export const PageHeaderBase = styled.div`
+export const PageHeaderRow = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@ export const PageHeaderBase = styled.div`
   z-index: 10;
 `
 
-export const PageHeaderTitleBase = styled.div`
+export const PageHeaderTitle = styled.div`
   display: flex;
   align-items: end;
   gap: 15px;
@@ -35,7 +35,7 @@ export const PageHeaderTitleBase = styled.div`
   }
 `
 
-export const PageHeaderActionsBase = styled.div`
+export const PageHeaderActions = styled.div`
   display: flex;
   height: 100%;
   align-items: center;
