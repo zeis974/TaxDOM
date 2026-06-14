@@ -4,6 +4,7 @@ import { desc, eq, isNotNull } from "drizzle-orm"
 import { v7 as uuidv7 } from "uuid"
 import { db } from "#config/database"
 import { ritaSyncRuns } from "#database/schema"
+// Value import (not `import type`): @inject() needs the runtime class for DI metadata.
 import { CustomsNomenclaturesService } from "#services/CustomsNomenclaturesService"
 import { RitaSyncService } from "#services/RitaSyncService"
 
@@ -167,11 +168,7 @@ async function runFullSync(masterRunId: string): Promise<void> {
       .update(ritaSyncRuns)
       .set({ finishedAt: new Date(), status: "ok", rowsImported: totalImported })
       .where(eq(ritaSyncRuns.id, masterRunId))
-
-    // After sync, reindex Meilisearch
-    const nomenclaturesService = new CustomsNomenclaturesService(db)
-    await nomenclaturesService.configureIndex()
-    await nomenclaturesService.reindexToMeilisearch()
+    // Nomenclature search runs on plain SQL against this table — no reindex needed.
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error)
     await db

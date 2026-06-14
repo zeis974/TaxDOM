@@ -18,6 +18,13 @@ export type ProductTaxesInput = {
   territory: string
 }
 
+export type CategoryTaxesInput = {
+  categoryID: string
+  label: string
+  origin: string
+  territory: string
+}
+
 export class GetProductTaxesService {
   constructor(private db: DB) {}
 
@@ -110,6 +117,80 @@ export class GetProductTaxesService {
       await redis.setex(cacheKey, CACHE_TTL_SECONDS, JSON.stringify(result))
     } catch (err) {
       logger.warn("Failed to cache product taxes: %O", err)
+    }
+
+    return result
+  }
+
+  /**
+   * Resolves taxes from a category rather than a specific product. Tax rates
+   * live on the category (`category.taxID`); origin/territory only gate
+   * availability, and per-product overrides do not apply here. Used by the
+   * unified resolver when the input maps to a category but not an exact product.
+   */
+  async getTaxesForCategory(input: CategoryTaxesInput): Promise<ProductTaxesSimulatorResult> {
+    const originName = input.origin.toUpperCase()
+    const territoryName = input.territory.toUpperCase()
+
+    const cacheKey = `category_taxes:${input.categoryID}:${originName}:${territoryName}`
+
+    let cached: string | null = null
+    try {
+      cached = await redis.get(cacheKey)
+    } catch (err) {
+      logger.warn("Redis read failed, proceeding without cache: %O", err)
+    }
+    if (cached) {
+      const parsed = JSON.parse(cached) as ProductTaxesSimulatorResult
+      return { ...parsed, product: input.label }
+    }
+
+    const [originRow, territoryRow] = await Promise.all([
+      this.db.query.origins.findFirst({
+        where: and(eq(origins.originName, originName), eq(origins.available, true)),
+        columns: { originID: true },
+      }),
+      this.db.query.territories.findFirst({
+        where: and(eq(territories.territoryName, territoryName), eq(territories.available, true)),
+        columns: { territoryID: true },
+      }),
+    ])
+
+    if (!originRow) {
+      throw new NotFoundError("Origin not found")
+    }
+    if (!territoryRow) {
+      throw new NotFoundError("Territory not found")
+    }
+
+    const [row] = await this.db
+      .select({
+        tva: taxes.tva,
+        om: taxes.om,
+        omr: taxes.omr,
+      })
+      .from(categories)
+      .innerJoin(taxes, eq(categories.taxID, taxes.taxID))
+      .where(eq(categories.categoryID, input.categoryID))
+      .limit(1)
+
+    if (!row) {
+      throw new NotFoundError(`No tax found for category "${input.label}"`)
+    }
+
+    const result: ProductTaxesSimulatorResult = {
+      product: input.label,
+      taxes: {
+        tva: Number(row.tva),
+        om: Number(row.om),
+        omr: Number(row.omr),
+      },
+    }
+
+    try {
+      await redis.setex(cacheKey, CACHE_TTL_SECONDS, JSON.stringify(result))
+    } catch (err) {
+      logger.warn("Failed to cache category taxes: %O", err)
     }
 
     return result

@@ -1,14 +1,12 @@
 import type { HttpContext } from "@adonisjs/core/http"
 import logger from "@adonisjs/core/services/logger"
-import { productsIndex, meiliState } from "#lib/meilisearch"
-import { BadRequestError, NotFoundError } from "#exceptions/ServiceErrors"
+
+import { BadRequestError, ServiceUnavailableError } from "#exceptions/ServiceErrors"
+import { chromaState } from "#lib/chroma"
+import { searchSimilarProducts } from "#services/VectorSearch"
 import { SearchProductsValidator } from "#validators/SearchProductsValidator"
 
-interface MeiliProductHit {
-  productName: string
-  id: string
-  categoryName: string
-}
+const SEARCH_LIMIT = 10
 
 const ENUMERATION_PATTERNS = [
   /^[a-zA-Z0-9]$/, // single character (caught by validator, defense in depth)
@@ -21,9 +19,9 @@ function isEnumerationAttempt(q: string): boolean {
 }
 
 export default class SearchProductsController {
-  async handle({ request, response }: HttpContext) {
-    if (!meiliState.available) {
-      return response.status(503).json({ error: "Search unavailable" })
+  async handle({ request }: HttpContext) {
+    if (!chromaState.available) {
+      throw new ServiceUnavailableError("Recherche indisponible")
     }
 
     const filters = await request.validateUsing(SearchProductsValidator)
@@ -34,30 +32,16 @@ export default class SearchProductsController {
       throw new BadRequestError("Invalid query")
     }
 
-    try {
-      const results = await productsIndex.search<MeiliProductHit>(productName, {
-        limit: 10,
-        attributesToRetrieve: ["productName"],
-      })
+    const hits = await searchSimilarProducts(productName, { limit: SEARCH_LIMIT })
 
-      if (!results.hits.length) {
-        throw new NotFoundError("No product found")
-      }
+    // No match is a valid, successful outcome (200 with an empty list, not a
+    // 404). The `{ success, data }` envelope mirrors the error shape so clients
+    // always get a consistent, self-describing payload.
+    logger.info("Vector product search: '%s' -> %d results", productName, hits.length)
 
-      logger.info(
-        "Meilisearch product search: '%s' -> %d results",
-        productName,
-        results.hits.length,
-      )
-
-      return results.hits.map((hit) => ({ name: hit.productName }))
-    } catch (error) {
-      if (error instanceof NotFoundError || error instanceof BadRequestError) {
-        throw error
-      }
-
-      logger.error("Meilisearch search failed: %O", error)
-      return response.status(503).json({ error: "Search unavailable" })
+    return {
+      success: true as const,
+      data: hits.map((hit) => ({ name: hit.productName })),
     }
   }
 }

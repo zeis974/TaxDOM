@@ -235,12 +235,23 @@ export default function BaseSelect({
     }
   }
 
+  // Surfaced next to the label (not as a dropdown row) when an async search
+  // came back empty, so "no results" reads as field info rather than a fake option.
+  const showNoResults =
+    !!onSearch &&
+    show &&
+    !searchLoading &&
+    filteredOptions.length === 0 &&
+    value.length >= 2 &&
+    !!noResultsMessage
+
   return (
     <InputContainer>
       <label htmlFor={id || name}>
         {label}
         {required && " *"}
         {errors.length > 0 && <span> {errors.join(", ")}</span>}
+        {showNoResults && <span> {noResultsMessage}</span>}
       </label>
       <input
         {...inputProps}
@@ -282,40 +293,6 @@ export default function BaseSelect({
             />
           </m.div>
         )}
-        {show &&
-          onSearch &&
-          !searchLoading &&
-          filteredOptions.length === 0 &&
-          value.length >= 2 &&
-          noResultsMessage && (
-            <m.div
-              style={{ zIndex: 1 }}
-              initial={{ translateY: "-5px", opacity: 0 }}
-              animate={{ translateY: "0", opacity: 1 }}
-              exit={{ translateY: "5px", opacity: 0 }}
-            >
-              <OptionContainer
-                aria-label="Aucun résultat"
-                style={{
-                  height: "35px",
-                  overflow: "hidden",
-                }}
-              >
-                <li
-                  style={{
-                    height: "35px",
-                    display: "flex",
-                    alignItems: "center",
-                    padding: "0 5px",
-                    color: "rgba(255,255,255,0.4)",
-                    cursor: "default",
-                  }}
-                >
-                  {noResultsMessage}
-                </li>
-              </OptionContainer>
-            </m.div>
-          )}
       </AnimatePresence>
     </InputContainer>
   )

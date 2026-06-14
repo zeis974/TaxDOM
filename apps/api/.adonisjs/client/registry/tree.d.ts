@@ -14,6 +14,8 @@ export interface ApiDefinition {
   }
   searchProducts: typeof routes['search_products']
   getProductTaxes: typeof routes['get_product_taxes']
+  resolveProductTaxes: typeof routes['resolve_product_taxes']
+  scrapeProductUrl: typeof routes['scrape_product_url']
   calculateParcel: typeof routes['calculate_parcel']
   getTemplates: typeof routes['get_templates']
   territories: {
@@ -35,6 +37,7 @@ export interface ApiDefinition {
     update: typeof routes['transporters.update']
     destroy: typeof routes['transporters.destroy']
   }
+  getNomenclatureTaxes: typeof routes['get_nomenclature_taxes']
   categories: {
     count: typeof routes['categories.count']
     withStats: typeof routes['categories.with_stats']
@@ -49,6 +52,7 @@ export interface ApiDefinition {
     tree: typeof routes['customs_nomenclatures.tree']
     search: typeof routes['customs_nomenclatures.search']
     products: typeof routes['customs_nomenclatures.products']
+    lastSync: typeof routes['customs_nomenclatures.last_sync']
     triggerSync: typeof routes['customs_nomenclatures.trigger_sync']
     syncStream: typeof routes['customs_nomenclatures.sync_stream']
   }
@@ -62,11 +66,5 @@ export interface ApiDefinition {
     show: typeof routes['products.show']
     update: typeof routes['products.update']
     destroy: typeof routes['products.destroy']
-  }
-  searchConfig: {
-    getConfig: typeof routes['search_config.get_config']
-    updateConfig: typeof routes['search_config.update_config']
-    getSynonyms: typeof routes['search_config.get_synonyms']
-    updateSynonyms: typeof routes['search_config.update_synonyms']
   }
 }

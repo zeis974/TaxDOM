@@ -69,7 +69,7 @@ export default function ProductTaxesSimulatorOverlay({
   onReset,
 }: ProductTaxesSimulatorOverlayProps) {
   const layerMap: Partial<Record<TaxSimulatorFormLabel, React.JSX.Element>> = {
-    product: <ProductLayer />,
+    query: <ProductLayer />,
     territory: (
       <GlobeLayer
         focusInput={focusInput}
@@ -92,7 +92,7 @@ export default function ProductTaxesSimulatorOverlay({
     <AnimatePresence initial={false} mode="wait">
       <Container
         layoutId="fade"
-        key={focusInput === "product" ? "product" : focusInput ? "globe" : "intro"}
+        key={focusInput === "query" ? "query" : focusInput ? "globe" : "intro"}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}

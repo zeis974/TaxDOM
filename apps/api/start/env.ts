@@ -66,10 +66,12 @@ export default await Env.create(new URL("../", import.meta.url), {
 
   /*
   |----------------------------------------------------------
-  | Variables for Meilisearch
+  | Variables for Chroma (vector store) + Ollama (embeddings)
   |----------------------------------------------------------
   */
-  MEILI_HOST: Env.schema.string({ format: "url", protocol: true, tld: false }),
-  MEILI_MASTER_KEY: Env.schema.string(),
-  MEILI_ENV: Env.schema.enum(["development", "production"] as const),
+  CHROMA_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
+  CHROMA_COLLECTION: Env.schema.string(),
+  OLLAMA_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
+  OLLAMA_EMBED_MODEL: Env.schema.string(),
+  EMBEDDING_DIM: Env.schema.number(),
 })

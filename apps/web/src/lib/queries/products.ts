@@ -7,9 +7,9 @@ export async function searchProducts(query: string): Promise<SelectOption[]> {
       query: { name: query },
     })
 
-    if (!Array.isArray(res)) return []
+    if (!res?.success || !Array.isArray(res.data)) return []
 
-    return res.map((item) => ({
+    return res.data.map((item) => ({
       name: item.name,
       value: item.name,
     }))
