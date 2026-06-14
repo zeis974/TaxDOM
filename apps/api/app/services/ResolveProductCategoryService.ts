@@ -1,6 +1,10 @@
 import logger from "@adonisjs/core/services/logger"
 
-import { BadRequestError, UnsupportedMerchantError } from "#exceptions/ServiceErrors"
+import {
+  BadRequestError,
+  ServiceUnavailableError,
+  UnsupportedMerchantError,
+} from "#exceptions/ServiceErrors"
 import { chromaState } from "#lib/chroma"
 import { extractProductFromUrl } from "#services/MerchantUrlParser"
 import { searchSimilarProducts } from "#services/VectorSearch"
@@ -53,7 +57,9 @@ export class ResolveProductCategoryService {
     }
 
     if (!chromaState.available) {
-      throw new BadRequestError("Recherche indisponible")
+      // Dependency down (Chroma/Ollama), not bad input → 503 so clients can
+      // distinguish "retry later" from "fix your query".
+      throw new ServiceUnavailableError("Recherche indisponible")
     }
 
     const hits = await searchSimilarProducts(query, { limit: SEARCH_LIMIT })

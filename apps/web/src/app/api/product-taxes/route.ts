@@ -72,6 +72,15 @@ export async function POST(request: Request) {
       )
     }
 
+    if (status === 503) {
+      // Vector stack down — forward as 503 so the client can retry / show a
+      // specific message instead of a generic failure.
+      return Response.json(
+        { error: "Recherche temporairement indisponible", code: "SERVICE_UNAVAILABLE" },
+        { status: 503 },
+      )
+    }
+
     console.error(e)
     return Response.json(
       { error: "Failed to resolve taxes", message: (e as Error).message },

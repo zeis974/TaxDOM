@@ -20,8 +20,9 @@ export default function registerPublicProductsRoutes(router: HttpRouterService) 
   router
     .post("/products/taxes", [GetProductTaxesController, "handle"])
     .use([getProductsTaxesThrottle])
-  // Unified resolver: may scrape a merchant page (headless browser), so it
-  // reuses the strict per-IP + daily scrape limits.
+  // Unified resolver: parses the merchant URL slug only (no network fetch / no
+  // headless browser), but still reuses the strict per-IP + daily URL-classify
+  // limits.
   router
     .post("/products/resolve", [ResolveProductTaxesController, "handle"])
     .use([classifyUrlThrottle, classifyUrlDailyThrottle])

@@ -52,7 +52,9 @@ export async function searchSimilarProducts(
         productName: String(metadata?.productName ?? ""),
         categoryID: String(metadata?.categoryID ?? ""),
         categoryName: String(metadata?.categoryName ?? ""),
-        distance: distances[i] ?? 0,
+        // Missing distance → treat as infinitely far so it's excluded by the
+        // maxDistance cutoff, never mistaken for a perfect (0) match.
+        distance: distances[i] ?? Number.POSITIVE_INFINITY,
       }))
       .filter((hit) => hit.categoryID && hit.distance <= maxDistance)
   } catch (error) {
