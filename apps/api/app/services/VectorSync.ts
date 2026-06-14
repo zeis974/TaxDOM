@@ -52,7 +52,7 @@ async function retryWithBackoff(
 async function upsertProduct(doc: ProductDocument): Promise<void> {
   const embedder = createEmbeddingService()
   const collection = await getCollection()
-  const text = productEmbeddingText(doc.productName, doc.categoryName)
+  const text = productEmbeddingText(doc.productName)
   const [embedding] = await embedder.embedBatch([text])
 
   await collection.upsert({

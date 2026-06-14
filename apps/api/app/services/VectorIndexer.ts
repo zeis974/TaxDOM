@@ -8,9 +8,18 @@ import { createEmbeddingService } from "#services/EmbeddingService"
 
 const BATCH_SIZE = 100
 
-/** Text fed to the embedder for a product (name + category context). */
-export function productEmbeddingText(productName: string, categoryName: string | null): string {
-  return categoryName ? `${productName} — ${categoryName}` : productName
+/**
+ * Text fed to the embedder for a product — the product NAME only.
+ *
+ * Categories are tax buckets (e.g. "Informatique"), not product types, so
+ * appending the category name adds noise and pushes legitimate matches past the
+ * relevance cutoff. Measured on a generic catalogue: an "Apple iPhone 15" query
+ * against the "smartphone" product scores 0.55 on the name alone but 0.65 once
+ * "— Informatique" is appended (rejected). The category still travels in the
+ * vector metadata; it just must not pollute the embedded text.
+ */
+export function productEmbeddingText(productName: string): string {
+  return productName
 }
 
 type ProductRow = {
@@ -24,7 +33,7 @@ async function upsertBatch(rows: ProductRow[]): Promise<void> {
   const embedder = createEmbeddingService()
   const collection = await getCollection()
 
-  const texts = rows.map((r) => productEmbeddingText(r.productName, r.categoryName))
+  const texts = rows.map((r) => productEmbeddingText(r.productName))
   const embeddings = await embedder.embedBatch(texts)
 
   await collection.upsert({
