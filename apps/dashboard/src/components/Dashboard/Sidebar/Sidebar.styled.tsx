@@ -23,9 +23,9 @@ export const Container = styled.nav`
 `
 
 export const Logo = styled.h1`
-  color: var(--primary-color);
+  color: token(colors.primary);
   font-size: clamp(1.4em, 5vw, 2em);
-  font-family: token(fonts.Rowdies);
+  font-family: token(fonts.nativeFont);
 `
 
 export const List = styled.ul`
