@@ -1,39 +1,24 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Territory } from "@taxdom/types"
 import { useMemo, useState } from "react"
-import { toast } from "sonner"
-import { Drawer } from "vaul"
-import Button from "@/components/ui/Button"
-import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { api } from "@/lib/api"
 import {
-  ActionsGroup,
-  Card,
-  CardHeader,
+  BooleanToggle,
   CardInfo,
-  CardTitle,
-  ClickableCard,
-  DeleteButton,
+  crudHandlers,
   DetailIcon,
   DetailLabel,
   DetailList,
   DetailRow,
   DetailValue,
   DetailValueInput,
-  DrawerBody,
-  DrawerCloseButton,
-  DrawerContent,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerHeaderContent,
-  DrawerOverlay,
   DrawerSection,
-  DrawerSubtitle,
-  DrawerTitle,
-  ErrorContainer,
+  EntityCard,
+  EntityDrawer,
+  EntityDrawerActions,
   StatusBadge,
-  StatusTagButton,
-} from "./TerritoryCard.styled"
+} from "@/components/Dashboard/shared"
+import { useCardDrawer } from "@/hooks/useCardDrawer"
+import { api } from "@/lib/api"
 
 type Props = {
   territory: Territory
@@ -48,49 +33,39 @@ export default function TerritoryCard({ territory, editable = false }: Props) {
   const queryClient = useQueryClient()
 
   const updateMutation = useMutation(
-    api.territories.update.mutationOptions({
-      onSuccess: () => {
-        queryClient.invalidateQueries({ queryKey: api.territories.index.pathKey() })
-        toast.success("Territoire mis à jour")
-        drawer.closeDrawer()
-      },
-      onError: () => {
-        toast.error("Erreur lors de la mise à jour")
-      },
-    }),
+    api.territories.update.mutationOptions(
+      crudHandlers(queryClient, api.territories.index.pathKey(), {
+        success: "Territoire mis à jour",
+        error: "Erreur lors de la mise à jour",
+        onSuccess: drawer.closeDrawer,
+      }),
+    ),
   )
 
   const deleteMutation = useMutation(
-    api.territories.destroy.mutationOptions({
-      onSuccess: () => {
-        queryClient.invalidateQueries({ queryKey: api.territories.index.pathKey() })
-        toast.success("Territoire supprimé")
-        drawer.closeDrawer()
-      },
-      onError: () => {
-        toast.error("Erreur lors de la suppression")
-      },
-    }),
+    api.territories.destroy.mutationOptions(
+      crudHandlers(queryClient, api.territories.index.pathKey(), {
+        success: "Territoire supprimé",
+        error: "Erreur lors de la suppression",
+        onSuccess: drawer.closeDrawer,
+      }),
+    ),
   )
 
   const isFormValid = useMemo(() => Boolean(territoryName.trim()), [territoryName])
 
   const handleCardClick = () => {
-    if (!editable) return
     setTerritoryName(territory.territoryName)
     setAvailable(territory.available)
     drawer.openDrawer()
   }
 
   const handleOpenChange = (nextOpen: boolean) => {
-    if (nextOpen) {
-      drawer.setOpen(true)
-    } else {
-      drawer.closeDrawer()
-    }
+    if (nextOpen) drawer.setOpen(true)
+    else drawer.closeDrawer()
   }
 
-  const handleSave = async () => {
+  const handleSave = () => {
     if (!isFormValid) return
     updateMutation.mutate({
       params: { id: territory.territoryID },
@@ -98,160 +73,95 @@ export default function TerritoryCard({ territory, editable = false }: Props) {
     })
   }
 
-  const handleDelete = async () => {
+  const handleDelete = () => {
     if (drawer.isDeletingLocal) return
     drawer.setIsDeletingLocal(true)
     drawer.setDeleteError(null)
     deleteMutation.mutate({ params: { id: territory.territoryID } })
   }
 
-  const renderCardContent = (
-    <>
-      <CardHeader>
-        <CardTitle title={territory.territoryName}>{territory.territoryName}</CardTitle>
-      </CardHeader>
-      <StatusBadge data-active={territory.available}>
-        {territory.available ? "Activé" : "Désactivé"}
-      </StatusBadge>
-      <CardInfo>ID: {territory.territoryID}</CardInfo>
-    </>
-  )
-
   return (
     <>
-      {editable ? (
-        <ClickableCard type="button" onClick={handleCardClick} data-clickable>
-          {renderCardContent}
-        </ClickableCard>
-      ) : (
-        <Card>{renderCardContent}</Card>
-      )}
+      <EntityCard title={territory.territoryName} onClick={editable ? handleCardClick : undefined}>
+        <StatusBadge active={territory.available}>
+          {territory.available ? "Activé" : "Désactivé"}
+        </StatusBadge>
+        <CardInfo>ID: {territory.territoryID}</CardInfo>
+      </EntityCard>
+
       {editable && (
-        <Drawer.Root open={drawer.open} onOpenChange={handleOpenChange} direction="right">
-          <Drawer.Portal>
-            <DrawerOverlay />
-            <Drawer.Content asChild>
-              <DrawerContent>
-                <DrawerHeader>
-                  <DrawerHeaderContent>
-                    <DrawerTitle>{territory.territoryName}</DrawerTitle>
-                    <DrawerSubtitle>#{territory.territoryID}</DrawerSubtitle>
-                  </DrawerHeaderContent>
-                  <Drawer.Close asChild>
-                    <DrawerCloseButton aria-label="Fermer">&times;</DrawerCloseButton>
-                  </Drawer.Close>
-                </DrawerHeader>
-                <DrawerBody>
-                  <DrawerSection>
-                    <DetailList>
-                      <DetailRow>
-                        <DetailLabel>
-                          <DetailIcon>
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              width="16"
-                              height="16"
-                            >
-                              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                              <polyline points="14 2 14 8 20 8" />
-                            </svg>
-                          </DetailIcon>
-                          Nom
-                        </DetailLabel>
-                        <DetailValue>
-                          {drawer.isEditing ? (
-                            <DetailValueInput
-                              type="text"
-                              value={territoryName}
-                              onChange={(e) => setTerritoryName(e.target.value)}
-                            />
-                          ) : (
-                            territoryName
-                          )}
-                        </DetailValue>
-                      </DetailRow>
-                      <DetailRow>
-                        <DetailLabel>
-                          <DetailIcon>
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              width="16"
-                              height="16"
-                            >
-                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                              <polyline points="22 4 12 14.01 9 11" />
-                            </svg>
-                          </DetailIcon>
-                          Statut
-                        </DetailLabel>
-                        <DetailValue>
-                          {drawer.isEditing ? (
-                            <div style={{ display: "flex", gap: 8 }}>
-                              <StatusTagButton
-                                type="button"
-                                data-active={available}
-                                onClick={() => setAvailable(true)}
-                              >
-                                Oui
-                              </StatusTagButton>
-                              <StatusTagButton
-                                type="button"
-                                data-active={!available}
-                                onClick={() => setAvailable(false)}
-                              >
-                                Non
-                              </StatusTagButton>
-                            </div>
-                          ) : (
-                            <StatusBadge data-active={available}>
-                              {available ? "Activé" : "Désactivé"}
-                            </StatusBadge>
-                          )}
-                        </DetailValue>
-                      </DetailRow>
-                    </DetailList>
-                  </DrawerSection>
-                </DrawerBody>
-                <DrawerFooter>
-                  <ErrorContainer>
-                    {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                  </ErrorContainer>
-                  <ActionsGroup>
-                    <DeleteButton
-                      type="button"
-                      onClick={handleDelete}
-                      disabled={
-                        updateMutation.isPending ||
-                        deleteMutation.isPending ||
-                        drawer.isDeletingLocal
-                      }
+        <EntityDrawer
+          open={drawer.open}
+          onOpenChange={handleOpenChange}
+          title={territory.territoryName}
+          subtitle={`Territoire · #${territory.territoryID}`}
+          footer={
+            <EntityDrawerActions
+              onDelete={handleDelete}
+              onSave={handleSave}
+              saving={updateMutation.isPending}
+              deleting={deleteMutation.isPending || drawer.isDeletingLocal}
+              saveDisabled={!isFormValid}
+              error={drawer.deleteError}
+            />
+          }
+        >
+          <DrawerSection>
+            <DetailList>
+              <DetailRow>
+                <DetailLabel>
+                  <DetailIcon>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      width="16"
+                      height="16"
                     >
-                      {deleteMutation.isPending || drawer.isDeletingLocal
-                        ? "Suppression..."
-                        : "Supprimer"}
-                    </DeleteButton>
-                    <Drawer.Close asChild>
-                      <Button type="button">Annuler</Button>
-                    </Drawer.Close>
-                    <Button
-                      type="button"
-                      onClick={handleSave}
-                      aria-disabled={!isFormValid || updateMutation.isPending}
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                    </svg>
+                  </DetailIcon>
+                  Nom
+                </DetailLabel>
+                <DetailValue>
+                  <DetailValueInput
+                    type="text"
+                    value={territoryName}
+                    onChange={(e) => setTerritoryName(e.target.value)}
+                  />
+                </DetailValue>
+              </DetailRow>
+              <DetailRow>
+                <DetailLabel>
+                  <DetailIcon>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      width="16"
+                      height="16"
                     >
-                      {updateMutation.isPending ? "Sauvegarde..." : "Sauvegarder"}
-                    </Button>
-                  </ActionsGroup>
-                </DrawerFooter>
-              </DrawerContent>
-            </Drawer.Content>
-          </Drawer.Portal>
-        </Drawer.Root>
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                      <polyline points="22 4 12 14.01 9 11" />
+                    </svg>
+                  </DetailIcon>
+                  Statut
+                </DetailLabel>
+                <DetailValue>
+                  <BooleanToggle
+                    value={available}
+                    onChange={setAvailable}
+                    trueLabel="Activé"
+                    falseLabel="Désactivé"
+                  />
+                </DetailValue>
+              </DetailRow>
+            </DetailList>
+          </DrawerSection>
+        </EntityDrawer>
       )}
     </>
   )

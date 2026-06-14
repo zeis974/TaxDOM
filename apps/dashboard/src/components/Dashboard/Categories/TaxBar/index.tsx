@@ -1,5 +1,4 @@
 import type { Category } from "@taxdom/types"
-import { styled } from "@/panda/jsx"
 import {
   Container,
   LegendColor,

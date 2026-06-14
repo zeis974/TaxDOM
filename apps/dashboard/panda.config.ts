@@ -17,6 +17,7 @@ export default defineConfig({
   globalCss: {
     body: {
       backgroundColor: "{colors.background}",
+      color: "{colors.primary}",
     },
   },
 })

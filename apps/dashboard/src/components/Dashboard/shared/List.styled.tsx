@@ -1,6 +1,6 @@
 import { styled } from "@/panda/jsx"
 
-export const ListContainerBase = styled.div`
+export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -9,7 +9,7 @@ export const ListContainerBase = styled.div`
   font-family: token(fonts.nativeFont);
 `
 
-export const ListGridBase = styled.div`
+export const ListGrid = styled.div`
   width: inherit;
   height: inherit;
   display: grid;
@@ -17,7 +17,7 @@ export const ListGridBase = styled.div`
   gap: 16px;
 `
 
-export const EmptyStateBase = styled.div`
+export const EmptyState = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,11 +48,4 @@ export const EmptyStateBase = styled.div`
     max-width: 400px;
     line-height: 1.6;
   }
-`
-
-export const ResultsCountBase = styled.div`
-  margin-bottom: 1rem;
-  color: token(colors.darkGray);
-  font-size: 14px;
-  font-family: token(fonts.nativeFont);
 `

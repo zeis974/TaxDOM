@@ -1,6 +1,6 @@
 import { styled } from "@/panda/jsx"
 
-export const CardBase = styled.div`
+export const Card = styled.div`
   background: token(colors.secondaryBackground);
   border: 1px solid token(colors.darkGray);
   border-radius: 12px;
@@ -11,7 +11,7 @@ export const CardBase = styled.div`
   text-align: left;
 `
 
-export const ClickableCardBase = styled.button`
+export const ClickableCard = styled.button`
   background: token(colors.secondaryBackground);
   border: 1px solid token(colors.darkGray);
   border-radius: 12px;
@@ -23,7 +23,7 @@ export const ClickableCardBase = styled.button`
 
   &:hover {
     border-color: token(colors.primary);
-    box-shadow: 0 18px 32px rgba(15, 23, 42, 0.15);
+    box-shadow: 0 18px 32px token(colors.shadow);
   }
 
   &:focus-visible {
@@ -32,7 +32,7 @@ export const ClickableCardBase = styled.button`
   }
 `
 
-export const CardHeaderBase = styled.div`
+export const CardHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -46,7 +46,7 @@ export const CardHeaderBase = styled.div`
   }
 `
 
-export const CardTitleBase = styled.h3`
+export const CardTitle = styled.h3`
   margin: 0;
   color: token(colors.primary);
   font-size: 17px;
@@ -56,40 +56,66 @@ export const CardTitleBase = styled.h3`
   white-space: nowrap;
 `
 
-export const BadgeContainerBase = styled.div`
+export const CardInfo = styled.span`
+  color: token(colors.darkGray);
+  font-size: 13px;
+`
+
+export const BadgeContainer = styled.div`
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
 `
 
-export const BadgeBase = styled.span`
+/**
+ * Badge décoratif coloré. Variantes via data-type.
+ */
+export const Badge = styled.span`
   font-size: 11px;
   padding: 4px 10px;
   border-radius: 999px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+
+  &[data-type="accent"],
+  &[data-type="category"] {
+    background: token(colors.accent);
+    color: token(colors.accentFg);
+  }
+
+  &[data-type="info"],
+  &[data-type="eu"] {
+    background: token(colors.info);
+    color: token(colors.infoFg);
+  }
+
+  &[data-type="neutral"],
+  &[data-type="products"] {
+    background: token(colors.tertiaryBackground);
+    color: token(colors.primary);
+  }
 `
 
-export const StatusBadgeBase = styled.span`
-  display: inline-block;
-  font-size: 12px;
-  padding: 3px 10px;
+/**
+ * Badge de statut actif/inactif. Encodage unique : data-active (booléen).
+ */
+export const StatusBadgeStyled = styled.span`
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
   border-radius: 999px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 
   &[data-active="true"] {
-    background: #dcfce7;
-    color: #166534;
+    background: token(colors.success);
+    color: token(colors.successFg);
   }
 
   &[data-active="false"] {
-    background: #fee2e2;
-    color: #991b1b;
+    background: token(colors.danger);
+    color: token(colors.dangerFg);
   }
-`
-
-export const CardInfoBase = styled.span`
-  color: token(colors.darkGray);
-  font-size: 13px;
 `

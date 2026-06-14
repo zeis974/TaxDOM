@@ -1,252 +1,175 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Category } from "@taxdom/types"
 import { useId, useMemo, useState } from "react"
-import { toast } from "sonner"
-import { Drawer } from "vaul"
-import TaxBar from "@/components/Dashboard/Categories/CategoriesList/TaxBar"
-import { InputContainer } from "@/components/Forms/Input/Input.styled"
-import Button from "@/components/ui/Button"
-import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { api } from "@/lib/api"
+import TaxBar from "@/components/Dashboard/Categories/TaxBar"
 import {
-  ActionsGroup,
   Badge,
-  BadgeContainer,
-  Card,
-  CardHeader,
-  CardInfo,
-  CardTitle,
-  ClickableCard,
-  DeleteButton,
-  DrawerBody,
-  DrawerCloseButton,
-  DrawerContent,
-  DrawerFooter,
-  DrawerForm,
-  DrawerHeader,
-  DrawerMeta,
-  DrawerOverlay,
+  crudHandlers,
   DrawerSection,
   DrawerSectionDescription,
   DrawerSectionTitle,
-  DrawerSubtitle,
-  DrawerTitle,
-  ErrorContainer,
+  EntityCard,
+  EntityDrawer,
+  EntityDrawerActions,
   FormGrid,
-} from "./CategoryCard.styled"
+} from "@/components/Dashboard/shared"
+import { InputContainer } from "@/components/Forms/Input/Input.styled"
+import NomenclatureAutocomplete from "@/components/Forms/NomenclatureAutocomplete"
+import { useCardDrawer } from "@/hooks/useCardDrawer"
+import { api } from "@/lib/api"
 
 type Props = {
   category: Category
-  onClick?: () => void
   editable?: boolean
 }
 
-export default function CategoryCard({ category, onClick, editable = false }: Props) {
+export default function CategoryCard({ category, editable = false }: Props) {
   const drawer = useCardDrawer()
   const [categoryName, setCategoryName] = useState(category.categoryName)
-
+  const [nomenclatureCode, setNomenclatureCode] = useState(category.nomenclatureCode ?? "")
   const categoryNameId = useId()
 
   const queryClient = useQueryClient()
+  const relatedProducts = category.relatedProducts ?? 0
 
   const updateMutation = useMutation(
-    api.categories.update.mutationOptions({
-      onSuccess: () => {
-        queryClient.invalidateQueries({ queryKey: api.categories.index.pathKey() })
-        toast.success("Catégorie mise à jour")
-        drawer.closeDrawer()
-      },
-      onError: () => {
-        toast.error("Erreur lors de la mise à jour")
-      },
-    }),
+    api.categories.update.mutationOptions(
+      crudHandlers(queryClient, api.categories.index.pathKey(), {
+        success: "Catégorie mise à jour",
+        error: "Erreur lors de la mise à jour",
+        onSuccess: drawer.closeDrawer,
+      }),
+    ),
   )
 
   const deleteMutation = useMutation(
-    api.categories.destroy.mutationOptions({
-      onSuccess: () => {
-        queryClient.invalidateQueries({ queryKey: api.categories.index.pathKey() })
-        toast.success("Catégorie supprimée")
-        drawer.closeDrawer()
-      },
-      onError: () => {
-        toast.error("Erreur lors de la suppression")
-      },
-    }),
+    api.categories.destroy.mutationOptions(
+      crudHandlers(queryClient, api.categories.index.pathKey(), {
+        success: "Catégorie supprimée",
+        error: "Erreur lors de la suppression",
+        onSuccess: drawer.closeDrawer,
+      }),
+    ),
   )
 
   const isFormValid = useMemo(() => Boolean(categoryName.trim()), [categoryName])
 
   const handleCardClick = () => {
-    onClick?.()
-    if (!editable) return
     setCategoryName(category.categoryName)
+    setNomenclatureCode(category.nomenclatureCode ?? "")
     drawer.openDrawer()
   }
 
   const handleOpenChange = (nextOpen: boolean) => {
-    if (nextOpen) {
-      drawer.setOpen(true)
-    } else {
-      drawer.closeDrawer()
-    }
+    if (nextOpen) drawer.setOpen(true)
+    else drawer.closeDrawer()
   }
 
-  const handleSave = async () => {
+  const handleSave = () => {
     if (!isFormValid) return
     updateMutation.mutate({
       params: { id: category.categoryID },
       body: {
         categoryName: categoryName.trim(),
         taxID: category.taxID,
+        nomenclatureCode: nomenclatureCode || null,
       },
     })
   }
 
-  const handleDelete = async () => {
+  const handleDelete = () => {
     if (drawer.isDeletingLocal) return
     drawer.setIsDeletingLocal(true)
     drawer.setDeleteError(null)
     deleteMutation.mutate({ params: { id: category.categoryID } })
   }
 
-  const renderCardContent = <CardContent category={category} />
-
   return (
     <>
-      {editable || onClick ? (
-        <ClickableCard type="button" onClick={handleCardClick} data-clickable>
-          {renderCardContent}
-        </ClickableCard>
-      ) : (
-        <Card>{renderCardContent}</Card>
-      )}
+      <EntityCard
+        title={category.categoryName}
+        onClick={editable ? handleCardClick : undefined}
+        badges={
+          relatedProducts > 0 && (
+            <Badge data-type="neutral">
+              {relatedProducts} produit{relatedProducts !== 1 ? "s" : ""}
+            </Badge>
+          )
+        }
+      >
+        {category.taxes && <TaxBar taxes={category.taxes} />}
+      </EntityCard>
 
       {editable && (
-        <Drawer.Root open={drawer.open} onOpenChange={handleOpenChange} direction="right">
-          <Drawer.Portal>
-            <DrawerOverlay />
-            <Drawer.Content asChild>
-              <DrawerContent>
-                <DrawerHeader>
-                  <div>
-                    <DrawerSubtitle>
-                      <span>Catégorie</span>
-                      <span>#{category.categoryID}</span>
-                    </DrawerSubtitle>
-                    <DrawerTitle>{category.categoryName}</DrawerTitle>
-                    <DrawerMeta>
-                      <span>
-                        {category.relatedProducts ?? 0} produit
-                        {(category.relatedProducts ?? 0) !== 1 ? "s" : ""} lié
-                        {(category.relatedProducts ?? 0) !== 1 ? "s" : ""}
-                      </span>
-                      {category.taxes && (
-                        <span>
-                          TVA {category.taxes.tva}% / OM {category.taxes.om}% / OMR{" "}
-                          {category.taxes.omr}%
-                        </span>
-                      )}
-                    </DrawerMeta>
-                  </div>
-                  <Drawer.Close asChild>
-                    <DrawerCloseButton aria-label="Fermer le panneau">&times;</DrawerCloseButton>
-                  </Drawer.Close>
-                </DrawerHeader>
+        <EntityDrawer
+          open={drawer.open}
+          onOpenChange={handleOpenChange}
+          title={category.categoryName}
+          subtitle={`Catégorie · #${category.categoryID}`}
+          meta={
+            <>
+              <span>
+                {relatedProducts} produit{relatedProducts !== 1 ? "s" : ""} lié
+                {relatedProducts !== 1 ? "s" : ""}
+              </span>
+              {category.taxes && (
+                <span>
+                  TVA {category.taxes.tva}% / OM {category.taxes.om}% / OMR {category.taxes.omr}%
+                </span>
+              )}
+            </>
+          }
+          footer={
+            <EntityDrawerActions
+              onDelete={handleDelete}
+              onSave={handleSave}
+              saving={updateMutation.isPending}
+              deleting={deleteMutation.isPending || drawer.isDeletingLocal}
+              saveDisabled={!isFormValid}
+              error={drawer.deleteError}
+            />
+          }
+        >
+          <DrawerSection>
+            <DrawerSectionTitle>Informations générales</DrawerSectionTitle>
+            <DrawerSectionDescription>
+              Mettez à jour le nom et le code de nomenclature de cette catégorie.
+            </DrawerSectionDescription>
+            <FormGrid>
+              <InputContainer>
+                <label htmlFor={categoryNameId}>Nom de la catégorie</label>
+                <input
+                  type="text"
+                  id={categoryNameId}
+                  placeholder="Nom de la catégorie"
+                  autoComplete="off"
+                  required
+                  value={categoryName}
+                  onChange={(e) => setCategoryName(e.target.value)}
+                />
+              </InputContainer>
+              <NomenclatureAutocomplete
+                label="Code SH (optionnel)"
+                hint="Préfixe de nomenclature douanière (2-6 chiffres) pour cette catégorie."
+                value={nomenclatureCode}
+                onChange={(code) => setNomenclatureCode(code)}
+                onClear={() => setNomenclatureCode("")}
+                placeholder="Ex: 8517"
+              />
+            </FormGrid>
+          </DrawerSection>
 
-                <DrawerForm autoComplete="off">
-                  <DrawerBody>
-                    <DrawerSection>
-                      <DrawerSectionTitle>Informations générales</DrawerSectionTitle>
-                      <DrawerSectionDescription>
-                        Mettez à jour le nom de cette catégorie.
-                      </DrawerSectionDescription>
-                      <FormGrid>
-                        <InputContainer>
-                          <label htmlFor={categoryNameId}>Nom de la catégorie</label>
-                          <input
-                            type="text"
-                            id={categoryNameId}
-                            placeholder="Nom de la catégorie"
-                            autoComplete="off"
-                            required
-                            value={categoryName}
-                            onChange={(e) => setCategoryName(e.target.value)}
-                          />
-                        </InputContainer>
-                      </FormGrid>
-                    </DrawerSection>
-
-                    {category.taxes && (
-                      <DrawerSection>
-                        <DrawerSectionTitle>Fiscalité</DrawerSectionTitle>
-                        <DrawerSectionDescription>
-                          Barème de taxes associé à cette catégorie.
-                        </DrawerSectionDescription>
-                        <TaxBar taxes={category.taxes} />
-                      </DrawerSection>
-                    )}
-                  </DrawerBody>
-
-                  <DrawerFooter>
-                    <ErrorContainer>
-                      {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                    </ErrorContainer>
-                    <ActionsGroup>
-                      <DeleteButton
-                        type="button"
-                        onClick={handleDelete}
-                        disabled={
-                          updateMutation.isPending ||
-                          deleteMutation.isPending ||
-                          drawer.isDeletingLocal
-                        }
-                      >
-                        {deleteMutation.isPending || drawer.isDeletingLocal
-                          ? "Suppression..."
-                          : "Supprimer"}
-                      </DeleteButton>
-                      <Drawer.Close asChild>
-                        <Button type="button">Annuler</Button>
-                      </Drawer.Close>
-                      <Button
-                        type="button"
-                        onClick={handleSave}
-                        aria-disabled={!isFormValid || updateMutation.isPending}
-                      >
-                        {updateMutation.isPending ? "Sauvegarde..." : "Sauvegarder"}
-                      </Button>
-                    </ActionsGroup>
-                  </DrawerFooter>
-                </DrawerForm>
-              </DrawerContent>
-            </Drawer.Content>
-          </Drawer.Portal>
-        </Drawer.Root>
-      )}
-    </>
-  )
-}
-
-function CardContent({ category }: { category: Category }) {
-  return (
-    <>
-      <CardHeader>
-        <CardTitle title={category.categoryName}>{category.categoryName}</CardTitle>
-        <BadgeContainer>
-          {(category.relatedProducts ?? 0) > 0 && (
-            <Badge data-type="products">
-              {category.relatedProducts} produit{(category.relatedProducts ?? 0) !== 1 ? "s" : ""}
-            </Badge>
+          {category.taxes && (
+            <DrawerSection>
+              <DrawerSectionTitle>Fiscalité</DrawerSectionTitle>
+              <DrawerSectionDescription>
+                Barème de taxes associé à cette catégorie.
+              </DrawerSectionDescription>
+              <TaxBar taxes={category.taxes} />
+            </DrawerSection>
           )}
-        </BadgeContainer>
-      </CardHeader>
-      {category.taxes && <TaxBar taxes={category.taxes} />}
-      <CardInfo>
-        {category.relatedProducts ?? 0} produit{(category.relatedProducts ?? 0) !== 1 ? "s" : ""}{" "}
-        lié
-        {(category.relatedProducts ?? 0) !== 1 ? "s" : ""}
-      </CardInfo>
+        </EntityDrawer>
+      )}
     </>
   )
 }

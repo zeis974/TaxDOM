@@ -27,8 +27,7 @@
     "react-dom": "19.2.7",
     "react-error-boundary": "^6.1.2",
     "sonner": "2.0.7",
-    "vaul": "1.1.2",
-    "zustand": "5.0.14"
+    "vaul": "1.1.2"
   },
   "devDependencies": {
     "@pandacss/dev": "1.11.3",
