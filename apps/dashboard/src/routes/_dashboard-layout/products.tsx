@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router"
+import type { Product } from "@taxdom/types"
 import { Suspense } from "react"
 import Products from "@/components/Dashboard/Products"
 import LoadingFallback from "@/components/Dashboard/shared/LoadingFallback"
@@ -8,10 +9,7 @@ import { api, queryClient } from "@/lib/api"
 export const Route = createFileRoute("/_dashboard-layout/products")({
   loader: async () => {
     const result = await queryClient.ensureQueryData(api.products.index.queryOptions())
-    return { products: (result as any)?.data ?? [] }
-  },
-  onError: ({ error }) => {
-    console.error("Products route loader failed:", error)
+    return { products: (result as { data?: Product[] })?.data ?? [] }
   },
   errorComponent: ErrorComponent,
   component: ProductsPage,
