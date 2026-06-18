@@ -1,57 +1,112 @@
 import { useVirtualizer } from "@tanstack/react-virtual"
-import { type Dispatch, type SetStateAction, useMemo, useRef } from "react"
+import { type MouseEvent, useCallback, useEffect, useRef } from "react"
+
 import type { BaseOption } from "./BaseSelect"
 import { NonVirtualItem, VirtualItem, VirtualizerContainer } from "./OptionsList.styled"
 import { OptionContainer } from "./Select.styled"
 
 interface OptionsListProps {
   options: BaseOption[]
-  value: string
-  onSelect: (value: string) => void
+  listboxId: string
+  activeIndex: number
   selectedIndex: number
-  setSelectedIndex: Dispatch<SetStateAction<number>>
+  onSelect: (option: BaseOption) => void
+  onMouseDown?: () => void
+}
+
+interface OptionItemProps {
+  option: BaseOption
+  id: string
+  isSelected: boolean
+  isActive: boolean
+  optionIndex: number
+  onMouseDown?: () => void
+  onSelect: (option: BaseOption) => void
+  style?: React.CSSProperties
+  virtual?: boolean
+}
+
+const itemHeight = 35
+const maxVisibleItems = 6
+
+function OptionItem({
+  option,
+  id,
+  isSelected,
+  isActive,
+  optionIndex,
+  onMouseDown,
+  onSelect,
+  style,
+  virtual,
+}: OptionItemProps) {
+  const handleClick = useCallback(
+    (event: MouseEvent) => {
+      event.preventDefault()
+      onSelect(option)
+    },
+    [onSelect, option],
+  )
+
+  const commonProps = {
+    id,
+    role: "option" as const,
+    "aria-selected": isSelected,
+    "data-option-index": optionIndex,
+    "data-selected": isActive,
+    "data-available": option.available,
+    onMouseDown,
+    onClick: handleClick,
+    style,
+  }
+
+  if (virtual) {
+    return <VirtualItem {...commonProps}>{option.name}</VirtualItem>
+  }
+
+  return <NonVirtualItem {...commonProps}>{option.name}</NonVirtualItem>
 }
 
 export function OptionsList({
   options,
-  value,
-  onSelect,
+  listboxId,
+  activeIndex,
   selectedIndex,
-  setSelectedIndex,
+  onSelect,
+  onMouseDown,
 }: OptionsListProps) {
   const parentRef = useRef<HTMLUListElement>(null)
-  const itemHeight = 35
-  const maxVisibleItems = 6
 
-  const filteredOptions = useMemo(() => {
-    return options.filter((option) => {
-      const lowerCaseValue = value.toLowerCase()
-      const exactMatchFound =
-        lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
-      const lowerCaseOption = option.name.toLowerCase()
-      return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
-    })
-  }, [options, value])
-
-  const shouldVirtualize = filteredOptions.length > maxVisibleItems
+  const shouldVirtualize = options.length > maxVisibleItems
 
   const containerHeight = shouldVirtualize
     ? maxVisibleItems * itemHeight
-    : filteredOptions.length * itemHeight
+    : options.length * itemHeight
 
   const virtualizer = useVirtualizer({
-    count: filteredOptions.length,
+    count: options.length,
     getScrollElement: () => parentRef.current,
     estimateSize: () => itemHeight,
     overscan: 5,
   })
 
-  if (filteredOptions.length === 0) return null
+  useEffect(() => {
+    if (!parentRef.current || activeIndex < 0 || activeIndex >= options.length) return
+
+    const activeElement = parentRef.current.querySelector(`[data-option-index="${activeIndex}"]`)
+    activeElement?.scrollIntoView({ block: "nearest" })
+  }, [activeIndex, options.length])
+
+  if (options.length === 0) return null
+
+  const optionId = (index: number) => `${listboxId}-option-${index}`
 
   return (
     <OptionContainer
       ref={parentRef}
-      aria-label="Liste déroulante"
+      id={listboxId}
+      role="listbox"
+      aria-label="Suggestions"
       style={{
         height: `${containerHeight}px`,
         overflow: shouldVirtualize ? "auto" : "hidden",
@@ -64,39 +119,38 @@ export function OptionsList({
           }}
         >
           {virtualizer.getVirtualItems().map((virtualItem) => {
-            const option = filteredOptions[virtualItem.index]
+            const option = options[virtualItem.index]
             return (
-              <VirtualItem
-                key={option.name}
-                data-selected={virtualItem.index === selectedIndex}
-                data-available={option.available}
-                onMouseDown={() => onSelect(option.name)}
-                onMouseEnter={() => {
-                  setSelectedIndex(virtualItem.index)
-                }}
+              <OptionItem
+                key={option.value ?? option.name}
+                option={option}
+                id={optionId(virtualItem.index)}
+                isSelected={virtualItem.index === selectedIndex}
+                isActive={virtualItem.index === activeIndex}
+                optionIndex={virtualItem.index}
+                onMouseDown={onMouseDown}
+                onSelect={onSelect}
                 style={{
                   height: `${virtualItem.size}px`,
                   transform: `translateY(${virtualItem.start}px)`,
                 }}
-              >
-                {option.name}
-              </VirtualItem>
+                virtual
+              />
             )
           })}
         </VirtualizerContainer>
       ) : (
-        filteredOptions.map((option, index) => (
-          <NonVirtualItem
-            key={option.name}
-            data-selected={index === selectedIndex}
-            data-available={option.available}
-            onMouseDown={() => onSelect(option.name)}
-            onMouseEnter={() => {
-              setSelectedIndex(index)
-            }}
-          >
-            {option.name}
-          </NonVirtualItem>
+        options.map((option, index) => (
+          <OptionItem
+            key={option.value ?? option.name}
+            option={option}
+            id={optionId(index)}
+            isSelected={index === selectedIndex}
+            isActive={index === activeIndex}
+            optionIndex={index}
+            onMouseDown={onMouseDown}
+            onSelect={onSelect}
+          />
         ))
       )}
     </OptionContainer>
