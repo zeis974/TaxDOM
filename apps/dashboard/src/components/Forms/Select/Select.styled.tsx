@@ -4,7 +4,7 @@ export const HintText = styled.span`
   display: block;
   font-size: 0.75rem;
   font-family: token(fonts.nativeFont);
-  color: token(colors.darkGray);
+  color: token(colors.border);
   margin-top: 4px;
   line-height: 1.4;
 `
@@ -29,7 +29,7 @@ export const OptionContainer = styled.ul`
   top: calc(100% + 6px);
   z-index: 1;
   position: absolute;
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   background: token(colors.background);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   overflow: hidden;

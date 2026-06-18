@@ -1,8 +1,7 @@
 "use client"
 
-import { useFieldContext } from "@/hooks/form"
-
 import type { SelectFieldProps } from "@/components/Forms/types"
+import { useFieldContext } from "@/hooks/form"
 
 import BaseSelect from "./BaseSelect"
 
@@ -13,6 +12,8 @@ export default function SelectField({
   loading,
   onFocus,
   onSearch,
+  searchDebounceMs,
+  searchMinChars,
   noResultsMessage,
 }: SelectFieldProps) {
   const field = useFieldContext<string>()
@@ -25,10 +26,12 @@ export default function SelectField({
       placeholder={placeholder}
       options={options}
       value={field.state.value ?? ""}
-      onChange={(value) => field.handleChange(value)}
-      onBlur={() => field.handleBlur()}
+      onChange={field.handleChange}
+      onBlur={field.handleBlur}
       onFocus={onFocus}
       onSearch={onSearch}
+      searchDebounceMs={searchDebounceMs}
+      searchMinChars={searchMinChars}
       loading={loading}
       errors={field.state.meta.errors}
       noResultsMessage={noResultsMessage}

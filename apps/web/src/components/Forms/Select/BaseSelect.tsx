@@ -1,27 +1,32 @@
 "use client"
 
 import { useVirtualizer } from "@tanstack/react-virtual"
+import type { SelectOption } from "@taxdom/types"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
 import {
+  type InputHTMLAttributes,
+  type KeyboardEvent,
   useCallback,
   useEffect,
+  useId,
   useMemo,
   useRef,
   useState,
-  type InputHTMLAttributes,
-  type KeyboardEvent,
 } from "react"
-
-import type { SelectOption } from "@taxdom/types"
-
-import { useDebounce } from "@/hooks/useDebounce"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
-import { LoadingCircle, OptionContainer } from "./Select.styled"
+import { useDebounce } from "@/hooks/useDebounce"
+import {
+  LoadingCircle,
+  NonVirtualItem,
+  OptionContainer,
+  VirtualItem,
+  VirtualizerContainer,
+} from "./Select.styled"
 
 type NativeInputProps = Omit<
   InputHTMLAttributes<HTMLInputElement>,
-  "onChange" | "value" | "defaultValue" | "children"
+  "onChange" | "value" | "defaultValue" | "children" | "role"
 >
 
 export interface BaseSelectProps extends NativeInputProps {
@@ -35,6 +40,8 @@ export interface BaseSelectProps extends NativeInputProps {
   onBlur?: () => void
   onFocus?: () => void
   onSearch?: (query: string) => Promise<SelectOption[]>
+  searchDebounceMs?: number
+  searchMinChars?: number
   loading?: boolean
   errors?: string[]
   disabled?: boolean
@@ -44,18 +51,79 @@ export interface BaseSelectProps extends NativeInputProps {
 
 interface OptionsListProps {
   options: SelectOption[]
-  onSelect: (value: string) => void
+  listboxId: string
+  activeIndex: number
   selectedIndex: number
-  setSelectedIndex: (index: number) => void
+  onSelect: (option: SelectOption) => void
+  onMouseDown?: () => void
 }
 
-const OptionsList = ({ options, onSelect, selectedIndex, setSelectedIndex }: OptionsListProps) => {
+interface OptionItemProps {
+  option: SelectOption
+  id: string
+  isSelected: boolean
+  isActive: boolean
+  optionIndex: number
+  onMouseDown?: () => void
+  onSelect: (option: SelectOption) => void
+  style?: React.CSSProperties
+  virtual?: boolean
+}
+
+const itemHeight = 35
+const maxVisibleItems = 6
+const defaultSearchMinChars = 2
+const defaultSearchDebounceMs = 300
+
+function OptionItem({
+  option,
+  id,
+  isSelected,
+  isActive,
+  optionIndex,
+  onMouseDown,
+  onSelect,
+  style,
+  virtual,
+}: OptionItemProps) {
+  const handleClick = useCallback(
+    (event: React.MouseEvent) => {
+      event.preventDefault()
+      onSelect(option)
+    },
+    [onSelect, option],
+  )
+
+  const commonProps = {
+    id,
+    role: "option" as const,
+    "aria-selected": isSelected,
+    "data-option-index": optionIndex,
+    "data-selected": isActive,
+    "data-available": option.available,
+    onMouseDown,
+    onClick: handleClick,
+    style,
+  }
+
+  if (virtual) {
+    return <VirtualItem {...commonProps}>{option.name}</VirtualItem>
+  }
+
+  return <NonVirtualItem {...commonProps}>{option.name}</NonVirtualItem>
+}
+
+function OptionsList({
+  options,
+  listboxId,
+  activeIndex,
+  selectedIndex,
+  onSelect,
+  onMouseDown,
+}: OptionsListProps) {
   const parentRef = useRef<HTMLUListElement>(null)
-  const itemHeight = 35
-  const maxVisibleItems = 6
 
   const shouldVirtualize = options.length > maxVisibleItems
-
   const containerHeight = shouldVirtualize
     ? maxVisibleItems * itemHeight
     : options.length * itemHeight
@@ -67,71 +135,72 @@ const OptionsList = ({ options, onSelect, selectedIndex, setSelectedIndex }: Opt
     overscan: 5,
   })
 
+  useEffect(() => {
+    if (!parentRef.current || activeIndex < 0 || activeIndex >= options.length) return
+    const activeElement = parentRef.current.querySelector(`[data-option-index="${activeIndex}"]`)
+    activeElement?.scrollIntoView({ block: "nearest" })
+  }, [activeIndex, options.length])
+
   if (options.length === 0) return null
+
+  const optionId = (index: number) => `${listboxId}-option-${index}`
 
   return (
     <OptionContainer
       ref={parentRef}
-      aria-label="Liste déroulante"
+      id={listboxId}
+      role="listbox"
+      aria-label="Suggestions"
       style={{
         height: `${containerHeight}px`,
         overflow: shouldVirtualize ? "auto" : "hidden",
       }}
     >
       {shouldVirtualize ? (
-        <div
+        <VirtualizerContainer
           style={{
             height: `${virtualizer.getTotalSize()}px`,
-            width: "100%",
-            position: "relative",
           }}
         >
           {virtualizer.getVirtualItems().map((virtualItem) => {
             const option = options[virtualItem.index]
             return (
-              <li
-                key={option.name}
-                data-selected={virtualItem.index === selectedIndex}
-                data-available={option.available}
-                onClick={() => onSelect(option.value || option.name)}
-                onKeyUp={() => onSelect(option.value || option.name)}
-                onMouseEnter={() => {
-                  setSelectedIndex(virtualItem.index)
-                }}
+              <OptionItem
+                key={option.value ?? option.name}
+                option={option}
+                id={optionId(virtualItem.index)}
+                isSelected={virtualItem.index === selectedIndex}
+                isActive={virtualItem.index === activeIndex}
+                optionIndex={virtualItem.index}
+                onMouseDown={onMouseDown}
+                onSelect={onSelect}
                 style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
                   height: `${virtualItem.size}px`,
                   transform: `translateY(${virtualItem.start}px)`,
                 }}
-              >
-                {option.name}
-              </li>
+                virtual
+              />
             )
           })}
-        </div>
+        </VirtualizerContainer>
       ) : (
         options.map((option, index) => (
-          <li
-            key={option.name}
-            data-selected={index === selectedIndex}
-            data-available={option.available}
-            onClick={() => onSelect(option.value || option.name)}
-            onKeyUp={() => onSelect(option.value || option.name)}
-            onMouseEnter={() => {
-              setSelectedIndex(index)
-            }}
+          <OptionItem
+            key={option.value ?? option.name}
+            option={option}
+            id={optionId(index)}
+            isSelected={index === selectedIndex}
+            isActive={index === activeIndex}
+            optionIndex={index}
+            onMouseDown={onMouseDown}
+            onSelect={onSelect}
             style={{
               height: `${itemHeight}px`,
               display: "flex",
               alignItems: "center",
               padding: "0 5px",
             }}
-          >
-            {option.name}
-          </li>
+          />
         ))
       )}
     </OptionContainer>
@@ -139,16 +208,18 @@ const OptionsList = ({ options, onSelect, selectedIndex, setSelectedIndex }: Opt
 }
 
 export default function BaseSelect({
-  id,
+  id: idProp,
   name,
   label,
   placeholder,
   options = [],
-  value = "",
+  value,
   onChange,
   onBlur,
   onFocus,
   onSearch,
+  searchDebounceMs = defaultSearchDebounceMs,
+  searchMinChars = defaultSearchMinChars,
   loading,
   errors = [],
   disabled,
@@ -156,21 +227,36 @@ export default function BaseSelect({
   noResultsMessage,
   ...inputProps
 }: BaseSelectProps) {
-  const selectedIndexRef = useRef(0)
-  const [selectedIndex, setSelectedIndex] = useState(0)
-  const [show, setShow] = useState(false)
+  const reactId = useId()
+  const inputId = idProp ?? name ?? reactId
+  const listboxId = `${inputId}-listbox`
+
+  const inputRef = useRef<HTMLInputElement>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
+  const ignoreBlurRef = useRef(false)
+
+  const isSearchMode = Boolean(onSearch)
+
+  const [isOpen, setIsOpen] = useState(false)
+  const [inputValue, setInputValue] = useState(value)
+  const [activeIndex, setActiveIndex] = useState(-1)
   const [searchResults, setSearchResults] = useState<SelectOption[]>([])
   const [searchLoading, setSearchLoading] = useState(false)
 
-  const debouncedValue = useDebounce(value, 300)
+  const debouncedInputValue = useDebounce(inputValue, searchDebounceMs)
 
   useEffect(() => {
-    selectedIndexRef.current = selectedIndex
-  }, [selectedIndex])
+    if (isSearchMode) {
+      setInputValue(value)
+    } else {
+      const selected = options.find((option) => (option.value ?? option.name) === value)
+      setInputValue(selected?.name ?? "")
+    }
+  }, [value, options, isSearchMode])
 
   const performSearch = useCallback(
     async (query: string) => {
-      if (!onSearch || query.length < 2) {
+      if (!onSearch || query.length < searchMinChars) {
         setSearchResults([])
         return
       }
@@ -184,98 +270,195 @@ export default function BaseSelect({
         setSearchLoading(false)
       }
     },
-    [onSearch],
+    [onSearch, searchMinChars],
   )
 
   useEffect(() => {
-    if (onSearch && show) {
-      performSearch(debouncedValue)
-    }
-  }, [debouncedValue, onSearch, show, performSearch])
+    if (!isSearchMode || !isOpen) return
+    performSearch(debouncedInputValue)
+  }, [debouncedInputValue, isOpen, isSearchMode, performSearch])
 
   const filteredOptions = useMemo(() => {
-    if (onSearch) {
+    if (isSearchMode) {
       if (searchLoading) return []
       return searchResults
     }
-    if (!value) return options
-    const lower = value.toLowerCase()
+    if (!inputValue) return options
+    const lower = inputValue.toLowerCase()
     const exactMatch = options.some((opt) => opt.name.toLowerCase() === lower)
     if (exactMatch) return []
     return options.filter((opt) => opt.name.toLowerCase().includes(lower))
-  }, [onSearch, options, value, searchResults, searchLoading])
+  }, [isSearchMode, options, inputValue, searchResults, searchLoading])
+
+  const selectedIndex = filteredOptions.findIndex(
+    (option) => (option.value ?? option.name) === value,
+  )
+
+  const openListbox = useCallback(() => {
+    setIsOpen(true)
+    setActiveIndex(selectedIndex >= 0 ? selectedIndex : 0)
+  }, [selectedIndex])
+
+  const closeListbox = useCallback(() => {
+    setIsOpen(false)
+    setActiveIndex(-1)
+  }, [])
+
+  const selectOption = useCallback(
+    (option: SelectOption) => {
+      const newValue = option.value ?? option.name
+      onChange(newValue)
+      setInputValue(option.name)
+      closeListbox()
+      inputRef.current?.focus()
+    },
+    [onChange, closeListbox],
+  )
+
+  useEffect(() => {
+    if (!isOpen) return
+
+    const handleClickOutside = (event: globalThis.MouseEvent) => {
+      const target = event.target as Node
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(target) &&
+        !document.getElementById(listboxId)?.contains(target)
+      ) {
+        closeListbox()
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [isOpen, listboxId, closeListbox])
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = e.target.value
+    setInputValue(newValue)
+    if (!isOpen) openListbox()
+    setActiveIndex(0)
+    if (isSearchMode) {
+      onChange(newValue)
+    }
+  }
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (filteredOptions.length === 0) return
-
-    if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+    if (e.altKey && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
       e.preventDefault()
-      setSelectedIndex((prevIndex) => {
-        if (filteredOptions.length === 0) return prevIndex
-        const newIndex =
-          e.key === "ArrowUp"
-            ? (prevIndex - 1 + filteredOptions.length) % filteredOptions.length
-            : (prevIndex + 1) % filteredOptions.length
-        selectedIndexRef.current = newIndex
-        return newIndex
+      if (e.key === "ArrowDown") openListbox()
+      else closeListbox()
+      return
+    }
+
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault()
+      if (!isOpen) {
+        openListbox()
+        return
+      }
+      setActiveIndex((prev) => {
+        const max = filteredOptions.length - 1
+        if (max < 0) return -1
+        if (e.key === "ArrowDown") return prev >= max ? 0 : prev + 1
+        return prev <= 0 ? max : prev - 1
       })
+      return
+    }
+
+    if (e.key === "Home" && isOpen) {
+      e.preventDefault()
+      setActiveIndex(0)
+      return
+    }
+
+    if (e.key === "End" && isOpen) {
+      e.preventDefault()
+      setActiveIndex(filteredOptions.length - 1)
+      return
     }
 
     if (e.key === "Enter") {
       e.preventDefault()
-      const selectedOption = filteredOptions[selectedIndexRef.current]
-      if (selectedOption) {
-        onChange(selectedOption.value || selectedOption.name)
-        setShow(false)
+      if (isOpen && activeIndex >= 0 && activeIndex < filteredOptions.length) {
+        selectOption(filteredOptions[activeIndex])
+      } else if (!isOpen) {
+        openListbox()
       }
+      return
     }
 
     if (e.key === "Escape") {
-      setShow(false)
+      e.preventDefault()
+      closeListbox()
     }
   }
 
-  // Surfaced next to the label (not as a dropdown row) when an async search
-  // came back empty, so "no results" reads as field info rather than a fake option.
+  const handleBlur = () => {
+    if (ignoreBlurRef.current) {
+      ignoreBlurRef.current = false
+      inputRef.current?.focus()
+      return
+    }
+    closeListbox()
+    onBlur?.()
+  }
+
+  const handleOptionMouseDown = () => {
+    ignoreBlurRef.current = true
+  }
+
+  const handleFocus = useCallback(() => {
+    openListbox()
+    onFocus?.()
+  }, [openListbox, onFocus])
+
+  const activeOptionId =
+    isOpen && activeIndex >= 0 ? `${listboxId}-option-${activeIndex}` : undefined
+
   const showNoResults =
-    !!onSearch &&
-    show &&
+    isSearchMode &&
+    isOpen &&
     !searchLoading &&
     filteredOptions.length === 0 &&
-    value.length >= 2 &&
+    inputValue.length >= searchMinChars &&
     !!noResultsMessage
 
   return (
-    <InputContainer>
-      <label htmlFor={id || name}>
+    <InputContainer ref={containerRef}>
+      <label htmlFor={inputId}>
         {label}
-        {required && " *"}
-        {errors.length > 0 && <span> {errors.join(", ")}</span>}
-        {showNoResults && <span> {noResultsMessage}</span>}
+        {required ? " *" : null}
+        {errors.length > 0 ? <span> {errors.join(", ")}</span> : null}
+        {showNoResults ? <span> {noResultsMessage}</span> : null}
       </label>
       <input
         {...inputProps}
-        id={id || name}
+        ref={inputRef}
+        id={inputId}
         name={name}
+        role="combobox"
         autoComplete="off"
-        onChange={(e) => onChange(e.target.value)}
-        onBlur={() => {
-          setShow(false)
-          onBlur?.()
-        }}
-        onFocus={() => {
-          setShow(true)
-          onFocus?.()
-        }}
+        aria-autocomplete="list"
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
+        aria-controls={listboxId}
+        aria-activedescendant={activeOptionId}
+        aria-required={required}
+        aria-invalid={errors.length > 0}
+        onChange={handleInputChange}
+        onBlur={handleBlur}
+        onFocus={handleFocus}
         onKeyDown={handleKeyDown}
         placeholder={placeholder}
-        value={value}
+        value={inputValue}
         disabled={disabled}
+        readOnly={disabled}
         required={required}
       />
-      {(loading || searchLoading) && <LoadingCircle />}
+      {loading || searchLoading ? <LoadingCircle /> : null}
       <AnimatePresence>
-        {filteredOptions.length > 0 && show && (
+        {filteredOptions.length > 0 && isOpen ? (
           <m.div
             style={{ zIndex: 1, height: "100%" }}
             initial={{ translateY: "-5px", opacity: 0 }}
@@ -284,15 +467,14 @@ export default function BaseSelect({
           >
             <OptionsList
               options={filteredOptions}
-              onSelect={(selectedValue) => {
-                onChange(selectedValue)
-                setShow(false)
-              }}
+              listboxId={listboxId}
+              activeIndex={activeIndex}
               selectedIndex={selectedIndex}
-              setSelectedIndex={setSelectedIndex}
+              onSelect={selectOption}
+              onMouseDown={handleOptionMouseDown}
             />
           </m.div>
-        )}
+        ) : null}
       </AnimatePresence>
     </InputContainer>
   )
