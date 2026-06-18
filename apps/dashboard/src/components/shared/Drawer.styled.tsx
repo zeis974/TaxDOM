@@ -1,0 +1,1082 @@
+import { styled } from "@/panda/jsx"
+
+/* ---------------------------------- Chrome --------------------------------- */
+
+export const DrawerOverlay = styled.div`
+  position: fixed;
+  inset: 0;
+  background: token(colors.overlay);
+  backdrop-filter: blur(4px);
+  z-index: 49;
+`
+
+export const DrawerContent = styled.div`
+  position: fixed;
+  inset: 0 0 0 auto;
+  width: min(460px, 100vw);
+  height: 100vh;
+  background: token(colors.background);
+  border-left: 1px solid token(colors.mutedBorder);
+  box-shadow: -32px 0 80px token(colors.shadow);
+  display: flex;
+  flex-direction: column;
+  z-index: 50;
+  font-family: token(fonts.nativeFont);
+`
+
+export const DrawerHeader = styled.header`
+  padding: 16px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid token(colors.mutedBorder);
+`
+
+export const DrawerHeaderContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+`
+
+export const DrawerHeaderActions = styled.div`
+  display: flex;
+  gap: 6px;
+  align-items: center;
+`
+
+export const DrawerTitle = styled.h2`
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: token(colors.primary);
+  letter-spacing: -0.02em;
+  font-family: token(fonts.nativeFont);
+`
+
+export const DrawerMeta = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin-top: 8px;
+  font-size: 13px;
+  color: token(colors.mutedText);
+`
+
+export const DrawerCloseButton = styled.button`
+  background: token(colors.tertiaryBackground);
+  color: token(colors.primary);
+  border: none;
+  border-radius: 999px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+  transition: background 150ms ease;
+
+  &:hover {
+    background: token(colors.secondaryBackground);
+  }
+`
+
+export const HeaderActionButton = styled.button`
+  background: transparent;
+  color: token(colors.mutedText);
+  border: none;
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 150ms ease;
+
+  &:hover {
+    background: token(colors.tertiaryBackground);
+    color: token(colors.primary);
+  }
+`
+
+/* ----------------------------- Top Bar (Rippling) -------------------------- */
+
+export const DrawerTopBar = styled.header`
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid token(colors.mutedBorder);
+  flex-shrink: 0;
+`
+
+export const DrawerTopBarLeft = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
+`
+
+export const DrawerTopBarRight = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+`
+
+export const DrawerTopBarLabel = styled.span`
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+`
+
+export const DrawerNavGroup = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 4px;
+`
+
+export const DrawerNavButton = styled.button`
+  background: token(colors.tertiaryBackground);
+  color: token(colors.mutedText);
+  border: none;
+  border-radius: 999px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: background 150ms ease, color 150ms ease;
+
+  &:hover:not(:disabled) {
+    background: token(colors.secondaryBackground);
+    color: token(colors.primary);
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+`
+
+export const DrawerNavCounter = styled.span`
+  font-size: 13px;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+  min-width: 52px;
+  text-align: center;
+`
+
+/* ----------------------------- Hero (Rippling) ----------------------------- */
+
+export const DrawerHero = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 24px;
+  border-bottom: 1px solid token(colors.mutedBorder);
+  gap: 16px;
+`
+
+export const DrawerHeroTitle = styled.h2`
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: token(colors.primary);
+  letter-spacing: -0.02em;
+  font-family: token(fonts.nativeFont);
+  line-height: 1.25;
+`
+
+export const DrawerHeroActions = styled.div`
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-shrink: 0;
+`
+
+/* ----------------------------------- Body ---------------------------------- */
+
+export const DrawerForm = styled.form`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+`
+
+export const DrawerBody = styled.div`
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+`
+
+export const DrawerSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+`
+
+export const DrawerSectionTitle = styled.h3`
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+`
+
+export const DrawerSectionDescription = styled.p`
+  margin: 0;
+  font-size: 13px;
+  color: token(colors.mutedText);
+  line-height: 1.6;
+  font-family: token(fonts.nativeFont);
+`
+
+export const FormGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+`
+
+export const ToggleRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+
+  & > span {
+    font-size: 14px;
+    font-weight: 500;
+    color: token(colors.primary);
+  }
+`
+
+export const Divider = styled.div`
+  height: 1px;
+  background: token(colors.mutedBorder);
+`
+
+/* ---------------------------- Detail (read-only) --------------------------- */
+
+export const DetailList = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
+export const DetailRow = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid token(colors.mutedBorder);
+  gap: 16px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+`
+
+export const DetailLabel = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+  min-width: 0;
+  flex-shrink: 0;
+`
+
+export const DetailIcon = styled.span`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: token(colors.border);
+  flex-shrink: 0;
+`
+
+export const DetailValue = styled.span`
+  font-size: 14px;
+  font-weight: 500;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+  text-align: right;
+  min-width: 0;
+  word-break: break-word;
+`
+
+export const DetailValueInput = styled.input`
+  padding: 6px 10px;
+  border: 1px solid token(colors.border);
+  border-radius: 6px;
+  font-size: 14px;
+  background: token(colors.tertiaryBackground);
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+  max-width: 200px;
+  width: 100%;
+  text-align: right;
+
+  &:focus {
+    outline: none;
+    border-color: token(colors.blue);
+  }
+`
+
+export const DetailValueSelect = styled.select`
+  padding: 6px 10px;
+  border: 1px solid token(colors.border);
+  border-radius: 6px;
+  font-size: 14px;
+  background: token(colors.tertiaryBackground);
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+  max-width: 200px;
+  width: 100%;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    border-color: token(colors.blue);
+  }
+`
+
+export const DetailValueCopyable = styled.button`
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  &:hover {
+    color: token(colors.blue);
+  }
+`
+
+export const StatusTagButton = styled.button`
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid token(colors.border);
+  background: token(colors.tertiaryBackground);
+  color: token(colors.primary);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: token(fonts.nativeFont);
+
+  &[data-active="true"] {
+    background: token(colors.primary);
+    color: token(colors.background);
+    border-color: token(colors.primary);
+  }
+`
+
+/* ---------------------------------- Footer --------------------------------- */
+
+export const DrawerFooter = styled.footer`
+  padding: 16px 24px 24px;
+  border-top: 1px solid token(colors.mutedBorder);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px;
+`
+
+export const ActionsGroup = styled.div`
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+`
+
+export const ErrorContainer = styled.div`
+  color: token(colors.error);
+  flex: 1;
+  font-family: token(fonts.nativeFont);
+  min-width: 220px;
+
+  & span {
+    display: block;
+    margin-bottom: 6px;
+  }
+`
+
+export const DeleteButton = styled.button`
+  background: token(colors.danger);
+  color: token(colors.dangerFg);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-family: token(fonts.nativeFont);
+  font-weight: 600;
+
+  &:hover:not(:disabled) {
+    background: token(colors.dangerHover);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+`
+
+export const RulesEditorButton = styled.button`
+  background: token(colors.info);
+  color: token(colors.infoFg);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-family: token(fonts.nativeFont);
+  font-weight: 600;
+  transition: filter 150ms ease;
+
+  &:hover:not(:disabled) {
+    filter: brightness(0.97);
+  }
+`
+
+/* --------------------------------- Timeline -------------------------------- */
+
+export const TimelineContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: relative;
+`
+
+export const TimelineItem = styled.div`
+  display: flex;
+  gap: 16px;
+  position: relative;
+  padding-bottom: 24px;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+`
+
+export const TimelineIconWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+`
+
+export const TimelineIcon = styled.div`
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  &[data-status="success"] {
+    background: token(colors.success);
+    color: token(colors.successFg);
+  }
+
+  &[data-status="info"] {
+    background: token(colors.info);
+    color: token(colors.infoFg);
+  }
+
+  &[data-status="warning"] {
+    background: token(colors.warning);
+    color: token(colors.warningFg);
+  }
+`
+
+export const TimelineConnector = styled.div`
+  width: 2px;
+  flex: 1;
+  background: token(colors.mutedBorder);
+  margin-top: 8px;
+  min-height: 16px;
+`
+
+export const TimelineContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 4px;
+  min-width: 0;
+`
+
+export const TimelineTitle = styled.span`
+  font-size: 14px;
+  font-weight: 600;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+`
+
+export const TimelineDescription = styled.span`
+  font-size: 13px;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+  line-height: 1.5;
+`
+
+export const TimelineDate = styled.span`
+  font-size: 12px;
+  color: token(colors.border);
+  font-family: token(fonts.nativeFont);
+`
+
+/* ========================= Detail Drawer (read-only hero) ===================== */
+
+export const DetailDrawerHeader = styled.header`
+  padding: 20px 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid token(colors.mutedBorder);
+  flex-shrink: 0;
+  gap: 16px;
+`
+
+export const DetailDrawerHeaderLeft = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1;
+`
+
+export const DetailDrawerHeaderTitle = styled.span`
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: token(colors.mutedText);
+  font-weight: 600;
+  font-family: token(fonts.nativeFont);
+`
+
+export const DetailDrawerTitle = styled.h2`
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: token(colors.primary);
+  letter-spacing: -0.02em;
+  font-family: token(fonts.nativeFont);
+  line-height: 1.25;
+`
+
+export const DetailDrawerNavGroup = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+`
+
+export const DetailDrawerNavButton = styled.button`
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1px solid token(colors.mutedBorder);
+  background: token(colors.background);
+  color: token(colors.mutedText);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 150ms ease;
+
+  &:hover:not(:disabled) {
+    border-color: token(colors.border);
+    color: token(colors.primary);
+    background: token(colors.tertiaryBackground);
+  }
+
+  &:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+`
+
+export const DetailDrawerCounter = styled.span`
+  font-size: 13px;
+  font-weight: 500;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+  min-width: 64px;
+  text-align: center;
+`
+
+export const DetailDrawerHero = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 4px;
+`
+
+export const DetailDrawerHeroTitle = styled.h2`
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: token(colors.primary);
+  letter-spacing: -0.02em;
+  font-family: token(fonts.nativeFont);
+  line-height: 1.25;
+`
+
+export const DetailDrawerHeroActions = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+`
+
+export const DetailDrawerIconButton = styled.button`
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid token(colors.mutedBorder);
+  background: token(colors.background);
+  color: token(colors.mutedText);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 150ms ease;
+
+  &:hover {
+    border-color: token(colors.border);
+    color: token(colors.primary);
+    background: token(colors.tertiaryBackground);
+  }
+`
+
+export const DetailDrawerFooter = styled.footer`
+  padding: 16px 24px 24px;
+  border-top: 1px solid token(colors.mutedBorder);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
+`
+
+export const DetailDrawerBody = styled.div`
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+`
+
+/* ----------------------------- Detail meta list ----------------------------- */
+
+export const DetailMetaList = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+`
+
+export const DetailMetaRow = styled.div`
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid token(colors.mutedBorder);
+
+  &:last-child {
+    border-bottom: none;
+  }
+`
+
+export const DetailMetaLabel = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+`
+
+export const DetailMetaIcon = styled.span`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: token(colors.border);
+  flex-shrink: 0;
+`
+
+export const DetailMetaValue = styled.div`
+  font-size: 13px;
+  font-weight: 500;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+`
+
+export const DetailMetaDescription = styled.p`
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+`
+
+export const DetailReadMore = styled.button`
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: token(colors.blue);
+  cursor: pointer;
+  font-family: token(fonts.nativeFont);
+
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
+/* ----------------------------------- Pills ---------------------------------- */
+
+export const StatusPill = styled.button`
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: token(fonts.nativeFont);
+  transition: all 150ms ease;
+
+  &[data-type="doing"] {
+    background: token(colors.info);
+    color: token(colors.infoFg);
+  }
+
+  &[data-type="done"] {
+    background: token(colors.success);
+    color: token(colors.successFg);
+  }
+
+  &[data-type="todo"] {
+    background: token(colors.tertiaryBackground);
+    color: token(colors.primary);
+    border-color: token(colors.mutedBorder);
+  }
+
+  &[data-type="low"] {
+    background: token(colors.success);
+    color: token(colors.successFg);
+  }
+
+  &[data-type="medium"] {
+    background: token(colors.warning);
+    color: token(colors.warningFg);
+  }
+
+  &[data-type="high"] {
+    background: token(colors.danger);
+    color: token(colors.dangerFg);
+  }
+
+  &[data-type="category"] {
+    background: token(colors.accent);
+    color: token(colors.accentFg);
+  }
+`
+
+export const StatusPillDot = styled.span`
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: currentColor;
+  flex-shrink: 0;
+`
+
+/* ------------------------------ Detail sections ----------------------------- */
+
+export const DetailSectionHeader = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+`
+
+export const DetailSectionTitleGroup = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+`
+
+export const DetailSectionTitle = styled.h3`
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+`
+
+export const DetailSectionCount = styled.span`
+  font-size: 12px;
+  font-weight: 600;
+  color: token(colors.mutedText);
+  background: token(colors.tertiaryBackground);
+  padding: 2px 8px;
+  border-radius: 999px;
+  min-width: 22px;
+  text-align: center;
+`
+
+export const DetailSectionAction = styled.button`
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid token(colors.mutedBorder);
+  background: token(colors.background);
+  color: token(colors.primary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: token(fonts.nativeFont);
+  transition: all 150ms ease;
+
+  &:hover {
+    background: token(colors.tertiaryBackground);
+    border-color: token(colors.border);
+  }
+`
+
+/* --------------------------------- Subtasks --------------------------------- */
+
+export const SubtaskCard = styled.div`
+  border: 1px solid token(colors.mutedBorder);
+  border-radius: 10px;
+  padding: 14px;
+  background: token(colors.background);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+`
+
+export const SubtaskCardBorder = styled.div`
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: token(colors.accent);
+  border-radius: 12px 0 0 12px;
+`
+
+export const SubtaskCardHeader = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+`
+
+export const SubtaskCardTitle = styled.h4`
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+`
+
+export const SubtaskCardActions = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 4px;
+`
+
+export const SubtaskCardContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`
+
+/* --------------------------------- Comments --------------------------------- */
+
+export const CommentInputWrapper = styled.div`
+  border: 1px solid token(colors.mutedBorder);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: token(colors.background);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+`
+
+export const CommentInput = styled.textarea`
+  width: 100%;
+  border: none;
+  background: transparent;
+  resize: none;
+  font-size: 13px;
+  line-height: 1.5;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+  min-height: 18px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: token(colors.border);
+  }
+`
+
+export const CommentInputActions = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+`
+
+export const CommentInputIconButton = styled.button`
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  color: token(colors.mutedText);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 150ms ease;
+
+  &:hover {
+    background: token(colors.tertiaryBackground);
+    color: token(colors.primary);
+  }
+`
+
+export const CommentList = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+`
+
+export const CommentItem = styled.div`
+  display: flex;
+  gap: 10px;
+`
+
+export const CommentAvatar = styled.div`
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+  background: token(colors.blue);
+`
+
+export const CommentContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  flex: 1;
+`
+
+export const CommentHeader = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+`
+
+export const CommentAuthorGroup = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+`
+
+export const CommentAuthor = styled.span`
+  font-size: 13px;
+  font-weight: 600;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+`
+
+export const CommentDate = styled.span`
+  font-size: 11px;
+  color: token(colors.mutedText);
+  font-family: token(fonts.nativeFont);
+`
+
+export const CommentText = styled.p`
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: token(colors.primary);
+  font-family: token(fonts.nativeFont);
+`
+
+export const CommentReplyButton = styled.button`
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: token(colors.blue);
+  cursor: pointer;
+  font-family: token(fonts.nativeFont);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`

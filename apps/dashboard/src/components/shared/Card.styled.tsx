@@ -2,9 +2,9 @@ import { styled } from "@/panda/jsx"
 
 export const Card = styled.div`
   background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   border-radius: 12px;
-  padding: 18px;
+  padding: 14px;
   transition: all 200ms ease;
   cursor: default;
   width: 100%;
@@ -13,9 +13,9 @@ export const Card = styled.div`
 
 export const ClickableCard = styled.button`
   background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   border-radius: 12px;
-  padding: 18px;
+  padding: 14px;
   transition: all 200ms ease;
   cursor: pointer;
   width: 100%;
@@ -23,7 +23,7 @@ export const ClickableCard = styled.button`
 
   &:hover {
     border-color: token(colors.primary);
-    box-shadow: 0 18px 32px token(colors.shadow);
+    box-shadow: 0 8px 20px token(colors.shadow);
   }
 
   &:focus-visible {
@@ -36,7 +36,7 @@ export const CardHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   gap: 16px;
   min-width: 0;
 
@@ -49,7 +49,7 @@ export const CardHeader = styled.div`
 export const CardTitle = styled.h3`
   margin: 0;
   color: token(colors.primary);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -57,7 +57,7 @@ export const CardTitle = styled.h3`
 `
 
 export const CardInfo = styled.span`
-  color: token(colors.darkGray);
+  color: token(colors.border);
   font-size: 13px;
 `
 

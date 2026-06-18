@@ -13,7 +13,7 @@ export const ListGrid = styled.div`
   width: inherit;
   height: inherit;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 16px;
 `
 
@@ -23,21 +23,21 @@ export const EmptyState = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-  min-height: 400px;
-  padding: 48px 24px;
+  min-height: 320px;
+  padding: 32px 24px;
   text-align: center;
-  color: token(colors.darkGray);
+  color: token(colors.border);
   gap: 16px;
 
   & svg {
-    width: 64px;
-    height: 64px;
+    width: 52px;
+    height: 52px;
     opacity: 0.3;
   }
 
   & h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: token(colors.primary);
   }
