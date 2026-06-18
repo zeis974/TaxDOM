@@ -4,11 +4,8 @@ import {
   AddEntityDrawer,
   BooleanToggle,
   crudHandlers,
-  DrawerSection,
-  DrawerSectionTitle,
-  FormGrid,
   ToggleRow,
-} from "@/components/Dashboard/shared"
+} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { api } from "@/lib/api"
 
@@ -61,7 +58,7 @@ export default function AddOrigin() {
     <AddEntityDrawer
       triggerLabel="Ajouter une origine"
       title="Ajouter une origine"
-      subtitle="Nouvelle origine"
+
       open={open}
       onOpenChange={handleOpenChange}
       onTriggerClick={() => setOpen(true)}
@@ -72,26 +69,19 @@ export default function AddOrigin() {
       submitDisabled={!isFormValid}
       error={createMutation.error ? "Erreur lors de la création de l'origine." : null}
     >
-      <DrawerSection>
-        <DrawerSectionTitle>Informations générales</DrawerSectionTitle>
-        <FormGrid>
-          <InputContainer>
-            <label htmlFor={originNameID}>Nom de l'origine *</label>
-            <input
-              type="text"
-              id={originNameID}
-              placeholder="Ex: FRANCE"
-              autoComplete="off"
-              required
-              value={originName}
-              onChange={(e) => setOriginName(e.target.value.toUpperCase())}
-            />
-          </InputContainer>
-        </FormGrid>
-      </DrawerSection>
+      <InputContainer>
+        <label htmlFor={originNameID}>Nom de l'origine *</label>
+        <input
+          type="text"
+          id={originNameID}
+          placeholder="Ex: FRANCE"
+          autoComplete="off"
+          required
+          value={originName}
+          onChange={(e) => setOriginName(e.target.value.toUpperCase())}
+        />
+      </InputContainer>
 
-      <DrawerSection>
-        <DrawerSectionTitle>Configuration</DrawerSectionTitle>
         <ToggleRow>
           <span>Disponibilité</span>
           <BooleanToggle
@@ -105,7 +95,6 @@ export default function AddOrigin() {
           <span>Zone</span>
           <BooleanToggle value={isEU} onChange={setIsEU} trueLabel="UE" falseLabel="Non-UE" />
         </ToggleRow>
-      </DrawerSection>
     </AddEntityDrawer>
   )
 }

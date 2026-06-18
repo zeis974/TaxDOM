@@ -12,7 +12,7 @@ import {
   EntityDrawer,
   EntityDrawerActions,
   FormGrid,
-} from "@/components/Dashboard/shared"
+} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import NomenclatureAutocomplete from "@/components/Forms/NomenclatureAutocomplete"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
@@ -145,7 +145,7 @@ export default function CategoryCard({ category, editable = false }: Props) {
                   autoComplete="off"
                   required
                   value={categoryName}
-                  onChange={(e) => setCategoryName(e.target.value)}
+                  onChange={(e) => setCategoryName(e.target.value.toUpperCase())}
                 />
               </InputContainer>
               <NomenclatureAutocomplete

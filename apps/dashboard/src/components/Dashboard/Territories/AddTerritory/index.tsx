@@ -3,10 +3,8 @@ import { useId, useState } from "react"
 import {
   AddEntityDrawer,
   crudHandlers,
-  DrawerSection,
-  DrawerSectionTitle,
   FormGrid,
-} from "@/components/Dashboard/shared"
+} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { api } from "@/lib/api"
 
@@ -55,7 +53,7 @@ export default function AddTerritory() {
     <AddEntityDrawer
       triggerLabel="Ajouter un territoire"
       title="Ajouter un territoire"
-      subtitle="Nouveau territoire"
+
       open={open}
       onOpenChange={handleOpenChange}
       onTriggerClick={() => setOpen(true)}
@@ -66,9 +64,7 @@ export default function AddTerritory() {
       submitDisabled={!isFormValid}
       error={createMutation.error ? "Erreur lors de la création du territoire." : null}
     >
-      <DrawerSection>
-        <DrawerSectionTitle>Informations générales</DrawerSectionTitle>
-        <FormGrid>
+      <FormGrid>
           <InputContainer>
             <label htmlFor={territoryNameID}>Nom du territoire *</label>
             <input
@@ -82,7 +78,6 @@ export default function AddTerritory() {
             />
           </InputContainer>
         </FormGrid>
-      </DrawerSection>
     </AddEntityDrawer>
   )
 }
