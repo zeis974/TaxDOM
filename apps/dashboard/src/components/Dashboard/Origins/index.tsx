@@ -1,5 +1,5 @@
 import type { Origin } from "@taxdom/types"
-import { EntityList, PageContainer, PageHeader } from "@/components/Dashboard/shared"
+import { EntityList, PageContainer, PageHeader } from "@/components/shared"
 import AddOrigin from "./AddOrigin"
 import OriginCard from "./OriginCard"
 

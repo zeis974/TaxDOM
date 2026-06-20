@@ -1,5 +1,5 @@
 import type { Territory } from "@taxdom/types"
-import { EntityList, PageContainer, PageHeader } from "@/components/Dashboard/shared"
+import { EntityList, PageContainer, PageHeader } from "@/components/shared"
 import AddTerritory from "./AddTerritory"
 import TerritoryCard from "./TerritoryCard"
 

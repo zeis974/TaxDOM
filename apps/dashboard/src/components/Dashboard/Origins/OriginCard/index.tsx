@@ -17,7 +17,7 @@ import {
   EntityDrawer,
   EntityDrawerActions,
   StatusBadge,
-} from "@/components/Dashboard/shared"
+} from "@/components/shared"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
 import { useResettableTimeout } from "@/hooks/useResettableTimeout"
 import { api } from "@/lib/api"

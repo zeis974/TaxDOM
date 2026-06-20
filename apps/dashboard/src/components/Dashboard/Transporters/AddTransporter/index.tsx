@@ -3,10 +3,8 @@ import { useId, useState } from "react"
 import {
   AddEntityDrawer,
   crudHandlers,
-  DrawerSection,
-  DrawerSectionTitle,
   FormGrid,
-} from "@/components/Dashboard/shared"
+} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { api } from "@/lib/api"
 
@@ -55,7 +53,7 @@ export default function AddTransporter() {
     <AddEntityDrawer
       triggerLabel="Ajouter un transporteur"
       title="Ajouter un transporteur"
-      subtitle="Nouveau transporteur"
+
       open={open}
       onOpenChange={handleOpenChange}
       onTriggerClick={() => setOpen(true)}
@@ -66,9 +64,7 @@ export default function AddTransporter() {
       submitDisabled={!isFormValid}
       error={createMutation.error ? "Erreur lors de la création du transporteur." : null}
     >
-      <DrawerSection>
-        <DrawerSectionTitle>Informations générales</DrawerSectionTitle>
-        <FormGrid>
+      <FormGrid>
           <InputContainer>
             <label htmlFor={transporterNameID}>Nom du transporteur *</label>
             <input
@@ -82,7 +78,6 @@ export default function AddTransporter() {
             />
           </InputContainer>
         </FormGrid>
-      </DrawerSection>
     </AddEntityDrawer>
   )
 }

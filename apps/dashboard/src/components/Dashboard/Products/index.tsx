@@ -1,5 +1,5 @@
 import type { Product } from "@taxdom/types"
-import { EntityList, PageContainer, PageHeader } from "@/components/Dashboard/shared"
+import { EntityList, PageContainer, PageHeader } from "@/components/shared"
 import AddProduct from "./AddProduct"
 import ProductCard from "./ProductCard"
 
@@ -38,7 +38,7 @@ export default function Products({ products }: ProductsProps) {
         renderItem={(product) => <ProductCard product={product} editable />}
         emptyIcon={EmptyIcon}
         emptyTitle="Aucun produit disponible"
-        emptyDescription="Ajoutez votre premier produit en cliquant sur le bouton ci-dessus."
+        emptyDescription="Ajoutez un premier produit en cliquant sur le bouton ci-dessus."
       />
     </PageContainer>
   )

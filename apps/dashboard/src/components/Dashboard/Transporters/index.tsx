@@ -1,5 +1,5 @@
 import type { Transporter } from "@taxdom/types"
-import { EntityList, PageContainer, PageHeader } from "@/components/Dashboard/shared"
+import { EntityList, PageContainer, PageHeader } from "@/components/shared"
 import AddTransporter from "./AddTransporter"
 import TransporterCard from "./TransporterCard"
 

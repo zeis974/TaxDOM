@@ -12,7 +12,7 @@ export const PageHeaderRow = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 24px;
+  padding-bottom: 16px;
   background: token(colors.background);
   position: sticky;
   top: 0;
@@ -21,15 +21,17 @@ export const PageHeaderRow = styled.div`
 
 export const PageHeaderTitle = styled.div`
   display: flex;
-  align-items: end;
-  gap: 15px;
+  flex-direction: column;
+  gap: 4px;
 
   & h2 {
     margin: 0;
+    font-size: 24px;
+    font-weight: 600;
   }
 
   & span {
-    color: token(colors.darkGray);
+    color: token(colors.border);
     font-size: 14px;
     font-weight: 500;
   }

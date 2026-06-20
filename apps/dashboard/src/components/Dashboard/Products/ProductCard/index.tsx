@@ -2,22 +2,25 @@ import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Product } from "@taxdom/types"
 import { useId, useMemo, useState } from "react"
 import {
+  ActionsGroup,
   Badge,
   CardInfo,
   crudHandlers,
+  DeleteButton,
   DetailIcon,
   DetailLabel,
   DetailList,
   DetailRow,
   DetailValue,
+  DetailValueInput,
+  DetailValueSelect,
   Divider,
   DrawerSection,
-  DrawerSectionDescription,
   DrawerSectionTitle,
   EntityCard,
   EntityDrawer,
-  EntityDrawerActions,
-  FormGrid,
+  ErrorContainer,
+  HeaderActionButton,
   StatusBadge,
   TimelineConnector,
   TimelineContainer,
@@ -28,9 +31,8 @@ import {
   TimelineIconWrapper,
   TimelineItem,
   TimelineTitle,
-} from "@/components/Dashboard/shared"
-import { InputContainer } from "@/components/Forms/Input/Input.styled"
-import BaseSelect from "@/components/Forms/Select/BaseSelect"
+} from "@/components/shared"
+import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
 import { useProductFormOptions } from "@/hooks/useProductFormOptions"
 import { api } from "@/lib/api"
@@ -57,6 +59,75 @@ function formatDateShort(date: Date): string {
     year: "numeric",
   }).format(new Date(date))
 }
+
+const PencilIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="15" height="15">
+    <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+    <path d="m15 5 4 4" />
+  </svg>
+)
+
+const TagIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+    <path d="M12 2H2v10l9.29 9.29a1 1 0 0 0 1.41 0l7.3-7.3a1 1 0 0 0 0-1.41Z" />
+    <path d="M7 7h.01" />
+  </svg>
+)
+
+const GlobeIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+    <circle cx="12" cy="12" r="10" />
+    <line x1="2" y1="12" x2="22" y2="12" />
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+  </svg>
+)
+
+const MapIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+    <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21" />
+    <line x1="9" y1="3" x2="9" y2="18" />
+    <line x1="15" y1="6" x2="15" y2="21" />
+  </svg>
+)
+
+const HashIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+    <line x1="4" y1="9" x2="20" y2="9" />
+    <line x1="4" y1="15" x2="20" y2="15" />
+    <line x1="10" y1="3" x2="8" y2="21" />
+    <line x1="16" y1="3" x2="14" y2="21" />
+  </svg>
+)
+
+const PercentIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+    <line x1="19" y1="5" x2="5" y2="19" />
+    <circle cx="6.5" cy="6.5" r="2.5" />
+    <circle cx="17.5" cy="17.5" r="2.5" />
+  </svg>
+)
+
+const CalendarIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+    <line x1="16" y1="2" x2="16" y2="6" />
+    <line x1="8" y1="2" x2="8" y2="6" />
+    <line x1="3" y1="10" x2="21" y2="10" />
+  </svg>
+)
+
+const CheckIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+    <polyline points="20 6 9 17 4 12" />
+  </svg>
+)
+
+const EditHistoryIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+    <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+    <path d="m15 5 4 4" />
+  </svg>
+)
 
 export default function ProductCard({ product, editable = false }: Props) {
   const drawer = useCardDrawer()
@@ -94,17 +165,31 @@ export default function ProductCard({ product, editable = false }: Props) {
     [productName, categoryID, originID, territoryID],
   )
 
-  const handleCardClick = () => {
+  const resetForm = () => {
     setProductName(product.productName)
     setCategoryID(product.category.categoryID)
     setOriginID(product.origin.originID)
     setTerritoryID(product.territory.territoryID)
+  }
+
+  const handleCardClick = () => {
+    resetForm()
     drawer.openDrawer()
   }
 
   const handleOpenChange = (nextOpen: boolean) => {
     if (nextOpen) drawer.setOpen(true)
     else drawer.closeDrawer()
+  }
+
+  const handleStartEditing = () => {
+    resetForm()
+    drawer.startEditing()
+  }
+
+  const handleCancelEditing = () => {
+    resetForm()
+    drawer.stopEditing()
   }
 
   const handleSave = () => {
@@ -122,6 +207,8 @@ export default function ProductCard({ product, editable = false }: Props) {
     deleteMutation.mutate({ params: { id: product.productID } })
   }
 
+  const isBusy = updateMutation.isPending || deleteMutation.isPending || drawer.isDeletingLocal
+
   return (
     <>
       <EntityCard
@@ -138,190 +225,197 @@ export default function ProductCard({ product, editable = false }: Props) {
         <EntityDrawer
           open={drawer.open}
           onOpenChange={handleOpenChange}
-          title={product.productName}
+          title={drawer.isEditing ? productName : product.productName}
           subtitle={`Produit · #${product.productID}`}
+          headerActions={
+            !drawer.isEditing ? (
+              <HeaderActionButton
+                type="button"
+                onClick={handleStartEditing}
+                aria-label="Modifier"
+              >
+                <PencilIcon />
+              </HeaderActionButton>
+            ) : undefined
+          }
           footer={
-            <EntityDrawerActions
-              onDelete={handleDelete}
-              onSave={handleSave}
-              saving={updateMutation.isPending}
-              deleting={deleteMutation.isPending || drawer.isDeletingLocal}
-              saveDisabled={!isFormValid}
-              error={drawer.deleteError}
-            />
+            drawer.isEditing ? (
+              <>
+                <ErrorContainer>
+                  {drawer.deleteError && <span>{drawer.deleteError}</span>}
+                </ErrorContainer>
+                <ActionsGroup>
+                  <DeleteButton type="button" onClick={handleDelete} disabled={isBusy}>
+                    {drawer.isDeletingLocal ? "Suppression..." : "Supprimer"}
+                  </DeleteButton>
+                  <Button type="button" onClick={handleCancelEditing} disabled={isBusy}>
+                    Annuler
+                  </Button>
+                  <Button
+                    type="button"
+                    onClick={handleSave}
+                    disabled={!isFormValid || isBusy}
+                  >
+                    {updateMutation.isPending ? "Sauvegarde..." : "Sauvegarder"}
+                  </Button>
+                </ActionsGroup>
+              </>
+            ) : (
+              <>
+                {drawer.deleteError && (
+                  <ErrorContainer>
+                    <span>{drawer.deleteError}</span>
+                  </ErrorContainer>
+                )}
+                <ActionsGroup>
+                  <DeleteButton type="button" onClick={handleDelete} disabled={isBusy}>
+                    {drawer.isDeletingLocal ? "Suppression..." : "Supprimer"}
+                  </DeleteButton>
+                </ActionsGroup>
+              </>
+            )
           }
         >
-          <DrawerSection>
-            <DrawerSectionTitle>Informations générales</DrawerSectionTitle>
-            <DrawerSectionDescription>
-              Mettez à jour le nom et la provenance de ce produit.
-            </DrawerSectionDescription>
-            <FormGrid>
-              <InputContainer>
-                <label htmlFor={inputId}>Nom du produit</label>
-                <input
+          <DetailList>
+            {drawer.isEditing && (
+              <DetailRow>
+                <DetailLabel>
+                  <DetailIcon>
+                    <TagIcon />
+                  </DetailIcon>
+                  Nom
+                </DetailLabel>
+                <DetailValueInput
                   id={inputId}
                   type="text"
-                  placeholder="Nom du produit"
                   value={productName}
-                  onChange={(e) => setProductName(e.target.value)}
+                  onChange={(e) => setProductName(e.target.value.toUpperCase())}
                 />
-              </InputContainer>
-              <BaseSelect
-                label="Catégorie"
-                options={formOptions?.categories ?? []}
-                value={formOptions?.categories.find((c) => c.value === categoryID)?.name ?? ""}
-                onChange={(val) => {
-                  const found = formOptions?.categories.find((c) => c.name === val)
-                  if (found) setCategoryID(found.value ?? found.name)
-                }}
-              />
-              <BaseSelect
-                label="Origine"
-                options={formOptions?.origins ?? []}
-                value={formOptions?.origins.find((o) => o.value === originID)?.name ?? ""}
-                onChange={(val) => {
-                  const found = formOptions?.origins.find((o) => o.name === val)
-                  if (found) setOriginID(found.value ?? found.name)
-                }}
-              />
-              <BaseSelect
-                label="Territoire"
-                options={formOptions?.territories ?? []}
-                value={formOptions?.territories.find((t) => t.value === territoryID)?.name ?? ""}
-                onChange={(val) => {
-                  const found = formOptions?.territories.find((t) => t.name === val)
-                  if (found) setTerritoryID(found.value ?? found.name)
-                }}
-              />
-            </FormGrid>
-          </DrawerSection>
-
-          <DrawerSection>
-            <DrawerSectionTitle>Détails</DrawerSectionTitle>
-            <DetailList>
-              <DetailRow>
-                <DetailLabel>
-                  <DetailIcon>
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      width="16"
-                      height="16"
-                    >
-                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                      <line x1="16" y1="2" x2="16" y2="6" />
-                      <line x1="8" y1="2" x2="8" y2="6" />
-                      <line x1="3" y1="10" x2="21" y2="10" />
-                    </svg>
-                  </DetailIcon>
-                  ID
-                </DetailLabel>
-                <DetailValue>{product.productID}</DetailValue>
               </DetailRow>
-              <DetailRow>
-                <DetailLabel>
-                  <DetailIcon>
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      width="16"
-                      height="16"
-                    >
-                      <circle cx="12" cy="12" r="10" />
-                      <line x1="2" y1="12" x2="22" y2="12" />
-                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                    </svg>
-                  </DetailIcon>
-                  Origine
-                </DetailLabel>
+            )}
+
+            <DetailRow>
+              <DetailLabel>
+                <DetailIcon>
+                  <TagIcon />
+                </DetailIcon>
+                Catégorie
+              </DetailLabel>
+              {drawer.isEditing ? (
+                <DetailValueSelect
+                  value={categoryID}
+                  onChange={(e) => setCategoryID(e.target.value)}
+                >
+                  {formOptions?.categories.map((c) => (
+                    <option key={c.value} value={c.value ?? c.name}>
+                      {c.name}
+                    </option>
+                  ))}
+                </DetailValueSelect>
+              ) : (
+                <DetailValue>{product.category.categoryName}</DetailValue>
+              )}
+            </DetailRow>
+
+            <DetailRow>
+              <DetailLabel>
+                <DetailIcon>
+                  <GlobeIcon />
+                </DetailIcon>
+                Origine
+              </DetailLabel>
+              {drawer.isEditing ? (
+                <DetailValueSelect
+                  value={originID}
+                  onChange={(e) => setOriginID(e.target.value)}
+                >
+                  {formOptions?.origins.map((o) => (
+                    <option key={o.value} value={o.value ?? o.name}>
+                      {o.name}
+                    </option>
+                  ))}
+                </DetailValueSelect>
+              ) : (
                 <DetailValue>
                   {product.origin.originName}
                   {product.origin.isEU && <StatusBadge active>UE</StatusBadge>}
                 </DetailValue>
-              </DetailRow>
-              <DetailRow>
-                <DetailLabel>
-                  <DetailIcon>
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      width="16"
-                      height="16"
-                    >
-                      <line x1="12" y1="1" x2="12" y2="23" />
-                      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-                    </svg>
-                  </DetailIcon>
-                  TVA
-                </DetailLabel>
-                <DetailValue>{product.tax.tva}%</DetailValue>
-              </DetailRow>
-              <DetailRow>
-                <DetailLabel>
-                  <DetailIcon>
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      width="16"
-                      height="16"
-                    >
-                      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-                    </svg>
-                  </DetailIcon>
-                  OM
-                </DetailLabel>
-                <DetailValue>{product.tax.om}%</DetailValue>
-              </DetailRow>
-              <DetailRow>
-                <DetailLabel>
-                  <DetailIcon>
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      width="16"
-                      height="16"
-                    >
-                      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-                    </svg>
-                  </DetailIcon>
-                  OMR
-                </DetailLabel>
-                <DetailValue>{product.tax.omr}%</DetailValue>
-              </DetailRow>
-              <DetailRow>
-                <DetailLabel>
-                  <DetailIcon>
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      width="16"
-                      height="16"
-                    >
-                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                      <line x1="16" y1="2" x2="16" y2="6" />
-                      <line x1="8" y1="2" x2="8" y2="6" />
-                      <line x1="3" y1="10" x2="21" y2="10" />
-                    </svg>
-                  </DetailIcon>
-                  Créé le
-                </DetailLabel>
-                <DetailValue>{formatDateShort(product.createdAt)}</DetailValue>
-              </DetailRow>
-            </DetailList>
-          </DrawerSection>
+              )}
+            </DetailRow>
+
+            <DetailRow>
+              <DetailLabel>
+                <DetailIcon>
+                  <MapIcon />
+                </DetailIcon>
+                Territoire
+              </DetailLabel>
+              {drawer.isEditing ? (
+                <DetailValueSelect
+                  value={territoryID}
+                  onChange={(e) => setTerritoryID(e.target.value)}
+                >
+                  {formOptions?.territories.map((t) => (
+                    <option key={t.value} value={t.value ?? t.name}>
+                      {t.name}
+                    </option>
+                  ))}
+                </DetailValueSelect>
+              ) : (
+                <DetailValue>{product.territory.territoryName}</DetailValue>
+              )}
+            </DetailRow>
+
+            <DetailRow>
+              <DetailLabel>
+                <DetailIcon>
+                  <HashIcon />
+                </DetailIcon>
+                ID
+              </DetailLabel>
+              <DetailValue>{product.productID}</DetailValue>
+            </DetailRow>
+
+            <DetailRow>
+              <DetailLabel>
+                <DetailIcon>
+                  <PercentIcon />
+                </DetailIcon>
+                TVA
+              </DetailLabel>
+              <DetailValue>{product.tax.tva}%</DetailValue>
+            </DetailRow>
+
+            <DetailRow>
+              <DetailLabel>
+                <DetailIcon>
+                  <PercentIcon />
+                </DetailIcon>
+                OM
+              </DetailLabel>
+              <DetailValue>{product.tax.om}%</DetailValue>
+            </DetailRow>
+
+            <DetailRow>
+              <DetailLabel>
+                <DetailIcon>
+                  <PercentIcon />
+                </DetailIcon>
+                OMR
+              </DetailLabel>
+              <DetailValue>{product.tax.omr}%</DetailValue>
+            </DetailRow>
+
+            <DetailRow>
+              <DetailLabel>
+                <DetailIcon>
+                  <CalendarIcon />
+                </DetailIcon>
+                Créé le
+              </DetailLabel>
+              <DetailValue>{formatDateShort(product.createdAt)}</DetailValue>
+            </DetailRow>
+          </DetailList>
 
           <Divider />
 
@@ -331,16 +425,7 @@ export default function ProductCard({ product, editable = false }: Props) {
               <TimelineItem>
                 <TimelineIconWrapper>
                   <TimelineIcon data-status="success">
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      width="16"
-                      height="16"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
+                    <CheckIcon />
                   </TimelineIcon>
                   <TimelineConnector />
                 </TimelineIconWrapper>
@@ -355,17 +440,7 @@ export default function ProductCard({ product, editable = false }: Props) {
               <TimelineItem>
                 <TimelineIconWrapper>
                   <TimelineIcon data-status="info">
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      width="16"
-                      height="16"
-                    >
-                      <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
-                      <path d="m15 5 4 4" />
-                    </svg>
+                    <EditHistoryIcon />
                   </TimelineIcon>
                   <TimelineConnector />
                 </TimelineIconWrapper>

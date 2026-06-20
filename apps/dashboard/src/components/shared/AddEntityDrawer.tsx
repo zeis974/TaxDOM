@@ -1,5 +1,6 @@
-import type { ReactNode } from "react"
+import { type ReactNode, useState } from "react"
 import { Drawer } from "vaul"
+import { SelectPortalContainerContext } from "@/components/Forms/Select/SelectPortalContext"
 import Button from "@/components/ui/Button"
 import { AddButton } from "./AddButton.styled"
 import {
@@ -11,7 +12,6 @@ import {
   DrawerHeader,
   DrawerHeaderContent,
   DrawerOverlay,
-  DrawerSubtitle,
   DrawerTitle,
   ErrorContainer,
 } from "./Drawer.styled"
@@ -20,7 +20,6 @@ import { PlusIcon } from "./icons"
 type AddEntityDrawerProps = {
   triggerLabel: string
   title: string
-  subtitle?: string
   open: boolean
   onOpenChange: (open: boolean) => void
   onTriggerClick: () => void
@@ -40,7 +39,6 @@ type AddEntityDrawerProps = {
 export function AddEntityDrawer({
   triggerLabel,
   title,
-  subtitle,
   open,
   onOpenChange,
   onTriggerClick,
@@ -52,6 +50,8 @@ export function AddEntityDrawer({
   error,
   children,
 }: AddEntityDrawerProps) {
+  const [contentEl, setContentEl] = useState<HTMLElement | null>(null)
+
   return (
     <>
       <AddButton type="button" onClick={onTriggerClick}>
@@ -63,10 +63,9 @@ export function AddEntityDrawer({
         <Drawer.Portal>
           <DrawerOverlay />
           <Drawer.Content asChild>
-            <DrawerContent>
+            <DrawerContent ref={setContentEl}>
               <DrawerHeader>
                 <DrawerHeaderContent>
-                  {subtitle && <DrawerSubtitle>{subtitle}</DrawerSubtitle>}
                   <DrawerTitle>{title}</DrawerTitle>
                 </DrawerHeaderContent>
                 <Drawer.Close asChild>
@@ -83,7 +82,9 @@ export function AddEntityDrawer({
                   }}
                   autoComplete="off"
                 >
-                  {children}
+                  <SelectPortalContainerContext.Provider value={contentEl}>
+                    {children}
+                  </SelectPortalContainerContext.Provider>
                   {error && (
                     <ErrorContainer>
                       <span>{error}</span>

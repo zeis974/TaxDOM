@@ -3,10 +3,8 @@ import { useId, useState } from "react"
 import {
   AddEntityDrawer,
   crudHandlers,
-  DrawerSection,
-  DrawerSectionTitle,
   FormGrid,
-} from "@/components/Dashboard/shared"
+} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { api } from "@/lib/api"
 
@@ -70,7 +68,6 @@ export default function AddCategory() {
     <AddEntityDrawer
       triggerLabel="Ajouter une catégorie"
       title="Ajouter une catégorie"
-      subtitle="Nouvelle catégorie"
       open={open}
       onOpenChange={handleOpenChange}
       onTriggerClick={() => setOpen(true)}
@@ -81,68 +78,62 @@ export default function AddCategory() {
       submitDisabled={!isFormValid}
       error={createMutation.error ? "Erreur lors de la création de la catégorie." : null}
     >
-      <DrawerSection>
-        <DrawerSectionTitle>Informations générales</DrawerSectionTitle>
-        <FormGrid>
-          <InputContainer>
-            <label htmlFor={categoryNameID}>Nom de la catégorie *</label>
-            <input
-              type="text"
-              id={categoryNameID}
-              placeholder="Ex: Électronique"
-              autoComplete="off"
-              required
-              value={categoryName}
-              onChange={(e) => setCategoryName(e.target.value)}
-            />
-          </InputContainer>
-        </FormGrid>
-      </DrawerSection>
+      <FormGrid>
+        <InputContainer>
+          <label htmlFor={categoryNameID}>Nom de la catégorie *</label>
+          <input
+            type="text"
+            id={categoryNameID}
+            placeholder="Ex: Électronique"
+            autoComplete="off"
+            required
+            value={categoryName}
+            onChange={(e) => setCategoryName(e.target.value.toUpperCase())}
+          />
+        </InputContainer>
+      </FormGrid>
 
-      <DrawerSection>
-        <DrawerSectionTitle>Fiscalité</DrawerSectionTitle>
-        <FormGrid>
-          <InputContainer>
-            <label htmlFor={tvaID}>TVA (%)</label>
-            <input
-              type="number"
-              id={tvaID}
-              placeholder="0"
-              min="0"
-              step="any"
-              required
-              value={tva}
-              onChange={(e) => setTva(e.target.value)}
-            />
-          </InputContainer>
-          <InputContainer>
-            <label htmlFor={omID}>OM (%)</label>
-            <input
-              type="number"
-              id={omID}
-              placeholder="0"
-              min="0"
-              step="any"
-              required
-              value={om}
-              onChange={(e) => setOm(e.target.value)}
-            />
-          </InputContainer>
-          <InputContainer>
-            <label htmlFor={omrID}>OMR (%)</label>
-            <input
-              type="number"
-              id={omrID}
-              placeholder="0"
-              min="0"
-              step="any"
-              required
-              value={omr}
-              onChange={(e) => setOmr(e.target.value)}
-            />
-          </InputContainer>
-        </FormGrid>
-      </DrawerSection>
+      <FormGrid>
+        <InputContainer>
+          <label htmlFor={tvaID}>TVA (%)</label>
+          <input
+            type="number"
+            id={tvaID}
+            placeholder="0"
+            min="0"
+            step="any"
+            required
+            value={tva}
+            onChange={(e) => setTva(e.target.value)}
+          />
+        </InputContainer>
+        <InputContainer>
+          <label htmlFor={omID}>OM (%)</label>
+          <input
+            type="number"
+            id={omID}
+            placeholder="0"
+            min="0"
+            step="any"
+            required
+            value={om}
+            onChange={(e) => setOm(e.target.value)}
+          />
+        </InputContainer>
+        <InputContainer>
+          <label htmlFor={omrID}>OMR (%)</label>
+          <input
+            type="number"
+            id={omrID}
+            placeholder="0"
+            min="0"
+            step="any"
+            required
+            value={omr}
+            onChange={(e) => setOmr(e.target.value)}
+          />
+        </InputContainer>
+      </FormGrid>
     </AddEntityDrawer>
   )
 }

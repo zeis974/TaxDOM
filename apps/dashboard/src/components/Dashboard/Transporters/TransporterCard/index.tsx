@@ -17,7 +17,7 @@ import {
   EntityDrawerActions,
   RulesEditorButton,
   StatusBadge,
-} from "@/components/Dashboard/shared"
+} from "@/components/shared"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
 import { api } from "@/lib/api"
 

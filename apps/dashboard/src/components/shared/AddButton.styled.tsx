@@ -8,22 +8,22 @@ export const AddButton = styled.button`
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background: token(colors.blue);
+  background: token(colors.tertiaryBackground);
   font-weight: 600;
-  border: 1px solid token(colors.blue);
+  border: 1px solid token(colors.border);
   cursor: pointer;
   border-radius: 8px;
-  color: white;
+  color: token(colors.primary);
   font-family: token(fonts.nativeFont);
   font-size: 14px;
   transition: all 150ms ease;
 
   &:hover {
-    filter: brightness(1.1);
+    background: token(colors.secondaryBackground);
   }
 
   &:focus-visible {
-    outline: 2px solid token(colors.blue);
+    outline: 2px solid token(colors.border);
     outline-offset: 2px;
   }
 
