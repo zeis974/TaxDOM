@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "AGENTS.md"
+  ],
+  "mcp": {
+    "better-auth": {
+      "type": "remote",
+      "url": "https://mcp.better-auth.com/mcp",
+      "enabled": true
+    },
+    "panda": {
+      "type": "local",
+      "command": [
+        "pnpx",
+        "--package=@pandacss/dev",
+        "panda",
+        "mcp",
+        "--cwd",
+        "./apps/blog"
+      ],
+      "enabled": true
+    }
+  }
+}

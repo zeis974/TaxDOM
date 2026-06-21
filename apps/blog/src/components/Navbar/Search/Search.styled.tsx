@@ -4,7 +4,7 @@ export const SearchBar = styled.div`
   width: 400px;
   height: 50px;
   position: relative;
-  display: inline-flex; 
+  display: inline-flex;
   align-items: center;
 
   @media (width < 1100px) {
@@ -20,7 +20,7 @@ export const SearchBar = styled.div`
     height: 100%;
     z-index: 2;
     color: token(colors.primary);
-    background: token(colors.darkGray);
+    background: token(colors.border);
     border-radius: 5px;
     padding: 10px;
     border: none;
@@ -51,7 +51,7 @@ export const SearchShortcut = styled.div`
     animation: fadeIn 600ms;
   }
 
-  &[data-focus=true] {
+  &[data-focus="true"] {
     width: 35px;
   }
 `
