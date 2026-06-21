@@ -6,20 +6,20 @@ import { styled } from "@/panda/jsx"
 export const AddButton = styled.button`
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: token(spacing.sm);
   padding: 10px 16px;
-  background: token(colors.tertiaryBackground);
+  background: token(colors.surface);
   font-weight: 600;
   border: 1px solid token(colors.border);
   cursor: pointer;
-  border-radius: 8px;
-  color: token(colors.primary);
+  border-radius: token(radii.md);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   transition: all 150ms ease;
 
   &:hover {
-    background: token(colors.secondaryBackground);
+    background: token(colors.surface);
   }
 
   &:focus-visible {

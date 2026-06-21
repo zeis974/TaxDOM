@@ -20,7 +20,7 @@ export const RightPanel = styled.div`
   position: relative;
   justify-content: center;
   align-items: center;
-  background: #3498db;
+  background: token(colors.peterRiver);
 `
 
 export const Header = styled.header`
@@ -33,17 +33,17 @@ export const Header = styled.header`
 export const LogoCircle = styled.div`
   width: 2rem;
   height: 2rem;
-  border-radius: 9999px;
-  background-color: token(colors.darkGray);
+  border-radius: token(radii.full);
+  background-color: token(colors.border);
   border: 4px solid;
-  border-color: token(colors.lightGray);
+  border-color: token(colors.surface);
 `
 
 export const BrandName = styled.span`
   font-size: 1.25rem;
   font-weight: 600;
-  color: token(colors.darkGray);
-  font-family: token(fonts.heading);
+  color: token(colors.foreground);
+  font-family: token(fonts.nativeFont);
   letter-spacing: tight;
 `
 
@@ -73,14 +73,14 @@ export const TitleSection = styled.div`
 export const Title = styled.h1`
   font-size: 1.875rem;
   font-weight: bold;
-  color: token(colors.darkGray);
+  color: token(colors.foreground);
   letter-spacing: tight;
   line-height: 1.2;
 `
 
 export const Subtitle = styled.p`
   font-size: 1rem;
-  color: token(colors.gray);
+  color: token(colors.textMuted);
 `
 
 export const Button = styled.button`
@@ -90,20 +90,20 @@ export const Button = styled.button`
   gap: 0.75rem;
   width: 100%;
   padding: 0.875rem 1rem;
-  background-color: white;
+  background-color: token(colors.bg);
   border: 1px solid;
-  border-color: token(colors.lightGray);
+  border-color: token(colors.surface);
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
-  color: token(colors.darkGray);
+  color: token(colors.foreground);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
   &:hover {
-    background-color: token(colors.secondaryBackground);
-    border-color: token(colors.gray);
+    background-color: token(colors.surface);
+    border-color: token(colors.textMuted);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transform: translateY(-1px);
   }
@@ -111,7 +111,7 @@ export const Button = styled.button`
   &:active {
     transform: translateY(0);
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    background-color: token(colors.lightGray);
+    background-color: token(colors.surface);
   }
 
   &:disabled {
@@ -123,7 +123,7 @@ export const Button = styled.button`
 
   &:focus-visible {
     outline: 2px solid;
-    outline-color: token(colors.primary);
+    outline-color: token(colors.foreground);
     outline-offset: 2px;
   }
 `
@@ -143,25 +143,25 @@ export const Icon = styled.svg`
 // export const DividerLine = styled.div`
 //   flex: 1;
 //   height: 1px;
-//   background-color: token(colors.lightGray);
+//   background-color: token(colors.surface);
 // `
 
 // export const DividerText = styled.span`
 //   font-size: 0.75rem;
 //   font-weight: 500;
-//   color: token(colors.gray);
+//   color: token(colors.textMuted);
 //   text-transform: uppercase;
 //   letter-spacing: 0.05em;
 // `
 
 // export const InfoText = styled.p`
 //   font-size: 0.875rem;
-//   color: token(colors.gray);
+//   color: token(colors.textMuted);
 //   text-align: center;
 //   line-height: 1.5;
 // `
 export const FooterLink = styled.a`
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-weight: 500;
   text-decoration: none;
 

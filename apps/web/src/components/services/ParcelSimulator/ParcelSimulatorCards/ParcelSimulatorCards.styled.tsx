@@ -15,14 +15,14 @@ export const Container = styled.div`
     height: 220px;
     cursor: pointer;
     font-weight: bold;
-    color: token(colors.primary);
+    color: token(colors.foreground);
     border: 2px solid transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 15px;
-    border-radius: 10px;
+    border-radius: token(radii.lg);
     transition: border 150ms;
 
     &[disabled] {
@@ -30,7 +30,7 @@ export const Container = styled.div`
     }
 
     &:hover:not([disabled]) {
-      border: 2px solid token(colors.primary);
+      border: 2px solid token(colors.foreground);
     }
   }
 
@@ -39,7 +39,7 @@ export const Container = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background: token(colors.background); 
+    background: token(colors.bg); 
   }
   
   &::-webkit-scrollbar-thumb {
@@ -55,7 +55,7 @@ export const ParcelContent = styled.div`
   display: flex;
   gap: 10px;
   width: 100%;
-  background: token(colors.background);
+  background: token(colors.bg);
   padding-bottom: 5px;
   z-index: 1;
   top: 0;
@@ -66,21 +66,21 @@ export const ParcelContent = styled.div`
     justify-content: space-around;
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
-    background: token(colors.tertiaryBackground);
+    border-radius: token(radii.lg);
+    background: token(colors.surface);
   }
 
   button {
     width: 100px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: token(radii.lg);
     border: 2px solid transparent;
     transition: 150ms;
     
     &:hover {
       background: transparent;
-      border: 2px solid token(colors.tertiaryBackground);
+      border: 2px solid token(colors.surface);
     }
   }
 `
@@ -88,9 +88,9 @@ export const ParcelContent = styled.div`
 export const Card = styled.div`
   width: calc(100% / 3 - 14px);
   height: 220px;
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   padding: 10px;
-  background: token(colors.secondaryBackground);
+  background: token(colors.surface);
 
   & > button {
     width: 100%;
@@ -119,7 +119,7 @@ export const Loading = styled(m.div)`
   width: 100%;
   height: 100%;
   text-align: center;
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   z-index: 2;
 
   & > div {
@@ -133,7 +133,7 @@ export const Loading = styled(m.div)`
     &::after {
       content: "";
       position: absolute;
-      border: 5px solid #3498db;
+      border: 5px solid token(colors.peterRiver);
       border-top: 5px solid transparent;
       border-radius: 50%;
       width: 100%;
@@ -146,7 +146,7 @@ export const Loading = styled(m.div)`
 
   span {
     font-size: 2em;
-    font-family: token(fonts.Rowdies);
+    font-family: token(fonts.rowdies);
     margin: 10px 0;
   }
 `
@@ -154,6 +154,6 @@ export const Loading = styled(m.div)`
 export const ParcelSimulatorSkeleton = styled.div`
   width: 100px;
   background: #f0f0f0;
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   animation: skeleton 1s linear infinite;
 `

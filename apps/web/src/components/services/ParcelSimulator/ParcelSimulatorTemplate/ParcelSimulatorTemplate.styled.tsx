@@ -5,10 +5,10 @@ export const Container = styled(m.div)`
   position: absolute;
   width: 100%;
   height: calc(100% - 66px);
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   bottom: 0;
-  background: token(colors.secondaryBackground);
-  border: 2px solid token(colors.darkGray);
+  background: token(colors.surface);
+  border: 2px solid token(colors.surface);
   padding: 20px;
   opacity: 0.8;
   backdrop-filter: blur(10px);
@@ -24,7 +24,7 @@ export const Container = styled(m.div)`
     & > div:first-child {
       display: flex;
       justify-content: space-between;
-      color: token(colors.primary);
+      color: token(colors.foreground);
     }
     
     & p {
@@ -36,7 +36,7 @@ export const Container = styled(m.div)`
       height: 1px;
       margin: 20px 0;
       width: 100%;
-      background: token(colors.darkGray);
+      background: token(colors.surface);
     }
   }
 `
@@ -45,7 +45,7 @@ export const Backdrop = styled(m.div)`
   position: absolute;
   width: 100%;
   height: calc(100% - 66px);
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   bottom: 0;
   backdrop-filter: blur(2px);
   z-index: -1;
@@ -66,7 +66,7 @@ export const ErrorContainer = styled.div`
 `
 
 export const TemplateContainer = styled.div`
-  color: token(colors.primary);
+  color: token(colors.foreground);
   margin: 10px 0;
   display: flex;
 
@@ -86,7 +86,7 @@ export const TemplateContainer = styled.div`
       cursor: pointer;
 
       &[data-selected="true"] {
-        background: token(colors.darkGray);
+        background: token(colors.surface);
       }
     }
   }
@@ -99,7 +99,7 @@ export const TemplateContainer = styled.div`
     gap: 10px;
 
     & span {
-      border: 2px solid token(colors.darkGray);
+      border: 2px solid token(colors.surface);
       padding: 10px;
       border-radius: 5px;
     }

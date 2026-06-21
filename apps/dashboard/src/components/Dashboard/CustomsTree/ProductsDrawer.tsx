@@ -28,7 +28,7 @@ async function fetchProductsByPrefix(code: string, signal: AbortSignal): Promise
 const Overlay = styled.div`
   position: fixed;
   inset: 0;
-  background: rgba(15, 23, 42, 0.4);
+  background: token(colors.overlay);
   backdrop-filter: blur(3px);
   z-index: 49;
 `
@@ -38,8 +38,8 @@ const Panel = styled.aside`
   inset: 0 0 0 auto;
   width: min(440px, 100vw);
   height: 100vh;
-  background: token(colors.background);
-  border-left: 1px solid rgba(148, 163, 184, 0.2);
+  background: token(colors.bg);
+  border-left: 1px solid token(colors.borderSubtle);
   box-shadow: -24px 0 60px rgba(15, 23, 42, 0.22);
   display: flex;
   flex-direction: column;
@@ -49,7 +49,7 @@ const Panel = styled.aside`
 
 const Header = styled.header`
   padding: 28px 28px 20px;
-  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+  border-bottom: 1px solid token(colors.borderSubtle);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -59,35 +59,35 @@ const Header = styled.header`
 const HeaderContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: token(spacing.xs);
 `
 
 const Title = styled.h2`
   margin: 0;
   font-size: 20px;
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
 `
 
 const Subtitle = styled.span`
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(100, 116, 139, 0.7);
+  color: token(colors.textMuted);
   font-weight: 600;
 `
 
 const CloseBtn = styled.button`
   background: rgba(226, 232, 240, 0.6);
   border: none;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   width: 36px;
   height: 36px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: token(fontSizes.headline-md);
   color: rgba(30, 41, 59, 0.8);
   flex-shrink: 0;
   &:hover { background: rgba(226, 232, 240, 0.9); }
@@ -99,7 +99,7 @@ const Body = styled.div`
   padding: 20px 28px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: token(spacing.sm);
 `
 
 const ProductRow = styled.div`
@@ -107,15 +107,15 @@ const ProductRow = styled.div`
   align-items: center;
   gap: 10px;
   padding: 12px 14px;
-  border-radius: 8px;
-  background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
+  border-radius: token(radii.md);
+  background: token(colors.surface);
+  border: 1px solid token(colors.surface);
 `
 
 const ProductName = styled.span`
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 500;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   flex: 1;
   min-width: 0;
   overflow: hidden;
@@ -126,34 +126,34 @@ const ProductName = styled.span`
 const ProductCode = styled.span`
   font-size: 10px;
   font-weight: 700;
-  background: token(colors.tertiaryBackground);
+  background: token(colors.surface);
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: token(radii.sm);
   flex-shrink: 0;
   letter-spacing: 0.03em;
 `
 
 const CategoryBadge = styled.span`
-  font-size: 11px;
+  font-size: token(fontSizes.label-md);
   background: #f3e8ff;
   color: #7c3aed;
   padding: 2px 8px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   font-weight: 600;
   flex-shrink: 0;
 `
 
 const EmptyMsg = styled.p`
   text-align: center;
-  color: rgba(100, 116, 139, 0.7);
-  font-size: 13px;
+  color: token(colors.textMuted);
+  font-size: token(fontSizes.body-sm);
   padding: 32px 0;
 `
 
 const LoadingMsg = styled.p`
   text-align: center;
-  color: rgba(100, 116, 139, 0.6);
-  font-size: 13px;
+  color: token(colors.textMuted);
+  font-size: token(fontSizes.body-sm);
   padding: 32px 0;
   animation: pulse 1.5s ease-in-out infinite;
   @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.4 } }

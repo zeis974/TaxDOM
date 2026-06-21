@@ -14,8 +14,8 @@ export const PendingContainer = styled.div`
 export const Spinner = styled.div`
   width: 40px;
   height: 40px;
-  border: 4px solid token(colors.lightGray);
-  border-top-color: token(colors.primary);
+  border: 4px solid token(colors.surface);
+  border-top-color: token(colors.foreground);
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin-bottom: 16px;
@@ -29,5 +29,5 @@ export const Spinner = styled.div`
 
 export const PendingText = styled.p`
   color: token(colors.gray);
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
 `

@@ -4,18 +4,18 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin: 20px 0;
-  color: token(colors.primary);
+  color: token(colors.foreground);
 
   & > div:first-child {
     flex: 1;
     padding-bottom: 10px;
 
     & h3 {
-      font-family: token(fonts.NotoSansBold);
+      font-family: token(fonts.nativeFont);
     }
     
     & p {
-      font-family: token(fonts.NotoSans);
+      font-family: token(fonts.nativeFont);
       margin: 20px 0;
       color: gray;
     }
@@ -29,25 +29,25 @@ export const ThemeButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   outline: none;
   border: 2px solid transparent;
   transition: 150ms border;
   margin-bottom: 10px;
   
   &:not([data-selected="true"]):hover {
-    border: 2px solid token(colors.primary);
+    border: 2px solid token(colors.foreground);
   }
 
   &[data-selected="true"] {
-    border: 2px solid #3498db;
+    border: 2px solid token(colors.peterRiver);
   }
 `
 
 export const ThemeContainer = styled.div`
   display: flex;
   flex: 2;
-  font-family: token(fonts.NotoSans);
+  font-family: token(fonts.nativeFont);
 
   & > div {
     display: flex;

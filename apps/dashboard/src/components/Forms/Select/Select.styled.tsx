@@ -13,7 +13,7 @@ export const LoadingCircle = styled.div`
   position: absolute;
   right: 12px;
   bottom: 10px;
-  border: 2px solid token(colors.blue);
+  border: 2px solid token(colors.peterRiver);
   border-top: 2px solid transparent;
   border-radius: 50%;
   width: 20px;
@@ -25,19 +25,19 @@ export const LoadingCircle = styled.div`
 
 export const OptionContainer = styled.ul`
   width: 100%;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   top: calc(100% + 6px);
   z-index: 1;
   position: absolute;
   border: 1px solid token(colors.border);
-  background: token(colors.background);
+  background: token(colors.bg);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   overflow: hidden;
 
   & > li[data-selected="true"],
   & > div > li[data-selected="true"] {
-    background: color-mix(in srgb, token(colors.blue) 12%, transparent);
-    color: token(colors.blue);
+    background: color-mix(in srgb, token(colors.peterRiver) 12%, transparent);
+    color: token(colors.peterRiver);
     font-weight: 600;
   }
 
@@ -47,12 +47,12 @@ export const OptionContainer = styled.ul`
     display: block;
     transition: background 150ms;
     box-sizing: border-box;
-    color: token(colors.primary);
+    color: token(colors.foreground);
     padding: 8px 12px;
     font-size: 0.9375rem;
 
     &:hover {
-      background: token(colors.secondaryBackground);
+      background: token(colors.surface);
     }
 
     &[data-available="false"] {

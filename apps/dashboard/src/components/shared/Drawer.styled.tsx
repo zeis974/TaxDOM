@@ -15,8 +15,8 @@ export const DrawerContent = styled.div`
   inset: 0 0 0 auto;
   width: min(460px, 100vw);
   height: 100vh;
-  background: token(colors.background);
-  border-left: 1px solid token(colors.mutedBorder);
+  background: token(colors.bg);
+  border-left: 1px solid token(colors.borderSubtle);
   box-shadow: -32px 0 80px token(colors.shadow);
   display: flex;
   flex-direction: column;
@@ -25,18 +25,18 @@ export const DrawerContent = styled.div`
 `
 
 export const DrawerHeader = styled.header`
-  padding: 16px;
+  padding: token(spacing.md);
   padding-bottom: 12px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-bottom: 1px solid token(colors.mutedBorder);
+  border-bottom: 1px solid token(colors.borderSubtle);
 `
 
 export const DrawerHeaderContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: token(spacing.xs);
 `
 
 export const DrawerHeaderActions = styled.div`
@@ -47,9 +47,9 @@ export const DrawerHeaderActions = styled.div`
 
 export const DrawerTitle = styled.h2`
   margin: 0;
-  font-size: 24px;
+  font-size: token(fontSizes.headline-lg);
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   letter-spacing: -0.02em;
   font-family: token(fonts.nativeFont);
 `
@@ -57,17 +57,17 @@ export const DrawerTitle = styled.h2`
 export const DrawerMeta = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 16px;
+  gap: token(spacing.xs) token(spacing.md);
   margin-top: 8px;
-  font-size: 13px;
-  color: token(colors.mutedText);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.textMuted);
 `
 
 export const DrawerCloseButton = styled.button`
-  background: token(colors.tertiaryBackground);
-  color: token(colors.primary);
+  background: token(colors.surface);
+  color: token(colors.foreground);
   border: none;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -79,15 +79,15 @@ export const DrawerCloseButton = styled.button`
   transition: background 150ms ease;
 
   &:hover {
-    background: token(colors.secondaryBackground);
+    background: token(colors.surface);
   }
 `
 
 export const HeaderActionButton = styled.button`
   background: transparent;
-  color: token(colors.mutedText);
+  color: token(colors.textMuted);
   border: none;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   width: 36px;
   height: 36px;
   cursor: pointer;
@@ -97,8 +97,8 @@ export const HeaderActionButton = styled.button`
   transition: background 150ms ease;
 
   &:hover {
-    background: token(colors.tertiaryBackground);
-    color: token(colors.primary);
+    background: token(colors.surface);
+    color: token(colors.foreground);
   }
 `
 
@@ -109,7 +109,7 @@ export const DrawerTopBar = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid token(colors.mutedBorder);
+  border-bottom: 1px solid token(colors.borderSubtle);
   flex-shrink: 0;
 `
 
@@ -122,41 +122,41 @@ export const DrawerTopBarLeft = styled.div`
 export const DrawerTopBarRight = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: token(spacing.sm);
 `
 
 export const DrawerTopBarLabel = styled.span`
-  font-size: 13px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: token(colors.mutedText);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
 `
 
 export const DrawerNavGroup = styled.div`
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: token(spacing.xs);
 `
 
 export const DrawerNavButton = styled.button`
-  background: token(colors.tertiaryBackground);
-  color: token(colors.mutedText);
+  background: token(colors.surface);
+  color: token(colors.textMuted);
   border: none;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   width: 28px;
   height: 28px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   transition: background 150ms ease, color 150ms ease;
 
   &:hover:not(:disabled) {
-    background: token(colors.secondaryBackground);
-    color: token(colors.primary);
+    background: token(colors.surface);
+    color: token(colors.foreground);
   }
 
   &:disabled {
@@ -166,8 +166,8 @@ export const DrawerNavButton = styled.button`
 `
 
 export const DrawerNavCounter = styled.span`
-  font-size: 13px;
-  color: token(colors.mutedText);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
   min-width: 52px;
   text-align: center;
@@ -179,16 +179,16 @@ export const DrawerHero = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 24px;
-  border-bottom: 1px solid token(colors.mutedBorder);
-  gap: 16px;
+  padding-bottom: token(spacing.lg);
+  border-bottom: 1px solid token(colors.borderSubtle);
+  gap: token(spacing.md);
 `
 
 export const DrawerHeroTitle = styled.h2`
   margin: 0;
-  font-size: 18px;
+  font-size: token(fontSizes.headline-md);
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   letter-spacing: -0.02em;
   font-family: token(fonts.nativeFont);
   line-height: 1.25;
@@ -217,29 +217,29 @@ export const DrawerBody = styled.div`
   padding: 20px 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 export const DrawerSection = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 export const DrawerSectionTitle = styled.h3`
   margin: 0;
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: token(colors.mutedText);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
 `
 
 export const DrawerSectionDescription = styled.p`
   margin: 0;
-  font-size: 13px;
-  color: token(colors.mutedText);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.textMuted);
   line-height: 1.6;
   font-family: token(fonts.nativeFont);
 `
@@ -247,25 +247,25 @@ export const DrawerSectionDescription = styled.p`
 export const FormGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 export const ToggleRow = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  gap: token(spacing.md);
 
   & > span {
-    font-size: 14px;
+    font-size: token(fontSizes.body-sm);
     font-weight: 500;
-    color: token(colors.primary);
+    color: token(colors.foreground);
   }
 `
 
 export const Divider = styled.div`
   height: 1px;
-  background: token(colors.mutedBorder);
+  background: token(colors.borderSubtle);
 `
 
 /* ---------------------------- Detail (read-only) --------------------------- */
@@ -280,8 +280,8 @@ export const DetailRow = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid token(colors.mutedBorder);
-  gap: 16px;
+  border-bottom: 1px solid token(colors.borderSubtle);
+  gap: token(spacing.md);
 
   &:last-child {
     border-bottom: none;
@@ -292,8 +292,8 @@ export const DetailLabel = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
-  color: token(colors.mutedText);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
   min-width: 0;
   flex-shrink: 0;
@@ -310,9 +310,9 @@ export const DetailIcon = styled.span`
 `
 
 export const DetailValue = styled.span`
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 500;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   text-align: right;
   min-width: 0;
@@ -323,9 +323,9 @@ export const DetailValueInput = styled.input`
   padding: 6px 10px;
   border: 1px solid token(colors.border);
   border-radius: 6px;
-  font-size: 14px;
-  background: token(colors.tertiaryBackground);
-  color: token(colors.primary);
+  font-size: token(fontSizes.body-sm);
+  background: token(colors.surface);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   max-width: 200px;
   width: 100%;
@@ -333,7 +333,7 @@ export const DetailValueInput = styled.input`
 
   &:focus {
     outline: none;
-    border-color: token(colors.blue);
+    border-color: token(colors.peterRiver);
   }
 `
 
@@ -341,9 +341,9 @@ export const DetailValueSelect = styled.select`
   padding: 6px 10px;
   border: 1px solid token(colors.border);
   border-radius: 6px;
-  font-size: 14px;
-  background: token(colors.tertiaryBackground);
-  color: token(colors.primary);
+  font-size: token(fontSizes.body-sm);
+  background: token(colors.surface);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   max-width: 200px;
   width: 100%;
@@ -351,7 +351,7 @@ export const DetailValueSelect = styled.select`
 
   &:focus {
     outline: none;
-    border-color: token(colors.blue);
+    border-color: token(colors.peterRiver);
   }
 `
 
@@ -359,9 +359,9 @@ export const DetailValueCopyable = styled.button`
   background: none;
   border: none;
   padding: 0;
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 500;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   cursor: pointer;
   display: inline-flex;
@@ -369,25 +369,25 @@ export const DetailValueCopyable = styled.button`
   gap: 6px;
 
   &:hover {
-    color: token(colors.blue);
+    color: token(colors.peterRiver);
   }
 `
 
 export const StatusTagButton = styled.button`
   padding: 6px 14px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   border: 1px solid token(colors.border);
-  background: token(colors.tertiaryBackground);
-  color: token(colors.primary);
-  font-size: 12px;
+  background: token(colors.surface);
+  color: token(colors.foreground);
+  font-size: token(fontSizes.label-md);
   font-weight: 500;
   cursor: pointer;
   font-family: token(fonts.nativeFont);
 
   &[data-active="true"] {
-    background: token(colors.primary);
-    color: token(colors.background);
-    border-color: token(colors.primary);
+    background: token(colors.foreground);
+    color: token(colors.bg);
+    border-color: token(colors.foreground);
   }
 `
 
@@ -395,11 +395,11 @@ export const StatusTagButton = styled.button`
 
 export const DrawerFooter = styled.footer`
   padding: 16px 24px 24px;
-  border-top: 1px solid token(colors.mutedBorder);
+  border-top: 1px solid token(colors.borderSubtle);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 export const ActionsGroup = styled.div`
@@ -422,17 +422,17 @@ export const ErrorContainer = styled.div`
 `
 
 export const DeleteButton = styled.button`
-  background: token(colors.danger);
-  color: token(colors.dangerFg);
+  background: token(colors.error);
+  color: token(colors.error);
   border: none;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   padding: 10px 18px;
   cursor: pointer;
   font-family: token(fonts.nativeFont);
   font-weight: 600;
 
   &:hover:not(:disabled) {
-    background: token(colors.dangerHover);
+    background: #fecaca;
   }
 
   &:disabled {
@@ -442,10 +442,10 @@ export const DeleteButton = styled.button`
 `
 
 export const RulesEditorButton = styled.button`
-  background: token(colors.info);
-  color: token(colors.infoFg);
+  background: #e0f2fe;
+  color: #0284c7;
   border: none;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   padding: 10px 18px;
   cursor: pointer;
   font-family: token(fonts.nativeFont);
@@ -467,9 +467,9 @@ export const TimelineContainer = styled.div`
 
 export const TimelineItem = styled.div`
   display: flex;
-  gap: 16px;
+  gap: token(spacing.md);
   position: relative;
-  padding-bottom: 24px;
+  padding-bottom: token(spacing.lg);
 
   &:last-child {
     padding-bottom: 0;
@@ -488,7 +488,7 @@ export const TimelineIconWrapper = styled.div`
 export const TimelineIcon = styled.div`
   width: 32px;
   height: 32px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -496,24 +496,24 @@ export const TimelineIcon = styled.div`
 
   &[data-status="success"] {
     background: token(colors.success);
-    color: token(colors.successFg);
+    color: #166534;
   }
 
   &[data-status="info"] {
-    background: token(colors.info);
-    color: token(colors.infoFg);
+    background: #e0f2fe;
+    color: #0284c7;
   }
 
   &[data-status="warning"] {
     background: token(colors.warning);
-    color: token(colors.warningFg);
+    color: #d97706;
   }
 `
 
 export const TimelineConnector = styled.div`
   width: 2px;
   flex: 1;
-  background: token(colors.mutedBorder);
+  background: token(colors.borderSubtle);
   margin-top: 8px;
   min-height: 16px;
 `
@@ -521,27 +521,27 @@ export const TimelineConnector = styled.div`
 export const TimelineContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: token(spacing.xs);
   padding-top: 4px;
   min-width: 0;
 `
 
 export const TimelineTitle = styled.span`
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
 `
 
 export const TimelineDescription = styled.span`
-  font-size: 13px;
-  color: token(colors.mutedText);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
   line-height: 1.5;
 `
 
 export const TimelineDate = styled.span`
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   color: token(colors.border);
   font-family: token(fonts.nativeFont);
 `
@@ -553,9 +553,9 @@ export const DetailDrawerHeader = styled.header`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border-bottom: 1px solid token(colors.mutedBorder);
+  border-bottom: 1px solid token(colors.borderSubtle);
   flex-shrink: 0;
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 export const DetailDrawerHeaderLeft = styled.div`
@@ -567,19 +567,19 @@ export const DetailDrawerHeaderLeft = styled.div`
 `
 
 export const DetailDrawerHeaderTitle = styled.span`
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: token(colors.mutedText);
+  color: token(colors.textMuted);
   font-weight: 600;
   font-family: token(fonts.nativeFont);
 `
 
 export const DetailDrawerTitle = styled.h2`
   margin: 0;
-  font-size: 18px;
+  font-size: token(fontSizes.headline-md);
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   letter-spacing: -0.02em;
   font-family: token(fonts.nativeFont);
   line-height: 1.25;
@@ -595,10 +595,10 @@ export const DetailDrawerNavGroup = styled.div`
 export const DetailDrawerNavButton = styled.button`
   width: 28px;
   height: 28px;
-  border-radius: 999px;
-  border: 1px solid token(colors.mutedBorder);
-  background: token(colors.background);
-  color: token(colors.mutedText);
+  border-radius: token(radii.full);
+  border: 1px solid token(colors.borderSubtle);
+  background: token(colors.bg);
+  color: token(colors.textMuted);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -607,8 +607,8 @@ export const DetailDrawerNavButton = styled.button`
 
   &:hover:not(:disabled) {
     border-color: token(colors.border);
-    color: token(colors.primary);
-    background: token(colors.tertiaryBackground);
+    color: token(colors.foreground);
+    background: token(colors.surface);
   }
 
   &:disabled {
@@ -618,9 +618,9 @@ export const DetailDrawerNavButton = styled.button`
 `
 
 export const DetailDrawerCounter = styled.span`
-  font-size: 13px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 500;
-  color: token(colors.mutedText);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
   min-width: 64px;
   text-align: center;
@@ -636,9 +636,9 @@ export const DetailDrawerHero = styled.div`
 
 export const DetailDrawerHeroTitle = styled.h2`
   margin: 0;
-  font-size: 18px;
+  font-size: token(fontSizes.headline-md);
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   letter-spacing: -0.02em;
   font-family: token(fonts.nativeFont);
   line-height: 1.25;
@@ -647,17 +647,17 @@ export const DetailDrawerHeroTitle = styled.h2`
 export const DetailDrawerHeroActions = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: token(spacing.sm);
   flex-shrink: 0;
 `
 
 export const DetailDrawerIconButton = styled.button`
   width: 32px;
   height: 32px;
-  border-radius: 8px;
-  border: 1px solid token(colors.mutedBorder);
-  background: token(colors.background);
-  color: token(colors.mutedText);
+  border-radius: token(radii.md);
+  border: 1px solid token(colors.borderSubtle);
+  background: token(colors.bg);
+  color: token(colors.textMuted);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -666,14 +666,14 @@ export const DetailDrawerIconButton = styled.button`
 
   &:hover {
     border-color: token(colors.border);
-    color: token(colors.primary);
-    background: token(colors.tertiaryBackground);
+    color: token(colors.foreground);
+    background: token(colors.surface);
   }
 `
 
 export const DetailDrawerFooter = styled.footer`
   padding: 16px 24px 24px;
-  border-top: 1px solid token(colors.mutedBorder);
+  border-top: 1px solid token(colors.borderSubtle);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -703,7 +703,7 @@ export const DetailMetaRow = styled.div`
   align-items: center;
   gap: 12px;
   padding: 8px 0;
-  border-bottom: 1px solid token(colors.mutedBorder);
+  border-bottom: 1px solid token(colors.borderSubtle);
 
   &:last-child {
     border-bottom: none;
@@ -713,9 +713,9 @@ export const DetailMetaRow = styled.div`
 export const DetailMetaLabel = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 13px;
-  color: token(colors.mutedText);
+  gap: token(spacing.sm);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
 `
 
@@ -730,21 +730,21 @@ export const DetailMetaIcon = styled.span`
 `
 
 export const DetailMetaValue = styled.div`
-  font-size: 13px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 500;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: token(spacing.sm);
   min-width: 0;
 `
 
 export const DetailMetaDescription = styled.p`
   margin: 0;
-  font-size: 13px;
+  font-size: token(fontSizes.body-sm);
   line-height: 1.5;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
 `
 
@@ -753,9 +753,9 @@ export const DetailReadMore = styled.button`
   border: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 500;
-  color: token(colors.blue);
+  color: token(colors.peterRiver);
   cursor: pointer;
   font-family: token(fonts.nativeFont);
 
@@ -771,8 +771,8 @@ export const StatusPill = styled.button`
   align-items: center;
   gap: 6px;
   padding: 5px 12px;
-  border-radius: 999px;
-  font-size: 12px;
+  border-radius: token(radii.full);
+  font-size: token(fontSizes.label-md);
   font-weight: 600;
   border: 1px solid transparent;
   cursor: pointer;
@@ -780,46 +780,46 @@ export const StatusPill = styled.button`
   transition: all 150ms ease;
 
   &[data-type="doing"] {
-    background: token(colors.info);
-    color: token(colors.infoFg);
+    background: #e0f2fe;
+    color: #0284c7;
   }
 
   &[data-type="done"] {
     background: token(colors.success);
-    color: token(colors.successFg);
+    color: #166534;
   }
 
   &[data-type="todo"] {
-    background: token(colors.tertiaryBackground);
-    color: token(colors.primary);
-    border-color: token(colors.mutedBorder);
+    background: token(colors.surface);
+    color: token(colors.foreground);
+    border-color: token(colors.borderSubtle);
   }
 
   &[data-type="low"] {
     background: token(colors.success);
-    color: token(colors.successFg);
+    color: #166534;
   }
 
   &[data-type="medium"] {
     background: token(colors.warning);
-    color: token(colors.warningFg);
+    color: #d97706;
   }
 
   &[data-type="high"] {
-    background: token(colors.danger);
-    color: token(colors.dangerFg);
+    background: token(colors.error);
+    color: token(colors.error);
   }
 
   &[data-type="category"] {
-    background: token(colors.accent);
-    color: token(colors.accentFg);
+    background: #f3e8ff;
+    color: #7c3aed;
   }
 `
 
 export const StatusPillDot = styled.span`
   width: 6px;
   height: 6px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   background: currentColor;
   flex-shrink: 0;
 `
@@ -837,16 +837,16 @@ export const DetailSectionHeader = styled.div`
 export const DetailSectionTitleGroup = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: token(spacing.sm);
 `
 
 export const DetailSectionTitle = styled.h3`
   margin: 0;
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: token(colors.mutedText);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
   display: flex;
   align-items: center;
@@ -854,12 +854,12 @@ export const DetailSectionTitle = styled.h3`
 `
 
 export const DetailSectionCount = styled.span`
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   font-weight: 600;
-  color: token(colors.mutedText);
-  background: token(colors.tertiaryBackground);
+  color: token(colors.textMuted);
+  background: token(colors.surface);
   padding: 2px 8px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   min-width: 22px;
   text-align: center;
 `
@@ -869,18 +869,18 @@ export const DetailSectionAction = styled.button`
   align-items: center;
   gap: 6px;
   padding: 7px 12px;
-  border-radius: 8px;
-  border: 1px solid token(colors.mutedBorder);
-  background: token(colors.background);
-  color: token(colors.primary);
-  font-size: 13px;
+  border-radius: token(radii.md);
+  border: 1px solid token(colors.borderSubtle);
+  background: token(colors.bg);
+  color: token(colors.foreground);
+  font-size: token(fontSizes.body-sm);
   font-weight: 600;
   cursor: pointer;
   font-family: token(fonts.nativeFont);
   transition: all 150ms ease;
 
   &:hover {
-    background: token(colors.tertiaryBackground);
+    background: token(colors.surface);
     border-color: token(colors.border);
   }
 `
@@ -888,10 +888,10 @@ export const DetailSectionAction = styled.button`
 /* --------------------------------- Subtasks --------------------------------- */
 
 export const SubtaskCard = styled.div`
-  border: 1px solid token(colors.mutedBorder);
-  border-radius: 10px;
+  border: 1px solid token(colors.borderSubtle);
+  border-radius: token(radii.lg);
   padding: 14px;
-  background: token(colors.background);
+  background: token(colors.bg);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -905,8 +905,8 @@ export const SubtaskCardBorder = styled.div`
   top: 0;
   bottom: 0;
   width: 3px;
-  background: token(colors.accent);
-  border-radius: 12px 0 0 12px;
+  background: #f3e8ff;
+  border-radius: token(radii.lg) 0 0 token(radii.lg);
 `
 
 export const SubtaskCardHeader = styled.div`
@@ -918,16 +918,16 @@ export const SubtaskCardHeader = styled.div`
 
 export const SubtaskCardTitle = styled.h4`
   margin: 0;
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
 `
 
 export const SubtaskCardActions = styled.div`
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: token(spacing.xs);
 `
 
 export const SubtaskCardContent = styled.div`
@@ -939,13 +939,13 @@ export const SubtaskCardContent = styled.div`
 /* --------------------------------- Comments --------------------------------- */
 
 export const CommentInputWrapper = styled.div`
-  border: 1px solid token(colors.mutedBorder);
-  border-radius: 10px;
+  border: 1px solid token(colors.borderSubtle);
+  border-radius: token(radii.lg);
   padding: 10px 12px;
-  background: token(colors.background);
+  background: token(colors.bg);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: token(spacing.sm);
 `
 
 export const CommentInput = styled.textarea`
@@ -953,9 +953,9 @@ export const CommentInput = styled.textarea`
   border: none;
   background: transparent;
   resize: none;
-  font-size: 13px;
+  font-size: token(fontSizes.body-sm);
   line-height: 1.5;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   min-height: 18px;
 
@@ -972,16 +972,16 @@ export const CommentInputActions = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 8px;
+  gap: token(spacing.sm);
 `
 
 export const CommentInputIconButton = styled.button`
   width: 28px;
   height: 28px;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   border: none;
   background: transparent;
-  color: token(colors.mutedText);
+  color: token(colors.textMuted);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -989,15 +989,15 @@ export const CommentInputIconButton = styled.button`
   transition: all 150ms ease;
 
   &:hover {
-    background: token(colors.tertiaryBackground);
-    color: token(colors.primary);
+    background: token(colors.surface);
+    color: token(colors.foreground);
   }
 `
 
 export const CommentList = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 export const CommentItem = styled.div`
@@ -1008,21 +1008,21 @@ export const CommentItem = styled.div`
 export const CommentAvatar = styled.div`
   width: 28px;
   height: 28px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 11px;
+  font-size: token(fontSizes.label-md);
   font-weight: 700;
-  color: white;
+  color: token(colors.bg);
   flex-shrink: 0;
-  background: token(colors.blue);
+  background: token(colors.peterRiver);
 `
 
 export const CommentContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: token(spacing.xs);
   min-width: 0;
   flex: 1;
 `
@@ -1042,23 +1042,23 @@ export const CommentAuthorGroup = styled.div`
 `
 
 export const CommentAuthor = styled.span`
-  font-size: 13px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
 `
 
 export const CommentDate = styled.span`
-  font-size: 11px;
-  color: token(colors.mutedText);
+  font-size: token(fontSizes.label-md);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
 `
 
 export const CommentText = styled.p`
   margin: 0;
-  font-size: 13px;
+  font-size: token(fontSizes.body-sm);
   line-height: 1.5;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
 `
 
@@ -1067,14 +1067,14 @@ export const CommentReplyButton = styled.button`
   border: none;
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   font-weight: 600;
-  color: token(colors.blue);
+  color: token(colors.peterRiver);
   cursor: pointer;
   font-family: token(fonts.nativeFont);
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: token(spacing.xs);
 
   &:hover {
     text-decoration: underline;

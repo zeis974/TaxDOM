@@ -21,7 +21,7 @@ export const OptionContainer = styled.ul`
   z-index: 1;
   position: absolute;
   border: 2px solid token(colors.border);
-  background: token(colors.secondaryBackground);
+  background: token(colors.surface);
 
   & > li[data-selected="true"],
   & > div > li[data-selected="true"] {
