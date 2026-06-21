@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 
-const API_BASE = (import.meta as { env: Record<string, string> }).env.VITE_API_URL || "http://localhost:3333"
+const API_BASE =
+  (import.meta as { env: Record<string, string> }).env.VITE_API_URL || "http://localhost:3333"
 
 export type NomenclatureSuggestion = {
   code: string

@@ -25,7 +25,7 @@ export const Header = styled.div`
 
   & > span {
     font-size: 0.813em;
-    color: token(colors.darkGray);
+    color: token(colors.border);
   }
 `
 
@@ -60,7 +60,7 @@ export const ProductItem = styled.div`
       align-items: center;
       gap: 8px;
       font-size: 0.75em;
-      color: token(colors.darkGray);
+      color: token(colors.border);
 
       & .category {
         background: token(colors.secondaryBackground);
@@ -76,7 +76,7 @@ export const ProductItem = styled.div`
 
   & .date {
     font-size: 0.75em;
-    color: token(colors.darkGray);
+    color: token(colors.border);
   }
 `
 
@@ -85,6 +85,6 @@ export const NoActivity = styled.div`
   justify-content: center;
   align-items: center;
   padding: 32px;
-  color: token(colors.darkGray);
+  color: token(colors.border);
   font-size: 0.875em;
 `

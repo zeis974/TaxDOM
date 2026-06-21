@@ -14,7 +14,7 @@ export const ListGrid = styled.div`
   height: inherit;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 export const EmptyState = styled.div`
@@ -24,15 +24,16 @@ export const EmptyState = styled.div`
   align-items: center;
   height: 100%;
   min-height: 320px;
-  padding: 32px 24px;
+  padding: token(spacing.xl) token(spacing.lg);
   text-align: center;
-  color: token(colors.border);
-  gap: 16px;
+  color: token(colors.mutedText);
+  gap: token(spacing.md);
 
   & svg {
     width: 52px;
     height: 52px;
-    opacity: 0.3;
+    color: token(colors.border);
+    opacity: 0.6;
   }
 
   & h3 {
@@ -47,5 +48,10 @@ export const EmptyState = styled.div`
     font-size: 14px;
     max-width: 400px;
     line-height: 1.6;
+    color: token(colors.mutedText);
   }
+`
+
+export const EmptyAction = styled.div`
+  margin-top: 4px;
 `

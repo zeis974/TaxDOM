@@ -3,7 +3,7 @@ import { styled } from "@/panda/jsx"
 export const Card = styled.div`
   background: token(colors.secondaryBackground);
   border: 1px solid token(colors.border);
-  border-radius: 12px;
+  border-radius: token(radii.lg);
   padding: 14px;
   transition: all 200ms ease;
   cursor: default;
@@ -14,7 +14,7 @@ export const Card = styled.div`
 export const ClickableCard = styled.button`
   background: token(colors.secondaryBackground);
   border: 1px solid token(colors.border);
-  border-radius: 12px;
+  border-radius: token(radii.lg);
   padding: 14px;
   transition: all 200ms ease;
   cursor: pointer;
@@ -57,7 +57,7 @@ export const CardTitle = styled.h3`
 `
 
 export const CardInfo = styled.span`
-  color: token(colors.border);
+  color: token(colors.mutedText);
   font-size: 13px;
 `
 
@@ -73,7 +73,7 @@ export const BadgeContainer = styled.div`
 export const Badge = styled.span`
   font-size: 11px;
   padding: 4px 10px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -104,7 +104,7 @@ export const StatusBadgeStyled = styled.span`
   display: inline-flex;
   align-items: center;
   padding: 4px 12px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.02em;

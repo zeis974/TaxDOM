@@ -34,7 +34,7 @@ export const LogoCircle = styled.div`
   width: 2rem;
   height: 2rem;
   border-radius: 9999px;
-  background-color: token(colors.darkGray);
+  background-color: token(colors.border);
   border: 4px solid;
   border-color: token(colors.lightGray);
 `
@@ -42,7 +42,7 @@ export const LogoCircle = styled.div`
 export const BrandName = styled.span`
   font-size: 1.25rem;
   font-weight: 600;
-  color: token(colors.darkGray);
+  color: token(colors.border);
   font-family: token(fonts.heading);
   letter-spacing: tight;
 `
@@ -73,7 +73,7 @@ export const TitleSection = styled.div`
 export const Title = styled.h1`
   font-size: 1.875rem;
   font-weight: bold;
-  color: token(colors.darkGray);
+  color: token(colors.border);
   letter-spacing: tight;
   line-height: 1.2;
 `
@@ -96,7 +96,7 @@ export const Button = styled.button`
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
-  color: token(colors.darkGray);
+  color: token(colors.border);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);

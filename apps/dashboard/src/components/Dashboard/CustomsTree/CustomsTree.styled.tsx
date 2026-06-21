@@ -15,12 +15,12 @@ export const ChapterPanel = styled.aside`
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
 `
 
 export const ChapterPanelHeader = styled.div`
   padding: 16px;
-  border-bottom: 1px solid token(colors.darkGray);
+  border-bottom: 1px solid token(colors.border);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -148,12 +148,12 @@ export const TreePanel = styled.main`
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
 `
 
 export const TreePanelHeader = styled.div`
   padding: 14px 20px;
-  border-bottom: 1px solid token(colors.darkGray);
+  border-bottom: 1px solid token(colors.border);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -365,7 +365,7 @@ export const NodeIndent = styled.div`
 
 export const NodeToggle = styled.button`
   background: token(colors.tertiaryBackground);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   padding: 0;
   width: 16px;
   height: 16px;
@@ -440,7 +440,7 @@ export const SuggestionList = styled.div`
   max-height: 260px;
   overflow-y: auto;
   background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   border-radius: 10px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
   font-family: token(fonts.nativeFont);

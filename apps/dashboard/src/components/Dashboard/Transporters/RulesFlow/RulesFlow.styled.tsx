@@ -4,7 +4,7 @@ export const FlowContainer = styled.div`
   width: 100%;
   height: 100%;
   min-height: 600px;
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   border-radius: 12px;
   overflow: hidden;
   background: token(colors.background);
@@ -16,7 +16,7 @@ export const FlowHeader = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  border-bottom: 1px solid token(colors.darkGray);
+  border-bottom: 1px solid token(colors.border);
   background: token(colors.secondaryBackground);
 `
 export const FlowTitle = styled.h3`
@@ -34,7 +34,7 @@ export const FlowActions = styled.div`
 export const FlowSubtitle = styled.p`
   margin: 4px 0 0;
   font-size: 13px;
-  color: token(colors.darkGray);
+  color: token(colors.border);
   font-family: token(fonts.nativeFont);
 `
 export const FlowTitleWrap = styled.div`
@@ -68,7 +68,7 @@ export const StartNodeContainer = styled.div`
   font-size: 14px;
   font-weight: 600;
   background: token(colors.background);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   color: token(colors.primary);
   font-family: token(fonts.nativeFont);
 `
@@ -80,7 +80,7 @@ export const ConditionNodeContainer = styled.div`
   font-size: 14px;
   font-weight: 500;
   background: token(colors.background);
-  border: 2px solid token(colors.darkGray);
+  border: 2px solid token(colors.border);
   color: token(colors.primary);
   position: relative;
   box-shadow: 0 18px 32px rgba(15, 23, 42, 0.08);
@@ -103,7 +103,7 @@ export const FeeNodeContainer = styled.div`
   font-size: 14px;
   font-weight: 600;
   background: token(colors.background);
-  border: 2px solid token(colors.darkGray);
+  border: 2px solid token(colors.border);
   color: token(colors.primary);
   box-shadow: 0 18px 32px rgba(15, 23, 42, 0.08);
   font-family: token(fonts.nativeFont);
@@ -148,7 +148,7 @@ export const HandleLabel = styled.span`
   padding: 3px 8px;
   border-radius: 6px;
   background: token(colors.background);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -166,7 +166,7 @@ export const PageHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
-  border-bottom: 1px solid token(colors.darkGray);
+  border-bottom: 1px solid token(colors.border);
   background: token(colors.secondaryBackground);
 `
 export const PageHeaderLeft = styled.div`
@@ -229,7 +229,7 @@ export const PageBody = styled.main`
 export const NodeEditorPanel = styled.div`
   position: relative;
   background: token(colors.background);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   border-radius: 10px;
   padding: 12px;
   min-width: 0;
@@ -250,7 +250,7 @@ export const NodeEditorField = styled.div`
     display: block;
     font-size: 12px;
     font-weight: 500;
-    color: token(colors.darkGray);
+    color: token(colors.border);
     margin-bottom: 6px;
     font-family: token(fonts.nativeFont);
   }
@@ -258,7 +258,7 @@ export const NodeEditorField = styled.div`
   & select {
     width: 100%;
     padding: 8px 12px;
-    border: 1px solid token(colors.darkGray);
+    border: 1px solid token(colors.border);
     border-radius: 6px;
     font-size: 14px;
     background: token(colors.background);
@@ -286,7 +286,7 @@ export const PaletteContainer = styled.div`
 export const PaletteItem = styled.div`
   padding: 10px 16px;
   background: token(colors.background);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   border-radius: 8px;
   cursor: grab;
   font-size: 13px;

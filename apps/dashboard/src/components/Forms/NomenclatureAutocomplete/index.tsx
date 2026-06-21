@@ -5,6 +5,31 @@ import { useNomenclatureSearch } from "@/hooks/useNomenclatureSearch"
 
 const Wrapper = styled.div`
   position: relative;
+
+  & > input {
+    outline: none;
+    height: 40px;
+    border-radius: 8px;
+    background: token(colors.secondaryBackground);
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    font-family: inherit;
+    color: token(colors.primary);
+    font-size: 0.9375rem;
+    width: 100%;
+    transition:
+      border-color 150ms,
+      box-shadow 150ms;
+
+    &::placeholder {
+      color: token(colors.border);
+    }
+
+    &:focus {
+      border-color: token(colors.blue);
+      box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.blue) 15%, transparent);
+    }
+  }
 `
 
 const SuggestionsBox = styled.ul`
@@ -14,7 +39,7 @@ const SuggestionsBox = styled.ul`
   left: 0;
   right: 0;
   background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
   border-radius: 8px;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.15);
   max-height: 240px;
@@ -170,9 +195,7 @@ export default function NomenclatureAutocomplete({
                 onMouseDown={() => handleSelect(s.code, s.description)}
               >
                 <SuggestionCode>{s.code}</SuggestionCode>
-                <SuggestionDescription title={s.description}>
-                  {s.description}
-                </SuggestionDescription>
+                <SuggestionDescription title={s.description}>{s.description}</SuggestionDescription>
               </SuggestionItem>
             ))}
           </SuggestionsBox>

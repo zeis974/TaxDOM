@@ -25,7 +25,7 @@ export const Header = styled.div`
 
   & > span {
     font-size: 0.813em;
-    color: token(colors.darkGray);
+    color: token(colors.border);
   }
 `
 
@@ -70,7 +70,7 @@ export const ListItem = styled.div`
 
     & .count {
       font-size: 0.75em;
-      color: token(colors.darkGray);
+      color: token(colors.border);
     }
   }
 
@@ -87,6 +87,6 @@ export const NoData = styled.div`
   justify-content: center;
   align-items: center;
   padding: 32px;
-  color: token(colors.darkGray);
+  color: token(colors.border);
   font-size: 0.875em;
 `

@@ -4,7 +4,7 @@ export const HintText = styled.span`
   display: block;
   font-size: 0.75rem;
   font-family: token(fonts.nativeFont);
-  color: token(colors.darkGray);
+  color: token(colors.border);
   margin-top: 4px;
   line-height: 1.4;
 `
@@ -17,6 +17,9 @@ export const InputContainer = styled.div`
   font-family: token(fonts.nativeFont);
 
   & > label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 6px;
     font-size: clamp(0.875rem, 0.8529rem + 0.0941vw, 1rem);
     font-weight: 600;
@@ -39,8 +42,8 @@ export const InputContainer = styled.div`
     outline: none;
     height: 40px;
     border-radius: 8px;
-    background: token(colors.background);
-    border: 1px solid token(colors.darkGray);
+    background: token(colors.secondaryBackground);
+    border: 1px solid transparent;
     padding: 8px 12px;
     font-family: inherit;
     color: token(colors.primary);
@@ -50,7 +53,7 @@ export const InputContainer = styled.div`
       box-shadow 150ms;
 
     &::placeholder {
-      color: token(colors.darkGray);
+      color: token(colors.border);
     }
 
     &:focus {

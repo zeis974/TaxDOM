@@ -43,7 +43,7 @@ export function NodeEditor({ node, onUpdate, onDelete }: NodeEditorProps) {
           : node.type === "condition"
             ? "Condition"
             : "Frais"}
-        <span style={{ fontSize: 11, color: "token(colors.darkGray)" }}>#{node.id}</span>
+        <span style={{ fontSize: 11, color: "token(colors.border)" }}>#{node.id}</span>
       </NodeEditorTitle>
 
       <NodeEditorField>

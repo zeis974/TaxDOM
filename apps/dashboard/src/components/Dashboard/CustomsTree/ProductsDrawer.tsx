@@ -109,7 +109,7 @@ const ProductRow = styled.div`
   padding: 12px 14px;
   border-radius: 8px;
   background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
 `
 
 const ProductName = styled.span`

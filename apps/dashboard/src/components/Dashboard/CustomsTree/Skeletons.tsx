@@ -72,7 +72,14 @@ export function TreeSkeleton() {
 export function HeaderSkeleton() {
   return (
     <div
-      style={{ display: "flex", alignItems: "center", gap: 14, flex: 1, minWidth: 0, animation: DELAYED_FADE }}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: 14,
+        flex: 1,
+        minWidth: 0,
+        animation: DELAYED_FADE,
+      }}
       aria-hidden="true"
     >
       {/* chapter number */}

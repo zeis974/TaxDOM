@@ -39,7 +39,7 @@ export const InputContainer = styled.div`
       box-shadow 150ms ease-in;
 
     &::placeholder {
-      color: token(colors.darkGray);
+      color: token(colors.border);
     }
 
     &:focus {

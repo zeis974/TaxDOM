@@ -8,5 +8,7 @@ export const Section = styled.section`
 
 export const Content = styled.div`
   flex: 2;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 10px;
 `
