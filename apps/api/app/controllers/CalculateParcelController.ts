@@ -1,6 +1,6 @@
 import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
-import type { ParcelCalculationService } from "#services/ParcelCalculationService"
+import { ParcelCalculationService } from "#services/ParcelCalculationService"
 import { CalculateParcelTaxeValidator } from "#validators/CalculateParcelTaxeValidator"
 
 @inject()
