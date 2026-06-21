@@ -33,7 +33,7 @@ export default function LoginPage() {
     try {
       await authClient.signIn.social({
         provider: "google",
-        callbackURL: "/",
+        callbackURL: import.meta.env.VITE_APP_URL,
       })
     } catch (error) {
       console.error("Login error:", error)
