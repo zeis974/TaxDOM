@@ -1,11 +1,13 @@
 import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router"
 import type { TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import { Suspense } from "react"
-import LoadingFallback from "@/components/Dashboard/shared/LoadingFallback"
+import { FlowEditorSkeleton } from "@/components/Dashboard/Transporters/RulesFlow/Skeletons"
 import RulesFlowEditor from "@/components/Dashboard/Transporters/RulesFlow/RulesFlowEditor"
 import { api, client } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/transporters/editor/$id")({
+  pendingComponent: FlowEditorSkeleton,
+  pendingMs: 0,
   loader: async ({ context, params }) => {
     const { id } = params
 
@@ -49,7 +51,7 @@ function TransporterEditorPage() {
   const navigate = useNavigate()
 
   return (
-    <Suspense fallback={<LoadingFallback message="Chargement de l'éditeur..." />}>
+    <Suspense fallback={<FlowEditorSkeleton />}>
       <RulesFlowEditor
         transporterID={id}
         transporterName={transporter.transporterName}
