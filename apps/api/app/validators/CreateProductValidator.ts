@@ -6,8 +6,6 @@ const nomenclatureCodeRule = vine
   .regex(/^\d{2,10}$/)
   .optional()
 
-const taxOverrideRule = vine.number().positive().max(100).optional()
-
 export const CreateProductValidator = vine.create(
   vine.object({
     productName: vine.string().trim().minLength(1).maxLength(255),
@@ -15,9 +13,6 @@ export const CreateProductValidator = vine.create(
     originID: vine.string().uuid(),
     territoryID: vine.string().uuid(),
     nomenclatureCode: nomenclatureCodeRule,
-    tvaOverride: taxOverrideRule,
-    omOverride: taxOverrideRule,
-    omrOverride: taxOverrideRule,
   }),
 )
 
@@ -28,8 +23,5 @@ export const UpdateProductValidator = vine.create(
     originID: vine.string().uuid(),
     territoryID: vine.string().uuid(),
     nomenclatureCode: nomenclatureCodeRule,
-    tvaOverride: taxOverrideRule,
-    omOverride: taxOverrideRule,
-    omrOverride: taxOverrideRule,
   }),
 )

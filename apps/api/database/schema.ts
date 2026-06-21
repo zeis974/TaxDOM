@@ -69,9 +69,6 @@ export const products = pgTable(
       .references(() => territories.territoryID, { onDelete: "restrict", onUpdate: "cascade" }),
     available: boolean("available").notNull().default(true),
     nomenclatureCode: varchar("nomenclature_code", { length: 10 }),
-    tvaOverride: decimal("tva_override", { precision: 6, scale: 4 }),
-    omOverride: decimal("om_override", { precision: 6, scale: 4 }),
-    omrOverride: decimal("omr_override", { precision: 6, scale: 4 }),
     createdAt: timestamp("created_at", { mode: "date" }).defaultNow(),
     updatedAt: timestamp("updated_at", { mode: "date" })
       .defaultNow()

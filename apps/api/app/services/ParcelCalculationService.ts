@@ -1,5 +1,5 @@
 import type { ParcelSimulatorResult } from "@taxdom/types"
-import { eq, inArray } from "drizzle-orm"
+import { eq, inArray, sql } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 
 import type * as schema from "#database/schema"
@@ -115,27 +115,24 @@ export class ParcelCalculationService {
       transporter,
     })
 
-    const productNames = products.map((product) => product.name)
+    const productNames = products.map((product) => product.name.toUpperCase())
     const productResults = await this.db
       .select({
         categoryName: categories.categoryName,
         tva: taxes.tva,
         om: taxes.om,
         omr: taxes.omr,
-        tvaOverride: productsTable.tvaOverride,
-        omOverride: productsTable.omOverride,
-        omrOverride: productsTable.omrOverride,
       })
       .from(productsTable)
       .innerJoin(categories, eq(productsTable.categoryID, categories.categoryID))
       .innerJoin(taxes, eq(categories.taxID, taxes.taxID))
-      .where(inArray(productsTable.productName, productNames))
+      .where(inArray(sql`upper(${productsTable.productName})`, productNames))
 
     const availableCategories = productResults.map((result) => ({
       categoryName: result.categoryName,
-      tva: result.tvaOverride != null ? Number(result.tvaOverride) : Number(result.tva),
-      om: result.omOverride != null ? Number(result.omOverride) : Number(result.om),
-      omr: result.omrOverride != null ? Number(result.omrOverride) : Number(result.omr),
+      tva: Number(result.tva),
+      om: Number(result.om),
+      omr: Number(result.omr),
     }))
 
     if (availableCategories.length === 0) {

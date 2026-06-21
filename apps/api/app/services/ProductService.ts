@@ -7,6 +7,7 @@ import { v7 as uuidv7 } from "uuid"
 import type * as schema from "#database/schema"
 import { categories, origins, products, templateProducts, territories } from "#database/schema"
 import { BadRequestError, ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
+import { normalizeName } from "#lib/normalize_name"
 import { onProductCreated, onProductDeleted, onProductUpdated } from "#services/VectorSync"
 
 type DB = NodePgDatabase<typeof schema>
@@ -66,9 +67,6 @@ function mapProduct(row: ProductQueryResult): Product {
       omr: toDecimalNumber(row.category.tax.omr),
     },
     nomenclatureCode: row.nomenclatureCode ?? null,
-    tvaOverride: row.tvaOverride != null ? toDecimalNumber(row.tvaOverride) : null,
-    omOverride: row.omOverride != null ? toDecimalNumber(row.omOverride) : null,
-    omrOverride: row.omrOverride != null ? toDecimalNumber(row.omrOverride) : null,
     createdAt: row.createdAt ?? new Date(),
     updatedAt: row.updatedAt ?? new Date(),
   }
@@ -80,9 +78,6 @@ export type CreateProductInput = {
   originID: string
   territoryID: string
   nomenclatureCode?: string | null
-  tvaOverride?: number | null
-  omOverride?: number | null
-  omrOverride?: number | null
 }
 
 export type UpdateProductInput = CreateProductInput
@@ -112,13 +107,6 @@ export type PaginatedProductsResult = {
   totalPages: number
 }
 
-export type TaxResult = {
-  taxID: string
-  tva: number
-  om: number
-  omr: number
-}
-
 type ValidatedRelations = {
   categoryID: string
   categoryName: string
@@ -143,14 +131,14 @@ function validateNomenclatureHierarchy(
 }
 
 function validateProductName(name: string): string {
-  const trimmed = name.trim()
-  if (trimmed.length === 0) {
+  const normalized = normalizeName(name)
+  if (normalized.length === 0) {
     throw new BadRequestError("Product name cannot be empty")
   }
-  if (trimmed.length > 255) {
+  if (normalized.length > 255) {
     throw new BadRequestError("Product name cannot exceed 255 characters")
   }
-  return trimmed
+  return normalized
 }
 
 export class ProductService {
@@ -207,20 +195,6 @@ export class ProductService {
       .groupBy(categories.categoryID, categories.categoryName)
 
     return { distribution: dist }
-  }
-
-  /**
-   * Retrieves all available taxes.
-   * @returns List of taxes with numeric values.
-   */
-  async findAllTaxes(): Promise<TaxResult[]> {
-    const allTaxes = await this.db.query.taxes.findMany()
-    return allTaxes.map((t) => ({
-      taxID: t.taxID,
-      tva: toDecimalNumber(t.tva),
-      om: toDecimalNumber(t.om),
-      omr: toDecimalNumber(t.omr),
-    }))
   }
 
   /**
@@ -307,9 +281,6 @@ export class ProductService {
         originID: validated.originID,
         territoryID: validated.territoryID,
         nomenclatureCode: input.nomenclatureCode ?? null,
-        tvaOverride: input.tvaOverride != null ? String(input.tvaOverride) : null,
-        omOverride: input.omOverride != null ? String(input.omOverride) : null,
-        omrOverride: input.omrOverride != null ? String(input.omrOverride) : null,
       })
 
       const created = await tx.query.products.findFirst({
@@ -377,9 +348,6 @@ export class ProductService {
           originID: validated.originID,
           territoryID: validated.territoryID,
           nomenclatureCode: input.nomenclatureCode ?? null,
-          tvaOverride: input.tvaOverride != null ? String(input.tvaOverride) : null,
-          omOverride: input.omOverride != null ? String(input.omOverride) : null,
-          omrOverride: input.omrOverride != null ? String(input.omrOverride) : null,
           updatedAt: new Date(),
         })
         .where(eq(products.productID, productId))
