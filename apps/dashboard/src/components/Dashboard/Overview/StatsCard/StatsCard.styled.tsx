@@ -1,13 +1,38 @@
+import { Link } from "@tanstack/react-router"
 import { styled } from "@/panda/jsx"
 
 export const Card = styled.div`
   background: token(colors.secondaryBackground);
-  border-radius: 8px;
-  padding: 20px;
+  border-radius: token(radii.md);
+  padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 8px;
   border: 1px solid token(colors.tertiaryBackground);
+`
+
+export const CardLink = styled(Link)`
+  background: token(colors.secondaryBackground);
+  border-radius: token(radii.md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid token(colors.tertiaryBackground);
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 150ms ease;
+
+  &:hover {
+    border-color: token(colors.primary);
+    box-shadow: 0 8px 20px token(colors.shadow);
+  }
+
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
+  }
 `
 
 export const CardContent = styled.div`
@@ -18,7 +43,7 @@ export const CardContent = styled.div`
 
 export const CardTitle = styled.h3`
   font-size: 0.875em;
-  color: token(colors.darkGray);
+  color: token(colors.mutedText);
   margin: 0;
   font-weight: 500;
   text-transform: uppercase;
@@ -26,7 +51,7 @@ export const CardTitle = styled.h3`
 `
 
 export const CardValue = styled.p`
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: bold;
   color: token(colors.primary);
   margin: 0;

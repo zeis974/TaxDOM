@@ -32,6 +32,14 @@ interface SidebarProps {
   }
 }
 
+function getInitials(name?: string | null, email?: string) {
+  if (name?.trim()) {
+    const [first = "", second = ""] = name.trim().split(/\s+/)
+    return (first[0] ?? "") + (second[0] ?? "")
+  }
+  return (email?.[0] ?? "?").toUpperCase()
+}
+
 const navItems = [
   { to: "/", icon: <HomeIcon />, label: "Accueil" },
   { to: "/products", icon: <ProductsIcon />, label: "Produits" },
@@ -68,7 +76,7 @@ export default function Sidebar({ user }: SidebarProps) {
             const isActive = location.pathname === item.to
             return (
               <li key={item.to} data-active={isActive}>
-                <Link to={item.to}>
+                <Link to={item.to} aria-current={isActive ? "page" : undefined}>
                   {item.icon}
                   {item.label}
                 </Link>
@@ -83,7 +91,7 @@ export default function Sidebar({ user }: SidebarProps) {
             {user.image ? (
               <img src={user.image} alt="Avatar" width={40} height={40} />
             ) : (
-              <>{user.email}</>
+              <span aria-hidden="true">{getInitials(user.name, user.email)}</span>
             )}
           </Avatar>
           <UserInfo>

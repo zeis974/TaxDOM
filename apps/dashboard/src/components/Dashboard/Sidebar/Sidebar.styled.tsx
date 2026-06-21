@@ -8,35 +8,32 @@ export const Container = styled.nav`
   margin: 0 10px;
   border-radius: 10px;
   color: token(colors.primary);
-  max-width: 250px;
+  max-width: 220px;
   font-family: token(fonts.nativeFont);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 16px;
 
   & > div:first-child {
     display: inherit;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
   }
 `
 
 export const Logo = styled.h1`
   color: token(colors.primary);
-  font-size: clamp(1.4em, 5vw, 2em);
+  font-size: clamp(1.2em, 4vw, 1.6em);
   font-family: token(fonts.nativeFont);
 `
 
 export const List = styled.ul`
   & li {
-    margin-bottom: 10px;
+    position: relative;
+    margin-bottom: 6px;
     border-radius: 10px;
     color: inherit;
-
-    &[data-active="true"] {
-      background: token(colors.tertiaryBackground);
-    }
 
     & a {
       display: flex;
@@ -46,11 +43,39 @@ export const List = styled.ul`
       line-height: 1;
       width: 100%;
       height: 100%;
-      padding: 10px;
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-weight: 500;
+      transition: background 150ms ease;
     }
 
-    &:hover {
+    & a:focus-visible {
+      outline: 2px solid token(colors.primary);
+      outline-offset: 2px;
+    }
+
+    /* Survol (hors page courante) : indice léger */
+    &:not([data-active="true"]):hover > a {
+      background: color-mix(in srgb, token(colors.tertiaryBackground) 55%, transparent);
+    }
+
+    /* Page courante : fond plein + texte renforcé + barre latérale */
+    &[data-active="true"] > a {
       background: token(colors.tertiaryBackground);
+      color: token(colors.primary);
+      font-weight: 600;
+    }
+
+    &[data-active="true"]::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 3px;
+      height: 60%;
+      border-radius: 999px;
+      background: token(colors.primary);
     }
   }
 `
@@ -66,8 +91,8 @@ export const UserContainer = styled.div`
 `
 
 export const Avatar = styled.div`
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background: token(colors.primary);
   display: flex;
@@ -138,6 +163,13 @@ export const LogoutButton = styled.button`
 
   &:active {
     opacity: 0.5;
+  }
+
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
+    border-radius: 6px;
+    opacity: 1;
   }
 
   &:disabled {

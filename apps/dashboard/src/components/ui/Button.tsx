@@ -2,7 +2,7 @@ import { ButtonStyled } from "./Button.styled"
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   type?: "button" | "submit" | "reset"
-  variant?: "primary" | "secondary" | "outline"
+  variant?: "primary" | "secondary" | "outline" | "danger" | "publish"
 }
 
 export default function Button({ type = "button", variant = "secondary", ...props }: ButtonProps) {
