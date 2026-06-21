@@ -5,7 +5,7 @@ export const semanticTokens = defineSemanticTokens({
     error: { value: { base: "#960000", _dark: "#ff9b9b" } },
     primary: { value: { base: "black", _dark: "white" } },
     shadow: { value: { base: "rgba(0, 0, 0, 0.1)", _dark: "rgba(0, 0, 0, 0.1)" } },
-    darkGray: { value: { base: "#bdc3c7", _dark: "#525252" } },
+    border: { value: { base: "#bdc3c7", _dark: "#525252" } },
     background: { value: { base: "white", _dark: "#121212" } },
     secondaryBackground: { value: { base: "#dde4e6", _dark: "#2b2b2b" } },
     tertiaryBackground: { value: { base: "#ecf0f1", _dark: "#3b3b3b" } },
@@ -25,7 +25,9 @@ export const semanticTokens = defineSemanticTokens({
     accentFg: { value: { base: "#7c3aed", _dark: "#c4b5fd" } },
 
     // Bordures / textes secondaires partagés (anciennement codés en dur)
-    mutedBorder: { value: { base: "rgba(148, 163, 184, 0.24)", _dark: "rgba(148, 163, 184, 0.18)" } },
+    mutedBorder: {
+      value: { base: "rgba(148, 163, 184, 0.24)", _dark: "rgba(148, 163, 184, 0.18)" },
+    },
     mutedText: { value: { base: "rgba(100, 116, 139, 0.95)", _dark: "rgba(148, 163, 184, 0.85)" } },
     overlay: { value: { base: "rgba(15, 23, 42, 0.45)", _dark: "rgba(0, 0, 0, 0.6)" } },
   },
