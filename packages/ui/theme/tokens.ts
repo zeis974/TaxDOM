@@ -6,47 +6,33 @@ export const tokens = defineTokens({
       value:
         '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
     },
-    NotoSans: {
-      value:
-        '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
-    },
-    NotoSansBold: {
-      value:
-        '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
-    },
-    Rowdies: {
+    rowdies: {
       value: "var(--rowdies), serif",
     },
   },
   fontSizes: {
-    display: { value: "32px" },
-    "headline-lg": { value: "24px" },
-    "headline-md": { value: "18px" },
-    "body-md": { value: "16px" },
-    "body-sm": { value: "14px" },
-    "label-caps": { value: "11px" },
-    "label-md": { value: "12px" },
+    display: { value: "2rem" },           // 32px
+    "headline-lg": { value: "1.5rem" },   // 24px
+    "headline-md": { value: "1.125rem" }, // 18px
+    "body-md": { value: "1rem" },         // 16px
+    "body-sm": { value: "0.875rem" },     // 14px
+    "label-md": { value: "0.75rem" },     // 12px
   },
   fontWeights: {
-    display: { value: "400" },
-    "headline-lg": { value: "600" },
+    display: { value: "700" },
+    "headline-lg": { value: "700" },
     "headline-md": { value: "600" },
     "body-md": { value: "400" },
     "body-sm": { value: "400" },
-    "label-caps": { value: "600" },
     "label-md": { value: "500" },
   },
   lineHeights: {
-    display: { value: "1.2" },
-    "headline-lg": { value: "1.3" },
-    "headline-md": { value: "1.4" },
-    "body-md": { value: "1.6" },
+    display: { value: "1.15" },
+    "headline-lg": { value: "1.25" },
+    "headline-md": { value: "1.35" },
+    "body-md": { value: "1.5" },
     "body-sm": { value: "1.5" },
-    "label-caps": { value: "1" },
     "label-md": { value: "1.4" },
-  },
-  letterSpacings: {
-    "label-caps": { value: "0.08em" },
   },
   sizes: {
     navbarHeight: { value: "95px" },
@@ -55,7 +41,6 @@ export const tokens = defineTokens({
   radii: {
     sm: { value: "4px" },
     md: { value: "8px" },
-    panel: { value: "10px" },
     lg: { value: "12px" },
     full: { value: "9999px" },
   },
