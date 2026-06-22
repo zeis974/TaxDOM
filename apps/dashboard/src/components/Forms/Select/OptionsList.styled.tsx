@@ -14,8 +14,8 @@ export const VirtualItem = styled.li`
   height: 100%;
 
   &[data-selected="true"] {
-    background: token(colors.primary);
-    color: white;
+    background: token(colors.foreground);
+    color: token(colors.bg);
   }
 
   &[data-available="false"] {
@@ -24,8 +24,8 @@ export const VirtualItem = styled.li`
   }
 
   &:hover {
-    background: token(colors.primary);
-    color: white;
+    background: token(colors.foreground);
+    color: token(colors.bg);
   }
 `
 
@@ -36,8 +36,8 @@ export const NonVirtualItem = styled.li`
   padding: 0 5px;
 
   &[data-selected="true"] {
-    background: token(colors.primary);
-    color: white;
+    background: token(colors.foreground);
+    color: token(colors.bg);
   }
 
   &[data-available="false"] {
@@ -46,7 +46,7 @@ export const NonVirtualItem = styled.li`
   }
 
   &:hover {
-    background: token(colors.primary);
-    color: white;
+    background: token(colors.foreground);
+    color: token(colors.bg);
   }
 `

@@ -6,6 +6,6 @@ export const LoadingFallbackContainer = styled.div`
   justify-content: center;
   padding: 20px;
   color: token(colors.border);
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-family: token(fonts.nativeFont);
 `

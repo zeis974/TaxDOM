@@ -4,22 +4,34 @@ export const tokens = defineTokens({
   fonts: {
     nativeFont: {
       value:
-        '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
+        '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
     },
-    NotoSans: {
-      value:
-        '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
-    },
-    NotoSansBold: {
-      value:
-        '--apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;',
-    },
-    Rowdies: {
+    rowdies: {
       value: "var(--rowdies), serif",
     },
+  },
+  fontSizes: {
+    "headline-lg": { value: "1.5rem" },   // 24px
+    "headline-md": { value: "1.125rem" }, // 18px
+    "body-md": { value: "1rem" },         // 16px
+    "body-sm": { value: "0.875rem" },     // 14px
+    "label-md": { value: "0.75rem" },     // 12px
   },
   sizes: {
     navbarHeight: { value: "95px" },
     maxWidth: { value: "2400px" },
+  },
+  radii: {
+    sm: { value: "4px" },
+    md: { value: "8px" },
+    lg: { value: "12px" },
+    full: { value: "9999px" },
+  },
+  spacing: {
+    xs: { value: "4px" },
+    sm: { value: "8px" },
+    md: { value: "16px" },
+    lg: { value: "24px" },
+    xl: { value: "32px" },
   },
 })

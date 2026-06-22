@@ -3,12 +3,12 @@ import { styled } from "@/panda/jsx"
 
 export const Container = styled(motion.div)`
   position: absolute;
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   top: calc(100% + 10px);
   right: -150px;
   width: 500px;
   height: 100%;
-  background: white;
+  background: token(colors.bg);
 
   &::before {
     content: "";
@@ -19,19 +19,19 @@ export const Container = styled(motion.div)`
   }
 
   & a:first-child > div {
-    border-radius: 10px 10px 0 0;
+    border-radius: token(radii.lg) token(radii.lg) 0 0;
   }
 
   & a:last-child > div {
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 token(radii.lg) token(radii.lg);
   }
 `
 export const CardContainer = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  color: black;
-  background: white;
+  color: token(colors.foreground);
+  background: token(colors.bg);
   width: 100%;
   height: 100px;
   padding: 20px;

@@ -10,17 +10,17 @@ export const PageLayout = styled.div`
 `
 
 export const ChapterPanel = styled.aside`
-  background: token(colors.secondaryBackground);
-  border-radius: 10px;
+  background: token(colors.surface);
+  border-radius: token(radii.lg);
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
 `
 
 export const ChapterPanelHeader = styled.div`
-  padding: 16px;
-  border-bottom: 1px solid token(colors.darkGray);
+  padding: token(spacing.md);
+  border-bottom: 1px solid token(colors.border);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -29,31 +29,31 @@ export const ChapterPanelHeader = styled.div`
 
 export const ChapterPanelTitle = styled.h2`
   margin: 0;
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   opacity: 0.7;
 `
 
 export const SearchInput = styled.input`
-  background: token(colors.tertiaryBackground);
+  background: token(colors.surface);
   border: 1px solid transparent;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   padding: 8px 12px 8px 32px;
-  font-size: 13px;
-  color: token(colors.primary);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   outline: none;
   box-sizing: border-box;
   width: 220px;
   transition: border-color 120ms ease, width 200ms ease;
   &::placeholder {
-    color: rgba(100, 116, 139, 0.5);
+    color: token(colors.textMuted);
   }
   &:focus {
-    border-color: rgba(14, 165, 233, 0.4);
+    border-color: rgba(52, 152, 219, 0.4);
     width: 260px;
   }
 `
@@ -61,20 +61,20 @@ export const SearchInput = styled.input`
 /* Chapter-panel search — full width, no left icon */
 export const ChapterSearchInput = styled.input`
   width: 100%;
-  background: token(colors.tertiaryBackground);
+  background: token(colors.surface);
   border: 1px solid transparent;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   padding: 8px 12px;
-  font-size: 13px;
-  color: token(colors.primary);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   outline: none;
   box-sizing: border-box;
   &::placeholder {
-    color: rgba(100, 116, 139, 0.6);
+    color: token(colors.textMuted);
   }
   &:focus {
-    border-color: rgba(14, 165, 233, 0.4);
+    border-color: rgba(52, 152, 219, 0.4);
   }
 `
 
@@ -94,29 +94,29 @@ export const ChapterItem = styled.button`
   text-align: left;
   background: transparent;
   border: none;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   padding: 8px 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: token(spacing.sm);
   transition: background 120ms ease;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   animation: fadeIn 0.28s ease both;
 
   &:hover {
-    background: token(colors.tertiaryBackground);
+    background: token(colors.surface);
   }
 
   &[data-active="true"] {
-    background: rgba(14, 165, 233, 0.12);
-    color: #0ea5e9;
+    background: rgba(52, 152, 219, 0.12);
+    color: token(colors.sky);
   }
 `
 
 export const ChapterCode = styled.span`
-  font-size: 11px;
+  font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   min-width: 24px;
@@ -124,7 +124,7 @@ export const ChapterCode = styled.span`
 `
 
 export const ChapterDescription = styled.span`
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   flex: 1;
   white-space: nowrap;
   overflow: hidden;
@@ -135,29 +135,29 @@ export const ChapterDescription = styled.span`
 export const ChapterBadge = styled.span`
   font-size: 10px;
   font-weight: 700;
-  background: rgba(14, 165, 233, 0.15);
-  color: #0ea5e9;
+  background: rgba(52, 152, 219, 0.12);
+  color: token(colors.sky);
   padding: 2px 7px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   flex-shrink: 0;
 `
 
 export const TreePanel = styled.main`
-  background: token(colors.secondaryBackground);
-  border-radius: 10px;
+  background: token(colors.surface);
+  border-radius: token(radii.lg);
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid token(colors.darkGray);
+  border: 1px solid token(colors.border);
 `
 
 export const TreePanelHeader = styled.div`
   padding: 14px 20px;
-  border-bottom: 1px solid token(colors.darkGray);
+  border-bottom: 1px solid token(colors.border);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: token(spacing.md);
   flex-shrink: 0;
   min-width: 0;
 `
@@ -175,7 +175,7 @@ export const HeaderInfo = styled.div`
 export const ChapterNum = styled.span`
   font-size: 28px;
   font-weight: 800;
-  color: #0ea5e9;
+  color: token(colors.sky);
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.03em;
   line-height: 1;
@@ -193,15 +193,15 @@ export const TreeTitle = styled.h2`
   margin: 0;
   font-size: 15px;
   font-weight: 600;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 `
 
 export const TreeSubtitle = styled.span`
-  font-size: 12px;
-  color: rgba(100, 116, 139, 0.6);
+  font-size: token(fontSizes.label-md);
+  color: token(colors.textMuted);
   font-weight: 400;
   white-space: nowrap;
   overflow: hidden;
@@ -212,7 +212,7 @@ export const TreeSubtitle = styled.span`
 export const HeaderActions = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: token(spacing.sm);
   flex-shrink: 0;
 `
 
@@ -223,13 +223,13 @@ export const SearchWrapper = styled.div`
 `
 
 export const LastSyncLabel = styled.span`
-  font-size: 11px;
-  color: rgba(100, 116, 139, 0.85);
+  font-size: token(fontSizes.label-md);
+  color: token(colors.textMuted);
   white-space: nowrap;
   flex-shrink: 0;
 
   &[data-status="error"] {
-    color: #ef4444;
+    color: token(colors.error);
   }
 `
 
@@ -238,7 +238,7 @@ export const SearchIcon = styled.svg`
   left: 10px;
   width: 14px;
   height: 14px;
-  color: rgba(100, 116, 139, 0.5);
+  color: token(colors.textMuted);
   pointer-events: none;
   flex-shrink: 0;
 `
@@ -253,16 +253,16 @@ export const SyncButton = styled.button`
   width: 34px;
   height: 34px;
   padding: 0;
-  background: rgba(14, 165, 233, 0.1);
-  color: #0ea5e9;
+  background: rgba(52, 152, 219, 0.12);
+  color: token(colors.sky);
   border: 1px solid rgba(14, 165, 233, 0.3);
-  border-radius: 8px;
+  border-radius: token(radii.md);
   cursor: pointer;
   transition: all 150ms ease;
   flex-shrink: 0;
 
   &:hover:not(:disabled) {
-    background: rgba(14, 165, 233, 0.2);
+    background: rgba(14, 165, 233, 0.2);  /* slightly above skyBg, intentional */
   }
   &:disabled {
     opacity: 0.5;
@@ -278,16 +278,16 @@ export const SyncButton = styled.button`
 export const SyncProgress = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 13px;
-  color: rgba(100, 116, 139, 0.85);
+  gap: token(spacing.sm);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.textMuted);
 `
 
 export const ProgressBar = styled.div`
   position: relative;
   height: 4px;
   width: 120px;
-  background: token(colors.tertiaryBackground);
+  background: token(colors.surface);
   border-radius: 2px;
   overflow: hidden;
 `
@@ -296,7 +296,7 @@ export const ProgressFill = styled.div`
   position: absolute;
   inset: 0 auto 0 0;
   width: var(--progress-width, 0%);
-  background: #0ea5e9;
+  background: token(colors.sky);
   border-radius: 2px;
   transition: width 400ms ease;
 `
@@ -314,8 +314,8 @@ export const EmptyState = styled.div`
   justify-content: center;
   height: 100%;
   gap: 12px;
-  color: rgba(100, 116, 139, 0.7);
-  font-size: 14px;
+  color: token(colors.textMuted);
+  font-size: token(fontSizes.body-sm);
   text-align: center;
   padding: 48px 32px;
 `
@@ -330,18 +330,18 @@ export const TreeNodeRow = styled.div`
   align-items: center;
   gap: 6px;
   padding: 5px 8px;
-  border-radius: 6px;
+  border-radius: 6px;  /* no token for 6px — leave as-is */
   cursor: pointer;
   transition: background 100ms ease;
-  font-size: 13px;
-  color: token(colors.primary);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.foreground);
 
   &:hover {
-    background: token(colors.tertiaryBackground);
+    background: token(colors.surface);
   }
 
   &[data-has-products="true"] {
-    color: token(colors.primary);
+    color: token(colors.foreground);
     font-weight: 500;
   }
 
@@ -364,8 +364,8 @@ export const NodeIndent = styled.div`
 `
 
 export const NodeToggle = styled.button`
-  background: token(colors.tertiaryBackground);
-  border: 1px solid token(colors.darkGray);
+  background: token(colors.surface);
+  border: 1px solid token(colors.border);
   padding: 0;
   width: 16px;
   height: 16px;
@@ -373,25 +373,25 @@ export const NodeToggle = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: rgba(100, 116, 139, 0.8);
+  color: token(colors.textMuted);
   flex-shrink: 0;
   border-radius: 3px;
   transition: background 100ms ease, border-color 100ms ease, color 100ms ease;
 
   &:hover {
-    background: rgba(14, 165, 233, 0.12);
-    border-color: rgba(14, 165, 233, 0.4);
-    color: #0ea5e9;
+    background: rgba(52, 152, 219, 0.12);
+    border-color: rgba(52, 152, 219, 0.4);
+    color: token(colors.sky);
   }
 `
 
 export const NodeCode = styled.span`
-  font-size: 11px;
+  font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  background: token(colors.tertiaryBackground);
+  background: token(colors.surface);
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: token(radii.sm);
   flex-shrink: 0;
   letter-spacing: 0.02em;
 `
@@ -407,14 +407,14 @@ export const NodeProductBadge = styled.span`
   background: rgba(34, 197, 94, 0.15);
   color: #16a34a;
   padding: 2px 8px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   flex-shrink: 0;
 `
 
 export const LoadingRow = styled.div`
   padding: 8px 12px;
-  font-size: 13px;
-  color: rgba(100, 116, 139, 0.6);
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.textMuted);
   animation: pulse 1.5s ease-in-out infinite;
 
   @keyframes pulse {
@@ -425,10 +425,10 @@ export const LoadingRow = styled.div`
 
 export const ErrorRow = styled.div`
   padding: 12px 16px;
-  font-size: 13px;
-  color: #ef4444;
-  background: #fee2e2;
-  border-radius: 8px;
+  font-size: token(fontSizes.body-sm);
+  color: token(colors.error);
+  background: token(colors.error);
+  border-radius: token(radii.md);
   margin: 8px 0;
 `
 
@@ -439,9 +439,9 @@ export const SuggestionList = styled.div`
   max-width: 480px;
   max-height: 260px;
   overflow-y: auto;
-  background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
-  border-radius: 10px;
+  background: token(colors.surface);
+  border: 1px solid token(colors.border);
+  border-radius: token(radii.lg);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
   font-family: token(fonts.nativeFont);
 `
@@ -457,14 +457,14 @@ export const SuggestionItem = styled.button`
   text-align: left;
   cursor: pointer;
   font-family: token(fonts.nativeFont);
-  color: token(colors.primary);
+  color: token(colors.foreground);
   transition: background 100ms ease;
 
-  &:first-child { border-radius: 10px 10px 0 0; }
-  &:last-child  { border-radius: 0 0 10px 10px; }
+  &:first-child { border-radius: token(radii.lg) token(radii.lg) 0 0; }
+  &:last-child  { border-radius: 0 0 token(radii.lg) token(radii.lg); }
 
   &:hover {
-    background: token(colors.tertiaryBackground);
+    background: token(colors.surface);
   }
 `
 
@@ -472,7 +472,7 @@ export const SuggestionItem = styled.button`
 
 export const SkeletonRect = styled.span`
   display: block;
-  border-radius: 4px;
+  border-radius: token(radii.sm);
   background: linear-gradient(
     90deg,
     rgba(148, 163, 184, 0.12) 25%,
@@ -486,23 +486,23 @@ export const SkeletonRect = styled.span`
 // ── Suggestions ───────────────────────────────────────────────────────────────
 
 export const SuggestionCode = styled.span`
-  font-size: 11px;
+  font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  background: rgba(14, 165, 233, 0.12);
-  color: #0ea5e9;
+  background: rgba(52, 152, 219, 0.12);
+  color: token(colors.sky);
   padding: 2px 7px;
-  border-radius: 4px;
+  border-radius: token(radii.sm);
   flex-shrink: 0;
   letter-spacing: 0.02em;
 `
 
 export const SuggestionDescription = styled.span`
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   opacity: 0.8;
 `

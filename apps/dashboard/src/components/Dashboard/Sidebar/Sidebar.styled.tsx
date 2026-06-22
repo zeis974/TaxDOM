@@ -2,12 +2,12 @@ import { styled } from "@/panda/jsx"
 
 export const Container = styled.nav`
   flex: 1;
-  background: token(colors.secondaryBackground);
+  background: token(colors.surface);
   height: calc(100% - 10px);
   padding: 10px;
   margin: 0 10px;
-  border-radius: 10px;
-  color: token(colors.primary);
+  border-radius: token(radii.lg);
+  color: token(colors.foreground);
   max-width: 250px;
   font-family: token(fonts.nativeFont);
   display: flex;
@@ -23,7 +23,7 @@ export const Container = styled.nav`
 `
 
 export const Logo = styled.h1`
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-size: clamp(1.4em, 5vw, 2em);
   font-family: token(fonts.nativeFont);
 `
@@ -31,11 +31,11 @@ export const Logo = styled.h1`
 export const List = styled.ul`
   & li {
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: token(radii.lg);
     color: inherit;
 
     &[data-active="true"] {
-      background: token(colors.tertiaryBackground);
+      background: token(colors.surface);
     }
 
     & a {
@@ -50,17 +50,17 @@ export const List = styled.ul`
     }
 
     &:hover {
-      background: token(colors.tertiaryBackground);
+      background: token(colors.surface);
     }
   }
 `
 
 export const UserContainer = styled.div`
   display: flex;
-  gap: 8px;
+  gap: token(spacing.sm);
   padding: 12px;
-  border-radius: 10px;
-  background: token(colors.tertiaryBackground);
+  border-radius: token(radii.lg);
+  background: token(colors.surface);
   align-items: center;
   justify-content: space-between;
 `
@@ -69,13 +69,13 @@ export const Avatar = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: token(colors.primary);
+  background: token(colors.foreground);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: token(colors.secondaryBackground);
+  color: token(colors.surface);
   font-weight: 600;
-  font-size: 16px;
+  font-size: token(fontSizes.body-md);
   flex-shrink: 0;
 
   & > img {
@@ -87,20 +87,20 @@ export const Avatar = styled.div`
 export const UserInfo = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: token(spacing.xs);
   overflow: hidden;
 `
 
 export const UserName = styled.span`
   font-weight: 600;
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 `
 
 export const UserEmail = styled.span`
-  font-size: 12px;
+  font-size: token(fontSizes.label-md);
   opacity: 0.7;
   white-space: nowrap;
   overflow: hidden;
@@ -123,7 +123,7 @@ export const LogoutButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4px;
+  padding: token(spacing.xs);
   flex-shrink: 0;
   transition: opacity 0.2s;
 

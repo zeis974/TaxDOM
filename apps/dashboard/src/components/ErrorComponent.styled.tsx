@@ -12,7 +12,7 @@ export const ErrorContainer = styled.div`
 `
 
 export const ErrorTitle = styled.h1`
-  font-size: 24px;
+  font-size: token(fontSizes.headline-lg);
   margin-bottom: 8px;
   color: token(colors.error);
 `
@@ -24,12 +24,12 @@ export const ErrorMessage = styled.p`
 
 export const RetryButton = styled.button`
   padding: 10px 24px;
-  background: token(colors.primary);
-  color: white;
+  background: token(colors.foreground);
+  color: token(colors.bg);
   border: none;
-  border-radius: 8px;
+  border-radius: token(radii.md);
   cursor: pointer;
-  font-size: 14px;
+  font-size: token(fontSizes.body-sm);
   font-weight: 600;
 
   &:hover {
