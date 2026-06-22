@@ -12,7 +12,8 @@
     "dev:db": "docker compose -f compose.dev.yml up -d --build db",
     "dev:web": "pnpm --filter @taxdom/app dev",
     "build": "turbo run build",
-    "format": "biome format . --write"
+    "format": "biome format . --write",
+    "design:lint": "pnpx @google/design.md lint DESIGN.md"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.0",
