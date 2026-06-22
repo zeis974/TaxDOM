@@ -5,13 +5,13 @@ export const Container = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 15px;
-  background: token(colors.secondaryBackground);
+  background: token(colors.surface);
   color: white;
   position: absolute;
   padding: 20px;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   z-index: 1;
 
   & hr {
@@ -22,9 +22,9 @@ export const Container = styled.div`
 export const ProductsContainer = styled.div`
   position: relative;
   grid-area: 2 / 1 / 3 / 2;
-  background: token(colors.background);
-  color: token(colors.primary);
-  border-radius: 10px;
+  background: token(colors.bg);
+  color: token(colors.foreground);
+  border-radius: token(radii.lg);
   overflow-y: auto;
 
   & > div:first-of-type {
@@ -33,8 +33,8 @@ export const ProductsContainer = styled.div`
     margin: 0 10px;
     justify-content: space-between;
     align-items: center;
-    background: token(colors.background);
-    color: token(colors.primary);
+    background: token(colors.bg);
+    color: token(colors.foreground);
     position: sticky;
     top: 0;
 
@@ -43,7 +43,7 @@ export const ProductsContainer = styled.div`
       position: absolute;
       width: 100%;
       height: 10px;
-      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, token(colors.background) 100%);
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, token(colors.bg) 100%);
       top: 100%;
     }
 
@@ -72,7 +72,7 @@ export const ProductsContainer = styled.div`
 export const ProductCard = styled.div`
   display: flex;
   justify-content: space-between;
-  background: token(colors.darkGray);
+  background: token(colors.surface);
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
@@ -84,12 +84,12 @@ export const TaxesContainer = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  color: token(colors.primary);
+  color: token(colors.foreground);
 `
 
 export const TaxesInfo = styled.div`
-  background: token(colors.background);
-  border-radius: 10px;
+  background: token(colors.bg);
+  border-radius: token(radii.lg);
   padding: 10px;
 
   & > div {
@@ -102,7 +102,7 @@ export const TaxesInfo = styled.div`
       flex-direction: column;
       p {
         span {
-          font: bold 1.5em token(fonts.NotoSansBold);
+          font: bold 1.5em token(fonts.nativeFont);
           color: #2a7bb1;
           margin-right: 5px;
         }
@@ -118,11 +118,11 @@ export const DutyInfo = styled.div`
 
   & span {
     margin-bottom: 10px;
-    color: token(colors.primary);
+    color: token(colors.foreground);
 
     & span {
       color: #2a7bb1;
-      font: bold 1.5em token(fonts.NotoSansBold);
+      font: bold 1.5em token(fonts.nativeFont);
     }
   }
 
@@ -138,15 +138,15 @@ export const DutyInfo = styled.div`
       height: 100%;
       width: 2px;
       left: -10px;
-      background: token(colors.darkGray);
+      background: token(colors.surface);
     }
   }
 `
 
 export const Informations = styled.div`
   grid-area: 1 / 1 / 2 / 3;
-  background: token(colors.background);
-  border-radius: 10px;
+  background: token(colors.bg);
+  border-radius: token(radii.lg);
   overflow-y: auto;
 `
 
@@ -178,7 +178,7 @@ export const TaxesInformations = styled.div`
         position: absolute;
         height: 100%;
         width: 2px;
-        background: token(colors.darkGray);
+        background: token(colors.surface);
       }
 
       & p {
@@ -189,7 +189,7 @@ export const TaxesInformations = styled.div`
 
         & span {
           color: #2a7bb1;
-          font: bold 1em token(fonts.NotoSansBold);
+          font: bold 1em token(fonts.nativeFont);
         }
       }
     }

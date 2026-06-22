@@ -1,9 +1,9 @@
 import { styled } from "@/panda/jsx"
 
 export const Card = styled.div`
-  background: token(colors.secondaryBackground);
+  background: token(colors.surface);
   border: 1px solid token(colors.border);
-  border-radius: 12px;
+  border-radius: token(radii.lg);
   padding: 14px;
   transition: all 200ms ease;
   cursor: default;
@@ -12,9 +12,9 @@ export const Card = styled.div`
 `
 
 export const ClickableCard = styled.button`
-  background: token(colors.secondaryBackground);
+  background: token(colors.surface);
   border: 1px solid token(colors.border);
-  border-radius: 12px;
+  border-radius: token(radii.lg);
   padding: 14px;
   transition: all 200ms ease;
   cursor: pointer;
@@ -22,12 +22,12 @@ export const ClickableCard = styled.button`
   text-align: left;
 
   &:hover {
-    border-color: token(colors.primary);
+    border-color: token(colors.foreground);
     box-shadow: 0 8px 20px token(colors.shadow);
   }
 
   &:focus-visible {
-    outline: 2px solid token(colors.primary);
+    outline: 2px solid token(colors.foreground);
     outline-offset: 3px;
   }
 `
@@ -37,7 +37,7 @@ export const CardHeader = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 10px;
-  gap: 16px;
+  gap: token(spacing.md);
   min-width: 0;
 
   & > *:first-child {
@@ -48,8 +48,8 @@ export const CardHeader = styled.div`
 
 export const CardTitle = styled.h3`
   margin: 0;
-  color: token(colors.primary);
-  font-size: 16px;
+  color: token(colors.foreground);
+  font-size: token(fontSizes.body-md);
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -71,29 +71,29 @@ export const BadgeContainer = styled.div`
  * Badge décoratif coloré. Variantes via data-type.
  */
 export const Badge = styled.span`
-  font-size: 11px;
+  font-size: token(fontSizes.label-md);
   padding: 4px 10px;
-  border-radius: 999px;
+  border-radius: token(radii.full);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 
   &[data-type="accent"],
   &[data-type="category"] {
-    background: token(colors.accent);
-    color: token(colors.accentFg);
+    background: #f3e8ff;
+    color: #7c3aed;
   }
 
   &[data-type="info"],
   &[data-type="eu"] {
-    background: token(colors.info);
-    color: token(colors.infoFg);
+    background: #e0f2fe;
+    color: #0284c7;
   }
 
   &[data-type="neutral"],
   &[data-type="products"] {
-    background: token(colors.tertiaryBackground);
-    color: token(colors.primary);
+    background: token(colors.surface);
+    color: token(colors.foreground);
   }
 `
 
@@ -104,18 +104,18 @@ export const StatusBadgeStyled = styled.span`
   display: inline-flex;
   align-items: center;
   padding: 4px 12px;
-  border-radius: 999px;
-  font-size: 12px;
+  border-radius: token(radii.full);
+  font-size: token(fontSizes.label-md);
   font-weight: 600;
   letter-spacing: 0.02em;
 
   &[data-active="true"] {
     background: token(colors.success);
-    color: token(colors.successFg);
+    color: #166534;
   }
 
   &[data-active="false"] {
-    background: token(colors.danger);
-    color: token(colors.dangerFg);
+    background: token(colors.error);
+    color: token(colors.error);
   }
 `

@@ -1,10 +1,10 @@
 import { styled } from "@/panda/jsx"
 
 export const Container = styled.div`
-  background: token(colors.secondaryBackground);
-  border-radius: 8px;
+  background: token(colors.surface);
+  border-radius: token(radii.md);
   padding: 20px;
-  border: 1px solid token(colors.tertiaryBackground);
+  border: 1px solid token(colors.surface);
 `
 
 export const Header = styled.div`
@@ -13,26 +13,26 @@ export const Header = styled.div`
   align-items: center;
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 1px solid token(colors.tertiaryBackground);
+  border-bottom: 1px solid token(colors.surface);
 
   & h2 {
     font-size: 1em;
     font-weight: 600;
     margin: 0;
-    color: token(colors.primary);
+    color: token(colors.foreground);
     font-family: token(fonts.nativeFont);
   }
 
   & > span {
     font-size: 0.813em;
-    color: token(colors.darkGray);
+    color: token(colors.surface);
   }
 `
 
 export const List = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: token(spacing.sm);
 `
 
 export const ListItem = styled.div`
@@ -41,7 +41,7 @@ export const ListItem = styled.div`
   align-items: center;
   gap: 12px;
   padding: 10px 12px;
-  background: token(colors.tertiaryBackground);
+  background: token(colors.surface);
   border-radius: 6px;
 
   & .rank {
@@ -50,11 +50,11 @@ export const ListItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: token(colors.secondaryBackground);
+    background: token(colors.surface);
     border-radius: 4px;
     font-weight: 600;
     font-size: 0.813em;
-    color: token(colors.primary);
+    color: token(colors.foreground);
   }
 
   & .info {
@@ -65,12 +65,12 @@ export const ListItem = styled.div`
     & .name {
       font-size: 0.875em;
       font-weight: 500;
-      color: token(colors.primary);
+      color: token(colors.foreground);
     }
 
     & .count {
       font-size: 0.75em;
-      color: token(colors.darkGray);
+      color: token(colors.surface);
     }
   }
 
@@ -78,7 +78,7 @@ export const ListItem = styled.div`
     text-align: right;
     font-size: 0.875em;
     font-weight: 600;
-    color: token(colors.primary);
+    color: token(colors.foreground);
   }
 `
 
@@ -86,7 +86,7 @@ export const NoData = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 32px;
-  color: token(colors.darkGray);
+  padding: token(spacing.xl);
+  color: token(colors.surface);
   font-size: 0.875em;
 `

@@ -3,14 +3,14 @@ import { styled } from "@/panda/jsx"
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: token(spacing.sm);
   width: 100%;
 `
 
 export const TaxBarContainer = styled.div`
   display: flex;
   height: 14px;
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   overflow: hidden;
   position: relative;
 `
@@ -27,7 +27,7 @@ export const TaxSegment = styled.div`
     border-radius: 0 10px 10px 0;
   }
   &:only-child {
-    border-radius: 10px;
+    border-radius: token(radii.lg);
   }
 
   &::after {
@@ -38,11 +38,11 @@ export const TaxSegment = styled.div`
     transform: translateX(-50%);
     font-size: 0.7rem;
     font-weight: 600;
-    color: white;
+    color: token(colors.bg);
     background: rgba(255, 255, 255, 0.95);
     padding: 2px 6px;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: token(radii.sm);
+    box-shadow: 0 1px 3px token(colors.shadow);
     opacity: 0;
     pointer-events: none;
     white-space: nowrap;
@@ -79,10 +79,10 @@ export const LegendColor = styled.div`
 export const TotalTax = styled.span`
   margin-left: auto;
   font-weight: 700;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-size: 0.8rem;
   padding: 4px 8px;
   background: rgba(59, 130, 246, 0.1);
-  border-radius: 12px;
+  border-radius: token(radii.lg);
   border: 1px solid rgba(59, 130, 246, 0.2);
 `

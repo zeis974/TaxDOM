@@ -4,7 +4,7 @@ export const HintText = styled.span`
   display: block;
   font-size: 0.75rem;
   font-family: token(fonts.nativeFont);
-  color: token(colors.darkGray);
+  color: token(colors.surface);
   margin-top: 4px;
   line-height: 1.4;
 `
@@ -21,7 +21,7 @@ export const InputContainer = styled.div`
     font-size: clamp(0.875rem, 0.8529rem + 0.0941vw, 1rem);
     font-weight: 600;
     user-select: none;
-    color: token(colors.primary);
+    color: token(colors.foreground);
 
     & > span {
       color: token(colors.error);
@@ -38,24 +38,24 @@ export const InputContainer = styled.div`
   & > input {
     outline: none;
     height: 40px;
-    border-radius: 8px;
-    background: token(colors.background);
-    border: 1px solid token(colors.darkGray);
+    border-radius: token(radii.md);
+    background: token(colors.bg);
+    border: 1px solid token(colors.surface);
     padding: 8px 12px;
     font-family: inherit;
-    color: token(colors.primary);
+    color: token(colors.foreground);
     font-size: 0.9375rem;
     transition:
       border-color 150ms,
       box-shadow 150ms;
 
     &::placeholder {
-      color: token(colors.darkGray);
+      color: token(colors.surface);
     }
 
     &:focus {
-      border-color: token(colors.blue);
-      box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.blue) 15%, transparent);
+      border-color: token(colors.primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.primary) 15%, transparent);
     }
 
     &[aria-invalid="true"] {
@@ -66,7 +66,7 @@ export const InputContainer = styled.div`
     &[disabled="true"],
     &[aria-disabled="true"] {
       cursor: not-allowed;
-      background: token(colors.secondaryBackground);
+      background: token(colors.surface);
     }
   }
 
