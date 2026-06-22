@@ -11,28 +11,11 @@ export const tokens = defineTokens({
     },
   },
   fontSizes: {
-    display: { value: "2rem" },           // 32px
     "headline-lg": { value: "1.5rem" },   // 24px
     "headline-md": { value: "1.125rem" }, // 18px
     "body-md": { value: "1rem" },         // 16px
     "body-sm": { value: "0.875rem" },     // 14px
     "label-md": { value: "0.75rem" },     // 12px
-  },
-  fontWeights: {
-    display: { value: "700" },
-    "headline-lg": { value: "700" },
-    "headline-md": { value: "600" },
-    "body-md": { value: "400" },
-    "body-sm": { value: "400" },
-    "label-md": { value: "500" },
-  },
-  lineHeights: {
-    display: { value: "1.15" },
-    "headline-lg": { value: "1.25" },
-    "headline-md": { value: "1.35" },
-    "body-md": { value: "1.5" },
-    "body-sm": { value: "1.5" },
-    "label-md": { value: "1.4" },
   },
   sizes: {
     navbarHeight: { value: "95px" },
