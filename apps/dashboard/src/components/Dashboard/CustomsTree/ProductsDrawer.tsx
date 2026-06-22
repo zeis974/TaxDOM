@@ -39,7 +39,7 @@ const Panel = styled.aside`
   width: min(440px, 100vw);
   height: 100vh;
   background: token(colors.bg);
-  border-left: 1px solid token(colors.borderSubtle);
+  border-left: 1px solid token(colors.border);
   box-shadow: -24px 0 60px rgba(15, 23, 42, 0.22);
   display: flex;
   flex-direction: column;
@@ -49,7 +49,7 @@ const Panel = styled.aside`
 
 const Header = styled.header`
   padding: 28px 28px 20px;
-  border-bottom: 1px solid token(colors.borderSubtle);
+  border-bottom: 1px solid token(colors.border);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;

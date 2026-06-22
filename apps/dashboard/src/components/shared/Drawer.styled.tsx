@@ -16,7 +16,7 @@ export const DrawerContent = styled.div`
   width: min(460px, 100vw);
   height: 100vh;
   background: token(colors.bg);
-  border-left: 1px solid token(colors.borderSubtle);
+  border-left: 1px solid token(colors.border);
   box-shadow: -32px 0 80px token(colors.shadow);
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ export const DrawerHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-bottom: 1px solid token(colors.borderSubtle);
+  border-bottom: 1px solid token(colors.border);
 `
 
 export const DrawerHeaderContent = styled.div`
@@ -109,7 +109,7 @@ export const DrawerTopBar = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid token(colors.borderSubtle);
+  border-bottom: 1px solid token(colors.border);
   flex-shrink: 0;
 `
 
@@ -180,7 +180,7 @@ export const DrawerHero = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   padding-bottom: token(spacing.lg);
-  border-bottom: 1px solid token(colors.borderSubtle);
+  border-bottom: 1px solid token(colors.border);
   gap: token(spacing.md);
 `
 
@@ -265,7 +265,7 @@ export const ToggleRow = styled.div`
 
 export const Divider = styled.div`
   height: 1px;
-  background: token(colors.borderSubtle);
+  background: token(colors.border);
 `
 
 /* ---------------------------- Detail (read-only) --------------------------- */
@@ -280,7 +280,7 @@ export const DetailRow = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid token(colors.borderSubtle);
+  border-bottom: 1px solid token(colors.border);
   gap: token(spacing.md);
 
   &:last-child {
@@ -395,7 +395,7 @@ export const StatusTagButton = styled.button`
 
 export const DrawerFooter = styled.footer`
   padding: 16px 24px 24px;
-  border-top: 1px solid token(colors.borderSubtle);
+  border-top: 1px solid token(colors.border);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -513,7 +513,7 @@ export const TimelineIcon = styled.div`
 export const TimelineConnector = styled.div`
   width: 2px;
   flex: 1;
-  background: token(colors.borderSubtle);
+  background: token(colors.border);
   margin-top: 8px;
   min-height: 16px;
 `
@@ -553,7 +553,7 @@ export const DetailDrawerHeader = styled.header`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border-bottom: 1px solid token(colors.borderSubtle);
+  border-bottom: 1px solid token(colors.border);
   flex-shrink: 0;
   gap: token(spacing.md);
 `
@@ -596,7 +596,7 @@ export const DetailDrawerNavButton = styled.button`
   width: 28px;
   height: 28px;
   border-radius: token(radii.full);
-  border: 1px solid token(colors.borderSubtle);
+  border: 1px solid token(colors.border);
   background: token(colors.bg);
   color: token(colors.textMuted);
   display: inline-flex;
@@ -655,7 +655,7 @@ export const DetailDrawerIconButton = styled.button`
   width: 32px;
   height: 32px;
   border-radius: token(radii.md);
-  border: 1px solid token(colors.borderSubtle);
+  border: 1px solid token(colors.border);
   background: token(colors.bg);
   color: token(colors.textMuted);
   display: inline-flex;
@@ -673,7 +673,7 @@ export const DetailDrawerIconButton = styled.button`
 
 export const DetailDrawerFooter = styled.footer`
   padding: 16px 24px 24px;
-  border-top: 1px solid token(colors.borderSubtle);
+  border-top: 1px solid token(colors.border);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -703,7 +703,7 @@ export const DetailMetaRow = styled.div`
   align-items: center;
   gap: 12px;
   padding: 8px 0;
-  border-bottom: 1px solid token(colors.borderSubtle);
+  border-bottom: 1px solid token(colors.border);
 
   &:last-child {
     border-bottom: none;
@@ -792,7 +792,7 @@ export const StatusPill = styled.button`
   &[data-type="todo"] {
     background: token(colors.surface);
     color: token(colors.foreground);
-    border-color: token(colors.borderSubtle);
+    border-color: token(colors.border);
   }
 
   &[data-type="low"] {
@@ -870,7 +870,7 @@ export const DetailSectionAction = styled.button`
   gap: 6px;
   padding: 7px 12px;
   border-radius: token(radii.md);
-  border: 1px solid token(colors.borderSubtle);
+  border: 1px solid token(colors.border);
   background: token(colors.bg);
   color: token(colors.foreground);
   font-size: token(fontSizes.body-sm);
@@ -888,7 +888,7 @@ export const DetailSectionAction = styled.button`
 /* --------------------------------- Subtasks --------------------------------- */
 
 export const SubtaskCard = styled.div`
-  border: 1px solid token(colors.borderSubtle);
+  border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
   padding: 14px;
   background: token(colors.bg);
@@ -939,7 +939,7 @@ export const SubtaskCardContent = styled.div`
 /* --------------------------------- Comments --------------------------------- */
 
 export const CommentInputWrapper = styled.div`
-  border: 1px solid token(colors.borderSubtle);
+  border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
   padding: 10px 12px;
   background: token(colors.bg);

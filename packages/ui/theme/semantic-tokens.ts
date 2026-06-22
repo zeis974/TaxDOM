@@ -8,7 +8,6 @@ export const semanticTokens = defineSemanticTokens({
     surface: { value: { base: "#f1f3f4", _dark: "#1e1e1e" } },
 
     border: { value: { base: "#bdc3c7", _dark: "#6a6a6a" } },
-    borderSubtle: { value: { base: "rgba(148, 163, 184, 0.24)", _dark: "rgba(148, 163, 184, 0.30)" } },
     shadow: { value: { base: "rgba(0, 0, 0, 0.1)", _dark: "rgba(0, 0, 0, 0.3)" } },
     overlay: { value: { base: "rgba(15, 23, 42, 0.45)", _dark: "rgba(0, 0, 0, 0.6)" } },
 
