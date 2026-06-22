@@ -4,7 +4,7 @@ export const SearchBar = styled.div`
   width: 400px;
   height: 50px;
   position: relative;
-  display: inline-flex; 
+  display: inline-flex;
   align-items: center;
 
   @media (width < 1100px) {
@@ -51,7 +51,7 @@ export const SearchShortcut = styled.div`
     animation: fadeIn 600ms;
   }
 
-  &[data-focus=true] {
+  &[data-focus="true"] {
     width: 35px;
   }
 `

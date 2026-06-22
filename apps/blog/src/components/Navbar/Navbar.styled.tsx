@@ -18,18 +18,9 @@ export const Nav = styled.nav`
 
     & > a {
       color: token(colors.foreground);
-      font-size: clamp(1.8em, 5vw, 2em);    
+      font-size: clamp(1.8em, 5vw, 2em);
       font-family: "Rowdies", serif;
       position: relative;
-
-      &::before {
-        content: "-Alpha";
-        bottom: -10px;
-        right: 0;
-        font-size: 0.5em;
-        position: absolute;
-        color: gray;
-      }  
     }
   }
 
