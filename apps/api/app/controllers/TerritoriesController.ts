@@ -2,7 +2,6 @@ import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
 
 import { BadRequestError } from "#exceptions/ServiceErrors"
-// biome-ignore lint/style/useImportType: No import as type for controllers
 import { TerritoryService } from "#services/TerritoryService"
 import { createTerritoryValidator, updateTerritoryValidator } from "#validators/TerritoryValidator"
 
