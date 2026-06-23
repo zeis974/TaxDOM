@@ -4,8 +4,7 @@ import { RitaSyncService } from "#services/RitaSyncService"
 
 export default class RitaSync extends BaseCommand {
   static commandName = "rita:sync"
-  static description =
-    "Synchronise les nomenclatures SH depuis RITA (tous chapitres ou un seul)"
+  static description = "Synchronise les nomenclatures SH depuis RITA (tous chapitres ou un seul)"
 
   @flags.number({ description: "Chapitre à synchroniser (1-99). Omis = tous les chapitres." })
   declare chapter: number | undefined

@@ -22,7 +22,6 @@ import registerPublicProducts from "#routes/public/products"
 import registerPublicSimulator from "#routes/public/simulator"
 import registerPublicTerritories from "#routes/public/territories"
 import registerPublicTransporters from "#routes/public/transporters"
-
 // ─── Public routes ───────────────────────────────────────
 router
   .group(() => {

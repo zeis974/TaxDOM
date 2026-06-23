@@ -8,11 +8,9 @@ const rateLimiter = limiter.use({
   duration: "1 minute",
 })
 
-
 export default class RateLimitMiddleware {
   async handle(ctx: HttpContext, next: NextFn) {
     const { request, response } = ctx
-
 
     try {
       await rateLimiter.consume(request.ip())

@@ -2,7 +2,7 @@ import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
 import logger from "@adonisjs/core/services/logger"
 import { BadRequestError } from "#exceptions/ServiceErrors"
-import type { CategoryService } from "#services/CategoryService"
+import { CategoryService } from "#services/CategoryService"
 import { CreateCategoryValidator, UpdateCategoryValidator } from "#validators/CategoryValidator"
 
 @inject()
