@@ -16,17 +16,17 @@
     "design:lint": "pnpx @google/design.md lint DESIGN.md"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.0",
+    "@biomejs/biome": "2.5.1",
     "husky": "9.1.7",
-    "lint-staged": "17.0.7",
-    "turbo": "2.9.18",
+    "lint-staged": "17.0.8",
+    "turbo": "2.10.0",
     "typescript": "6.0.3"
   },
   "engines": {
     "node": ">=24",
     "pnpm": ">=11"
   },
-  "packageManager": "pnpm@11.7.0",
+  "packageManager": "pnpm@11.9.0",
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
       "biome format --write --no-errors-on-unmatched"

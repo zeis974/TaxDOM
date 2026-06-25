@@ -46,26 +46,26 @@
     "@adonisjs/redis": "10.0.0",
     "@adonisjs/session": "8.1.0",
     "@adonisjs/shield": "9.0.0",
-    "@better-auth/drizzle-adapter": "1.6.18",
+    "@better-auth/drizzle-adapter": "1.6.20",
     "@tuyau/core": "1.2.2",
     "@vinejs/vine": "4.4.0",
-    "better-auth": "1.6.18",
+    "better-auth": "1.6.20",
     "chromadb": "3.4.3",
     "drizzle-orm": "0.45.2",
-    "fast-xml-parser": "^5.8.0",
+    "fast-xml-parser": "^5.9.3",
     "luxon": "3.7.2",
     "ollama": "0.6.3",
-    "pg": "8.21.0",
+    "pg": "8.22.0",
     "reflect-metadata": "0.2.2",
-    "uuid": "14.0.0"
+    "uuid": "14.0.1"
   },
   "devDependencies": {
     "@adonisjs/assembler": "8.4.0",
     "@adonisjs/tsconfig": "2.0.0",
     "@poppinss/ts-exec": "1.4.4",
     "@taxdom/types": "workspace:*",
-    "@types/luxon": "^3.7.1",
-    "@types/node": "^25.9.3",
+    "@types/luxon": "^3.7.2",
+    "@types/node": "^26.0.1",
     "@types/pg": "^8.20.0",
     "drizzle-kit": "0.31.10",
     "hot-hook": "1.0.0",
@@ -83,5 +83,5 @@
     "node": ">=24",
     "pnpm": ">=11"
   },
-  "packageManager": "pnpm@11.7.0"
+  "packageManager": "pnpm@11.9.0"
 }
