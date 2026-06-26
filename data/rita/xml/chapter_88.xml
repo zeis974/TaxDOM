@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 88 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:08</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>8800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>NAVIGATION AÉRIENNE OU SPATIALE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ballons et dirigeables; planeurs, ailes volantes et autres véhicules aériens, non conçus pour la propulsion à moteur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8801001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ballons et dirigeables; planeurs et ailes volantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8801001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8801001090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8801009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8801009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8801009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres véhicules aériens (hélicoptères, avions, par exemple), à l'exception des véhicules aériens sans pilote du n° 8806; véhicules spatiaux (y compris les satellites) et leurs véhicules lanceurs et véhicules sous-orbitaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8802110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hélicoptères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8802110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids à vide n'excédant pas 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8802120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids à vide excédant 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8802200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Avions et autres véhicules aériens, d'un poids à vide n'excédant pas 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8802300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Avions et autres véhicules aériens, d'un poids à vide excédant 2|000|kg mais n'excédant pas 15|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8802400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Avions et autres véhicules aériens, d'un poids à vide excédant 15|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802400020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8802600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Véhicules spatiaux (y compris les satellites) et leurs véhicules lanceurs et véhicules sous-orbitaux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8802601100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Véhicules spatiaux (y compris les satellites)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802601100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Satellites de télécommunications</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802601900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8802609000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Véhicules lanceurs et véhicules sous-orbitaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parachutes (y compris les parachutes dirigeables et les parapentes) et rotochutes; leurs parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8805000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Appareils et dispositifs pour le lancement de véhicules aériens; appareils et dispositifs pour l'appontage de véhicules aériens et appareils et dispositifs similaires; appareils au sol d'entraînement au vol; leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8805100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils et dispositifs pour le lancement de véhicules aériens et leurs parties; appareils et dispositifs pour l'appontage de véhicules aériens et appareils et dispositifs similaires, et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8805101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Appareils et dispositifs pour le lancement de véhicules aériens et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8805109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8805210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils au sol d'entraînement au vol et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8805210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Simulateurs de combat aérien et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8805290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Véhicules aériens sans pilote</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Conçus pour le transport de passagers</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids à vide n'excédant pas 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids à vide excédant 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8806210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres, conçus uniquement pour être téléguidés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids maximal au décollage n'excédant pas 250|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Multi-rotors équipés d'appareils relevant de la sous-position 8525|89|intégrés de façon permanente et destinés à capturer et enregistrer des images fixes et vidéo</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806219010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806219090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids maximal au décollage excédant 250|g mais n'excédant pas 7|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Multi-rotors équipés d'appareils relevant de la sous-position 8525|89|intégrés de façon permanente et destinés à capturer et enregistrer des images fixes et vidéo</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806229010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806229090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids maximal au décollage excédant 7|kg mais n'excédant pas 25|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806230010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806230090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids maximal au décollage excédant 25|kg mais n'excédant pas 150|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806240010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806240090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids à vide n'excédant pas 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806291010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806291090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806292000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids à vide excédant 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806292010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806292090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8806910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids maximal au décollage n'excédant pas 250|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids maximal au décollage excédant 250|g mais n'excédant pas 7|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806920010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806920090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids maximal au décollage excédant 7|kg mais n'excédant pas 25|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806930010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806930090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids maximal au décollage excédant 25|kg mais n'excédant pas 150|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806940010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806940090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids à vide n'excédant pas 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806991010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806991090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8806992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un poids à vide excédant 2|000|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806992010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8806992090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8807000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parties des appareils n$o$s|8801, 8802|ou 8806</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8807100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hélices et rotors, et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à être montés sur des aérodynes ayant eux-mêmes bénéficié de la franchise de droit ou construits dans la Communauté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8807200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Trains d'atterrissage et leur parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807200020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à être montés sur des aérodynes ayant eux-mêmes bénéficié de la franchise de droit ou construits dans la Communauté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8807300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres parties d'avions, d'hélicoptères ou de véhicules aériens sans pilote</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807300020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à être montés sur des aérodynes ayant eux-mêmes bénéficié de la franchise de droit ou construits dans la Communauté</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8807300040</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807300040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Éléments de liaison destiné à la fabrication des arbres rotor arrière d'hélicoptères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807300099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8807900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de cerfs-volants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8807902100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de véhicules spatiaux (y compris les satellites)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807902100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de satellites de télécommunications</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807902900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de véhicules lanceurs et véhicules sous-orbitaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8807909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à être montés sur des aérodynes ayant eux-mêmes bénéficié de la franchise de droit ou construits dans la Communauté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8807909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

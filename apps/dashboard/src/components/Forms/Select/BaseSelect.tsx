@@ -3,7 +3,9 @@ import * as m from "motion/react-m"
 import {
   type InputHTMLAttributes,
   type KeyboardEvent,
+  useCallback,
   useEffect,
+  useId,
   useLayoutEffect,
   useRef,
   useState,
@@ -12,7 +14,8 @@ import { createPortal } from "react-dom"
 
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { OptionsList } from "./OptionsList"
-import { LoadingCircle } from "./Select.styled"
+import { HintText, LoadingCircle } from "./Select.styled"
+import { useSelectPortalContainer } from "./SelectPortalContext"
 
 export interface BaseOption {
   name: string
@@ -22,7 +25,7 @@ export interface BaseOption {
 
 type NativeInputProps = Omit<
   InputHTMLAttributes<HTMLInputElement>,
-  "onChange" | "value" | "defaultValue" | "children"
+  "onChange" | "value" | "defaultValue" | "children" | "role"
 >
 
 export interface BaseSelectProps extends NativeInputProps {
@@ -30,6 +33,7 @@ export interface BaseSelectProps extends NativeInputProps {
   name?: string
   label: string
   placeholder?: string
+  hint?: string
   options: BaseOption[]
   value: string
   onChange: (value: string) => void
@@ -42,12 +46,13 @@ export interface BaseSelectProps extends NativeInputProps {
 }
 
 export default function BaseSelect({
-  id,
+  id: idProp,
   name,
   label,
   placeholder,
+  hint,
   options = [],
-  value = "",
+  value,
   onChange,
   onBlur,
   onFocus,
@@ -57,153 +62,238 @@ export default function BaseSelect({
   required,
   ...inputProps
 }: BaseSelectProps) {
-  const selectedIndexRef = useRef(0)
+  const reactId = useId()
+  const inputId = idProp ?? name ?? reactId
+  const listboxId = `${inputId}-listbox`
+  const hintId = `${inputId}-hint`
+
   const inputRef = useRef<HTMLInputElement>(null)
-  const [selectedIndex, setSelectedIndex] = useState(0)
-  const [show, setShow] = useState(false)
-  const [searchValue, setSearchValue] = useState("")
+  const containerRef = useRef<HTMLDivElement>(null)
+  const ignoreBlurRef = useRef(false)
+
+  const [isOpen, setIsOpen] = useState(false)
+  const [inputValue, setInputValue] = useState("")
+  const [activeIndex, setActiveIndex] = useState(-1)
+
+  const portalContainer = useSelectPortalContainer()
+  const portalTarget = portalContainer ?? (typeof document !== "undefined" ? document.body : null)
+
   const [dropdownPos, setDropdownPos] = useState({ top: 0, left: 0, width: 0 })
 
+  const selectedIndex = options.findIndex((option) => (option.value ?? option.name) === value)
+
   useEffect(() => {
-    if (value) {
-      const selected = options.find((o) => o.value === value || o.name === value)
-      setSearchValue(selected?.name ?? value)
-    } else {
-      setSearchValue("")
-    }
+    const selected = options.find((option) => (option.value ?? option.name) === value)
+    setInputValue(selected?.name ?? "")
   }, [value, options])
 
-  useEffect(() => {
-    selectedIndexRef.current = selectedIndex
+  const filteredOptions = options.filter((option) => {
+    if (!inputValue) return true
+    return option.name.toLowerCase().includes(inputValue.toLowerCase())
+  })
+
+  const openListbox = useCallback(() => {
+    setIsOpen(true)
+    setActiveIndex(selectedIndex >= 0 ? selectedIndex : 0)
   }, [selectedIndex])
 
+  const closeListbox = useCallback(() => {
+    setIsOpen(false)
+    setActiveIndex(-1)
+  }, [])
+
+  const selectOption = useCallback(
+    (option: BaseOption) => {
+      onChange(option.value ?? option.name)
+      setInputValue(option.name)
+      closeListbox()
+      inputRef.current?.focus()
+    },
+    [onChange, closeListbox],
+  )
+
   useLayoutEffect(() => {
-    if (show && inputRef.current) {
-      const rect = inputRef.current.getBoundingClientRect()
+    if (!isOpen || !inputRef.current) return
+
+    const rect = inputRef.current.getBoundingClientRect()
+    if (portalContainer) {
+      const containerRect = portalContainer.getBoundingClientRect()
       setDropdownPos({
-        top: rect.bottom,
-        left: rect.left,
+        top: rect.bottom - containerRect.top,
+        left: rect.left - containerRect.left,
+        width: rect.width,
+      })
+    } else {
+      setDropdownPos({
+        top: rect.bottom + window.scrollY,
+        left: rect.left + window.scrollX,
         width: rect.width,
       })
     }
-  }, [show])
+  }, [isOpen, portalContainer])
+
+  useEffect(() => {
+    if (!isOpen) return
+
+    const handleClickOutside = (event: globalThis.MouseEvent) => {
+      const target = event.target as Node
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(target) &&
+        !document.getElementById(listboxId)?.contains(target)
+      ) {
+        closeListbox()
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [isOpen, listboxId, closeListbox])
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = e.target.value
-    setSearchValue(newValue)
-    setSelectedIndex(0)
-    if (!show) setShow(true)
-  }
-
-  const handleSelect = (selectedValue: string) => {
-    onChange(selectedValue)
-    setShow(false)
+    setInputValue(newValue)
+    if (!isOpen) openListbox()
+    setActiveIndex(0)
   }
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (options?.length === 0) return
-
-    if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+    if (e.altKey && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
       e.preventDefault()
-      setSelectedIndex((prevIndex) => {
-        const filteredOptions = options.filter((option) => {
-          const lowerCaseValue = searchValue.toLowerCase()
-          const exactMatchFound =
-            lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
-          const lowerCaseOption = option.name.toLowerCase()
-          return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
-        })
+      if (e.key === "ArrowDown") openListbox()
+      else closeListbox()
+      return
+    }
 
-        if (filteredOptions.length === 0) return prevIndex
-
-        const newIndex =
-          e.key === "ArrowUp"
-            ? (prevIndex - 1 + filteredOptions.length) % filteredOptions.length
-            : (prevIndex + 1) % filteredOptions.length
-        selectedIndexRef.current = newIndex
-        return newIndex
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault()
+      if (!isOpen) {
+        openListbox()
+        return
+      }
+      setActiveIndex((prev) => {
+        const max = filteredOptions.length - 1
+        if (max < 0) return -1
+        if (e.key === "ArrowDown") return prev >= max ? 0 : prev + 1
+        return prev <= 0 ? max : prev - 1
       })
+      return
+    }
+
+    if (e.key === "Home" && isOpen) {
+      e.preventDefault()
+      setActiveIndex(0)
+      return
+    }
+
+    if (e.key === "End" && isOpen) {
+      e.preventDefault()
+      setActiveIndex(filteredOptions.length - 1)
+      return
     }
 
     if (e.key === "Enter") {
       e.preventDefault()
-      const filteredOptions = options.filter((option) => {
-        const lowerCaseValue = searchValue.toLowerCase()
-        const exactMatchFound =
-          lowerCaseValue && options.some((opt) => opt.name.toLowerCase() === lowerCaseValue)
-        const lowerCaseOption = option.name.toLowerCase()
-        return !exactMatchFound && lowerCaseOption.includes(lowerCaseValue)
-      })
-
-      const selectedOption = filteredOptions[selectedIndexRef.current]
-      if (selectedOption) {
-        handleSelect(selectedOption.name)
+      if (isOpen && activeIndex >= 0 && activeIndex < filteredOptions.length) {
+        selectOption(filteredOptions[activeIndex])
+      } else if (!isOpen) {
+        openListbox()
       }
+      return
     }
 
     if (e.key === "Escape") {
-      setShow(false)
+      e.preventDefault()
+      closeListbox()
     }
   }
 
+  const handleBlur = () => {
+    if (ignoreBlurRef.current) {
+      ignoreBlurRef.current = false
+      inputRef.current?.focus()
+      return
+    }
+    closeListbox()
+    onBlur?.()
+  }
+
+  const handleOptionMouseDown = () => {
+    ignoreBlurRef.current = true
+  }
+
+  const handleFocus = useCallback(() => {
+    openListbox()
+    onFocus?.()
+  }, [openListbox, onFocus])
+
+  const activeOptionId =
+    isOpen && activeIndex >= 0 ? `${listboxId}-option-${activeIndex}` : undefined
+
   return (
-    <InputContainer>
-      <label htmlFor={id || name}>
+    <InputContainer ref={containerRef}>
+      <label htmlFor={inputId}>
         {label}
-        {required && " *"}
-        {errors.length > 0 && <span> {errors.join(", ")}</span>}
+        {required ? " *" : null}
+        {errors.length > 0 && <span>{errors.join(", ")}</span>}
       </label>
       <input
         ref={inputRef}
         {...inputProps}
-        id={id || name}
+        id={inputId}
         name={name}
+        role="combobox"
         autoComplete="off"
+        aria-autocomplete="list"
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
+        aria-controls={listboxId}
+        aria-activedescendant={activeOptionId}
+        aria-required={required}
+        aria-invalid={errors.length > 0}
+        aria-describedby={hint ? hintId : undefined}
         onChange={handleInputChange}
-        onBlur={() => {
-          setTimeout(() => {
-            setShow(false)
-            onBlur?.()
-          }, 120)
-        }}
-        onFocus={() => {
-          setShow(true)
-          onFocus?.()
-        }}
+        onBlur={handleBlur}
+        onFocus={handleFocus}
         onKeyDown={handleKeyDown}
         placeholder={placeholder}
-        value={searchValue}
+        value={inputValue}
         disabled={disabled}
+        readOnly={disabled}
         required={required}
       />
-      {loading && <LoadingCircle />}
-      {createPortal(
-        <AnimatePresence>
-          {options.length > 0 && show && (
-            <m.div
-              style={{
-                position: "fixed",
-                top: dropdownPos.top,
-                left: dropdownPos.left,
-                width: dropdownPos.width,
-                zIndex: 9999,
-              }}
-              initial={{ translateY: "-5px", opacity: 0 }}
-              animate={{ translateY: "0", opacity: 1 }}
-              exit={{ translateY: "5px", opacity: 0 }}
-            >
-              <OptionsList
-                options={options}
-                value={searchValue}
-                onSelect={handleSelect}
-                selectedIndex={selectedIndex}
-                setSelectedIndex={setSelectedIndex}
-              />
-            </m.div>
-          )}
-        </AnimatePresence>,
-        document.body,
-      )}
+      {loading ? <LoadingCircle /> : null}
+      {hint ? <HintText id={hintId}>{hint}</HintText> : null}
+      {portalTarget
+        ? createPortal(
+            <AnimatePresence>
+              {filteredOptions.length > 0 && isOpen && (
+                <m.div
+                  style={{
+                    position: portalContainer ? "absolute" : "fixed",
+                    top: dropdownPos.top,
+                    left: dropdownPos.left,
+                    width: dropdownPos.width,
+                    zIndex: 9999,
+                  }}
+                  initial={{ translateY: "-5px", opacity: 0 }}
+                  animate={{ translateY: "0", opacity: 1 }}
+                  exit={{ translateY: "5px", opacity: 0 }}
+                >
+                  <OptionsList
+                    options={filteredOptions}
+                    listboxId={listboxId}
+                    activeIndex={activeIndex}
+                    selectedIndex={selectedIndex}
+                    onSelect={selectOption}
+                    onMouseDown={handleOptionMouseDown}
+                  />
+                </m.div>
+              )}
+            </AnimatePresence>,
+            portalTarget,
+          )
+        : null}
     </InputContainer>
   )
 }

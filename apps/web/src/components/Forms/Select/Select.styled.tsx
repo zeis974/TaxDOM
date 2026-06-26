@@ -13,19 +13,20 @@ export const LoadingCircle = styled.div`
   opacity: 1;
   transition: opacity 250ms;
 `
+
 export const OptionContainer = styled.ul`
   width: 100%;
   border-radius: 5px;
   top: calc(100% + 5px);
   z-index: 1;
   position: absolute;
-  border: 2px solid token(colors.darkGray);
-  background: token(colors.secondaryBackground);
+  border: 2px solid token(colors.border);
+  background: token(colors.surface);
 
-  & > li[data-selected=true],
-  & > div > li[data-selected=true] {
+  & > li[data-selected="true"],
+  & > div > li[data-selected="true"] {
     background: #77b4dc;
-  } 
+  }
 
   & > li,
   & > div > li {
@@ -48,4 +49,25 @@ export const OptionContainer = styled.ul`
     position: relative;
     padding: 5px;
   }
+`
+
+export const VirtualizerContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  position: relative;
+`
+
+export const VirtualItem = styled.li`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+`
+
+export const NonVirtualItem = styled.li`
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
 `

@@ -2,7 +2,6 @@ import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
 import logger from "@adonisjs/core/services/logger"
 import { BadRequestError } from "#exceptions/ServiceErrors"
-// biome-ignore lint/style/useImportType: No import as type for controllers
 import { ProductService } from "#services/ProductService"
 import { CreateProductValidator, UpdateProductValidator } from "#validators/CreateProductValidator"
 
@@ -20,10 +19,6 @@ export default class ProductsController {
 
   async distribution() {
     return await this.productService.findDistributionByCategory()
-  }
-
-  async listTaxes() {
-    return await this.productService.findAllTaxes()
   }
 
   async index({ request }: HttpContext) {

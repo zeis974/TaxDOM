@@ -1,10 +1,15 @@
 import { relations, sql } from "drizzle-orm"
 import {
   boolean,
+  date,
   decimal,
   index,
+  integer,
+  jsonb,
   pgTable,
   primaryKey,
+  smallint,
+  text,
   timestamp,
   uuid,
   varchar,
@@ -18,6 +23,7 @@ export const categories = pgTable(
     taxID: uuid("tax_id")
       .notNull()
       .references(() => taxes.taxID, { onDelete: "restrict", onUpdate: "cascade" }),
+    nomenclatureCode: varchar("nomenclature_code", { length: 10 }),
   },
   (table) => [index("categories_taxID_idx").on(table.taxID)],
 )
@@ -63,6 +69,7 @@ export const products = pgTable(
       .notNull()
       .references(() => territories.territoryID, { onDelete: "restrict", onUpdate: "cascade" }),
     available: boolean("available").notNull().default(true),
+    nomenclatureCode: varchar("nomenclature_code", { length: 10 }),
     createdAt: timestamp("created_at", { mode: "date" }).defaultNow(),
     updatedAt: timestamp("updated_at", { mode: "date" })
       .defaultNow()
@@ -72,6 +79,7 @@ export const products = pgTable(
     index("products_categoryID_idx").on(table.categoryID),
     index("products_originID_idx").on(table.originID),
     index("products_territoryID_idx").on(table.territoryID),
+    index("products_nomenclatureCode_idx").on(table.nomenclatureCode),
   ],
 )
 
@@ -141,5 +149,111 @@ export const TemplateProductsRelations = relations(templateProducts, ({ one }) =
   product: one(products, {
     fields: [templateProducts.productID],
     references: [products.productID],
+  }),
+}))
+
+export const customsNomenclatures = pgTable(
+  "customs_nomenclatures",
+  {
+    code: varchar("code", { length: 10 }).primaryKey(),
+    parentCode: varchar("parent_code", { length: 10 }),
+    description: text("description").notNull(),
+    alinea: smallint("alinea").notNull(),
+    type: smallint("type").notNull(),
+    chapter: smallint("chapter").notNull(),
+    validAt: date("valid_at").notNull(),
+    updatedAt: timestamp("updated_at", { withTimezone: true }),
+  },
+  (table) => [
+    index("customs_nomenclatures_parentCode_idx").on(table.parentCode),
+    index("customs_nomenclatures_chapter_idx").on(table.chapter),
+  ],
+)
+
+export const ritaSyncRuns = pgTable("rita_sync_runs", {
+  id: uuid("id").primaryKey().default(sql`uuidv7()`),
+  startedAt: timestamp("started_at", { withTimezone: true }).defaultNow(),
+  finishedAt: timestamp("finished_at", { withTimezone: true }),
+  chapter: smallint("chapter"),
+  rowsImported: integer("rows_imported"),
+  status: varchar("status", { length: 20 }).notNull().default("running"),
+  errorMessage: text("error_message"),
+})
+
+export const transporterFlowNodes = pgTable(
+  "transporter_flow_nodes",
+  {
+    nodeID: uuid("node_id").primaryKey().default(sql`uuidv7()`),
+    transporterID: uuid("transporter_id")
+      .notNull()
+      .references(() => transporters.transporterID, { onDelete: "cascade", onUpdate: "cascade" }),
+    nodeType: varchar("node_type", { length: 20 }).notNull(),
+    positionX: integer("position_x").notNull(),
+    positionY: integer("position_y").notNull(),
+    nodeData: jsonb("node_data").notNull().default({}),
+  },
+  (table) => [index("flow_nodes_transporterID_idx").on(table.transporterID)],
+)
+
+export const transporterFlowEdges = pgTable(
+  "transporter_flow_edges",
+  {
+    edgeID: uuid("edge_id").primaryKey().default(sql`uuidv7()`),
+    transporterID: uuid("transporter_id")
+      .notNull()
+      .references(() => transporters.transporterID, { onDelete: "cascade", onUpdate: "cascade" }),
+    sourceNodeID: uuid("source_node_id")
+      .notNull()
+      .references(() => transporterFlowNodes.nodeID, { onDelete: "cascade", onUpdate: "cascade" }),
+    targetNodeID: uuid("target_node_id")
+      .notNull()
+      .references(() => transporterFlowNodes.nodeID, { onDelete: "cascade", onUpdate: "cascade" }),
+    sourceHandle: varchar("source_handle", { length: 10 }),
+    edgeLabel: varchar("edge_label"),
+  },
+  (table) => [index("flow_edges_transporterID_idx").on(table.transporterID)],
+)
+
+export const transporterFeeRules = pgTable(
+  "transporter_fee_rules",
+  {
+    ruleID: uuid("rule_id").primaryKey().default(sql`uuidv7()`),
+    transporterID: uuid("transporter_id")
+      .notNull()
+      .references(() => transporters.transporterID, { onDelete: "cascade", onUpdate: "cascade" }),
+    minAmount: decimal("min_amount", { precision: 12, scale: 2 }),
+    maxAmount: decimal("max_amount", { precision: 12, scale: 2 }),
+    isIndividual: boolean("is_individual"),
+    originIsEU: boolean("origin_is_eu"),
+    fee: decimal("fee", { precision: 12, scale: 2 }).notNull(),
+    priority: integer("priority").notNull().default(0),
+  },
+  (table) => [index("fee_rules_transporterID_idx").on(table.transporterID)],
+)
+
+export const TransportersRelations = relations(transporters, ({ many }) => ({
+  flowNodes: many(transporterFlowNodes),
+  flowEdges: many(transporterFlowEdges),
+  feeRules: many(transporterFeeRules),
+}))
+
+export const TransporterFlowNodesRelations = relations(transporterFlowNodes, ({ one }) => ({
+  transporter: one(transporters, {
+    fields: [transporterFlowNodes.transporterID],
+    references: [transporters.transporterID],
+  }),
+}))
+
+export const TransporterFlowEdgesRelations = relations(transporterFlowEdges, ({ one }) => ({
+  transporter: one(transporters, {
+    fields: [transporterFlowEdges.transporterID],
+    references: [transporters.transporterID],
+  }),
+}))
+
+export const TransporterFeeRulesRelations = relations(transporterFeeRules, ({ one }) => ({
+  transporter: one(transporters, {
+    fields: [transporterFeeRules.transporterID],
+    references: [transporters.transporterID],
   }),
 }))

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 93 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:11</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>9300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>ARMES, MUNITIONS ET LEURS PARTIES ET ACCESSOIRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Armes de guerre, autres que les revolvers, pistolets et armes blanches du no 9307</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9301100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pièces d'artillerie (canons, obusiers et mortiers, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9301200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes lance-missiles; lance-flammes; lance-grenades; lance-torpilles et lanceurs similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9301900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Revolvers et pistolets, autres que ceux des n$o$s|9303|ou 9304</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9303000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres armes à feu et engins similaires utilisant la déflagration de la poudre (fusils et carabines de chasse, armes à feu ne pouvant être chargées que par le canon, pistolets lance-fusées et autres engins conçus uniquement pour lancer des fusées de signalisation, pistolets et revolvers pour le tir à blanc, pistolets d'abattage à cheville, canons lance-amarres, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9303100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Armes à feu ne pouvant être chargées que par le canon</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9303200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fusils et carabines de chasse ou de tir sportif comportant au moins un canon lisse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9303201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à un canon lisse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9303209500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9303300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres fusils et carabines de chasse ou de tir sportif</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9303900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9304000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres armes (fusils, carabines et pistolets à ressort, à air comprimé ou à gaz, matraques, par exemple), à l'exclusion de celles du n$o|9307</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9305000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parties et accessoires des articles des n$o$s|9301|à 9304</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9305100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de revolvers ou pistolets</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9305200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fusils ou carabines du n$o|9303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9305200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Canons lisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9305200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9305910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9305910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des armes de guerre du n$o|9301</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9305990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9306000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bombes, grenades, torpilles, mines, missiles, cartouches et autres munitions et projectiles, et leurs parties, y compris les chevrotines, plombs de chasse et bourres pour cartouches</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9306210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cartouches pour fusils ou carabines à canon lisse et leurs parties; plombs pour carabines à air comprimé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9306210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cartouches</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9306290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9306290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Douilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9306290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9306300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres cartouches et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9306301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour revolvers et pistolets du n$o|9302|ou pour pistolets-mitrailleurs du n$o|9301</Description>
+</ligne><ligne><Type>2</Type>
+<Code>9306303000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9306303000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour armes de guerre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9306309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>9306900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9306901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de guerre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9306909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>9307000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sabres, épées, baïonnettes, lances et autres armes blanches, leurs parties et leurs fourreaux</Description>
+</ligne></contenu></table>

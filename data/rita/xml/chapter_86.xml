@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 86 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:06</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>8600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>VÉHICULES ET MATÉRIEL POUR VOIES FERRÉES OU SIMILAIRES ET LEURS PARTIES; APPAREILS MÉCANIQUES (Y COMPRIS ÉLECTROMÉCANIQUES) DE SIGNALISATION POUR VOIES DE COMMUNICATIONS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Locomotives et locotracteurs, à source extérieure d'électricité ou à accumulateurs électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8601100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à source extérieure d'électricité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8601200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à accumulateurs électriques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres locomotives et locotracteurs; tenders</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8602100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Locomotives diesel-électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8602900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8603000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Automotrices et autorails, autres que ceux du n$o|8604</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8603100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à source extérieure d'électricité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8603900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8604000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Véhicules pour l'entretien ou le service des voies ferrées ou similaires, même autopropulsés (wagons-ateliers, wagons-grues, wagons équipés de bourreuses à ballast, aligneuses pour voies, voitures d'essais et draisines, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8605000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Voitures à voyageurs, fourgons à bagages, voitures postales et autres voitures spéciales, pour voies ferrées ou similaires (à l'exclusion des voitures du n$o|8604)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8606000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Wagons pour le transport sur rail de marchandises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8606100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Wagons-citernes et similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8606300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Wagons à déchargement automatique, autres que ceux du n$o|8606|10</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8606910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8606910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>couverts et fermés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8606911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8606918000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8606920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ouverts, à parois non amovibles d'une hauteur excédant 60|cm (tombereaux)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8606990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8607000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parties de véhicules pour voies ferrées ou similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8607110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bogies, bissels, essieux et roues, et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bogies et bissels de traction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres bogies et bissels</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8607190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, y compris les parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Essieux, montés ou non; roues et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties de bogies, bissels et similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8607210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Freins et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8607210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Freins à air comprimé et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>coulés ou moulés en fonte, fer ou acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Crochets et autres systèmes d'attelage, tampons de choc, et leurs parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8607910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8607910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de locomotives ou de locotracteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtes d'essieux et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8607990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtes d'essieux et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8607998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8608000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Matériel fixe de voies ferrées ou similaires; appareils mécaniques (y compris électromécaniques) de signalisation, de sécurité, de contrôle ou de commande pour voies ferrées ou similaires, routières ou fluviales, aires ou parcs de stationnement, installations portuaires ou aérodromes; leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8609000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cadres et conteneurs (y compris les conteneurs-citernes et les conteneurs-réservoirs) spécialement conçus et équipés pour un ou plusieurs modes de transport</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8609001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Conteneurs munis de blindage en plomb de protection contre les radiations, pour le transport des matières radioactives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8609009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

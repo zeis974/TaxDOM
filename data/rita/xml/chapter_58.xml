@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 58 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:44</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>TISSUS SPÉCIAUX; SURFACES TEXTILES TOUFFETÉES; DENTELLES; TAPISSERIES; PASSEMENTERIES; BRODERIES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Velours et peluches tissés et tissus de chenille, autres que les articles des n$o$s|5802|ou 5806</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de laine ou de poils fins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5801210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5801210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Velours et peluches par la trame, non coupés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5801220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Velours et peluches par la trame, coupés, côtelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801220010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801220090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5801230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres velours et peluches par la trame</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801230010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801230090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5801260000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus de chenille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801260010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801260090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5801270000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Velours et peluches par la chaîne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801270010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801270090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5801310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Velours et peluches par la trame, non coupés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Velours et peluches par la trame, coupés, côtelés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres velours et peluches par la trame</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801360000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus de chenille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801370000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Velours et peluches par la chaîne</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5801900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de lin</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5801909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de soie, de tissus de bourrette ou d'autres déchets de soie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de ramie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5801909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus bouclés du genre éponge, autres que les articles du n$o|5806; surfaces textiles touffetées, autres que les produits du n$o|5703</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5802100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus bouclés du genre éponge, en coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5802200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus bouclés du genre éponge, en autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5802300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Surfaces textiles touffetées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5803000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus à point de gaze, autres que les articles du n$o|5806</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5803001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5803001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5803001091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5803001091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissu à point de gaze de coton, d'une largeur de moins de 1|500|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5803001099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5803003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de soie ou de déchets de soie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5803003010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>tissés sur métiers à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5803003090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5803009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5803009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5803009020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5803009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tulles, tulles-bobinots et tissus à mailles nouées; dentelles en pièces, en bandes ou en motifs, autres que les produits des n$o$s|6002|à 6006</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5804100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tulles, tulles-bobinots et tissus à mailles nouées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5804101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>unis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5804109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5804210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dentelles à la mécanique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5804210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5804290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5804300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dentelles à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5805000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tapisseries tissées à la main (genre Gobelins, Flandres, Aubusson, Beauvais et similaires) et tapisseries à l'aiguille (au petit point, au point de croix, par exemple), même confectionnées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Rubanerie autre que les articles du n$o|5807; rubans sans trame, en fils ou fibres parallélisés et encollés (bolducs)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5806100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rubanerie de velours, de peluches, de tissus de chenille ou de tissus bouclés du genre éponge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de soie, de tissus de bourrette ou d'autres déchets de soie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre rubanerie, contenant en poids 5|% ou plus de fils d'élastomères ou de fils de caoutchouc</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5806310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre rubanerie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5806320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à lisières réelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5806390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en jute ou autres fibres textiles libériennes du n° 5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806390090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5806400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rubans sans trame, en fils ou fibres parallélisés et encollés (bolducs)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en jute ou autres fibres textiles libériennes du n° 5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5806400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5807000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Étiquettes, écussons et articles similaires en matières textiles, en pièces, en rubans ou découpés, non brodés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5807100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>tissés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5807101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec inscriptions ou motifs obtenus par tissage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5807109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5807900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5807901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en feutre ou en nontissés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5807901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de feutre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5807901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5807909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5808000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tresses en pièces; articles de passementerie et articles ornementaux analogues, en pièces, sans broderie, autres que ceux en bonneterie; glands, floches, olives, noix, pompons et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5808100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tresses en pièces</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5808900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5809000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus de fils de métal et tissus de filés métalliques ou de fils textiles métallisés du n$o|5605, des types utilisés pour l'habillement, l'ameublement ou usages similaires, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Broderies en pièces, en bandes ou en motifs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Broderies chimiques ou aériennes et broderies à fond découpé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une valeur excédant 35|Euros par|kg poids net</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5810910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres broderies</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une valeur excédant 17,50|Euros par|kg poids net</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810911010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810911090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810919010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810919090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une valeur excédant 17,50|Euros par|kg poids net</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810921010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810921090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810929010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810929090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une valeur excédant 17,50|Euros par|kg poids net</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810991010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810991090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5810999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5810999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5811000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits textiles matelassés en pièces, constitués d'une ou plusieurs couches de matières textiles associées à une matière de rembourrage par piqûre, capitonnage ou autre cloisonnement, autres que les broderies du n$o|5810</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5811000020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en bonneterie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5811000093</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5811000093</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5811000095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de filaments synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5811000096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de filaments artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5811000099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

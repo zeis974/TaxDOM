@@ -1,7 +1,8 @@
 import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
+
 import { BadRequestError } from "#exceptions/ServiceErrors"
-import type { TerritoryService } from "#services/TerritoryService"
+import { TerritoryService } from "#services/TerritoryService"
 import { createTerritoryValidator, updateTerritoryValidator } from "#validators/TerritoryValidator"
 
 @inject()

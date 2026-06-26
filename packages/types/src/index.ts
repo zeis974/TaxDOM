@@ -73,6 +73,7 @@ export type Category = {
   categoryName: string
   taxID: string
   relatedProducts: number
+  nomenclatureCode?: string | null
   taxes?: {
     tva: number
     om: number
@@ -102,6 +103,7 @@ export type Product = {
     om: number
     omr: number
   }
+  nomenclatureCode?: string | null
   createdAt: Date
   updatedAt: Date
 }
@@ -113,13 +115,42 @@ export type SelectOption = {
   isEU?: boolean
 }
 
-export type TaxSimulatorResult = {
+export type ProductTaxesSimulatorResult = {
   product: string
   taxes: {
     tva: number
     om: number
     omr: number
   }
+}
+
+export type NomenclatureTaxesResult = ProductTaxesSimulatorResult & {
+  nomenclatureCode: string
+  taxesAvailable: boolean
+}
+
+export type ResolvedCategoryCandidate = {
+  categoryID: string
+  categoryName: string
+  taxes: {
+    tva: number
+    om: number
+    omr: number
+  }
+}
+
+export type ResolveProductTaxesResult = {
+  query: string
+  resolvedLabel?: string
+  // Set when the input resolves to a single product/category.
+  taxes?: {
+    tva: number
+    om: number
+    omr: number
+  }
+  // Set when the input maps to several categories; each carries its own taxes
+  // so the user can pick client-side without another round-trip.
+  candidates: ResolvedCategoryCandidate[]
 }
 
 export type ParcelSimulatorResult = {
@@ -131,6 +162,10 @@ export type ParcelSimulatorResult = {
     om: number
     omr: number
     tva: number
+  }
+  taxesInfo?: {
+    applicable: "yes" | "no" | "maybe"
+    privateCustomer: boolean
   }
   products: {
     name: string

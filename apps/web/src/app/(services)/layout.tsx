@@ -1,12 +1,10 @@
 import "../globals.css"
 
-import type { Metadata } from "next"
-import PlausibleProvider from "next-plausible"
 import { ThemeProvider } from "@wrksz/themes/next"
+import type { Metadata } from "next"
 import localFont from "next/font/local"
 import { Toaster } from "sonner"
 
-import { useDetectDevice } from "@/hooks/useIsMobile"
 import LazyMotionProvider from "@/providers/LazyMotionProvider"
 import QueryProvider from "@/providers/QueryProvider"
 
@@ -26,33 +24,29 @@ const Rowdies = localFont({
   display: "swap",
 })
 
+const themeCookieOptions =
+  process.env.NODE_ENV === "production"
+    ? { domain: "taxdom.re", path: "/" as const }
+    : { path: "/" as const }
+
 export default async function RootLayout({
   children,
-  modal,
 }: {
   children: React.ReactNode
   modal?: React.ReactNode
 }) {
-  const isMobile = await useDetectDevice()
-
   return (
-      <head>
-        <script crossOrigin="anonymous" src="//unpkg.com/react-scan/dist/auto.global.js" />
-      </head>
-    <html lang="fr" className={`${Rowdies.variable}`}>
+    <html lang="fr" className={`${Rowdies.variable}`} suppressHydrationWarning>
       <body>
-        <PlausibleProvider domain="taxdom.re" customDomain="https://analytics.taxdom.re">
-          <ThemeProvider defaultTheme="system" storage="cookie">
-            <QueryProvider>
-              <LazyMotionProvider>
-                <Navbar />
-                {children}
-                {modal}
-                <Toaster richColors closeButton />
-              </LazyMotionProvider>
-            </QueryProvider>
-          </ThemeProvider>
-        </PlausibleProvider>
+        <ThemeProvider defaultTheme="system" storage="cookie" cookieOptions={themeCookieOptions}>
+          <QueryProvider>
+            <LazyMotionProvider>
+              <Navbar />
+              {children}
+              <Toaster richColors closeButton />
+            </LazyMotionProvider>
+          </QueryProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

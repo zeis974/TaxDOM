@@ -1,0 +1,3708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 73 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:56</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>7300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OUVRAGES EN FONTE, FER OU ACIER</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Palplanches en fer ou en acier, même percées ou faites d'éléments assemblés; profilés obtenus par soudage, en fer ou en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7301100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Palplanches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7301200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Profilés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Éléments de voies ferrées, en fonte, fer ou acier: rails, contre-rails et crémaillères, aiguilles, pointes de coeur, tringles d'aiguillage et autres éléments de croisement ou changement de voies, traverses, éclisses, coussinets, coins, selles d'assise, plaques de serrage, plaques et barres d'écartement et autres pièces spécialement conçues pour la pose, le jointement ou la fixation des rails</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7302100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rails</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conducteurs de courant, avec partie en métal non ferreux</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7302102200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7302102200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7302102200</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Rails "Vignole"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302102200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'un poids au mètre de 36|kg ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302102800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'un poids au mètre inférieur à 36|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302104000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Rails à ornières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Aiguilles, pointes de coeur, tringles d'aiguillage et autres éléments de croisement ou de changement de voies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Éclisses et selles d'assise</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7302900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7303000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tubes, tuyaux et profilés creux, en fonte</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7303001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux des types utilisés pour canalisations sous pression</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7303001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fonte ductile (également dénommée fonte à graphite sphéroïdal), à l'exclusion des tubes et tuyaux en fonte ductile sans revêtement intérieur et extérieur («tubes nus»)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7303001020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tubes et tuyaux en fonte ductile sans revêtement ni intérieur ni extérieur («tuyaux nus»)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7303001090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7303009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7303009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tubes et tuyaux en fonte ductile (également dénommée fonte à graphite sphéroïdal), à l'exclusion des tubes et tuyaux en fonte ductile sans revêtement intérieur et extérieur («tubes nus»)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7303009020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tubes et tuyaux en fonte ductile sans revêtement ni intérieur ni extérieur («tuyaux nus»)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7303009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tubes, tuyaux et profilés creux, sans soudure, en fer ou en acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux des types utilisés pour oléoducs ou gazoducs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de section circulaire, d'un diamètre extérieur ne dépassant pas 406,4 mm et d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les   analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur n'excédant pas 168,3|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304191020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de section circulaire et d'un équivalent carbone égal ne dépassant pas 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304191080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur excédant 168,3|mm mais n'excédant pas 406,4|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304193020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de section circulaire et d'un équivalent carbone égal ne dépassant pas 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304193080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur excédant 406,4|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304220000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux de cuvelage ou de production et tiges de forage, des types utilisés pour l'extraction du pétrole ou du gaz</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tiges de forage en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304220020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de section circulaire, d'un diamètre extérieur ne dépassant pas 406,| mm et d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304220080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres tiges de forage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304230020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de section circulaire, d'un diamètre extérieur ne dépassant pas 406,| mm et d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304230080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304240020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de section circulaire, d'un diamètre extérieur ne dépassant pas 406,| mm et d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304240080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur n'excédant pas 168,3|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304291020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de section circulaire et d'un équivalent carbone égal ne dépassant pas 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304291080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304293000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur excédant 168,3|mm mais n'excédant pas 406,4|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304293020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de section circulaire et d'un équivalent carbone égal ne dépassant pas 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304293080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur excédant 406,4|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304299010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tubes et tuyaux de cuvelage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304299090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, de section circulaire, en fer ou en aciers non alliés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>étirés ou laminés à froid</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304312000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de précision</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304312030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un diamètre extérieur ne dépassant pas 406,4 mm et d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304312095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304318000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304318030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un diamètre extérieur ne dépassant pas 406,4|mm et d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304318099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304395000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes filetés ou filetables dits "gaz"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304395030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un diamètre extérieur ne dépassant pas 406,4|mm et d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304395099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304398200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'un diamètre extérieur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304398200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 168,3|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304398230</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304398299</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304398300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 168,3|mm mais n'excédant pas 406,4|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304398320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304398380</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304398800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 406,4|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, de section circulaire, en aciers inoxydables</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>étirés ou laminés à froid</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304410010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304410090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304498300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur n'excédant pas 168,3|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304498310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304498390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304498500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur excédant 168,3|mm mais n'excédant pas 406,4|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304498510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304498590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304498900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'un diamètre extérieur excédant 406,4|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304498910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304498990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, de section circulaire, en autres aciers alliés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>étirés ou laminés à froid</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304511000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>droits et à paroi d'épaisseur uniforme, en acier allié contenant en poids de 0,9|à 1,15|% inclus de carbone et de 0,5|à 2|% inclus de chrome et, éventuellement, 0,5|% ou moins de molybdène</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304518100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304518100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de précision</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304518900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304518930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'un diamètre extérieur ne dépassant pas 406,4|mm et d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304518999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304593000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>droits et à paroi d'épaisseur uniforme, en acier allié contenant en poids de 0,9|à 1,15|% inclus de carbone et de 0,5|à 2|% inclus de chrome et, éventuellement, 0,5|% ou moins de molybdène</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304598200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304598200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un diamètre extérieur n'excédant pas 168,3|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304598230</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304598299</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304598300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un diamètre extérieur excédant 168,3|mm mais n'excédant pas 406,4|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304598320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'un équivalent carbone égal ou inférieur à 0,86 selon la formule et les analyses chimiques de l'Institut international de la soudure (IIS)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304598380</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304598900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'un diamètre extérieur excédant 406,4|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7304900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>munis d'accessoires, pour la conduite de gaz ou de liquides, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7304900091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304900091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>tubes et tuyaux, en acier inoxydable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7304900099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7305000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres tubes et tuyaux (soudés ou rivés, par exemple), de section circulaire, d'un diamètre extérieur excédant 406,4|mm, en fer ou en acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7305110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux des types utilisés pour oléoducs ou gazoducs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7305110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>soudés longitudinalement à l'arc immergé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7305120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>soudés longitudinalement, autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7305190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7305200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux de cuvelage des types utilisés pour l'extraction du pétrole ou du gaz</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7305310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, soudés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7305310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>soudés longitudinalement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7305390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7305900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres tubes, tuyaux et profilés creux (soudés, rivés, agrafés ou à bords simplement rapprochés, par exemple), en fer ou en acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux des types utilisés pour oléoducs ou gazoducs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>soudés, en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et tuyaux de cuvelage ou de production des types utilisés pour l'extraction du pétrole ou du gaz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>soudés, en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, soudés, de section circulaire, en fer ou en aciers non alliés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306301200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de précision</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306301200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>étirés ou laminés à froid</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306301800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306304100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306304100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tubes filetés ou filetables dits "gaz"</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306304100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>zingués</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306304120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tubes et tuyaux d'un diamètre extérieur n'excédant pas 168,3 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306304190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306304900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306304920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tubes et tuyaux d'un diamètre extérieur n'excédant pas 168,3 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306304990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306307200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'un diamètre extérieur</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306307200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>n'excédant pas 168,3|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306307200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>zingués</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306307280</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tubes et tuyaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306307290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306307700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306307780</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Tubes et tuyaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306307790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306308000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>excédant 168,3|mm mais n'excédant pas 406,4|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, soudés, de section circulaire, en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306402000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>étirés ou laminés à froid</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306408000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, soudés, de section circulaire, en autres aciers alliés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306502100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de précision</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306502100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>étirés ou laminés à froid</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306502900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306508000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, soudés, de section non circulaire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de section carrée ou rectangulaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306611000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7306619200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306619200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une épaisseur de paroi n'excédant pas|2|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306619900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une épaisseur de paroi excédant|2|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7306690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de section non circulaire, autre que carrée ou rectangulaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306691000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306699000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7306900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Accessoires de tuyauterie (raccords, coudes, manchons, par exemple), en fonte, fer ou acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>moulés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fonte non malléable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour tubes et tuyaux des types utilisés pour canalisations sous pression</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en fonte</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307191003</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>filetés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307191003</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en fonte malléable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191003</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Corps de raccord à compression comportant un filetage métrique relevant de la norme ISO DIN 13</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>boîtes de jonction circulaires sans couvercle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307191013</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en fonte à graphite sphéroïdal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>corps de raccord à compression comportant un filetage métrique relevant de la norme ISO DIN 13</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Raccords de serrage en té en fonte ductile avec joint en caoutchouc et orifice de sortie; embouts rainurés en fonte ductile, pour tuyau en acier rainuré avec sortie filetée; réducteurs rainurés en fonte ductile à extrémité filetée; tés réducteurs rainurés en fonte ductile à sortie filetée; colliers de ballonnement en fonte ductile sans sortie filetée utilisés pour obturer un orifice sur un élément de tuyauterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307191034</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non filetés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307191034</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en fonte malléable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191034</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>boîtes de jonction circulaires sans couvercle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en fonte à graphite sphéroïdal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307191045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, en aciers inoxydables</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Brides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Coudes, courbes et manchons, filetés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Manchons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Coudes et courbes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307229010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307229090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Accessoires à souder bout à bout</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Coudes et courbes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307231035</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers inoxydables austénitiques des nuances correspondant aux types AISI 304, 304L, 316, 316L, 316Ti, 321 et 321H et leurs équivalents dans les autres normes, dont le plus grand diamètre extérieur n'excède pas 406,4 mm et dont l'épaisseur de paroi est égale ou inférieure à 16 mm, dont la rugosité moyenne (Ra) de la surface interne n'est pas inférieure à 0,8 micromètre, sans bride, finis ou non</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307231035</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307231035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307231040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307231050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307231050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307231055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307231080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307231080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307231085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307239035</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers inoxydables austénitiques des nuances correspondant aux types AISI 304, 304L, 316, 316L, 316Ti, 321 et 321H et leurs équivalents dans les autres normes, dont le plus grand diamètre extérieur n'excède pas 406,4 mm et dont l'épaisseur de paroi est égale ou inférieure à 16 mm, dont la rugosité moyenne (Ra) de la surface interne n'est pas inférieure à 0,8 micromètre, sans bride, finis ou non</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307239035</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307239035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307239040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307239050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307239050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307239055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307239080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307239080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307239085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>filetés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307291010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307291090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307298010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307298090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Brides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Coudes, courbes et manchons, filetés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Manchons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Coudes et courbes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307929010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307929090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Accessoires à souder bout à bout</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307931100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont le plus grand diamètre extérieur n'excède pas 609,6|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307931100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Coudes et courbes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307931111</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931111</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Taïwan, d'Indonésie, du Sri Lanka ou des Philippines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931119</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307931130</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres racords tubulaires filetés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307931191</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931193</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance d'Indonésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931194</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance du Sri Lanka</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931195</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance des Philippines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307931900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307931911</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931911</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Taïwan, d'Indonésie, du Sri Lanka ou des Philippines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931919</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307931930</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres racords tubulaires filetés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307931991</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931993</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance d'Indonésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931994</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance du Sri Lanka</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931995</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance des Philippines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307931999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307939100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont le plus grand diamètre extérieur excède 609,6|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307939100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Coudes et courbes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307939110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307939190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307939900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307939910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307939990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>filetés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307991010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307991090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7307998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307998011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307998011</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>dont le plus grand diamètre extérieur n'excède pas 609,6|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Taïwan, d'Indonésie, du Sri Lanka ou des Philippines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307998092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7307998092</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>dont le plus grand diamètre extérieur n'excède pas 609,6|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998093</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance d'Indonésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance du Sri Lanka</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance des Philippines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7307998099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7308000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Constructions et parties de constructions (ponts et éléments de ponts, portes d'écluses, tours, pylônes, piliers, colonnes, charpentes, toitures, portes et fenêtres et leurs cadres, chambranles et seuils, rideaux de fermeture, balustrades, par exemple), en fonte, fer ou acier, à l'exception des constructions préfabriquées du n$o|9406; tôles, barres, profilés, tubes et similaires, en fonte, fer ou acier, préparés en vue de leur utilisation dans la construction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ponts et éléments de ponts</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7308200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tours et pylônes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7308201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mâts d'éolienne tubulaires en acier et sections de mât</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308201011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mâts d'éoliennes industrielles tubulaires en acier, de forme conique ou non, assemblés ou non, comprenant ou non un tronçon intégré aux fondations, reliés ou non à des nacelles ou à des pales, conçus pour supporter la nacelle et les pales destinés à être utilisés dans des éoliennes ayant une capacité de production d'énergie électrique - dans des applications terrestres ou offshore - égale ou supérieure à 1,00 mégawatt et ayant une hauteur minimale, mesurée entre la base du mât et le bas de la nacelle, au moins égale à 50 m lorsque le mât est complètement assemblé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7308209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308209021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Portes, fenêtres et leurs cadres et chambranles et seuils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Matériel d'échafaudage, de coffrage, d'étançonnement ou d'étayage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7308900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7308905100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>uniquement ou principalement en tôle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308905100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Panneaux multiplis constitués de deux parements en tôles nervurées et d'une âme isolante</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7308905900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308905911</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308905990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7308909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308909811</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tronçons de mâts d'éoliennes en acier utilisés dans le montage de mâts d'éoliennes industrielles tubulaires en acier, de forme conique ou non, assemblés ou non, comprenant ou non un tronçon intégré aux fondations, reliés ou non à des nacelles ou à des pales, conçus pour supporter la nacelle et les pales, destinés à être utilisés dans des éoliennes ayant une capacité de production d'énergie électrique - dans des applications terrestres ou offshore - égale ou supérieure à 1,00 mégawatt et ayant une hauteur minimale, mesurée entre la base du mât et le bas de la nacelle, au moins égale à 50 m lorsque le mât est complètement assemblé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308909850</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7308909890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7309000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Réservoirs, foudres, cuves et récipients similaires pour toutes matières (à l'exception des gaz comprimés ou liquéfiés), en fonte, fer ou acier, d'une contenance excédant 300|l, sans dispositifs mécaniques ou thermiques, même avec revêtement intérieur ou calorifuge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7309001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour matières gazeuses (à l'exception des gaz comprimés ou liquéfiés)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7309003000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour matières liquides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7309003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec revêtement intérieur ou calorifuge</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7309005100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7309005100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 100|000|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7309005900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 100|000|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7309009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour matières solides</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7310000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Réservoirs, fûts, tambours, bidons, boîtes et récipients similaires, pour toutes matières (à l'exception des gaz comprimés ou liquéfiés), en fonte, fer ou acier, d'une contenance n'excédant pas 300|l, sans dispositifs mécaniques ou thermiques, même avec revêtement intérieur ou calorifuge</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7310100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'une contenance de 50|l ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fûts, conteneurs, tambours, réservoirs, barils et récipients similaires, à l'exception des bidons et boîtes, réutilisables, en acier inoxydable,  dont le corps est approximativement de forme cylindrique, d'une épaisseur de paroi égale ou supérieure à 0,5 mm, des types utilisés pour des matières autres que le pétrole brut et les produits pétroliers, quel que soit le type de finition, de jauge ou de qualité d'acier inoxydable, avec ou sans composants supplémentaires, même peints ou revêtus d'autres matériaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7310210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'une contenance de moins de 50|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7310210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boîtes à fermer par soudage ou sertissage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310211100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtes à conserves des types utilisés pour les denrées alimentaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310211900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtes à conserves des types utilisés pour les boissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7310219100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'une épaisseur de paroi</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310219100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>inférieure à 0,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310219900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>égale ou supérieure à 0,5|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7310290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur de paroi inférieure à 0,5|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7310299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur de paroi égale ou supérieure à 0,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310299010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fûts, conteneurs, tambours, réservoirs, barils et récipients similaires, à l'exclusion des bidons et boîtes, réutilisables, en acier inoxydable, dont le corps est approximativement de forme cylindrique, des types utilisés pour des matières autres que le pétrole brut et les produits pétroliers, d'une contenance de 4,5 litres ou plus, quel que soit le type de finition, de jauge ou de qualité d'acier inoxydable, avec ou sans composants supplémentaires, même peints ou revêtus d'autres matériaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7310299090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7311000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Récipients pour gaz comprimés ou liquéfiés, en fonte, fer ou acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>sans soudure</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311001100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour une pression de 165|bars ou plus, d'une contenance</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7311001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de moins de 20|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311001115</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Récipients destinés à la pressurisation , en fer ou acier, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001115</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bouteilles rechargeables à haute pression, en acier, d'une contenance supérieure à 120 ml, de tous diamètres et capacités, même filetées, remplies ou non d'une masse poreuse, quel que soit le revêtement ou le placage intérieur, quelles que soient la finition et la forme extérieures, avec ou sans vessie à gaz, munies ou non d'une valve, d'une collerette, d'une frette de pied ou d'un tuyau, même fixées entre elles pour constituer un cadre de bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311001180</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001180</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bouteilles rechargeables à haute pression, en acier, d'une contenance supérieure à 120 ml, de tous diamètres et capacités, même filetées, remplies ou non d'une masse poreuse, quel que soit le revêtement ou le placage intérieur, quelles que soient la finition et la forme extérieures, avec ou sans vessie à gaz, munies ou non d'une valve, d'une collerette, d'une frette de pied ou d'un tuyau, même fixées entre elles pour constituer un cadre de bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001185</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7311001300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de 20|l ou plus mais n'excédant pas 50|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311001315</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Récipients destinés à la pressurisation , en fer ou acier, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001315</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bouteilles rechargeables à haute pression, en acier, de tous diamètres et capacités, même filetées, remplies ou non d'une masse poreuse, quel que soit le revêtement ou le placage intérieur, quelles que soient la finition et la forme extérieures, avec ou sans vessie à gaz, munies ou non d'une valve, d'une collerette, d'une frette de pied ou d'un tuyau, même fixées entre elles pour constituer un cadre de bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311001380</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001380</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bouteilles rechargeables à haute pression, en acier, de tous diamètres et capacités, même filetées, remplies ou non d'une masse poreuse, quel que soit le revêtement ou le placage intérieur, quelles que soient la finition et la forme extérieures, avec ou sans vessie à gaz, munies ou non d'une valve, d'une collerette, d'une frette de pied ou d'un tuyau, même fixées entre elles pour constituer un cadre de bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001385</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7311001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 50|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311001915</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Récipients destinés à la pressurisation , en fer ou acier, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001915</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bouteilles rechargeables à haute pression, en acier, de tous diamètres et capacités, même filetées, remplies ou non d'une masse poreuse, quel que soit le revêtement ou le placage intérieur, quelles que soient la finition et la forme extérieures, avec ou sans vessie à gaz, munies ou non d'une valve, d'une collerette, d'une frette de pied ou d'un tuyau, même fixées entre elles pour constituer un cadre de bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311001980</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001980</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bouteilles rechargeables à haute pression, en acier, de tous diamètres et capacités, même filetées, remplies ou non d'une masse poreuse, quel que soit le revêtement ou le placage intérieur, quelles que soient la finition et la forme extérieures, avec ou sans vessie à gaz, munies ou non d'une valve, d'une collerette, d'une frette de pied ou d'un tuyau, même fixées entre elles pour constituer un cadre de bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311001985</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7311003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311003015</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Récipients destinés à la pressurisation , en fer ou acier, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311003015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bouteilles rechargeables à haute pression, en acier, d'une contenance supérieure à 120 ml, de tous diamètres et capacités, même filetées, remplies ou non d'une masse poreuse, quel que soit le revêtement ou le placage intérieur, quelles que soient la finition et la forme extérieures, avec ou sans vessie à gaz, munies ou non d'une valve, d'une collerette, d'une frette de pied ou d'un tuyau, même fixées entre elles pour constituer un cadre de bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311003020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311003080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311003080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bouteilles rechargeables à haute pression, en acier, d'une contenance supérieure à 120 ml, de tous diamètres et capacités, même filetées, remplies ou non d'une masse poreuse, quel que soit le revêtement ou le placage intérieur, quelles que soient la finition et la forme extérieures, avec ou sans vessie à gaz, munies ou non d'une valve, d'une collerette, d'une frette de pied ou d'un tuyau, même fixées entre elles pour constituer un cadre de bouteilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311003085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7311009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, d'une contenance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de moins de 1|000|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7311009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>1|000|l ou plus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Torons, câbles, tresses, élingues et articles similaires, en fer ou en acier, non isolés pour l'électricité</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Torons et câbles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312104100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, dont la plus grande dimension de la coupe transversale</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312104100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excède pas 3|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312104100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>revêtus d'alliages à base de cuivre-zinc (laiton)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312104900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312106100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excède 3|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312106100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Torons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312106100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>non revêtus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312106191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>comportant un maximum de 18 fils, en acier non allié, ayant une teneur en carbone d'au moins 0,6|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312106199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312106500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>revêtus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312106500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>zingués</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312106591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>comportant un maximum de 18 fils, en acier non allié, ayant une teneur en carbone d'au moins 0,6 % en poids, à l'exclusion des torons galvanisés (mais ne présentant pas d'autre revêtement) qui comportent sept fils et dans lesquels le diamètre du fil central est identique ou dépasse de moins de 3 % le diamètre de chacun des six autres fils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312106599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312106900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312106991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>comportant un maximum de 18 fils, en acier non allié, ayant une teneur en carbone d'au moins 0,6|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312106999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312108100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Câbles, y compris les câbles clos</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312108100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>non revêtus ou simplement zingués, dont la plus grande dimension de la coupe transversale</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312108100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>excède 3|mm mais n'excède pas 12|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312108112</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108112</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108113</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance de la République de Corée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108119</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312108300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>excède 12|mm mais n'excède pas 24|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312108312</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108312</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108313</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance de la République de Corée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108319</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312108500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>excède 24|mm mais n'excède pas 48|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312108512</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108512</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108513</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance de la République de Corée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108519</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312108900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>excède 48|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312108912</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108912</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108913</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance de la République de Corée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108919</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312108990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7312109800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7312109812</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312109812</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312109813</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en provenance de la République de Corée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312109819</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312109890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7312900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7313000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ronces artificielles en fer ou en acier; torsades, barbelées ou non, en fils ou en feuillard de fer ou d'acier, des types utilisés pour les clôtures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7314000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Toiles métalliques (y compris les toiles continues ou sans fin), grillages et treillis, en fils de fer ou d'acier; tôles et bandes déployées, en fer ou en acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7314120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Toiles métalliques tissées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Toiles métalliques continues ou sans fin, pour machines, en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres toiles métalliques tissées, en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7314200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Grillages et treillis, soudés aux points de rencontre, en fils dont la plus grande dimension de la coupe transversale est égale ou supérieure à 3|mm et dont les mailles ont une surface d'au moins 100|cm$2</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fils nervurés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7314310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres grillages et treillis, soudés aux points de rencontre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>zingués</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7314410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres toiles métalliques, grillages et treillis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>zingués</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>recouverts de matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7314500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tôles et bandes déployées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7315000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chaînes, chaînettes et leurs parties, en fonte, fer ou acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7315110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaînes à maillons articulés et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7315110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chaînes à rouleaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>des types utilisés pour cycles et motocycles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres chaînes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaînes antidérapantes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7315810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres chaînes et chaînettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chaînes à maillons à étais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres chaînes, à maillons soudés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7315900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7316000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ancres, grappins et leurs parties, en fonte, fer ou acier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7317000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pointes, clous, punaises, crampons appointés, agrafes ondulées ou biseautées et articles similaires, en fonte, fer ou acier, même avec tête en autre matière, à l'exclusion de ceux avec tête en cuivre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7317002000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fil métallique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7317002000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pointes encollées, en bandes ou en rouleaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7317006000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7317008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vis, boulons, écrous, tire-fond, crochets à pas de vis, rivets, goupilles, clavettes, rondelles (y compris les rondelles destinées à faire ressort) et articles similaires, en fonte, fer ou acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles filetés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tire-fond</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres vis à bois</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318121010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318121090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318129010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318129090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Crochets et pitons à pas de vis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318130010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318130090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vis autotaraudeuses</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318141000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318141010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318141090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318149100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318149100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Vis à tôles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318149110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318149190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318149900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318149910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318149990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres vis et boulons, même avec leurs écrous ou rondelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318152000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour la fixation des éléments de voies ferrées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318153500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318153500</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sans tête</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318153500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318153510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318153590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318154200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres, d'une résistance à la traction</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318154200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de moins de 800|MPa</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318154210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318154290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318154800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>de 800|MPa ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318154810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318154890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318155200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>avec tête</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318155200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>fendue ou à empreinte cruciforme</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318155200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318155210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318155290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318155800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318155810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Boulons et écrous de blocage par simple vissage du type Hi-Lok</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318155860</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318155860</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318155890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318156200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>à six pans creux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318156200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318156210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318156290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318156800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318156810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Boulons et écrous de blocage par simple vissage du type Hi-Lok</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318156860</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318156860</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318156890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318157500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>hexagonale</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318157500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318157510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318157590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318158200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres, d'une résistance à la traction</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318158200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de moins de 800|MPa</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318158210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Boulons et écrous de blocage par simple vissage du type Hi-Lok</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318158260</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318158260</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318158290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318158800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de 800|MPa ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318158860</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318158880</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318159500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318159511</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318159511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318159519</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318159585</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318159585</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318159589</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318160000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Écrous</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318163100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318163100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Écrous à sertir</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318163110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318163190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318163900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318163910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318163990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318164000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318164000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Écrous à sertir</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318164010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318164090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318166000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de sécurité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318166010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318166090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318169200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres, d'un diamètre intérieur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318169200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>n'excédant pas 12|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318169210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318169290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318169900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>excédant 12|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318169920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318169990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318190020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Articles non filetés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rondelles destinées à faire ressort et autres rondelles de blocage</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318210021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318210021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318210031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318210031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318210039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318210091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318210091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318210095</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318210095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318210098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres rondelles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318220021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318220021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318220031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318220031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318220039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318220091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318220091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7318220095</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318220095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318220098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rivets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318230020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318230090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Goupilles et clavettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318240020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318240040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Éléments de joint de retenue pour tubes et tuyaux:-en acier inoxydable selon la spécification 17-4PH ou en acier selon la spécification S7 pour l'acier à outils,-produit par moulage par injection de métal,-d'une dureté Rockwell de 38 HRC (± 1) ou 53 HRC (+ 2/- 1),-mesurant 7 mm x 4 mm x 5 mm ou plus, mais pas plus de 40 mm x 20 mm x 10 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318240090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7318290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318290020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7318290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7319000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Aiguilles à coudre, aiguilles à tricoter, passe-lacets, crochets, poinçons à broder et articles similaires, pour usage à la main, en fer ou en acier; épingles de sûreté et autres épingles en fer ou en acier, non dénommées ni comprises ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7319400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Épingles de sûreté et autres épingles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7319900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7319901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Aiguilles à coudre, à ravauder ou à broder</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7319909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ressorts et lames de ressorts, en fer ou en acier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ressorts à lames et leurs lames</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7320101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>formés à chaud</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ressorts paraboliques et leurs lames</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320101110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320101190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320101910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320101990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ressorts en hélice</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>formés à chaud</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320202010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320202090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7320208100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320208100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ressorts de compression</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320208110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320208190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320208500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ressorts de traction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320208510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320208590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320208900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320208910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320208990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ressorts spiraux plats</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ressorts ayant la forme de disques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320903010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320903090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7320909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7320909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7321000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poêles, chaudières à foyer, cuisinières (y compris ceux pouvant être utilisés accessoirement pour le chauffage central), barbecues, braseros, réchauds à gaz, chauffe-plats et appareils non électriques similaires, à usage domestique, ainsi que leurs parties, en fonte, fer ou acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7321110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Appareils de cuisson et chauffe-plats</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7321110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à combustibles gazeux ou à gaz et autres combustibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7321111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>avec four, y compris les fours séparés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7321119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7321120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à combustibles liquides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7321190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, y compris les appareils à combustibles solides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7321810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres appareils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7321810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à combustibles gazeux ou à gaz et autres combustibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7321820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à combustibles liquides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7321890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, y compris les appareils à combustibles solides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7321900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7322000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Radiateurs pour le chauffage central, à chauffage non électrique, et leurs parties, en fonte, fer ou acier; générateurs et distributeurs d'air chaud (y compris les distributeurs pouvant également fonctionner comme distributeurs d'air frais ou conditionné), à chauffage non électrique, comportant un ventilateur ou une soufflerie à moteur, et leurs parties, en fonte, fer ou acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7322110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Radiateurs et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7322110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fonte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7322190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7322900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7322900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Générateurs et distributeurs d'air chaud, à l'exclusion de leurs parties, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7322900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7323000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles de ménage ou d'économie domestique et leurs parties, en fonte, fer ou acier; paille de fer ou d'acier; éponges, torchons, gants et articles similaires pour le récurage, le polissage ou usages analogues, en fer ou en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7323100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Paille de fer ou d'acier; éponges, torchons, gants et articles similaires pour le récurage, le polissage ou usages analogues</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7323910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7323910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fonte, non émaillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7323920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fonte émaillée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7323930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7323930010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Planches à repasser, y compris  jeannettes de repassage, montées ou non sur pied, et leurs pieds, planches et repose-fers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7323930090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7323940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fer ou en acier, émaillés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7323990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7323990010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Planches à repasser, y compris  jeannettes de repassage, montées ou non surpied, et leurs pieds, planches et repose-fers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7323990090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7324000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles d'hygiène ou de toilette, et leurs parties, en fonte, fer ou acier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7324100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Éviers et lavabos en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7324100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7324100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7324210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Baignoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7324210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fonte, même émaillée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7324290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7324900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7324900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Articles d'hygiène, à l'exclusion de leurs parties, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7324900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7325000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages moulés en fonte, fer ou acier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7325100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fonte non malléable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Grilles de caniveau et couvercles en fonte relevant de la norme EN 1433, destinés à être utilisés comme composants de caniveaux en polymère, en plastique, en acier galvanisé ou en béton permettant aux eaux de surface de s'écouler dans le caniveau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325100015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Avaloirs de sol et de toit, ouvertures de nettoyage et couvercles pour ces ouvertures relevant de la norme EN 1253</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Echelons, clefs de levage et bouches d'incendie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7325100031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325100031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Articles en fonte à graphite lamellaire (fonte grise), et des pièces s'y rapportant, d'un type utilisé pour: - couvrir et/ou donner accès à des systèmes affleurant le sol ou souterrains, et- permettre un accès physique et/ou visuel à de tels systèmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325100099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7325910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boulets et articles similaires pour broyeurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7325990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7325991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en fonte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325991031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Grilles de caniveau et couvercles en fonte relevant de la norme EN 1433, destinés à être utilisés comme composants de caniveaux en polymère, en plastique, en acier galvanisé ou en béton permettant aux eaux de surface de s'écouler dans le caniveau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325991035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Avaloirs de sol et de toit, ouvertures de nettoyage et couvercles pour ces ouvertures relevant de la norme EN 1253</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325991040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Echelons, clefs de levage et bouches d'incendie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325991060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Articles en fonte à graphite sphéroïdal (également appelée fonte ductile), et des pièces s'y rapportant, d'un type utilisé pour: - couvrir et/ou donner accès à des systèmes affleurant le sol ou souterrains, et- permettre un accès physique et/ou visuel à de tels systèmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325991090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7325999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colliers, brides et dispositifs de soutien, de raccordement, de serrage ou d'espacement, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325999020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dispositifs pour l'arrimage et le verrouillage du fret, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325999030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Billes utilisées dans le système de chargement du fret, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7325999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7326000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en fer ou en acier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7326110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>forgés ou estampés mais non autrement travaillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boulets et articles similaires pour broyeurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7326190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>forgés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7326200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ouvrages en fils de fer ou d'acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326200020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Feutre métallique consistant en un enchevêtrement de fins fils en acier inoxydable d'un diamètre compris entre 0,001|mm et 0,070|mm, comprimés par frittage et laminage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7326900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Échelles et escabeaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Palettes et plateaux analogues pour la manipulation des marchandises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bobines pour câbles, tuyaux, etc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Volets d'aération non mécaniques, gouttières, crochets et autres ouvrages utilisés dans l'industrie du bâtiment</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7326909200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres ouvrages en fer ou en acier</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7326909200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>forgés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colliers, brides et dispositifs de soutien, de raccordement, de serrage ou d'espacement, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909220</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dispositifs pour l'arrimage et le verrouillage du fret, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909230</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Billes utilisées dans le système de chargement du fret, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7326909400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>estampés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909410</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colliers, brides et dispositifs de soutien, de raccordement, de serrage ou d'espacement, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909420</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dispositifs pour l'arrimage et le verrouillage du fret, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909430</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Billes utilisées dans le système de chargement du fret, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909490</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7326909600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>frittés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909610</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colliers, brides et dispositifs de soutien, de raccordement, de serrage ou d'espacement, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909620</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dispositifs pour l'arrimage et le verrouillage du fret, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909630</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Billes utilisées dans le système de chargement du fret, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909690</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7326909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Colliers, brides et dispositifs de soutien, de raccordement, de serrage ou d'espacement, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909820</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dispositifs pour l'arrimage et le verrouillage du fret, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909830</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Billes utilisées dans le système de chargement du fret, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909840</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poids en fer, en acier et/ou en alliage de zinc:-d'un poids n'excédant pas 500 grammes et ne mesurant pas plus de 107 mm x 107 mm x 11 mm,-avec ou sans parties en autres matières,-avec ou sans parties en autres métaux,-avec ou sans traitement de surface,-imprimés ou non,du type utilisé pour la fabrication de télécommandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909860</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Anneau d'aubage du type utilisé pour la fixation des aubes de contrôle du débit de gaz :-en alliage de fer ou d'acier,-d'une résistance à la chaleur de 830 °C ou plus, mais n'excédant pas 1 050 °C,-d'un diamètre extérieur n'excédant pas 92 mm,-percé de trous pour maintenir les aubes de contrôle du débit de gaz,-destiné à la fabrication de turbocompresseurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909870</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Disque du type utilisé pour garantir la largeur du canal d'écoulement de gaz: -en alliage de fer ou d'acier,-d'une résistance à la chaleur de 830 °C ou plus, mais n'excédant pas 1 050 °C,-d'un diamètre extérieur n'excédant pas 92,5 mm,-d'un diamètre intérieur n'excédant pas 62 mm,-destiné à la fabrication de turbocompresseurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7326909890</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

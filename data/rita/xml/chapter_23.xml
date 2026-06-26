@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 23 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:18</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>2300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>RÉSIDUS ET DÉCHETS DES INDUSTRIES ALIMENTAIRES; ALIMENTS PRÉPARÉS POUR ANIMAUX</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Farines, poudres et agglomérés sous forme de pellets, de viandes, d'abats, de poissons ou de crustacés, de mollusques ou d'autres invertébrés aquatiques, impropres à l'alimentation humaine; cretons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2301100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Farines, poudres et agglomérés sous forme de pellets, de viandes ou d'abats; cretons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2301200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Farines, poudres et agglomérés sous forme de pellets, de poissons ou de crustacés, de mollusques ou d'autres invertébrés aquatiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sons, remoulages et autres résidus, même agglomérés sous forme de pellets, du criblage, de la mouture ou d'autres traitements des céréales ou des légumineuses</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2302100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>dont la teneur en amidon est inférieure ou égale à 35|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2302300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de froment</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>dont la teneur en amidon est inférieure ou égale à 28|% en poids et dont la proportion de produit passant à travers un tamis d'une largeur de mailles de 0,2|mm n'excède pas 10|% en poids ou, dans le cas contraire, dont le produit passé à travers le tamis a une teneur en cendres, calculée sur la matière sèche, égale ou supérieure à 1,5|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2302400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres céréales</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2302400200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de riz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302400200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la teneur en amidon est inférieure ou égale à 35|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302400800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2302401000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont la teneur en amidon est inférieure ou égale à 28|% en poids et dont la proportion de produit passant à travers un tamis d'une largeur de mailles de 0,2|mm n'excède pas 10|% en poids ou, dans le cas contraire, dont le produit passé à travers le tamis a une teneur en cendres, calculée sur la matière sèche, égale ou supérieure à 1,5|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2302500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de légumineuses</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2303000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Résidus d'amidonnerie et résidus similaires, pulpes de betteraves, bagasses de cannes à sucre et autres déchets de sucrerie, drêches et déchets de brasserie ou de distillerie, même agglomérés sous forme de pellets</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2303100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résidus d'amidonnerie et résidus similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2303101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résidus de l'amidonnerie du maïs (à l'exclusion des eaux de trempe concentrées), d'une teneur en protéines, calculée sur la matière sèche</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2303101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>supérieure à 40|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2303101110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>gluten de maïs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2303101190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2303101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>inférieure ou égale à 40|% en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2303109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2303109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2303109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2303200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pulpes de betteraves, bagasses de cannes à sucre et autres déchets de sucrerie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2303201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pulpes de betteraves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2303209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2303300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Drêches et déchets de brasserie ou de distillerie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2304000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tourteaux et autres résidus solides, même broyés ou agglomérés sous forme de pellets, de l'extraction de l'huile de soja</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2305000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tourteaux et autres résidus solides, même broyés ou agglomérés sous forme de pellets, de l'extraction de l'huile d'arachide</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2306000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tourteaux et autres résidus solides, même broyés ou agglomérés sous forme de pellets, de l'extraction de graisses ou huiles végétales ou d'origine microbienne, autres que ceux des n$o$s|2304|ou 2305</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de graines de coton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de graines de lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de graines de tournesol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2306410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de graines de navette ou de colza</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de graines de navette ou de colza à faible teneur en acide érucique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de noix de coco ou de coprah</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de noix ou d'amandes de palmiste</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2306900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306900500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de germes de maïs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2306901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2306901100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Grignons d'olives et autres résidus de l'extraction de l'huile d'olive</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ayant une teneur en poids d'huile d'olive inférieure ou égale à 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ayant une teneur en poids d'huile d'olive supérieure à 3|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2306909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2307000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lies de vin; tartre brut</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2307001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lies de vin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2307001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un titre alcoométrique total inférieur ou égal à 7,9|%|mas et d'une teneur en matière sèche égale ou supérieure à 25|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2307001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2307009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tartre brut</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2308000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Matières végétales et déchets végétaux, résidus et sous-produits végétaux, même agglomérés sous forme de pellets, des types utilisés pour l'alimentation des animaux, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2308001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marcs de raisins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2308001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant un titre alcoométrique total inférieur ou égal à 4,3|%|mas et une teneur en matière sèche égale ou supérieure à 40|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2308001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2308004000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Glands de chêne et marrons d'Inde; marcs de fruits, autres que de raisins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2308004010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résidus de pulpes d'agrumes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2308004090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2308009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations des types utilisés pour l'alimentation des animaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Aliments pour chiens ou chats, conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'amidon ou de la fécule, du glucose ou du sirop de glucose, de la maltodextrine ou du sirop de maltodextrine relevant des sous-positions|1702|30|50, 1702|30|90, 1702|40|90, 1702|90|50|et 2106|90|55|ou des produits laitiers</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309101100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant de l'amidon ou de la fécule, ou du glucose ou de la maltodextrine, ou du sirop de glucose ou du sirop de maltodextrine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309101100</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ne contenant ni amidon ni fécule ou d'une teneur en poids de ces matières inférieure ou égale à 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ne contenant pas de produits laitiers ou d'une teneur en poids de produits laitiers inférieure à 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309101300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 10|% et inférieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309101500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 50|% et inférieure à 75|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 75|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309103100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids d'amidon ou de fécule supérieure à 10|% et inférieure ou égale à 30|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309103100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ne contenant pas de produits laitiers ou d'une teneur en poids de produits laitiers inférieure à 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309103300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 10|% et inférieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309103900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 50|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309105100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids d'amidon ou de fécule supérieure à 30|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309105100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ne contenant pas de produits laitiers ou d'une teneur en poids de produits laitiers inférieure à 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309105300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 10|% et inférieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309105900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309107000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ne contenant ni amidon ou fécule, ni glucose ou sirop de glucose ni maltodextrine ou sirop de maltodextrine et contenant des produits laitiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits dits "solubles" de poissons ou de mammifères marins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309901021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits dits "solubles" de poissons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309901021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Aliments pour poissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309901031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309901031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309901039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309901081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits dits "solubles" de mammifères marins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309901081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>aliments pour poissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309901091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309901091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309901099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Produits visés à la note complémentaire|5|du présent chapitre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, y compris les prémélanges</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant de l'amidon ou de la fécule, du glucose ou du sirop de glucose, de la maltodextrine ou du sirop de maltodextrine relevant des sous-positions|1702|30|50, 1702|30|90, 1702|40|90, 1702|90|50|et 2106|90|55|ou des produits laitiers</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903100</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant de l'amidon ou de la fécule ou du glucose ou de la maltodextrine, ou du sirop de glucose ou du sirop de maltodextrine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903100</Code>
+<Lig_Prod>40</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ne contenant ni amidon ni fécule ou d'une teneur en poids de ces matières inférieure ou égale à 10|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>ne contenant pas de produits laitiers ou d'une teneur en poids de produits laitiers inférieure à 10|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903111</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation constituée par un mélange de radicelles de malt et de résidus du criblage de l'orge avant le maltage (y compris les graines adventices éventuelles), ainsi que de résidus du nettoyage des grains d'orge après maltage, présentant une teneur en poids de protéines égale ou supérieure à 12,5 %</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903111</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>présentant une teneur en poids de protéines égale ou supérieure à 15,5 %</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903111</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903112</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>10</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903113</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>10</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903114</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903114</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>10</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903116</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>10</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903117</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903117</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903117</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>10</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903118</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>10</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903119</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903119</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>10</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903121</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>10</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903130</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour poissons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903140</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903151</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Additif pour l'alimentation animale, composé, sur la base de la masse de matière sèche:- de 68 % ou plus mais pas plus de 80 % de sulfate de L-lysine, et- de 32 % au plus d'autres composants, tels que des glucides et des acides aminés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903151</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destiné à la production d'aliments pour animaux et/ou à la production de produits pharmaceutiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903151</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903159</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903161</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903161</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903169</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903181</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903181</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903181</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903185</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309903191</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309903300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 10|% et inférieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309903500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 50|% et inférieure à 75|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309903900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 75|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309903990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309904100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids d'amidon ou de fécule supérieure à 10|% et inférieure ou égale à 30|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309904100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>ne contenant pas de produits laitiers ou d'une teneur en poids de produits laitiers inférieure à 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour poissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309904141</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation constituée par un mélange de radicelles de malt et de résidus du criblage de l'orge avant le maltage (y compris les graines adventices éventuelles), ainsi que de résidus du nettoyage des grains d'orge après maltage, présentant une teneur en poids de protéines égale ou supérieure à 12,5|% et une teneur en poids d'amidon non supérieure à 28|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309904141</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>présentant une teneur en poids de protéines égale ou supérieure à 15,5|% et une teneur en poids d'amidon non supérieure à 23 %</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904141</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904149</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309904151</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904151</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904159</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>9</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309904181</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904181</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904189</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309904300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 10|% et inférieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309904900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309904990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309905100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids d'amidon ou de fécule supérieure à 30|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309905100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>ne contenant pas de produits laitiers ou d'une teneur en poids de produits laitiers inférieure à 10|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309905110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309905190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309905300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 10|% et inférieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309905310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309905390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309905900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de produits laitiers égale ou supérieure à 50|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309905910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309905990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ne contenant ni amidon ou fécule, ni glucose ou sirop de glucose, ni maltodextrine ou sirop de maltodextrine et contenant des produits laitiers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309907010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309907090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pulpes de betteraves mélassées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2309909600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909631</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Complexe de minéraux et de vitamines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909631</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909631</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909635</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909639</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909639</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909640</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909651</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Additif pour l'alimentation animale, composé, sur la base de la masse de matière sèche:- de 68 % ou plus mais pas plus de 80 % de sulfate de L-lysine, et- de 32 % au plus d'autres composants, tels que des glucides et des acides aminés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909651</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>destiné à la production d'aliments pour animaux et/ou à la production de produits pharmaceutiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909651</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909659</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909661</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909661</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909669</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909691</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909691</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Aliments pour chiens ou chats, non conditionnés pour la vente au détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909691</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909693</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2309909695</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909695</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2309909696</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

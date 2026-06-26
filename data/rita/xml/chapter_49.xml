@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 49 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:38</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>4900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRODUITS DE L'ÉDITION, DE LA PRESSE OU DES AUTRES INDUSTRIES GRAPHIQUES; TEXTES MANUSCRITS OU DACTYLOGRAPHIÉS ET PLANS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4901000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Livres, brochures et imprimés similaires, même sur feuillets isolés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4901100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en feuillets isolés, même pliés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4901910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4901910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dictionnaires et encyclopédies, même en fascicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4901990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4902000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Journaux et publications périodiques imprimés, même illustrés ou contenant de la publicité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4902100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>paraissant au moins quatre fois par semaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4902900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4903000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Albums ou livres d'images et albums à dessiner ou à colorier, pour enfants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4904000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Musique manuscrite ou imprimée, illustrée ou non, même reliée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages cartographiques de tous genres, y compris les cartes murales, les plans topographiques et les globes, imprimés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4905200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>sous forme de livres ou de brochures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4905900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4905900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Globes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4905900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4906000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plans et dessins d'architectes, d'ingénieurs et autres plans et dessins industriels, commerciaux, topographiques ou similaires, obtenus en original à la main; textes écrits à la main; reproductions photographiques sur papier sensibilisé et copies obtenues au carbone des plans, dessins ou textes visés ci-dessus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4907000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Timbres-poste, timbres fiscaux et analogues, non oblitérés, ayant cours ou destinés à avoir cours dans le pays dans lequel ils ont, ou auront, une valeur faciale reconnue; papier timbré; billets de banque; chèques; titres d'actions ou d'obligations et titres similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4907001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Timbres-poste, timbres fiscaux et analogues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4907003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Billets de banque</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4907009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4908000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Décalcomanies de tous genres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4908100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Décalcomanies vitrifiables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4908900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4909000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cartes postales imprimées ou illustrées; cartes imprimées comportant des voeux ou des messages personnels, même illustrées, avec ou sans enveloppes, garnitures ou applications</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4910000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Calendriers de tous genres, imprimés, y compris les blocs de calendriers à effeuiller</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4911000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres imprimés, y compris les images, les gravures et les photographies</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4911100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Imprimés publicitaires, catalogues commerciaux et similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4911101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Catalogues commerciaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4911109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4911910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4911910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Images, gravures et photographies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4911910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles non pliées, comportant simplement des illustrations ou des gravures sans texte ni légende, destinées à des éditions communes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4911910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4911990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

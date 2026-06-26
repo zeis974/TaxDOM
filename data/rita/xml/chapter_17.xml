@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 17 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:13</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1700000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>SUCRES ET SUCRERIES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1701000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sucres de canne ou de betterave et saccharose chimiquement pur, à l'état solide</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1701120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sucres bruts sans addition d'aromatisants ou de colorants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1701120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de betterave</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à être raffinés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1701130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sucre de canne mentionné dans la note|2|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destiné à être raffiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701139000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1701140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres sucres de canne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701141000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à être raffinés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701149000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1701910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>additionnés d'aromatisants ou de colorants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1701990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sucres blancs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1701999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres sucres, y compris le lactose, le maltose, le glucose et le fructose (lévulose) chimiquement purs, à l'état solide; sirops de sucres sans addition d'aromatisants ou de colorants; succédanés du miel, même mélangés de miel naturel; sucres et mélasses caramélisés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1702110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lactose et sirop de lactose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids 99|% ou plus de lactose, exprimé en lactose anhydre calculé sur matière sèche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sucre et sirop d'érable</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sucre d'érable à l'état solide, additionné d'aromatisants ou de colorants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702201010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destiné à l'alimentation des animaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702209010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destiné à l'alimentation des animaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Glucose et sirop de glucose, ne contenant pas de fructose ou contenant en poids à l'état sec moins de 20|% de fructose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Isoglucose</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1702305000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702305000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en poudre cristalline blanche, même agglomérée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702305010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant en poids à l'état sec 99|% ou plus de glucose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702305090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702309010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant en poids à l'état sec 99|% ou plus de glucose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702309090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Glucose et sirop de glucose, contenant en poids à l'état sec de 20|% inclus à 50|% exclus de fructose, à l'exception du sucre inverti (ou interverti)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Isoglucose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fructose chimiquement pur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre fructose et sirop de fructose, contenant en poids à l'état sec plus de 50|% de fructose, à l'exception du sucre inverti (ou interverti)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702601000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Isoglucose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702608000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sirop d'inuline</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702609500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris le sucre inverti (ou interverti) et les autres sucres et sirops de sucres contenant en poids à l'état sec 50|% de fructose</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1702901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Maltose chimiquement pur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destiné à l'alimentation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Isoglucose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Maltodextrine et sirop de maltodextrine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1702907100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sucres et mélasses, caramélisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702907100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids à l'état sec 50|% ou plus de saccharose</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1702907500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702907500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en poudre, même agglomérée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702907900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sirop d'inuline</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1702909500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1703000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mélasses résultant de l'extraction ou du raffinage du sucre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1703100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mélasses de canne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1703900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1704000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sucreries sans cacao (y compris le chocolat blanc)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1704100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gommes à mâcher (chewing-gum), même enrobées de sucre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de saccharose inférieure à 60|% (y compris le sucre inverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de saccharose égale ou supérieure à 60|% (y compris le sucre inverti calculé en saccharose)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1704900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Extraits de réglisse contenant en poids plus de 10|% de saccharose, sans addition d'autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparation dite "chocolat blanc"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1704905100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704905100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pâtes et masses, y compris le massepain, en emballages immédiats d'un contenu net égal ou supérieur à 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704905500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pastilles pour la gorge et bonbons contre la toux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704906100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dragées et sucreries similaires dragéifiées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1704906500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704906500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Gommes et autres confiseries à base de gélifiants, y compris les pâtes de fruits sous forme de sucreries</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704907100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bonbons de sucre cuit, même fourrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704907500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Caramels</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1704908100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704908100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>obtenues par compression</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1704909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1704909911</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de saccharose inférieure à 70 % (y compris le sucre inverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704909911</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Guimauves d'une teneur en sucre égale ou inférieure à 45 % en poids (y compris le sucre inverti calculé en saccharose)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704909912</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Halvas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704909919</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1704909992</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de saccharose égale ou supérieure à 70 % (y compris le sucre inverti calculé en saccharose)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1704909992</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Halvas et loukoums</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704909992</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Halvas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704909993</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Loukoums</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1704909999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

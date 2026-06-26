@@ -49,7 +49,7 @@ export default await Env.create(new URL("../", import.meta.url), {
   |----------------------------------------------------------
   */
   BETTER_AUTH_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
-  BETTER_AUTH_SECRET: Env.schema.string(),
+  BETTER_AUTH_SECRET: Env.schema.secret(),
   GOOGLE_CLIENT_ID: Env.schema.string(),
   GOOGLE_CLIENT_SECRET: Env.schema.string(),
   TRUSTED_APP_ORIGIN_URL: Env.schema.string({ format: "url", protocol: false, tld: false }),
@@ -57,10 +57,21 @@ export default await Env.create(new URL("../", import.meta.url), {
 
   /*
   |----------------------------------------------------------
-  | Variables for Meilisearch
+  | Variables for the internal API key (shared secret between
+  | the API and the Next.js server). Used by the apiKey
+  | middleware to protect POST public routes.
   |----------------------------------------------------------
   */
-  MEILI_HOST: Env.schema.string({ format: "url", protocol: true, tld: false }),
-  MEILI_MASTER_KEY: Env.schema.string(),
-  MEILI_ENV: Env.schema.enum(["development", "production"] as const),
+  API_KEY: Env.schema.secret(),
+
+  /*
+  |----------------------------------------------------------
+  | Variables for Chroma (vector store) + Ollama (embeddings)
+  |----------------------------------------------------------
+  */
+  CHROMA_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
+  CHROMA_COLLECTION: Env.schema.string(),
+  OLLAMA_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
+  OLLAMA_EMBED_MODEL: Env.schema.string(),
+  EMBEDDING_DIM: Env.schema.number(),
 })

@@ -6,46 +6,46 @@
   "scripts": {
     "prepare": "panda codegen",
     "dev": "vite",
-    "build": "panda codegen && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "biome check .",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@tanstack/react-form": "1.32.0",
-    "@tanstack/react-query": "5.100.10",
-    "@tanstack/react-router": "1.169.2",
+    "@tanstack/react-form": "1.33.0",
+    "@tanstack/react-query": "5.101.1",
+    "@tanstack/react-router": "1.170.16",
     "@tanstack/react-table": "8.21.3",
-    "@tanstack/react-virtual": "3.13.24",
+    "@tanstack/react-virtual": "3.14.3",
     "@taxdom/api": "workspace:*",
     "@tuyau/core": "1.2.2",
     "@tuyau/react-query": "^1.1.0",
-    "@xyflow/react": "12.10.2",
-    "better-auth": "1.6.10",
-    "motion": "12.38.0",
-    "react": "19.2.6",
-    "react-dom": "19.2.6",
-    "react-error-boundary": "^6.1.1",
+    "@xyflow/react": "12.11.1",
+    "better-auth": "1.6.20",
+    "motion": "12.41.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-error-boundary": "^6.1.2",
     "sonner": "2.0.7",
-    "vaul": "1.1.2",
-    "zustand": "5.0.13"
+    "vaul": "1.1.2"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.11.1",
-    "@tanstack/react-query-devtools": "5.100.10",
-    "@tanstack/react-router-devtools": "^1.166.13",
-    "@tanstack/router-plugin": "1.167.35",
+    "@pandacss/dev": "1.11.3",
+    "@tanstack/react-query-devtools": "5.101.1",
+    "@tanstack/react-router-devtools": "1.167.0",
+    "@tanstack/router-plugin": "1.168.18",
     "@taxdom/types": "workspace:*",
-    "@types/node": "^25.7.0",
-    "@types/react": "^19.2.14",
+    "@taxdom/ui": "workspace:*",
+    "@types/node": "^26.0.1",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "6.0.1",
+    "@vitejs/plugin-react": "6.0.3",
     "typescript": "6.0.3",
-    "vite": "8.0.12"
+    "vite": "8.1.0"
   },
   "engines": {
     "node": ">=24",
-    "pnpm": ">=10"
+    "pnpm": ">=11"
   },
-  "packageManager": "pnpm@11.1.1"
+  "packageManager": "pnpm@11.9.0"
 }

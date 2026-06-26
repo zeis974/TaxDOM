@@ -7,10 +7,11 @@
 |
 */
 
-import router from "@adonisjs/core/services/router"
 import { middleware } from "#start/kernel"
+import router from "@adonisjs/core/services/router"
 
 import registerAdminCategories from "#routes/admin/categories"
+import registerAdminCustomsNomenclatures from "#routes/admin/customs_nomenclatures"
 import registerAdminOrigins from "#routes/admin/origins"
 import registerAdminProducts from "#routes/admin/products"
 import registerAdminTerritories from "#routes/admin/territories"
@@ -21,7 +22,6 @@ import registerPublicProducts from "#routes/public/products"
 import registerPublicSimulator from "#routes/public/simulator"
 import registerPublicTerritories from "#routes/public/territories"
 import registerPublicTransporters from "#routes/public/transporters"
-
 // ─── Public routes ───────────────────────────────────────
 router
   .group(() => {
@@ -31,12 +31,14 @@ router
     registerPublicTerritories(router)
     registerPublicTransporters(router)
   })
+  .use(middleware.apiKey())
   .prefix("/v1/public")
 
 // ─── Admin routes ────────────────────────────────────────
 router
   .group(() => {
     registerAdminCategories(router)
+    registerAdminCustomsNomenclatures(router)
     registerAdminOrigins(router)
     registerAdminProducts(router)
     registerAdminTerritories(router)

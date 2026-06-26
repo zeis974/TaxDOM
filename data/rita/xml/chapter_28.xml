@@ -1,0 +1,3033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 28 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:21</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>2800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRODUITS CHIMIQUES INORGANIQUES; COMPOSÉS INORGANIQUES OU ORGANIQUES DE MÉTAUX PRÉCIEUX, D'ÉLÉMENTS RADIOACTIFS, DE MÉTAUX DES TERRES RARES OU D'ISOTOPES</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2801000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>I. ÉLÉMENTS CHIMIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fluor, chlore, brome et iode</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2801100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chlore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2801200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Iode</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2801300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fluor; brome</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2801301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fluor</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2801309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Brome</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Soufre sublimé ou précipité; soufre colloïdal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2803000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Carbone (noirs de carbone et autres formes de carbone non dénommées ni comprises ailleurs)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Hydrogène, gaz rares et autres éléments non métalliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydrogène</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2804210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gaz rares</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Argon</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2804290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hélium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Azote</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxygène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2804500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bore; tellure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tellure</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2804610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Silicium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids au moins 99,99|% de silicium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2804690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804690010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance de la République de Corée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804690020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804690090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2804700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Phosphore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804701000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Phosphore rouge</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804709000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Arsenic</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2804900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sélénium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Métaux alcalins ou alcalino-terreux; métaux de terres rares, scandium et yttrium, même mélangés ou alliés entre eux; mercure</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2805110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Métaux alcalins ou alcalino-terreux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sodium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Calcium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Calcium d'une pureté de 98|% en poids ou plus, sous forme de poudre ou de fil plein (CAS|RN|7440-70-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Strontium et baryum</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805199020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Lithium (métal) de pureté égale ou supérieure à 98,8|% en poids (CAS|RN|7439-93-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805199090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Métaux de terres rares, scandium et yttrium, même mélangés ou alliés entre eux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>mélangés ou alliés entre eux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805301010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Alliage de cérium et d'autres métaux des terres rares, contenant en poids 47 % ou plus de cérium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2805301030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805301030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant du néodyme et du dysprosium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805301040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant du néodyme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805301050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant du dysprosium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805301080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2805302100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2805302100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une pureté égale ou supérieure à 95|% en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805302100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cérium et lanthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805302110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cérium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805302120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Lanthane</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805302900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Praséodyme, néodyme et samarium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805302930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Praséodyme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805302940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Néodyme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805302950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Samarium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805303100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Gadolinium, terbium et dysprosium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303115</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Gadolinium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Terbium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303125</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dysprosium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805303900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Europium, holmium, erbium, thulium, ytterbium, lutetium et yttrium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Europium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Holmium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303935</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Erbium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Thulium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303945</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Ytterbium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Lutecium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805303955</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Yttrium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805304000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Scandium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805308000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2805400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mercure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>présenté en bonbonnes d'un contenu net de 34,5|kg (poids standard) et dont la valeur FOB, par bonbonne, n'excède pas 224|Euros</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2805409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2806000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>II. ACIDES INORGANIQUES ET COMPOSÉS OXYGÉNÉS INORGANIQUES DES ÉLÉMENTS NON MÉTALLIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chlorure d'hydrogène (acide chlorhydrique); acide chlorosulfurique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2806100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chlorure d'hydrogène (acide chlorhydrique)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2806200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Acide chlorosulfurique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2807000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Acide sulfurique; oléum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2808000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Acide nitrique; acides sulfonitriques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2809000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pentaoxyde de diphosphore; acide phosphorique; acides polyphosphoriques, de constitution chimique définie ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2809100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pentaoxyde de diphosphore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2809200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Acide phosphorique et acides polyphosphoriques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2810000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oxydes de bore; acides boriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2810001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Trioxyde de dibore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2810009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2811000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres acides inorganiques et autres composés oxygénés inorganiques des éléments non métalliques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2811110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres acides inorganiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fluorure d'hydrogène (acide fluorhydrique)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cyanure d'hydrogène (acide cyanhydrique)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2811190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bromure d'hydrogène (acide bromhydrique)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2811198000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811198040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Acide arsénique (CAS RN 7778-39-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811198050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Acide sulfamidique (CAS RN 5329-14-6) d'une pureté en poids de 95 % ou plus, additionné ou non de 5 % au plus de l'agent antiagglomérant dioxyde de silicium (CAS RN 112926-00-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811198060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Acide phosphoreux, sous forme solide ou liquide (aqueuse), également appelé acide phosphonique, portant généralement les numéros CAS (Chemical Abstracts Service) 13598-36-2 et 10294-56-1. Les numéros CUS (Customs Union and Statistics) correspondant généralement à ce produit sont 0021895-1 et 0043878-8</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811198090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2811210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres composés oxygénés inorganiques des éléments non métalliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dioxyde de carbone</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2811220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dioxyde de silicium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811220015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dioxyde de silicium amorphe, calciné (CAS|RN|60676-86-0),-|sous forme de poudre-|d'une pureté égale ou supérieure à 99,0|% en poids-|d'une granulométrie médiane de 0,7|µm ou plus, mais n'excédant pas 2,1|µm-|dans lequel 70|% des particules ont un diamètre n'excédant pas 3|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811220040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Charge de silice sous forme de granules, ayant une teneur en dioxyde de silicium d'au moins 97|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811220080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dioxyde de silicium amorphe (CAS RN 112926-00-8),-sous forme de poudre,-d'une pureté en poids de 98 % ou plus,-d'une granulométrie médiane de 150 µm ou plus, mais pas plus de 250 µm,-dont 90 % des particules présentent un diamètre de plus de 3 µm,destiné à la fabrication de pneumatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811220090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2811290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811290500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dioxyde de soufre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2811291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Trioxyde de soufre (anhydride sulfurique); trioxyde de diarsenic (anhydride arsénieux)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811291010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Trioxyde diarsénique (CAS RN 1327-53-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811291090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811293000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oxydes d'azote</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2811299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811299010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Dioxyde de tellure (CAS|RN|7446-07-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811299020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pentaoxyde diarsénique (CAS RN 1303-28-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2811299090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2812000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>III. DÉRIVÉS HALOGÉNÉS, OXYHALOGÉNÉS OU SULFURÉS DES ÉLÉMENTS NON MÉTALLIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2812000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Halogénures et oxyhalogénures des éléments non métalliques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2812110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chlorures et oxychlorures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dichlorure de carbonyle (phosgène)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxychlorure de phosphore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Trichlorure de phosphore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pentachlorure de phosphore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Monochlorure de soufre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812160000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dichlorure de soufre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812170000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chlorure de thionyle</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2812190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de phosphore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2812900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Trifluorure d'azote (CAS RN 7783-54-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812900025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>hexafluorure de soufre (CAS RN 2551-62-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812900030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fluorure de sulfuryle (CAS RN 2699-79-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2812900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2813000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sulfures des éléments non métalliques; trisulfure de phosphore du commerce</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2813100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Disulfure de carbone</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2813900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2813901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sulfures de phosphore, y compris le trisulfure de phosphore du commerce</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2813909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2814000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>IV. BASES INORGANIQUES ET OXYDES, HYDROXYDES ET PEROXYDES DE|MÉTAUX</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2814000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ammoniac anhydre ou en solution aqueuse (ammoniaque)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2814100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ammoniac anhydre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2814200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ammoniac en solution aqueuse (ammoniaque)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2815000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Hydroxyde de sodium (soude caustique); hydroxyde de potassium (potasse caustique); peroxydes de sodium ou de potassium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2815110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydroxyde de sodium (soude caustique)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2815110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>solide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2815120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en solution aqueuse (lessive de soude caustique)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2815200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydroxyde de potassium (potasse caustique)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2815300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Peroxydes de sodium ou de potassium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2816000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Hydroxyde et peroxyde de magnésium; oxydes, hydroxydes et peroxydes de strontium ou de baryum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2816100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydroxyde et peroxyde de magnésium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2816400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxydes, hydroxydes et peroxydes, de strontium ou de baryum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2816400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hydroxyde de baryum (CAS RN 17194-00-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2816400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2817000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oxyde de zinc; peroxyde de zinc</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2818000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Corindon artificiel, chimiquement défini ou non; oxyde d'aluminium; hydroxyde d'aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2818100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Corindon artificiel, chimiquement défini ou non</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2818101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en oxyde d'aluminium égale ou supérieure à 98,5|% en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2818101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont moins de 50|% du poids total consiste en particules d'un diamètre de plus de 10|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818101110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Corindon Sol-Gel (CAS RN 1302-74-5) d'une teneur en oxyde d'aluminium égale ou supérieure à 99,6 % en poids, présentant une structure microcristalline sous forme de barres dont le rapport d'aspect est égal ou supérieur à 1,3, mais n'excède pas 6,0</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818101120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Corindon fritté, présentant une structure microcristalline, composé d'oxyde d'aluminium (CAS RN 1344-28-1) et d'aluminate de magnésium (CAS RN 12068-51-8), contenant en poids (exprimé en oxyde):-92 % ou plus d'oxyde d'aluminium, et-8 % ou moins d'oxyde de magnésium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818101130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Corindon Sol-Gel fritté ou Sol-Gel préfritté d'une teneur en oxyde d'aluminium supérieure ou égale à 99,6 % en poids, présentant une structure microcristalline sous forme de barres dont le rapport d'aspect est supérieur ou égal à 1,3, mais n'excède pas 6,0</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818101140</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Corindon Sol-Gel fritté ou Sol-Gel préfritté, présentant structure microcristalline, composé d'oxyde d'aluminium, ayant une composition en poids (en oxyde) au moins 98,5 % d'oxyde d'aluminium, autre qu'ayant une teneur en oxyde d'aluminium supérieure ou égale 99,6 % en poids, présentant une structure microcristalline sous forme de barres dont le rapport d'aspect est supérieur ou égal à 1,3, mais n'excède pas 6,0</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2818101191</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818101191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Alumine fondue, lorsque les deux conditions suivantes s'appliquent: i) entre 5 % et 35 % du produit exprimé en poids est inférieur à la dimension minimale des grains fixée dans le cahier des charges du produit, et ii) entre 1 % et 10 % du produit exprimé en poids est supérieur à la dimension maximale des grains fixée dans le cahier des charges du produit</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818101199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont 50|% ou plus du poids total consiste en particules d'un diamètre de plus de 10|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2818109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en oxyde d'aluminium inférieure à 98,5|% en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2818109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont moins de 50|% du poids total consiste en particules d'un diamètre de plus de 10|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818109120</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Corindon fritté, présentant une structure microcristalline, composé d'oxyde d'aluminium (CAS|RN|1344-28-1), d'aluminate de magnésium (CAS|RN|12068-51-8) et d'aluminates d'yttrium, de lanthane et de néodyme, des terres rares, contenant en poids (exprimé en oxyde): -|92|% ou plus, mais moins de 98,5|% d'oxyde d'aluminium,| -|2|% (± 1,5|%) d'oxyde de magnésium, -|1|% (± 0,6|%) d'oxyde d'yttrium,et -|soit 3|% (± 2,2|%) d'oxyde de lanthane -|soit 2|% (± 1,2|%) d'oxyde de lanthane et d'oxyde de néodyme,et constitué pour moins de 50|% de son poids total de particules d'une taille supérieure à 10|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818109130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Corindon fritté, présentant une structure microcristalline, composé d'oxyde d'aluminium (CAS RN 1344-28-1) et d'aluminate de magnésium (CAS RN 12068-51-8), contenant en poids (exprimé en oxyde) :-92 % ou plus, mais pas plus de 94 % d'oxyde d'aluminium, et-8 % (± 1 %) d'oxyde de magnésium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818109140</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Corindon Sol-Gel fritté ou Sol-Gel préfritté à structure microcristalline, composé d'oxyde d'aluminium, ayant une composition en poids (en oxydes) d'au moins 92 % mais inférieure à 98,5 % d'oxyde d'aluminium.</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2818109191</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818109191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Alumine fondue d'une teneur en dioxyde de titane supérieure ou égale à 1 % en poids, lorsque les deux conditions suivantes s'appliquent: i) entre 5 % et 35 % du produit exprimé en poids est inférieur à la dimension minimale des grains fixée dans le cahier des charges du produit, et ii) entre 1 % et 10 % du produit exprimé en poids est supérieur à la dimension maximale des grains fixée dans le cahier des charges du produit.</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818109199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>dont 50|% ou plus du poids total consiste en particules d'un diamètre de plus de 10|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2818200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxyde d'aluminium autre que le corindon artificiel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Alumine activée possédant une surface spécifique au moins égale à 350 m²/g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2818300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydroxyde d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818300020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hydroxyde d'aluminium (CAS|RN|21645-51-2)-|sous forme de poudre-|d'une pureté égale ou supérieure à 99,5|% en poids-|ayant un point de décomposition égal ou supérieur à 263°C-|d'une taille de grains de 4|µm (± 1|µm)-|d'une teneur totale en Na2O inférieure ou égale à 0,06|% du poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818300030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hydroxyde-oxyde d'aluminium sous forme de boehmite ou de pseudo-boehmite (CAS|RN|1318-23-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2818300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2819000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oxydes et hydroxydes de chrome</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2819100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Trioxyde de chrome</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2819900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2819901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dioxyde de chrome</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2819909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2819909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Trioxyde de dichrome destiné à la métallurgie (CAS RN 1308-38-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2819909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dihydroxy(dioxo)chrome (CAS RN 7738-94-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2819909030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Acide dichromique (CAS RN 13530-68-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2819909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2820000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oxydes de manganèse</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2820100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dioxyde de manganèse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2820100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dioxydes de manganèse électrolytiques (c'est-à-dire de dioxydes de manganèse obtenus par un procédé électrolytique), sans traitement à chaud après le procédé électrolytique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2820100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2820900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2820901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxyde de manganèse contenant en poids 77|% ou plus de manganèse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2820909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2821000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oxydes et hydroxydes de fer; terres colorantes contenant en poids 70|% ou plus de fer combiné, évalué en Fe@2O@3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2821100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxydes et hydroxydes de fer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2821200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Terres colorantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2822000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oxydes et hydroxydes de cobalt; oxydes de cobalt du commerce</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2823000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oxydes de titane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2823000010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pour des utilisations autres que la production d'encres graphiques blanches destinées à l'impression</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2823000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dioxyde de titane (CAS RN 13463-67-7): -|de pureté égale ou supérieure à 99,9|% en poids, -|présentant une granulométrie moyenne égale ou supérieure à 0,7|µm, mais n'excédant pas 2,1|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2823000030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autres dioxydes de titane, sous toutes ses formes, par exemple sous la forme d'oxydes de titane ou de pigments, et préparations à base de dioxyde de titane contenant en poids 80 % ou plus de dioxyde de titane, calculé sur matière sèche, et ayant tous les types de tailles des particules (CAS RN 12065-65-5, 13463-67-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2823000040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2823000080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pour une utilisation dans la production d'encres graphiques blanches destinées à l'impression</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2823000080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dioxyde de titane (CAS RN 13463-67-7): -|de pureté égale ou supérieure à 99,9|% en poids, -|présentant une granulométrie moyenne égale ou supérieure à 0,7|µm, mais n'excédant pas 2,1|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2823000083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autres dioxydes de titane, sous toutes ses formes, par exemple sous la forme d'oxydes de titane ou de pigments, et préparations à base de dioxyde de titane contenant en poids 80 % ou plus de dioxyde de titane, calculé sur matière sèche, et ayant tous les types de tailles des particules (CAS RN 12065-65-5, 13463-67-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2823000085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2824000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Oxydes de plomb; minium et mine orange</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2824100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Monoxyde de plomb (litharge, massicot)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2824900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Hydrazine et hydroxylamine et leurs sels inorganiques; autres bases inorganiques; autres oxydes, hydroxydes et peroxydes de métaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydrazine et hydroxylamine et leurs sels inorganiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chlorure d'hydroxylammonium (CAS RN 5470-11-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxyde et hydroxyde de lithium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hydroxyde de lithium monohydraté (CAS RN 1310-66-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxydes et hydroxydes de vanadium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxydes et hydroxydes de nickel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxydes et hydroxydes de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825500020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxyde de cuivre (I ou II) contenant en poids 78|% ou plus de cuivre et pas plus de 0,03|% de chlorure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825500030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxyde de cuivre (II) (CAS|RN|1317-38-0) dont la taille des particules n'excède pas 100nm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825500080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxydes de germanium et dioxyde de zirconium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825600010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dioxyde de zirconium (CAS RN 1314-23-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825600090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxydes et hydroxydes de molybdène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825700020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Acide molybdique (CAS|RN|7782-91-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825700090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxydes d'antimoine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2825901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxyde, hydroxyde et peroxyde de calcium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hydroxyde de calcium, d'une pureté en poids de 98|% ou plus sur produit sec sous forme de particules dont:-|pas plus d'1|% en poids sont de dimension excédant 75|micromètres, et-|pas plus de 4|% en poids sont de dimension inférieure à 1,3|micromètre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxyde et hydroxyde de béryllium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxydes et hydroxydes de tungstène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825904030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Trioxyde de tungstène, oxyde bleu de tungstène compris (CAS RN 1314-35-8 ou CAS RN 39318-18-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825904080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxyde de cadmium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2825908500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825908510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oxydes et hydroxydes d'étain</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2825908590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2826000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>V. SELS ET PEROXOSELS MÉTALLIQUES DES ACIDES INORGANIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2826000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fluorures; fluorosilicates, fluoroaluminates et autres sels complexes de fluor</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2826120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fluorures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2826120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'aluminium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2826190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2826191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'ammonium ou de sodium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2826199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2826199010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Hexafluorure de tungstène d'une pureté en poids de|99,9|% ou plus (CAS RN 7783-82-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2826199090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2826300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hexafluoroaluminate de sodium (cryolithe synthétique)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2826900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2826901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hexafluorozirconate de dipotassium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2826908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2826908030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hexafluorophosphate de lithium (CAS RN 21324-40-3) d'une pureté en poids de 99 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2826908090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2827000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chlorures, oxychlorures et hydroxychlorures; bromures et oxybromures; iodures et oxyiodures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chlorure d'ammonium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chlorure de calcium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2827310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres chlorures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de magnésium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827350000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de nickel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2827390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'étain</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827392000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de fer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827393000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de cobalt</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2827398500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827398510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Monochlorure de cuivre (CAS RN 7758-89-6) d'une pureté en poids de 96% ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827398520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pentachlorure d'antimoine d'une pureté en poids de 99|% ou plus (CAS RN 7647-18-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827398540</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Chlorure de baryum dihydraté (CAS RN| 10326-27-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827398590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2827410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Oxychlorures et hydroxychlorures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2827490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de plomb</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2827499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827499010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Oxydichlorure de zirconium (CAS RN 7699-43-6) d'une pureté en poids de 95 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827499090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2827510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bromures et oxybromures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bromures de sodium ou de potassium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2827600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Iodures et oxyiodures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827600010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Iodure de sodium (CAS RN 7681-82-5) </Description>
+</ligne><ligne><Type>1</Type>
+<Code>2827600090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2828000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Hypochlorites; hypochlorite de calcium du commerce; chlorites; hypobromites</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2828100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hypochlorite de calcium du commerce et autres hypochlorites de calcium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2828100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hypochlorure de calcium (CAS RN 7778-54-3) d'une teneur en chlore actif égale ou supérieure à 65 %</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2828100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2828900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2829000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chlorates et perchlorates; bromates et perbromates; iodates et periodates</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2829110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chlorates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2829110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2829190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2829900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2829901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Perchlorates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2829904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bromate de potassium ou de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2829908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2830000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sulfures; polysulfures, de constitution chimique définie ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2830100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sulfures de sodium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2830900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2830901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sulfures de calcium, d'antimoine, de fer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2830908500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2831000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Dithionites et sulfoxylates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2831100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2831900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2832000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sulfites; thiosulfates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2832100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sulfites de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2832200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres sulfites</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2832300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Thiosulfates</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2833000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sulfates; aluns; peroxosulfates (persulfates)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2833110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sulfates de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sulfate de disodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2833210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres sulfates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de magnésium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'aluminium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de nickel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2833250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833250030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hydroxysulfate de cuivre (Cu4(OH)6(SO4)), hydraté (CAS RN 12527-76-3), d'une pureté en poids de 98 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833250080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833270000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de baryum</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2833290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833292000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de cadmium, de chrome, de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833293000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de cobalt, de titane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833296000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de plomb</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2833298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833298020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Monohydrate de sulfate de manganèse (CAS RN 10034-96-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833298040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Sulfate de césium (CAS RN 10294-54-9) sous forme solide ou en solution aqueuse contenant en poids plus de 48 % mais pas plus de 52 % de sulfate de césium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833298080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Aluns</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2833400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Peroxosulfates (persulfates)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2834000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Nitrites; nitrates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2834100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Nitrites</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2834210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Nitrates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2834210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de potassium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2834290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2834292000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de baryum, de béryllium, de cadmium, de cobalt, de nickel, de plomb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2834294000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2834298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2835000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Phosphinates (hypophosphites), phosphonates (phosphites) et phosphates; polyphosphates, de constitution chimique définie ou non</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2835100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Phosphinates (hypophosphites) et phosphonates (phosphites)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hypophosphite de sodium, monohydrate (CAS RN 10039-56-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hypophosphite de sodium| (CAS|RN|7681-53-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835100030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Phosphinate d'aluminium (CAS|RN|7784-22-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835100040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Phosphinate de calcium (CAS RN 7789-79-9) d'une pureté en poids de 98 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2835220000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Phosphates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de mono- ou de disodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de potassium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hydrogénoorthophosphate de calcium (phosphate dicalcique)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835260000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres phosphates de calcium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2835290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de triammonium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835293000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de trisodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2835310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Polyphosphates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Triphosphate de sodium (tripolyphosphate de sodium)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2835390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2836000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Carbonates; peroxocarbonates (percarbonates); carbonate d'ammonium du commerce contenant du carbamate d'ammonium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carbonate de disodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydrogénocarbonate (bicarbonate) de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carbonates de potassium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carbonate de calcium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2836600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carbonate de baryum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836600010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carbonate de baryum contenant plus de 0,07% en poids de strontium et plus de 0,0015% en poids de sulfure, se présentant sous forme de poudre, de granulés pressés ou calcinés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836600090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2836910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2836910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carbonates de lithium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836910020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carbonate de lithium, contenant une ou plusieurs des impuretés suivantes aux concentrations indiquées: -|2|mg/kg ou plus d'arsenic, -|200|mg/kg ou plus de calcium, -|200|mg/kg ou plus de chlorures, -|20|mg/kg ou plus de fer, -|150|mg/kg ou plus de magnésium, -|20|mg/kg ou plus de métaux lourds, -|300|mg/kg ou plus de potassium, -|300|mg/kg ou plus de sodium, -|200|mg/kg ou plus de sulfates,mesurées d'après les méthodes spécifiées dans la Pharmacopée européenne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carbonate de strontium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2836990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2836991100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Carbonates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836991100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de magnésium, de cuivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2836991700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836991730</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Carbonate basique de zirconium (IV) (CAS|RN|57219-64-4|ou 37356-18-6) d'une pureté de 96|% en poids ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836991780</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2836999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Peroxocarbonates (percarbonates)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2837000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cyanures, oxycyanures et cyanures complexes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2837110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cyanures et oxycyanures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2837110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de sodium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2837190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2837190020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cyanure de cuivre (CAS RN 544-92-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2837190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2837200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cyanures complexes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2837200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hexacyanoferrate (II) de tétrasodium, (CAS RN 13601-19-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2837200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2839000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Silicates; silicates des métaux alcalins du commerce</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2839110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2839110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Métasilicates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2839190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2839900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2839900020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Silicate de calcium (CAS RN|1344-95-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2839900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2840000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Borates; peroxoborates (perborates)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2840110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tétraborate de disodium (borax raffiné)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>anhydre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2840190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tétraborate de disodium pentahydraté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2840200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres borates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Borates de sodium, anhydres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2840209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840209010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Borate de zinc (CAS|RN|12767-90-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840209020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Borate de baryum (CAS RN 13701-59-2) d'une pureté en poids de 99 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2840300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Peroxoborates (perborates)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Peroxométaborate de sodium (perborate de sodium)  (CAS RN 7632-04-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2840300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2841000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sels des acides oxométalliques ou peroxométalliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dichromate de sodium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2841500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres chromates et dichromates; peroxochromates</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2841500011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dichromate de potassium (CAS RN 7778-50-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dichromate de potassium (CAS RN 7778-50-9) d'une pureté en poids égale ou supérieure à 99%, destiné à être utilisé comme intermédiaire pour la production de chrome</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chromate de plomb (CAS RN 7758-97-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tris(chromate) de dichrome (CAS RN 24613-89-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dichromate d'ammonium (CAS RN 7789-09-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Octahydroxychromate de pentazinc (CAS RN 49663-84-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chromate de potassium (CAS RN 7789-00-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chromate de sodium (CAS RN 7775-11-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chromate de strontium(II) (CAS RN 7789-06-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841500090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2841610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Manganites, manganates et permanganates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Permanganate de potassium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2841700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Molybdates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841700030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Heptamolybdate d'hexaammonium, anhydre (CAS RN 12027-67-7) ou sous la forme de tétrahydrate (CAS RN 12054-85-2) </Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841700090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2841800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tungstates (wolframates)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841800010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tungstate de diammonium (paratungstate d'ammonium) (CAS RN 11120-25-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841800020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tungstate de disodium (CAS RN 13472-45-2) d'une pureté en poids de 90% ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841800090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2841900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2841903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Zincates, vanadates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841903010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Métavanadate de potassium (CAS|RN|13769-43-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841903090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxydes de lithium-nickel-cobalt-manganèse</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2841907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841907020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oxyde de potassium et de titane sous forme de poudre, d'une pureté minimale de 99 % (CAS RN 12056-51-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841907030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tantalates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2841907090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2842000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres sels des acides ou peroxoacides inorganiques (y compris les aluminosilicates de constitution chimique définie ou non), autres que les azotures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2842100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Silicates doubles ou complexes, y compris les aluminosilicates de constitution chimique définie ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poudre de zéolithe bêta synthétique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poudre de zéolithe synthétique de type chabazite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842100050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fluorphlogopite (CAS|RN|12003-38-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842100060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Aluminosilicate (CAS RN 1318-02-1) avec-une pureté en poids égale ou supérieure à 94 %, -une structure zéolite d'aluminophosphate-18, et-une pureté de phase égale ou supérieure à 90 %destiné à la fabrication de zéolite de cuivre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2842900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2842901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sels simples, doubles ou complexes des acides du sélénium ou du tellure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sélénate de sodium (CAS RN 13410-01-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lithium fer phosphate</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2842907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842907020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sulfate de peroxymonosulfate de potassium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842907040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Rouge de chromate, de molybdate et de sulfate de plomb (C.I. Pigment Red 104) (CAS RN 12656-85-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842907050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Jaune de sulfochromate de plomb (C.I. Pigment Yellow 34) (CAS RN 1344-37-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842907060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Hydroxyoctaoxodizincatedichromate de potassium (CAS RN 11103-86-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2842907080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2843000000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>VI. DIVERS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2843000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Métaux précieux à l'état colloïdal; composés inorganiques ou organiques de métaux précieux, de constitution chimique définie ou non; amalgames de métaux précieux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2843100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Métaux précieux à l'état colloïdal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2843101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Argent</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2843109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2843210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Composés d'argent</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2843210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Nitrate d'argent</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2843290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2843300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Composés d'or</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2843900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres composés; amalgames</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2843901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Amalgames</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2843901010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Amalgames dentaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2843901090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2843909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Éléments chimiques radioactifs et isotopes radioactifs (y compris les éléments chimiques et isotopes fissiles ou fertiles) et leurs composés; mélanges et résidus contenant ces produits</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Uranium naturel et ses composés; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant de l'uranium naturel ou des composés de l'uranium naturel</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844101000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Uranium naturel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>brut; déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ouvré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ferro-uranium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Uranium enrichi en U|235|et ses composés; plutonium et ses composés; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant de l'uranium enrichi en U|235, du plutonium ou des composés de ces produits</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844202500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Uranium enrichi en U|235|et ses composés; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant de l'uranium enrichi en U|235|ou des composés de ces produits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844202500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ferro-uranium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844203500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844205100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plutonium et ses composés; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant du plutonium ou des composés de ces produits</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844205100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélanges d'uranium et de plutonium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844205100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Ferro-uranium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844205900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Uranium appauvri en U|235|et ses composés; thorium et ses composés; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant de l'uranium appauvri en U|235, du thorium ou des composés de ces produits</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844301100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Uranium appauvri en U|235; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant de l'uranium appauvri en U|235|ou des composés de ce produit</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844301100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cermets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844301110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>bruts; déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844301190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844301900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844305100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Thorium; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant du thorium ou des composés de ce produit</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844305100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cermets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844305110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>bruts; déchets et débris</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844305190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844305500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844305500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>brut; déchets et débris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844306100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ouvré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844306100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Barres, profilés, fils, tôles, bandes et feuilles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844306900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844309100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Composés de l'uranium appauvri en U|235, composés du thorium, même mélangés entre eux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844309100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de l'uranium appauvri en U|235, du thorium, même mélangés entre eux , à l'exclusion des sels de thorium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844309900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2844410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Éléments et isotopes et composés radioactifs autres que ceux des n$o$s|2844|10, 2844|20|ou 2844|30; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant ces éléments, isotopes ou composés; résidus radioactifs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tritium et ses composés; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant du tritium ou ses composés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Isotope radioactif artificiel ; composés d'un isotope radioactif artificiel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Actinium-225, actinium-227, californium-253, curium-240, curium- 241, curium-242, curium-243, curium-244, einsteinium-253, einsteinium-254, gadolinium-148, polonium-208, polonium-209, polonium-210, radium-223, uranium-230|ou uranium-232, et leurs composés; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant ces éléments ou composés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844421000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Isotopes radioactifs artificiels ; composés des isotopes radioactifs artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844429000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2844430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autres éléments et isotopes et composés radioactifs; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant ces éléments, isotopes ou composés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844431000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Uranium-233|et ses composés; alliages, dispersions (y compris les cermets), produits céramiques et mélanges renfermant de l'uranium-233|ou ses composés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844432000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Isotopes radioactifs artificiels ; composés des isotopes radioactifs artificiels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844438000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Résidus radioactifs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2844500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Éléments combustibles (cartouches) usés (irradiés) de réacteurs nucléaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2845000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Isotopes autres que ceux du n$o|2844; leurs composés inorganiques ou organiques, de constitution chimique définie ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Eau lourde (oxyde de deutérium)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bore enrichi en bore-10|et ses composés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lithium enrichi en lithium-6|et ses composés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hélium-3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2845900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Deutérium et composés du deutérium; hydrogène et ses composés, enrichis en deutérium; mélanges et solutions contenant ces produits</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2845909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Eau enrichie à 95|% ou plus en poids en oxygène 18|(CAS RN 14314-42-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845909030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>(13|C) Monoxyde de carbone (CAS RN 1641-69-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845909050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oxyde d'ytterbium (CAS RN 1380743-42-9), d'une pureté en poids de 99 % ou plus, enrichi avec au moins 99,0 %, mais pas plus de 99,8 % d'ytterbium-176</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2845909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2846000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Composés, inorganiques ou organiques, des métaux des terres rares, de l'yttrium ou du scandium ou des mélanges de ces métaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2846100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Composés de cérium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Concentré de terres rares contenant en poids 60|% ou plus mais pas plus de 95|% d'oxydes de terres rares et pas plus de 1|% chacun d'oxyde de zirconium, d'oxyde d'aluminium ou d'oxyde de fer, et ayant une perte par calcination de 5|% ou plus en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tricarbonate de dicérium, même hydraté (CAS RN|537-01-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846100030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carbonate de cérium et de lanthane, même hydraté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2846900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Composés du scandium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Composés du lanthane</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2846905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Composés du praséodyme, du néodyme ou du samarium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846905030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés du praséodyme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846905040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés du néodyme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846905050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés du samarium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2846906000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Composés du gadolinium, du terbium ou du dysprosium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846906015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés du gadolinium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846906020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés du terbium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846906025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés du dysprosium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2846907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Composés de l'europium, de l'holmium, de l'erbium, du thulium, de l'ytterbium, du lutétium ou de l'yttrium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846907010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés de l'europium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846907030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés del'holmium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846907035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés de l'erbium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846907040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés du thulium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846907045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés de l'ytterbium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846907050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés du lutétium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846907055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Composés de l'yttrium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2846909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Composés de mélanges de métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2847000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Peroxyde d'hydrogène (eau oxygénée) même solidifié avec de l'urée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2849000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Carbures, de constitution chimique définie ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2849100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de calcium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2849200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de silicium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2849900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2849901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de bore</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2849903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de tungstène</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2849905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'aluminium, de chrome, de molybdène, de vanadium, de tantale, de titane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2849905010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de tantale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2849905090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2849909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2850000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Hydrures, nitrures, azotures, siliciures et borures, de constitution chimique définie ou non, autres que les composés qui constituent également des carbures du n$o|2849</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2850002000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydrures; nitrures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850002010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Silane (CAS RN 7803-62-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850002040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tétrahydrure de germanium (CAS RN 7782-65-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850002060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Disilane (CAS|RN|1590-87-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850002070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Nitrure de bore cubique (CAS|RN|10043-11-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850002080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Arsine (CAS RN 7784-42-1) d'une pureté en volume de 99,999% ou plus, pour la fabrication des semi-conducteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850002090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2850006000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Azotures; siliciures</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2850006010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Azotures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850006010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Azoture de sodium (CAS RN 26628-22-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850006019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2850006091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Siliciures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850006091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Silico-calcium - un composé chimique contenant en poids 16 % ou plus de calcium, 45 % ou plus de silicium, moins de 14 % de fer et pas plus de 10 % de tout autre élément, même présenté en vrac, conditionné en sacs ou en fûts d'acier, enveloppé dans des feuilles d'acier (ou du fil fourré), ou autrement présenté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850006095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2850009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Borures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2852000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Composés inorganiques ou organiques du mercure, de constitution chimique définie ou non, à l'exclusion des amalgames</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2852100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de constitution chimique définie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2852900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2853000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Phosphures, de constitution chimique définie ou non, à l'exclusion des ferrophosphores; autres composés inorganiques (y compris les eaux distillées, de conductibilité ou de même degré de pureté); air liquide (y compris l'air liquide dont les gaz rares ont été éliminés); air comprimé; amalgames autres que de métaux précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2853100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chlorure de cyanogène (chlorcyan)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2853900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2853901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Eaux distillées, de conductibilité ou de même degré de pureté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2853903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Air liquide (y compris l'air liquide dont les gaz rares ont été éliminés); air comprimé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2853909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2853909020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Phosphine (CAS RN 7803-51-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2853909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

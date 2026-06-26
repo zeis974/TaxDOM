@@ -4,15 +4,17 @@
  */
 
 export const controllers = {
-  CalculateParcel: () => import("#controllers/CalculateParcelController"),
-  Categories: () => import("#controllers/CategoriesController"),
-  GetProductTaxes: () => import("#controllers/GetProductTaxesController"),
-  GetTemplates: () => import("#controllers/GetTemplatesController"),
-  Origins: () => import("#controllers/OriginsController"),
-  Products: () => import("#controllers/ProductsController"),
-  SearchConfig: () => import("#controllers/SearchConfigController"),
-  Transporters: () => import("#controllers/TransportersController"),
-  Territories: () => import("#controllers/TerritoriesController"),
-  SearchProducts: () => import("#controllers/SearchProductsController"),
-  TransporterRules: () => import("#controllers/TransporterRulesController"),
+  CalculateParcel: () => import('#controllers/CalculateParcelController'),
+  Categories: () => import('#controllers/CategoriesController'),
+  CustomsNomenclatures: () => import('#controllers/CustomsNomenclaturesController'),
+  GetProductTaxes: () => import('#controllers/GetProductTaxesController'),
+  GetTemplates: () => import('#controllers/GetTemplatesController'),
+  Origins: () => import('#controllers/OriginsController'),
+  Products: () => import('#controllers/ProductsController'),
+  ResolveProductTaxes: () => import('#controllers/ResolveProductTaxesController'),
+  ScrapeProductUrl: () => import('#controllers/ScrapeProductUrlController'),
+  SearchProducts: () => import('#controllers/SearchProductsController'),
+  Territories: () => import('#controllers/TerritoriesController'),
+  TransporterRules: () => import('#controllers/TransporterRulesController'),
+  Transporters: () => import('#controllers/TransportersController'),
 }

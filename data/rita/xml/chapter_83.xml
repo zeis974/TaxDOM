@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 83 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:04</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>8300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OUVRAGES DIVERS EN MÉTAUX COMMUNS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cadenas, serrures et verrous (à clef, à secret ou électriques), en métaux communs; fermoirs et montures-fermoirs comportant une serrure, en métaux communs; clefs pour ces articles, en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cadenas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Serrures des types utilisés pour véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Serrures des types utilisés pour meubles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8301400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres serrures; verrous</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8301401100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Serrures des types utilisés pour portes de bâtiments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301401100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Serrures à cylindres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301401900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres serrures; verrous</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fermoirs et montures-fermoirs comportant une serrure</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8301600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301600030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Claviers en silicone ou plastique, comprenant- des parties en métaux communs et comprenant ou non des parties en plastique, résine époxy renforcée de fibre de verre ou bois,-même imprimés ou traités en surface,-avec ou sans conducteurs électriques,-avec ou sans membrane collée sur le clavier,-avec ou sans pellicule protectrice,-mono- ou multicouche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301600090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8301700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Clefs présentées isolément</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Garnitures, ferrures et articles similaires en métaux communs pour meubles, portes, escaliers, fenêtres, persiennes, carrosseries, articles de sellerie, malles, coffres, coffrets ou autres ouvrages de l'espèce; patères, porte-chapeaux, supports et articles similaires, en métaux communs; roulettes avec monture en métaux communs; ferme-portes automatiques en métaux communs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8302100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Charnières de tous genres (y compris les paumelles et pentures)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Charnière d'accoudoir en magnésium :-d'une longueur de 239mm ou plus, mais n'excédant pas 270mm,-d'une largeur de 150mm ou plus, mais n'excédant pas 175mm,-d'une hauteur de 110mm ou plus, mais n'excédant pas 135mm,-percée de trous de fixation pour accueillir un mécanisme de verrouillage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8302200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Roulettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8302300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres garnitures, ferrures et articles similaires pour véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302300020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Deux supports en acier formé à froid :-d'une longueur de 120mm ou plus, mais n'excédant pas 180mm,-d'une largeur de 50mm ou plus, mais n'excédant pas 80mm-d'une hauteur de 35mm ou plus, mais n'excédant pas 80mm,-pourvus d'une jonction rivetée amovible,-avec ou sans butée en élastomère,-constituant un dispositif qui permet de déplacer indirectement le mécanisme du positionneur longitudinal de sièges de voiture, en interaction avec le verrou de sécurité,-fixés au mécanisme du positionneur longitudinal au moyen d'un raccord à visser amovible, d'un rivet, d'une soudure ou d'une soudure par points</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8302410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres garnitures, ferrures et articles similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8302410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour bâtiments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour portes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302415000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour fenêtres et portes-fenêtres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8302420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, pour meubles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302420010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302420090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8302490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302490010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à des aéronefs civils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8302490091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302490091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Poignée télescopique en aluminium, destinée à être utilisée dans la fabrication de bagages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302490099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Patères, porte-chapeaux, supports et articles similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8302600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ferme-portes automatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302600010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8302600090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8303000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Coffres-forts, portes blindées et compartiments pour chambres fortes, coffres et cassettes de sûreté et articles similaires, en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8303004000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coffres-forts, portes blindées et compartiments pour chambres fortes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8303009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coffrets et cassettes de sûreté et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8304000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Classeurs, fichiers, boîtes de classement, porte-copies, plumiers, porte-cachets et matériel et fournitures similaires de bureau, en métaux communs, à l'exclusion des meubles de bureau du n$o|9403</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8305000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mécanismes pour reliure de feuillets mobiles ou pour classeurs, attache-lettres, coins de lettres, trombones, onglets de signalisation et objets similaires de bureau, en métaux communs; agrafes présentées en barrettes (de bureau, pour tapissiers, emballeurs, par exemple), en métaux communs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8305100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mécanismes pour reliure de feuillets mobiles ou pour classeurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8305100011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mécanismes pour reliure à anneaux composés de deux plaques ou fils en acier, comprenant au moins quatre demi-anneaux en fil d'acier (autres que ceux à 17 ou 23 anneaux), le tout étant maintenu par une plaque de recouvrement en acier; ils s'ouvrent en tirant sur les demi-anneaux ou à l'aide d'un petit dispositif en acier fixé sur le mécanisme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance du Vietnam</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance de la République populaire démocratique du Laos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8305100021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mécanismes pour reliure à anneaux composés de deux plaques ou fils en acier, comprenant 17 ou 23 anneaux en fil d'acier, le tout étant maintenu par une plaque de recouvrement en acier; ils s'ouvrent en tirant sur les demi-anneaux ou à l'aide d'un petit dispositif en acier fixé sur le mécanisme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance du Vietnam</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance de la République populaire démocratique du Laos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8305100036</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Autres mécanismes pour reliure à anneaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100036</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mécanismes pour reliure à anneaux composés de plus de deux plaques ou fils en acier, comprenant au moins quatre demi-anneaux en fil d'acier, le tout étant maintenu par une plaque de recouvrement en acier; ils s'ouvrent en tirant sur les demi-anneaux ou à l'aide d'un petit dispositif en acier fixé sur le mécanisme</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8305100037</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mécanismes pour reliure à anneaux composés de deux plaques ou fils en acier, comprenant au moins quatre demi-anneaux en fil d'acier (autres que ceux à 17 ou 23 anneaux), le tout étant maintenu par une plaque de recouvrement en acier; ils s'ouvrent en tirant sur les demi-anneaux ou à l'aide d'un petit dispositif en acier fixé sur le mécanisme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100037</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance du Vietnam</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100038</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de la République populaire démocratique du Laos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8305100040</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mécanismes pour reliure à anneaux composés de deux plaques ou fils en acier, comprenant 17 ou 23 anneaux en fil d'acier, le tout étant maintenu par une plaque de recouvrement en acier; ils s'ouvrent en tirant sur les demi-anneaux ou à l'aide d'un petit dispositif en acier fixé sur le mécanisme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance du Vietnam</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100041</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de la République populaire démocratique du Laos</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100042</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100049</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mécanismes à levier en forme d'arceau utilisés pour l'archivage de feuillets et d'autres documents dans des reliures ou dossier se composant d'arceaux mécaniques robustes (normalement deux) fixés sur un support et dotés d'au moins un dispositif d'ouverture permettant d'insérer et de classer des feuillets et d'autres documents</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305100099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Agrafes présentées en barrettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8305900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8306000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cloches, sonnettes, gongs et articles similaires, non électriques, en métaux communs; statuettes et autres objets d'ornement, en métaux communs; cadres pour photographies, gravures ou similaires, en métaux communs; miroirs en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8306100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cloches, sonnettes, gongs et articles similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8306210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Statuettes et autres objets d'ornement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8306210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>argentés, dorés ou platinés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8306290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8306300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cadres pour photographies, gravures ou similaires; miroirs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8307000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tuyaux flexibles en métaux communs, même avec leurs accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8307100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en fer ou en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8307100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8307100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8307900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en autres métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8307900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>munis d'accessoires, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8307900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8308000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fermoirs, montures-fermoirs, boucles, boucles-fermoirs, agrafes, crochets, oeillets et articles similaires, en métaux communs, pour vêtements ou accessoires du vêtement, chaussures, bijouterie, bracelets-montres, livres, bâches, maroquinerie, sellerie, articles de voyage ou pour toutes confections; rivets tubulaires ou à tige fendue, en métaux communs; perles et paillettes découpées, en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8308100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Agrafes, crochets et oeillets</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8308200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rivets tubulaires ou à tige fendue</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8308200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8308200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8308900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8308900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Perles et paillettes découpées, faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8308900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8309000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bouchons (y compris les bouchons-couronnes, les bouchons à pas de vis et les bouchons-verseurs), couvercles, capsules pour bouteilles, bondes filetées, plaques de bondes, scellés et autres accessoires pour l'emballage, en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8309100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bouchons-couronnes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8309900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8309901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Capsules de bouchage ou de surbouchage en plomb, pour bouteilles; capsules de bouchage ou surbouchage en aluminium, d'un diamètre excédant 21|mm, pour bouteilles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8309909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8309909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fonds de boîtes en aluminium: -|d'un diamètre de 99,00mm ou plus, mais n'excédant pas 136,5|mm (±1|mm), -|pourvus ou non d'une ouverture à "anneau tracteur"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8309909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8310000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaques indicatrices, plaques-enseignes, plaques-adresses et plaques similaires, chiffres, lettres et enseignes diverses, en métaux communs, à l'exclusion de ceux du n$o|9405</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8311000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fils, baguettes, tubes, plaques, électrodes et articles similaires, en métaux communs ou en carbures métalliques, enrobés ou fourrés de décapants ou de fondants, pour brasage, soudage ou dépôt de métal ou de carbures métalliques; fils et baguettes en poudres de métaux communs agglomérés, pour la métallisation par projection</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8311100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Électrodes enrobées pour le soudage à l'arc, en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8311200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils fourrés pour le soudage à l'arc, en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8311300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Baguettes enrobées et fils fourrés pour le brasage ou le soudage à la flamme, en métaux communs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8311900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

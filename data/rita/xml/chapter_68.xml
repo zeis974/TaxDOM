@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 68 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:52</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>6800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OUVRAGES EN PIERRES, PLÂTRE, CIMENT, AMIANTE, MICA OU MATIÈRES ANALOGUES</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pavés, bordures de trottoirs et dalles de pavage, en pierres naturelles (autres que l'ardoise)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pierres de taille ou de construction (autres que l'ardoise) travaillées et ouvrages en ces pierres, à l'exclusion de ceux du n° 6801; cubes, dés et articles similaires pour mosaïques, en pierres naturelles (y compris l'ardoise), même sur support; granulés, éclats et poudres de pierres naturelles (y compris l'ardoise), colorés artificiellement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carreaux, cubes, dés et articles similaires, même de forme autre que carrée ou rectangulaire, dont la plus grande surface peut être inscrite dans un carré dont le côté est inférieur à 7|cm; granulés, éclats et poudres, colorés artificiellement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6802210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres pierres de taille ou de construction et ouvrages en ces pierres, simplement taillés ou sciés et à surface plane ou unie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Marbre, travertin et albâtre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Granit</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres pierres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6802910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6802910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Marbre, travertin et albâtre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sculptés à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6802920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres pierres calcaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802920010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sculptés à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802920090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6802930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Granit</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802931000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>poli, décoré ou autrement travaillé, mais non sculpté, d'un poids net égal ou supérieur à 10|kg</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6802939000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802939010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sculptés à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802939090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6802990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres pierres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>polies, décorées ou autrement travaillées, mais non sculptées, d'un poids net égal ou supérieur à 10|kg</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6802999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>sculptées à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6802999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6803000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ardoise naturelle travaillée et ouvrages en ardoise naturelle ou agglomérée (ardoisine)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6803001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ardoise pour toitures ou pour façades</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6803009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Meules et articles similaires, sans bâtis, à moudre, à défibrer, à broyer, à aiguiser, à polir, à rectifier, à trancher ou à tronçonner, pierres à aiguiser ou à polir à la main, et leurs parties, en pierres naturelles, en abrasifs naturels ou artificiels agglomérés ou en céramique, même avec parties en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Meules à moudre ou à défibrer</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6804210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres meules et articles similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6804210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en diamant naturel ou synthétique, aggloméré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804210020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Disques-|en diamants synthétiques agglomérés avec un alliage métallique, un alliage céramique ou un alliage plastique,-|présentant un effet d'auto-affûtage grâce à la libération constante des diamants,-|adaptés à la découpe par abrasion de dispositifs à semi-conducteurs ("wafers"),-|perforés au centre, ou non-|même présentés sur un support-|d'un poids inférieur ou égal à 377|g par pièce-|d'un diamètre extérieur n'excédant pas 206|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804210040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fil d'acier utilisé pour le découpage en tranches et en plaquettes des semi-conducteurs:-recouvert de grains diamantés de 5 µm ou plus mais n'excédant pas 55 µm,-d'un diamètre de fil de 23 µm ou plus mais n'excédant pas 350 µm,-d'une résistance à la rupture de 11 N ou plus mais n'excédant pas 170 N</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6804220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres abrasifs agglomérés ou en céramique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6804221200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en abrasifs artificiels, avec agglomérant</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6804221200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en résines synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804221200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>non renforcés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804221800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>renforcés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804223000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en céramique ou en silicates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804225000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en pierres naturelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6804300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pierres à aiguiser ou à polir à la main</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6805000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Abrasifs naturels ou artificiels en poudre ou en grains, appliqués sur produits textiles, papier, carton ou autres matières, même découpés, cousus ou autrement assemblés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6805100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>appliqués sur tissus en matières textiles seulement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6805200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>appliqués sur papier ou carton seulement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6805300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>appliqués sur d'autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Laines de laitier, de scories, de roche et laines minérales similaires; vermiculite expansée, argiles expansées, mousse de scories et produits minéraux similaires expansés; mélanges et ouvrages en matières minérales à usages d'isolants thermiques ou sonores ou pour l'absorption du son, à l'exclusion de ceux des n$o$s|6811, 6812|ou du chapitre|69</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6806100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Laines de laitier, de scories, de roche et laines minérales similaires, même mélangées entre elles, en masses, feuilles ou rouleaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6806200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vermiculite expansée, argiles expansées, mousse de scories et produits minéraux similaires expansés, même mélangés entre eux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6806201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Argiles expansées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6806209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6806900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6807000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages en asphalte ou en produits similaires (poix de pétrole, brais, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6807100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en rouleaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6807900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6808000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Panneaux, planches, carreaux, blocs et articles similaires, en fibres végétales, en paille ou en copeaux, plaquettes, particules, sciures ou autres déchets de bois, agglomérés avec du ciment, du plâtre ou d'autres liants minéraux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6809000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages en plâtre ou en compositions à base de plâtre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6809110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Planches, plaques, panneaux, carreaux et articles similaires, non ornementés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6809110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>revêtus ou renforcés de papier ou de carton uniquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6809190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6809900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres ouvrages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6810000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages en ciment, en béton ou en pierre artificielle, même armés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6810110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tuiles, carreaux, dalles, briques et articles similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6810110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Blocs et briques pour la construction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6810111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en béton léger (à base de bimskies, de scories granulées, etc.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6810119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6810190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6810910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres ouvrages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6810910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Éléments préfabriqués pour le bâtiment ou le génie civil</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6810990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6811000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages en amiante-ciment, cellulose-ciment ou similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6811400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant de l'amiante</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6811810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>ne contenant pas d'amiante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6811810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plaques ondulées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6811820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres plaques, panneaux, carreaux, tuiles et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6811890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres ouvrages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6812000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Amiante (asbeste) travaillé, en fibres; mélanges à base d'amiante ou à base d'amiante et de carbonate de magnésium; ouvrages en ces mélanges ou en amiante (fils, tissus, vêtements, coiffures, chaussures, joints, par exemple), même armés, autres que ceux des n$o$s|6811|ou 6813</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6812800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en crocidolite</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6812801000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en fibres, travaillé; mélanges à base d'amiante ou à base d'amiante et de carbonate de magnésium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812801010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812801090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6812809000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812809010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812809090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6812910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Vêtements, accessoires du vêtement, chaussures et coiffures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6812990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6812991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Amiante travaillé, en fibres; mélanges à base d'amiante ou à base d'amiante et de carbonate de magnésium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812991010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812991090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6812999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6812999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6813000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Garnitures de friction (plaques, rouleaux, bandes, segments, disques, rondelles, plaquettes, par exemple), non montées, pour freins, pour embrayages ou pour tous organes de frottement, à base d'amiante (asbeste), d'autres substances minérales ou de cellulose, même combinés avec des textiles ou d'autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6813200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant de l'amiante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6813200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6813200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6813810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>ne contenant pas d'amiante</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6813810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Garnitures de freins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6813810010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6813810090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6813890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6813890005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6813890020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6813890020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Garnitures de friction, d'une épaisseur inférieure à 20|mm, non montées, destinées à la fabrication de composants de friction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6813890090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6814000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mica travaillé et ouvrages en mica, y compris le mica aggloméré ou reconstitué, même sur support en papier, en carton ou en autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6814100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plaques, feuilles et bandes en mica aggloméré ou reconstitué, même sur support</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6814100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mica aggloméré d'une épaisseur n'excédant pas|0,15|mm, sur des rouleaux, calciné ou non, renforcé ou non par des fibres aramides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6814100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6814900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>6815000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages en pierre ou en autres matières minérales (y compris les fibres de carbone, les ouvrages en ces matières et en tourbe), non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6815110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fibres de carbone; ouvrages en fibres de carbone pour usages autres qu'électriques; autres ouvrages en graphite ou autre carbone pour usages autres qu'électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6815110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fibres de carbone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6815120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Textiles en fibres de carbone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6815130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres ouvrages en fibres de carbone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6815190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6815200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ouvrages en tourbe</Description>
+</ligne><ligne><Type>2</Type>
+<Code>6815910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres ouvrages</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6815910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de la magnésite, de la magnésie sous forme de périclase, de la dolomie y compris sous forme de chaux dolomitique, ou de la chromite</Description>
+</ligne><ligne><Type>1</Type>
+<Code>6815990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

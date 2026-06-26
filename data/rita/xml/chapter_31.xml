@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 31 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:24</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>ENGRAIS</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Engrais d'origine animale ou végétale, même mélangés entre eux ou traités chimiquement; engrais résultant du mélange ou du traitement chimique de produits d'origine animale ou végétale</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Engrais minéraux ou chimiques azotés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3102100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Urée, même en solution aqueuse</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3102101200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Urée d'une teneur en azote supérieure à 45|% en poids du produit anhydre à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102101200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>En solution aqueuse, contenant au moins 31,8|% mais n'excédant pas 33,2|% en poids d'urée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102101500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>En solution aqueuse, contenant plus de 33,2|% mais n'excédant pas 55|% en poids d'urée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3102210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sulfate d'ammonium; sels doubles et mélanges de sulfate d'ammonium et de nitrate d'ammonium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sulfate d'ammonium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3102290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102290010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3102300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Nitrate d'ammonium, même en solution aqueuse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en solution aqueuse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3102400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mélanges de nitrate d'ammonium et de carbonate de calcium ou d'autres matières inorganiques dépourvues de pouvoir fertilisant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en azote n'excédant pas 28|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en azote excédant 28|% en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3102500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Nitrate de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102500010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Nitrate de sodium naturel du Chili</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102500089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3102600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sels doubles et mélanges de nitrate de calcium et de nitrate d'ammonium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102600010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102600090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mélanges d'urée et de nitrate d'ammonium en solutions aqueuses ou ammoniacales</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3102900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les mélanges non visés dans les sous-positions précédentes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3102900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Engrais minéraux ou chimiques phosphatés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3103110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Superphosphates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3103110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en poids 35|% ou plus de pentaoxyde de diphosphore (P@2O@5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3103190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3103900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Engrais minéraux ou chimiques potassiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3104200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chlorure de potassium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3104201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en potassium évalué en K@2O n'excédant pas 40|% en poids du produit anhydre à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3104205000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en potassium évalué en K@2O excédant 40|% mais n'excédant pas 62|% en poids du produit anhydre à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3104209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en potassium évalué en K@2O excédant 62|% en poids du produit anhydre à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3104300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sulfate de potassium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3104900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Engrais minéraux ou chimiques contenant deux ou trois des éléments fertilisants: azote, phosphore et potassium; autres engrais; produits du présent chapitre présentés soit en tablettes ou formes similaires, soit en emballages d'un poids brut n'excédant pas 10|kg</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits du présent chapitre présentés soit en tablettes ou formes similaires, soit en emballages d'un poids brut n'excédant pas 10|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids, ne contenant ni phosphore ni potassium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105100020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80 % en poids et une teneur en phosphore évalué comme P¿O¿ et/ou une teneur en potassium évalué comme K¿O de moins de 3 % en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105100030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 et/ou une teneur en potassium évalué comme K@2O de 3% en poids ou plus mais de moins de 6% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105100040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 et/ou une teneur en potassium évalué comme K@2O de 6% en poids ou plus mais de moins de 9% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105100050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 et/ou une teneur en potassium évalué comme K@2O de 9% en poids ou plus mais de moins de 12% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Engrais minéraux ou chimiques contenant les trois éléments fertilisants: azote, phosphore et potassium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en azote excédant 10|% en poids du produit anhydre à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105201030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 et une teneur en potassium évalué comme K@2O de moins de 3% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105201040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 et une teneur en potassium évalué comme K@2O de 3% en poids ou plus mais de moins de 6% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105201050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 et une teneur en potassium évalué comme K@2O de 6% en poids ou plus mais de moins de 9% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105201060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 et une teneur en potassium évalué comme K@2O de 9% en poids ou plus mais de moins de 12% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105201090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Hydrogénoorthophosphate de diammonium (phosphate diammonique)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dihydrogénoorthophosphate d'ammonium (phosphate monoammonique), même en mélange avec l'hydrogénoorthophosphate de diammonium (phosphate diammonique)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3105510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres engrais minéraux ou chimiques contenant les deux éléments fertilisants: azote et phosphore</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des nitrates et des phosphates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105510010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 de moins de 3% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105510020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 de 3% en poids ou plus mais de moins de 6% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105510030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 de 6% en poids ou plus mais de moins de 9% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105510040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 de 9% en poids ou plus mais de moins de 10,40% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105510090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105590010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 de moins de 3% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105590020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P@2O@5 de 3% en poids ou plus mais de moins de 6% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105590030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P¿O¿ de 6% en poids ou plus mais de moins de 9% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105590040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en phosphore évalué comme P¿O¿ de 9% en poids ou plus mais de moins de 10,40% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105590090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Engrais minéraux ou chimiques contenant les deux éléments fertilisants: phosphore et potassium</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en azote supérieure à 10|% en poids du produit anhydre à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105902010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Nitrate de sodium potassique naturel du Chili, consistant en un mélange naturel de nitrate de sodium et de nitrate de potassium (la proportion de potassium pouvant atteindre 44|%), d'une teneur globale en azote n'excédant pas 16,30|% en poids du produit anhydre à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105902030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en potassium évalué comme K@2O de moins de 3% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105902040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids en poids et une teneur en potassium évalué comme K@2O de 3% ou plus mais de moins de 6% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105902050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en potassium évalué comme K@2O de 6% en poids ou plus mais de moins de 9% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105902060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Engrais solides ayant une teneur en nitrate d'ammonium excédant 80% en poids et une teneur en potassium évalué comme K@2O de 9% en poids ou plus mais de moins de 12% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105902090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3105908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105908010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Nitrate de sodium potassique naturel du Chili, consistant en un mélange naturel de nitrate de sodium et de nitrate de potassium (la proportion de potassium pouvant atteindre 44|%), d'une teneur globale en azote n'excédant pas 16,30|% en poids du produit anhydre à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3105908090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

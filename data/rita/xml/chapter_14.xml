@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 14 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:10</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>MATIÈRES À TRESSER ET AUTRES PRODUITS D'ORIGINE VÉGÉTALE, NON DÉNOMMÉS NI COMPRIS AILLEURS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Matières végétales des espèces principalement utilisées en vannerie ou en sparterie (bambous, rotins, roseaux, joncs, osiers, raphia, pailles de céréales nettoyées, blanchies ou teintes, écorces de tilleul, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1401100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bambous</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1401200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rotins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1401900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits végétaux non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1404200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Linters de coton</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1404900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1404900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Feuilles de bétel (Piper betle L.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1404900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

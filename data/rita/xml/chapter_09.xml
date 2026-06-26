@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 09 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:07</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>0900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>CAFÉ, THÉ, MATÉ ET ÉPICES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0901000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Café, même torréfié ou décaféiné; coques et pellicules de café; succédanés du café contenant du café, quelles que soient les proportions du mélange</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0901110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Café non torréfié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0901110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non décaféiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0901120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>décaféiné</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0901210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Café torréfié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0901210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non décaféiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0901220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>décaféiné</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0901900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0901901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Coques et pellicules de café</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0901909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Succédanés du café contenant du café</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0902000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Thé, même aromatisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0902100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Thé vert (non fermenté) présenté en emballages immédiats d'un contenu n'excédant pas 3|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0902200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Thé vert (non fermenté) présenté autrement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0902300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Thé noir (fermenté) et thé partiellement fermenté, présentés en emballages immédiats d'un contenu n'excédant pas 3|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0902400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Thé noir (fermenté) et thé partiellement fermenté, présentés autrement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0903000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Maté</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0904000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Poivre du genre Piper; piments du genre Capsicum ou du genre Pimenta, séchés ou broyés ou pulvérisés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0904110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poivre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0904110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyé ni pulvérisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poivre noir (Piper)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyé ou pulvérisé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0904210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Piments du genre Capsicum ou du genre Pimenta</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0904210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>séchés, non broyés ni pulvérisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Piments doux ou poivrons (Capsicum annuum)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0904219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904219020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Piments (doux et autres) (Capsicum spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904219080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0904220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyés ou pulvérisés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0904220011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Piments (doux et autres) (Capsicum spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904220011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Piments doux ou poivrons (Capsicum annuum)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904220019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0904220090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vanille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0905100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non broyée ni pulvérisée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0905200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>broyée ou pulvérisée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0906000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cannelle et fleurs de cannelier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0906110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non broyées ni pulvérisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0906110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cannelle (Cinnamomum zeylanicum Blume)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0906190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0906200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>broyées ou pulvérisées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0907000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Girofles (antofles, clous et griffes)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0907100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non broyées ni pulvérisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0907200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>broyées ou pulvérisées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0908000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Noix muscades, macis, amomes et cardamomes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0908110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Noix muscades</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0908110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyées ni pulvérisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0908120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyées ou pulvérisées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0908210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Macis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0908210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyés ni pulvérisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0908220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyés ou pulvérisés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0908310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Amomes et cardamomes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0908310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyés ni pulvérisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0908320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyés ou pulvérisés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0909000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graines d'anis, de badiane, de fenouil, de coriandre, de cumin, de carvi; baies de genièvre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0909210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de coriandre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0909210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyées ni pulvérisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0909220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyées ou pulvérisées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0909310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines de cumin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0909310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyées ni pulvérisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0909320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyées ou pulvérisées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0909610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graines d'anis, de badiane, de carvi, de fenouil; baies de genièvre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0909610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyées ni pulvérisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0909620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyées ou pulvérisées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0910000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gingembre, safran, curcuma, thym, feuilles de laurier, curry et autres épices</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0910110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gingembre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyé ni pulvérisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyé ou pulvérisé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0910200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Safran</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non broyé ni pulvérisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>broyé ou pulvérisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Curcuma</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0910910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres épices</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0910910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélanges visés à la note|1, point|b), du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910910500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Curry</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0910911000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non broyés ni pulvérisés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>broyés ou pulvérisés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0910990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Graines de fenugrec</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0910993100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Thym</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0910993100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non broyé ni pulvérisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910993100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Serpolet (Thymus serpyllum L.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910993300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910993900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>broyé ou pulvérisé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles de laurier</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0910999100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910999100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non broyées ni pulvérisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0910999900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>broyées ou pulvérisées</Description>
+</ligne></contenu></table>

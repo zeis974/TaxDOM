@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router"
 import { Suspense } from "react"
 import LoadingFallback from "@/components/Dashboard/shared/LoadingFallback"
 import Territories from "@/components/Dashboard/Territories"
+import { ErrorComponent } from "@/components/ErrorComponent"
 import { api, queryClient } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/territories")({
@@ -9,6 +10,7 @@ export const Route = createFileRoute("/_dashboard-layout/territories")({
     const territories = await queryClient.ensureQueryData(api.territories.index.queryOptions())
     return { territories }
   },
+  errorComponent: ErrorComponent,
   component: TerritoriesPage,
 })
 

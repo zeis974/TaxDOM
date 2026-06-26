@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 41 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:31</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>4100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PEAUX (AUTRES QUE LES PELLETERIES) ET CUIRS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuirs et peaux bruts de bovins (y compris les buffles) ou d'équidés (frais, ou salés, séchés, chaulés, picklés ou autrement conservés, mais non tannés ni parcheminés ni autrement préparés), même épilés ou refendus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4101200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cuirs et peaux bruts entiers, non refendus, d'un poids unitaire n'excédant pas 8|kg lorsqu'ils sont secs, 10|kg lorsqu'ils sont salés secs et 16|kg lorsqu'ils sont frais, salés verts ou autrement conservés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>salés verts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101205000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>séchés ou salés secs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4101500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cuirs et peaux bruts entiers, d'un poids unitaire excédant 16|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101503000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>salés verts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101505000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>séchés ou salés secs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4101900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les croupons, demi-croupons et flancs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Peaux brutes d'ovins (fraîches, ou salées, séchées, chaulées, picklées ou autrement conservées, mais non tannées ni parcheminées ni autrement préparées), même épilées ou refendues, autres que celles exclues par la note|1, point|c), du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4102100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>lainées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4102101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'agneaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4102109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres ovins</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4102210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>épilées ou sans laine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4102210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>picklées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4102290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres cuirs et peaux bruts (frais, ou salés, séchés, chaulés, picklés ou autrement conservés, mais non tannés ni parcheminés ni autrement préparés), même épilés ou refendus, autres que ceux exclus par les notes|1, point|b), ou 1, point|c), du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4103200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de reptiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4103300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de porcins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4103900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuirs et peaux tannés ou en croûte de bovins (y compris les buffles) ou d'équidés, épilés, même refendus, mais non autrement préparés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à l'état humide (y compris wet-blue)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4104110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pleine fleur, non refendue; côtés fleur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cuirs et peaux entiers de bovins (y compris les buffles), d'une surface unitaire n'excédant pas 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104115100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104115100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bovins (y compris les buffles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104115100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuirs et peaux entiers, d'une surface unitaire excédant 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104115900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4104190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cuirs et peaux entiers de bovins (y compris les buffles), d'une surface unitaire n'excédant pas 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104195100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104195100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bovins (y compris les buffles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104195100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuirs et peaux entiers, d'une surface unitaire excédant 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104195900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à l'état sec (en croûte)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4104410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pleine fleur, non refendue; côtés fleur</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104411100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cuirs et peaux entiers de bovins (y compris les buffles), d'une surface unitaire n'excédant pas 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104411100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de vachettes des Indes ("kips"), entiers ou même dépourvus de la tête et des pattes, d'un poids net par unité inférieur ou égal à 4,5|kg, simplement tannés à l'aide de substances végétales, même ayant subi certains traitements mais manifestement non utilisables, en l'état, pour la fabrication d'ouvrages en cuir</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4104411900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104411910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuirs de buffles, refendus, tannés au chrome, retannage synthétique (''crust'') à l'état sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104411990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104415100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104415100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bovins (y compris les buffles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104415100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuirs et peaux entiers, d'une surface unitaire excédant 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104415900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4104490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104491100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cuirs et peaux entiers de bovins (y compris les buffles), d'une surface unitaire n'excédant pas 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104491100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de vachettes des Indes ("kips"), entiers ou même dépourvus de la tête et des pattes, d'un poids net par unité inférieur ou égal à 4,5|kg, simplement tannés à l'aide de substances végétales, même ayant subi certains traitements mais manifestement non utilisables, en l'état, pour la fabrication d'ouvrages en cuir</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104491900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104495100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4104495100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bovins (y compris les buffles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104495100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cuirs et peaux entiers, d'une surface unitaire excédant 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104495900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4104499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Peaux tannées ou en croûte d'ovins, épilées, même refendues, mais non autrement préparées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4105100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à l'état humide (y compris wet-blue)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4105300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à l'état sec (en croûte)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4105301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de métis des Indes, à prétannage végétal, même ayant subi certains traitements, mais manifestement non utilisables, en l'état, pour la fabrication d'ouvrages en cuir</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4105309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4106000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuirs et peaux épilés d'autres animaux et peaux d'animaux dépourvus de poils, tannés ou en croûte, même refendus, mais non autrement préparés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4106210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de caprins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à l'état humide (y compris wet-blue)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4106220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à l'état sec (en croûte)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de chèvres des Indes, à prétannage végétal, même ayant subi certains traitements mais manifestement non utilisables, en l'état, pour la fabrication d'ouvrages en cuir</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4106310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de porcins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4106310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à l'état humide (y compris wet-blue)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106310010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non refendus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106310090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>refendus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à l'état sec (en croûte)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4106400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de reptiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à prétannage végétal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4106910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à l'état humide (y compris wet-blue)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4106920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à l'état sec (en croûte)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4107000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuirs préparés après tannage ou après dessèchement et cuirs et peaux parcheminés, de bovins (y compris les buffles) ou d'équidés, épilés, même refendus, autres que ceux du n$o|4114</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4107110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cuirs et peaux entiers</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4107110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pleine fleur, non refendue</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4107111100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cuirs et peaux entiers de bovins (y compris les buffles), d'une surface unitaire n'excédant pas 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107111100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Box-calf</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107111900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4107120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>côtés fleur</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4107121100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cuirs et peaux entiers de bovins (y compris les buffles), d'une surface unitaire n'excédant pas 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107121100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Box-calf</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107121900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4107129100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107129100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bovins (y compris les buffles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107129900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'équidés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4107190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cuirs et peaux entiers de bovins (y compris les buffles), d'une surface unitaire n'excédant pas 28|pieds carrés (2,6|m$2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4107910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris les bandes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4107910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pleine fleur, non refendue</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour semelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4107920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>côtés fleur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bovins (y compris les buffles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'équidés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4107990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de bovins (y compris les buffles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4107999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'équidés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4112000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuirs préparés après tannage ou après dessèchement et cuirs et peaux parcheminés, d'ovins, épilés, même refendus, autres que ceux du n$o|4114</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4113000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuirs préparés après tannage ou après dessèchement et cuirs et peaux parcheminés, d'autres animaux, épilés, et cuirs préparés après tannage et cuirs et peaux parcheminés, d'animaux dépourvus de poils, même refendus, autres que ceux du n$o|4114</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4113100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de caprins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4113200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de porcins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4113300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de reptiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4113900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4114000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuirs et peaux chamoisés (y compris le chamois combiné); cuirs et peaux vernis ou plaqués; cuirs et peaux métallisés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4114100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cuirs et peaux chamoisés (y compris le chamois combiné)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4114101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'ovins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4114109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres animaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4114200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cuirs et peaux vernis ou plaqués; cuirs et peaux métallisés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4115000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuir reconstitué, à base de cuir ou de fibres de cuir, en plaques, feuilles ou bandes même enroulées; rognures et autres déchets de cuirs ou de peaux préparés ou de cuir reconstitué, non utilisables pour la fabrication d'ouvrages en cuir; sciure, poudre et farine de cuir</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4115100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cuir reconstitué, à base de cuir ou de fibres de cuir, en plaques, feuilles ou bandes même enroulées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4115200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rognures et autres déchets de cuirs ou de peaux préparés ou de cuir reconstitué, non utilisables pour la fabrication d'ouvrages en cuir; sciure, poudre et farine de cuir</Description>
+</ligne></contenu></table>

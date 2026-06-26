@@ -22,18 +22,18 @@ const StyledButton = styled.button`
   cursor: pointer;
   font-weight: bold;
   transition: 150ms;
-  background: token(colors.darkGray);
+  background: token(colors.surface);
   border-radius: 5px;
   border: 2px solid transparent;
 
   & > svg {
-    color: token(colors.primary);
+    color: token(colors.foreground);
     animation: rotate 2s linear infinite;
   }
 
   &:hover:not([disabled]),
-  &:hover:not([aria-disabled])  {
-    border: 2px solid token(colors.darkGray);
+  &:hover:not([aria-disabled]) {
+    border: 2px solid token(colors.surface);
     background: none;
   }
 

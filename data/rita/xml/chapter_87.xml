@@ -1,0 +1,2948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 87 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:07</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>8700000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>VOITURES AUTOMOBILES, TRACTEURS, CYCLES ET AUTRES VÉHICULES TERRESTRES, LEURS PARTIES ET ACCESSOIRES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tracteurs (à l'exclusion des chariots-tracteurs du n$o|8709)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tracteurs à essieu simple</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8701210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tracteurs routiers pour semi-remorques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>uniquement à moteur à piston à allumage par compression (diesel ou semi-diesel)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par compression (diesel ou semi-diesel) et d'un moteur électrique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par étincelles et d'un moteur électrique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>uniquement à moteur électrique pour la propulsion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701241000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701249000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tracteurs à chenilles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8701910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, d'une puissance de moteur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>n'excédant pas 18|kW</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tracteurs agricoles et tracteurs forestiers, à roues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 18|kW mais n'excédant pas 37|kW</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tracteurs agricoles et tracteurs forestiers, à roues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 37|kW mais n'excédant pas 75|kW</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701931000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tracteurs agricoles et tracteurs forestiers, à roues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701939000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 75|kW mais n'excédant pas 130|kW</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701941000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tracteurs agricoles et tracteurs forestiers, à roues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701949000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8701950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>excédant 130|kW</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701951000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tracteurs agricoles et tracteurs forestiers, à roues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8701959000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8702000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Véhicules automobiles pour le transport de dix personnes ou plus, chauffeur inclus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8702100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>uniquement à moteur à piston à allumage par compression (diesel ou semi-diesel)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8702101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 2|500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8702109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée n'excédant pas 2|500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8702200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par compression (diesel ou semi-diesel) et d'un moteur électrique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 2|500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée n'excédant pas 2|500|cm$3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8702300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par étincelles et d'un moteur électrique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 2|800|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée n'excédant pas 2|800|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>uniquement à moteur électrique pour la propulsion</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8702900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8702901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à moteur à piston à allumage par étincelles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8702901100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une cylindrée excédant 2|800|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8702903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une cylindrée n'excédant pas 2|800|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702903900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8702909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Voitures de tourisme et autres véhicules automobiles principalement conçus pour le transport de personnes (autres que ceux du n$o|8702), y compris les voitures du type "break" et les voitures de course</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Véhicules spécialement conçus pour se déplacer sur la neige; véhicules spéciaux pour le transport de personnes sur les terrains de golf et véhicules similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Véhicules spécialement conçus pour se déplacer sur la neige, à moteur à piston à allumage par compression (diesel ou semi-diesel) ou à moteur à piston à allumage par étincelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703101800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8703210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres véhicules, uniquement à moteur à piston à allumage par étincelles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée n'excédant pas 1|000|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 1|000|cm$3|mais n'excédant pas 1|500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 1|500|cm$3|mais n'excédant pas 3|000|cm$3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8703231100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703231100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Caravanes automotrices</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703231900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 3|000|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703241000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703249000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8703310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres véhicules, uniquement à moteur à piston à allumage par compression (diesel ou semi-diesel)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée n'excédant pas 1|500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703311000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703319000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 1|500|cm$3|mais n'excédant pas 2|500|cm$3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8703321100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703321100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Caravanes automotrices</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703321900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 2|500|cm$3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8703331100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703331100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Caravanes automotrices</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703331900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703339000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres véhicules, équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par étincelles et d'un moteur électrique, autres que ceux pouvant être chargés en se branchant à une source externe d'alimentation électrique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703401010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une cylindrée n'excédant pas 1|000|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703401090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703409010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une cylindrée n'excédant pas 1|000|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703409090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres véhicules, équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par compression (diesel ou semi-diesel) et d'un moteur électrique, autres que ceux pouvant être chargés en se branchant à une source externe d'alimentation électrique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres véhicules, équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par étincelles et d'un moteur électrique, pouvant être chargés en se branchant à une source externe d'alimentation électrique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703601000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703601010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une cylindrée n'excédant pas 1|000|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703601090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703609000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703609010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une cylindrée n'excédant pas 1|000|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703609090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres véhicules, équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par compression (diesel ou semi-diesel) et d'un moteur électrique, pouvant être chargés en se branchant à une source externe d'alimentation électrique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres véhicules, équipés uniquement d'un moteur électrique pour la propulsion</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8703801000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703801010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Véhicules électriques à batterie neufs, principalement conçus pour le transport de neuf personnes ou moins, y compris le conducteur, à l'exclusion des véhicules de catégorie L conformément au règlement (UE) nº 168/2013 et des motocycles, propulsés (quel que soit le nombre de roues en mouvement) uniquement par un ou plusieurs moteurs électriques, y compris ceux avec un prolongateur d'autonomie à combustion interne (groupe auxiliaire de puissance)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703801090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703809000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8703900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Véhicules automobiles pour le transport de marchandises</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tombereaux automoteurs conçus pour être utilisés en dehors du réseau routier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à moteur à piston à allumage par compression (diesel ou semi-diesel) ou par étincelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres, uniquement à moteur à piston à allumage par compression (diesel ou semi-diesel)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal n'excédant pas 5|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704213100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704213100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à moteur d'une cylindrée excédant 2|500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704213100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704213900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704219100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à moteur d'une cylindrée n'excédant pas 2|500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704219100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704219900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal excédant 5|tonnes mais n'excédant pas 20|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704229100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704229100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704229900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal excédant 20|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704239100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704239100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704239900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres, uniquement à moteur à piston à allumage par étincelles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal n'excédant pas 5|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704311000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704313100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704313100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à moteur d'une cylindrée excédant 2|800|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704313100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704313900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704319100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à moteur d'une cylindrée n'excédant pas 2|800|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704319100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704319900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal excédant 5|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704329100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704329100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704329900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres, équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par compression (diesel ou semi-diesel) et d'un moteur électrique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal n'excédant pas 5|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704413100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704413100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à moteur d'une cylindrée excédant 2 500 cm³</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704413100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704413900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704419100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à moteur d'une cylindrée n'excédant pas 2 500 cm³</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704419100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704419900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal excédant 5|tonnes mais n'excédant pas 20|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704421000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704429100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704429100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704429900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal excédant 20|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704431000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704439100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704439100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704439900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres, équipés à la fois, pour la propulsion, d'un moteur à piston à allumage par étincelles et d'un moteur électrique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal n'excédant pas 5|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704511000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704513100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704513100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à moteur d'une cylindrée excédant 2 800 cm³</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704513100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704513900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704519100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à moteur d'une cylindrée n'excédant pas 2 800 cm³</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704519100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704519900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8704520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids en charge maximal excédant 5|tonnes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704521000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8704529100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704529100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neufs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704529900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Autres, uniquement à moteur électrique pour la propulsion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8704900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8705000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Véhicules automobiles à usages spéciaux, autres que ceux principalement conçus pour le transport de personnes ou de marchandises (dépanneuses, camions-grues, voitures de lutte contre l'incendie, camions-bétonnières, voitures balayeuses, voitures épandeuses, voitures-ateliers, voitures radiologiques, par exemple)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8705100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Camions-grues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8705100011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Grues mobiles neuves, c'est-à-dire grues hydrauliques ou commandées par câble, conçues pour le levage, la descente et le déplacement horizontal de matériaux sur terre, d'une capacité de levage d'au moins 30 tonnes, montées sur des véhicules autopropulsés, quel que soit leur système de propulsion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8705100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8705200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Derricks automobiles pour le sondage ou le forage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8705300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Voitures de lutte contre l'incendie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8705400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Camions-bétonnières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8705900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8705903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Voitures-pompes à béton</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8705908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8706000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Châssis des véhicules automobiles des n$o$s|8701|à 8705, équipés de leur moteur</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8706001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Châssis des tracteurs du n$o|8701; châssis des véhicules automobiles des n$o$s|8702, 8703|ou 8704|avec moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée excédant 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée excédant 2|800|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8706001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de véhicules automobiles du n$o|8702|ou de véhicules automobiles du n$o|8704</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8706001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8706009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8706009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de véhicules automobiles du n$o|8703</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8706009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8707000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Carrosseries des véhicules automobiles des n$o$s|8701|à 8705, y compris les cabines</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8707100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des véhicules du n$o|8703</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8707101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à l'industrie du montage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8707109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8707900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8707901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8707909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parties et accessoires des véhicules automobiles des n$o$s|8701|à 8705</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pare-chocs et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à l'industrie du montage:des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Couvercle plastique destiné à combler l'espace entre les feux antibrouillards et le pare-chocs, avec ou sans baguette chromée, utilisé dans la fabrication de marchandises relevant du chapitre|87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Couvercle plastique destiné à combler l'espace entre les feux antibrouillards et le pare-chocs, avec ou sans baguette chromée, utilisé dans la fabrication de marchandises relevant du chapitre|87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres parties et accessoires de carrosseries (y compris les cabines)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Ceintures de sécurité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à l'industrie du montage:des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pare-brises, vitres arrières et autres glaces vises à la Note 1|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708291011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708291099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708299011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708299099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Freins et servo-freins; leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à l'industrie du montage:des motoculteurs du n° 8701 10,des véhicules automobiles du n° 8703,des véhicules automobiles du n° 8704 à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2 500 cm³ ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2 800 cm³,des véhicules automobiles du n° 8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708301040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Corps du frein à disque dans la version équipée d'un mécanisme de rampe à billes (BIR) ou d'un frein de stationnement électronique (EPB) ou à fonctionnement hydraulique uniquement, pourvu d'ouvertures fonctionnelles et d'ouvertures de montage ainsi que de rainures de guidage, du type utilisé dans la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708301070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Support d'étrier de frein en fonte ductile du type utilisé pour la fabrication des marchandises du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708301090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708309100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708309100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour freins à disques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708309130</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Corps du frein à disque dans la version équipée d'un mécanisme de rampe à billes (BIR) ou d'un frein de stationnement électronique (EPB) ou à fonctionnement hydraulique uniquement, pourvu d'ouvertures fonctionnelles et d'ouvertures de montage ainsi que de rainures de guidage, du type utilisé dans la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708309140</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Support d'étrier de frein en fonte ductile du type utilisé pour la fabrication des marchandises du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708309190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708309900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boîtes de vitesses et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708402000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708402020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîte de vitesses hydrodynamique automatique-avec convertisseur de couple hydraulique,-sans boîte de transfert et cardan,-avec ou sans différentiel avant,utilisée dans la construction de véhicules automobiles du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708402025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ensemble de transmission composé:-d'un mécanisme de planétaire de différentiel à double pignon,-d'un système de boîte automatique (shiftmatic) séquentielle sportive à minimum 7 et maximum 10 vitesses,-d'une largeur de 280 mm ou plus mais n'excédant pas 470 mm,-d'une hauteur de 350 mm ou plus mais n'excédant pas 595 mm,-d'une longueur de 410 mm ou plus mais n'excédant pas 690 mm,-d'un poids de 70 kg ou plus mais n'excédant pas 110 kg,destiné à la fabrication des véhicules automobiles des sous-positions 8703 22 et 8703 23</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708402070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîte de vitesses manuelle intégrée dans un boîtier en fonte d'aluminium pour une installation transversale, présentant les caractéristiques suivantes:- des dimensions maximales de 550 x 500 x 600mm-cinq ou six vitesses,-un différentiel,-un couple moteur de 400 Nm ou moins,utilisée dans la fabrication de véhicules à moteur de la position 8703</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708402080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîte de transmission sans convertisseur de couple, présentant les caractéristiques suivantes:-un double embrayage,-au moins 7 rapports de marche avant,-1 rapport de marche arrière,-un couple maximal de 450Nm,-avec ou sans moteur électrique intégré,-une hauteur de 350mm ou plus, mais n'excédant pas 600mm,-une largeur de 350mm ou plus, mais n'excédant pas 600mm, et-un poids de 70kg ou plus mais n'excédant pas 110kg,destinée à la fabrication de véhicules automobiles de la position 8703</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708402090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708405000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708405000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtes de vitesses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708405010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boîte de vitesses hydrodynamique automatique-avec convertisseur de couple hydraulique,-sans boîte de transfert et cardan,-avec ou sans différentiel avant,utilisée dans la construction de véhicules automobiles du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708405025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boîtier d'ensemble de transmission accueillant 3 autres arbres et offrant un interrupteur rotatif pour le changement de vitesse, constitué:-d'un boîtier en fonte d'aluminium,-d'un différentiel,-de 2 moteurs électriques et d'engrenages,-d'une largeur de 280 mm ou plus mais n'excédant pas 470 mm,-d'une hauteur de 350 mm ou plus mais n'excédant pas 595 mm,-d'une longueur de 410 mm ou plus mais n'excédant pas 690 mm,destiné à la fabrication des véhicules automobiles des sous-positions 8703 40 et 8703 60</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708405060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boîte de vitesses manuelle intégrée dans un boîtier en fonte d'aluminium pour une installation transversale, présentant les caractéristiques suivantes:- des dimensions maximales de 550 x 500 x 600mm-cinq ou six vitesses,-un différentiel,-un couple moteur de 400 Nm ou moins,utilisée dans la fabrication de véhicules à moteur de la position 8703</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708405070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Transmission automatique équipée d'un système à double embrayage présentant :-au moins 8 vitesses,-un couple moteur égal ou supérieur à 800 Nm,-un différentiel électronique,-un système de sécurité verrouillant la position de stationnement, et-une unité de contrôle de la transmission (TCU),à utiliser dans la fabrication de véhicules à moteur relevant de la position 8703</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708405090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708409100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708409100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers estampés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708409900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ponts avec différentiel, même pourvus d'autres organes de transmission, et essieux porteurs; leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708502000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à l'industrie du montage:des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cage sphérique pour roulement à billes de joint homocinétique externe, faisant partie du système d'entraînement du véhicule, constituée d'un matériau adapté pour la cémentation avec une teneur en carbone égale ou supérieure à 0,14 % mais n'excédant pas 0,57 %, forgée, tournée, poinçonnée, fraisée et trempée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Arbre d'hélice destiné à la transmission du couple de la boîte de vitesses à l'essieu arrière, composé de :-deux cardans,-un joint universel central,-un palier central avec suspension dans un boîtier en plastique,-des joints universels aux deux extrémités de l'arbre,-une glissière, un tube et des fourches,-d'une longueur de 1,4 m ou plus, mais n'excédant pas 2,4 m,destiné à la fabrication des marchandises du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Arbre de transmission en plastique renforcé par fibres de carbone, constitué d'une seule pièce, sans joint central-|mesurant entre 1|et 2|m de long -|pesant entre 6|et 9|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîtier de joint homocinétique externe à billes pour la transmission d'un couple du moteur aux roues des véhicules à moteur, sous forme de bague extérieure, présentant: -6 pistes ou plus mais pas plus de 8 pistes, -filetée, -une cannelure à développante externe à 21 dents ou plus mais n'excédant pas 38 dents, -pour un roulement avec des billes en acier ayant une teneur en carbone égale ou supérieure à 0,48 % mais n'excédant pas 0,57 %, -forgé, tourné, fraisé et trempé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Habillage de joint homocinétique tripode interne à vélocité constante, présentant: -un diamètre extérieur égal ou supérieur à 67,0 mm, mais n'excédant pas 99,0 mm, -3 trains de roulement calibrés à froid d'un diamètre de 29,95 mm, mais pas plus de 49,2 mm, -une cannelure à 21 dents ou plus mais n'excédant pas 41 dents, -forgé, tourné, laminé et trempé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Roulement à double rangée de 3e génération, destiné aux véhicules à moteur, -|avec un roulement à billes double,-|avec ou sans anneau (encodeur) à impulsion,-| avec ou sans capteur ABS (Système antiblocage des freins), -|avec ou sans vis de fixation,utilisé dans la construction de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Croisillon tripode de joint homocinétique interne, faisant partie du système d'entraînement du véhicule, présentant:-3 tourillons d'un diamètre de 17,128 mm ou plus, mais pas plus de 25,468 mm,-forgé, tourné, broché et trempé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Habillage de joint tripode interne de demi-arbre pour la transmission d'un couple du moteur et de la transmission aux roues de véhicules à moteur, présentant:-un diamètre extérieur égal ou supérieur à 67,0 mm, mais n'excédant pas 84,5 mm,-3 trains de roulement calibrés à froid d'un diamètre de 29,90 mm, mais pas plus de 36,60 mm;- d'un diamètre d'étanchéité égal ou supérieur à 34,0 mm, mais n'excédant pas 41,0 mm, sans angle de calage,-cannelure à 21 dents ou plus, mais n'excédant pas 35 dents;-diamètre des portées de 25,0 mm ou plus mais n'excédant pas 30,0 mm, avec ou sans rainures de graissage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dispositif de joint homocinétique pour la transmission d'un couple du moteur et de la transmission aux roues de véhicules à moteur, comprenant:-une bague intérieure présentant 6 pistes ou plus mais pas plus de 8 pistes pour le roulement des billes de roulement d'un diamètre de 13,0mm ou plus mais n'excédant pas 28,0mm,-une bague extérieure présentant 6 pistes ou plus mais pas plus de 8 pistes pour le roulement des billes de roulement, fabriquée en acier à la teneur en carbone égale ou supérieure à 0,45% mais n'excédant pas 0,58%, filetée et avec une cannelure à 22 dents ou plus mais pas plus de 44 dents,-une cage sphérique maintenant les billes de roulement dans les pistes de roulement à billes des bagues intérieure et extérieure dans la position angulaire appropriée, constituée d'un matériau adapté pour la cémentation avec une teneur en carbone égale ou supérieure à 0,14% mais n'excédant pas 0,55%, et-avec un compartiment à graisse,-capable de fonctionner à vitesse constante à un angle d'articulation variable n'excédant pas 52 degrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708502090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708503500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708503500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Ponts avec différentiel, même pourvus d'autres organes de transmission, et essieux porteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708503511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708503590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708505500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708505500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers estampés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708505511</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708505520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Roulement à double rangée de 3e génération, destiné aux véhicules à moteur, -|avec un roulement à billes double,-|avec ou sans anneau (encodeur) à impulsion,-| avec ou sans capteur ABS (Système antiblocage des freins), -|avec ou sans vis de fixation,utilisé dans la construction de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708505550</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cage sphérique pour roulement à billes de joint homocinétique externe, faisant partie du système d'entraînement du véhicule, constituée d'un matériau adapté pour la cémentation avec une teneur en carbone égale ou supérieure à 0,14 % mais n'excédant pas 0,57 %, forgée, tournée, poinçonnée, fraisée et trempée</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708505590</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708505591</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708505599</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708509100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708509100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour essieux porteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Roulement à double rangée de 3e génération, destiné aux véhicules à moteur, -|avec un roulement à billes double,-|avec ou sans anneau (encodeur) à impulsion,-| avec ou sans capteur ABS (Système antiblocage des freins), -|avec ou sans vis de fixation,utilisé dans la construction de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509111</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708509900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Arbre de transmission en plastique renforcé par fibres de carbone, constitué d'une seule pièce, sans joint central-|mesurant entre 1|et 2|m de long -|pesant entre 6|et 9|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509925</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Habillage de joint tripode interne de demi-arbre pour la transmission d'un couple du moteur et de la transmission aux roues de véhicules à moteur, présentant:-un diamètre extérieur égal ou supérieur à 67,0 mm, mais n'excédant pas 84,5 mm,-3 trains de roulement calibrés à froid d'un diamètre de 29,90 mm, mais pas plus de 36,60 mm;- d'un diamètre d'étanchéité égal ou supérieur à 34,0 mm, mais n'excédant pas 41,0 mm, sans angle de calage,-cannelure à 21 dents ou plus, mais n'excédant pas 35 dents;-diamètre des portées de 25,0 mm ou plus mais n'excédant pas 30,0 mm, avec ou sans rainures de graissage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509935</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Dispositif de joint homocinétique pour la transmission d'un couple du moteur et de la transmission aux roues de véhicules à moteur, comprenant:-une bague intérieure présentant 6 pistes ou plus mais pas plus de 8 pistes pour le roulement des billes de roulement d'un diamètre de 13,0mm ou plus mais n'excédant pas 28,0mm,-une bague extérieure présentant 6 pistes ou plus mais pas plus de 8 pistes pour le roulement des billes de roulement, fabriquée en acier à la teneur en carbone égale ou supérieure à 0,45% mais n'excédant pas 0,58%, filetée et avec une cannelure à 22 dents ou plus mais pas plus de 44 dents,-une cage sphérique maintenant les billes de roulement dans les pistes de roulement à billes des bagues intérieure et extérieure dans la position angulaire appropriée, constituée d'un matériau adapté pour la cémentation avec une teneur en carbone égale ou supérieure à 0,14% mais n'excédant pas 0,55%, et-avec un compartiment à graisse,-capable de fonctionner à vitesse constante à un angle d'articulation variable n'excédant pas 52 degrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Roulement à double rangée de 3e génération, destiné aux véhicules à moteur, -|avec un roulement à billes double,-|avec ou sans anneau (encodeur) à impulsion,-| avec ou sans capteur ABS (Système antiblocage des freins), -|avec ou sans vis de fixation,utilisé dans la construction de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509945</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Boîtier de joint homocinétique externe à billes pour la transmission d'un couple du moteur aux roues des véhicules à moteur, sous forme de bague extérieure, présentant: -6 pistes ou plus mais pas plus de 8 pistes, -filetée, -une cannelure à développante externe à 21 dents ou plus mais n'excédant pas 38 dents, -pour un roulement avec des billes en acier ayant une teneur en carbone égale ou supérieure à 0,48 % mais n'excédant pas 0,57 %, -forgé, tourné, fraisé et trempé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Habillage de joint homocinétique tripode interne à vélocité constante, présentant: -un diamètre extérieur égal ou supérieur à 67,0 mm, mais n'excédant pas 99,0 mm, -3 trains de roulement calibrés à froid d'un diamètre de 29,95 mm, mais pas plus de 49,2 mm, -une cannelure à 21 dents ou plus mais n'excédant pas 41 dents, -forgé, tourné, laminé et trempé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Croisillon tripode de joint homocinétique interne, faisant partie du système d'entraînement du véhicule, présentant:-3 tourillons d'un diamètre de 17,128 mm ou plus, mais pas plus de 25,468 mm,-forgé, tourné, broché et trempé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509970</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708509990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Roues, leurs parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708701000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708701015</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Roues en aluminium, avec ou sans accessoires et équipées ou non de pneus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708701015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708701050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708701080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708701080</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Roues en acier, avec ou sans accessoires, et équipées ou non de pneumatiques, pour l'assemblage industriel devéhicules relevant actuellement de la position 8703;véhicules relevant actuellement de la position 8704 à moteur à piston à allumage par compression (diesel ou semi-diesel) d'une cylindrée n'exédant pas 2 500 cm³ ou à moteur à piston à allumage par étincelles d'une cylindrée n'exédant pas 2 800 cm³;véhicules relevant actuellement de la position 8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708701080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708701085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708701092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708701092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708701095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708705000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708705000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Roues en aluminium; parties et accessoires de roues, en aluminium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708705015</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Roues en aluminium, avec ou sans accessoires et équipées ou non de pneus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708705015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708705050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708705080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708705080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708705085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708709100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties de roues coulées d'une seule pièce en forme d'étoile, en fonte, fer ou acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708709115</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708709190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708709900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708709920</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708709920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Roues en acier, avec ou sans accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708709930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708709980</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708709980</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Roues en acier, avec ou sans accessoires et équipées ou non de pneumatiques, conçues pour- les tracteurs routiers,- les véhicules automobiles pour le transport de personnes et/ou pour le transport de marchandises,- les véhicules automobiles à usages spéciaux (par exemple voitures de lutte contre l'incendie, voitures épandeuses).Les produits suivants sont exclus- les roues pour quadricycles routiers,- les roues pour véhicules automobiles spécifiquement conçus pour des usages en dehors du réseau routier public (par exemple roues pour tracteurs agricoles ou forestiers, pour chariots élévateurs, pour tracteurs d'aviation, pour tombereaux automoteurs conçus pour être utilisés en dehors du réseau routier).</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708709985</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Systèmes de suspension et leurs parties (y compris les amortisseurs de suspension)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708802000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinés à l'industrie du montage:des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708802010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Palier supérieur de jambe de force comprenant-|un support métallique avec trois vis de montage, et-|un tampon en caoutchoucutilisé pour la fabrication des marchandises du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708802090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708803500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708803500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Amortisseurs de suspension</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708803510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Palier supérieur de jambe de force comprenant-|un support métallique avec trois vis de montage, et-|un tampon en caoutchoucutilisé pour la fabrication des marchandises du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708803590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708805500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Barres stabilisatrices; barres de torsion</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708809100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708809100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers estampés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708809900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708809930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tige de piston en acier trempé superficiellement, pour amortisseur hydraulique ou hydropneumatique de véhicules à moteur, présentant :-un revêtement chromé,-un diamètre de 11 mm ou plus, mais n'excédant pas 28 mm,-une longueur de 80 mm ou plus, mais n'excédant pas 600 mm,munie d'une extrémité filetée ou d'un mandrin pour le soudage par résistance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708809990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres parties et accessoires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Radiateurs et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708912000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708912020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Refroidisseur en aluminium à air comprimé avec un habillage cannelé du type utilisé dans la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708912030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Entrée ou sortie de réservoir d'air en alliage d'aluminium, pour échangeurs de chaleur destinés aux systèmes de refroidissement pour automobiles, fabriquée selon la norme EN AC 42100 ou EN AC 43000 T6, présentant :-|une planéité de surface isolée ne dépassant pas 0,1|mm;-|une quantité de particules admissibles de 0,3|mg/élément;-|une distance entre chaque pore d'au moins 2|mm,-|un seul pore d'une dimension admise de 0,4|mm, -|moins de 3|pores mesurant plus de 0,2|mm-|d'un poids de 0,2kg ou plus, mais n'excédant pas 3kg,</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708912090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708913500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708913500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Radiateurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708913510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Refroidisseur en aluminium à air comprimé avec un habillage cannelé du type utilisé dans la fabrication de marchandises relevant du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708913520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Durite de refroidissement de turbocompresseur contenant: -un conduit en alliage d'aluminium muni d'au moins un support métallique et d'au moins deux trous de fixation, -une gaine en caoutchouc avec clips, -une bride en acier inoxydable très résistante à la corrosion [SUS430JIL],utilisée dans la fabrication de moteurs à allumage par compression de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708913530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Échangeur thermique en aluminium à deux circuits pour la transmission automatique des voitures particulières :-du type échangeur à plaques,-avec deux paires d'entrée et de sortie, chacune pour le circuit du liquide de refroidissement/eau et le circuit d'huile de transmission,-avec au moins deux trous de montage,-avec ou sans tuyaux de raccordement,destiné à être utilisé dans la fabrication des marchandises du Chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708913540</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Radiateurs: -avec protection contre la corrosion, -pour des pressions allant jusqu'à 150 PSI (1 034 kPa), -avec tubes de refroidissement individuels remplaçables, en laiton ou en cuivre,à utiliser dans la production de systèmes de refroidissement du moteur et d'échangeurs d'air pesant 265 kg ou plus mais ne dépassant pas 599 kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708913590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708919100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708919100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en aciers estampés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708919900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708919930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Entrée ou sortie de réservoir d'air en alliage d'aluminium, pour échangeurs de chaleur destinés aux systèmes de refroidissement pour automobiles, fabriquée selon la norme EN AC 42100 ou EN AC 43000 T6, présentant :-|une planéité de surface isolée ne dépassant pas 0,1|mm;-|une quantité de particules admissibles de 0,3|mg/élément;-|une distance entre chaque pore d'au moins 2|mm,-|un seul pore d'une dimension admise de 0,4|mm, -|moins de 3|pores mesurant plus de 0,2|mm-|d'un poids de 0,2kg ou plus, mais n'excédant pas 3kg,</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708919990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Silencieux et tuyaux d'échappement; leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708922000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708923500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708923500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Silencieux et tuyaux d'échappement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708929100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708929100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en aciers estampés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708929900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Embrayages et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708931000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708939000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Volants, colonnes et boîtiers de direction; leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708942000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'industrie du montage:des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708943500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708943500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Volants, colonnes et boîtiers de direction</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708949100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en aciers estampés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708949900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Moyeu à changement de vitesse en acier au carbone laminé à froid (ASTM A1008), moulé dans de la matière plastique et assemblé avec le pignon, présentant:-un diamètre extérieur de 81,2 mm ou plus mais, n'excédant pas 82,55 mm,-un diamètre intérieur de 25,9 mm ou plus, mais n'excédant pas 25,97 mm,-une hauteur de la partie mâle du diamètre intérieur de 11,63 mm ou plus, mais n'excédant pas 12,13 mm,-une hauteur de la partie femelle du diamètre intérieur de 3,25 mm ou plus, mais n'excédant pas 3,5 mm,-une hauteur totale de 11,63 mm ou plus, mais n'excédant pas 19,5 mmdestiné à être utilisé dans la fabrication de systèmes de direction du véhicule</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949920</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Arbre de direction intermédiaire faisant partie de la colonne de direction, présentant les caractéristiques suivantes:-une résistance à la torsion de 25 Nm/degré ou plus,- un arbre mâle tubulaire en tube d'acier au carbone soudé (selon la norme GB/T 699 grade 20),- un arbre femelle tubulaire en tube d'acier au carbone soudé (selon la norme GB/T 699 grade 20),-deux croisillons de joint universel en acier allié au chrome (GB/T 5216 grade 20CrMnTiH),-une longueur en position téléscopique nominale de 396 mm ou plus mais n'excédant pas 467 mm,-une interface d'accouplement aux deux extrémités à denture multiple,-deux joints de Cardan sur les deux faces,-une fonction téléscopique de l'arbre d'une plage de 74 mm ou plus mais n'excédant pas 115 mm,destiné à être utilisé dans la fabrication de systèmes de direction de véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Arbre inférieur de direction assistée faisant partie de la colonne de direction, en acier au carbone (GB/T699 grade 45 ou JIS G4051 grade S45C), présentant les caractéristiques suivantes:-une charge de résistance maximale à la torsion de 325 Nm ou plus et des valeurs de Johnson Apparent Elastic Limit (J.A.E.L) de 275 Nm ou plus,-une longueur de 66,39 mm ou plus mais n'excédant pas 88,64 mm,-un diamètre extérieur de 27,47 mm ou plus mais n'excédant pas 28,38 mm,-un alésage intérieur d'un diamètre de 6,50 mm ou plus mais n'excédant pas 6,58 mm,-une cannelure mâle à 26 dents d'un diamètre maximal de 21,18 mm ou plus mais n'excédant pas 21,44 mm,-un moletage sur une partie de la surface extérieure d'un diamètre maximal de 26 mm ou plus mais n'excédant pas 26,1 mm,-avec ou sans cannelure mâle à 24 dents et d'un diamètre maximal de 24,75 mm ou plus mais n'excédant pas 25 mm,destiné à être utilisé dans la fabrication de systèmes de direction de véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Arbre supérieur de direction assistée faisant partie de la colonne de direction, en acier au carbone (GB/T699 grade 45), présentant les caractéristiques suivantes:-une charge de résistance maximale à la torsion de 325 Nm ou plus et des valeurs de Johnson Apparent Elastic Limit (J.A.E.L) de 275 Nm ou plus,-une longueur de 165,3 mm ou plus mais n'excédant pas 204,2 mm,-un diamètre extérieur de 22,87 mm ou plus mais n'excédant pas 22,92 mm,-un alésage intérieur d'un diamètre de 6,5 mm ou plus mais n'excédant pas 6,58 mm,-une cannelure mâle,destiné à être utilisé dans la fabrication de systèmes de direction de véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Arbre inférieur faisant partie de la colonne de direction, en alliage d'aluminium (ASTM B221M grade 6105), refroidi par air et trempé, présentant les caractéristiques suivantes:-une résistance maximale à la torsion de 260 Nm ou plus,-une longueur de 296,7 mm ou plus mais n'excédant pas 297,8 mm,-une cannelure mâle à 18 dents sur toute la longueur de l'arbre d'un diamètre maximal de 28,7 mm ou plus mais n'excédant pas 29 mm,-une cannelure femelle à 18 dents d'un diamètre minimal de 19,7 mm ou plus mais n'excédant pas 20 mm,destiné à être utilisé dans la fabrication de systèmes de direction de véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949960</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Barre de torsion faisant partie de la colonne de direction, en acier allié au carbone (SAE J1268, grade 5160H à la composition chimique modifiée de la teneur en carbone de 0,53 ou plus, mais n'excédant pas 0,56), présentant les caractéristiques suivantes:-une résistance à la torsion de l'arbre de 2,5 Nm/degré ou plus mais n'excédant pas 2,7 Nm/degré,-une longueur de 107,75 mm ou plus mais n'excédant pas 108,25 mm,-un diamètre extérieur de 6,38 mm ou plus mais n'excédant pas 6,42 mm,-deux cannelures mâles à 18 dents aux deux extrémités de l'arbre d'un diamètre maximal de 6,70 mm ou plus mais n'excédant pas 6,85 mm, servant d'interface pour insérer les arbres d'entrée et de sortie d'accouplement,-une surface intégralement grenaillée,destiné à être utilisé dans la fabrication de systèmes de direction de véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949970</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Arbre de direction tubulaire faisant partie de la colonne de direction, constitué d'un tube soudé en acier au carbone (EN 10305/2, E235  C ou GB/T699 grade 20), présentant les caractéristiques suivantes:-une résistance maximale à la torsion de 300 Nm ou plus et des valeurs de Johnson Apparent Elastic Limit (J.A.E.L) de 275 Nm ou plus,-une longueur de 245,48 mm ou plus mais n'excédant pas 287,5 mm,-un diamètre extérieur de 23,95 mm ou plus mais n'excédant pas 32,25 mm,-une interface d'accouplement pour la connexion du volant soit sous la forme d'une cannelure mâle à 40 dents d'un diamètre maximal de 17,1 mm ou plus mais n'excédant pas17,5 mm et avec un filetage intérieur de M12x1,75-6H ou sous la forme d'une empreinte hexagonale mâle d'une petite diagonale de 15,05 mm ou plus mais n'excédant pas 15,35 mm et avec un filetage intérieur de M10x1.5-6H,-une interface soit sous la forme d'une cannelure femelle à 10 dents d'une longueur de 98 mm ou plus mais n'excédant pas 160 mm, et d'un diamètre minimal de 16,1 mm ou plus mais n'excédant pas 16,4 mm, soit sous la forme d'une cannelure femelle à 48 dents d'une longueur de 151 mm ou plus mais n'excédant pas 160 mm, et d'un diamètre minimal de 23,2 mm ou plus mais n'excédant pas 23,3 mm,destiné à être utilisé dans la fabrication de systèmes de direction de véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708949990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Coussins gonflables de sécurité avec système de gonflage (airbags); leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708951000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708951020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Coussins gonflables de sécurité en tissu polyamide à haute résistance:-|cousus,-|pliés,-|pourvus d'un collage dans lequel la colle silicone est appliquée dans les trois dimensions, ce qui permet la formation de la chambre d'airbag et l'étanchéité du coussin gonflable en fonction de la charge-|appropriés pour la technologie à gaz froid</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708951030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Coussin gonflable de sécurité cousu en tissu polyamide à haute résistance :-plié sous forme d'emballage tridimensionnel, fixé thermiquement, par coutures de fixation, revêtement en tissu ou agrafes en matière plastique spécifiques, ou-coussin de sécurité plats, plié thermiquement ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708951090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708959100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708959100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers estampés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708959900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708959930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Coussins gonflables de sécurité en tissu polyamide à haute résistance:-|cousus,-|pliés,-|pourvus d'un collage dans lequel la colle silicone est appliquée dans les trois dimensions, ce qui permet la formation de la chambre d'airbag et l'étanchéité du coussin gonflable en fonction de la charge-|appropriés pour la technologie à gaz froid</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708959940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Coussin gonflable de sécurité cousu en tissu polyamide à haute résistance :-plié sous forme d'emballage tridimensionnel, fixé thermiquement, par coutures de fixation, revêtement en tissu ou agrafes en matière plastique spécifiques, ou-coussin de sécurité plats, plié thermiquement ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708959950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dispositif de gonflage de coussins gonflables (airbags) contenant à la fois des produits pyrotechniques et du gaz froid comme propulseur pour les coussins gonflables de sécurité (airbags) des véhicules, chaque lot individuel contenant 1 000 pièces ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708959990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinés à l'industrie du montage:des motoculteurs du n$o|8701|10,des véhicules automobiles du n$o|8703,des véhicules automobiles du n$o|8704|à moteur à piston à allumage par compression (diesel ou semi-diesel), d'une cylindrée n'excédant pas 2|500|cm$3|ou avec moteur à piston à allumage par étincelles d'une cylindrée n'excédant pas 2|800|cm$3,des véhicules automobiles du n$o|8705</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708991055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Claviers en silicone ou plastique, comprenant- des parties en métaux communs et comprenant ou non des parties en plastique, résine époxy renforcée de fibre de verre ou bois,-même imprimés ou traités en surface,-avec ou sans conducteurs électriques,-avec ou sans membrane collée sur le clavier,-avec ou sans pellicule protectrice,-mono- ou multicouche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708991060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Support pour moteur en aluminium:-d'une hauteur supérieure à 10 mm mais n'excédant pas 200 mm,-d'une largeur supérieure à 10 mm mais n'excédant pas 250 mm,-d'une longueur supérieure à 10 mm mais n'excédant pas 200 mm,équipé d'au moins deux trous de fixation en alliage d'aluminium ENAC-46100 ou ENAC-42100 (sur la base de la norme EN:1706) et présentant les caractéristiques suivantes:-porosité interne n'excédant pas 1 mm,-porosité externe n'excédant pas 2 mm,-dureté Rockwell de 10 HRB ou plus,du type utilisé dans la production de systèmes de suspension pour les moteurs de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708991080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708991090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8708999300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708999300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en aciers estampés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999311</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8708999700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999722</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Claviers en silicone ou plastique, comprenant- des parties en métaux communs et comprenant ou non des parties en plastique, résine époxy renforcée de fibre de verre ou bois,-même imprimés ou traités en surface,-avec ou sans conducteurs électriques,-avec ou sans membrane collée sur le clavier,-avec ou sans pellicule protectrice,-mono- ou multicouche</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999743</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Barre de direction externe avec un boîtier en acier AISI 4137 (SCM435) ou en acier EN10083/2- C45R  N ou en acier faiblement allié JIS G4053-SCM435, avec : . un goujon de rotule en acier EN 10263/4 - 41CrS4 Q  T ou en acier AISI 4137 (SCM435) ou en acier EN10083/3-42CrMoS4Q  T ou en acier faiblement allié JIS G4053-SCM435, . un siège de rotule en plastique polyoxyméthylène, . une distance entre l'extrémité du trou fileté et le centre du goujon de rotule de 124 mm ou plus, mais pas plus de 194 mm, . un diamètre du goujon de rotule de 21,98 mm ou plus, mais pas plus de 22 mm, . une profondeur du trou fileté de 40,5 mm ou plus, mais pas plus de 52 mm avec les dimensions M14x1,5, . un joint de protection, . un protecteur de joint et un anneau de retenue, . du lubrifiant, destiné à être utilisé dans la fabrication de systèmes de direction du véhicule</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999750</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Support pour moteur en aluminium:-d'une hauteur supérieure à 10 mm mais n'excédant pas 200 mm,-d'une largeur supérieure à 10 mm mais n'excédant pas 250 mm,-d'une longueur supérieure à 10 mm mais n'excédant pas 200 mm,équipé d'au moins deux trous de fixation en alliage d'aluminium ENAC-46100 ou ENAC-42100 (sur la base de la norme EN:1706) et présentant les caractéristiques suivantes:-porosité interne n'excédant pas 1 mm,-porosité externe n'excédant pas 2 mm,-dureté Rockwell de 10 HRB ou plus,du type utilisé dans la production de systèmes de suspension pour les moteurs de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999753</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Rotule pour la suspension avant dans les véhicules pour raccorder la barre de stabilisation aux composants de la suspension:-en aluminium, caoutchouc et plastique,-d'une hauteur de 270 mm ou plus, mais n'excédant pas 300 mm,-d'une largeur de 50 mm ou plus, mais n'excédant pas 65 mm,-d'une longueur de 150 mm ou plus, mais n'excédant pas 170 mm,destiné à la fabrication de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999758</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Support de fixation de radiateur ou d'échangeur thermique intermédiaire:-constitué de fer, d'acier ou de matière plastique,-avec ou sans caoutchouc amortissant,destiné à la fabrication de marchandises relevant de la position 8708</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999775</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Support de fixation en alliage d'aluminium, perforé de trous de fixation, avec ou sans écrous de serrage, pour attacher indirectement la boîte de vitesse à la carrosserie, destiné à être utilisé dans la fabrication des marchandises du chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999780</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Parties spécifiques préassemblées ou prêtes à assembler pour grues mobiles neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8708999790</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8709000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chariots automobiles non munis d'un dispositif de levage, des types utilisés dans les usines, les entrepôts, les ports ou les aéroports pour le transport des marchandises sur de courtes distances; chariots-tracteurs des types utilisés dans les gares; leurs parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8709110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chariots</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8709110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8709111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8709119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8709190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8709191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçus pour le transport des produits à forte radioactivité</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8709199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8709900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8710000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Chars et automobiles blindées de combat, armés ou non; leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8711000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Motocycles (y compris les cyclomoteurs) et cycles équipés d'un moteur auxiliaire, avec ou sans side-cars; side-cars</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à moteur à piston, d'une cylindrée n'excédant pas 50|cm$3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8711200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à moteur à piston, d'une cylindrée excédant 50|cm$3|mais n'excédant pas 250|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Scooters</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8711209200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, d'une cylindrée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711209200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 50|cm$3|mais n'excédant pas 125|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711209800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 125|cm$3|mais n'excédant pas 250|cm$3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8711300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à moteur à piston, d'une cylindrée excédant 250|cm$3|mais n'excédant pas 500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 250|cm$3|mais n'excédant pas 380|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une cylindrée excédant 380|cm$3|mais n'excédant pas 500|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à moteur à piston, d'une cylindrée excédant 500|cm$3|mais n'excédant pas 800|cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à moteur à piston alternatif, d'une cylindrée excédant 800|cm$3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8711600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à moteur électrique pour la propulsion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711601000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bicyclettes, tricycles et quadricycles, à pédalage assisté, équipés d'un moteur auxiliaire électrique d'une puissance nominale continue n'excédant pas 250|W</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8711609000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711609010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cycles, à pédalage assisté, équipés d'un moteur auxiliaire électrique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711609090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8711900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8712000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bicyclettes et autres cycles (y compris les triporteurs), sans moteur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8712003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bicyclettes avec roulements à billes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8712003010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en provenance de l'Indonésie, de la Malaisie, du Sri Lanka ou de la Tunisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8712003020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en provenance du Cambodge, du Pakistan ou des Philippines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8712003090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8712007000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8712007010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Monocycles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8712007091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8712007091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance de l'Indonésie, de la Malaisie, du Sri Lanka ou de la Tunisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8712007092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance du Cambodge, du Pakistan ou des Philippines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8712007099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8713000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fauteuils roulants et autres véhicules pour invalides, même avec moteur ou autre mécanisme de propulsion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8713100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>sans mécanisme de propulsion</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8713900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parties et accessoires des véhicules des n$o$s|8711|à 8713</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de motocycles (y compris les cyclomoteurs)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Freins et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Boîtes de vitesses et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Roues, leurs parties et accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714104000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Silencieux et tuyaux d'échappement; leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Embrayages et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714109070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Radiateurs de motocycles en lots de 100 pièces ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fauteuils roulants ou d'autres véhicules pour invalides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Cadres et fourches, et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Cadres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714911021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>peints, anodisés, polis et/ou laqués</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714911021</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en fibres de carbone et résine artificielle, destinés à la fabrication des bicyclettes (y compris les vélos électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Cadre, constitué d'aluminium ou de fibres d'aluminium et de carbone et de résine artificielle, destiné à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714911031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en fibres de carbone et résine artificielle, destinés à la fabrication des bicyclettes (y compris les vélos électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Cadre, constitué d'aluminium ou de fibres d'aluminium et de carbone et de résine artificielle, destiné à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714911075</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en fibres de carbone et résine artificielle, destinés à la fabrication des bicyclettes (y compris les vélos électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911077</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Cadre, constitué d'aluminium ou de fibres d'aluminium et de carbone et de résine artificielle, destiné à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714911089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714913000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Fourches avant</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714913025</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>peintes, anodisées, polies et/ou laquées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714913025</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714913025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Fourches avant, à l'exception des fourches avant rigides (non téléscopiques) entièrement constituées d'acier, destinées à la fabrication de bicyclettes (y compris les bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714913029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714913035</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714913035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Fourches avant, à l'exception des fourches avant rigides (non téléscopiques) entièrement constituées d'acier, destinées à la fabrication de bicyclettes (y compris les bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714913039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714913072</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714913072</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Fourches avant, à l'exception des fourches avant rigides (non téléscopiques) entièrement constituées d'acier, destinées à la fabrication de bicyclettes (y compris les bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714913089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Jantes et rayons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Jantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Rayons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Moyeux (autres que les moyeux à frein) et pignons de roues libres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714930011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pignons de roues libres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714930011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714930019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714930020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Boîte de vitesse pour raccorder des pignons:-destinée à être montée sur un tambour de moyeu,-avec 7 pignons ou plus, mais pas plus de 12 pignons,-avec 10 dents ou plus, mais pas plus de 52 dents pour chaque pignon,-d'un poids de 200 g ou plus mais n'excédant pas 800 g,-des pignons en acier ou en aluminium nickelé,-avec des raccords (entretoises) entre les pignons constitués de matière plastique ou d'aluminium,-sans mécanisme de verrouillage,destinée à la fabrication de bicyclettes et de vélos électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714930090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Freins, y compris les moyeux à frein, et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714942000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Freins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714942005</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Moyeux à frein</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714942091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres freins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714942091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714942099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714949000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714949011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Manettes de freins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714949011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714949019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714949090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Selles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714960000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pédales et pédaliers, et leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714961000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pédales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714961010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pédales, destinées à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714961090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714963000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pédaliers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714963010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714963090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714969000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Guidons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714991020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714991020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Guidons de bicyclette,-avec ou sans potence intégrée-constitués de fibres de carbone et de résine de synthèse ou constitués d'aluminiumdestinés à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714991029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714991089</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714991089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Guidons de bicyclette,-avec ou sans potence intégrée-constitués de fibres de carbone et de résine de synthèse ou constitués d'aluminiumdestinés à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714991099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714993000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Porte-bagages</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Dérailleurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714995011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714995011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dérailleurs, constitués:-d'un dérailleur arrière et d'articles de fixation,-avec ou sans dérailleur avant,destinés à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714995019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714995091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714995091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Dérailleurs, constitués:-d'un dérailleur arrière et d'articles de fixation,-avec ou sans dérailleur avant,destinés à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714995099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8714999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres; parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8714999011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Roues complètes, avec ou sans chambres à air, pneus et pignons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714999011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Originaires ou expédiés de Chine:- en quantités inférieures à 300 unités par mois en moyenne pour une période ne dépassant pas douze mois, ou à transférer à une partie en quantités inférieures à 300 unités par mois en moyenne pour une période n'excédant pas douze mois; ou- à transférer à un autre titulaire d'une autorisation de destination particulière ou à des parties exemptées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714999019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714999030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tiges de selle, destinées à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714999040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Potence pour guidons de bicyclette, destinée à la fabrication de bicyclettes (y compris de bicyclettes électriques)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714999050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Amortisseur pneumatique arrière sous la forme d'un ressort pneumatique pourvu d'un amortisseur à huile destiné à la fabrication de bicyclettes, y compris les bicyclettes électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8714999089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8715000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Landaus, poussettes et voitures similaires pour le transport des enfants, et leurs parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8715001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Landaus, poussettes et voitures similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8715009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8716000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Remorques et semi-remorques pour tous véhicules; autres véhicules non automobiles; leurs parties</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8716100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Remorques et semi-remorques pour l'habitation ou le camping, du type caravane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716109200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids n'excédant pas 1|600|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716109800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids excédant 1|600|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Remorques et semi-remorques autochargeuses ou autodéchargeuses, pour usages agricoles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8716310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres remorques et semi-remorques pour le transport des marchandises</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Citernes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8716390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>spécialement conçues pour le transport de produits à forte radioactivité</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8716393000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8716393000</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>neuves</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716393000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Semi-remorques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716395000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716398000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>usagées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres remorques et semi-remorques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres véhicules</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8716900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Châssis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carrosseries</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Essieux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8716909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres parties</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8716909015</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Roues en aluminium pour les véhicules figurant à la position 8716 de la NC, avec ou sans accessoires et équipées ou non de pneus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716909015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716909050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8716909095</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8716909095</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>équipées de pneumatiques, neufs ou rechapés, en caoutchouc, du type utilisé pour les autobus ou camions, ayant un indice de charge supérieur à 121</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716909095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Roues en acier, avec ou sans accessoires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716909096</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8716909097</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716909097</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Roues en acier, conçues pour les remorques et semi-remorques non automobiles de tracteurs routiers, avec ou sans accessoires et équipées ou non de pneumatiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8716909098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -1,16 +1,24 @@
+import { useStore } from "@tanstack/react-form"
+
 import type { RadioProps } from "@/components/Forms/types"
 
-import { formOpts, useFieldContext, withForm } from "@/hooks/form"
+import { useFieldContext } from "@/hooks/form"
 
 import { Container } from "./Radio.styled"
 
-export default function RadioField({ name, label, options, disabled = false }: RadioProps) {
+export default function RadioField({ label, options, disabled = false }: RadioProps) {
   const field = useFieldContext<string>()
+  const errors = useStore(field.store, (state) => state.meta.errors)
 
   return (
     <Container>
       <div>
-        <span>{label}</span>
+        <span>
+          {label}{" "}
+          {errors.map((error: string) => (
+            <span key={error}>{error}</span>
+          ))}
+        </span>
         <div>
           {options.map((option: string) => (
             <div key={option}>
@@ -20,7 +28,10 @@ export default function RadioField({ name, label, options, disabled = false }: R
                 name={field.name}
                 value={option}
                 checked={field.state.value === option}
-                onChange={() => field.setValue(option)}
+                onChange={() => {
+                  field.setValue(option)
+                  field.handleBlur()
+                }}
                 disabled={disabled}
               />
               <label htmlFor={option}>{option.toString()}</label>
@@ -31,19 +42,3 @@ export default function RadioField({ name, label, options, disabled = false }: R
     </Container>
   )
 }
-
-export const Radio = withForm({
-  ...formOpts,
-  props: {
-    name: "" as RadioProps["name"],
-    label: "",
-    options: [],
-  } as RadioProps,
-  render: function Render({ form, name, label, options, disabled }) {
-    return (
-      <form.AppField name={name}>
-        {(field) => <field.RadioField {...{ name, label, options, disabled }} />}
-      </form.AppField>
-    )
-  },
-})

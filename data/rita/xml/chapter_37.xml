@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 37 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:28</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3700000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRODUITS PHOTOGRAPHIQUES OU CINÉMATOGRAPHIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3701000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaques et films plans, photographiques, sensibilisés, non impressionnés, en autres matières que le papier, le carton ou les textiles; films photographiques plans à développement et tirage instantanés, sensibilisés, non impressionnés, même en chargeurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3701100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour rayons|X</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3701200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Films à développement et tirage instantanés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3701300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres plaques et films dont la dimension d'au moins un côté excède 255|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3701910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3701910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la photographie en couleurs (polychrome)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3701990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3702000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pellicules photographiques sensibilisées, non impressionnées, en rouleaux, en autres matières que le papier, le carton ou les textiles; pellicules photographiques à développement et tirage instantanés en rouleaux, sensibilisées, non impressionnées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour rayons|X</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3702310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres pellicules, non perforées, d'une largeur n'excédant pas 105|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3702310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la photographie en couleurs (polychrome)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702319100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Négatif de film couleur:-|d'une largeur de 75|mm ou plus mais n'excédant pas 105|mm et-|d'une longueur de 100|m ou plus,destiné à la fabrication de films pour appareils photographiques à développement instantané</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702319700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3702320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, comportant une émulsion aux halogénures d'argent</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3702321000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une largeur n'excédant pas 35|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Microfilms; films pour les arts graphiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702322000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702328500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une largeur excédant 35|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3702410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres pellicules, non perforées, d'une largeur excédant 105|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 610|mm et d'une longueur excédant 200|m, pour la photographie en couleurs (polychrome)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 610|mm et d'une longueur excédant 200|m, autres que pour la photographie en couleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702430000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 610|mm et d'une longueur n'excédant pas 200|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702440000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 105|mm mais n'excédant pas 610|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3702520000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres pellicules, pour la photographie en couleurs (polychrome)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur n'excédant pas 16|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702530000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 16|mm mais n'excédant pas 35|mm et d'une longueur n'excédant pas 30|m, pour diapositives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702540000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 16|mm mais n'excédant pas 35|mm et d'une longueur n'excédant pas 30|m, autres que pour diapositives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702550000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 16|mm mais n'excédant pas 35|mm et d'une longueur excédant 30|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702560000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 35|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3702960000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3702960000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur n'excédant pas 35|mm et d'une longueur n'excédant pas 30|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702961000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Microfilms; films pour les arts graphiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702969000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3702970000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur n'excédant pas 35|mm et d'une longueur excédant 30|m</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702971000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Microfilms; films pour les arts graphiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702979000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3702980000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une largeur excédant 35|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3703000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Papiers, cartons et textiles, photographiques, sensibilisés, non impressionnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3703100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en rouleaux, d'une largeur excédant 610|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3703200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, pour la photographie en couleurs (polychrome)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3703900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3704000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaques, pellicules, films, papiers, cartons et textiles, photographiques, impressionnés mais non développés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3704001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plaques, pellicules et films</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3704009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3705000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaques et pellicules, photographiques, impressionnées et développées, autres que les films cinématographiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3705001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour la reproduction offset</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3705009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3706000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Films cinématographiques, impressionnés et développés, comportant ou non l'enregistrement du son ou ne comportant que l'enregistrement du son</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3706100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'une largeur de 35|mm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3706102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ne comportant que l'enregistrement du son; négatifs; positifs intermédiaires de travail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3706109900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres positifs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3706900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3706905200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ne comportant que l'enregistrement du son; négatifs; positifs intermédiaires de travail; films d'actualités</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3706909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, d'une largeur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3706909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de moins de 10|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3706909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de 10|mm ou plus</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3707000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations chimiques pour usages photographiques, autres que les vernis, colles, adhésifs et préparations similaires; produits non mélangés, soit dosés en vue d'usages photographiques, soit conditionnés pour la vente au détail pour ces mêmes usages et prêts à l'emploi</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3707100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Émulsions pour la sensibilisation des surfaces</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3707900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3707902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Révélateurs et fixateurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3707909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

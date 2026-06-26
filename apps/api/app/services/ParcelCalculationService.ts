@@ -1,5 +1,5 @@
 import type { ParcelSimulatorResult } from "@taxdom/types"
-import { eq, inArray } from "drizzle-orm"
+import { eq, inArray, sql } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 
 import type * as schema from "#database/schema"
@@ -115,7 +115,7 @@ export class ParcelCalculationService {
       transporter,
     })
 
-    const productNames = products.map((product) => product.name)
+    const productNames = products.map((product) => product.name.toUpperCase())
     const productResults = await this.db
       .select({
         categoryName: categories.categoryName,
@@ -126,7 +126,7 @@ export class ParcelCalculationService {
       .from(productsTable)
       .innerJoin(categories, eq(productsTable.categoryID, categories.categoryID))
       .innerJoin(taxes, eq(categories.taxID, taxes.taxID))
-      .where(inArray(productsTable.productName, productNames))
+      .where(inArray(sql`upper(${productsTable.productName})`, productNames))
 
     const availableCategories = productResults.map((result) => ({
       categoryName: result.categoryName,

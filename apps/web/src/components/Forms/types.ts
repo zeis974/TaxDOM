@@ -3,7 +3,7 @@ import type { SelectOption } from "@taxdom/types"
 import { z } from "zod"
 
 import type { ParcelSimulatorFormLabel } from "@/components/services/ParcelSimulator/types"
-import type { TaxSimulatorFormLabel } from "@/components/services/TaxSimulator/types"
+import type { TaxSimulatorFormLabel } from "@/components/services/ProductTaxesSimulator/types"
 
 export type FormLabel = ParcelSimulatorFormLabel | TaxSimulatorFormLabel
 
@@ -17,17 +17,17 @@ export type CheckboxProps = z.infer<typeof CheckboxSchema>
 
 const InputSchema = z.object({
   label: z.string(),
-  name: z.custom<FormLabel>(),
+  name: z.custom<FormLabel>().optional(),
   type: z.enum(["text", "number"]).optional(),
   placeholder: z.string(),
-  disabled: z.boolean(),
+  disabled: z.boolean().optional(),
 })
 
 export type InputProps = z.infer<typeof InputSchema>
 
 const RadioSchema = z.object({
   label: z.string(),
-  name: z.custom<FormLabel>(),
+  name: z.custom<FormLabel>().optional(),
   options: z.array(z.string()),
   disabled: z.boolean().optional(),
 })
@@ -43,6 +43,8 @@ export type SelectCommonProps = {
 export type SelectStaticProps = SelectCommonProps & {
   options: SelectOption[]
   onSearch?: never
+  searchDebounceMs?: never
+  searchMinChars?: never
 }
 
 export type SelectDynamicProps = SelectCommonProps & {
@@ -56,8 +58,12 @@ export type SelectProps = (SelectStaticProps | SelectDynamicProps) & {
   name: FormLabel
 }
 
-export type SelectFieldProps = Omit<SelectCommonProps, never> & {
+export type SelectFieldProps = SelectCommonProps & {
   options?: SelectOption[]
   onSearch?: (query: string) => Promise<SelectOption[]>
+  searchDebounceMs?: number
+  searchMinChars?: number
+  onFocus?: () => void
+  noResultsMessage?: string
   name?: string
 }

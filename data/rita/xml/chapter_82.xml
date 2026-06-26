@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 82 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:03</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>8200000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OUTILS ET OUTILLAGE, ARTICLES DE COUTELLERIE ET COUVERTS DE TABLE, EN MÉTAUX COMMUNS; PARTIES DE CES ARTICLES, EN MÉTAUX COMMUNS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8201000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bêches, pelles, pioches, pics, houes, binettes, fourches, râteaux et racloirs; haches, serpes et outils similaires à taillants; sécateurs de tous types; faux et faucilles, couteaux à foin ou à paille, cisailles à haies, coins et autres outils agricoles, horticoles ou forestiers, à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8201100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bêches et pelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8201300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pioches, pics, houes, binettes, râteaux et racloirs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8201400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Haches, serpes et outils similaires à taillants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8201500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sécateurs (y compris les cisailles à volaille) maniés à une main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8201600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cisailles à haies, sécateurs et outils similaires, maniés à deux mains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8201900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres outils agricoles, horticoles ou forestiers, à main</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8202000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Scies à main; lames de scies de toutes sortes (y compris les fraises-scies et les lames non dentées pour le sciage)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8202100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Scies à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8202200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lames de scies à ruban</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8202310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lames de scies circulaires (y compris les fraises-scies)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8202310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en acier</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8202390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, y compris les parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8202400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chaînes de scies, dites "coupantes"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8202910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres lames de scies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8202910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lames de scies droites, pour le travail des métaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8202990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8202992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour le travail des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8202998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour le travail d'autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8203000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Limes, râpes, pinces (même coupantes), tenailles, brucelles, cisailles à métaux, coupe-tubes, coupe-boulons, emporte-pièce et outils similaires, à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8203100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Limes, râpes et outils similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8203200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pinces (même coupantes), tenailles, brucelles et outils similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8203300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cisailles à métaux et outils similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8203400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coupe-tubes, coupe-boulons, emporte-pièce et outils similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8204000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Clés de serrage à main (y compris les clés dynamométriques); douilles de serrage interchangeables, même avec manches</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8204110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Clés de serrage à main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8204110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à ouverture fixe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8204120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à ouverture variable</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8204200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Douilles de serrage interchangeables, même avec manches</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8205000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Outils et outillage à main (y compris les diamants de vitriers) non dénommés ni compris ailleurs; lampes à souder et similaires; étaux, serre-joints et similaires, autres que ceux constituant des accessoires ou des parties de machines-outils ou de machines à découper par jet d'eau; enclumes; forges portatives; meules avec bâtis, à main ou à pédale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils de perçage, de filetage ou de taraudage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marteaux et masses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rabots, ciseaux, gouges et outils tranchants similaires pour le travail du bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tournevis</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8205510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres outils et outillage à main (y compris les diamants de vitriers)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'économie domestique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8205590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205591000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Outils pour maçons, mouleurs, cimentiers, plâtriers et peintres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205598000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lampes à souder et similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Étaux, serre-joints et similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8205900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, y compris des assortiments d'articles d'au moins deux des sous-positions de la présente position</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Enclumes; forges portatives; meules avec bâtis, à main ou à pédale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8205909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Assortiments d'articles d'au moins deux des sous-positions de la présente position</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8206000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Outils d'au moins deux des n$o$s|8202|à 8205, conditionnés en assortiments pour la vente au détail</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Outils interchangeables pour outillage à main, mécanique ou non, ou pour machines-outils (à emboutir, à estamper, à poinçonner, à tarauder, à fileter, à percer, à aléser, à brocher, à fraiser, à tourner, à visser, par exemple), y compris les filières pour l'étirage ou le filage (extrusion) des métaux, ainsi que les outils de forage ou de sondage</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207130000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils de forage ou de sondage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en cermets</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, y compris les parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>avec partie travaillante en diamant ou en agglomérés de diamant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Filières pour l'étirage ou le filage (extrusion) des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en diamant ou en agglomérés de diamant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils à emboutir, à estamper ou à poinçonner</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour l'usinage des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207301010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Jeu d'outils de presse transfert et/ou de presse tandem, pour le forçage à froid, la compression, l'étirage, la coupe, la découpe, le pliage, le bordage et le poinçonnage des tôles, utilisé dans la fabrication des pièces de châssis ou de pièces de carrosserie de véhicules à moteur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207301090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils à tarauder ou à fileter</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207401000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour l'usinage des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207401000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Outils à tarauder</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207403000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Outils à fileter</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207409000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils à percer</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en diamant ou en agglomérés de diamant</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207503000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207503000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Forets de maçonnerie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207505000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207505000</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>pour l'usinage des métaux, avec partie travaillante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207505000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en cermets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207506000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en aciers à coupe rapide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207507000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils à aléser ou à brocher</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207601000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en diamant ou en agglomérés de diamant</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207603000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en autres matières</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207603000</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Outils à aléser</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207603000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>pour l'usinage des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207605000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207607000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Outils à brocher</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207607000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>pour l'usinage des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207609000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils à fraiser</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207701000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour l'usinage des métaux, avec partie travaillante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207701000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en cermets</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207703100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207703100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fraises à queue</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207703700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207709000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils à tourner</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207801100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour l'usinage des métaux, avec partie travaillante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207801100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en cermets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207801900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207809000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8207900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres outils interchangeables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en diamant ou en agglomérés de diamant</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207903000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>avec partie travaillante en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lames de tournevis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Outils de taillage des engrenages</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207907100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, avec partie travaillante</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207907100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en cermets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207907100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour l'usinage des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207907800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8207909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour l'usinage des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8207909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8208000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Couteaux et lames tranchantes, pour machines ou pour appareils mécaniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8208100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour le travail des métaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8208200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour le travail du bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8208300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour appareils de cuisine ou pour machines pour l'industrie alimentaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8208400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour machines agricoles, horticoles ou forestières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8208900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8209000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plaquettes, baguettes, pointes et objets similaires pour outils, non montés, constitués par des cermets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8209002000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plaquettes amovibles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8209008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8210000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Appareils mécaniques actionnés à la main, d'un poids de 10|kg ou moins, utilisés pour préparer, conditionner ou servir les aliments ou les boissons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8211000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Couteaux (autres que ceux du n$o|8208) à lame tranchante ou dentelée, y compris les serpettes fermantes, et leurs lames</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8211100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Assortiments</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8211910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8211910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Couteaux de table à lame fixe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8211920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres couteaux à lame fixe</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8211930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Couteaux autres qu'à lame fixe, y compris les serpettes fermantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8211940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lames</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8211950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Manches en métaux communs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8212000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Rasoirs et leurs lames (y compris les ébauches en bandes)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8212100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rasoirs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8212101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rasoirs de sûreté à lames non remplaçables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8212109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8212200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lames de rasoirs de sûreté, y compris les ébauches en bandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8212900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres parties</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8213000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ciseaux à doubles branches et leurs lames</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8214000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres articles de coutellerie (tondeuses, fendoirs, couperets, hachoirs de bouchers ou de cuisine et coupe-papier, par exemple); outils et assortiments d'outils de manucures ou de pédicures (y compris les limes à ongles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8214100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coupe-papier, ouvre-lettres, grattoirs, taille-crayons et leurs lames</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8214200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Outils et assortiments d'outils de manucures ou de pédicures (y compris les limes à ongles)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8214900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8215000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cuillers, fourchettes, louches, écumoires, pelles à tartes, couteaux spéciaux à poisson ou à beurre, pinces à sucre et articles similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8215100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Assortiments contenant au moins un objet argenté, doré ou platiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8215102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant uniquement des objets argentés, dorés ou platinés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8215103000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8215103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8215108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8215200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres assortiments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8215201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8215209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>8215910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8215910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>argentés, dorés ou platinés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8215990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8215991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en aciers inoxydables</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8215999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

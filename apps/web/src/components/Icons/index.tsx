@@ -5,6 +5,7 @@ import CloseIcon from "./CloseIcon"
 import DownloadIcon from "./DownloadIcon"
 import HomeIcon from "./HomeIcon"
 import InfoIcon from "./InfoIcon"
+import LinkIcon from "./LinkIcon"
 import ListIcon from "./ListIcon"
 import LoadingIcon from "./LoadingIcon"
 import LogoutIcon from "./LogoutIcon"
@@ -28,6 +29,7 @@ export {
   DownloadIcon,
   HomeIcon,
   InfoIcon,
+  LinkIcon,
   ListIcon,
   LoadingIcon,
   LogoutIcon,

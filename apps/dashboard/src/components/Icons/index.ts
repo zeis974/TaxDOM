@@ -1,4 +1,5 @@
 export { default as CategoriesIcon } from "./CategoriesIcon"
+export { CustomsTreeIcon } from "./CustomsTreeIcon"
 export { default as HomeIcon } from "./HomeIcon"
 export { default as LogoutIcon } from "./LogoutIcon"
 export { default as OriginsIcon } from "./OriginsIcon"

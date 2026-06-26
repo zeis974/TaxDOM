@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 46 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:35</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>4600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>OUVRAGES DE SPARTERIE OU DE VANNERIE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tresses et articles similaires en matières à tresser, même assemblés en bandes; matières à tresser, tresses et articles similaires en matières à tresser, tissés ou parallélisés, à plat, même finis (nattes, paillassons et claies, par exemple)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4601210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Nattes, paillassons et claies en matières végétales</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4601210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>confectionnés à partir de tresses et articles similaires en matières à tresser</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4601220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en rotin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>confectionnés à partir de tresses et articles similaires en matières à tresser</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4601290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>confectionnés à partir de tresses et articles similaires en matières à tresser</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601299000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4601920000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4601920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601920500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tresses et articles similaires en matières à tresser, même assemblés en bandes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4601921000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>confectionnés à partir de tresses et articles similaires en matières à tresser</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4601930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en rotin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601930500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tresses et articles similaires en matières à tresser, même assemblés en bandes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4601931000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601931000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>confectionnés à partir de tresses et articles similaires en matières à tresser</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601939000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4601940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autres matières végétales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601940500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tresses et articles similaires en matières à tresser, même assemblés en bandes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4601941000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601941000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>confectionnés à partir de tresses et articles similaires en matières à tresser</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601949000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4601990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601990500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tresses et articles similaires en matières à tresser, même assemblés en bandes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4601991000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>confectionnés à partir de tresses et articles similaires en matières à tresser</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4601999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages de vannerie obtenus directement en forme à partir de matières à tresser ou confectionnés à l'aide des articles du n$o|4601; ouvrages en luffa</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4602110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en matières végétales</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4602110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4602110010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de matière à tresser, faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4602110090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4602120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en rotin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4602120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de matière à tresser, faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4602120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4602190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4602191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Paillons pour bouteilles servant d'emballage ou de protection</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4602199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4602199010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4602199090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4602900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

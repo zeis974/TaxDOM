@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 06 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:04</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>0600000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PLANTES VIVANTES ET PRODUITS DE LA FLORICULTURE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0601000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bulbes, oignons, tubercules, racines tubéreuses, griffes et rhizomes, en repos végétatif, en végétation ou en fleur; plants, plantes et racines de chicorée autres que les racines du n$o|1212</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0601100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bulbes, oignons, tubercules, racines tubéreuses, griffes et rhizomes, en repos végétatif</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0601101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Jacinthes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0601102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Narcisses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0601103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tulipes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0601104000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Glaïeuls</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0601109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0601200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bulbes, oignons, tubercules, racines tubéreuses, griffes et rhizomes, en végétation ou en fleur; plants, plantes et racines de chicorée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0601201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plants, plantes et racines de chicorée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0601203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Orchidées, jacinthes, narcisses et tulipes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0601209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0602000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres plantes vivantes (y compris leurs racines), boutures et greffons; blanc de champignons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0602100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boutures non racinées et greffons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de vigne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0602200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Arbres, arbustes, arbrisseaux et buissons, à fruits comestibles, greffés ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plants de vigne, greffés ou racinés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602202000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à racines nues</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602203000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Agrumes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602208000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0602300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rhododendrons et azalées, greffés ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rhododendrons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Azalées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0602400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rosiers, greffés ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602400010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>boutures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602400090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0602900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Blanc de champignons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plants d'ananas</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plants de légumes et plants de fraisiers</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602904100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602904100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plantes de plein air</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602904100</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Arbres, arbustes et arbrisseaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602904100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>forestiers</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602904500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602904500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Boutures racinées et jeunes plants</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602904600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602904600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>à racines nues</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602904700</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602904700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>Conifères et essences à feuilles persistantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602904800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602905000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres plantes de plein air</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602907000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Plantes d'intérieur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Boutures racinées et jeunes plants, à l'exception des cactées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0602909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0602909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Plantes à fleurs, en boutons ou en fleur, à l'exception des cactées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602909110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Plantes en pots n'excédant pas un mètre de hauteur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602909190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0602909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602909910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Plantes en pots n'excédant pas un mètre de hauteur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0602909990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0603000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fleurs et boutons de fleurs, coupés, pour bouquets ou pour ornements, frais, séchés, blanchis, teints, imprégnés ou autrement préparés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0603110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>frais</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Roses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>oeillets</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Orchidées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chrysanthèmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lis (Lilium spp.)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0603190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Glaïeuls</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Renoncules</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0603197000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603197010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>du genre Protea</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603197020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>des genres Banksia, Leucadendron, Brunia et Forsythia</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603197090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0603900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0604000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Feuillages, feuilles, rameaux et autres parties de plantes, sans fleurs ni boutons de fleurs, et herbes, mousses et lichens, pour bouquets ou pour ornements, frais, séchés, blanchis, teints, imprégnés ou autrement préparés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0604200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Frais</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0604201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mousses et lichens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lichens des rennes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Arbres de Noël</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604204000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rameaux de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>0604900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0604901100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mousses et lichens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604901100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Lichens des rennes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604901900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>0604909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>simplement séchés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>0604909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

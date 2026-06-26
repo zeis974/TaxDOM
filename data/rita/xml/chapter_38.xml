@@ -1,0 +1,3278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 38 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:29</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRODUITS DIVERS DES INDUSTRIES CHIMIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Graphite artificiel; graphite colloïdal ou semi-colloïdal; préparations à base de graphite ou d'autre carbone, sous forme de pâtes, blocs, plaquettes ou d'autres demi-produits</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3801100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graphite artificiel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poudres ne contenant pas plus de 0,05|% de cendres en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3801109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801109015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en blocs ou en cylindres, d'une densité apparente de 1,5 g/cm³ ou plus et d'une résistivité électrique de 7,0 µ.¿.m ou moins, présentant un diamètre nominal supérieur à 350 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801109085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3801200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Graphite colloïdal ou semi-colloïdal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Graphite colloïdal en suspension dans l'huile; graphite semi-colloïdal</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pâtes carbonées pour électrodes et pâtes similaires pour le revêtement intérieur des fours</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3801900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Graphite expansible (CAS RN 90387-90-9|et CAS RN 12777-87-6)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3801900080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801900080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en blocs ou en cylindres, d'une densité apparente de 1,5 g/cm³ ou plus et d'une résistivité électrique de 7,0 µ.¿.m ou moins, présentant un diamètre nominal supérieur à 350 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3801900085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Charbons activés; matières minérales naturelles activées; noirs d'origine animale, y compris le noir animal épuisé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3802100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Charbons activés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3802100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange de charbon actif et de polyéthylène, sous forme de poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3802100040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Charbon activé par voie chimique, utilisé pour l'absorption ou la désorption de vapeurs, de forme définie ou irrégulière, présentant une capacité effective d'adsorption du butane de 5 g de butane/100 ml ou plus (telle que déterminée par la méthode ASTM D 5228)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3802100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3802900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3802900011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Terre à diatomées calcinée sous flux de soude</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3802900011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Terre à diatomées calcinée sous flux de soude, lavée à l'acide, destinée à servir d'adjuvant de filtration dans la fabrication des produits pharmaceutiques et/ou biochimiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3802900019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3802900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3803000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tall oil, même raffiné</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3803001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>brut</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3803009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Lessives résiduaires de la fabrication des pâtes de cellulose, même concentrées, désucrées ou traitées chimiquement, y compris les lignosulfonates, mais à l'exclusion du tall oil du n$o|3803</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3804000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lignosulfonate de sodium (CAS RN 8061-51-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3804000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3805000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Essences de térébenthine, de bois de pin ou de papeterie au sulfate et autres essences terpéniques provenant de la distillation ou d'autres traitements des bois de conifères; dipentène brut; essence de papeterie au bisulfite et autres paracymènes bruts; huile de pin contenant l'alpha-terpinéol comme constituant principal</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3805100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Essences de térébenthine, de bois de pin ou de papeterie au sulfate</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3805101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Essence de térébenthine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3805103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Essence de bois de pin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3805109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Essence de papeterie au sulfate</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3805900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3805901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Huile de pin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3805909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Colophanes et acides résiniques, et leurs dérivés; essence de colophane et huiles de colophane; gommes fondues</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3806100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Colophanes et acides résiniques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3806100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de gemme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3806100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3806200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sels de colophanes, d'acides résiniques ou de dérivés de colophanes ou d'acides résiniques, autres que les sels des adducts de colophanes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3806300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gommes esters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3806900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3807000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Goudrons de bois; huiles de goudron de bois; créosote de bois; méthylène; poix végétales; poix de brasserie et préparations similaires à base de colophanes, d'acides résiniques ou de poix végétales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3807001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Goudrons de bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3807009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Insecticides, antirongeurs, fongicides, herbicides, inhibiteurs de germination et régulateurs de croissance pour plantes, désinfectants et produits similaires, présentés dans des formes ou emballages de vente au détail ou à l'état de préparations ou sous forme d'articles tels que rubans, mèches et bougies soufrés et papier tue-mouches</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3808520000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises mentionnées dans la note|1|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>DDT (ISO) [clofénotane (DCI)], conditionné dans des emballages d'un contenu en poids net n'excédant pas 300|g</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant de l'acide perfluorooctane sulfonique et ses sels, utilisée comme pesticide (CAS 1763-23-1 )</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>camphéchlore et ses préparations (CAS 8001-35-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant du DDT (ISO), utilisée comme pesticide (CAS 50-29-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant du chlordane (ISO), utilisée comme pesticide (CAS 57-74-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant du lindane (ISO, DCI) [¿-HCH (ISO)], utilisée comme pesticide (CAS 58-89-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant de la dieldrine (ISO), utilisée comme pesticide (CAS 60-57-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant de l'endosulfan (ISO), utilisée comme pesticide (CAS 115-29-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant de l'hexachlorobenzène, utilisée comme pesticide (CAS 118-74-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808590090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3808610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises mentionnées dans la note 2|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnées dans des emballages d'un contenu en poids net n'excédant pas 300|g</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>conditionnées dans des emballages d'un contenu en poids net excédant 300|g mais n'excédant pas 7,5|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3808910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Insecticides</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de pyréthrinoïdes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808911010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Aérosols techniques contenant des HFC dont le PRP est supérieur ou égal à 150</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808911090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808912000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base d'hydrocarbures chlorés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808912010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>préparation contenant du mirex, utilisée comme insecticide (CAS 2385-85-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808912090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808913000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de carbamates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808914000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base d'organo-phosphorés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808919015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>préparation contenant de l'endrine (ISO), utilisée comme insecticide (CAS 72-20-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808919025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>préparation contenant du chlordécone (ISO), utilisée comme insecticide (CAS 143-50-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808919030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Préparation contenant des endospores ou des spores et des cristaux de protéines dérivées de: -|Bacillus thuringiensis Berliner subsp. aizawai et kurstaki, ou -|Bacillus thuringiensis subsp. kurstaki ou, -|Bacillus thuringiensis subsp. israelensis ou, -|Bacillus thuringiensis subsp. aizawai ou, -|Bacillus thuringiensis subsp. tenebrionis</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808919040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spinosad (ISO)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808919060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Spinetoram (ISO) (CAS RN|935545-74-7), préparation de deux composés de spinosyne (3'-éthoxy-5,6-dihydrospinosyne J) et (3'-éthoxy-spinosyne L)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808919090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fongicides</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3808921000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>inorganiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Préparations cupriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808922000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3808923000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808923000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de dithiocarbamates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808924000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de benzimidazoles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808925000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de diazoles ou de triazoles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808926000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de diazines ou de morpholines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Herbicides, inhibiteurs de germination et régulateurs de croissance pour plantes</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3808931100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Herbicides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808931100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de phénoxyphytohormones</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808931300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de triazines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808931500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base d'amides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808931700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de carbamates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808932100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de dérivés de dinitroanilines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808932300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à base de dérivés d'urée, d'uraciles ou de sulphonylurées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808932700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808933000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Inhibiteurs de germination</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808939000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Régulateurs de croissance pour plantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808939010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Préparation, sous forme de granules, contenant, en poids: -|au minimum|38,8|% et au maximum|41,2|% de gibbérelline A3, ou -|au minimum|9,5|% et au maximum|10,5|% de gibbérelline A4|et A7</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808939070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Préparation sous forme de poudre, contenant en poids 90 % ou plus d'une combinaison de gibbérellines A4 et A7 (CAS RN 8030-53-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808939090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Désinfectants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808941000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de sels d'ammonium quaternaire</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808942000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de composés halogénés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808942020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Acide trichloroisocyanurique (également appelé «symclosène» selon sa dénomination commune internationale) et les préparations à base de cette substance</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808942030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bromochloro-5,5-diméthylimidazolidine-2,4-dione (CAS RN 32718-18-6) contenant: -|1,3-dichloro-5,5-diméthylimidazolidine-2,4-dione (CAS RN 118-52-5), -|1,3-dibromo-5,5-diméthylimidazolidine-2,4-dione (CAS RN 77-48-5), -|1-bromo,3-chloro-5,5-diméthylimidazolidine-2,4-dione (CAS RN 16079-88-2), et/ou -|1-chloro,3-bromo-5,5-diméthylimidazolidine-2,4-dione (CAS RN 126-06-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808942040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Solution aqueuse contenant en poids :- 10,0 % ou plus mais n'excédant pas 11,3 % de 5-chloro-2-méthyl-2H-isothiazol-3-one,- 3,0 % ou plus mais n'excédant pas 4,1 % de 2-méthyl-2H-isothiazol-3-one,- une concentration combinée d'isothiazolinones (CAS RN 55965-84-9) de 13,0 % ou plus mais n'excédant pas 15,4 %,- 18 % ou plus mais n'excédant pas 22 % de nitrates, calculés en tant que nitrates de sodium,- 5 % ou plus mais n'excédant pas 8 % de chlorures, calculés en tant que chlorure de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808942090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808949000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808949010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Aérosols techniques contenant des HFC dont le PRP est supérieur ou égal à 150</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808949090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Rodenticides</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3808999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>préparation contenant du dicofol (ISO) (CAS 115-32-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808999030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Oxime de milbémycine(CAS RN 129496-10-2), mélange d'analogues méthylés et éthylés, d'une pureté en poids de 95 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3808999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3809000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Agents d'apprêt ou de finissage, accélérateurs de teinture ou de fixation de matières colorantes et autres produits et préparations (parements préparés et préparations pour le mordançage, par exemple), des types utilisés dans l'industrie textile, l'industrie du papier, l'industrie du cuir ou les industries similaires, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3809100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à base de matières amylacées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3809101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de ces matières inférieure à 55|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3809103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de ces matières égale ou supérieure à 55|% et inférieure à 70|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3809105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de ces matières égale ou supérieure à 70|% et inférieure à 83|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3809109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids de ces matières égale ou supérieure à 83|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3809910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3809910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés dans l'industrie textile ou dans les industries similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3809910020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Solution aqueuse de pentoxyde d'antimoine contenant en poids:-48 % ou plus mais pas plus de 55 % de pentoxyde d'antimoine (CAS RN 1314-60-9)1 % ou plus mais pas plus de 5 % de triéthanolamine (CAS RN 102-71-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3809910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3809920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés dans l'industrie du papier ou dans les industries similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3809930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés dans l'industrie du cuir ou dans les industries similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3810000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations pour le décapage des métaux; flux à souder ou à braser et autres préparations auxiliaires pour le soudage ou le brasage des métaux; pâtes et poudres à souder ou à braser composées de métal et d'autres produits; préparations des types utilisés pour l'enrobage ou le fourrage des électrodes ou des baguettes de soudage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3810100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations pour le décapage des métaux; pâtes et poudres à souder ou à braser composées de métal et d'autres produits</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3810900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3810901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations des types utilisés pour l'enrobage ou le fourrage des électrodes ou des baguettes de soudage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3810909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3811000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations antidétonantes, inhibiteurs d'oxydation, additifs peptisants, améliorants de viscosité, additifs anticorrosifs et autres additifs préparés, pour huiles minérales (y compris l'essence) ou pour autres liquides utilisés aux mêmes fins que les huiles minérales</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3811110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations antidétonantes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3811110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de composés du plomb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base de plomb tétraéthyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3811190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Solution de plus de 61|% mais pas plus de 63|% en poids de tricarbonyl(méthylcyclopentadiényl)manganèse dans un solvant d'hydrocarbures aromatiques, contenant en poids pas plus de: -|4,9|% de 1,2,4-triméthyl-benzène, -|4,9|% de naphtalène et -|0,5|% de 1,3,5-triméthyl-benzène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3811210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3811210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des huiles de pétrole ou de minéraux bitumineux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sels d'acide dinonylnaphtalènesulfonique, sous forme de solution dans des huiles minérales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Agent de dispersion et inhibiteur d'oxydation contenant|:-|de l'o-amino polyisobutylènephénol (CAS 78330-13-9),-|plus de 30|% en poids mais pas plus de 50|% en poids d'huile minérale,destiné à être utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Agent de dispersion contenant:-|des esters d'acide succinique polyisobutylénique et de pentaérythritol (CAS|RN|103650-95-9)-|plus de 35|% mais pas plus de 55|% en poids d'huiles minérales et-|dont la teneur en chlore n'excède pas 0,05|% en poids,destiné à être utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant:| -|des alkylbenzènesulfonates| (C16-24) de magnésium boratés, et -|des huiles minérales,ayant un indice de base| (TBN) de plusde 250, mais pas plus de 350, destinés à être utilisés dans la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Agent de dispersion:-|contenant du succinimide de polyisobutylène dérivé des produits de la réaction de polyamines de polyéthylène avec de l'anhydride succinique polyisobutylénique (CAS|RN|147880-09-9),-|contenant plus de 35|% mais pas plus de 55|% en poids d'huiles minérales,-|dont la teneur en chlore n'excède pas 0,05|%|en poids,-|présentant un indice de basicité totale inférieur à 15,destiné à être utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210016</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Détergent contenant:-|un sel de calcium d'alkylphénol beta-aminocarbonylé (produit de réaction base de Mannich d'alkylphénol)|-|plus de 40|% mais pas plus de 60|% en poids d'huiles minérales et-|présentant un indice de basicité totale supérieur à 120destiné à être utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant:-|un mélange à base de polyisobutylène succinimide et-|plus de 30|% mais pas plus de 50|% en poids d'huiles minérales,ayant un indice de base total de plus de 40, destinés à être utilisés dans la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs pour huiles lubrifiantes, à base de composés organiques complexes de molybdène, sous forme de solution dans de l'huile minérale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif contenant en poids : -90 % ou plus mais pas plus de 97 % de produits de réaction du butyl-cyclohex-3-ènecarboxylate et de soufre (CAS RN 160305-95-3) -3 % ou plus mais pas plus de 10 % d'huile minérale, utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210022</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif constitué essentiellement de :-produit de réaction d'anhydride polyisobutényl succinique (CAS RN 192662-34-3) avec N, N-diéthylaminoéthanol (CAS RN 100-37-8),-25 % ou plus en poids mais pas plus de 40 % en poids d'huile minérale,utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210024</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif constitué essentiellement de :-produit de réaction d'anhydride polyisobutényl succinique avec des polyéthylènepolyamines, boraté (CAS RN 134758-95-5), ayant une teneur en chlore comprise entre 0,05 % ou plus en poids mais pas plus de 0,25 % en poids, et un indice de base total (TBN) supérieur à 20,-45 % ou plus en poids mais pas plus de 55 % en poids d'huile minérale,utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant:| -|un copolymère de polyméthacrylate d'alkyle (en C8|à C18) avec du N-[3-(diméthylamino)propyl]méthacrylamide, d'une masse moléculaire moyenne en poids (Mw) de plus de 10|000|mais pas plus de 20|000, et -|plus de 15|% en poids mais pas plus de 30|% en poids d'huiles minérales|destinés à être utilisés dans la fabrication |d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210026</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif constitué essentiellement de :-acide phosphorodithioïque, esters mixtes d'O, O-bis (1,3-diméthylbutyle et isopropyle), sels de zinc (CAS RN 84605-29-8),-7 % ou plus en poids mais pas plus de 12 % en poids d'huile minérale,utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210027</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant:-10 % ou plus en poids d'un copolymère d'éthylène-propylène modifié chimiquement par des groupes d'anhydride succinique ayant réagi avec de la 3-nitroaniline, et-des huiles minérales,destinés à la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210028</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif constitué essentiellement de :-bis(dithiophosphate) de zinc et de bis [O,O-bis(2- éthylhexyle)] (CAS RN 4259-15-8);-phosphite de triphényle (CAS RN 101-02-0), d'une teneur de plus de 0,5 % en poids mais pas plus de 6 % en poids;-phosphorothioate d'O,O,O-triphényle (CAS RN 597-82-0), d'une teneur de plus de 0,5 % en poids mais pas plus de 6 % en poids, et pas plus de 7,5 % en poids de la combinaison des composés du triphénylphosphore;-10 % ou plus en poids mais pas plus de 20 % en poids d'huiles minérales;utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif contenant en poids :-25 % ou plus mais pas plus de 40 % des alkylbenzènesulfonates de calcium en C16-24 (CAS RN 70024-69-0),-30 % ou plus mais pas plus de 65 % d'huiles minérales,destiné à la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif pour huiles lubrifiantes, contenant des huiles minérales et constitué de sels de calcium des produits de la réaction de phénol substitué par du polyisobutylène avec de l'acide salicylique et du formaldhéhyde, utilisé comme additif concentré dans la fabrication d'huiles pour moteur, par mélange</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210032</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif constitué essentiellement de :-bis(dithiophosphate) de zinc et d'O,O,O',O'-tétrakis(1,3-diméthylbutyle) (CAS RN 2215-35-2),-4 % ou plus en poids mais pas plus de 12 % en poids d'huile minérale,utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210033</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant: -|des sels de calcium des produits de réaction d'heptylphénol avec du formaldéhyde (n° CAS 84605-23-2), et -|des huiles minérales,présentant un indice de basicité total (TBN) de plus de 40|mais pas plus de 100, destinés à être utilisés dans la fabrication d'huiles lubrifiantes ou de détergents surbasés utilisés dans des |huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210034</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Détergent contenant:- des sels de calcium de dérivés méthylés et mono-alkylés (C20-24 ramifié) de l'acide benzènesulfonique-(CAS RN 722503-68-6),-plus de 30 % mais pas plus de 60 % en poids d'huiles minérales, et,-possédant un indice de basicité total supérieur à 310 mais n'excédant pas 340,utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210037</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant: -|un copolymère styrène-anhydride maléique estérifié avec des alcools en C4-C20, modifié par l'aminopropylmorpholine, et -|plus de 50|% en poids mais pas plus de 75|% en poids d'huiles minérales,destinés à être utilisés dans la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210048</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant  :-des alkylbenzènesulfonates de magnésium (en C20 à C24) (CAS RN 231297-75-9) surbasés et-plus de 25% mais pas plus de 50% en poids d'huiles minérales,-ayant un indice de base total de plus de 350 mais pas plus de 450,destinés à la fabrication d'huiles lubrifiantes ou de mélanges d'additifs pur huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210053</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant : -|des sulfonates de pétrole, sels de calcium (CAS 68783-96-0) surbasés, avec une teneur en sulfonate de 15|% ou plus mais pas plus de 30|%|en poids et -|plus de 40|%mais pas plus de 60|%|en poids d'huiles minérales,ayant un indice de base total de plus de 280|mais pas plus de 420,|destinés à être utilisés dans la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant: -|du polypropylenbenzènesulfonate de calcium avec un faible indice de base (CAS RN 75975-85-8) et -|plus de 40|% mais pas plus de 60|% en poids d'huiles minérales,ayant un indice de base total|de plus de 10|mais pas plus de 25, destinés à être utilisés dans la fabrication des huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif pour huiles lubrifiantes, contenant des huiles minérales, -|à base de benzènesulfonate substitué par du polypropylényl de calcium (CAS RN|75975-85-8) en concentration égale ou supérieure à 25|% en poids, sans excéder 35|%, -|présentant un indice de base égal ou supérieur à 280, mais n'excédant pas 320,utilisé comme additif concentré dans la fabrication d'huiles pour moteur, par mélange</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210063</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant : -|un mélange surbasé de sulfonates de pétrole de calcium (CAS RN 61789-86-4) et d'alkylbenzène sulfonates de calcium de synthèse (CAS RN 68584-23-6|and CAS RN 70024-69-0) avec une teneur totale en sulfonate de 15|% ou plus mais pas plus de 25|% en poids et -|plus de 40|% mais pas plus de 60|% en poids d'huiles minérales,ayant un indice de base total|de|280|ou plus mais pas plus de 320, destinés à être utilisés dans la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210065</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant: -|un mélange à base de polyisobutylène succinimide (CAS|RN|160610-76-4) et -|plus de 35|% mais pas plus de 50|% en poids d'huiles minérales, ayant une teneur en soufre de plus de 0,7|% mais pas plus de 1,3|% en poids, ayant un indice de base total de plus de 8, destinés à être utilisés dans la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif pour huiles lubrifiantes, -|contenant du succinimide de polyisobutylène dérivé des produits de la réaction de polyamines de polyéthylène avec de l'anhydride succinique polyisobutylénique (CAS RN|84605-20-9), -|contenant des huiles minérales, -|dont la teneur en chlore est égale ou supérieure à 0,05|% en poids, sans excéder 0,25|%, -|présentant un indice de base supérieur à 20,utilisé comme additif concentré dans la fabrication d'huiles pour moteur, par mélange</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210073</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant: -|des composés succinimides boratés (CAS RN 134758-95-5), et -|des huiles minérales, -|présentant un indice de basicité total (TBN) supérieur à 40,destinés à être utilisés dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant: -|des dialkylbenzènesulfonates de calcium (C10-C14), -|plus de 40|%, mais pas plus de 60|% en poids d'huiles minérales,avec un indice de base total n'excédant pas 10, destinés à la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210077</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs antimousse constitués: -|d'un copolymère d'acrylate de 2-éthylhexyle et d'acrylate d'éthyle, et -|de plus de 50|% mais pas plus de 80|% en poids d'huiles minérales,destinés à la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs contenant: -|du succinimide de polyisobutylène et d'amine aromatique, -|plus de 40|% mais pas plus de 60|% en poids d'huiles minérales,présentant une teneur en azote de plus de 0,6|% en poids mais pas plus de 0,9|% en poids, destinés à la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs -|contenant du succinimide de polyisobutylène dérivé des produits de la réaction de polyamines de polyéthylène |avec de l'anhydride succinique polysiobutylénique (CAS RN 84605-20-9), -|contenant plus de 31,9|% en poids mais pas plus de 43,3|% en poids d'huiles minérales, -|dont la teneur en chlore n'excède pas 0,05|% en poids, et -|présentant un indice de basicité totale (TBN) supérieur à 20,destinés à être utilisés dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs -|contenant plus de 20|% mais pas plus de 45|% en poids d'huiles minérales -|à base d'un mélange de sels de calcium de sulfures de dodécylphénol ramifié, carbonatés ou non,du type utilisés dans la fabrication de mélanges d'additifs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811210090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3811290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif pour huiles lubrifiantes, consistant en produits de la réaction d'acide bis(2-méthylpentan-2-yl)dithiophosphorique avec de l'oxyde de propylène, de l'oxyde de phosphore et des amines à chaîne alkyle en C12-14, utilisé comme additif concentré dans la fabrication des huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif pour huiles lubrifiantes, constitué de molybdène,bis(dibutylcarbamodithioato)di-µ-oxodioxodi-, sulfuré (CAS RN 68412-26-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif pour huiles lubrifiantes, consistant en produits de la réaction de carboxylate de butyl-cyclohex-3-ène, de soufre et de phosphite de triphényle (CAS RN 93925-37-2), utilisé comme additif concentré dans la fabrication d'huiles pour moteur, par mélange</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290033</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs pour huiles lubrifiantes, consistant en un mélange de N,N-dialkyl-2-hydroxyacétamides à chaînes alkyle de longueur comprises entre 12 et 18 atomes de carbone (CAS RN 866259-61-2), utilisés dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290038</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs constitués de sels de C12-C14-tert-alkylamine d'esters d'alcools saturés (en C14 à C18) et d'alcools insaturés (en C18) avec du pentoxyde de phosphore et salés avec des tert-alkylamines (en C12 à C14) (CAS RN 1471315-74-8), destinés à être utilisés dans la fabrication de mélanges d'additifs pour huiles ou graisses lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additif pour huiles lubrifiantes, consistant en produits de la réaction du 2-méthylprop-1-ène avec du monochlorure de soufre et du sulfure de sodium (CAS RN68511-50-2), présentant une teneur en chlore égale ou supérieure à 0,01|% en poids, mais n'excédant pas 0,5|%, utilisé comme additif concentré dans la fabrication des huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290043</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produits de la réaction des acides gras en C14-C18 (ramifiés et droits) et en C18 (insaturés) avec de la tétraéthylènepentamine (linéaire, ramifiée, cyclique) (CAS RN 68784-17-8), destinés à la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs constitués d'un mélange d'adipates de dialkyl (en C7à C9), dans lequel l'adipate le diisooctyle (CAS RN 1330-86-5) est présent à plus de 85 % en poids, destinés à être utilisés pour la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290048</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Mélange de dérivés alkylés (en C12 à C20) et de dérivés alkylés insaturés (en C14 à C18) de l'acide phosphonique (CAS 93925-25-8), contenant plus de 80 % en poids de groupes oléyles, palmityles et stéaryles, destiné à être utilisé dans la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290057</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs constitués de produits de réaction de diphénylamine et de nonènes ramifiés, avec:- plus de 20 % mais pas plus de 50 % en poids de 4-monononyldiphénylamine, et- plus de 50 % mais pas plus de 80 % en poids de 4,4'-dinonyldiphénylamine,- un pourcentage total en poids de 2,4-dinonyldiphénylamine et de 2,4'-dinonyldiphénylamine n'excédant pas 15 %,utilisés pour la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Inhibiteur d'oxydation contenant essentiellement un mélange d'isomères du 1-(tert-dodécylthio)propan-2-ol (CAS|RN|67124-09-8), destiné à être utilisé dans la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290079</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs constitués de produits de réaction de 1,3,4-thiadiazolidine-2,5-dithione avec du peroxyde d'hydrogène et du tert-nonanethiol, contenant en poids:- 70 % ou plus de 2,5-bis(tert-nonyldithio)-[1,3,4]-thiadiazole (CAS RN 89347-09-1), et- 10 % ou plus de 5-(tert-nonyldithio)- 1,3,4-thiadiazole-2(3H)-thione (CAS RN 97503-12-3),destinés à la fabrication de mélanges d'additifs pour huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Additifs composés d'un mélange de 1,1-dioxyde de 3-(isoalkyloxy C9-11)tétrahydrothiophène, riche en C10 (CAS RN 398141-87-2), utilisés pour la fabrication d'huiles lubrifiantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811290090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3811900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811900040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Solution d'un sel d'ammonium quaternaire à base de succinimide de polyisobutényle, contenant 10% ou plus, mais n'éxcédant pas 29,9% en poids de 2-éthylhexanol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811900050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Inhibiteur de corrosion contenant:-|de l'acide polyisobututényl succinique et|-|plus de 5|% mais pas plus de 20|% en poids d'huiles minéralesdestiné à être utilisé dans la fabrication de mélanges d'additifs pour carburants</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3811900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3812000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations dites "accélérateurs de vulcanisation"; plastifiants composites pour caoutchouc ou matières plastiques, non dénommés ni compris ailleurs; préparations antioxydantes et autres stabilisateurs composites pour caoutchouc ou matières plastiques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3812100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations dites "accélérateurs de vulcanisation"</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Accélérateur de vulcanisation sous forme de granulés de guanidine de diphényle|(CAS RN 102-06-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812100030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Accélérateur de vulcanisation constitué, en poids, de:-98 % ou plus de N-tert-butyl bis(2-benzothiazolesulfén)amide (CAS RN 3741-80-8)-pas plus de 2 % d'huile minérale blanche (CAS RN 8042-47-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3812200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plastifiants composites pour caoutchouc ou matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange de réaction contenant du phtalate de benzyle et de 3-isobutyryloxy-1-isopropyl-2,2-diméthylpropyle, et du phtalate de benzyle et de 3-isobutyryloxy-2,2,4-triméthylpentyle</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3812209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812209010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>plastifiant, contenant:| -|bis(2-éthylhexyle)-1,4-benzène dicarboxylate (CAS RN 6422-86-2) -|plus de 10|% mais pas plus de 60|% en poids de téréphtalate de dibutyle (CAS RN 1962-75-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812209020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Acide benzènedicarboxylique-1,2, esters de dialkyles ramifiés en C6-8, riches en C7 (CAS RN 71888-89-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812209030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Acide benzènedicarboxylique-1,2, esters de dialkyles en C7-11, ramifiés et linéaires (CAS RN 68515-42-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812209040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>N-pentyl-isopentylphtalate (CAS RN 776297-69-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3812310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations antioxydantes et autres stabilisateurs composites pour caoutchouc ou matières plastiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélanges d'oligomères de 2,2,4-trimethyl-1,2-dihydroquinoline (TMQ)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3812390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812391000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparations antioxydantes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3812399000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399023</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Absorbant UV, contenant en poids:-plus de 97 % mais pas plus de 99,8 % de diphosphite de bis(2,4-dicumylphényle) pentaérythritol (CAS RN 154862-43-8) et-plus de 0,2 % mais pas plus de 2 % de triisopropanol amine (CAS RN 122-20-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Photostabilisant UV contenant les substances suivantes: -|alpha-[3-[3-(2H-Benzotriazol-2-yl)-5-(1,1-diméthyléthyl)-4-hydroxyphényl]-1-oxopropyl]-¿-hydroxypoly(oxy-1,2-éthanediyl) (CAS RN 104810-48-2); -|alpha-[3-[3-(2H-Benzotriazol-2-yl)-5-(1,1-diméthyléthyl)-4-hydroxyphényl]-1-oxopropyl]-¿-[3-[3-(2H-benzotriazol-2-yl)-5-(1,1-diméthyléthyl)-4-hydroxyphényl]-1-oxopropoxy]poly (oxy-1,2-éthanediyl) (CAS RN 104810-47-1); -|polyéthylène glycol d'un poids moléculaire moyen (pm) de 300|(CAS RN 25322-68-3); -|sébaçate de bis (1,2,2,6,6-pentaméthyl-4-pipéridyl) (CAS RN 41556-26-7), et -|sébaçate de méthyl-1,2,2,6,6-pentaméthyl-4-pipéridyl (CAS RN 82919-37-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399028</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Photostabilisant UV à base d'un mélange de- masse de réaction de poly(oxy-1,2-éthanediyl), .alpha.-[3-[3-(2H-benzotriazol-2-yl)-5-(1,1-diméthyléthyl)-4-hydroxyphényl]-1-oxopropyl]-.omega.-hydroxy et de poly(oxy-1,2-éthanediyl), .alpha.-[3-[3-(2H-benzotriazol-2-yl)-5-(1,1-diméthyléthyl)-4-hydroxyphényl]-1-oxopropyl]-.omega.-[3-[3-(2H-benzotriazol-2-yl)-5-(1,1-diméthyléthyl)-4-hydroxyphényl]-1- oxopropoxy] (numéro CE 400-830-7) d'une pureté en poids de 60 % ou plus mais n'excédant pas 80 %, et- masse de réaction de sébacate de bis(1,2,2,6,6-pentaméthyl-4-pipéridyl) et de sébacate de méthyl(1,2,2,6,6-pentaméthyl-4-pipéridyl) (CAS RN 1065336-91-5) d'une pureté en poids de 25 % ou plus mais n'excédant pas 40 %</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399033</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Photostabilisant UV contenant en poids :- 40 % ou plus mais pas plus de 60 % d'un mélange de 3-[3-(2H-benzotriazol-2-yl)-5-(1,1-diméthyléthyl)-4-hydroxyphényl]propionates d'alkyles C7-C9 ramifiés et linéaires (CAS RN 127519-17-9) , et- 40 % ou plus mais pas plus de 60 % d'un mélange de bis(2,2,6,6-tétraméthyl-1-octyloxypipéridin-4-yl)-1,10-décanedioate et de 1,8-bis[(2,2,6,6-tétraméthyl-4-((2,2,6,6-tetraméthyl-1-octyloxypiperidin-4-yl)-décan-1,10-dioyl)pipéridin-1-yl)oxy]octane (CAS RN 129757-67-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélange contenant en poids: -|25|% ou plus mais pas plus de 55|% d'un mélange d'esters de tétraméthylpipéridinyle en C15-18|(CAS RN 86403-32-9) -|pas plus de 20|% d'autres composés organiques -|sur substrat de polypropylène (CAS RN 9003-07-0) ou de silice amorphe (CAS RN 7631-86-9 or 112926-00-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399038</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Photostabilisant UV contenant en poids:- 75 % ou plus mais pas plus de 95 % du produit de la réaction de 2-(4,6-bis(2,4-diméthylphényl)-1,3,5-triazine-2-yl)-5-hydroxyphénol avec ((C10-16, riche en C12-13 alkyloxy)méthyl)oxyrane- 5 % ou plus mais pas plus de 25 % de 1-méthoxy-2-propanol (CAS RN 107-98-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélange composé de: -|80|% (±|10|%) en poids de 10-éthyl-4,4-diméthyl-7-oxo-8-oxa-3,5-dithia-4-stannatétradecanoate de 2-éthylhexyle (CAS RN 57583-35-4), et de -|20|% (±|10|%) en poids de 10-éthyl-4-[[2-[(2-éthylhexyl)oxy]-2-oxoéthyl]thio]-4-méthyl-7-oxo-8-oxa-3,5-dithia-4-stannatétradecanoate de 2-éthylhexyle (CAS RN 57583-34-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399043</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélange contenant en poids: -plus de 45 % mais pas plus de 49 % d'octyl 3-[3-tert-butyl-4-hydroxy-5-(5-chloro-2H-benzotriazole-2-yl)phényl] propionate (CAS RN 83044-89-7), et -plus de 49 % mais pas plus de 53 % de 2-éthylhexyl 3-[3-tert-butyl-4-hydroxy-5-(5-chloro-2H-benzotriazole-2-yl) phényl]propionate (CAS RN 83044-90-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399045</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Produits de réaction de 2-aminoéthanol avec N-butyl-2,2,6,6-tétraméthyl-4-piperidinamine-2,4,6-trichloro-1,3,5-triazine cyclohexane et peroxydé, (CAS RN 191743-75-6) d'une pureté en poids de 99 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399048</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Photostabilisant UV (CAS RN 129757-67-1), mélange contenant en poids 97 % ou plus de:-bis[2,2,6,6-tetraméthyl-1-(octyloxy)pipéridin-4-yl] décanedioate, et-1,1'-bis[2,2,6,6-tetraméthyl-1-(octyloxy)pipéridin-4-yl] 10,10'-{octane-1,8-diylbis[oxy(2,2,6,6- tetraméthylpiperidine-1,4-diyl)]} didécanedioate</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Masse de réaction du 10-éthyl-4,4-dioctyl-7-oxo-8-oxa-3,5-dithia-4-stannatétradécanoate de 2-éthylhexyle et du 10-éthyl-4-[[2-[(2-éthylhexyl)oxy]-2-oxoéthyl]thio]-4-octyl-7-oxo-8-oxa-3,5-dithia-4-stannatétradécanoate de 2-éthylhexyle (masse de réaction du DOTE et du MOTE)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399053</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Photostabilisant, contenant en poids plus de 90 % de produits de la réaction de l'ester méthylique d'acide stéarique avec du 1-(2-hydroxy-2-méthylpropoxy)-2,2,6,6-tetraméthyl-4-pipéridinol (CAS RN 300711-92-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Stabilisateur UV contenant les composés suivants: -|2-(4,6-bis(2,4-diméthylphényl)-1,3,5-triazine-2-yl)-5-(octyloxy)-phénol (CAS|RN|2725-22-6); et -|N,N'-bis(1,2,2,6,6-pentaméthyl-4-pipéridinyl)-1,6-hexanediamine, polymère avec 2,4-dichloro-6-(4-morpholinyl)-1,3,5-triazine (CAS|RN|193098-40-7) ou -|N,N'-bis(,2,2,6,6-tétraméthyl-4-pipéridinyl)-1,6-hexanediamine, polymère avec|2,4-dichloro-6-(4-morpholinyl)-1,3,5-triazine (CAS|RN|82451-48-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399065</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Stabilisateur pour matière plastique constitué de: -|2-éthylhexyle 10-éthyl-4,4-diméthyl-7-oxo-8-oxa-3,5-dithia-4-stannatétradecanoate (CASRN57583-35-4), -|2-éthylhexyle 10-éthyl-4-[[2-[(2-éthylhexyl)oxy]-2-oxoéthyl]thio]-4-méthyl-7-oxo-8-oxa-3,5-dithia-4-stannatétradecanoate (CASRN57583-34-3), et -|mercaptoacétate de 2-éthylhexyle (CAS RN 7659-86-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Photostabilisant UV contenant en poids un mélange de:-85% ou plus d'esters d'alkyles ramifiés et droits C7 à C9 d'acide [3-(2H-benzotriazol-2-yl)-5-(1,1- diméthyléthyl)-4-hydroxy]-1-phénylpropanoïque (CAS RN 127519-17-9) , et-8% ou moins d'acétate de 2-méthoxy-1-méthyléthyle (CAS RN 108-65-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Stabilisateur UV, constitué: -|d'une amine encombrée: polymère de N,N'-Bis(1,2,2,6,6-pentaméthyl-4-pipéridinyl)-1,6-hexanediamine et 2,4-dichloro-6-(4-morpholinyl)-1,3,5-triazine (CAS RN 193098-40-7) et -|soit un absorbeur UV à base d'o-hydroxyphenyl triazine, -|soit un composé phénolique chimiquement modifié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3812399090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3813000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Compositions et charges pour appareils extincteurs; grenades et bombes extinctrices</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3813000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Compositions et charges pour appareils extincteurs, visés à la position 8424, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3813000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3814000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Solvants et diluants organiques composites, non dénommés ni compris ailleurs; préparations conçues pour enlever les peintures ou les vernis</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3814001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à base d'acétate de butyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3814001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne), dénaturé ou non dénaturé, à l'exclusion des produits d'une teneur en eau supérieure à 0,3|% (m/m) mesurée conformément à la norme EN15376, ainsi que l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne) et mélangé à l'essence dans une proportion supérieure à 10|% (v/v)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3814001090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3814009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3814009040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélanges azéotropiques contenant isomères d'éther méthylique de nonafluorobutyle et/ou d'éther éthylique de nonafluorobutyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3814009070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne), dénaturé ou non dénaturé, à l'exclusion des produits d'une teneur en eau supérieure à 0,3|% (m/m) mesurée conformément à la norme EN15376, ainsi que l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne) et mélangé à l'essence dans une proportion supérieure à 10|% (v/v)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3814009099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3815000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Initiateurs de réaction, accélérateurs de réaction et préparations catalytiques, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3815110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Catalyseurs supportés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant comme substance active le nickel ou un composé de nickel</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3815120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant comme substance active un métal précieux ou un composé de métal précieux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815120010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur, sous forme de grains ou d'anneaux d'un diamètre de 3|mm ou plus mais n'excédant pas 10|mm, constitué d'argent fixé sur un support en oxyde d'aluminium, et contenant en poids 8|% ou plus mais pas plus de 40|% d'argent</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815120090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3815190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseurs sous forme de grains dont 90|% en poids ou plus sont de dimension n'excédant pas 10|micromètres, constitués d'un mélange d'oxydes fixé sur un support en silicate de magnésium, contenant en poids:-|20|% ou plus mais pas plus de 35|% de cuivre,-|2|% ou plus mais pas plus de 3|% de bismuth,et d'une densité apparente de 0,2|ou plus mais n'excédant pas 1,0</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3815199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Catalyseur constitué de trioxyde de chrome, de trioxyde de dichrome ou de composés organométalliques du chrome, fixés sur un support en dioxyde de silicium présentant un volume de pores de 2 cm³/g ou plus, tel que déterminé par la méthode d'absorption d'azote</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Catalyseur contenant du tétrachlorure de titane fixé sur un support de dichlorure de magnésium, destiné à être utilisé dans la fabrication de polypropylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Composants pour système catalytique importés en tant que composants individuels ou sous forme d'assortiments, constitués d'au moins une des préparations suivantes:-matériaux céramiques (CAS RN 66402-68-4),-oxyde de molybdène et oxyde de nickel fixés sur un support en oxyde d'aluminium,-oxyde de molybdène, oxyde de nickel et phosphate d'aluminium fixés sur un support en oxyde d'aluminium,-oxyde de molybdène, oxyde de nickel, phosphate d'aluminium, silice et molybdène fixés sur un support en oxyde d'aluminium,destiné à être utilisé contre les impuretés organiques et inorganiques dans la production de kérosène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Catalyseur constitué de composés organo-métalliques d'aluminium et de zirconium, fixés sur un support en dioxyde de silicium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Catalyseur constitué de composés organo-métalliques d'aluminium et de chrome, fixés sur un support en dioxyde de silicium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Catalyseur constitué de composés organo-métalliques de magnésium et de titane, fixés sur un support en dioxyde de silicium, sous forme de suspension dans de l'huile minérale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199082</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Catalyseur constitué de composés organo-métalliques de bore, de titane et d'aluminium, fixés sur un support en dioxyde de silicium, sous forme de poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Catalyseur constitué de composés organo-métalliques d'aluminium, de magnésium et de titane, fixés sur un support en dioxyde de silicium, sous forme de poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199086</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Catalyseur contenant du tétrachlorure de titane fixé sur un support de dichlorure de magnésium, destiné à être utilisé dans la fabrication de polyoléfines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815199090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3815900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Catalyseurs constitués d'acétate d'éthyltriphénylphosphonium sous forme de solution dans du méthanol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3815909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909016</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Initiateur à base de diméthylaminopropyl urée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur, constitué d'une suspension dans de l'huile minérale de: -|complexes de tétrahydrofuranne de chlorure de magnésium et de chlorure de titane(III); et de  -|dioxyde de silicium  -|contenant 6,6|%|(± 0,6|%) en poids de magnésium et  -|contenant 2,3|%| (± 0,2|%) en poids de titane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909038</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Photo-initiateur contenant en poids:-80 % ou plus de di[beta-4-[4-(2-diméthylamino-2-benzyl)butanoylphényl]pipérazine]propionate de polyéthylène glycol (CAS RN 886463-10-1),-pas plus de 17 % de [beta-4-[4-(2-diméthylamino-2-benzyl)butanoylphényl]pipérazine]propionate de polyéthylène glycol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909043</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur en poudre composé en poids de-92,50 % (± 2° %) de dioxyde de titane (CAS RN 13463-67-7)-5 % (± 1° %) de dioxyde de silicone (CAS RN 112926-00-8) et-2,5 % (± 1,5 %) de trioxyde de soufre (CAS RN 7446-11-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909048</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Photo-initiateur contenant en poids:-88 % ou plus d'alpha-(2-benzoylbenzoyl)-¿-[(2-benzoylbenzoyl)oxy]-poly(oxy-1,2-éthanediyl) (CAS RN 1246194-73-9),-pas plus de 12 % d'alpha-(2-benzoylbenzoyl)-¿-hydroxy-poly(oxy-1,2-éthanediyl) (CAS RN 1648797-60-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur contenant du trichlorure de titane, sous forme de suspension dans l'hexane ou l'heptane contenant en poids, sur produit exempt d'hexane ou d'heptane, 9|% ou plus mais pas plus de 30|% de titane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909055</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparations catalytiques pour le craquage catalytique fluide, ne contenant pas de zéolite de type Y (CAS RN 308079-79-0), et n'étant pas un catalyseur de base pour craquage catalytique fluide, sous forme de poudre, composé d'une ou de plusieurs des substances actives suivantes:-carbonate de calcium (CAS RN 471-34-1),-oxyde de cuivre (CAS RN 1217-38-0),-oxyde de fer (CAS RN 1309-37-1),-oxyde d'aluminium, de magnésium et de vanadium (CAS RN 70621-8-0),-pentoxyde de vanadium (CAS RN 1314-62-1),-phosphate d'aluminium (CAS RN 7784-30-7),-oxyde de cérium (CAS RN 1306-38-3),-zéolite de type ZSM-5 (CAS RN 308081-08-5),et d'une ou plusieurs des substances inertes suivantes:-oxyde de magnésium (CAS RN 1309-48-8),-oxyde d'aluminium (CAS RN 1344-28-1),-kaolin (CAS RN 1332-58-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909058</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>(2,7-Di-tert-butyl-9-fluorényl)diméthylhafnium de 1,1'-Bis(4-triéthylsilylphényl)méthylène(cyclopentadiényl) (CAS RN 264926-41-2) en solution dans de l'hexane (CAS RN 110-54-3), contenant en poids 2,0 % ou plus mais pas plus de 2,5 % de (2,7-di-tert-butyl-9-fluorényl)diméthylhafnium de 1,1'-bis(4-triéthylsilylphényl)méthylène(cyclopentadiényl)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909076</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur se composé de dioxyde de titane et de trioxyde de tungstène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur constitué principalement d'acide dinonylnaphtalènedisulfonique sous forme de solution dans de l'isobutanol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur, contenant en poids 69|% ou plus mais pas plus de 79|% de 2-éthylhexanoate de (2-hydroxy-1-méthyléthyl)triméthylammonium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur à base d'aluminosilicate (zéolite), destiné à l'alkylation d'hydrocarbures aromatiques ou à la transalkylation d'hydrocarbures alkylaromatiques ou à l'oligomérisation d'oléfines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909088</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Catalyseur, constitué de tétrachlorure de titane et de chlorure de magnésium, contenant - pour un mélange sans huile et sans hexane: -|4|% ou plus mais pas plus de 10|% en poids de titane et -|10|% ou plus mais pas plus de 20|% de magnésium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bactérie Rhodococcus rhodocrous J1, constituée d'une suspension d'enzymes, contenue dans un gel de polyacrylamide ou dans de l'eau, utilisée comme catalyseur pour l'hydratation d'acrylonitrile en acrylamide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3815909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3816000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ciments, mortiers, bétons et compositions similaires réfractaires y compris les pisés de dolomie, autres que les produits du n$o|3801</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3816001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pisé de dolomie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3816009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3817000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Alkylbenzènes en mélanges et alkylnaphtalènes en mélanges, autres que ceux des n$o$s|2707|ou 2902</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3817005000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alkylbenzène linéaire</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3817005010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange d'alkylbenzènes (C14-26) contenant en poids: -|35|% ou plus mais pas plus de 60|% d' eicosylbenzène, -|25|% ou plus mais pas plus de 50|% de docosylbenzène, -|5|% ou plus mais pas plus de 25|% de tétracosylbenzène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3817005090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3817008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3817008010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange d'alkylnaphtalènes, contenant en poids: -|88|% ou plus mais pas plus de 98|% d'hexadécylnaphtalène -|2|% ou plus mais pas plus de 12|% de dihexadécylnaphtalène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3817008020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange d'alkylbenzènes ramifiés contenant principalement des dodécylbenzènes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3817008030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Naphtalène, modifié par des chaînes aliphatiques d'une longueur située entre|12|et|56|atomes de carbone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3817008090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3818000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Éléments chimiques dopés en vue de leur utilisation en électronique, sous forme de disques, plaquettes ou formes analogues; composés chimiques dopés en vue de leur utilisation en électronique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3818001100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Silicium dopé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3818001100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Plaquettes d'une épaisseur n'excédant pas 200|micromètres, rectangulaires, même avec angles coupés ou arrondis (dites "plaquettes photovoltaïques")</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3818001900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3818009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3819000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Liquides pour freins hydrauliques et autres liquides préparés pour transmissions hydrauliques, ne contenant pas d'huiles de pétrole ni de minéraux bitumineux ou en contenant moins de 70|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3819000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à base d'esters silicates ou phosphoriques, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3819000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3820000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations antigel et liquides préparés pour dégivrage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3820000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne), dénaturé ou non dénaturé, à l'exclusion des produits d'une teneur en eau supérieure à 0,3|% (m/m) mesurée conformément à la norme EN15376, ainsi que l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne) et mélangé à l'essence dans une proportion supérieure à 10|% (v/v)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3820000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3821000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Milieux de culture préparés pour le développement et l'entretien des micro-organismes (y compris les virus et les organismes similaires) ou des cellules végétales, humaines ou animales</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3822000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Réactifs de diagnostic ou de laboratoire sur tout support et réactifs de diagnostic ou de laboratoire préparés, même sur un support, même présentés sous forme de trousses, autres que ceux du no|3006; matériaux de référence certifiés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3822110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Réactifs de diagnostic ou de laboratoire sur tout support et réactifs de diagnostic ou de laboratoire préparés, même sur un support, même présentés sous forme de trousses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3822110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour le paludisme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3822120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour le Zika et d'autres maladies transmises par les moustiques du genre Aedes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3822130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>pour la détermination des groupes ou des facteurs sanguins</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3822190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3822190010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour l'espèce virale SARS-CoV</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3822190090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3822900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Acides gras monocarboxyliques industriels; huiles acides de raffinage; alcools gras industriels</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Acides gras monocarboxyliques industriels; huiles acides de raffinage</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Acide stéarique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823110020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>du type utilisé pour l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823110020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Acides gras présentant une chaîne carbonée de C6, C8, C10, C12, C14, C16 ou C18 et ayant un indice d'iode inférieur à 105 g/100 g et un degré de fractionnement d'au moins 97 %, y compris les acides gras simples (également appelés «de coupe pure») et les mélanges constitués d'une combinaison de deux ou plusieurs chaînes carbonées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823110050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823110070</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823110070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Acides gras présentant une chaîne carbonée de C6, C8, C10, C12, C14, C16 ou C18 et ayant un indice d'iode inférieur à 105 g/100 g et un degré de fractionnement d'au moins 97 %, y compris les acides gras simples (également appelés «de coupe pure») et les mélanges constitués d'une combinaison de deux ou plusieurs chaînes carbonées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823110080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Acide oléique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823120020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>du type utilisé pour l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823120020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Acides gras présentant une chaîne carbonée de C6, C8, C10, C12, C14, C16 ou C18 et ayant un indice d'iode inférieur à 105 g/100 g et un degré de fractionnement d'au moins 97 %, y compris les acides gras simples (également appelés «de coupe pure») et les mélanges constitués d'une combinaison de deux ou plusieurs chaînes carbonées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823120050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823120070</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823120070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Acides gras présentant une chaîne carbonée de C6, C8, C10, C12, C14, C16 ou C18 et ayant un indice d'iode inférieur à 105 g/100 g et un degré de fractionnement d'au moins 97 %, y compris les acides gras simples (également appelés «de coupe pure») et les mélanges constitués d'une combinaison de deux ou plusieurs chaînes carbonées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823120080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tall acides gras</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823130010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>du type utilisé pour l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823130090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Acides gras distillés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823191030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>du type utilisé pour l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823191030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Acides gras présentant une chaîne carbonée de C6, C8, C10, C12, C14, C16 ou C18 et ayant un indice d'iode inférieur à 105 g/100 g et un degré de fractionnement d'au moins 97 %, y compris les acides gras simples (également appelés «de coupe pure») et les mélanges constitués d'une combinaison de deux ou plusieurs chaînes carbonées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823191050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823191070</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823191070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Acides gras présentant une chaîne carbonée de C6, C8, C10, C12, C14, C16 ou C18 et ayant un indice d'iode inférieur à 105 g/100 g et un degré de fractionnement d'au moins 97 %, y compris les acides gras simples (également appelés «de coupe pure») et les mélanges constitués d'une combinaison de deux ou plusieurs chaînes carbonées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823191080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823193000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Distillat d'acide gras</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823193020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Distillat d'acides gras de palme, même hydrogéné, d'une teneur en acides gras libres de 80|% ou plus destiné à la fabrication</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823193020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'acides gras monocarboxyliques industriels de la position 3823 -|d'acide stéarique de la position 3823 -|d'acide stéarique de la position 2915 -|d'acide palmitique de la position 2915</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823193030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de préparations pour l'alimentation des animaux de la sous-position 2309</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823193080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823193080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>du type utilisé pour l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823193089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823199020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Huiles acides de raffinage de palme destinées à la fabrication</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823199020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'acides gras monocarboxyliques industriels de la position 3823 d'acide stéarique de la position 3823 d'acide stéarique de la position 2915 d'acide palmitique de la position 2915</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823199030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de préparations pour l'alimentation des animaux de la sous-position 2309</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823199070</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823199070</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>du type utilisé pour l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823199070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Acides gras présentant une chaîne carbonée de C6, C8, C10, C12, C14, C16 ou C18 et ayant un indice d'iode inférieur à 105 g/100 g et un degré de fractionnement d'au moins 97 %, y compris les acides gras simples (également appelés «de coupe pure») et les mélanges constitués d'une combinaison de deux ou plusieurs chaînes carbonées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823199075</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3823199095</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823199095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Acides gras présentant une chaîne carbonée de C6, C8, C10, C12, C14, C16 ou C18 et ayant un indice d'iode inférieur à 105 g/100 g et un degré de fractionnement d'au moins 97 %, y compris les acides gras simples (également appelés «de coupe pure») et les mélanges constitués d'une combinaison de deux ou plusieurs chaînes carbonées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823199098</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3823700000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alcools gras industriels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823700010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>du type utilisé pour l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3823700090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Liants préparés pour moules ou noyaux de fonderie; produits chimiques et préparations des industries chimiques ou des industries connexes (y compris celles consistant en mélanges de produits naturels), non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Liants préparés pour moules ou noyaux de fonderie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à base de résines synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Carbures métalliques non agglomérés mélangés entre eux ou avec des liants métalliques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824300010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Carbures de tungstène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824300010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sous forme de particules irrégulières et non fluides, simplement mélangés à de la poudre métallique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824300020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Poudre prête à la compression, sous forme de particules sphériques ou de forme granulaire, homogènes et fluides, simplement mélangée à de la poudre métallique et/ou à d'autres carbures, ainsi qu'à un liant organique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824300030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Autres, sous forme de particules sphériques ou de forme granulaire, homogènes et fluides, simplement mélangés à de la poudre métallique et/ou à d'autres carbures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824300040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Autres, simplement mélangés à de la poudre métallique et/ou à d'autres carbures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824300090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Additifs préparés pour ciments, mortiers ou bétons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mortiers et bétons, non réfractaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824501000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Béton prêt à la coulée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824509000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sorbitol, autre que celui du n$o|2905|44</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824601100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en solution aqueuse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824601100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant du D-mannitol dans une proportion inférieure ou égale à 2|% en poids calculée sur sa teneur en D-glucitol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824601900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824609100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824609100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant du D-mannitol dans une proportion inférieure ou égale à 2|% en poids calculée sur sa teneur en D-glucitol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824609900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Marchandises mentionnées dans la Note 3|de sous-positions du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'oxiranne (oxyde d'éthylène)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des polybromobiphényles (PBB), des polychloroterphényles (PCT) ou des polychlorobiphényles (PCB)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824820010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant des polychlorobiphényles (PCB</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824820020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant de l'hexabromobiphényle (CAS 36355-01-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824820090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824830000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant du phosphate de tris(2,3-dibromopropyle</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824840000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'aldrine (ISO), du camphéchlore (ISO) (toxaphène), du chlordane (ISO), du chlordécone (ISO), du DDT (ISO) (clofénotane (DCI), 1,1,1-trichloro-2,2-bis(p-chlorophényl)éthane), de la dieldrine (ISO, DCI), de l'endosulfan (ISO), de l'endrine (ISO) de l'heptachlore (ISO) ou du mirex (ISO)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant du DDT (ISO)  (CAS 50-29-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant du camphéchlore (ISO)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant du chlordane (ISO)  (CAS 57-74-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant de la dieldrine (ISO) (CAS 60-57-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant de l'endrine (ISO) (CAS 72-20-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant de l'endosulfan (ISO) (115-29-7)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant du chlordécone (ISO) (CAS 143-50-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>préparation contenant du mirex</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824840090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824850000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant du 1,2,3,4,5,6-hexachlorocyclohexane [HCH (ISO)] y compris lindane (ISO, DCI)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824860000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant du pentachlorobenzène (ISO) ou du hexachlorobenzène (ISO)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824870000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'acide perfluorooctane sulfonique, ses sels, des perfluorooctane sulfonamides, ou du fluorure de perfluorooctane sulfonyle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824880000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des éthers tetra-, penta-, hexa-, hepta- ou octabromodiphényliques</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Contenant des paraffines chlorées à chaîne courte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824890010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>alcanes en C10-13, chloro (CAS 85535-84-8 )</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824890090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélanges et préparations constitués essentiellement de méthylphosphonate de (5-éthyl-2-méthyl-2-oxido-1,3,2-dioxaphosphinan-5-yl)méthyle et de méthyle et de méthylphosphonate de bis[(5-éthyl-2-méthyl-2-oxido-1,3,2-dioxaphosphinan-5-yl)méthyle]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Esters de polyglycol d'acide méthylphosphonique</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sulfonates de pétrole, à l'exclusion des sulfonates de pétrole de métaux alcalins, d'ammonium ou d'éthanolamines; acides sulfoniques d'huiles de minéraux bitumineux, thiophénés, et leurs sels</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824991500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Échangeurs d'ions</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824992000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Compositions absorbantes pour parfaire le vide dans les tubes ou valves électriques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824992500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pyrolignites (de calcium, etc.); tartrate de calcium brut; citrate de calcium brut</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824993000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Acides naphténiques, leurs sels insolubles dans l'eau et leurs esters</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824994500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824994500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Préparations désincrustantes et similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824995000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Préparations pour la galvanoplastie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824995500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mélanges de mono-, di- et tri-, esters d'acides gras du glycérol (émulsionnants de corps gras)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824996100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Produits et préparations utilisés à des fins pharmaceutiques ou chirurgicales</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824996100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Produits intermédiaires obtenus au cours de la fabrication d'antibiotiques, provenant de la fermentation de Streptomyces tenebrarius, même séchés, destinés à la fabrication de médicaments du n$o|3004|pour la médecine humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824996200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Produits intermédiaires de la fabrication des sels de monensin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824996400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824996500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Produits auxiliaires du genre de ceux utilisés en fonderie (autres que ceux visés au n$o|3824|10|00)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824997000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Préparations ignifuges, hydrofuges et autres, utilisées pour la protection des constructions</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824997500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824997500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tranches de niobate de lithium, non dopées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824998000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélange d'amines dérivées d'acides gras dimérisés, d'un poids moléculaire moyen de 520|ou plus mais n'excédant pas 550</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824998500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>3-(1-Éthyl-1-méthylpropyl)isoxazole-5-ylamine sous forme de solution dans le toluène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824998600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mélanges constitués essentiellement de méthylphosphonate de diméthyle, d'oxiranne et de pentaoxyde de diphosphore</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824999200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Produits ou préparations chimiques composés principalement de constituants organiques, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824999200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>sous forme liquide à 20|°C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999201</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Naphtalène, dérivés chloro (CAS 70776-03-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999202</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>préparation contenant de l'hexabromocyclododécane (CAS 25637-99-4, 3194-55-6)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824999207</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélanges contenant des dérivés halogénés de l'éthylène ou du propylène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999207</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>R514a [contenant 74,7|% de 1,1,1,4,4,4-hexafluoro-2-butène (HFC-1336mzz) et 25,3|% de trans-1,2-dichloroéthylène]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999208</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824999210</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélanges contenant, en poids, plus de 20 % de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999214</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999217</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999221</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Produits de réaction de la 1,3,4-thiadiazolidine-2,5-dithione, du formaldéhyde et du 4-heptylphénol, ramifié et linéaire (PR-HP) (avec ¿ 0,1% m/m de 4-heptylphénol, ramifié et linéaire)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999222</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Solution contenant :-30 % ou plus mais pas plus de 40 % en poids d'hexafluorophosphate de lithium (CAS RN 21324-40-3), et-60 % ou plus mais pas plus de 70 % en poids de carbonate d'éthyle méthyle (CAS RN 623-53-0), ou de carbonate de diméthyle (CAS RN 616-38-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999223</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Complexes phosphatobutyliques de titane(IV), d'éthanol et de propane-2-ol (CAS|RN|109037-78-7), dissous dans l'éthanol et le propan-2-ol</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999224</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>4-(1,1,3,3-tétraméthylbutyl)phénol, éthoxylé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999225</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange contenant en poids: -55 % ou plus mais pas plus de 65 % de (2S,3S,4S,5R,6R)-2-(((2R,3R,5S,6R)-4-(((2R,3S,4S,5R,6R)-3-acétoxy-4,5-bis(benzyloxy)-6-((benzyloxy)méthyl)tetrahydro-2H-pyran-2-yl)oxy)-3,5-bis(benzyloxy)-6-(4-méthoxy-4-oxobutoxy)tetrahydro-2H-pyran-2-yl)méthoxy)-6-((((2S,3S,4S,5R,6R)-3-acétoxy-4,5-bis(benzyloxy)-6-((benzyloxy)méthyl)tetrahydro-2H-pyran-2-yl)oxy)méthyl)tetrahydro-2H-pyran-3,4,5-triyl tribenzoate (CAS RN 1233475-58-5), -35 % ou plus mais pas plus de 45 % de toluène (CAS RN 108-88-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999227</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Méthyl 5-(diméthylamino)-2-méthyl-5-oxopentanoate (CAS RN 1174627-68-9) d'une pureté en poids de 75 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999228</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation contenant en poids:-30 % ou plus, mais pas plus de 60 % de 3a,4,4a,5,8,8a,9,9a-octahydro-4,9:5,8-diméthano-1H-benz[f]indène (CAS RN 7158-25-0),-10 % ou plus mais pas plus de 50 % de 3a,4,7,7a-tetrahydro-4,7-méthanoindène (CAS RN 77-73-6), et-contenant ou pas 10 % ou plus mais pas plus de 40 % de résine d'hydrocarbures de pétrole (CAS RN 68132-00-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999229</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation contenant, en poids:-|85|% ou plus, mais pas plus de 99|%| d'éther de polyéthylène glycol d'acrylate de butyl 2-cyano 3-(4-hydroxy-3-méthoxyphényl) et-|1|% ou plus, mais pas plus de 15|%, de trioléate de polyoxyéthylène (20) sorbitane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999230</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange de C10-C14 tert-alkylamines (numéro CE: 701-175-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999233</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation anti-corrosion constituée de sels d'acide dinonylnaphtalènesulfonique présentés: -|sur un support de cire minérale, même modifiée chimiquement ou -|sous forme de solution dans un solvant organique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999234</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>4-Nonylphénol, ramifié et linéaire, éthoxylé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999237</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange d'acétates de 3-butène-1,2-diol d'une teneur en poids de 65% ou plus de diacétate de 3-butène-1,2-diol (CAS RN 18085-02-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999238</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Produits de la réaction du trichlorure de phosphoryle avec du 2-méthyloxirane (CAS RN 1244733-77-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999240</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Solution de 2-chloro- 5-(chlorométhyl)pyridine (CAS|RN|70258-18-3) dans un diluant organique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999241</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Formaldéhyde, produits de réaction oligomères avec l'aniline (MDA technique) (CAS RN 25214-70-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999244</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange, contenant en poids: -90 % ou plus mais n'excédant pas 95 % d'éthoxylate de crésol (CAS RN 37281-57-5), et-5 % ou plus mais n'excédant pas 10 % d'éthoxylate de xylénol (CAS RN 61723-82-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999248</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation contenant en poids:-80 % ou plus mais pas plus de 90 % de 3a,4,7,7a-tetrahydro-4,7-méthanoindène (CAS RN 77-73-6), et-pas plus de 10 % de 3a,4,4a,5,8,8a,9,9a-octahydro-1H-4,9:5,8-diméthanocyclopenta[b]naphtalène (CAS RN 7158-25-0), et- 0,5 % ou plus mais pas plus de 3 % de 2,6-di-tert-butyl-p-crésol (CAS RN 128-37-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999249</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>préparation à base d'éthoxylate de 2,5,8,11-tétraméthyle-6-dodécyne-5,8-diol (CAS RN 169117-72-0)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999251</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange contenant en poids 40|% ou plus mais pas plus de 50|% de méthacrylate de 2-hydroxyéthyle et 40|% ou plus mais pas plus de 50|% d'ester de glycérol de l'acide borique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999252</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Électrolyte contenant:-5 % ou plus mais pas plus de 20 % d'hexafluorophosphate de lithium (CAS RN 21324-40-3) ou de tétrafluoroborate de lithium (CAS RN 14283-07-9),-60 % ou plus mais pas plus de 90 % d'un mélange de carbonate d'éthylène (CAS RN 96-49-1), de carbonate de diméthyle (CAS RN 616-38-6) et/ou de carbonate d'éthyle et de méthyle (CAS RN 623-53-0),-0,5 % ou plus mais pas plus de 20 % de 2,2-dioxyde de 1,3,2-dioxathiolane (CAS RN 1072-53-3)utilisé dans la fabrication de batteries de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999254</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Bis[(9-oxo- 9H-thioxanthène-1-yloxy)acétate] de poly(tétraméthylène glycol) n'excédant pas en moyenne 5|motifs monomères (CAS RN 813452-37-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999255</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Additifs pour peintures et revêtements, contenant:| -|un mélange d'esters d'acide phosphorique obtenu à partir de la réaction de l'anhydride phosphorique avec du 4|- (1,1-diméthyl-propyl)-phénol et des copolymères de styrène-alcool allylique (CAS RN 84605-27-6), et -|30|% ou plus mais pas plus de 35|% en poids d'alcool isobutylique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999258</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange contenant en poids:-56 % ou plus mais pas plus de 85 % d'isomères du divinylbenzène (CAS RN 1321-74-0)-15 % ou plus mais pas plus de 44 % d'isomères de l''éthylvinylbenzène (CAS RN 28106-30-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999261</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>3',4',5'-Trifluorobiphényl-2-amine, sous la forme d'une solution dans du toluène, contenant en poids 80|% ou plus de 3',4',5'-trifluorobiphényl-2-amine, mais sans excéder 90|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999262</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Solution de 9-borabicyclo[3.3.1]nonane (CAS RN 280-64-8) dans du tétrahydrofurane (CAS RN 109-99-9), contenant en poids 6 % ou plus de 9-borabicyclo[3.3.1]nonane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999263</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Polymère composé d'un polycondensat de formaldéhyde et de naphthalénediol, chimiquement modifié par réaction avec un halogénoalcyne, dissous dans de l'acétate de méthyléther propylèneglycol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3824999266</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne), dénaturé ou non dénaturé, à l'exclusion des produits d'une teneur en eau supérieure à 0,3|% (m/m) mesurée conformément à la norme EN15376, ainsi que l'alcool éthylique obtenu à partir de produits agricoles (tels qu'énumérés à l'annexe I du traité sur le fonctionnement de l'Union européenne) et mélangé à l'essence dans une proportion supérieure à 10|% (v/v)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999266</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destiné à être utilisé comme carburant</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999267</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>destiné à d'autres utilisations</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999268</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation contenant en poids:-|20|% (±1|%) de ((3-(sec-butyl)-4-(décyloxy)phényl)méthanétriyl)tribenzène (numéro CAS 1404190-37-9) -|dans un solvant de:-|10|% (± 5|%) de 2-sec-butylphénol (numéro CAS 89-72-5)-|64|% (± 7|%) de solvant naphta aromatique lourd (pétrole) (numéro CAS 64742-94-5) et-|6|% (± 1,0|%) de naphtalène (numéro CAS 91-20-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999269</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation contenant en poids:-80|% ou plus mais pas plus de 92|% de bisphénol A bis(phosphate de diphényle) (CAS RN 5945-33-5)-7|% ou plus mais pas plus de 20|% d'oligomères de bisphénol-A bis(phosphate de diphényle) et-pas plus d'1|% de phosphate de triphénol (CAS RN 115-86-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999270</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange de 80 % (± 10 %) de 1-[2-(2-aminobutoxy)éthoxy]but-2-ylamine et 20 % (± 10 %) de 1-({[2-(2-aminobutoxy)éthoxy]méthyl} propoxy)but-2-ylamine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999273</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Amines trialkyles en C8-10 (CAS RN 68814-95-9) d'une pureté en poids de 95 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999275</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange, contenant en poids :-75 % ou plus de tétrabutylétain (CAS RN 1461-25-2),-pas plus de 20 % de chlorure de tributylétain (CAS RN 1461-22-9),-pas plus de 4 % de dichlorure de dibutylétain (CAS RN 683-18-1),destiné à la production de composés de butylétain utilisés dans la fabrication du verre et de chlorure de tributylétain utilisé comme catalyseur dans l'industrie pharmaceutique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999279</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange, contenant en poids :-du chlorure de tributylétain (CAS RN 1461-22-9) d'une pureté en poids de 80 % ou plus;-pas plus de 5 % de tétrabutylétain (CAS RN 1461-25-2),-pas plus de 6 % de dichlorure de dibutylétain (CAS RN 683-18-1),-pas plus de 11 % d'o-xylène (CAS RN 95-47-6),destiné à la production de chlorure de tributylétain utilisé comme catalyseur dans l'industrie pharmaceutique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999281</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Masse de réaction de 3- [(diphénoxyphosphoryl)oxy]phényle triphényle 1,3-phénylène bis(phosphate) et tétraphényle 1,3-phénylène bis(phosphate)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999282</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Solution de tert-butylchlorodiméthylsilane (CAS RN 18162-48-6) dans du toluène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999283</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>1-(Cédr-8-én-9-yl)éthanone (CAS RN 32388-55-9) d'une pureté en poids d'au moins 70 %, mais n'excédant pas 90 %</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999284</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation constituée de 83|% ou plus en poids de 3a,4,7,7a-tétrahydro-4,7-méthanoindène (dicyclopentadiène), d'un caoutchouc synthétique, même contenant en poids 7|% ou plus de tricyclopentadiène, et: -|soit d'un composé d'aluminium-alkyle, -|soit d'un complexe organique de tungstène -|soit d'un complexe organique de molybdène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999286</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Amides gras de tallol, N,N-diméthyle (CAS RN 68308-74-7) d'une pureté en poids de 99 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999288</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>2,4,7,9-Tétraméthyldéc-5-yne-4,7-diol, hydroxyéthylé (CAS RN 9014-85-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999289</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange d'alkyl-diméthylamines (tertiaires) contenant, en poids:- 60|% ou plus, mais pas plus de 80|% de dodécyldiméthylamine (CAS RN 112-18-5), et- 20|% ou plus, mais pas plus de 30|% de diméthyl(tétradécyl)amine (CAS RN 112-75-4)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Acide 1,2-benzènedicarboxylique, esters de di-C6-10-alkyle  (CAS RN 68515-51-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999291</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>1,2-benzènedicarboxylique, mélange de diesters de décyle, d'hexyle et d'octyle avec ¿ 0,3% de phtalate de dihexyle  (CAS RN 68648-93-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999292</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Solution consistant en- 50 (± 2) % en poids de mentholate de sodium (CAS RN 19321-38-1), et- 50 (± 2) % en poids de solvant naphta aliphatique léger (pétrole) (CAS RN 64742-89-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999294</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Acétate de ({[2-(trifluorométhyl)phényl]carbonyl}amino)méthyle (CAS RN 895525-72-1) d'une teneur minimale de 45 % en poids dissous dans du N,N-diméthylacétamide (CAS RN 127-19-5)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999295</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Solution de cis-1-{[(2,5-diméthylphényl)acétyl]amino}-4-méthoxycyclohexanecarboxylate de méthyle (CAS RN 203313-47-7) dans du N,N-diméthylacétamide (CAS RN 127-19-5), contenant en poids au moins 25 % mais pas plus de 45 % de carboxylate</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999296</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Produits contenant en poids plus de 35|% de résines époxy, également appelées résines époxydes ou polyépoxydes, qui sont des polymères ou prépolymères contenant des groupes époxydes réactifs, à base d'épichlorhydrine («ECH») et d'un composant alcoolique aliphatique ou aromatique (tel que le BPA), présentant tous les types de qualité, de pureté, de poids moléculaire ou de structure moléculaire, contenant ou non des modificateurs, des agents de durcissement ou des additifs, pour autant que ces agents de durcissement n'aient pas réagi chimiquement de façon à durcir la résine époxy ou à la transformer en un produit différent ne contenant plus de groupes époxydes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999297</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange contenant des bis[3-(triéthoxysilyl)propyl] polysulfures (CAS RN 211519-85-6) d'une pureté en poids de 84 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999298</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Glutamate monosodique, mélangé ou en solution, contenant au moins 50 % de glutamate monosodique en poids sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999299</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824999300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999310</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Produits contenant en poids plus de 35|% de résines époxy, également appelées résines époxydes ou polyépoxydes, qui sont des polymères ou prépolymères contenant des groupes époxydes réactifs, à base d'épichlorhydrine («ECH») et d'un composant alcoolique aliphatique ou aromatique (tel que le BPA), présentant tous les types de qualité, de pureté, de poids moléculaire ou de structure moléculaire, contenant ou non des modificateurs, des agents de durcissement ou des additifs, pour autant que ces agents de durcissement n'aient pas réagi chimiquement de façon à durcir la résine époxy ou à la transformer en un produit différent ne contenant plus de groupes époxydes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999320</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation contenant de l'hexabromocyclododécane (CAS 25637-99-4 ou 134237-52-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999330</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange en poudre contenant en poids:-|85|% ou plus de diacrylate de zinc (CAS|RN|14643-87-9)-|et au maximum 5|% de 2,6-di-tert-butyl-alpha-diméthylamino-p-crésol (CAS|RN|88-27-7) et-|pas plus de 10|% de stéarate de zinc (CAS|RN|557-05-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999331</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Masse de réaction d'hydrogénophosphate de dihexadécyle (CAS RN 2197-63-9) et de dihydrogénophosphate d'hexadécyle (CAS RN 3539-43-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999333</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation contenant en poids-60 % ou plus, mais pas plus de 70 % de rel-(1R,2S)-cyclohexane-1,2-dicarboxylate de calcium (CAS RN 491589-22-1),-30 % ou plus, mais pas plus de 40 % de stéarate de zinc (CAS RN 557-05-1),-1 % ou plus, mais pas plus de 5 % de CI Pigment Blue 29 (CAS RN 57455-37-5)et-1 % ou plus, mais pas plus de 5 % de CI Pigment Violet 15 (CAS RN 12769-96-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999335</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Paraffine présentant un degré de chloration égal ou supérieur à 70 % (CAS RN 63449-39-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999336</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation contenant en poids 60 % ou plus, mais pas plus de 70 % de rel-(1R,2S)-cyclohexane-1,2-dicarboxylate de calcium (CAS RN 491589-22-1) et 30 % ou plus, mais pas plus de 40 % de stéarate de zinc (CAS RN 557-05-1)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999340</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Préparation anti-corrosion constituée de sels d'acide dinonylnaphtalènesulfonique présentés: -|sur un support de cire minérale, même modifiée chimiquement ou -|sous forme de solution dans un solvant organique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999342</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange de bis{4-(3-(3-phenoxycarbonylamino)tolyl)ureido}phenylsulfone, diphenyltolyl-2,4-dicarbamate et 1-[4-(4-aminobenzolsulfonyl)-phényl]-3-(3-phenoxycarbonylamino-tolyl)-urée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999345</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Hydrogéno-3-aminonaphtalène-1,5-disulfonate de sodium (CAS|RN|4681-22-5) contenant en poids:-|pas plus de 20|% de sulfate de disodium, et-|pas plus de 10|% de chlorure de sodium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999348</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Retardateur de flamme non halogéné contenant, en poids:-50 % ou plus mais pas plus de 65 % de pyrophosphate de pipérazine (CAS RN 66034-17-1),-35 % ou plus mais pas plus de 45 % d'un dérivé de l'acide phosphorique, et-pas plus 6 % d'oxyde de zinc (CAS RN 1314-13-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999353</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Diméthacrylate de zinc (CAS RN 13189-00-9), contenant au maximum 2,5|%, en poids, de 2,6-di-tert-butyl-alpha-diméthylamino-p-crésol (CAS RN 88-27-7), sous forme de poudre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999361</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Disodium 7,7'-(carbonyldiimino)bis(4-hydroxynaphthalène-2-sulphonate) (CAS RN 20324-87-2) d'une pureté en poids de 80 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999363</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélanges de stérols végétaux, présentés autrement qu'en poudre, contenant en poids: -|75|% minimum de stérols, -|mais 25|% maximum de stanols,utilisés pour la fabricationde stanols/stérols ou d'esters de stanols/stérols</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999365</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Masse réactive de 1,1'-(isopropylidène)bis[3,5-dibromo-4-(2,3-dibromo-2-méthylpropoxy)benzène] (CAS|RN|97416-84-7) et de 1,3-dibromo-2-(2,3-dibromo-2-méthylpropoxy)-5-{2-[3,5-dibromo-4-(2,3,3-tribromo-2-méthylpropoxy)phényl]propan-2-yl}benzène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999367</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélanges de stérols végétaux, sous forme de poudre, contenant en poids:- 75% minimum de stérols, - mais 25% maximum de stanols, utilisés pour la fabrication de stanols/stérols ou d'esters de stanols/stérols</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999374</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>1,3-Propanediamine, N1,N1'-1,2-éthanediylbis-, produits de réaction avec le cyclohexane et la N-butyl-2,2,6,6-tétraméthyl-4-pipéridinamine-2,4,6-trichloro-1,3,5-triazine peroxydée (CAS RN 191680-81-6)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999388</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Mélange de phytostérols, contenant en poids: -|60|% ou plus mais pas plus de 80|% de sitostérols, -|pas plus de 15|% de campestérols, -|pas plus de 5|% de stigmastérols, -|pas plus de 15|% de betasitostanols</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999389</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Glutamate monosodique, mélangé ou en solution, contenant au moins 50 % de glutamate monosodique en poids sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999390</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3824999600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999630</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Concentré de terres rares contenant, en poids:-|20|% ou plus mais pas plus de 30|%, d'oxyde de cérium (CAS|RN|1306-38-3),-|2|% ou plus mais pas plus de 10|%, d'oxyde de lanthane (CAS|RN|1312-81-8),-|10|% ou plus mais pas plus de 15|%, d'oxyde d'yttrium (CAS|RN|1314-36-9), et -|pas plus de 65|% d'oxyde de zirconium (CAS|RN|1314-23-4), y compris l'oxyde d'hafnium naturel</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999635</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Bauxite calcinée (réfractaire)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999637</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Silicoaluminophosphate structuré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999640</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Préparation anti-corrosion constituée de sels d'acide dinonylnaphtalènesulfonique présentés: -|sur un support de cire minérale, même modifiée chimiquement ou -|sous forme de solution dans un solvant organique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999643</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Gel de silice fonctionnalisé de 2-(éthylthio)éthanéthiol d'une pureté en poids de 98 % ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999645</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Poudre d'oxyde de lithium-nickel-cobalt-aluminium (CAS RN 177997-13-6) présentant les caractéristiques suivantes:-une taille des particules inférieure à 10 µm-une pureté en poids supérieure à 98 %</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999646</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Granulat de manganèse-zinc-ferrite, contenant en poids:-52|% ou plus mais pas plus de 76|% d'oxyde de fer (III),-13|% ou plus mais pas plus de 42|% d'oxyde de manganèse (II) et-2|% ou plus mais pas plus de 22|% d'oxyde de zinc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999647</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Mélange d'oxydes de métaux, sous forme de poudre, contenant en poids: -|soit 5|% ou plus de baryum, de néodyme ou de magnésium et 15|% ou plus de titane, -|soit 30|% ou plus de plomb et 5|% ou plus de niobium,destiné à être utilisé dans la fabrication de films diélectriques ou destiné à être utilisé comme matériaux diélectriques dans la fabrication de condensateurs multicouches en céramique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999648</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Oxyde de zirconium (ZrO@2), stabilisé par de l'oxyde de calcium (numéro CAS 68937-53-1) d'une teneur en poids d'oxyde de zirconium de 92|% ou plus mais n'excédant pas 97|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999650</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Hydroxyde de nickel dopé avec au minimum 12|% et au maximum 18|% en poids d'hydroxyde de zinc et d'hydroxyde de cobalt, du type utilisé pour la fabrication d'électrodes positives pour accumulateurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999653</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Concentré de terres rares contenant en poids 60|% ou plus mais pas plus de 95|% d'oxydes de terres rares et pas plus de 1|% chacun d'oxyde de zirconium, d'oxyde d'aluminium ou d'oxyde de fer, et ayant une perte par calcination de 5|% ou plus en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999655</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Carrier, sous forme de poudre, constitué de|: -|Ferrite (oxyde de fer) (CAS RN 1309-37-1) -|Oxyde de manganèse (CAS RN 1344-43-0) -|Oxyde de magnésium (CAS RN 1309-48-4) -|Styrène acrylate copolymèredestiné à être mélangé à du toner sous forme de poudre, dans la fabrication de bouteilles ou cartouches d'encre/de toner pour télécopieurs, imprimantes d'ordinateurs ou pour photocopieurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999657</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Particules de dioxyde de silicium sur lesquelles sont liés de manière covalente des composés organiques, destinées à être utilisées dans la fabrication de colonnes de chromatographie liquide à haute performance (HPLC) et de cartouches de préparation d'échantillon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999660</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Magnésie électrofondue contenant au moins 15|% en poids de trioxyde de dichrome</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999662</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Préparation visqueuse contenant essentiellement :-plus de 5 % mais pas plus de 15 % en poids d'alcool polyvinylique (CAS RN 9002-89-5),-plus de 10 % mais pas plus de 20 % en poids de 1-méthoxy-2-propanol (CAS RN 107-98-2),-de l'eau, destiné à être utilisé comme revêtement de protection pour les plaquettes pendant le processus de tranchage dans la fabrication de semi-conducteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999665</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Silicate d'aluminium et de sodium, sous forme de sphères d'un diamètre de: -|soit 1,6|mm ou plus mais n'excédant pas 3,4|mm, -|soit 4|mm ou plus mais n'excédant pas 6|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999666</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Agent de vulcanisation contenant en poids:-78 % ou plus mais pas plus de 82 % de soufre insoluble (CAS RN 9035-99-8),-18 % ou plus mais pas plus de 22 % d'huile naphténique (CAS RN 64742-52-5), et-pas plus de 0,2 % de méthylstyrène (CAS RN 98-83-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999668</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Dioxyde de lithium et de nickel (CAS RN 12325-84-7) contenant en poids:-moins de 5 % d'hydroxyde de lithium (CAS RN 1310-65-2),- moins de 5 % de carbonate de lithium (CAS RN 554-13-2), et- moins de 15 % d'oxyde de nickel (CAS RN 11099-02-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999673</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Produit de réaction, contenant en poids: -|1|% ou plus mais pas plus de 40|% d'oxyde de molybdène, -|10|% ou plus mais pas plus de 50|% d'oxyde de nickel, -|30|% ou plus mais pas plus de 70|% d'oxyde de tungstène</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999674</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Mélange de composition non stoechiométrique: -|à structure cristalline, -|principalement à base de spinelle d'aluminate de magnésium et d'adjuvants des phases de silicate et d'aluminates, dont 75|% du poids au moins se situe dans la fraction granulométrique comprise entre 1|et 3|mm et dont 25|% au plus se situe dans la fraction granulométrique comprise entre 0|et 1|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999678</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Oxyde de zirconium stabilisé avec de l'oxyde d'yttrium (CAS RN 64417-98-7) contenant en poids 90 % ou plus d'oxyde de zirconium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999680</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Mélange composé de-|64|% en poids ou plus, mais n'excédant pas 74|% en poids de silice amorphe (CAS|RN|7631-86-9)-|25|% en poids ou plus, mais n'excédant pas 35|% en poids de butanone (CAS|RN|78-93-3) et-|pas plus de 1|% en poids de 3-(2,3-époxypropoxy)propyltriméthoxysilane (CAS|RN|2530-83-8)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999683</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Nitrure de bore cubique (CAS|RN|10043-11-5) revêtu de nickel et/ou de phosphure de nickel (CAS|RN|12035-64-2)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999687</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Oxyde de platine (CAS RN 12035-82-4) fixé sur un support poreux en oxyde d'aluminium (CAS RN 1344-28-1), contenant en poids: -|0,1|% ou plus mais pas plus de|1|% de platine, et -|0,5|% ou plus mais pas plus de|5|% de dichlorure d'éthylaluminium (CAS RN 563-43-9)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999689</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Glutamate monosodique, mélangé ou en solution, contenant au moins 50 % de glutamate monosodique en poids sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999691</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Mélange, sous forme de granulés, contenant en poids:- 49 % ou plus mais pas plus de 50 % de polysulfures, bis[3-(triéthoxysilyl)propyl] (CAS RN 211519-85-6), et- 50 % ou plus mais pas plus de 51 % de noir de carbone (CAS RN 1333-86-4),dont le taux de passage dans une ouverture de maille de 0,60 mm est égal à 75 % ou plus en poids, mais dont le taux de passage dans une ouverture de maille de 0,25 mm n'excède pas 10 % (conformément à la méthode ASTM D1511)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3824999699</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3825000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits résiduaires des industries chimiques ou des industries connexes, non dénommés ni compris ailleurs; déchets municipaux; boues d'épuration; autres déchets mentionnés dans la note|6|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets municipaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Boues d'épuration</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets cliniques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3825410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets de solvants organiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>halogénés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Déchets de solutions (liqueurs) décapantes pour métaux, de liquides hydrauliques, de liquides pour freins et de liquides antigel</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3825610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres déchets des industries chimiques ou des industries connexes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant principalement des constituants organiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3825900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oxydes de fer alcalinisés pour l'épuration des gaz</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3825909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3826000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Biodiesel et ses mélanges, ne contenant pas d'huiles de pétrole ni de minéraux bitumineux ou en contenant moins de 70|% en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3826001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Esters monoalkylés d'acide gras contenant au moins 96,5% en poids d'esters (EMAAG/FAMAE)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3826001020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange d'esters méthyliques d'acides gras contenant au minimum les composants suivants: -|entre 65|% et 75|% en poids d'EMAG en C12, -|entre 21|% et 28|% en poids d'EMAG en C14, -|entre 4|% et 8|% en poids d'EMAG en C16,et destiné à la fabrication de détergents, de produits d'entretien ménager et d'hygiène corporelle</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826001020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826001029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3826001050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange d'esters méthyliques d'acides gras (EMAG) contenant au moins en poids: -|50|% ou plus mais n'excédant pas 58|% d'EMAG en C8, -|35|% ou plus mais n'excédant pas 50|% d'EMAG en C10destiné à la fabrication d'acides gras en C8|ou C10|d'une grande pureté ou de mélanges de ces acides gras, ou d'ester méthylique d'acides gras en C8|ou C10|d'une grande pureté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826001050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826001059</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3826001089</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826001089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826001099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3826009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3826009011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélanges contenant, en poids, plus de 20 % d'esters monoalkyles d'acides gras ou d'un mélange d'esters monoalkyles d'acides gras et de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826009011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en provenance du Canada</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826009019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826009033</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélanges contenant, en poids, pas plus de 20 % d'esters monoalkyles d'acides gras ou d'un mélange d'esters monoalkyles d'acides gras et de gazoles paraffiniques obtenus par synthèse et/ou hydrotraitement, d'origine non fossile</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3826009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mélanges contenant des dérivés halogénés du méthane, de l'éthane ou du propane, non dénommés ni compris ailleurs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant des chlorofluorocarbures (CFC), même contenant des hydrochlorofluorocarbures (HCFC), des perfluorocarbures (PFC) ou des hydrofluorocarbures (HFC); contenant des hydrobromofluorocarbures (HBFC); contenant du tétrachlorure de carbone; contenant du 1,1,1-trichloroéthane (méthylchloroforme)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des chlorofluorocarbures (CFC), même contenant des hydrochlorofluorocarbures (HCFC), des perfluorocarbures (PFC) ou des hydrofluorocarbures (HFC)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des hydrobromofluorocarbures (HBFC)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant du tétrachlorure de carbone</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant du 1,1,1-trichloroéthane (méthylchloroforme)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant du bromochlorodifluorométhane (halon-1211), du bromotrifluorométhane (halon-1301) ou des dibromotétrafluoroéthanes (halon-2402)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant des hydrochlorofluorocarbures (HCFC), même contenant des perfluorocarbures (PFC) ou des hydrofluorocarbures (HFC), mais ne contenant pas de chlorofluorocarbures (CFC)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant des substances des n$o$s$ 2903|41|à 2903|48</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, contenant des substances des nos 2903|71|à 2903|75</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant du bromure de méthyle (bromométhane) ou du bromochlorométhane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant du trifluorométhane (HFC-23) ou des perfluorocarbures (PFC) mais ne contenant pas de chlorofluorocarbures (CFC) ou d'hydrochlorofluorocarbures (HCFC)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant du trifluorométhane (HFC-23)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827510010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>R508A [contenant 61% d'hexafluoroéthane (perfluoroéthane) (PFC-116) et 39% de trifluorométhane (fluoroforme) (HFC-23)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827510020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>R508B [contenant 54% d'hexafluoroéthane (perfluoroéthane) (PFC-116) et 46% de trifluorométhane (fluoroforme) (HFC-23)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827510090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>contenant d'autres hydrofluorocarbures (HFC) mais ne contenant pas de chlorofluorocarbures (CFC) ou d'hydrochlorofluorocarbures (HCFC)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant en masse 15|% ou plus de 1,1,1|-trifluoroéthane (HFC- 143a)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827610010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>R507A [contenant 50% de pentafluoroéthane (HFC-125) et 50% de 1,1,1-trifluoroéthane (HFC-143a)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827610020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>R404A [contenant 52%de 1,1,1-trifluoroéthane (HFC-143a), 44%de pentafluoroéthane (HFC-125) et 4%de 1,1,1,2-tetrafluoroéthane (HFC-134a)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827610090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, non mentionnés dans la sous-position ci-dessus, contenant en masse 55|% ou plus de pentafluoroéthane (HFC- 125) mais ne contenant pas de dérivés fluorés non saturés des hydrocarbures acycliques (HFO)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827620010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du 1,1,1-trifluoroéthane et du pentafluoroéthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827620020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du 1,1,1-trifluoroéthane, du pentafluoroéthane et du 1,1,1,2-tétrafluoroéthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827620030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du difluorométhane et du pentafluoroéthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827620040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du difluorométhane, du pentafluoroéthane et du 1,1,1,2-tétrafluoroéthane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827620050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827620050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R422D [contenant 65,1% de pentafluoroéthane (HFC-125), 31,5% de 1,1,1,2-tétrafluoroéthane (HFC-134a) et 3,4% d'isobutane]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827620060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R419A [contenant 77% de pentafluoroéthane (HFC-125), 19% de 1,1,1,2-tétrafluoroéthane (HFC-134a) et 4% de diméthyléther (R-E170)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827620090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827630000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, non mentionnés dans les sous-positions ci-dessus, contenant en masse 40|% ou plus de pentafluoroéthane (HFC-125)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du 1,1,1-trifluoroéthane et du pentafluoroéthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du 1,1,1-trifluoroéthane, du pentafluoroéthane et du 1,1,1,2-tétrafluoroéthane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827630020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du difluorométhane et du pentafluoroéthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R410A [contenant 50% de pentafluoroéthane (HFC-125) et 50% de difluorométhane (HFC-32)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827630030</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du difluorométhane, du pentafluoroéthane et du 1,1,1,2-tétrafluoroéthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R407A [contenant 40% de pentafluoroéthane (HFC-125), 40% de 1,1,1,2-tétrafluoroéthane (HFC-134a) et 20% de difluorométhane (HFC-32)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827630040</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant des hydrofluorocarbures non saturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R452A [contenant 59% de pentafluoroéthane (HFC-125), 30% de 2,3,3,3-tétrafluoropropène (HFC-1234yf) et 11% de difluorométhane (HFC-32)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630049</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827630090</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R417A [contenant 50% de 1,1,1,2-tétrafluoroéthane (HFC-134a), 46,6% de pentafluoroéthane (HFC-125) et 3,4% d'isobutane]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827630099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827640000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, non mentionnés dans les sous-positions ci-dessus, contenant en masse 30|% ou plus de 1,1,1,2-tétrafluoroéthane (HFC-134a) mais ne contenant pas de dérivés fluorés non saturés des hydrocarbures acycliques (HFO)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827640010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du 1,1,1-trifluoroéthane, du pentafluoroéthane et du 1,1,1,2-tétrafluoroéthane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827640020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du difluorométhane, du pentafluoroéthane et du 1,1,1,2-tétrafluoroéthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827640020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R407C [contenant 52% de 1,1,1,2-tétrafluoroéthane (HFC-134a), 25% de pentafluoroéthane (HFC-125) et 23% de difluorométhane (HFC-32)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827640021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R407F [contenant 40% de 1,1,1,2-tétrafluoroéthane (HFC-134a), 30% de difluorométhane (HFC-32) et 30% de pentafluoroéthane (HFC-125)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827640022</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R407H [contenant 52,5% de 1,1,1,2-tétrafluoroéthane (HFC-134a), 32,5% de difluorométhane (HFC-32) et 15% de pentafluoroéthane (HFC-125)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827640029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827640090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827650000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, non mentionnés dans les sous-positions ci-dessus, contenant en masse 20|% ou plus de difluorométhane (HFC-32) et 20|% ou plus de pentafluoroéthane (HFC-125)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827650010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du difluorométhane, du pentafluoroéthane et du 1,1,1,2-tétrafluoroéthane</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3827650020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant des hydrofluorocarbures non saturés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827650020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R448A [contenant 26% de difluorométhane (HFC-32), 26% de pentafluoroéthane (HFC-125), 21% de 1,1,1,2-tétrafluoroéthane (HFC-134a), 20% de 2,3,3,3-tétrafluoropropène (HFC-34yf) et 7% de 1,3,3,3-tétrafluoropropène (HFC-1234ze)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827650021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>R449A [contenant 25,7% de 1,1,1,2-tétrafluoroéthane (HFC-134a), 25,3% de 2,3,3,3-tétrafluoropropène (HFC-1234yf), 24,7% de pentafluoroéthane (HFC-125) et 24,3% de difluorométhane (HFC-32)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827650029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827650090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827680000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, non mentionnés dans les sous-positions ci-dessus, contenant des substances des nos2903|41|à 2903|48</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827680010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>R452B [contenant 67% de difluorométhane (HFC-32), 26% de 2,3,3,3-tétrafluoropropène (HFC-1234yf) et 7% de pentafluoroéthane (HFC-125)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827680020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>R455A (containing 75.5% of 2,3,3,3-tetrafluoropropene (HFC-1234yf), 21.5% of difluoromethane (HFC-32) and 3% of carbon dioxide)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827680030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du 1,1,1,3,3-pentafluorobutane (HFC-365mfc) et du 1,1,1,2,3,3,3-heptafluoropropane (HFC-227ea)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827680040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant uniquement du 1,1,1,3,3-pentafluorobutane (HFC-365mfc) et du 1,1,1,3,3-pentafluoropropane (HFC-245fa)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827680050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>R450A [contenant 58% de 1,3,3,3-tétrafluoropropène (HFC-1234ze) et 42% de 1,1,1,2-tétrafluoroéthane (HFC-134a)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827680060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>R513A [contenant 56% de 2,3,3,3-tétrafluoropropène (HFC-1234yf) et 44% de 1,1,1,2-tétrafluoroéthane (HFC-134a)]</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827680090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3827900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mélange contenant en poids:- 60|% ou plus mais pas plus de 90|% de 2-chloropropène (CAS RN 557-98-2),- 8|% ou plus mais pas plus de 14|% de (Z)-1-chloropropène (CAS RN 16136-84-8),- 5|% ou plus mais pas plus de 23|% de 2-chloropropane (CAS RN 75-29-6),- pas plus de 6|% de 3-chloropropène (CAS RN 107-05-1) et- pas plus de 1|% de chlorure d'éthyle (CAS RN 75-00-3)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3827900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

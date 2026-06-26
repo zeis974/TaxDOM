@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 21 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:16</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>2100000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PRÉPARATIONS ALIMENTAIRES DIVERSES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2101000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Extraits, essences et concentrés de café, de thé ou de maté et préparations à base de ces produits ou à base de café, thé ou maté; chicorée torréfiée et autres succédanés torréfiés du café et leurs extraits, essences et concentrés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Extraits, essences et concentrés de café et préparations à base de ces extraits, essences ou concentrés ou à base de café</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Extraits, essences et concentrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2101120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations à base d'extraits, essences ou concentrés ou à base de café</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2101129200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparations à base d'extraits, essences ou concentrés de café</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101129220</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ne contenant pas de matières grasses provenant du lait, de protéines du lait, de saccharose, d'isoglucose, de glucose, d'amidon ou de fécule ou contenant en poids moins de 1,5|% de matières grasses provenant du lait, moins de 2,5|% de protéines du lait, moins de 5|% de saccharose ou d'isoglucose, moins de 5|% de glucose ou d'amidon ou de fécule</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101129292</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101129292</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101129299</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2101129800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101129820</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ne contenant pas de matières grasses provenant du lait, de protéines du lait, de saccharose, d'isoglucose, de glucose, d'amidon ou de fécule ou contenant en poids moins de 1,5|% de matières grasses provenant du lait, moins de 2,5|% de protéines du lait, moins de 5|% de saccharose ou d'isoglucose, moins de 5|% de glucose ou d'amidon ou de fécule</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101129892</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101129892</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre interverti calculé en saccharose) ou d'isoglucose calculé également en saccharose, égale ou supérieure à 70|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101129894</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101129894</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101129899</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2101200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Extraits, essences et concentrés de thé ou de maté et préparations à base de ces extraits, essences ou concentrés ou à base de thé ou de maté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Extraits, essences et concentrés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101209200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2101209200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à base d'extraits, essences ou concentrés de thé ou de maté</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101209210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ne contenant pas de matières grasses provenant du lait, de protéines du lait, de saccharose, d'isoglucose, de glucose, d'amidon ou de fécule ou contenant en poids moins de 1,5|% de matières grasses provenant du lait, moins de 2,5|% de protéines du lait, moins de 5|% de saccharose, ou d'isoglucose, moins de 5|% de glucose ou d'amidon ou de fécule</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101209282</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101209282</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101209299</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2101209800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101209810</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ne contenant pas de matières grasses provenant du lait, de protéines du lait, de saccharose, d'isoglucose, de glucose, d'amidon ou de fécule ou contenant en poids moins de 1,5|% de matières grasses provenant du lait, moins de 2,5|% de protéines du lait, moins de 5|% de saccharose, ou d'isoglucose, moins de 5|% de glucose ou d'amidon ou de fécule</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101209885</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101209885</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre interverti calculé en saccharose) ou d'isoglucose calculé également en saccharose, égale ou supérieure à 70|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101209887</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101209887</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101209899</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2101300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Chicorée torréfiée et autres succédanés torréfiés du café et leurs extraits, essences et concentrés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101301100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chicorée torréfiée et autres succédanés torréfiés du café</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101301100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Chicorée torréfiée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101301900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2101309100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Extraits, essences et concentrés de chicorée torréfiée et d'autres succédanés torréfiés du café</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101309100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de chicorée torréfiée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2101309900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2102000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Levures (vivantes ou mortes); autres micro-organismes monocellulaires morts (à l'exclusion des vaccins du n$o|3002); poudres à lever préparées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2102100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Levures vivantes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2102101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Levures mères sélectionnées (levures de culture)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102101010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102101090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2102103100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Levures de panification</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102103100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>séchées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102103900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2102109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102109010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>destinées à l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102109090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2102200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Levures mortes; autres micro-organismes monocellulaires morts</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2102201100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Levures mortes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2102201100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en tablettes, cubes ou présentations similaires, ou bien en emballages immédiats d'un contenu net n'excédant pas 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102201110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102201190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2102201900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102201910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>destinées à l'alimentation animale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102201990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2102300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres à lever préparées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2103000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations pour sauces et sauces préparées; condiments et assaisonnements, composés; farine de moutarde et moutarde préparée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sauce de soja</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tomato ketchup et autres sauces tomates</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2103300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Farine de moutarde et moutarde préparée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Farine de moutarde</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2103309000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Moutarde préparée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103309010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ne contenant pas de sucre additionné ou d'une teneur en sucre additionné inférieure à 5% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103309090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en sucre additionné égale ou supérieure à 5% en poids</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2103900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Chutney de mangue liquide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Amers aromatiques, d'un titre alcoométrique volumique égal ou supérieur à 44,2|%|vol et n'excédant pas 49,2|%|vol et contenant de 1,5|% à 6|% en poids de gentiane, d'épices et ingrédients divers, de 4|% à 10|% de sucre et présentés en récipients d'une contenance n'excédant pas 0,50|l</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2103909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2103909011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant de la tomate</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103909011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Glutamate monosodique, mélangé ou en solution, contenant au moins 50 % de glutamate monosodique en poids sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103909019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2103909081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103909081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Glutamate monosodique, mélangé ou en solution, contenant au moins 50 % de glutamate monosodique en poids sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2103909089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2104000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations pour soupes, potages ou bouillons; soupes, potages ou bouillons préparés; préparations alimentaires composites homogénéisées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2104100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations pour soupes, potages ou bouillons; soupes, potages ou bouillons préparés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2104100011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de la tomate</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2104100011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Glutamate monosodique, mélangé ou en solution, contenant au moins 50 % de glutamate monosodique en poids sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2104100019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2104100081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2104100081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Glutamate monosodique, mélangé ou en solution, contenant au moins 50 % de glutamate monosodique en poids sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2104100089</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2104200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations alimentaires composites homogénéisées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2104200011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Glutamate monosodique, mélangé ou en solution, contenant au moins 50 % de glutamate monosodique en poids sec</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2104200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2105000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Glaces de consommation, même contenant du cacao</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2105001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>ne contenant pas ou contenant en poids moins de 3|% de matières grasses provenant du lait</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2105009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'une teneur en poids de matières grasses provenant du lait</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2105009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>égale ou supérieure à 3|% mais inférieure à 7|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2105009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>égale ou supérieure à 7|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations alimentaires non dénommées ni comprises ailleurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Concentrats de protéines et substances protéiques texturées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106102000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ne contenant pas de matières grasses provenant du lait, de saccharose, d'isoglucose, de glucose, d'amidon ou de fécule ou contenant en poids moins de 1,5|% de matières grasses provenant du lait, moins de 5|% de saccharose ou d'isoglucose, moins de 5|% de glucose ou d'amidon ou de fécule</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106102020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Concentré de protéines de soja dont la teneur en poids en protéines, calculée sur la base du poids sec, est de 65|% ou plus, mais ne dépasse pas 90|%, à l'état de poudre ou sous forme texturée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106102040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106102090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106108031</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant plus de 1|% de matières grasses provenant du lait, 1|% d'autres matières grasses ou plus de 5|% de sucres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106108031</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté inférieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106108031</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106108035</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106108039</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106108039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106108040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106108071</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106108071</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106108079</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Préparations alcooliques composées, autres que celles à base de substances odoriférantes, des types utilisés pour la fabrication de boissons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106902010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106902090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106903000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sirops de sucre, aromatisés ou additionnés de colorants</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'isoglucose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106903010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106903090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106905100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106905100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de lactose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106905110</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106905190</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106905500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de glucose ou de maltodextrine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106905510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106905590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106905900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106905910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre interverti calculé en saccharose) ou d'isoglucose calculé également en saccharose, égale ou supérieure à 70|%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106905992</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106905992</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106905999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106909200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ne contenant pas de matières grasses provenant du lait, de saccharose, d'isoglucose, de glucose, d'amidon ou de fécule ou contenant en poids moins de 1,5|% de matières grasses provenant du lait, moins de 5|% de saccharose ou d'isoglucose, moins de 5|% de glucose ou d'amidon ou de fécule</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909240</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Hydrolysats de protéines et autolysats de levure</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909250</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Hydrolysat de protéines de caséine constitué:-|en poids de 20|% ou plus mais pas plus de 70|% d'acides aminés libres, et-|de peptones dont plus de 90|% en poids présentent une masse moléculaire n'excédant pas 2|000|Da</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909255</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Carbonate de calcium</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909265</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909265</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Érythritol en mélanges contenant moins de 10 % d'autres produits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909275</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909285</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>2106909800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909815</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Érythritol en mélanges contenant moins de 10 % d'autres produits</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909826</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>contenant 26|% ou plus en poids de matières grasses provenant du lait</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909826</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en emballages immédiats d'un contenu net inférieur ou égal à 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909826</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>des types utilisés pour les industries des boissons, d'une teneur en saccharose/isoglucose égale ou supérieure à 70% en poids</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909828</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909828</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>d'une teneur en poids de  sucre  inférieure à 70 %</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909828</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909830</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909833</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909834</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909834</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>des types utilisés pour les industries des boissons, d'une teneur en saccharose/isoglucose égale ou supérieure à 70|% en poids</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909835</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909835</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>d'une teneur en poids de  sucre  inférieure à 70 %</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909835</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909836</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909838</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909842</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909842</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>d'une teneur en poids de saccharose inférieure à 70|% (y compris le sucre interverti calculé en saccharose)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909842</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en saccharose (y compris le sucre inverti calculé ensaccharose) ou en isoglucose, calculé également en saccharose, égale ou supérieure à 60|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909842</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909843</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909849</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909853</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909853</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>des types utilisés pour les industries des boissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>2106909860</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909860</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Carbonate de calcium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>2106909869</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

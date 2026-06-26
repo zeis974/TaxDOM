@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 70 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:54</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>7000000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>VERRE ET OUVRAGES EN VERRE</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7001000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Calcin et autres déchets et débris de verre, à l'exclusion du verre de tubes cathodiques et autres verre activés du no|8549; verre en masse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7001001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Calcin et autres déchets et débris de verre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7001009100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verre en masse</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7001009100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Verre d'optique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7001009900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7002000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Verre en billes (autres que les microsphères du n$o|7018), barres, baguettes ou tubes, non travaillé</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7002100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Billes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7002200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Barres ou baguettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7002201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en verre d'optique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7002209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7002310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7002310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en quartz ou en autre silice fondus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7002320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en autre verre d'un coefficient de dilatation linéaire n'excédant pas 5|!x!|10$-$6|par kelvin entre 0|°C et 300|°C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7002390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7003000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Verre dit "coulé", en plaques, feuilles ou profilés, même à couche absorbante, réfléchissante ou non réfléchissante, mais non autrement travaillé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7003120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plaques et feuilles, non armées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7003120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>colorées dans la masse, opacifiées, plaquées (doublées) ou à couche absorbante, réfléchissante ou non réfléchissante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7003121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en verre d'optique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7003129100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7003129100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>à couche non réfléchissante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7003129900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7003190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7003191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en verre d'optique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7003199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7003200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plaques et feuilles, armées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7003300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Profilés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7004000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Verre étiré ou soufflé, en feuilles, même à couche absorbante, réfléchissante ou non réfléchissante, mais non autrement travaillé</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7004200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verre coloré dans la masse, opacifié, plaqué (doublé) ou à couche absorbante, réfléchissante ou non réfléchissante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7004201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Verre d'optique</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7004209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7004209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à couche non réfléchissante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7004209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7004900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7004901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Verre d'optique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7004908000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7005000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Glace (verre flotté et verre douci ou poli sur une ou deux faces) en plaques ou en feuilles, même à couche absorbante, réfléchissante ou non réfléchissante, mais non autrement travaillée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7005100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Glace non armée, à couche absorbante, réfléchissante ou non réfléchissante</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005100500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à couche non réfléchissante</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7005102500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre, d'une épaisseur</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005102500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>n'excédant pas 3,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 3,5|mm mais n'excédant pas 4,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005108000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>excédant 4,5|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7005210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre glace non armée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7005210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>colorée dans la masse, opacifiée, plaquée (doublée) ou simplement doucie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005212500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur n'excédant pas 3,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005213000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur excédant 3,5|mm mais n'excédant pas 4,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005218000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur excédant 4,5|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7005290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005292500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur n'excédant pas 3,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005293500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur excédant 3,5|mm mais n'excédant pas 4,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une épaisseur excédant 4,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7005300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Glace armée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7006000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Verre des n$o$s|7003, 7004|ou 7005, courbé, biseauté, gravé, percé, émaillé ou autrement travaillé, mais non encadré ni associé à d'autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7006001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verre d'optique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7006009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7007000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Verre de sécurité, consistant en verres trempés ou formés de feuilles contrecollées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7007110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verres trempés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7007110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de dimensions et formats permettant leur emploi dans les automobiles, véhicules aériens, bateaux ou autres véhicules</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7007111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de dimensions et formats permettant leur emploi dans les véhicules automobiles et les tracteurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007111010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Verre de sécurité trempé de forme spéciale :-d'une largeur de 200 mm ou plus mais n'excédant pas 600 mm,-d'une hauteur de 150 mm ou plus mais n'excédant pas 500 mm,destiné à la fabrication de blocs-fenêtres pour véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007111090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7007190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>émaillés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>colorés dans la masse, opacifiés, plaqués (doublés) ou à couche absorbante ou réfléchissante</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7007198000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7007198012</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Vitrage solaire constitué de verre plat sodocalcique trempé caractérisé par une teneur en fer inférieure à 300 ppm, un facteur de transmission solaire supérieur à 88 % (mesuré dans les conditions suivantes: AM1,5 300-2500 nm), une résistance maximale à la chaleur de 250° C et une résistance aux chocs thermiques de ¿ 150 K (mesurées selon la norme EN 12150), ainsi qu'une résistance mécanique égale ou supérieure à 90 N/mm² (mesurée selon la norme EN 1288-3)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7007198012</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>dont l'épaisseur ne dépasse pas 4,5 mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007198012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Sans revêtement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007198018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>à revêtement simple face ou double face</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7007198080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007198080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>sans revêtement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007198085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>à revêtement simple face ou double face</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007198086</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Verre trempé gradué de forme circulaire, prêt à être installé sur la porte de lave-linges présentant les caractéristiques suivantes :-une transmission de la lumière de 34,2 % ou plus, mais n'excédant pas 37,8 %,-Un diamètre de 477,2 mm ou plus, mais n'excédant pas 477,8 mm,-une épaisseur de 2,9 mm ou plus, mais n'excédant pas 3,5 mm,-un poids de 1 345 g ou plus mais n'excédant pas 1 445 g,-une structure à 3 zones comprenant une zone imprimée Euro Deep Gray</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007198095</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7007210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verres formés de feuilles contrecollées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7007210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de dimensions et formats permettant leur emploi dans les automobiles, véhicules aériens, bateaux ou autres véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007212000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de dimensions et formats permettant leur emploi dans les véhicules automobiles et les tracteurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7007218000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007218010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pare-brise, non encadrés, destinés à des aéronefs civils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007218090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7007290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7008000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vitrages isolants à parois multiples</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7008002000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>colorés dans la masse, opacifiés, plaqués (doublés) ou à couche absorbante ou réfléchissante</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7008008100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7008008100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>formés de deux plaques de verre scellées hermétiquement sur leur pourtour par un joint et séparées par une couche d'air, d'autre gaz ou de vide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7008008900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7009000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Miroirs en verre, même encadrés, y compris les miroirs rétroviseurs</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7009100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Miroirs rétroviseurs pour véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7009100030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Verre feuilleté avec effet obscurcissant mécanique en différents angles de la lumière incidente:-|avec ou sans couche de chrome,-|avec bande adhésive résistante ou adhésif thermofusible et-|avec pellicule protectrice amovible sur la face avant et papier protecteur sur la face arrière,du type destiné aux rétroviseurs intérieurs de véhicules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7009100050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Miroir en verre électrochrome semi-fini atténuant automatiquement l'intensité lumineuse, pour rétroviseur de véhicule à moteur:.même avec coque en plastique,.même équipé d'un élément chauffant,.même équipé d'un module d'angle mort (BSM)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7009100060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Rétroviseur intérieur atténuant automatiquement l'intensité lumineuse :-avec un support de rétroviseur-dans un boîtier en matière plastique et-avec un circuit intégré,-avec ou sans assistant feux de route,-avec ou sans boussole numérique,-avec ou sans système d'ouverture de porte de garage,-avec ou sans module de péage intégré,-avec ou sans caméra de surveillance pour le conducteur et/ou la cabine,-avec ou sans filtre pour infrarouge,utilisé dans la construction de véhicules automobiles du Chapitre 87</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7009100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7009910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7009910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non encadrés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7009910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Miroir chromatique en verre, présentant les caractéristiques suivantes :-une longueur de 155 mm ou plus mais pas plus de158 mm, -une hauteur de 115 mm ou plus mais pas plus de 120 mm,-un capteur d'angle mort avec module d'éclairage en cas de détection de mouvement dans l'angle mort, avec une luminescence périphérique de 5 000 cd/m² ou plus et une luminescence centrale de 7 000 cd/m² ou plus,-une feuille chauffante, d'une résistance de 1,1 k¿ ou plus, mais pas plus de 1,35 k¿,- conçu pour être fixé dans un boîtier pour servir de rétroviseur extérieur de véhicule, destiné à la fabrication de rétroviseurs de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7009910020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>-Verre chromatique asphérique, convexe ou plat, prêt à être encadré :-d'une longueur de 140 mm ou plus mais pas plus 215 mm,-d'une hauteur de 104 mm ou plus mais pas plus de 138 mm,-d'un rayon de courbure de 0 mm ou plus mais pas plus 1 330 mm,-d'une réflectance supérieure à 40 %,-destiné à la fabrication de rétroviseurs de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7009910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7009920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>encadrés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7010000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bonbonnes, bouteilles, flacons, bocaux, pots, emballages tubulaires, ampoules et autres récipients de transport ou d'emballage, en verre; bocaux à conserves en verre; bouchons, couvercles et autres dispositifs de fermeture, en verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ampoules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bouchons, couvercles et autres dispositifs de fermeture</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7010900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bocaux à stériliser</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010902100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010902100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>obtenus à partir d'un tube de verre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010903100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres, d'une contenance nominale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010903100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de 2,5|l ou plus</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010904100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de moins de 2,5|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010904100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour produits alimentaires et boissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010904100</Code>
+<Lig_Prod>30</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Bouteilles et flacons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010904100</Code>
+<Lig_Prod>40</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en verre non coloré, d'une contenance nominale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010904100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>de 1|l ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010904300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>excédant 0,33|l mais inférieure à 1|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010904500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>0,15|l ou plus mais n'excédant pas 0,33|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010904700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>de moins de 0,15|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010905100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>en verre coloré, d'une contenance nominale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010905100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>de 1|l ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010905300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>excédant 0,33|l mais inférieure à 1|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010905500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>0,15|l ou plus mais n'excédant pas 0,33|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010905700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>8</Alinea>
+<Description>de moins de 0,15|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010906100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres, d'une contenance nominale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010906100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de 0,25|l ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010906700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>de moins de 0,25|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010907100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour produits pharmaceutiques, d'une contenance nominale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010907100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>excédant 0,055|l</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010907900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>n'excédant pas 0,055|l</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7010909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>pour autres produits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en verre non coloré</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7010909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en verre coloré</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7011000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ampoules et enveloppes tubulaires, ouvertes, et leurs parties, en verre, sans garnitures, pour lampes et sources lumineuses électriques, tubes cathodiques ou similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7011100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour l'éclairage électrique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7011200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>pour tubes cathodiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7011900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Objets en verre pour le service de la table, pour la cuisine, la toilette, le bureau, l'ornementation des appartements ou usages similaires, autres que ceux des n$o$s|7010|ou 7018</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Objets en vitrocérame</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013220000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verres à boire à pied, autres qu'en vitrocérame</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cristal au plomb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli mécaniquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013280000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013281000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013289000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli mécaniquement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013330000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres verres à boire, autres qu'en vitrocérame</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cristal au plomb</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013331100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013331100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>taillés ou autrement décorés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013331900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013339100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli mécaniquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013339100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>taillés ou autrement décorés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013339900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013370000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013371000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en verre trempé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013375100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013375100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>cueilli à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013375100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>taillés ou autrement décorés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013375900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013379100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>cueilli mécaniquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013379100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>taillés ou autrement décorés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013379900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Objets pour le service de la table (autres que les verres à boire) ou pour la cuisine, autres qu'en vitrocérame</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cristal au plomb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013411000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013419000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli mécaniquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en verre d'un coefficient de dilatation linéaire n'excédant pas 5|!x!|10$-$6|par kelvin entre 0|°C et 300|°C</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en verre trempé</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013499100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autre verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013499100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>cueilli à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013499900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>cueilli mécaniquement</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7013910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres objets</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en cristal au plomb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueilli mécaniquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7013990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013990010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>cueillis à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7013990090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7014000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Verrerie de signalisation et éléments d'optique en verre (autres que ceux du n$o|7015), non travaillés optiquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7014000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Éléments d'optique en verre (autres que ceux de la position 7015), non travaillés optiquement, autres que la verrerie de signalisation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7014000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7015000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Verres d'horlogerie et verres analogues, verres de lunetterie commune ou médicale, bombés, cintrés, creusés ou similaires, non travaillés optiquement; sphères (boules) creuses et leurs segments, en verre, pour la fabrication de ces verres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7015100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Verres de lunetterie médicale</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7015900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7016000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pavés, dalles, briques, carreaux, tuiles et autres articles, en verre pressé ou moulé, même armé, pour le bâtiment ou la construction; cubes, dés et autre verrerie, même sur support, pour mosaïques ou décorations similaires; verres assemblés en vitraux; verre dit "multicellulaire" ou verre "mousse" en blocs, panneaux, plaques, coquilles ou formes similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7016100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cubes, dés et autre verrerie, même sur support, pour mosaïques ou décorations similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7016900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7016901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Verres assemblés en vitraux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7016904000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Pavés et briques, pour le bâtiment ou la construction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7016907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7017000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Verrerie de laboratoire, d'hygiène ou de pharmacie, même graduée ou jaugée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7017100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en quartz ou en autre silice fondus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7017200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en autre verre d'un coefficient de dilatation linéaire n'excédant pas 5|!x!|10$-$6|par kelvin entre 0|°C et 300|°C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7017900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7018000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Perles de verre, imitations de perles fines ou de culture, imitations de pierres gemmes et articles similaires de verroterie, et leurs ouvrages autres que la bijouterie de fantaisie; yeux en verre autres que de prothèse; statuettes et autres objets d'ornementation, en verre travaillé au chalumeau (verre filé), autres que la bijouterie de fantaisie; microsphères de verre d'un diamètre n'excédant pas 1|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7018100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Perles de verre, imitations de perles fines ou de culture, imitations de pierres gemmes et articles similaires de verroterie</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7018101100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Perles de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>taillées et polies mécaniquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7018101900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018101910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faites à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018101990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018103000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Imitations de perles fines ou de culture</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7018105100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Imitations de pierres gemmes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018105100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>taillées et polies mécaniquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018105900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Microsphères de verre d'un diamètre n'excédant pas 1|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7018900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Yeux en verre; objets de verroterie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7018909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Fibres de verre (y compris la laine de verre) et ouvrages en ces matières (fils, stratifils (rovings), tissus, par exemple)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mèches, stratifils (rovings), fils coupés ou non et mats en ces matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Fils coupés (chopped strands), d'une longueur n'excédant pas 50|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Stratifils (rovings)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019120003</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Stratifils (rovings) en fibre de verre imprégnés et enrobés ayant une perte au feu supérieure à 3% (déterminée conformément à la norme ISO 1887)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019120022</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019120022</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Stratifils (rovings), titrant 650|tex ou plus mais pas plus de 2|500|tex, enrobés d'une couche de polyuréthane même mélangé avec d'autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019120025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Stratifils (roving) titrant de 1980|à 2033|tex, composés de filaments de verre continus de 9|microns (± 0,5|µm)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019120026</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Stratifils (roving) de verre S:- composés de filaments de verre continus de 9 µm (± 0,5 µm),- titrant 200 tex ou plus mais pas plus de 680 tex,- ne contenant pas d'oxyde de calcium, et-avec une résistance à la rupture de plus de 3 550 Mpa, mesurée selon la méthode d'essai ASTM D2343-09destinés à être utilisés dans la fabrication de pièces dans l'aéronautique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019120039</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres fils, mèches</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019130010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de filaments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils de 33|tex ou d'un multiple de 33|tex (±|7,5|%), obtenus à partir de fibres de verre continues filables d'un diamètre nominale de 3,5|µm ou de 4,5|µm, dont la majorité des fibres présente un diamètre de 3|µm ou plus mais n'excédant pas 5,2|µm, autres que ceux qui sont traités pour la fixation d'élastomères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils de verre S de 33 tex ou d'un multiple de 33 tex (± 13%) obtenu à partir de filaments de verre continus dont les fibres présentent un diamètre de 9 µm (- 1 µm / + 1,5 µm)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils de 10,3|tex ou plus, mais n'excédant pas 11,9|tex, obtenus à partir de fibres de verre continues filables, dont les fibres présentent un diamètre de 4,83|µm ou plus, mais n'excédant pas 5,83|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils de 5,1|tex ou plus, mais n'excédant pas 6,0|tex, obtenus à partir de fibres de verre continues filables, dont les fibres présentent un diamètre de 4,83|µm ou plus, mais n'excédant pas 5,83|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils de verre E de 22 tex (± 1,6 tex), obtenus à partir de fibres de verre continues filables d'un diamètre nominal de 7 µm, dont la majorité des fibres présente un diamètre de 6,35 µm ou plus mais n'excédant pas 7,61 µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils de 11|tex ou d'un multiple de 11|(+/- 7,5|%), obtenus à partir de filaments de verre continus filables, contenant en poids 93|% ou plus de dioxyde de silicium et présentant un diamètre nominal de 6|µm ou 9|µm, autres que ceux qui sont traités</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019130085</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Mèches en cordes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130087</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019130092</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130092</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mèches en cordes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019130094</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mats liés mécaniquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019140010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à faible capacité d'absorption de l'humidité, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019140090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019150000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mats liés chimiquement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019150010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à faible capacité d'absorption de l'humidité, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019150090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019190020</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de filaments</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019190020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mèches en cordes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019190025</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils coupés (chopped strands), d'une longueur excédant 50|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019190030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019190080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019190080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Mèches en cordes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019190082</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Fils coupés (chopped strands), d'une longueur excédant 50|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019190085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019610000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Étoffes liées mécaniquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019610000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus de stratifils (rovings) à maille fermée</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019610011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de fibres de verre imprégnés de résine époxy, présentant un coefficient de dilatation thermique entre 30°C et 120°C (d' après la méthode IPC-TM-650) égal à: -|10ppm par°C ou plus, sans dépasser 12ppm par°C, en longueur et en largeur et -|20ppm par°C ou plus, sans dépasser 30ppm par°C, en épaisseur, et une température de transition vitreuse égale ou supérieure à 152°C mais n'excédant pas 153°C (d' après la méthode IPC-TM-650)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8 mm tant en longueur qu'en largeur et dont le poids est supérieur à 35 g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019610021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles ou rouleaux préimprégnés contenant de la résine polyimide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8 mm tant en longueur qu'en largeur et dont le poids est supérieur à 35 g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019610050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8|mm tant en longueur qu'en largeur et dont le poids est supérieur à 35|g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus en fibres de verre E:- d'un poids égal ou supérieur à 20 g/m² mais pas plus de 214 g/m²,- dont la surface est traitée avec un agent de couplage organosilane,- en rouleaux,- d'une teneur en humidité inférieure ou égale à 0,13 % en poids et- ne contenant pas plus de 3 fibres creuses pour 100 000 fibres,exclusivement destinés à la fabrication de préimprégnés et de stratifiés cuivrés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019610081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019610081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tissus faits de fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019610085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019620000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres étoffes de stratifils (rovings) à maille fermée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019621000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Déchets et débris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019621081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus faits de stratifils (rovings) ou fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019621081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019621083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019621084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019621085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019629000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019629081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus faits de stratifils (rovings) ou fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019629081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019629083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019629084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019629085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019630000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus de fils à maille fermée, à armure toile non enduits ni stratifiés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019630011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8|mm tant en longueur qu'en largeur et dont le poids est supérieur à 35|g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Thaïlande</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance d'Inde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance d'Indonésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus en fibres de verre E:- d'un poids égal ou supérieur à 20 g/m² mais pas plus de 214 g/m²,- dont la surface est traitée avec un agent de couplage organosilane,- en rouleaux,- d'une teneur en humidité inférieure ou égale à 0,13 % en poids et- ne contenant pas plus de 3 fibres creuses pour 100 000 fibres,exclusivement destinés à la fabrication de préimprégnés et de stratifiés cuivrés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019630081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019630081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus faits de stratifils (rovings) ou fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés et des tissus à maille ouverte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019630085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019640000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus de fils à maille fermée, à armure toile, enduits ou stratifiés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019640011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8|mm tant en longueur qu'en largeur et dont le poids est supérieur à 35|g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Thaïlande</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance d'Inde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance d'Indonésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissu de fibres de verre revêtu de résine époxy contenant en poids:-91 % ou plus mais pas plus de 93 % de fibres de verre-7 % ou plus mais pas plus de 9 % de résine époxy</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019640081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019640081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus faits de stratifils (rovings) ou fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés et des tissus à maille ouverte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019640085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019650000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus à maille ouverte d'une largeur n'excédant pas 30|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019650011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de fibres de verre imprégnés de résine époxy, présentant un coefficient de dilatation thermique entre 30°C et 120°C (d' après la méthode IPC-TM-650) égal à: -|10ppm par°C ou plus, sans dépasser 12ppm par°C, en longueur et en largeur et -|20ppm par°C ou plus, sans dépasser 30ppm par°C, en épaisseur, et une température de transition vitreuse égale ou supérieure à 152°C mais n'excédant pas 153°C (d' après la méthode IPC-TM-650)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019650011</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8 mm tant en longueur qu'en largeur et dont le poids est supérieur à 35 g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Thaïlande</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance d'Inde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance d'Indonésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019650021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles ou rouleaux préimprégnés contenant de la résine polyimide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8|mm tant en longueur qu'en largeur et dont le poids est supérieur à 35|g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019650050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8|mm tant en longueur qu'en largeur et dont le poids est supérieur à 35|g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650070</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus en fibres de verre E:- d'un poids égal ou supérieur à 20 g/m² mais pas plus de 214 g/m²,- imprégnés de silane,- en rouleaux,- d'une teneur en humidité inférieure ou égale à 0,13 % en poids et- ne contenant pas plus de 3 fibres creuses pour 100 000 fibres,exclusivement destinés à la fabrication de préimprégnés et de stratifiés cuivrés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019650081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019650081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tissus faits de fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019650085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019660000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tissus à maille ouverte d'une largeur excédant 30|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Toile de verre tissée à armure de fibres de verre enduites en plastique, avec un poids de 120 g/m² (± 10 g/m²), normalement utilisée pour la fabrication d'écrans anti-insectes enroulables et à cadre fixe</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019660011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de fibres de verre imprégnés de résine époxy, présentant un coefficient de dilatation thermique entre 30°C et 120°C (d' après la méthode IPC-TM-650) égal à: -|10ppm par°C ou plus, sans dépasser 12ppm par°C, en longueur et en largeur et -|20ppm par°C ou plus, sans dépasser 30ppm par°C, en épaisseur, et une température de transition vitreuse égale ou supérieure à 152°C mais n'excédant pas 153°C (d' après la méthode IPC-TM-650)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019660011</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8 mm tant en longueur qu'en largeur et dont le poids est supérieur à 35 g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Thaïlande</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance d'Inde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance d'Indonésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660018</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019660021</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feuilles ou rouleaux préimprégnés contenant de la résine polyimide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660021</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8|mm tant en longueur qu'en largeur et dont le poids est supérieur à 35|g/m2, à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660029</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019660050</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8|mm tant en longueur qu'en largeur et dont le poids est supérieur à 35|g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019660081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019660081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tissus faits de fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019660085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019690000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019691000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Étoffes par couture-tricotage et étoffes aiguilletées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019691081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus faits de stratifils (rovings) ou fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019691081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019691083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019691084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019691085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019699000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019699011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus de fibre de verre à maille ouverte dont la cellule mesure plus de 1,8|mm tant en longueur qu'en largeur et dont le poids est supérieur à 35|g/m², à l'exclusion des disques en fibre de verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Malaisie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Taïwan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance de Thaïlande</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance d'Inde</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en provenance d'Indonésie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699019</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019699081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019699081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Tissus faits de stratifils (rovings) ou fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés et des tissus à maille ouverte</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019699085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019710000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Étoffes liées chimiquement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019710000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Voiles (fine couches)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019710010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>à faible capacité d'absorption de l'humidité, destinées à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019710050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produit non tissé en fibres de verre non textiles, destiné à la fabrication de filtres à air ou de catalyseurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019710090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019720000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres étoffes à maille fermée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019720050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Produit non tissé en fibres de verre non textiles, destiné à la fabrication de filtres à air ou de catalyseurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019720090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019730000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres étoffes à maille ouverte</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Laine de verre et ouvrages en ces matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019801000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Panneaux, matelas et produits similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019801020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Panneaux et produits similaires à faible capacité d'absorption de l'humidité, destinés à certains types de véhicules aériens</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019801040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Panneau isolé par le vide constitué d'une feuille d'aluminium hermétique et d'un noyau rigide, sans air à l'intérieur, utilisé pour le renforcement thermique des réfrigérateurs et congélateurs et de leurs combinaisons, avec:-un remplissage en laine de verre,-une épaisseur de 5,6 mm ou plus mais n'excédant pas 35 mm,-une longueur de 195 mm ou plus, mais n'excédant pas 1 875 mm,-une largeur de 155 mm ou plus mais n'excédant pas 545 mm-une conductivité thermique inférieure ou égale à 2,5 mW/mK,-une pression intérieure inférieure à 1,0 Pa,-une température ambiante de fonctionnement de -50 °C ou plus, mais n'excédant pas 80 °C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019801090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019809000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019809010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Laine de verre dans laquelle les fibres d'un diamètre inférieur à 4,6 µm prédominent</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019809090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7019900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019900030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Corde de verre haut module (de type K) imprégnée de caoutchouc, obtenue à partir de fils de filaments de verre haut module tordus, enduite d'un latex comprenant une résine résorcinol-formaldéhyde avec ou sans vinylpyridine et/ou un caoutchouc acrylonitrile-butadiène hydrogéné (HNBR)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019900050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Panneaux rigides isolants fabriqués par compression sous vide de fibres de verre, enveloppées dans un film protecteur étanche au gaz, destinés à la fabrication de réfrigérateurs et de congélateurs, et de leurs combinaisons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019900060</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Panneau d'isolation par le vide constitué d'un boîtier étanche aux gaz en feuille d'aluminium entourant un noyau rigide dépourvu d'air avec :-un remplissage en fibre de verre,-une épaisseur de 5,6mm ou plus mais n'excédant pas 32,4mm,-une longueur de 195mm ou plus, mais n'excédant pas 1 835mm,-une largeur de 155mm ou plus mais n'excédant pas 545mm-une conductivité thermique inférieure ou égale à 2,5 mW/mK,-une pression intérieure inférieure à 1,0 Pa,-une température ambiante de fonctionnement de -50 °C ou plus, mais n'excédant pas 80 °C</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019900081</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7019900081</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus faits de stratifils (rovings) ou fils en fibres de verre à filament continu, tissés et/ou cousus, à l'exclusion des produits imprégnés ou pré-imprégnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019900081</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance du Maroc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019900083</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019900084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7019900085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7020000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en verre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7020000500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tubes et supports de réacteurs en quartz destinés à équiper des fours de diffusion et d'oxydation pour la production de matières semi-conductrices</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7020000700</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ampoules en verre pour bouteilles isolantes ou pour autres récipients isothermiques, dont l'isolation est assurée par le vide</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7020000700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>non finies</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7020000800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>finies</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7020001000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7020001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en quartz ou en autre silice fondus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7020001010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pieds de support pour téléviseur avec ou sans support permettant la fixation et la stabilisation de l'appareil</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7020001020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Matières premières pour les éléments optiques en dioxyde de silicium fondu, présentant les caractéristiques suivantes:-|une épaisseur d'au moins 10|cm mais pas plus de 40|cm et-|un poids de 100|kg ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7020001090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7020003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en verre d'un coefficient de dilatation linéaire n'excédant pas 5|!x!|10$-$6|par kelvin entre 0|°C et 300|°C</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7020008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

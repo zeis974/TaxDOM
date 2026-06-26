@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router"
 import Overview from "@/components/Dashboard/Overview"
+import { ErrorComponent } from "@/components/ErrorComponent"
 import { api, queryClient } from "@/lib/api"
 
 interface DashboardStats {
@@ -100,6 +101,7 @@ export const Route = createFileRoute("/_dashboard-layout/")({
       topTerritories,
     }
   },
+  errorComponent: ErrorComponent,
   component: OverviewPage,
 })
 

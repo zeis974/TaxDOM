@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 78 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:00</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>7800000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PLOMB ET OUVRAGES EN PLOMB</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7801000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Plomb sous forme brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7801100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Plomb affiné</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7801910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7801910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>contenant de l'antimoine comme autre élément prédominant en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7801910010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 0,02|% d'argent et destiné à être affiné (plomb d'oeuvre)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7801910090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7801990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7801991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant en poids 0,02|% ou plus d'argent et destiné à être affiné (plomb d'oeuvre)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7801999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7802000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets et débris de plomb</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7804000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tôles, feuilles et bandes, en plomb; poudres et paillettes de plomb</Description>
+</ligne><ligne><Type>2</Type>
+<Code>7804110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tôles, feuilles et bandes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7804110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Feuilles et bandes, d'une épaisseur n'excédant pas 0,2|mm (support non compris)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7804190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7804200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poudres et paillettes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>7806000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en plomb</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7806001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Emballages munis de blindage de protection en plomb contre les radiations pour le transport ou le stockage des matières radioactives</Description>
+</ligne><ligne><Type>1</Type>
+<Code>7806008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

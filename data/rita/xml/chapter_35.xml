@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 35 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:27</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3500000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>MATIÈRES ALBUMINOÏDES; PRODUITS À BASE D'AMIDONS OU DE FÉCULES MODIFIÉS; COLLES; ENZYMES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3501000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caséines, caséinates et autres dérivés des caséines; colles de caséine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3501100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caséines</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3501101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à la fabrication de fibres textiles artificielles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3501105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>destinées à des usages industriels autres que la fabrication de produits alimentaires ou fourragers</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3501105010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en eau supérieur à 50|% en poids</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3501105090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3501109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3501900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3501901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Colles de caséine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3501909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3502000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Albumines (y compris les concentrats de plusieurs protéines de lactosérum contenant, en poids calculé sur matière sèche, plus de 80|% de protéines de lactosérum), albuminates et autres dérivés des albumines</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3502110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Ovalbumine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3502110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>séchée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>impropre ou rendue impropre à l'alimentation humaine</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3502119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502119010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Cristaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502119090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3502190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>impropre ou rendue impropre à l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3502200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Lactalbumine, y compris les concentrés de deux ou plusieurs protéines de lactosérum</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>impropre ou rendue impropre à l'alimentation humaine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3502209100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502209100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>séchée (en feuilles, écailles, cristaux, poudres, etc.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502209900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3502900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3502902000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Albumines, autres que l'ovalbumine et la lactalbumine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502902000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>impropres ou rendues impropres à l'alimentation humaine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502907000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3502909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Albuminates et autres dérivés des albumines</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3503000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gélatines (y compris celles présentées en feuilles de forme carrée ou rectangulaire, même ouvrées en surface ou colorées) et leurs dérivés; ichtyocolle; autres colles d'origine animale, à l'exclusion des colles de caséine du n$o|3501</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3503001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gélatines et leurs dérivés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3503008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3504000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Peptones et leurs dérivés; autres matières protéiques et leurs dérivés, non dénommés ni compris ailleurs; poudre de peau, traitée ou non au chrome</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3504001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Concentrés de protéines du lait visés à la note complémentaire|1|du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3504009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3504009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Hydrolysat de protéines de caséine constitué: -en poids de 20 % ou plus mais pas plus de 70 % d'acides aminés libres, et -de peptones dont plus de 90 % en poids présentent une masse moléculaire n'excédant pas 2 000 Da</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3504009091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3504009091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Protéine de pois à forte teneur en protéines, contenant plus de 65 % de protéines sur la base du poids sec, englobant tous les types de protéine de pois dérivée de pois (y compris jaunes et verts), sous toute forme physique [y compris solide (par exemple, poudre) et liquide (en solution)], texturée ou non</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3504009099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3505000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Dextrine et autres amidons et fécules modifiés (les amidons et fécules pré-gélatinisés ou estérifiés, par exemple); colles à base d'amidons ou de fécules, de dextrine ou d'autres amidons ou fécules modifiés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3505100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dextrine et autres amidons et fécules modifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3505101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dextrine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3505105000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres amidons et fécules modifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3505105000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Amidons et fécules estérifiés ou éthérifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3505109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3505200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Colles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3505201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids d'amidons ou de fécules, de dextrine ou d'autres amidons ou fécules modifiés, inférieure à 25|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3505203000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids d'amidons ou de fécules, de dextrine ou d'autres amidons ou fécules modifiés, égale ou supérieure à 25|% et inférieure à 55|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3505205000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids d'amidons ou de fécules, de dextrine ou d'autres amidons ou fécules modifiés, égale ou supérieure à 55|% et inférieure à 80|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3505209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une teneur en poids d'amidons ou de fécules, de dextrine ou d'autres amidons ou fécules modifiés, égale ou supérieure à 80|%</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3506000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Colles et autres adhésifs préparés, non dénommés ni compris ailleurs; produits de toute espèce à usage de colles ou d'adhésifs, conditionnés pour la vente au détail comme colles ou adhésifs, d'un poids net n'excédant pas 1|kg</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3506100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits de toute espèce à usage de colles ou d'adhésifs, conditionnés pour la vente au détail comme colles ou adhésifs, d'un poids net n'excédant pas 1|kg</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3506910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3506910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Adhésifs à base de polymères des n$o$s|3901|à 3913|ou de caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3506911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Pellicules transparentes adhésives et adhésifs liquides transparents durcissables utilisés exclusivement ou principalement pour la fabrication d'écrans plats ou d'écrans tactiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3506919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3506919040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Adhésif acrylique sensible à la pression d'une épaisseur de 0,076 mm au minimum et de0,127 mm au maximum, conditionné en rouleaux d'une largeur minimale de 45,7 cm et maximale de 132 cm fourni avec une couche antiadhésive offrant une adhérence initiale d'au moins 15N/25 mm (mesurée suivant l'ASTM D3330)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3506919091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3506919091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Aérosols techniques contenant des HFC dont le PRP est supérieur ou égal à 150</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3506919099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3506990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3507000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Enzymes; enzymes préparées non dénommées ni comprises ailleurs</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3507100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Présure et ses concentrats</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3507900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3507903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Lipoprotéine lipase; aspergillus alkaline protéase</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3507909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3507909010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparation de protéase d'Achromobacter lyticus (CAS RN 123175-82-6) destinée à la fabrication d'insuline humaine et de produits analogues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3507909030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Salicylate 1-monooxygénase (CAS|RN|9059-28-3) en solution aqueuse présentant les caractéristiques suivantes:-|une concentration d'enzymes égale ou supérieure à 6,0|U/ml mais inférieure à 7,4|U/ml;-|une concentration en poids d'azoture de sodium (CAS|RN|26628-22-8) ne dépassant pas 0,09|% et-|une valeur de pH égale ou supérieure à 6,5|et ne dépassant pas 8,5</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3507909090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

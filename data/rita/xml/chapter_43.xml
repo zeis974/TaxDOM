@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 43 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:33</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>4300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>PELLETERIES ET FOURRURES; PELLETERIES FACTICES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pelleteries brutes (y compris les têtes, queues, pattes et autres morceaux utilisables en pelleteries), autres que les peaux brutes des n$o$s|4101, 4102|ou 4103</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4301100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de visons, entières, même sans les têtes, queues ou pattes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4301300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'agneaux dits "astrakan", "breitschwanz", "caracul", "persianer" ou similaires, d'agneaux des Indes, de Chine, de Mongolie ou du Tibet, entières, même sans les têtes, queues ou pattes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4301600000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de renards, entières, même sans les têtes, queues ou pattes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4301800000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres pelleteries, entières, même sans les têtes, queues ou pattes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4301900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Têtes, queues, pattes et autres morceaux utilisables en pelleterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pelleteries tannées ou apprêtées (y compris les têtes, queues, pattes et autres morceaux, déchets et chutes), non assemblées ou assemblées (sans adjonction d'autres matières), autres que celles du n$o|4303</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4302110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pelleteries entières, même sans les têtes, queues ou pattes, non assemblées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de visons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4302190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302191500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de castors, de rats musqués ou de renards</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302193500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lapins ou de lièvres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4302194100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de phoques ou d'otaries</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302194100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bébés phoques harpés ("à manteau blanc") ou de bébés phoques à capuchon ("à dos bleu")</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302194900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4302197500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'ovins</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302197500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'agneaux dits "astrakan", "breitschwanz", "caracul", "persianer" ou similaires, d'agneaux des Indes, de Chine, de Mongolie ou du Tibet</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302198000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302199900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Têtes, queues, pattes et autres morceaux, déchets et chutes, non assemblés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4302300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Pelleteries entières et leurs morceaux et chutes, assemblés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302301000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Peaux dites "allongées"</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4302302500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302302500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de lapins ou de lièvres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4302305100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de phoques ou d'otaries</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302305100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>de bébés phoques harpés ("à manteau blanc") ou de bébés phoques à capuchon ("à dos bleu")</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302305500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4302309900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4303000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Vêtements, accessoires du vêtement et autres articles en pelleteries</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4303100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Vêtements et accessoires du vêtement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4303101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en pelleteries de bébés phoques harpés ("à manteau blanc") ou de bébés phoques à capuchon ("à dos bleu")</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4303109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4303900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4304000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Pelleteries factices et articles en pelleteries factices</Description>
+</ligne></contenu></table>

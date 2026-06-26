@@ -17,6 +17,7 @@ import { Route as DashboardLayoutTransportersRouteImport } from './routes/_dashb
 import { Route as DashboardLayoutTerritoriesRouteImport } from './routes/_dashboard-layout/territories'
 import { Route as DashboardLayoutProductsRouteImport } from './routes/_dashboard-layout/products'
 import { Route as DashboardLayoutOriginsRouteImport } from './routes/_dashboard-layout/origins'
+import { Route as DashboardLayoutCustomsTreeRouteImport } from './routes/_dashboard-layout/customs-tree'
 import { Route as DashboardLayoutCategoriesRouteImport } from './routes/_dashboard-layout/categories'
 import { Route as DashboardLayoutTransportersEditorIdRouteImport } from './routes/_dashboard-layout/transporters/editor.$id'
 
@@ -60,6 +61,12 @@ const DashboardLayoutOriginsRoute = DashboardLayoutOriginsRouteImport.update({
   path: '/origins',
   getParentRoute: () => DashboardLayoutRoute,
 } as any)
+const DashboardLayoutCustomsTreeRoute =
+  DashboardLayoutCustomsTreeRouteImport.update({
+    id: '/customs-tree',
+    path: '/customs-tree',
+    getParentRoute: () => DashboardLayoutRoute,
+  } as any)
 const DashboardLayoutCategoriesRoute =
   DashboardLayoutCategoriesRouteImport.update({
     id: '/categories',
@@ -76,6 +83,7 @@ const DashboardLayoutTransportersEditorIdRoute =
 export interface FileRoutesByFullPath {
   '/': typeof DashboardLayoutIndexRoute
   '/categories': typeof DashboardLayoutCategoriesRoute
+  '/customs-tree': typeof DashboardLayoutCustomsTreeRoute
   '/origins': typeof DashboardLayoutOriginsRoute
   '/products': typeof DashboardLayoutProductsRoute
   '/territories': typeof DashboardLayoutTerritoriesRoute
@@ -86,6 +94,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof DashboardLayoutIndexRoute
   '/categories': typeof DashboardLayoutCategoriesRoute
+  '/customs-tree': typeof DashboardLayoutCustomsTreeRoute
   '/origins': typeof DashboardLayoutOriginsRoute
   '/products': typeof DashboardLayoutProductsRoute
   '/territories': typeof DashboardLayoutTerritoriesRoute
@@ -98,6 +107,7 @@ export interface FileRoutesById {
   '/_dashboard-layout': typeof DashboardLayoutRouteWithChildren
   '/_login-layout': typeof LoginLayoutRouteWithChildren
   '/_dashboard-layout/categories': typeof DashboardLayoutCategoriesRoute
+  '/_dashboard-layout/customs-tree': typeof DashboardLayoutCustomsTreeRoute
   '/_dashboard-layout/origins': typeof DashboardLayoutOriginsRoute
   '/_dashboard-layout/products': typeof DashboardLayoutProductsRoute
   '/_dashboard-layout/territories': typeof DashboardLayoutTerritoriesRoute
@@ -111,6 +121,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/categories'
+    | '/customs-tree'
     | '/origins'
     | '/products'
     | '/territories'
@@ -121,6 +132,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/categories'
+    | '/customs-tree'
     | '/origins'
     | '/products'
     | '/territories'
@@ -132,6 +144,7 @@ export interface FileRouteTypes {
     | '/_dashboard-layout'
     | '/_login-layout'
     | '/_dashboard-layout/categories'
+    | '/_dashboard-layout/customs-tree'
     | '/_dashboard-layout/origins'
     | '/_dashboard-layout/products'
     | '/_dashboard-layout/territories'
@@ -204,6 +217,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardLayoutOriginsRouteImport
       parentRoute: typeof DashboardLayoutRoute
     }
+    '/_dashboard-layout/customs-tree': {
+      id: '/_dashboard-layout/customs-tree'
+      path: '/customs-tree'
+      fullPath: '/customs-tree'
+      preLoaderRoute: typeof DashboardLayoutCustomsTreeRouteImport
+      parentRoute: typeof DashboardLayoutRoute
+    }
     '/_dashboard-layout/categories': {
       id: '/_dashboard-layout/categories'
       path: '/categories'
@@ -238,6 +258,7 @@ const DashboardLayoutTransportersRouteWithChildren =
 
 interface DashboardLayoutRouteChildren {
   DashboardLayoutCategoriesRoute: typeof DashboardLayoutCategoriesRoute
+  DashboardLayoutCustomsTreeRoute: typeof DashboardLayoutCustomsTreeRoute
   DashboardLayoutOriginsRoute: typeof DashboardLayoutOriginsRoute
   DashboardLayoutProductsRoute: typeof DashboardLayoutProductsRoute
   DashboardLayoutTerritoriesRoute: typeof DashboardLayoutTerritoriesRoute
@@ -247,6 +268,7 @@ interface DashboardLayoutRouteChildren {
 
 const DashboardLayoutRouteChildren: DashboardLayoutRouteChildren = {
   DashboardLayoutCategoriesRoute: DashboardLayoutCategoriesRoute,
+  DashboardLayoutCustomsTreeRoute: DashboardLayoutCustomsTreeRoute,
   DashboardLayoutOriginsRoute: DashboardLayoutOriginsRoute,
   DashboardLayoutProductsRoute: DashboardLayoutProductsRoute,
   DashboardLayoutTerritoriesRoute: DashboardLayoutTerritoriesRoute,

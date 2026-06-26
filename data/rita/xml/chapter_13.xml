@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 13 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:10</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>1300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>GOMMES, RÉSINES ET AUTRES SUCS ET EXTRAITS VÉGÉTAUX</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Gomme laque; gommes, résines, gommes-résines et oléorésines (baumes, par exemple), naturelles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1301200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gomme arabique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1301900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Sucs et extraits végétaux; matières pectiques, pectinates et pectates; agar-agar et autres mucilages et épaississants dérivés des végétaux, même modifiés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sucs et extraits végétaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Opium</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de réglisse</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1302130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de houblon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302130010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Sucs</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302130080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Extraits</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302130080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en paquets individuels dont le poids n'excède pas|300|g, destinés à la vente aux particuliers pour leur usage privé, à l'expérimentation scientifique et technique ou aux foires bénéficiant du régime douanier prévu à cet effet avec la désignation, le poids et l'utilisation finale sur l'emballage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302130090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'éphédra</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1302190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302190500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Oléorésine de vanille</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302197000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1302200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Matières pectiques, pectinates et pectates</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1302201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>à l'état sec</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302201013</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de sucres d'addition inférieure à 5%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302201013</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pectates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302201015</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302201061</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de sucres d'addition égale ou supérieure à 5%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302201061</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302201061</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pectates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302201069</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302201071</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302201071</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pectates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302201079</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1302209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302209011</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de sucres d'addition inférieure à 5%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302209011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Pectates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302209020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302209061</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'une teneur en poids de sucres d'addition égale ou supérieure à 5%</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302209061</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une teneur en poids net de sucre de canne ou de betterave ajouté égale ou supérieure à 65|%, des sous-positions 1701 91 à 1701 99</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302209061</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pectates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302209069</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302209091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302209091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Pectates</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302209099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>1302310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Mucilages et épaississants dérivés des végétaux, même modifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Agar-agar</Description>
+</ligne><ligne><Type>0</Type>
+<Code>1302320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mucilages et épaississants de caroubes, de graines de caroubes ou de graines de guarée, même modifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302321000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de caroubes ou de graines de caroubes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de graines de guarée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>1302390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

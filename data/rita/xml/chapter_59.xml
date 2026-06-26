@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 59 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:45</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>5900000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>TISSUS IMPRÉGNÉS, ENDUITS, RECOUVERTS OU STRATIFIÉS; ARTICLES TECHNIQUES EN MATIÈRES TEXTILES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5901000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus enduits de colle ou de matières amylacées, des types utilisés pour la reliure, le cartonnage, la gainerie ou usages similaires; toiles à calquer ou transparentes pour le dessin; toiles préparées pour la peinture; bougran et tissus similaires raidis des types utilisés pour la chapellerie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5901100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus enduits de colle ou de matières amylacées, des types utilisés pour la reliure, le cartonnage, la gainerie ou usages similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5901900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5902000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Nappes tramées pour pneumatiques obtenues à partir de fils à haute ténacité de nylon ou d'autres polyamides, de polyesters ou de rayonne viscose</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5902100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de nylon ou d'autres polyamides</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5902101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprégnées de caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5902109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5902200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de polyesters</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5902201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprégnées de caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5902209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5902900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5902901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprégnées de caoutchouc</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5902909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5903000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus imprégnés, enduits ou recouverts de matière plastique ou stratifiés avec de la matière plastique, autres que ceux du n$o|5902</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5903100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>avec du poly(chlorure de vinyle)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5903101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprégnés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5903109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>enduits, recouverts ou stratifiés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5903200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>avec du polyuréthanne</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5903201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprégnés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5903209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>enduits, recouverts ou stratifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5903209020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissu stratifié avec de la matière plastique constitué de deux couches présentant les caractéristiques suivantes:- une couche d'étoffe de bonneterie en polyester,- une autre couche composée de mousse de polyuréthane,- un poids de 150 g/m² ou plus mais n'excédant pas 500 g/m²,- une épaisseur de 1 mm ou plus mais n'excédant pas 5 mmutilisé pour la fabrication du toit ouvrant de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5903209090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5903900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5903901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>imprégnés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5903909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>enduits, recouverts ou stratifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5903909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>avec des dérivés de la cellulose ou d'autre matière plastique, la matière textile constituant l'endroit</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5903909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5904000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Linoléums, même découpés; revêtements de sol consistant en un enduit ou un recouvrement appliqué sur un support textile, même découpés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5904100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Linoléums</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5904900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5905000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Revêtements muraux en matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>consistant en fils disposés parallèlement sur un support</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5905003000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905003000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de lin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905005000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de jute</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5905007000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905007010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de fibres textiles synthétiques discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905007020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de fibres artificielles continues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905007030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tissus de fibres artificielles discontinues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905007040</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en nontissés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905007050</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Feutre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905007090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5905009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905009010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en autres fibres textiles libériennes du n!o! 5303</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905009020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de soie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5905009090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5906000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tissus caoutchoutés, autres que ceux du n$o|5902</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5906100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Rubans adhésifs d'une largeur n'excédant pas 20|cm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5906910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5906910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de bonneterie</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5906990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5906991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Nappes visées à la note|5, point|c), du présent chapitre</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5906999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5906999020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissu caoutchouté tissé et stratifié, présentant les caractéristiques suivantes:- constitué de trois couches,- la couche extérieure étant constituées de tissu acrylique ,- la autre couche extérieure étant constituées de tissu de polyester;- la couche intermédiaire étant constituée de caoutchouc de choloro butyl,- la couche intermédiaire étant une poids de 452 g/m² - 569 g/m²- d'un poids de 952 g/m² - 1 159 g/m²; et- d'une épaisseur 0,8 mm - 4 mmutilisé pour la fabrication du toit ouvrant de véhicules automobiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5906999030</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Textile caoutchouté tissé et enduit, présentant les caractéristiques suivantes :-constitué de trois couches,-couches externes constituées d'un composé à base de caoutchouc naturel, d'EPDM et de chloropène,-couche intermédiaire constituée de polyesterdestiné à la fabrication de radeaux de sauvetage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5906999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5907000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres tissus imprégnés, enduits ou recouverts; toiles peintes pour décors de théâtres, fonds d'atelier ou usages analogues</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5907000010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissu enduit d'une matière adhésive dans laquelle sont incorporées des sphères d'un diamètre n'excédant pas 150|µm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5907000090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5908000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mèches tissées, tressées ou tricotées, en matières textiles, pour lampes, réchauds, briquets, bougies ou similaires; manchons à incandescence et étoffes tubulaires tricotées servant à leur fabrication, même imprégnés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5909000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Tuyaux pour pompes et tuyaux similaires, en matières textiles, même avec armatures ou accessoires en autres matières</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5909001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de fibres synthétiques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5909009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5910000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Courroies transporteuses ou de transmission en matières textiles, même imprégnées, enduites, recouvertes de matière plastique ou stratifiées avec de la matière plastique ou renforcées de métal ou d'autres matières</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5911000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits et articles textiles pour usages techniques, visés à la note|8|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus, feutres et tissus doublés de feutre, combinés avec une ou plusieurs couches de caoutchouc, de cuir ou d'autres matières, des types utilisés pour la fabrication de garnitures de cardes, et produits analogues pour d'autres usages techniques, y compris les rubans de velours, imprégnés de caoutchouc, pour le recouvrement des ensouples</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5911200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Gazes et toiles à bluter, même confectionnées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911200020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de soie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5911310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tissus et feutres sans fin ou munis de moyens de jonction, des types utilisés sur les machines à papier ou sur des machines similaires (à pâte, à amiante-ciment, par exemple)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5911310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au m$2|inférieur à 650|g</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5911311100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de soie, de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911311100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus des types utilisés sur les machines à papier (toile de formation, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911311900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911319000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5911320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'un poids au m$2|égal ou supérieur à 650|g</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5911321100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de soie, de fibres synthétiques ou artificielles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911321100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tissus ayant une couche de natte fixée par aiguilletage, des types utilisés sur les machines à papier (feutres de presse, par exemple)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911321900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911329000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'autres matières textiles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>toiles filtrantes, tissus épais et étreindelles des types utilisés sur des presses d'huilerie ou pour des usages techniques analogues, y compris ceux en cheveux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5911900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en feutre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>5911909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Tampons circulaires à polir autoadhésifs du type utilisé pour la fabrication de disques (wafers) à semi-conducteur</Description>
+</ligne><ligne><Type>0</Type>
+<Code>5911909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911909930</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Parties d'appareils pour la filtration ou la purification de l'eau par osmose inverse, constituées essentiellement de membranes en matière plastique renforcées intérieurement par du tissu, tissé ou non tissé, enroulées autour d'un tube perforé contenu dans un cylindre en matière plastique dont la paroi a une épaisseur qui n'excède pas 4|mm, l'ensemble pouvant être contenu dans un cylindre dont l'épaisseur de la paroi est de 5|mm ou plus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911909940</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Tampons de polissage en polyester non tissé multicouche, imprégné de polyuréthane</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911909950</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Amortisseur de vibrations de haut-parleur, constitué d'un tissu rond, ondulé, souple et découpé à dimension, composé de fibres textiles de polyester, coton ou aramide, ou d'une combinaison de ceux-ci, du type utilisé dans les haut-parleurs de voiture</Description>
+</ligne><ligne><Type>1</Type>
+<Code>5911909990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

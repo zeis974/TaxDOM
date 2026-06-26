@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 80 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:38:01</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>8000000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>ÉTAIN ET OUVRAGES EN ÉTAIN</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8001000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Étain sous forme brute</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8001100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Étain non allié</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8001200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Alliages d'étain</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8002000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Déchets et débris d'étain</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8003000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Barres, profilés et fils, en étain</Description>
+</ligne><ligne><Type>0</Type>
+<Code>8007000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en étain</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8007001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Tôles, feuilles et bandes, d'une épaisseur excédant 0,2|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>8007008000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

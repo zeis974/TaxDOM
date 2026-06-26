@@ -2,6 +2,7 @@ import { Link, useLocation, useNavigate } from "@tanstack/react-router"
 import { useState } from "react"
 import {
   CategoriesIcon,
+  CustomsTreeIcon,
   HomeIcon,
   LogoutIcon,
   OriginsIcon,
@@ -38,6 +39,7 @@ const navItems = [
   { to: "/origins", icon: <OriginsIcon />, label: "Origines" },
   { to: "/territories", icon: <TerritoriesIcon />, label: "Territoires" },
   { to: "/transporters", icon: <TransporterIcon />, label: "Transporteurs" },
+  { to: "/customs-tree", icon: <CustomsTreeIcon />, label: "Nomenclatures SH" },
 ]
 
 export default function Sidebar({ user }: SidebarProps) {

@@ -6,14 +6,24 @@ import { useFormStatus } from "react-dom"
 
 import { LoadingIcon } from "@/components/Icons"
 
-export default function SubscribeButton({ label }: { label: string }) {
+export default function SubscribeButton({
+  label,
+  disabled = false,
+}: {
+  label: string
+  disabled?: boolean
+}) {
   const form = useFormContext()
   const { pending } = useFormStatus()
 
   return (
     <form.Subscribe selector={(state) => [state.canSubmit]}>
       {([canSubmit]) => (
-        <StyledButton type="submit" disabled={!canSubmit} aria-disabled={!canSubmit}>
+        <StyledButton
+          type="submit"
+          disabled={!canSubmit || disabled || pending}
+          aria-disabled={!canSubmit || disabled || pending}
+        >
           {pending ? <LoadingIcon /> : label}
         </StyledButton>
       )}
@@ -31,18 +41,18 @@ const StyledButton = styled.button`
   cursor: pointer;
   font-weight: bold;
   transition: 150ms;
-  background: token(colors.darkGray);
+  background: token(colors.surface);
   border-radius: 5px;
   border: 2px solid transparent;
 
   & > svg {
-    color: token(colors.primary);
+    color: token(colors.foreground);
     animation: rotate 2s linear infinite;
   }
 
   &:hover:not([disabled]),
-  &:hover:not([aria-disabled])  {
-    border: 2px solid token(colors.darkGray);
+  &:hover:not([aria-disabled]) {
+    border: 2px solid token(colors.surface);
     background: none;
   }
 

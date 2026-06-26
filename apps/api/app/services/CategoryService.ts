@@ -6,6 +6,7 @@ import { v7 as uuidv7 } from "uuid"
 import type * as schema from "#database/schema"
 import { categories, products, taxes } from "#database/schema"
 import { BadRequestError, ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
+import { normalizeName } from "#lib/normalize_name"
 
 type DB = NodePgDatabase<typeof schema>
 
@@ -30,6 +31,7 @@ export type CreateCategoryInput = {
 export type UpdateCategoryInput = {
   categoryName: string
   taxID?: string
+  nomenclatureCode?: string | null
 }
 
 function mapCategory(
@@ -42,6 +44,7 @@ function mapCategory(
     categoryID: row.categoryID,
     categoryName: row.categoryName,
     taxID: row.taxID ?? "",
+    nomenclatureCode: row.nomenclatureCode ?? null,
     tax: row.tax
       ? {
           tva: Number(row.tax.tva),
@@ -146,11 +149,11 @@ export class CategoryService {
    * @throws ConflictError if a category with the same name already exists.
    */
   async create(input: CreateCategoryInput): Promise<Category> {
-    const trimmedName = input.categoryName.trim()
+    const normalizedName = normalizeName(input.categoryName)
 
     return await this.db.transaction(async (tx) => {
       const existingCategory = await tx.query.categories.findFirst({
-        where: eq(categories.categoryName, trimmedName),
+        where: eq(categories.categoryName, normalizedName),
       })
 
       if (existingCategory) {
@@ -191,7 +194,7 @@ export class CategoryService {
         .insert(categories)
         .values({
           categoryID,
-          categoryName: trimmedName,
+          categoryName: normalizedName,
           taxID,
         })
         .returning()
@@ -234,9 +237,11 @@ export class CategoryService {
         throw new NotFoundError("Category not found")
       }
 
+      const normalizedName = normalizeName(input.categoryName)
+
       const duplicateCategory = await tx.query.categories.findFirst({
         where: and(
-          eq(categories.categoryName, input.categoryName),
+          eq(categories.categoryName, normalizedName),
           ne(categories.categoryID, categoryId),
         ),
       })
@@ -246,7 +251,11 @@ export class CategoryService {
       }
 
       const updateData: Partial<typeof categories.$inferInsert> = {
-        categoryName: input.categoryName.trim(),
+        categoryName: normalizedName,
+      }
+
+      if (input.nomenclatureCode !== undefined) {
+        updateData.nomenclatureCode = input.nomenclatureCode ?? null
       }
 
       if (input.taxID !== undefined) {

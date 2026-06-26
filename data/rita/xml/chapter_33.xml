@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 33 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:25</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>3300000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>HUILES ESSENTIELLES ET RÉSINOÏDES; PRODUITS DE PARFUMERIE OU DE TOILETTE PRÉPARÉS ET PRÉPARATIONS COSMÉTIQUES</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Huiles essentielles (déterpénées ou non), y compris celles dites "concrètes" ou "absolues"; résinoïdes; oléorésines d'extraction; solutions concentrées d'huiles essentielles dans les graisses, les huiles fixes, les cires ou matières analogues, obtenues par enfleurage ou macération; sous-produits terpéniques résiduaires de la déterpénation des huiles essentielles; eaux distillées aromatiques et solutions aqueuses d'huiles essentielles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3301120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles essentielles d'agrumes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'orange</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non déterpénées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301121010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Huile essentielle d'orange douce (CAS RN 8028-48-6) ou huile essentielle d'orange amère (CAS RN 72968-50-4), non déterpénée</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301121090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>déterpénées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de citron</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non déterpénées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301139000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>déterpénées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non déterpénées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301198000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>déterpénées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3301240000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Huiles essentielles autres que d'agrumes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de menthe poivrée (Mentha piperita)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301241000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non déterpénées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301249000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>déterpénées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'autres menthes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301251000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non déterpénées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301259000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>déterpénées</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3301291100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de girofle, de niaouli, d'ylang-ylang</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301291100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non déterpénées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301293100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>déterpénées</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3301294200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3301294200</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>non déterpénées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301294200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de rose</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301294900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3301297100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>déterpénées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301297100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de géranium, de jasmin, de vétiver</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301297900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>de lavande ou de lavandin</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301299100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Résinoïdes</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3301900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sous-produits terpéniques résiduaires de la déterpénation des huiles essentielles</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3301902100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Oléorésines d'extraction</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301902100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de réglisse et de houblon</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301903000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3301909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3302000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Mélanges de substances odoriférantes et mélanges (y compris les solutions alcooliques) à base d'une ou de plusieurs de ces substances, des types utilisés comme matières de base pour l'industrie; autres préparations à base de substances odoriférantes, des types utilisés pour la fabrication de boissons</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3302100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>des types utilisés pour les industries alimentaires ou des boissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3302101000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés pour les industries des boissons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3302101000</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Préparations contenant tous les agents aromatisants qui caractérisent une boisson</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3302101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ayant un titre alcoométrique acquis excédant 0,5|% vol</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3302102100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3302102100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>ne contenant pas de matières grasses provenant du lait, de saccharose, d'isoglucose, de glucose, d'amidon ou de fécule ou contenant en poids moins de 1,5|% de matières grasses provenant du lait, moins de 5|% de saccharose ou d'isoglucose, moins de 5|% de glucose ou d'amidon ou de fécule</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3302102900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3302102910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une teneur en poids de saccharose (y compris le sucre interverti calculé en saccharose) ou d'isoglucose calculé également en saccharose, égale ou supérieure à 70|%</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3302102990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3302104000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3302109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>des types utilisés pour les industries alimentaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3302900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3302901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Solutions alcooliques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3302909000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3303000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Parfums et eaux de toilette</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3303001000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Parfums</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3303009000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Eaux de toilette</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3304000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Produits de beauté ou de maquillage préparés et préparations pour l'entretien ou les soins de la peau, autres que les médicaments, y compris les préparations antisolaires et les préparations pour bronzer; préparations pour manucures ou pédicures</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3304100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits de maquillage pour les lèvres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3304200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Produits de maquillage pour les yeux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3304300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations pour manucures ou pédicures</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3304910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3304910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poudres, y compris les poudres compactes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3304990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3305000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations capillaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3305100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Shampooings</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3305200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations pour l'ondulation ou le défrisage permanents</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3305300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Laques pour cheveux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3305900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3306000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations pour l'hygiène buccale ou dentaire, y compris les poudres et crèmes pour faciliter l'adhérence des dentiers; fils utilisés pour nettoyer les espaces interdentaires (fils dentaires), en emballages individuels de détail</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3306100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Dentifrices</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3306200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fils utilisés pour nettoyer les espaces interdentaires (fils dentaires)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3306900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3307000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Préparations pour le prérasage, le rasage ou l'après-rasage, désodorisants corporels, préparations pour bains, dépilatoires, autres produits de parfumerie ou de toilette préparés et autres préparations cosmétiques, non dénommés ni compris ailleurs; désodorisants de locaux, préparés, même non parfumés, ayant ou non des propriétés désinfectantes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3307100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations pour le prérasage, le rasage ou l'après-rasage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3307200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Désodorisants corporels et antisudoraux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3307300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sels parfumés et autres préparations pour bains</Description>
+</ligne><ligne><Type>2</Type>
+<Code>3307410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Préparations pour parfumer ou pour désodoriser les locaux, y compris les préparations odoriférantes pour cérémonies religieuses</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3307410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>"Agarbatti" et autres préparations odoriférantes agissant par combustion</Description>
+</ligne><ligne><Type>0</Type>
+<Code>3307490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3307490010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Aérosols techniques contenant des HFC dont le PRP est supérieur ou égal à 150</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3307490090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>3307900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

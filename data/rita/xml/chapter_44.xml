@@ -1,0 +1,2413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table><caracteristiques><nom_table>Codes Nomenclatures du chapitre 44 valides au 29/05/2026.</nom_table><date_table>20260529</date_table><horodatage>29/05/2026 01:37:34</horodatage><legende>Type : 1 = Declarable, 0 ou 2 = Non Declarable.</legende><structure><COLONNE nom_colonne="Type">Type (1 = Declarable, 0 ou 2 = Non Declarable)</COLONNE><COLONNE nom_colonne="Code">Code</COLONNE><COLONNE nom_colonne="Lig_Prod">LigProd</COLONNE><COLONNE nom_colonne="Alinea">Alinea</COLONNE><COLONNE nom_colonne="Description">Description</COLONNE></structure></caracteristiques><contenu><ligne><Type>0</Type>
+<Code>4400000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>BOIS, CHARBON DE BOIS ET OUVRAGES EN BOIS</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4401000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bois de chauffage en rondins, bûches, ramilles, fagots ou sous formes similaires; bois en plaquettes ou en particules; sciures, déchets et débris de bois, même agglomérés sous forme de bûches, briquettes, granulés ou sous formes similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4401110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bois de chauffage en rondins, bûches, ramilles, fagots ou sous formes similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4401210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bois en plaquettes ou en particules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4401220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>d'eucalyptus (Eucalyptus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401229000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4401310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sciures, déchets et débris de bois, agglomérés sous forme de bûches, briquettes, granulés ou sous formes similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>granulés de bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401320000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>briquettes de bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4401410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Sciures, déchets et débris de bois, non agglomérés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>sciures</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4401490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Écorces et déchets de production, débris, chutes et résidus</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4401499000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4402000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Charbon de bois (y compris le charbon de coques ou de noix), même aggloméré</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4402100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4402100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>exporté de Somalie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4402100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4402200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de coques ou de noix</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4402200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>exporté de Somalie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4402200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4402900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4402900010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>exporté de Somalie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4402900090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bois bruts, même écorcés, désaubiérés ou équarris</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4403110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>traités avec une peinture, de la créosote ou d'autres agents de conservation</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4403210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, de conifères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de pin (Pinus spp.), dont la plus petite dimension de la coupe transversale est égale ou supérieure à 15|cm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Grumes de sciage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403211010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>exportées de la Fédération de Russie en accord avec le Règlement de la Commission N° 498/2012</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403211090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403219010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Exportées de la Fédération de Russie en accord avec le Règlement de la Commission N° 498/2012</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403219090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de pin (Pinus spp.), autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403220010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Exportées de la Fédération de Russie en accord avec le Règlement de la Commission N° 498/2012</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403220090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de sapin (Abies spp.) et d'épicéa (Picea spp.), dont la plus petite dimension de la coupe transversale est égale ou supérieure à 15|cm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Grumes de sciage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403231010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Exportées de la Fédération de Russie en accord avec le Règlement de la Commission N° 498/2012</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403231090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403239010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Exportées de la Fédération de Russie en accord avec le Règlement de la Commission N° 498/2012</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403239090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403240000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de sapin (Abies spp.) et d'épicéa (Picea spp.), autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403240010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Exportées de la Fédération de Russie en accord avec le Règlement de la Commission N° 498/2012</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403240090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, dont la plus petite dimension de la coupe transversale est égale ou supérieure à 15|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403251000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Grumes de sciage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403259000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403260000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4403410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres, de bois tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dark red meranti, light red meranti et meranti bakau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Teak</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403491000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Acajou d'Afrique, iroko et sapelli</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403493500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Okoumé et sipo</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403498500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4403910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de chêne (Quercus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de hêtre (Fagus spp.), dont la plus petite dimension de la coupe transversale est égale ou supérieure à 15|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de hêtre (Fagus spp.), autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4403950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de bouleau (Betula spp.), dont la plus petite dimension de la coupe transversale est égale ou supérieure à 15|cm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403951000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Grumes de sciage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403959000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403960000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de bouleau (Betula spp.), autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403970000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de peuplier (Populus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403980000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'eucalyptus (Eucalyptus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4403990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4404000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bois feuillards; échalas fendus; pieux et piquets en bois, appointés, non sciés longitudinalement; bois simplement dégrossis ou arrondis, mais non tournés ni courbés ni autrement travaillés, pour cannes, parapluies, manches d'outils ou similaires; bois en éclisses, lames, rubans et similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4404100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4404100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bois en éclisses, lames, rubans et similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4404100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4404200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4404200010</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bois en éclisses, lames, rubans et similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4404200010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bois en éclisses, lames, rubans</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4404200011</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4404200090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4405000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Laine (paille) de bois; farine de bois</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4406000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Traverses en bois pour voies ferrées ou similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4406110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>non imprégnées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4406110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4406120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4406910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4406910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4406920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bois sciés ou dédossés longitudinalement, tranchés ou déroulés, même rabotés, poncés ou collés par assemblage en bout, d'une épaisseur excédant 6|mm</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de pin (Pinus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407112000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407119010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407119090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de sapin (Abies spp.) et d'épicéa (Picea spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407122000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407129010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407129090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de E-P-S (épicéa (Picea spp.), pin (Pinus spp.) et sapin (Abies spp.))</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407130010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407130020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407130091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407130091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407130099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de Hem-fir (hemlock de l'Ouest (Tsuga heterophylla) et sapin (Abies spp.))</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407140010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407140020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407140091</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407140091</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407140099</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407191000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407192000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407199010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407199090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de bois tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Mahogany (Swietenia spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407219100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407219100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407219900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Virola, imbuia et balsa</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407221000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407229100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407229100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407229900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407230000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Teak</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407231000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407232000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407239000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407250000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dark red meranti, light red meranti et meranti bakau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407251000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407253000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407253000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407255000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407259000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407260000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>White lauan, white meranti, white seraya, yellow meranti et alan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407261000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407263000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407263000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407265000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407269000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407270000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Sapelli</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407271000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407279100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407279100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407279900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407280000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Iroko</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407281000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407289100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407289100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407289900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407291500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Abura, acajou d'Afrique, afrormosia, ako, andiroba, aningré, avodiré, azobé, balau, bossé clair, bossé foncé, cativo, cedro, dabema, dibétou, doussié, framiré, freijo, fromager, fuma, geronggang, ilomba, ipé, jaboty, jelutong, jequitiba, jongkong, kapur, kempas, keruing, kosipo, kotibé, koto, limba, louro, maçaranduba, makoré, mandioqueira, mansonia, mengkulang, merawan, merbau, merpauh, mersawa, moabi, niangon, nyatoh, obeche, okoumé, onzabili, orey, ovengkol, ozigo, padauk, paldao, palissandre de Guatemala, palissandre de Para, palissandre de Rio, palissandre de Rose, pau Amarelo, pau marfim, pulai, punah, quaruba, ramin, saqui-saqui, sepetir, sipo, sucupira, suren, tauari, tiama, tola</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407291500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407292000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407292000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Palissandre de Para, palissandre de Rio et palissandre de Rose, rabotés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407298300</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407298300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407298500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407299500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407299600</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres bois tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407299600</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407299700</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407299700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407299800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de chêne (Quercus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407911500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407913100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407913100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407913100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Lames et frises pour parquets, non assemblées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407913900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407919000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de hêtre (Fagus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407920010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés, poncés ou collés par assemblage en bout</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407920090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'érable (Acer spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407931000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407939100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407939100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407939900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de cerisier (Prunus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407941000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407949100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407949100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407949900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407950000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de frêne (Fraxinus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407951000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407959100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407959100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407959900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407960000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de bouleau (Betula spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407961000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407969100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407969100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407969900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407970000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de peuplier (Populus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407971000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407979100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407979100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407979900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4407990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407992700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>rabotés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4407994000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407994000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4407999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4408000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Feuilles pour placage (y compris celles obtenues par tranchage de bois stratifié), feuilles pour contre-plaqués ou pour bois stratifiés similaires et autres bois, sciés longitudinalement, tranchés ou déroulés, même rabotés, poncés, assemblés bord à bord ou en bout, d'une épaisseur n'excédant pas 6|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4408100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408101500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>rabotés; poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408109100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408109100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Planchettes destinées à la fabrication de crayons</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408109800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de bois tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4408310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Dark red meranti, light red meranti et meranti bakau</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408311100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408312100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408312100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408312500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408313000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4408390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408391500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Acajou d'Afrique, limba, mahogany (Swietenia spp.), obéché, okoumé, palissandre de Para, palissandre de Rio, palissandre de Rose, sapelli, sipo, virola et white lauan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408391500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408392100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408392100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>rabotés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4408393000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408393010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>Feuilles de placage en okoumé pour panneaux contreplaqués-dont la plus grande dimension est de 900mm ou plus mais n'excédant pas 3 250mm,-dont la plus petite dimension est de 95mm ou plus mais n'excédant pas 2 000mm,-d'une épaisseur de 0,5mm ou plus mais n'excédant pas 4mm,-non poncées,-non rabotées, et-sciées, tranchées ou déroulées longitudinalement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408393090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>autre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408395500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408395500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>rabotés; poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408397000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408397000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Planchettes destinées à la fabrication de crayons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408398500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408398500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur n'excédant pas 1|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4408399500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>6</Alinea>
+<Description>d'une épaisseur excédant 1|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408399510</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Feuilles de placage en iroko pour panneaux contreplaqués-dont la plus grande dimension est de 900 mm ou plus mais n'excédant pas 3 250 mm,-dont la plus petite dimension est de 95 mm ou plus mais n'excédant pas 2 000 mm,-d'une épaisseur de plus de 1 mm mais n'excédant pas 4 mm,-non poncées,-non rabotées, et -sciées, tranchées ou déroulées longitudinalement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408399520</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Feuilles de placage en igaganga pour panneaux contreplaqués-dont la plus grande dimension est de 900 mm ou plus mais n'excédant pas 3 250 mm,-dont la plus petite dimension est de 95 mm ou plus mais n'excédant pas 2 000 mm,-d'une épaisseur de plus de 1 mm mais n'excédant pas 4 mm,-non poncées,-non rabotées, et-sciées, tranchées ou déroulées longitudinalement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408399530</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>Feuilles de placage en ozigo pour panneaux contreplaqués-dont la plus grande dimension est de 900 mm ou plus mais n'excédant pas 3 250 mm,-dont la plus petite dimension est de 95 mm ou plus mais n'excédant pas 2 000 mm,-d'une épaisseur de plus de 1 mm mais n'excédant pas 4 mm,-non poncées,-non rabotées, et -sciées, tranchées ou déroulées longitudinalement</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408399590</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>7</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4408900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408901500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>rabotés; poncés; collés par assemblage en bout, même rabotés ou poncés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408903500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408903500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Planchettes destinées à la fabrication de crayons</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4408908500</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408908500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une épaisseur n'excédant pas 1|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4408909500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une épaisseur excédant 1|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4409000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bois (y compris les lames et frises à parquet, non assemblées) profilés (languetés, rainés, bouvetés, feuillurés, chanfreinés, joints en V, moulurés, arrondis ou similaires) tout au long d'une ou de plusieurs rives, faces ou bouts, même rabotés, poncés ou collés par assemblage en bout</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4409100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4409101100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Baguettes et moulures en bois, pour cadres pour tableaux, photographies, miroirs ou objets similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4409101800</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4409210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres que de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4409210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4409220000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>de bois tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4409290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4409291000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Baguettes et moulures en bois, pour cadres pour tableaux, photographies, miroirs ou objets similaires</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4409299100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4409299100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Lames et frises pour parquets, non assemblées</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4409299900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4410000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Panneaux de particules, panneaux dits "oriented strand board" (OSB) et panneaux similaires (par exemple "waferboards"), en bois ou en autres matières ligneuses, même agglomérés avec des résines ou d'autres liants organiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4410110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en bois</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4410110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Panneaux de particules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4410111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>bruts ou simplement poncés (panneaux bruts)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4410113000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>recouverts en surface de papier imprégné de mélamine</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4410115000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>recouverts en surface de plaques ou de feuilles décoratives stratifiées en matière plastique</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4410119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4410120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Panneaux dits "oriented strand board" (OSB)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4410121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>bruts ou simplement poncés (panneaux bruts)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4410129000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4410190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4410900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4411000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Panneaux de fibres de bois ou d'autres matières ligneuses, même agglomérées avec des résines ou d'autres liants organiques</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4411120000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Panneaux de fibres à densité moyenne dits "MDF"</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4411120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur n'excédant pas 5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411121000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non ouvrés mécaniquement ni recouverts en surface (panneaux bruts)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4411129200</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4411129200</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une masse volumique excédant 0,8|g/cm$3|(HDF)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411129210</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Panneau de fibres :-d'une épaisseur de 2,20 mm ou plus mais n'excédant pas 2,80 mm,-d'une masse volumique de 0,95 g/cm3 ou plus,-laqué ou enduit de feuilles de mélamine sur les deux faces, et-avec des dimensions inférieures ou égales à 1 300 x 1 100 mm,</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411129290</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411129400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une masse volumique n'excédant pas 0,8|g/cm$3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4411130000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur excédant 5|mm mais n'excédant pas 9|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411131000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non ouvrés mécaniquement ni recouverts en surface (panneaux bruts)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4411139100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4411139100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une masse volumique excédant 0,8|g/cm$3|(HDF)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411139100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Revêtements de sol stratifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411139300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411139400</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une masse volumique n'excédant pas 0,8|g/cm$3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4411140000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une épaisseur excédant 9|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411141000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non ouvrés mécaniquement ni recouverts en surface (panneaux bruts)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4411149100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4411149100</Code>
+<Lig_Prod>20</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une masse volumique excédant 0,8|g/cm$3|(HDF)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411149100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Revêtements de sol stratifiés</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411149300</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411149500</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une masse volumique excédant 0,5|g/cm$3|mais n'excédant pas 0,8|g/cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411149700</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>d'une masse volumique n'excédant pas 0,5|g/cm$3</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4411920000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4411920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une masse volumique excédant 0,8|g/cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non ouvrés mécaniquement ni recouverts en surface (panneaux bruts)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411930000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une masse volumique excédant 0,5|g/cm$3|mais n'excédant pas 0,8|g/cm$3</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4411940000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>d'une masse volumique n'excédant pas 0,5|g/cm$3</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411941000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>non ouvrés mécaniquement ni recouverts en surface (panneaux bruts)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4411949000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bois contre-plaqués, bois plaqués et bois stratifiés similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412100010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bois contre-plaqués avec plis extérieurs en bambou et ayant une âme contenant des plies des espèces visées aux sous-positions 4412 31, 4412 33 et 4412 34, revêtus ou recouverts ou recouverts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412100090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412310000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres bois contre-plaqués, constitués exclusivement de feuilles de bois (autres que bambou) dont chacune a une épaisseur n'excédant pas 6|mm</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412310000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant au moins un pli extérieur en bois tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412311000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en acajou d'Afrique, dark red meranti, light red meranti, limba, mahogany (Swietenia spp.), obeche, okoumé, palissandre de Para, palissandre de Rio, palissandre de Rose, sapelli, sipo, virola ou white lauan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412311010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ayant au moins un pli extérieur en okoumé non recouvert d'un film permanent en matériau autre que du bois</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412311080</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412311080</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en bois autre que l'okoumé, même revêtu ou recouvert en surface</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412311085</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412319000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412330000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant au moins un pli extérieur en bois autre que de conifères, des espèces aulne (Alnus spp.), frêne (Fraxinus spp.), hêtre (Fagus spp.), bouleau (Betulaspp.), cerisier (Prunus spp.), châtaignier (Castanea spp.), orme (Ulmus spp.), eucalyptus (Eucalyptus spp.), caryer (Carya spp.), marronnier (Aesculus spp.), tilleul (Tilia spp.), érable (Acer spp.), chêne (Quercus spp.), platane (Platanus spp.), peuplier (Populus spp.), robinier (Robinia spp.), tulipier (Liriodendron spp.) ou noyer (Juglans spp.)</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412331000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant au moins un pli extérieur en bouleau (Betula spp.)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412331012</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance de Turquie</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412331012</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en bois autre que l'okoumé, même revêtu ou recouvert en surface</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412331014</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412331022</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en provenance du Kazakhstan</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412331022</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en bois autre que l'okoumé, même revêtu ou recouvert en surface</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412331024</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412331082</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412331082</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>en bois autre que l'okoumé, même revêtu ou recouvert en surface</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412331084</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412332000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sans pli extérieur en bouleau, mais ayant au moins un pli extérieur en peuplier (Populus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412332010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en bois autre que l'okoumé, même revêtu ou recouvert en surface</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412332090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412333000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>sans pli extérieur en peuplier (Populus spp.), mais ayant au moins un pli extérieur en eucalyptus (Eucalyptus spp.)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412333010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en bois autre que l'okoumé, même revêtu ou recouvert en surface</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412333090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412339000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412339010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>en bois autre que l'okoumé, même revêtu ou recouvert en surface</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412339090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412340000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant au moins un pli extérieur en bois autre que de conifères non dénommés dans le n$o|4412|33</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412340010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bois autre que l'okoumé, même revêtu ou recouvert en surface</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412340090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412390000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant les deux plis extérieurs en bois de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412390010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bois contre-plaqués de conifères, sans adjonction d'autres matières, dont les faces sont brutes de déroulage, d'une épaisseur supérieure à 8,5 mm ou poncés et d'une épaisseur supérieure à 18,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412390020</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bois contre-plaqués avec plis extérieurs en bois de conifères et ayant une âme contenant des plies des espèces visées aux sous-positions 4412 31, 4412 33 et 4412 34, revêtus ou recouverts ou recouverts</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412390090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412410000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bois de placage stratifié (lamibois (LVL))</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412410000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant au moins un pli extérieur en bois tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412419100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant au moins un pli extérieur en bois autres que de conifères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412419900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412419910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bois contre-plaqués de conifères, sans adjonction d'autres matières, dont les faces sont brutes de déroulage, d'une épaisseur supérieure à 8,5|mm, ou poncés et d'une épaisseur supérieure à 18,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412419990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412420000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant au moins un pli extérieur en bois autres que de conifères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412490000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant les deux plis extérieurs en bois de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412490010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>Bois contre-plaqués de conifères, sans adjonction d'autres matières, dont les faces sont brutes de déroulage, d'une épaisseur supérieure à 8,5|mm, ou poncés et d'une épaisseur supérieure à 18,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412490090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412510000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>à âme panneautée, lattée ou lamellée</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412510000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant au moins un pli extérieur en bois tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412511000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>ayant au moins un pli extérieur en bois autres que de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412519000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412520000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant au moins un pli extérieur en bois autres que de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412590000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant les deux plis extérieurs en bois de conifères</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>ayant au moins un pli extérieur en bois tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412911000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant au moins un panneau de particules</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4412919100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412919100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>ayant au moins un pli extérieur en bois autres que de conifères</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412919900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412919910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bois contre-plaqués de conifères, sans adjonction d'autres matières, dont les faces sont brutes de déroulage, d'une épaisseur supérieure à 8,5|mm, ou poncés et d'une épaisseur supérieure à 18,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412919990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant au moins un pli extérieur en bois autres que de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412921000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant au moins un panneau de particules</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412929000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, ayant les deux plis extérieurs de bois de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>contenant au moins un panneau de particules</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4412999000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412999010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bois contre-plaqués de conifères, sans adjonction d'autres matières, dont les faces sont brutes de déroulage, d'une épaisseur supérieure à 8,5|mm, ou poncés et d'une épaisseur supérieure à 18,5|mm</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4412999090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4413000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bois dits "densifiés", en blocs, planches, lames ou profilés</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4414000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Cadres en bois pour tableaux, photographies, miroirs ou objets similaires</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4414100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en bois tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4414101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois tropicaux visés à la note complémentaire|2|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4414109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4414900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4415000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Caisses, caissettes, cageots, cylindres et emballages similaires, en bois; tambours (tourets) pour câbles, en bois; palettes simples, palettes-caisses et autres plateaux de chargement, en bois; rehausses de palettes en bois</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4415100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Caisses, caissettes, cageots, cylindres et emballages similaires; tambours (tourets) pour câbles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4415101000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Caisses, caissettes, cageots, cylindres et emballages similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4415109000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Tambours (tourets) pour câbles</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4415200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Palettes simples, palettes-caisses et autres plateaux de chargement; rehausses de palettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4415202000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Palettes simples; rehausses de palettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4415209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4416000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Futailles, cuves, baquets et autres ouvrages de tonnellerie et leurs parties, en bois, y compris les merrains</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4417000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Outils, montures et manches d'outils, montures de brosses, manches de balais ou de brosses, en bois; formes, embauchoirs et tendeurs pour chaussures, en bois</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Ouvrages de menuiserie et pièces de charpente pour construction, y compris les panneaux cellulaires, les panneaux assemblés pour revêtement de sol et les bardeaux (shingles et shakes), en bois</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4418110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Fenêtres, portes-fenêtres et leurs cadres et chambranles</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418195000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418199000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4418210000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Portes et leurs cadres, chambranles et seuils</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418210000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418211000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bois tropicaux visés à la note complémentaire|2|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418219000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418290000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418295000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>de conifères</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418298000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418300000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Poteaux et poutres autres que les produits des nos|4418|81|à 4418|89</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418400000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Coffrages pour le bétonnage</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418500000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bardeaux (shingles et shakes)</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4418730000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Panneaux assemblés pour revêtement de sol</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418730000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou ou ayant au moins la couche supérieure en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418731000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>pour sols mosaïques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418739000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418740000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, pour sols mosaïques</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418750000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres, multicouches</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418790000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4418810000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Bois d'ingénierie structural</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418810000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bois lamellé-collé (BLC)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418810010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418810090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418820000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bois lamellé croisé (CLT ou X-lam)</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418820010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418820090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418830000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Poutres en I</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418830010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418830090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4418890000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418890010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418890090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4418910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418920000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>panneaux cellulaires en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4418990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4419000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Articles en bois pour la table ou la cuisine</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4419110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4419110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Planches à pain, planches à hacher et articles similaires</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4419120000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Baguettes</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4419190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4419200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>en bois tropicaux</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4419201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois tropicaux visés à la note complémentaire|2|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4419209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4419900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4420000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Bois marquetés et bois incrustés; coffrets, écrins et étuis pour bijouterie ou orfèvrerie et ouvrages similaires, en bois; statuettes et autres objets d'ornement, en bois; articles d'ameublement en bois ne relevant pas du chapitre|94</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4420110000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Statuettes et autres objets d'ornement</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4420110000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bois tropicaux</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4420111000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bois tropicaux visés à la note complémentaire|2|du présent chapitre</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420111010</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420111090</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420119000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420190000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4420900000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420901000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>Bois marquetés et bois incrustés</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4420909100</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4420909100</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en bois tropicaux visés à la note complémentaire|2|du présent chapitre</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4420909111</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>faits à la main</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420909111</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bois sous forme de grumes ou billes équarries avec un simple traitement de surface, sculpté ou finement fileté ou peint, sans valeur ajoutée significative et aucune modification substantielle de forme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420909119</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4420909191</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420909191</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bois sous forme de grumes ou billes équarries avec un simple traitement de surface, sculpté ou finement fileté ou peint, sans valeur ajoutée significative et aucune modification substantielle de forme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420909199</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4420909900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420909910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Bois sous forme de grumes ou billes équarries avec un simple traitement de surface, sculpté ou finement fileté ou peint, sans valeur ajoutée significative et aucune modification substantielle de forme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4420909990</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4421000000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>0</Alinea>
+<Description>Autres ouvrages en bois</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4421100000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cintres pour vêtements</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4421200000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>Cercueils</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4421201000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en panneaux de fibres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4421209000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4421910000</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>1</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4421910000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>en bambou</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4421990000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>2</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4421991000</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>en panneaux de fibres</Description>
+</ligne><ligne><Type>0</Type>
+<Code>4421999900</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>3</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4421999910</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>Planches à repasser, y compris jeannettes de repassage, montées ou non sur pied, et leurs pieds et planches</Description>
+</ligne><ligne><Type>2</Type>
+<Code>4421999991</Code>
+<Lig_Prod>10</Lig_Prod>
+<Alinea>4</Alinea>
+<Description>autres</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4421999991</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>Bois sous forme de grumes ou billes équarries avec un simple traitement de surface, sculpté ou finement fileté ou peint, sans valeur ajoutée significative et aucune modification substantielle de forme</Description>
+</ligne><ligne><Type>1</Type>
+<Code>4421999999</Code>
+<Lig_Prod>80</Lig_Prod>
+<Alinea>5</Alinea>
+<Description>autres</Description>
+</ligne></contenu></table>

@@ -1,514 +1,316 @@
 /* eslint-disable prettier/prettier */
-import type { AdonisEndpoint } from "@tuyau/core/types"
-import type { Registry } from "./schema.d.ts"
-import type { ApiDefinition } from "./tree.d.ts"
+import type { AdonisEndpoint } from '@tuyau/core/types'
+import type { Registry } from './schema.d.ts'
+import type { ApiDefinition } from './tree.d.ts'
 
 const placeholder: any = {}
 
 const routes = {
-  "origins.list": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/public/origins",
-    tokens: [
-      { old: "/v1/public/origins", type: 0, val: "v1", end: "" },
-      { old: "/v1/public/origins", type: 0, val: "public", end: "" },
-      { old: "/v1/public/origins", type: 0, val: "origins", end: "" },
-    ],
-    types: placeholder as Registry["origins.list"]["types"],
+  'origins.list': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/public/origins',
+    tokens: [{"old":"/v1/public/origins","type":0,"val":"v1","end":""},{"old":"/v1/public/origins","type":0,"val":"public","end":""},{"old":"/v1/public/origins","type":0,"val":"origins","end":""}],
+    types: placeholder as Registry['origins.list']['types'],
   },
-  search_products: {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/public/products/search",
-    tokens: [
-      { old: "/v1/public/products/search", type: 0, val: "v1", end: "" },
-      { old: "/v1/public/products/search", type: 0, val: "public", end: "" },
-      { old: "/v1/public/products/search", type: 0, val: "products", end: "" },
-      { old: "/v1/public/products/search", type: 0, val: "search", end: "" },
-    ],
-    types: placeholder as Registry["search_products"]["types"],
+  'search_products': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/public/products/search',
+    tokens: [{"old":"/v1/public/products/search","type":0,"val":"v1","end":""},{"old":"/v1/public/products/search","type":0,"val":"public","end":""},{"old":"/v1/public/products/search","type":0,"val":"products","end":""},{"old":"/v1/public/products/search","type":0,"val":"search","end":""}],
+    types: placeholder as Registry['search_products']['types'],
   },
-  get_product_taxes: {
+  'get_product_taxes': {
     methods: ["POST"],
-    pattern: "/v1/public/products/taxes",
-    tokens: [
-      { old: "/v1/public/products/taxes", type: 0, val: "v1", end: "" },
-      { old: "/v1/public/products/taxes", type: 0, val: "public", end: "" },
-      { old: "/v1/public/products/taxes", type: 0, val: "products", end: "" },
-      { old: "/v1/public/products/taxes", type: 0, val: "taxes", end: "" },
-    ],
-    types: placeholder as Registry["get_product_taxes"]["types"],
+    pattern: '/v1/public/products/taxes',
+    tokens: [{"old":"/v1/public/products/taxes","type":0,"val":"v1","end":""},{"old":"/v1/public/products/taxes","type":0,"val":"public","end":""},{"old":"/v1/public/products/taxes","type":0,"val":"products","end":""},{"old":"/v1/public/products/taxes","type":0,"val":"taxes","end":""}],
+    types: placeholder as Registry['get_product_taxes']['types'],
   },
-  calculate_parcel: {
+  'resolve_product_taxes': {
     methods: ["POST"],
-    pattern: "/v1/public/simulator/parcel",
-    tokens: [
-      { old: "/v1/public/simulator/parcel", type: 0, val: "v1", end: "" },
-      { old: "/v1/public/simulator/parcel", type: 0, val: "public", end: "" },
-      { old: "/v1/public/simulator/parcel", type: 0, val: "simulator", end: "" },
-      { old: "/v1/public/simulator/parcel", type: 0, val: "parcel", end: "" },
-    ],
-    types: placeholder as Registry["calculate_parcel"]["types"],
+    pattern: '/v1/public/products/resolve',
+    tokens: [{"old":"/v1/public/products/resolve","type":0,"val":"v1","end":""},{"old":"/v1/public/products/resolve","type":0,"val":"public","end":""},{"old":"/v1/public/products/resolve","type":0,"val":"products","end":""},{"old":"/v1/public/products/resolve","type":0,"val":"resolve","end":""}],
+    types: placeholder as Registry['resolve_product_taxes']['types'],
   },
-  get_templates: {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/public/simulator/templates",
-    tokens: [
-      { old: "/v1/public/simulator/templates", type: 0, val: "v1", end: "" },
-      { old: "/v1/public/simulator/templates", type: 0, val: "public", end: "" },
-      { old: "/v1/public/simulator/templates", type: 0, val: "simulator", end: "" },
-      { old: "/v1/public/simulator/templates", type: 0, val: "templates", end: "" },
-    ],
-    types: placeholder as Registry["get_templates"]["types"],
-  },
-  "territories.list": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/public/territories",
-    tokens: [
-      { old: "/v1/public/territories", type: 0, val: "v1", end: "" },
-      { old: "/v1/public/territories", type: 0, val: "public", end: "" },
-      { old: "/v1/public/territories", type: 0, val: "territories", end: "" },
-    ],
-    types: placeholder as Registry["territories.list"]["types"],
-  },
-  "transporters.list": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/public/transporters",
-    tokens: [
-      { old: "/v1/public/transporters", type: 0, val: "v1", end: "" },
-      { old: "/v1/public/transporters", type: 0, val: "public", end: "" },
-      { old: "/v1/public/transporters", type: 0, val: "transporters", end: "" },
-    ],
-    types: placeholder as Registry["transporters.list"]["types"],
-  },
-  "categories.count": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/categories/count",
-    tokens: [
-      { old: "/v1/admin/categories/count", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/categories/count", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/categories/count", type: 0, val: "categories", end: "" },
-      { old: "/v1/admin/categories/count", type: 0, val: "count", end: "" },
-    ],
-    types: placeholder as Registry["categories.count"]["types"],
-  },
-  "categories.with_stats": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/categories/stats",
-    tokens: [
-      { old: "/v1/admin/categories/stats", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/categories/stats", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/categories/stats", type: 0, val: "categories", end: "" },
-      { old: "/v1/admin/categories/stats", type: 0, val: "stats", end: "" },
-    ],
-    types: placeholder as Registry["categories.with_stats"]["types"],
-  },
-  "categories.index": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/categories",
-    tokens: [
-      { old: "/v1/admin/categories", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/categories", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/categories", type: 0, val: "categories", end: "" },
-    ],
-    types: placeholder as Registry["categories.index"]["types"],
-  },
-  "categories.store": {
+  'scrape_product_url': {
     methods: ["POST"],
-    pattern: "/v1/admin/categories",
-    tokens: [
-      { old: "/v1/admin/categories", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/categories", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/categories", type: 0, val: "categories", end: "" },
-    ],
-    types: placeholder as Registry["categories.store"]["types"],
+    pattern: '/v1/public/products/scrape',
+    tokens: [{"old":"/v1/public/products/scrape","type":0,"val":"v1","end":""},{"old":"/v1/public/products/scrape","type":0,"val":"public","end":""},{"old":"/v1/public/products/scrape","type":0,"val":"products","end":""},{"old":"/v1/public/products/scrape","type":0,"val":"scrape","end":""}],
+    types: placeholder as Registry['scrape_product_url']['types'],
   },
-  "categories.show": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/categories/:id",
-    tokens: [
-      { old: "/v1/admin/categories/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/categories/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/categories/:id", type: 0, val: "categories", end: "" },
-      { old: "/v1/admin/categories/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["categories.show"]["types"],
+  'calculate_parcel': {
+    methods: ["POST"],
+    pattern: '/v1/public/simulator/parcel',
+    tokens: [{"old":"/v1/public/simulator/parcel","type":0,"val":"v1","end":""},{"old":"/v1/public/simulator/parcel","type":0,"val":"public","end":""},{"old":"/v1/public/simulator/parcel","type":0,"val":"simulator","end":""},{"old":"/v1/public/simulator/parcel","type":0,"val":"parcel","end":""}],
+    types: placeholder as Registry['calculate_parcel']['types'],
   },
-  "categories.update": {
-    methods: ["PUT", "PATCH"],
-    pattern: "/v1/admin/categories/:id",
-    tokens: [
-      { old: "/v1/admin/categories/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/categories/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/categories/:id", type: 0, val: "categories", end: "" },
-      { old: "/v1/admin/categories/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["categories.update"]["types"],
+  'get_templates': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/public/simulator/templates',
+    tokens: [{"old":"/v1/public/simulator/templates","type":0,"val":"v1","end":""},{"old":"/v1/public/simulator/templates","type":0,"val":"public","end":""},{"old":"/v1/public/simulator/templates","type":0,"val":"simulator","end":""},{"old":"/v1/public/simulator/templates","type":0,"val":"templates","end":""}],
+    types: placeholder as Registry['get_templates']['types'],
   },
-  "categories.destroy": {
+  'territories.list': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/public/territories',
+    tokens: [{"old":"/v1/public/territories","type":0,"val":"v1","end":""},{"old":"/v1/public/territories","type":0,"val":"public","end":""},{"old":"/v1/public/territories","type":0,"val":"territories","end":""}],
+    types: placeholder as Registry['territories.list']['types'],
+  },
+  'transporters.list': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/public/transporters',
+    tokens: [{"old":"/v1/public/transporters","type":0,"val":"v1","end":""},{"old":"/v1/public/transporters","type":0,"val":"public","end":""},{"old":"/v1/public/transporters","type":0,"val":"transporters","end":""}],
+    types: placeholder as Registry['transporters.list']['types'],
+  },
+  'categories.count': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/categories/count',
+    tokens: [{"old":"/v1/admin/categories/count","type":0,"val":"v1","end":""},{"old":"/v1/admin/categories/count","type":0,"val":"admin","end":""},{"old":"/v1/admin/categories/count","type":0,"val":"categories","end":""},{"old":"/v1/admin/categories/count","type":0,"val":"count","end":""}],
+    types: placeholder as Registry['categories.count']['types'],
+  },
+  'categories.with_stats': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/categories/stats',
+    tokens: [{"old":"/v1/admin/categories/stats","type":0,"val":"v1","end":""},{"old":"/v1/admin/categories/stats","type":0,"val":"admin","end":""},{"old":"/v1/admin/categories/stats","type":0,"val":"categories","end":""},{"old":"/v1/admin/categories/stats","type":0,"val":"stats","end":""}],
+    types: placeholder as Registry['categories.with_stats']['types'],
+  },
+  'categories.index': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/categories',
+    tokens: [{"old":"/v1/admin/categories","type":0,"val":"v1","end":""},{"old":"/v1/admin/categories","type":0,"val":"admin","end":""},{"old":"/v1/admin/categories","type":0,"val":"categories","end":""}],
+    types: placeholder as Registry['categories.index']['types'],
+  },
+  'categories.store': {
+    methods: ["POST"],
+    pattern: '/v1/admin/categories',
+    tokens: [{"old":"/v1/admin/categories","type":0,"val":"v1","end":""},{"old":"/v1/admin/categories","type":0,"val":"admin","end":""},{"old":"/v1/admin/categories","type":0,"val":"categories","end":""}],
+    types: placeholder as Registry['categories.store']['types'],
+  },
+  'categories.show': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/categories/:id',
+    tokens: [{"old":"/v1/admin/categories/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/categories/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/categories/:id","type":0,"val":"categories","end":""},{"old":"/v1/admin/categories/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['categories.show']['types'],
+  },
+  'categories.update': {
+    methods: ["PUT","PATCH"],
+    pattern: '/v1/admin/categories/:id',
+    tokens: [{"old":"/v1/admin/categories/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/categories/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/categories/:id","type":0,"val":"categories","end":""},{"old":"/v1/admin/categories/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['categories.update']['types'],
+  },
+  'categories.destroy': {
     methods: ["DELETE"],
-    pattern: "/v1/admin/categories/:id",
-    tokens: [
-      { old: "/v1/admin/categories/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/categories/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/categories/:id", type: 0, val: "categories", end: "" },
-      { old: "/v1/admin/categories/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["categories.destroy"]["types"],
+    pattern: '/v1/admin/categories/:id',
+    tokens: [{"old":"/v1/admin/categories/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/categories/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/categories/:id","type":0,"val":"categories","end":""},{"old":"/v1/admin/categories/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['categories.destroy']['types'],
   },
-  "origins.count": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/origins/count",
-    tokens: [
-      { old: "/v1/admin/origins/count", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/origins/count", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/origins/count", type: 0, val: "origins", end: "" },
-      { old: "/v1/admin/origins/count", type: 0, val: "count", end: "" },
-    ],
-    types: placeholder as Registry["origins.count"]["types"],
+  'customs_nomenclatures.chapters': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/chapters',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/chapters","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/chapters","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/chapters","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/chapters","type":0,"val":"chapters","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.chapters']['types'],
   },
-  "origins.top": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/origins/top",
-    tokens: [
-      { old: "/v1/admin/origins/top", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/origins/top", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/origins/top", type: 0, val: "origins", end: "" },
-      { old: "/v1/admin/origins/top", type: 0, val: "top", end: "" },
-    ],
-    types: placeholder as Registry["origins.top"]["types"],
+  'customs_nomenclatures.tree': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/tree',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/tree","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/tree","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/tree","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/tree","type":0,"val":"tree","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.tree']['types'],
   },
-  "origins.index": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/origins",
-    tokens: [
-      { old: "/v1/admin/origins", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/origins", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/origins", type: 0, val: "origins", end: "" },
-    ],
-    types: placeholder as Registry["origins.index"]["types"],
+  'customs_nomenclatures.search': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/search',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/search","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/search","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/search","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/search","type":0,"val":"search","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.search']['types'],
   },
-  "origins.store": {
+  'customs_nomenclatures.products': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/:code/products',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":1,"val":"code","end":""},{"old":"/v1/admin/customs-nomenclatures/:code/products","type":0,"val":"products","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.products']['types'],
+  },
+  'customs_nomenclatures.last_sync': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/sync/last',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"sync","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/last","type":0,"val":"last","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.last_sync']['types'],
+  },
+  'customs_nomenclatures.trigger_sync': {
     methods: ["POST"],
-    pattern: "/v1/admin/origins",
-    tokens: [
-      { old: "/v1/admin/origins", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/origins", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/origins", type: 0, val: "origins", end: "" },
-    ],
-    types: placeholder as Registry["origins.store"]["types"],
+    pattern: '/v1/admin/customs-nomenclatures/sync',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/sync","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/sync","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/sync","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/sync","type":0,"val":"sync","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.trigger_sync']['types'],
   },
-  "origins.show": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/origins/:id",
-    tokens: [
-      { old: "/v1/admin/origins/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/origins/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/origins/:id", type: 0, val: "origins", end: "" },
-      { old: "/v1/admin/origins/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["origins.show"]["types"],
+  'customs_nomenclatures.sync_stream': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/customs-nomenclatures/sync/:runId/stream',
+    tokens: [{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"v1","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"admin","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"customs-nomenclatures","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"sync","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":1,"val":"runId","end":""},{"old":"/v1/admin/customs-nomenclatures/sync/:runId/stream","type":0,"val":"stream","end":""}],
+    types: placeholder as Registry['customs_nomenclatures.sync_stream']['types'],
   },
-  "origins.update": {
-    methods: ["PUT", "PATCH"],
-    pattern: "/v1/admin/origins/:id",
-    tokens: [
-      { old: "/v1/admin/origins/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/origins/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/origins/:id", type: 0, val: "origins", end: "" },
-      { old: "/v1/admin/origins/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["origins.update"]["types"],
+  'origins.count': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/origins/count',
+    tokens: [{"old":"/v1/admin/origins/count","type":0,"val":"v1","end":""},{"old":"/v1/admin/origins/count","type":0,"val":"admin","end":""},{"old":"/v1/admin/origins/count","type":0,"val":"origins","end":""},{"old":"/v1/admin/origins/count","type":0,"val":"count","end":""}],
+    types: placeholder as Registry['origins.count']['types'],
   },
-  "origins.destroy": {
-    methods: ["DELETE"],
-    pattern: "/v1/admin/origins/:id",
-    tokens: [
-      { old: "/v1/admin/origins/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/origins/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/origins/:id", type: 0, val: "origins", end: "" },
-      { old: "/v1/admin/origins/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["origins.destroy"]["types"],
+  'origins.top': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/origins/top',
+    tokens: [{"old":"/v1/admin/origins/top","type":0,"val":"v1","end":""},{"old":"/v1/admin/origins/top","type":0,"val":"admin","end":""},{"old":"/v1/admin/origins/top","type":0,"val":"origins","end":""},{"old":"/v1/admin/origins/top","type":0,"val":"top","end":""}],
+    types: placeholder as Registry['origins.top']['types'],
   },
-  "products.count": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products/count",
-    tokens: [
-      { old: "/v1/admin/products/count", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/count", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/count", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/count", type: 0, val: "count", end: "" },
-    ],
-    types: placeholder as Registry["products.count"]["types"],
+  'origins.index': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/origins',
+    tokens: [{"old":"/v1/admin/origins","type":0,"val":"v1","end":""},{"old":"/v1/admin/origins","type":0,"val":"admin","end":""},{"old":"/v1/admin/origins","type":0,"val":"origins","end":""}],
+    types: placeholder as Registry['origins.index']['types'],
   },
-  "products.recent": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products/recent",
-    tokens: [
-      { old: "/v1/admin/products/recent", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/recent", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/recent", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/recent", type: 0, val: "recent", end: "" },
-    ],
-    types: placeholder as Registry["products.recent"]["types"],
-  },
-  "products.distribution": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products/distribution",
-    tokens: [
-      { old: "/v1/admin/products/distribution", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/distribution", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/distribution", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/distribution", type: 0, val: "distribution", end: "" },
-    ],
-    types: placeholder as Registry["products.distribution"]["types"],
-  },
-  "products.list_taxes": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products/taxes",
-    tokens: [
-      { old: "/v1/admin/products/taxes", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/taxes", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/taxes", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/taxes", type: 0, val: "taxes", end: "" },
-    ],
-    types: placeholder as Registry["products.list_taxes"]["types"],
-  },
-  "products.index": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products",
-    tokens: [
-      { old: "/v1/admin/products", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products", type: 0, val: "products", end: "" },
-    ],
-    types: placeholder as Registry["products.index"]["types"],
-  },
-  "products.store": {
+  'origins.store': {
     methods: ["POST"],
-    pattern: "/v1/admin/products",
-    tokens: [
-      { old: "/v1/admin/products", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products", type: 0, val: "products", end: "" },
-    ],
-    types: placeholder as Registry["products.store"]["types"],
+    pattern: '/v1/admin/origins',
+    tokens: [{"old":"/v1/admin/origins","type":0,"val":"v1","end":""},{"old":"/v1/admin/origins","type":0,"val":"admin","end":""},{"old":"/v1/admin/origins","type":0,"val":"origins","end":""}],
+    types: placeholder as Registry['origins.store']['types'],
   },
-  "products.show": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products/:id",
-    tokens: [
-      { old: "/v1/admin/products/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/:id", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["products.show"]["types"],
+  'origins.show': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/origins/:id',
+    tokens: [{"old":"/v1/admin/origins/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/origins/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/origins/:id","type":0,"val":"origins","end":""},{"old":"/v1/admin/origins/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['origins.show']['types'],
   },
-  "products.update": {
-    methods: ["PUT", "PATCH"],
-    pattern: "/v1/admin/products/:id",
-    tokens: [
-      { old: "/v1/admin/products/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/:id", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["products.update"]["types"],
+  'origins.update': {
+    methods: ["PUT","PATCH"],
+    pattern: '/v1/admin/origins/:id',
+    tokens: [{"old":"/v1/admin/origins/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/origins/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/origins/:id","type":0,"val":"origins","end":""},{"old":"/v1/admin/origins/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['origins.update']['types'],
   },
-  "products.destroy": {
+  'origins.destroy': {
     methods: ["DELETE"],
-    pattern: "/v1/admin/products/:id",
-    tokens: [
-      { old: "/v1/admin/products/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/:id", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["products.destroy"]["types"],
+    pattern: '/v1/admin/origins/:id',
+    tokens: [{"old":"/v1/admin/origins/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/origins/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/origins/:id","type":0,"val":"origins","end":""},{"old":"/v1/admin/origins/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['origins.destroy']['types'],
   },
-  "search_config.get_config": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products/search-config",
-    tokens: [
-      { old: "/v1/admin/products/search-config", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/search-config", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/search-config", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/search-config", type: 0, val: "search-config", end: "" },
-    ],
-    types: placeholder as Registry["search_config.get_config"]["types"],
+  'products.count': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/products/count',
+    tokens: [{"old":"/v1/admin/products/count","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/count","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/count","type":0,"val":"products","end":""},{"old":"/v1/admin/products/count","type":0,"val":"count","end":""}],
+    types: placeholder as Registry['products.count']['types'],
   },
-  "search_config.update_config": {
-    methods: ["PUT"],
-    pattern: "/v1/admin/products/search-config",
-    tokens: [
-      { old: "/v1/admin/products/search-config", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/search-config", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/search-config", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/search-config", type: 0, val: "search-config", end: "" },
-    ],
-    types: placeholder as Registry["search_config.update_config"]["types"],
+  'products.recent': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/products/recent',
+    tokens: [{"old":"/v1/admin/products/recent","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/recent","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/recent","type":0,"val":"products","end":""},{"old":"/v1/admin/products/recent","type":0,"val":"recent","end":""}],
+    types: placeholder as Registry['products.recent']['types'],
   },
-  "search_config.get_synonyms": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/products/synonyms",
-    tokens: [
-      { old: "/v1/admin/products/synonyms", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/synonyms", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/synonyms", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/synonyms", type: 0, val: "synonyms", end: "" },
-    ],
-    types: placeholder as Registry["search_config.get_synonyms"]["types"],
+  'products.distribution': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/products/distribution',
+    tokens: [{"old":"/v1/admin/products/distribution","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/distribution","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/distribution","type":0,"val":"products","end":""},{"old":"/v1/admin/products/distribution","type":0,"val":"distribution","end":""}],
+    types: placeholder as Registry['products.distribution']['types'],
   },
-  "search_config.update_synonyms": {
-    methods: ["PUT"],
-    pattern: "/v1/admin/products/synonyms",
-    tokens: [
-      { old: "/v1/admin/products/synonyms", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/products/synonyms", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/products/synonyms", type: 0, val: "products", end: "" },
-      { old: "/v1/admin/products/synonyms", type: 0, val: "synonyms", end: "" },
-    ],
-    types: placeholder as Registry["search_config.update_synonyms"]["types"],
+  'products.index': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/products',
+    tokens: [{"old":"/v1/admin/products","type":0,"val":"v1","end":""},{"old":"/v1/admin/products","type":0,"val":"admin","end":""},{"old":"/v1/admin/products","type":0,"val":"products","end":""}],
+    types: placeholder as Registry['products.index']['types'],
   },
-  "territories.count": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/territories/count",
-    tokens: [
-      { old: "/v1/admin/territories/count", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/territories/count", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/territories/count", type: 0, val: "territories", end: "" },
-      { old: "/v1/admin/territories/count", type: 0, val: "count", end: "" },
-    ],
-    types: placeholder as Registry["territories.count"]["types"],
-  },
-  "territories.top": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/territories/top",
-    tokens: [
-      { old: "/v1/admin/territories/top", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/territories/top", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/territories/top", type: 0, val: "territories", end: "" },
-      { old: "/v1/admin/territories/top", type: 0, val: "top", end: "" },
-    ],
-    types: placeholder as Registry["territories.top"]["types"],
-  },
-  "territories.index": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/territories",
-    tokens: [
-      { old: "/v1/admin/territories", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/territories", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/territories", type: 0, val: "territories", end: "" },
-    ],
-    types: placeholder as Registry["territories.index"]["types"],
-  },
-  "territories.store": {
+  'products.store': {
     methods: ["POST"],
-    pattern: "/v1/admin/territories",
-    tokens: [
-      { old: "/v1/admin/territories", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/territories", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/territories", type: 0, val: "territories", end: "" },
-    ],
-    types: placeholder as Registry["territories.store"]["types"],
+    pattern: '/v1/admin/products',
+    tokens: [{"old":"/v1/admin/products","type":0,"val":"v1","end":""},{"old":"/v1/admin/products","type":0,"val":"admin","end":""},{"old":"/v1/admin/products","type":0,"val":"products","end":""}],
+    types: placeholder as Registry['products.store']['types'],
   },
-  "territories.show": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/territories/:id",
-    tokens: [
-      { old: "/v1/admin/territories/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/territories/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/territories/:id", type: 0, val: "territories", end: "" },
-      { old: "/v1/admin/territories/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["territories.show"]["types"],
+  'products.show': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/products/:id',
+    tokens: [{"old":"/v1/admin/products/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/:id","type":0,"val":"products","end":""},{"old":"/v1/admin/products/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['products.show']['types'],
   },
-  "territories.update": {
-    methods: ["PUT", "PATCH"],
-    pattern: "/v1/admin/territories/:id",
-    tokens: [
-      { old: "/v1/admin/territories/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/territories/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/territories/:id", type: 0, val: "territories", end: "" },
-      { old: "/v1/admin/territories/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["territories.update"]["types"],
+  'products.update': {
+    methods: ["PUT","PATCH"],
+    pattern: '/v1/admin/products/:id',
+    tokens: [{"old":"/v1/admin/products/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/:id","type":0,"val":"products","end":""},{"old":"/v1/admin/products/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['products.update']['types'],
   },
-  "territories.destroy": {
+  'products.destroy': {
     methods: ["DELETE"],
-    pattern: "/v1/admin/territories/:id",
-    tokens: [
-      { old: "/v1/admin/territories/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/territories/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/territories/:id", type: 0, val: "territories", end: "" },
-      { old: "/v1/admin/territories/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["territories.destroy"]["types"],
+    pattern: '/v1/admin/products/:id',
+    tokens: [{"old":"/v1/admin/products/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/:id","type":0,"val":"products","end":""},{"old":"/v1/admin/products/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['products.destroy']['types'],
   },
-  "transporters.count": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/transporters/count",
-    tokens: [
-      { old: "/v1/admin/transporters/count", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters/count", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/transporters/count", type: 0, val: "transporters", end: "" },
-      { old: "/v1/admin/transporters/count", type: 0, val: "count", end: "" },
-    ],
-    types: placeholder as Registry["transporters.count"]["types"],
+  'territories.count': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/territories/count',
+    tokens: [{"old":"/v1/admin/territories/count","type":0,"val":"v1","end":""},{"old":"/v1/admin/territories/count","type":0,"val":"admin","end":""},{"old":"/v1/admin/territories/count","type":0,"val":"territories","end":""},{"old":"/v1/admin/territories/count","type":0,"val":"count","end":""}],
+    types: placeholder as Registry['territories.count']['types'],
   },
-  "transporters.index": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/transporters",
-    tokens: [
-      { old: "/v1/admin/transporters", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/transporters", type: 0, val: "transporters", end: "" },
-    ],
-    types: placeholder as Registry["transporters.index"]["types"],
+  'territories.top': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/territories/top',
+    tokens: [{"old":"/v1/admin/territories/top","type":0,"val":"v1","end":""},{"old":"/v1/admin/territories/top","type":0,"val":"admin","end":""},{"old":"/v1/admin/territories/top","type":0,"val":"territories","end":""},{"old":"/v1/admin/territories/top","type":0,"val":"top","end":""}],
+    types: placeholder as Registry['territories.top']['types'],
   },
-  "transporters.store": {
+  'territories.index': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/territories',
+    tokens: [{"old":"/v1/admin/territories","type":0,"val":"v1","end":""},{"old":"/v1/admin/territories","type":0,"val":"admin","end":""},{"old":"/v1/admin/territories","type":0,"val":"territories","end":""}],
+    types: placeholder as Registry['territories.index']['types'],
+  },
+  'territories.store': {
     methods: ["POST"],
-    pattern: "/v1/admin/transporters",
-    tokens: [
-      { old: "/v1/admin/transporters", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/transporters", type: 0, val: "transporters", end: "" },
-    ],
-    types: placeholder as Registry["transporters.store"]["types"],
+    pattern: '/v1/admin/territories',
+    tokens: [{"old":"/v1/admin/territories","type":0,"val":"v1","end":""},{"old":"/v1/admin/territories","type":0,"val":"admin","end":""},{"old":"/v1/admin/territories","type":0,"val":"territories","end":""}],
+    types: placeholder as Registry['territories.store']['types'],
   },
-  "transporters.show": {
-    methods: ["GET", "HEAD"],
-    pattern: "/v1/admin/transporters/:id",
-    tokens: [
-      { old: "/v1/admin/transporters/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 0, val: "transporters", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["transporters.show"]["types"],
+  'territories.show': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/territories/:id',
+    tokens: [{"old":"/v1/admin/territories/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/territories/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/territories/:id","type":0,"val":"territories","end":""},{"old":"/v1/admin/territories/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['territories.show']['types'],
   },
-  "transporters.update": {
-    methods: ["PUT", "PATCH"],
-    pattern: "/v1/admin/transporters/:id",
-    tokens: [
-      { old: "/v1/admin/transporters/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 0, val: "transporters", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["transporters.update"]["types"],
+  'territories.update': {
+    methods: ["PUT","PATCH"],
+    pattern: '/v1/admin/territories/:id',
+    tokens: [{"old":"/v1/admin/territories/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/territories/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/territories/:id","type":0,"val":"territories","end":""},{"old":"/v1/admin/territories/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['territories.update']['types'],
   },
-  "transporters.destroy": {
+  'territories.destroy': {
     methods: ["DELETE"],
-    pattern: "/v1/admin/transporters/:id",
-    tokens: [
-      { old: "/v1/admin/transporters/:id", type: 0, val: "v1", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 0, val: "admin", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 0, val: "transporters", end: "" },
-      { old: "/v1/admin/transporters/:id", type: 1, val: "id", end: "" },
-    ],
-    types: placeholder as Registry["transporters.destroy"]["types"],
+    pattern: '/v1/admin/territories/:id',
+    tokens: [{"old":"/v1/admin/territories/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/territories/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/territories/:id","type":0,"val":"territories","end":""},{"old":"/v1/admin/territories/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['territories.destroy']['types'],
+  },
+  'transporters.count': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/transporters/count',
+    tokens: [{"old":"/v1/admin/transporters/count","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/count","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/count","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/count","type":0,"val":"count","end":""}],
+    types: placeholder as Registry['transporters.count']['types'],
+  },
+  'transporters.index': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/transporters',
+    tokens: [{"old":"/v1/admin/transporters","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters","type":0,"val":"transporters","end":""}],
+    types: placeholder as Registry['transporters.index']['types'],
+  },
+  'transporters.store': {
+    methods: ["POST"],
+    pattern: '/v1/admin/transporters',
+    tokens: [{"old":"/v1/admin/transporters","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters","type":0,"val":"transporters","end":""}],
+    types: placeholder as Registry['transporters.store']['types'],
+  },
+  'transporters.show': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/transporters/:id',
+    tokens: [{"old":"/v1/admin/transporters/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/:id","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['transporters.show']['types'],
+  },
+  'transporters.update': {
+    methods: ["PUT","PATCH"],
+    pattern: '/v1/admin/transporters/:id',
+    tokens: [{"old":"/v1/admin/transporters/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/:id","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['transporters.update']['types'],
+  },
+  'transporters.destroy': {
+    methods: ["DELETE"],
+    pattern: '/v1/admin/transporters/:id',
+    tokens: [{"old":"/v1/admin/transporters/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/:id","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/:id","type":1,"val":"id","end":""}],
+    types: placeholder as Registry['transporters.destroy']['types'],
   },
 } as const satisfies Record<string, AdonisEndpoint>
 
@@ -519,7 +321,7 @@ export const registry = {
   $tree: {} as ApiDefinition,
 }
 
-declare module "@tuyau/core/types" {
+declare module '@tuyau/core/types' {
   export interface UserRegistry {
     routes: typeof routes
     $tree: ApiDefinition
