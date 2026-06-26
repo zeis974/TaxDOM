@@ -6,9 +6,6 @@ import BaseSelect from "@/components/Forms/Select/BaseSelect"
 import { AddEntityDrawer, crudHandlers, FormGrid } from "@/components/shared"
 import { useProductFormOptions } from "@/hooks/useProductFormOptions"
 import { api } from "@/lib/api"
-import { CharCount } from "./AddProduct.styled"
-
-const PRODUCT_NAME_MAX = 100
 
 type TouchedFields = {
   name: boolean
@@ -86,7 +83,6 @@ export default function AddProduct() {
   }
 
   const nameInvalid = touched.name && !productName.trim()
-  const charWarning = productName.length >= PRODUCT_NAME_MAX * 0.9
 
   const handleTriggerClick = useCallback(() => setOpen(true), [])
 
@@ -135,17 +131,12 @@ export default function AddProduct() {
             placeholder="Smartphone"
             autoComplete="off"
             required
-            maxLength={PRODUCT_NAME_MAX}
             value={productName}
             onChange={handleProductNameChange}
             onBlur={handleProductNameBlur}
             aria-required="true"
             aria-invalid={nameInvalid}
-            aria-describedby={`${inputId}-count`}
           />
-          <CharCount id={`${inputId}-count`} data-warning={charWarning} aria-live="polite">
-            {productName.length} / {PRODUCT_NAME_MAX}
-          </CharCount>
         </InputContainer>
         <NomenclatureAutocomplete
           label="Code SH"
