@@ -1,4 +1,4 @@
-FROM node:24.15.0-alpine AS base
+FROM node:24.17.0-alpine AS base
 
 RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
 
@@ -28,6 +28,10 @@ WORKDIR /app
 ENV HUSKY=0
 ENV PNPM_INJECT_WORKSPACE_PACKAGES=true
 ENV NODE_ENV=production
+# Skip Playwright's ~300MB Chromium download — we use camoufox (Firefox) instead.
+ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
+# Store camoufox browser binary at a fixed path accessible to nodeuser in the runner.
+ENV CAMOUFOX_INSTALL_DIR=/app/.camoufox
 
 USER root
 RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
@@ -45,9 +49,14 @@ COPY --chown=nodeuser:nodejs turbo.json turbo.json
 
 RUN pnpm turbo build
 
+# Download camoufox Firefox binary into the fixed path.
+RUN npx camoufox fetch
+
 FROM base AS deploy
 USER nodeuser
 WORKDIR /app
+
+ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
 
 COPY --from=installer --chown=nodeuser:nodejs /app/pnpm-lock.yaml ./pnpm-lock.yaml
 COPY --from=installer --chown=nodeuser:nodejs /app/.npmrc .npmrc
@@ -58,14 +67,37 @@ COPY --from=installer --chown=nodeuser:nodejs /app/apps/api/build ./
 RUN pnpm --filter=@taxdom/api deploy --prod ./output
 
 FROM base AS runner
+
+# Firefox shared libraries required by camoufox on Alpine.
+USER root
+RUN apk add --no-cache \
+    nss \
+    freetype \
+    harfbuzz \
+    ca-certificates \
+    ttf-freefont \
+    fontconfig \
+    libx11 \
+    libxcomposite \
+    libxdamage \
+    libxrandr \
+    libxi \
+    libxtst \
+    dbus-libs \
+    alsa-lib \
+    gcompat
+
 USER nodeuser
 WORKDIR /app
 
 ENV NODE_ENV=production
 ENV TURBO_TELEMETRY_DISABLED=1
 ENV DO_NOT_TRACK=1
+ENV CAMOUFOX_INSTALL_DIR=/app/.camoufox
 
 COPY --from=deploy --chown=nodeuser:nodejs /app/output ./
+# Camoufox Firefox binary built in the installer stage.
+COPY --from=installer --chown=nodeuser:nodejs /app/.camoufox /app/.camoufox
 
 EXPOSE 3333
 
