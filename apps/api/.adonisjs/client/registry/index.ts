@@ -60,12 +60,6 @@ const routes = {
     tokens: [{"old":"/v1/public/transporters","type":0,"val":"v1","end":""},{"old":"/v1/public/transporters","type":0,"val":"public","end":""},{"old":"/v1/public/transporters","type":0,"val":"transporters","end":""}],
     types: placeholder as Registry['transporters.list']['types'],
   },
-  'get_nomenclature_taxes': {
-    methods: ["POST"],
-    pattern: '/v1/public/url-taxes',
-    tokens: [{"old":"/v1/public/url-taxes","type":0,"val":"v1","end":""},{"old":"/v1/public/url-taxes","type":0,"val":"public","end":""},{"old":"/v1/public/url-taxes","type":0,"val":"url-taxes","end":""}],
-    types: placeholder as Registry['get_nomenclature_taxes']['types'],
-  },
   'categories.count': {
     methods: ["GET","HEAD"],
     pattern: '/v1/admin/categories/count',
@@ -209,12 +203,6 @@ const routes = {
     pattern: '/v1/admin/products/distribution',
     tokens: [{"old":"/v1/admin/products/distribution","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/distribution","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/distribution","type":0,"val":"products","end":""},{"old":"/v1/admin/products/distribution","type":0,"val":"distribution","end":""}],
     types: placeholder as Registry['products.distribution']['types'],
-  },
-  'products.list_taxes': {
-    methods: ["GET","HEAD"],
-    pattern: '/v1/admin/products/taxes',
-    tokens: [{"old":"/v1/admin/products/taxes","type":0,"val":"v1","end":""},{"old":"/v1/admin/products/taxes","type":0,"val":"admin","end":""},{"old":"/v1/admin/products/taxes","type":0,"val":"products","end":""},{"old":"/v1/admin/products/taxes","type":0,"val":"taxes","end":""}],
-    types: placeholder as Registry['products.list_taxes']['types'],
   },
   'products.index': {
     methods: ["GET","HEAD"],

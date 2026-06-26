@@ -21,10 +21,6 @@ export default class ProductsController {
     return await this.productService.findDistributionByCategory()
   }
 
-  async listTaxes() {
-    return await this.productService.findAllTaxes()
-  }
-
   async index({ request }: HttpContext) {
     const page = Math.max(1, request.input("page", 1))
     const limit = Math.min(Math.max(1, request.input("limit", 20)), 100)

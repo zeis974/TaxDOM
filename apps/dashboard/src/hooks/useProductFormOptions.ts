@@ -13,11 +13,10 @@ export function useProductFormOptions() {
   return useQuery({
     queryKey: ["productFormOptions"],
     queryFn: async () => {
-      const [categoriesRaw, originsRaw, territoriesRaw, taxesRaw] = await Promise.all([
+      const [categoriesRaw, originsRaw, territoriesRaw] = await Promise.all([
         client.api.categories.index({}),
         client.api.origins.index({}),
         client.api.territories.index({}),
-        client.api.products.listTaxes({}),
       ])
 
       const categories: FormOption[] = categoriesRaw.map((c) => ({
@@ -38,9 +37,7 @@ export function useProductFormOptions() {
         available: t.available,
       }))
 
-      const taxes = taxesRaw
-
-      return { categories, origins, territories, taxes }
+      return { categories, origins, territories }
     },
     staleTime: 5 * 60 * 1000,
   })

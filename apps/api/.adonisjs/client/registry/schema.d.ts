@@ -115,18 +115,6 @@ export interface Registry {
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/TransportersController').default['list']>>>
     }
   }
-  'get_nomenclature_taxes': {
-    methods: ["POST"]
-    pattern: '/v1/public/url-taxes'
-    types: {
-      body: ExtractBody<InferInput<(typeof import('#validators/NomenclatureTaxesValidator').NomenclatureTaxesValidator)>>
-      paramsTuple: []
-      params: {}
-      query: ExtractQuery<InferInput<(typeof import('#validators/NomenclatureTaxesValidator').NomenclatureTaxesValidator)>>
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/GetNomenclatureTaxesController').default['handle']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/GetNomenclatureTaxesController').default['handle']>>> | { status: 422; response: { errors: SimpleError[] } }
-    }
-  }
   'categories.count': {
     methods: ["GET","HEAD"]
     pattern: '/v1/admin/categories/count'
@@ -413,18 +401,6 @@ export interface Registry {
       query: {}
       response: ExtractResponse<Awaited<ReturnType<import('#controllers/ProductsController').default['distribution']>>>
       errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/ProductsController').default['distribution']>>>
-    }
-  }
-  'products.list_taxes': {
-    methods: ["GET","HEAD"]
-    pattern: '/v1/admin/products/taxes'
-    types: {
-      body: {}
-      paramsTuple: []
-      params: {}
-      query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/ProductsController').default['listTaxes']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/ProductsController').default['listTaxes']>>>
     }
   }
   'products.index': {
