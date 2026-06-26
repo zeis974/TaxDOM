@@ -48,10 +48,10 @@ const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: token(colors.darkGray);
+  background: token(colors.surface);
   border: none;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: token(radii.lg);
   gap: 10px;
   cursor: pointer;
   border: 2px solid transparent;
@@ -59,7 +59,7 @@ const Button = styled.button`
 
   &:hover {
     background: transparent;
-    border: 2px solid token(colors.darkGray);
+    border: 2px solid token(colors.surface);
   }
 
   & span {

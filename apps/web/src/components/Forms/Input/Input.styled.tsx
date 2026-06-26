@@ -29,14 +29,14 @@ export const InputContainer = styled.div`
     outline: none;
     height: 35px;
     border-radius: 5px;
-    background: token(colors.darkGray);
+    background: token(colors.surface);
     border: 2px solid transparent;
     padding: 5px;
     font-family: inherit;
     transition: border 150ms;
 
     &:focus {
-      border: 2px solid #3498db;
+      border: 2px solid token(colors.primary);
     }
 
     &[disabled="true"],

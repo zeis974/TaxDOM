@@ -15,7 +15,7 @@ export const Nav = styled.nav`
     & > a {
       color: var(--primary-color);
       font-size: clamp(1.4em, 5vw, 2em);    
-      font-family: token(fonts.Rowdies);
+      font-family: token(fonts.rowdies);
       position: relative;
 
       &::before {

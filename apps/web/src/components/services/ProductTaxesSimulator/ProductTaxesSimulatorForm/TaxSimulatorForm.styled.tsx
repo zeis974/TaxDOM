@@ -18,7 +18,7 @@ export const ConvertButton = styled.button`
   font-weight: 600;
   font-family: token(fonts.nativeFont);
   color: #fff;
-  background: token(colors.accent);
+  background: #f3e8ff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
