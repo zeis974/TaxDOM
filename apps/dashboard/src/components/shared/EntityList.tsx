@@ -1,5 +1,5 @@
 import type { ReactNode } from "react"
-import { EmptyState, ListContainer, ListGrid } from "./List.styled"
+import { EmptyAction, EmptyState, ListContainer, ListGrid } from "./List.styled"
 
 type EntityListProps<T> = {
   items: T[]
@@ -8,6 +8,8 @@ type EntityListProps<T> = {
   emptyIcon: ReactNode
   emptyTitle: string
   emptyDescription: string
+  /** Action primaire affichée dans l'état vide (ex. bouton « Ajouter »). */
+  emptyAction?: ReactNode
 }
 
 /**
@@ -20,6 +22,7 @@ export function EntityList<T>({
   emptyIcon,
   emptyTitle,
   emptyDescription,
+  emptyAction,
 }: EntityListProps<T>) {
   if (items.length === 0) {
     return (
@@ -28,6 +31,7 @@ export function EntityList<T>({
           {emptyIcon}
           <h3>{emptyTitle}</h3>
           <p>{emptyDescription}</p>
+          {emptyAction ? <EmptyAction>{emptyAction}</EmptyAction> : null}
         </EmptyState>
       </ListContainer>
     )
