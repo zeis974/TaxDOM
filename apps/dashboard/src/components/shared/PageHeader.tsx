@@ -8,7 +8,7 @@ import {
 
 type PageHeaderProps = {
   title: string
-  count: number
+  count?: number
   countLabel: string
   actions?: ReactNode
 }
@@ -21,9 +21,11 @@ export function PageHeader({ title, count, countLabel, actions }: PageHeaderProp
     <PageHeaderRow>
       <PageHeaderTitle>
         <h2>{title}</h2>
-        <span>
-          {count} {countLabel}
-        </span>
+        {count !== undefined && (
+          <span>
+            {count} {countLabel}
+          </span>
+        )}
       </PageHeaderTitle>
       {actions && <PageHeaderActions>{actions}</PageHeaderActions>}
     </PageHeaderRow>

@@ -1,5 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router"
+import { Suspense } from "react"
+import { useSuspenseQueries } from "@tanstack/react-query"
 import Overview from "@/components/Dashboard/Overview"
+import { OverviewSkeleton } from "@/components/Dashboard/Overview/Skeletons"
 import { ErrorComponent } from "@/components/ErrorComponent"
 import { api, queryClient } from "@/lib/api"
 
@@ -32,81 +35,88 @@ interface TopTerritory {
 }
 
 export const Route = createFileRoute("/_dashboard-layout/")({
-  loader: async () => {
-    const productsCount = await queryClient.ensureQueryData(
-      api.products.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
-    )
-    const categoriesCount = await queryClient.ensureQueryData(
-      api.categories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
-    )
-    const originsCount = await queryClient.ensureQueryData(
-      api.origins.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
-    )
-    const territoriesCount = await queryClient.ensureQueryData(
-      api.territories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
-    )
-
-    const recentProductsRaw = await queryClient.ensureQueryData(
-      api.products.recent.queryOptions({}, { staleTime: 1000 * 60 * 5 }),
-    )
-    const recentProductsArray = Array.isArray(recentProductsRaw)
-      ? recentProductsRaw
-      : (((recentProductsRaw as Record<string, unknown>).recent_products ?? []) as Array<{
-          productID: string
-          productName: string
-          categoryName?: string
-          originName?: string
-          createdAt?: string | Date | null
-        }>)
-    const recentProducts: RecentProduct[] = recentProductsArray.map((p) => ({
-      productID: p.productID,
-      productName: p.productName,
-      category: { categoryName: p.categoryName ?? "" },
-      origin: { originName: p.originName ?? "" },
-      createdAt:
-        typeof p.createdAt === "string"
-          ? p.createdAt
-          : p.createdAt instanceof Date
-            ? p.createdAt.toISOString()
-            : "",
-    }))
-
-    const topOriginsRaw = await queryClient.ensureQueryData(
-      api.origins.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
-    )
-    const topOrigins = (
-      Array.isArray(topOriginsRaw)
-        ? topOriginsRaw
-        : ((topOriginsRaw as Record<string, unknown>).top_origins ?? [])
-    ) as TopOrigin[]
-
-    const topTerritoriesRaw = await queryClient.ensureQueryData(
-      api.territories.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
-    )
-    const topTerritories = (
-      Array.isArray(topTerritoriesRaw)
-        ? topTerritoriesRaw
-        : ((topTerritoriesRaw as Record<string, unknown>).top_territories ?? [])
-    ) as TopTerritory[]
-
-    return {
-      stats: {
-        products_count: (productsCount as Record<string, number>).products_count ?? 0,
-        categories_count: (categoriesCount as Record<string, number>).categories_count ?? 0,
-        origins_count: (originsCount as Record<string, number>).origins_count ?? 0,
-        territories_count: (territoriesCount as Record<string, number>).territories_count ?? 0,
-      } as DashboardStats,
-      recentProducts,
-      topOrigins,
-      topTerritories,
-    }
+  loader: () => {
+    void queryClient.prefetchQuery(api.products.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
+    void queryClient.prefetchQuery(api.categories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
+    void queryClient.prefetchQuery(api.origins.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
+    void queryClient.prefetchQuery(api.territories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
+    void queryClient.prefetchQuery(api.products.recent.queryOptions({}, { staleTime: 1000 * 60 * 5 }))
+    void queryClient.prefetchQuery(api.origins.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
+    void queryClient.prefetchQuery(api.territories.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
   },
   errorComponent: ErrorComponent,
   component: OverviewPage,
 })
 
 function OverviewPage() {
-  const { stats, recentProducts, topOrigins, topTerritories } = Route.useLoaderData()
+  return (
+    <Suspense fallback={<OverviewSkeleton />}>
+      <OverviewContent />
+    </Suspense>
+  )
+}
+
+function OverviewContent() {
+  const [
+    { data: productsCount },
+    { data: categoriesCount },
+    { data: originsCount },
+    { data: territoriesCount },
+    { data: recentProductsRaw },
+    { data: topOriginsRaw },
+    { data: topTerritoriesRaw },
+  ] = useSuspenseQueries({
+    queries: [
+      api.products.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+      api.categories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+      api.origins.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+      api.territories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+      api.products.recent.queryOptions({}, { staleTime: 1000 * 60 * 5 }),
+      api.origins.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+      api.territories.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    ],
+  })
+
+  const stats: DashboardStats = {
+    products_count: (productsCount as Record<string, number>)?.products_count ?? 0,
+    categories_count: (categoriesCount as Record<string, number>)?.categories_count ?? 0,
+    origins_count: (originsCount as Record<string, number>)?.origins_count ?? 0,
+    territories_count: (territoriesCount as Record<string, number>)?.territories_count ?? 0,
+  }
+
+  const recentProductsArray = Array.isArray(recentProductsRaw)
+    ? recentProductsRaw
+    : (((recentProductsRaw as Record<string, unknown>)?.recent_products ?? []) as Array<{
+        productID: string
+        productName: string
+        categoryName?: string
+        originName?: string
+        createdAt?: string | Date | null
+      }>)
+  const recentProducts: RecentProduct[] = recentProductsArray.map((p) => ({
+    productID: p.productID,
+    productName: p.productName,
+    category: { categoryName: p.categoryName ?? "" },
+    origin: { originName: p.originName ?? "" },
+    createdAt:
+      typeof p.createdAt === "string"
+        ? p.createdAt
+        : p.createdAt instanceof Date
+          ? p.createdAt.toISOString()
+          : "",
+  }))
+
+  const topOrigins = (
+    Array.isArray(topOriginsRaw)
+      ? topOriginsRaw
+      : ((topOriginsRaw as Record<string, unknown>)?.top_origins ?? [])
+  ) as TopOrigin[]
+
+  const topTerritories = (
+    Array.isArray(topTerritoriesRaw)
+      ? topTerritoriesRaw
+      : ((topTerritoriesRaw as Record<string, unknown>)?.top_territories ?? [])
+  ) as TopTerritory[]
 
   return (
     <Overview

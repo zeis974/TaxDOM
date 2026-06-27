@@ -35,7 +35,6 @@ export {
 } from "./Drawer.styled"
 export { EntityCard } from "./EntityCard"
 export { DefaultHeaderActions, EntityDetailDrawer } from "./EntityDetailDrawer"
-export { TaskDetailExample } from "./TaskDetailExample"
 export { DetailDrawerBody, DetailDrawerFooter } from "./Drawer.styled"
 export {
   CommentSection,
