@@ -17,11 +17,11 @@ export const Container = styled.div`
   & span {
     padding: 10px;
     transition: background 150ms;
-    color: token(colors.primary);
+    color: token(colors.foreground);
     border-radius: 5px;
 
     &:hover {
-      background: token(colors.secondaryBackground);
+      background: token(colors.surface);
     }
   }
 

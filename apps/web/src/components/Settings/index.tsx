@@ -14,7 +14,7 @@ const Section = styled.section`
   display: flex;
   max-width: token(sizes.maxWidth);
   margin: 0 20px;
-  font-family: token(fonts.NotoSans);
+  font-family: token(fonts.nativeFont);
   font-size: 1em;
 
   & > div {
@@ -22,6 +22,6 @@ const Section = styled.section`
   }
 
   & > h2 {
-    font-family: token(fonts.NotoSansBold);
+    font-family: token(fonts.nativeFont);
   }
 `

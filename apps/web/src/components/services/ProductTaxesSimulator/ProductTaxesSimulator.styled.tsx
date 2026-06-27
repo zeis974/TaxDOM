@@ -8,7 +8,7 @@ export const Section = styled.section`
   max-width: token(sizes.maxWidth);
   padding: 25px;
   margin: 0 auto;
-  background: token(colors.secondaryBackground);
+  background: token(colors.surface);
   border-radius: 10px;
 
   & > form {

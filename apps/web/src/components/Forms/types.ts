@@ -43,6 +43,8 @@ export type SelectCommonProps = {
 export type SelectStaticProps = SelectCommonProps & {
   options: SelectOption[]
   onSearch?: never
+  searchDebounceMs?: never
+  searchMinChars?: never
 }
 
 export type SelectDynamicProps = SelectCommonProps & {
@@ -56,9 +58,11 @@ export type SelectProps = (SelectStaticProps | SelectDynamicProps) & {
   name: FormLabel
 }
 
-export type SelectFieldProps = Omit<SelectCommonProps, never> & {
+export type SelectFieldProps = SelectCommonProps & {
   options?: SelectOption[]
   onSearch?: (query: string) => Promise<SelectOption[]>
+  searchDebounceMs?: number
+  searchMinChars?: number
   onFocus?: () => void
   noResultsMessage?: string
   name?: string

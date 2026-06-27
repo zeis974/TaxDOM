@@ -1,0 +1,26 @@
+<!-- intent-skills:start -->
+# Skill mappings - when working in these areas, load the linked skill file into context.
+skills:
+  - task: "TanStack Router core concepts (route trees, createRouter, route matching)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/SKILL.md"
+  - task: "Route protection and auth guards (beforeLoad, redirects, authenticated layouts)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/auth-and-guards/SKILL.md"
+  - task: "Automatic code splitting and lazy routes (.lazy.tsx, createLazyRoute)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/code-splitting/SKILL.md"
+  - task: "Route data loading patterns (loaders, loaderDeps, deferred, error handling)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/data-loading/SKILL.md"
+  - task: "Navigation primitives and Link/Navigate helpers (useNavigate, preloading)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/navigation/SKILL.md"
+  - task: "Not-found and error handling (notFound, errorComponent, CatchBoundary)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/not-found-and-errors/SKILL.md"
+  - task: "Dynamic path and param patterns ($params, splats, optional params)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/path-params/SKILL.md"
+  - task: "Search param validation and serialization (validateSearch, adapters)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/search-params/SKILL.md"
+  - task: "Server-side rendering and request handlers (renderRouterToString, RouterServer)"
+    load: "node_modules/@tanstack/router-core/skills/router-core/ssr/SKILL.md"
+  - task: "Type-safety patterns and getRouteApi typing guidance"
+    load: "node_modules/@tanstack/router-core/skills/router-core/type-safety/SKILL.md"
+  - task: "Router plugin for route generation and bundler integration (Vite, Webpack, esbuild)"
+    load: "apps/dashboard/node_modules/@tanstack/router-plugin/skills/router-plugin/SKILL.md"
+<!-- intent-skills:end -->

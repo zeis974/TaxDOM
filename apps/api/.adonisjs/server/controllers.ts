@@ -7,7 +7,6 @@ export const controllers = {
   CalculateParcel: () => import('#controllers/CalculateParcelController'),
   Categories: () => import('#controllers/CategoriesController'),
   CustomsNomenclatures: () => import('#controllers/CustomsNomenclaturesController'),
-  GetNomenclatureTaxes: () => import('#controllers/GetNomenclatureTaxesController'),
   GetProductTaxes: () => import('#controllers/GetProductTaxesController'),
   GetTemplates: () => import('#controllers/GetTemplatesController'),
   Origins: () => import('#controllers/OriginsController'),

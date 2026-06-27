@@ -13,7 +13,6 @@ export type ScannedRoutes = {
     'get_templates': { paramsTuple?: []; params?: {} }
     'territories.list': { paramsTuple?: []; params?: {} }
     'transporters.list': { paramsTuple?: []; params?: {} }
-    'get_nomenclature_taxes': { paramsTuple?: []; params?: {} }
     'categories.count': { paramsTuple?: []; params?: {} }
     'categories.with_stats': { paramsTuple?: []; params?: {} }
     'categories.index': { paramsTuple?: []; params?: {} }
@@ -38,7 +37,6 @@ export type ScannedRoutes = {
     'products.count': { paramsTuple?: []; params?: {} }
     'products.recent': { paramsTuple?: []; params?: {} }
     'products.distribution': { paramsTuple?: []; params?: {} }
-    'products.list_taxes': { paramsTuple?: []; params?: {} }
     'products.index': { paramsTuple?: []; params?: {} }
     'products.store': { paramsTuple?: []; params?: {} }
     'products.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
@@ -81,7 +79,6 @@ export type ScannedRoutes = {
     'products.count': { paramsTuple?: []; params?: {} }
     'products.recent': { paramsTuple?: []; params?: {} }
     'products.distribution': { paramsTuple?: []; params?: {} }
-    'products.list_taxes': { paramsTuple?: []; params?: {} }
     'products.index': { paramsTuple?: []; params?: {} }
     'products.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'territories.count': { paramsTuple?: []; params?: {} }
@@ -115,7 +112,6 @@ export type ScannedRoutes = {
     'products.count': { paramsTuple?: []; params?: {} }
     'products.recent': { paramsTuple?: []; params?: {} }
     'products.distribution': { paramsTuple?: []; params?: {} }
-    'products.list_taxes': { paramsTuple?: []; params?: {} }
     'products.index': { paramsTuple?: []; params?: {} }
     'products.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'territories.count': { paramsTuple?: []; params?: {} }
@@ -131,7 +127,6 @@ export type ScannedRoutes = {
     'resolve_product_taxes': { paramsTuple?: []; params?: {} }
     'scrape_product_url': { paramsTuple?: []; params?: {} }
     'calculate_parcel': { paramsTuple?: []; params?: {} }
-    'get_nomenclature_taxes': { paramsTuple?: []; params?: {} }
     'categories.store': { paramsTuple?: []; params?: {} }
     'customs_nomenclatures.trigger_sync': { paramsTuple?: []; params?: {} }
     'origins.store': { paramsTuple?: []; params?: {} }

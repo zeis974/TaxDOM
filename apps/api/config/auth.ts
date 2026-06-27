@@ -13,7 +13,7 @@ export const auth = betterAuth({
     schema: schema,
   }),
   basePath: "/auth",
-  trustedOrigins: [env.get("TRUSTED_ORIGIN_URL")],
+  trustedOrigins: [env.get("TRUSTED_APP_ORIGIN_URL"), env.get("TRUSTED_DASHBOARD_ORIGIN_URL")],
   account: {
     accountLinking: {
       trustedProviders: ["google"],

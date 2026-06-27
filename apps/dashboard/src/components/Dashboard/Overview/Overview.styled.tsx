@@ -1,7 +1,7 @@
 import { styled } from "@/panda/jsx"
 
 export const Container = styled.div`
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
 `
 
@@ -23,7 +23,7 @@ export const StatsGrid = styled.div`
 export const ContentGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: token(spacing.md);
 
   @media (max-width: 1024px) {
     grid-template-columns: 1fr;
@@ -33,11 +33,11 @@ export const ContentGrid = styled.div`
 export const LeftColumn = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 export const RightColumn = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: token(spacing.md);
 `

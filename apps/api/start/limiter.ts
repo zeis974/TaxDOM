@@ -34,3 +34,11 @@ export const getTemplatesThrottle = limiter.define("getTemplates", () => {
 export const transporterRulesThrottle = limiter.define("transporterRules", () => {
   return limiter.allowRequests(10).every("1 minute")
 })
+
+export const classifyUrlThrottle = limiter.define("classifyUrl", (ctx) => {
+  return limiter.allowRequests(5).every("1 minute").blockFor("5 mins").usingKey(ctx.request.ip())
+})
+
+export const classifyUrlDailyThrottle = limiter.define("classifyUrlDaily", (ctx) => {
+  return limiter.allowRequests(30).every("1 day").usingKey(ctx.request.ip())
+})

@@ -10,26 +10,17 @@ export const Nav = styled.nav`
   z-index: 1;
   padding: 10px 30px;
   height: 95px;
-  background: token(colors.background);
+  background: token(colors.bg);
 
   & > div:first-of-type {
     display: flex;
     position: relative;
 
     & > a {
-      color: token(colors.primary);
-      font-size: clamp(1.8em, 5vw, 2em);    
+      color: token(colors.foreground);
+      font-size: clamp(1.8em, 5vw, 2em);
       font-family: "Rowdies", serif;
       position: relative;
-
-      &::before {
-        content: "-Alpha";
-        bottom: -10px;
-        right: 0;
-        font-size: 0.5em;
-        position: absolute;
-        color: gray;
-      }  
     }
   }
 
