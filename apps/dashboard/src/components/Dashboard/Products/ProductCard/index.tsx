@@ -2,24 +2,24 @@ import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Product } from "@taxdom/types"
 import { useId, useMemo, useState } from "react"
 import {
-  ActionsGroup,
   Badge,
   CardInfo,
   crudHandlers,
-  DeleteButton,
   DetailIcon,
   DetailLabel,
   DetailList,
+  DetailMeta,
+  DetailMetaList,
   DetailRow,
-  DetailValue,
   DetailValueInput,
   DetailValueSelect,
   Divider,
   DrawerSection,
   DrawerSectionTitle,
   EntityCard,
+  EntityDetailDrawer,
   EntityDrawer,
-  ErrorContainer,
+  EntityDrawerActions,
   HeaderActionButton,
   StatusBadge,
   TimelineConnector,
@@ -32,7 +32,6 @@ import {
   TimelineItem,
   TimelineTitle,
 } from "@/components/shared"
-import Button from "@/components/ui/Button"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
 import { useProductFormOptions } from "@/hooks/useProductFormOptions"
 import { api } from "@/lib/api"
@@ -177,19 +176,20 @@ export default function ProductCard({ product, editable = false }: Props) {
     drawer.openDrawer()
   }
 
-  const handleOpenChange = (nextOpen: boolean) => {
-    if (nextOpen) drawer.setOpen(true)
-    else drawer.closeDrawer()
+  const handleDetailOpenChange = (nextOpen: boolean) => {
+    if (!nextOpen) drawer.closeDrawer()
+  }
+
+  const handleEditOpenChange = (nextOpen: boolean) => {
+    if (!nextOpen) {
+      resetForm()
+      drawer.closeDrawer()
+    }
   }
 
   const handleStartEditing = () => {
     resetForm()
     drawer.startEditing()
-  }
-
-  const handleCancelEditing = () => {
-    resetForm()
-    drawer.stopEditing()
   }
 
   const handleSave = () => {
@@ -222,62 +222,104 @@ export default function ProductCard({ product, editable = false }: Props) {
       </EntityCard>
 
       {editable && (
-        <EntityDrawer
-          open={drawer.open}
-          onOpenChange={handleOpenChange}
-          title={drawer.isEditing ? productName : product.productName}
-          subtitle={`Produit · #${product.productID}`}
-          headerActions={
-            !drawer.isEditing ? (
-              <HeaderActionButton
-                type="button"
-                onClick={handleStartEditing}
-                aria-label="Modifier"
-              >
+        <>
+          {/* Vue lecture */}
+          <EntityDetailDrawer
+            open={drawer.open && !drawer.isEditing}
+            onOpenChange={handleDetailOpenChange}
+            title={product.productName}
+            subtitle={`Produit · #${product.productID}`}
+            headerActions={
+              <HeaderActionButton type="button" onClick={handleStartEditing} aria-label="Modifier">
                 <PencilIcon />
               </HeaderActionButton>
-            ) : undefined
-          }
-          footer={
-            drawer.isEditing ? (
-              <>
-                <ErrorContainer>
-                  {drawer.deleteError && <span>{drawer.deleteError}</span>}
-                </ErrorContainer>
-                <ActionsGroup>
-                  <DeleteButton type="button" onClick={handleDelete} disabled={isBusy}>
-                    {drawer.isDeletingLocal ? "Suppression..." : "Supprimer"}
-                  </DeleteButton>
-                  <Button type="button" onClick={handleCancelEditing} disabled={isBusy}>
-                    Annuler
-                  </Button>
-                  <Button
-                    type="button"
-                    onClick={handleSave}
-                    disabled={!isFormValid || isBusy}
-                  >
-                    {updateMutation.isPending ? "Sauvegarde..." : "Sauvegarder"}
-                  </Button>
-                </ActionsGroup>
-              </>
-            ) : (
-              <>
-                {drawer.deleteError && (
-                  <ErrorContainer>
-                    <span>{drawer.deleteError}</span>
-                  </ErrorContainer>
-                )}
-                <ActionsGroup>
-                  <DeleteButton type="button" onClick={handleDelete} disabled={isBusy}>
-                    {drawer.isDeletingLocal ? "Suppression..." : "Supprimer"}
-                  </DeleteButton>
-                </ActionsGroup>
-              </>
-            )
-          }
-        >
-          <DetailList>
-            {drawer.isEditing && (
+            }
+          >
+            <DetailMetaList>
+              <DetailMeta icon={<TagIcon />} label="Catégorie">
+                {product.category.categoryName}
+              </DetailMeta>
+              <DetailMeta icon={<GlobeIcon />} label="Origine">
+                {product.origin.originName}
+                {product.origin.isEU && <StatusBadge active>UE</StatusBadge>}
+              </DetailMeta>
+              <DetailMeta icon={<MapIcon />} label="Territoire">
+                {product.territory.territoryName}
+              </DetailMeta>
+              <DetailMeta icon={<HashIcon />} label="ID">
+                {product.productID}
+              </DetailMeta>
+              <DetailMeta icon={<PercentIcon />} label="TVA">
+                {product.tax.tva}%
+              </DetailMeta>
+              <DetailMeta icon={<PercentIcon />} label="OM">
+                {product.tax.om}%
+              </DetailMeta>
+              <DetailMeta icon={<PercentIcon />} label="OMR">
+                {product.tax.omr}%
+              </DetailMeta>
+              <DetailMeta icon={<CalendarIcon />} label="Créé le">
+                {formatDateShort(product.createdAt)}
+              </DetailMeta>
+            </DetailMetaList>
+
+            <Divider />
+
+            <DrawerSection>
+              <DrawerSectionTitle>Historique</DrawerSectionTitle>
+              <TimelineContainer>
+                <TimelineItem>
+                  <TimelineIconWrapper>
+                    <TimelineIcon data-status="success">
+                      <CheckIcon />
+                    </TimelineIcon>
+                    <TimelineConnector />
+                  </TimelineIconWrapper>
+                  <TimelineContent>
+                    <TimelineTitle>Produit créé</TimelineTitle>
+                    <TimelineDescription>
+                      Le produit a été créé et enregistré dans le système.
+                    </TimelineDescription>
+                    <TimelineDate>{formatDate(product.createdAt)}</TimelineDate>
+                  </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                  <TimelineIconWrapper>
+                    <TimelineIcon data-status="info">
+                      <EditHistoryIcon />
+                    </TimelineIcon>
+                    <TimelineConnector />
+                  </TimelineIconWrapper>
+                  <TimelineContent>
+                    <TimelineTitle>Dernière modification</TimelineTitle>
+                    <TimelineDescription>
+                      Les informations du produit ont été mises à jour.
+                    </TimelineDescription>
+                    <TimelineDate>{formatDate(product.updatedAt)}</TimelineDate>
+                  </TimelineContent>
+                </TimelineItem>
+              </TimelineContainer>
+            </DrawerSection>
+          </EntityDetailDrawer>
+
+          {/* Mode édition */}
+          <EntityDrawer
+            open={drawer.isEditing}
+            onOpenChange={handleEditOpenChange}
+            title={productName}
+            subtitle={`Produit · #${product.productID}`}
+            footer={
+              <EntityDrawerActions
+                onDelete={handleDelete}
+                onSave={handleSave}
+                saving={updateMutation.isPending}
+                deleting={drawer.isDeletingLocal}
+                saveDisabled={!isFormValid || isBusy}
+                error={drawer.deleteError}
+              />
+            }
+          >
+            <DetailList>
               <DetailRow>
                 <DetailLabel>
                   <DetailIcon>
@@ -292,16 +334,14 @@ export default function ProductCard({ product, editable = false }: Props) {
                   onChange={(e) => setProductName(e.target.value.toUpperCase())}
                 />
               </DetailRow>
-            )}
 
-            <DetailRow>
-              <DetailLabel>
-                <DetailIcon>
-                  <TagIcon />
-                </DetailIcon>
-                Catégorie
-              </DetailLabel>
-              {drawer.isEditing ? (
+              <DetailRow>
+                <DetailLabel>
+                  <DetailIcon>
+                    <TagIcon />
+                  </DetailIcon>
+                  Catégorie
+                </DetailLabel>
                 <DetailValueSelect
                   value={categoryID}
                   onChange={(e) => setCategoryID(e.target.value)}
@@ -312,19 +352,15 @@ export default function ProductCard({ product, editable = false }: Props) {
                     </option>
                   ))}
                 </DetailValueSelect>
-              ) : (
-                <DetailValue>{product.category.categoryName}</DetailValue>
-              )}
-            </DetailRow>
+              </DetailRow>
 
-            <DetailRow>
-              <DetailLabel>
-                <DetailIcon>
-                  <GlobeIcon />
-                </DetailIcon>
-                Origine
-              </DetailLabel>
-              {drawer.isEditing ? (
+              <DetailRow>
+                <DetailLabel>
+                  <DetailIcon>
+                    <GlobeIcon />
+                  </DetailIcon>
+                  Origine
+                </DetailLabel>
                 <DetailValueSelect
                   value={originID}
                   onChange={(e) => setOriginID(e.target.value)}
@@ -335,22 +371,15 @@ export default function ProductCard({ product, editable = false }: Props) {
                     </option>
                   ))}
                 </DetailValueSelect>
-              ) : (
-                <DetailValue>
-                  {product.origin.originName}
-                  {product.origin.isEU && <StatusBadge active>UE</StatusBadge>}
-                </DetailValue>
-              )}
-            </DetailRow>
+              </DetailRow>
 
-            <DetailRow>
-              <DetailLabel>
-                <DetailIcon>
-                  <MapIcon />
-                </DetailIcon>
-                Territoire
-              </DetailLabel>
-              {drawer.isEditing ? (
+              <DetailRow>
+                <DetailLabel>
+                  <DetailIcon>
+                    <MapIcon />
+                  </DetailIcon>
+                  Territoire
+                </DetailLabel>
                 <DetailValueSelect
                   value={territoryID}
                   onChange={(e) => setTerritoryID(e.target.value)}
@@ -361,100 +390,10 @@ export default function ProductCard({ product, editable = false }: Props) {
                     </option>
                   ))}
                 </DetailValueSelect>
-              ) : (
-                <DetailValue>{product.territory.territoryName}</DetailValue>
-              )}
-            </DetailRow>
-
-            <DetailRow>
-              <DetailLabel>
-                <DetailIcon>
-                  <HashIcon />
-                </DetailIcon>
-                ID
-              </DetailLabel>
-              <DetailValue>{product.productID}</DetailValue>
-            </DetailRow>
-
-            <DetailRow>
-              <DetailLabel>
-                <DetailIcon>
-                  <PercentIcon />
-                </DetailIcon>
-                TVA
-              </DetailLabel>
-              <DetailValue>{product.tax.tva}%</DetailValue>
-            </DetailRow>
-
-            <DetailRow>
-              <DetailLabel>
-                <DetailIcon>
-                  <PercentIcon />
-                </DetailIcon>
-                OM
-              </DetailLabel>
-              <DetailValue>{product.tax.om}%</DetailValue>
-            </DetailRow>
-
-            <DetailRow>
-              <DetailLabel>
-                <DetailIcon>
-                  <PercentIcon />
-                </DetailIcon>
-                OMR
-              </DetailLabel>
-              <DetailValue>{product.tax.omr}%</DetailValue>
-            </DetailRow>
-
-            <DetailRow>
-              <DetailLabel>
-                <DetailIcon>
-                  <CalendarIcon />
-                </DetailIcon>
-                Créé le
-              </DetailLabel>
-              <DetailValue>{formatDateShort(product.createdAt)}</DetailValue>
-            </DetailRow>
-          </DetailList>
-
-          <Divider />
-
-          <DrawerSection>
-            <DrawerSectionTitle>Historique</DrawerSectionTitle>
-            <TimelineContainer>
-              <TimelineItem>
-                <TimelineIconWrapper>
-                  <TimelineIcon data-status="success">
-                    <CheckIcon />
-                  </TimelineIcon>
-                  <TimelineConnector />
-                </TimelineIconWrapper>
-                <TimelineContent>
-                  <TimelineTitle>Produit créé</TimelineTitle>
-                  <TimelineDescription>
-                    Le produit a été créé et enregistré dans le système.
-                  </TimelineDescription>
-                  <TimelineDate>{formatDate(product.createdAt)}</TimelineDate>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineIconWrapper>
-                  <TimelineIcon data-status="info">
-                    <EditHistoryIcon />
-                  </TimelineIcon>
-                  <TimelineConnector />
-                </TimelineIconWrapper>
-                <TimelineContent>
-                  <TimelineTitle>Dernière modification</TimelineTitle>
-                  <TimelineDescription>
-                    Les informations du produit ont été mises à jour.
-                  </TimelineDescription>
-                  <TimelineDate>{formatDate(product.updatedAt)}</TimelineDate>
-                </TimelineContent>
-              </TimelineItem>
-            </TimelineContainer>
-          </DrawerSection>
-        </EntityDrawer>
+              </DetailRow>
+            </DetailList>
+          </EntityDrawer>
+        </>
       )}
     </>
   )

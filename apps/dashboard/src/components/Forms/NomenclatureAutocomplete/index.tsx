@@ -13,9 +13,9 @@ const SuggestionsBox = styled.ul`
   top: calc(100% + 4px);
   left: 0;
   right: 0;
-  background: token(colors.secondaryBackground);
-  border: 1px solid token(colors.darkGray);
-  border-radius: 8px;
+  background: token(colors.surface);
+  border: 1px solid token(colors.surface);
+  border-radius: token(radii.md);
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.15);
   max-height: 240px;
   overflow-y: auto;
@@ -25,34 +25,34 @@ const SuggestionsBox = styled.ul`
 `
 
 const SuggestionItem = styled.li`
-  padding: 8px 12px;
+  padding: token(spacing.sm) 12px;
   border-radius: 6px;
   cursor: pointer;
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: token(spacing.sm);
   font-family: token(fonts.nativeFont);
 
   &:hover,
   &[data-highlighted="true"] {
-    background: token(colors.tertiaryBackground);
+    background: token(colors.surface);
   }
 `
 
 const SuggestionCode = styled.span`
-  font-size: 11px;
+  font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   background: rgba(14, 165, 233, 0.1);
   color: #0ea5e9;
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: token(radii.sm);
   flex-shrink: 0;
 `
 
 const SuggestionDescription = styled.span`
-  font-size: 12px;
-  color: token(colors.primary);
+  font-size: token(fontSizes.label-md);
+  color: token(colors.foreground);
   flex: 1;
   white-space: nowrap;
   overflow: hidden;
@@ -67,12 +67,12 @@ const ClearButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-  color: rgba(100, 116, 139, 0.7);
-  font-size: 16px;
+  color: token(colors.textMuted);
+  font-size: token(fontSizes.body-md);
   padding: 2px 4px;
   line-height: 1;
   &:hover {
-    color: token(colors.primary);
+    color: token(colors.foreground);
   }
 `
 

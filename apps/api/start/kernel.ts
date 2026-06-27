@@ -39,5 +39,6 @@ server.use([
 export const middleware = router.named({
   auth: () => import("#middleware/api_auth_middleware"),
   apiKey: () => import("#middleware/api_key_middleware"),
+  cache: () => import("#middleware/response_cache_middleware"),
   throttle: () => import("#middleware/rate_limit_middleware"),
 })

@@ -1,7 +1,7 @@
 import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
 import { BadRequestError } from "#exceptions/ServiceErrors"
-import type { OriginService } from "#services/OriginService"
+import { OriginService } from "#services/OriginService"
 import { createOriginValidator, updateOriginValidator } from "#validators/OriginValidator"
 
 @inject()

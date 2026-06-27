@@ -14,7 +14,7 @@ export type ConditionNodeType = Node<ConditionNodeData, "condition">
 
 const conditionConfig: Record<ConditionType, { label: string; color: string }> = {
   eu: { label: "Origine UE ?", color: "#3b82f6" },
-  individual: { label: "Particulier ?", color: "#3498db" },
+  individual: { label: "Particulier ?", color: "var(--colors-interactive)" },
   amount: { label: "Montant", color: "#06b6d4" },
 }
 
@@ -52,10 +52,10 @@ function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
         type="source"
         position={Position.Bottom}
         id="no"
-        style={{ left: "70%", background: "#ef4444" }}
+        style={{ left: "70%", background: "var(--colors-errorFg)" }}
       />
       <HandleLabel style={{ bottom: "-20px", left: "20%", color: "#22c55e" }}>Oui</HandleLabel>
-      <HandleLabel style={{ bottom: "-20px", left: "65%", color: "#ef4444" }}>Non</HandleLabel>
+      <HandleLabel style={{ bottom: "-20px", left: "65%", color: "var(--colors-errorFg)" }}>Non</HandleLabel>
     </ConditionNodeContainer>
   )
 }

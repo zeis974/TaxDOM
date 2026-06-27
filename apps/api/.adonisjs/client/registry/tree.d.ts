@@ -37,7 +37,6 @@ export interface ApiDefinition {
     update: typeof routes['transporters.update']
     destroy: typeof routes['transporters.destroy']
   }
-  getNomenclatureTaxes: typeof routes['get_nomenclature_taxes']
   categories: {
     count: typeof routes['categories.count']
     withStats: typeof routes['categories.with_stats']
@@ -60,7 +59,6 @@ export interface ApiDefinition {
     count: typeof routes['products.count']
     recent: typeof routes['products.recent']
     distribution: typeof routes['products.distribution']
-    listTaxes: typeof routes['products.list_taxes']
     index: typeof routes['products.index']
     store: typeof routes['products.store']
     show: typeof routes['products.show']

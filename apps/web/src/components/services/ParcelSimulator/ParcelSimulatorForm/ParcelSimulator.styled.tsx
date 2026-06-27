@@ -3,7 +3,7 @@ import { styled } from "@/panda/jsx"
 export const Container = styled.div`
   display: flex;
   height: 100%;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
 
   & form {
@@ -16,7 +16,7 @@ export const Container = styled.div`
       position: relative;
       height: 100%;
       padding: 20px;
-      background: token(colors.secondaryBackground);
+      background: token(colors.surface);
       border-radius: 10px;
 
       #captcha-container {

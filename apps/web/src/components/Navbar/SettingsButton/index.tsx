@@ -28,14 +28,14 @@ export const ButtonContainer = styled.div`
   align-items: center;
   height: 45px;
   padding: 5px;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   border-radius: 50%;
-  border: 2px solid token(colors.darkGray);
+  border: 2px solid token(colors.border);
   transition: border 150ms;
   cursor: pointer;
 
    &:hover {
-     border: 2px solid token(colors.primary);
+     border: 2px solid token(colors.foreground);
    }
 
    & > svg {

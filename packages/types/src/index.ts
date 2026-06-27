@@ -104,9 +104,6 @@ export type Product = {
     omr: number
   }
   nomenclatureCode?: string | null
-  tvaOverride?: number | null
-  omOverride?: number | null
-  omrOverride?: number | null
   createdAt: Date
   updatedAt: Date
 }

@@ -2,13 +2,13 @@ import { Link } from "@tanstack/react-router"
 import { styled } from "@/panda/jsx"
 
 export const Card = styled.div`
-  background: token(colors.secondaryBackground);
+  background: token(colors.surface);
   border-radius: token(radii.md);
-  padding: 16px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  border: 1px solid token(colors.tertiaryBackground);
+  gap: token(spacing.sm);
+  border: 1px solid token(colors.surface);
 `
 
 export const CardLink = styled(Link)`
@@ -38,12 +38,12 @@ export const CardLink = styled(Link)`
 export const CardContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: token(spacing.sm);
 `
 
 export const CardTitle = styled.h3`
   font-size: 0.875em;
-  color: token(colors.mutedText);
+  color: token(colors.surface);
   margin: 0;
   font-weight: 500;
   text-transform: uppercase;
@@ -53,7 +53,7 @@ export const CardTitle = styled.h3`
 export const CardValue = styled.p`
   font-size: 1.6em;
   font-weight: bold;
-  color: token(colors.primary);
+  color: token(colors.foreground);
   margin: 0;
   font-family: token(fonts.nativeFont);
 `

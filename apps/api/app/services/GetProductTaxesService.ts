@@ -1,7 +1,7 @@
 import logger from "@adonisjs/core/services/logger"
 import redis from "@adonisjs/redis/services/main"
 import type { ProductTaxesSimulatorResult } from "@taxdom/types"
-import { and, eq } from "drizzle-orm"
+import { and, eq, sql } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 
 import type * as schema from "#database/schema"
@@ -29,7 +29,7 @@ export class GetProductTaxesService {
   constructor(private db: DB) {}
 
   async getTaxesForProduct(input: ProductTaxesInput): Promise<ProductTaxesSimulatorResult> {
-    const productName = input.product
+    const productName = input.product.toUpperCase()
     const originName = input.origin.toUpperCase()
     const territoryName = input.territory.toUpperCase()
 
@@ -58,7 +58,7 @@ export class GetProductTaxesService {
       .innerJoin(territories, eq(products.territoryID, territories.territoryID))
       .where(
         and(
-          eq(products.productName, productName),
+          sql`upper(${products.productName}) = ${productName}`,
           eq(origins.originName, originName),
           eq(origins.available, true),
           eq(territories.territoryName, territoryName),

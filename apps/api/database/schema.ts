@@ -5,6 +5,7 @@ import {
   decimal,
   index,
   integer,
+  jsonb,
   pgTable,
   primaryKey,
   smallint,
@@ -69,9 +70,6 @@ export const products = pgTable(
       .references(() => territories.territoryID, { onDelete: "restrict", onUpdate: "cascade" }),
     available: boolean("available").notNull().default(true),
     nomenclatureCode: varchar("nomenclature_code", { length: 10 }),
-    tvaOverride: decimal("tva_override", { precision: 6, scale: 4 }),
-    omOverride: decimal("om_override", { precision: 6, scale: 4 }),
-    omrOverride: decimal("omr_override", { precision: 6, scale: 4 }),
     createdAt: timestamp("created_at", { mode: "date" }).defaultNow(),
     updatedAt: timestamp("updated_at", { mode: "date" })
       .defaultNow()
@@ -181,3 +179,81 @@ export const ritaSyncRuns = pgTable("rita_sync_runs", {
   status: varchar("status", { length: 20 }).notNull().default("running"),
   errorMessage: text("error_message"),
 })
+
+export const transporterFlowNodes = pgTable(
+  "transporter_flow_nodes",
+  {
+    nodeID: uuid("node_id").primaryKey().default(sql`uuidv7()`),
+    transporterID: uuid("transporter_id")
+      .notNull()
+      .references(() => transporters.transporterID, { onDelete: "cascade", onUpdate: "cascade" }),
+    nodeType: varchar("node_type", { length: 20 }).notNull(),
+    positionX: integer("position_x").notNull(),
+    positionY: integer("position_y").notNull(),
+    nodeData: jsonb("node_data").notNull().default({}),
+  },
+  (table) => [index("flow_nodes_transporterID_idx").on(table.transporterID)],
+)
+
+export const transporterFlowEdges = pgTable(
+  "transporter_flow_edges",
+  {
+    edgeID: uuid("edge_id").primaryKey().default(sql`uuidv7()`),
+    transporterID: uuid("transporter_id")
+      .notNull()
+      .references(() => transporters.transporterID, { onDelete: "cascade", onUpdate: "cascade" }),
+    sourceNodeID: uuid("source_node_id")
+      .notNull()
+      .references(() => transporterFlowNodes.nodeID, { onDelete: "cascade", onUpdate: "cascade" }),
+    targetNodeID: uuid("target_node_id")
+      .notNull()
+      .references(() => transporterFlowNodes.nodeID, { onDelete: "cascade", onUpdate: "cascade" }),
+    sourceHandle: varchar("source_handle", { length: 10 }),
+    edgeLabel: varchar("edge_label"),
+  },
+  (table) => [index("flow_edges_transporterID_idx").on(table.transporterID)],
+)
+
+export const transporterFeeRules = pgTable(
+  "transporter_fee_rules",
+  {
+    ruleID: uuid("rule_id").primaryKey().default(sql`uuidv7()`),
+    transporterID: uuid("transporter_id")
+      .notNull()
+      .references(() => transporters.transporterID, { onDelete: "cascade", onUpdate: "cascade" }),
+    minAmount: decimal("min_amount", { precision: 12, scale: 2 }),
+    maxAmount: decimal("max_amount", { precision: 12, scale: 2 }),
+    isIndividual: boolean("is_individual"),
+    originIsEU: boolean("origin_is_eu"),
+    fee: decimal("fee", { precision: 12, scale: 2 }).notNull(),
+    priority: integer("priority").notNull().default(0),
+  },
+  (table) => [index("fee_rules_transporterID_idx").on(table.transporterID)],
+)
+
+export const TransportersRelations = relations(transporters, ({ many }) => ({
+  flowNodes: many(transporterFlowNodes),
+  flowEdges: many(transporterFlowEdges),
+  feeRules: many(transporterFeeRules),
+}))
+
+export const TransporterFlowNodesRelations = relations(transporterFlowNodes, ({ one }) => ({
+  transporter: one(transporters, {
+    fields: [transporterFlowNodes.transporterID],
+    references: [transporters.transporterID],
+  }),
+}))
+
+export const TransporterFlowEdgesRelations = relations(transporterFlowEdges, ({ one }) => ({
+  transporter: one(transporters, {
+    fields: [transporterFlowEdges.transporterID],
+    references: [transporters.transporterID],
+  }),
+}))
+
+export const TransporterFeeRulesRelations = relations(transporterFeeRules, ({ one }) => ({
+  transporter: one(transporters, {
+    fields: [transporterFeeRules.transporterID],
+    references: [transporters.transporterID],
+  }),
+}))
