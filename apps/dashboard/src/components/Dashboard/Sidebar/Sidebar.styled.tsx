@@ -13,12 +13,12 @@ export const Container = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 16px;
 
   & > div:first-child {
     display: inherit;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
   }
 `
 
@@ -46,7 +46,10 @@ export const List = styled.ul`
       line-height: 1;
       width: 100%;
       height: 100%;
-      padding: 10px;
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-weight: 500;
+      transition: background 150ms ease;
     }
 
     &:hover {
@@ -66,8 +69,8 @@ export const UserContainer = styled.div`
 `
 
 export const Avatar = styled.div`
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background: token(colors.foreground);
   display: flex;
@@ -138,6 +141,13 @@ export const LogoutButton = styled.button`
 
   &:active {
     opacity: 0.5;
+  }
+
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
+    border-radius: 6px;
+    opacity: 1;
   }
 
   &:disabled {

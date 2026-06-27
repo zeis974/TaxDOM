@@ -20,7 +20,7 @@ export const ButtonStyled = styled.button`
   }
 
   &[data-variant="primary"]:hover {
-    filter: brightness(1.1);
+    background: token(colors.secondaryBackground);
   }
 
   &[data-variant="outline"] {
@@ -32,6 +32,31 @@ export const ButtonStyled = styled.button`
   &[data-variant="outline"]:hover {
     background: token(colors.surface);
     border-color: token(colors.foreground);
+  }
+
+  &[data-variant="danger"] {
+    background: token(colors.danger);
+    color: token(colors.dangerFg);
+    border-color: transparent;
+  }
+
+  &[data-variant="danger"]:hover {
+    background: token(colors.dangerHover);
+  }
+
+  &[data-variant="publish"] {
+    background: token(colors.primary);
+    color: token(colors.background);
+    border-color: transparent;
+  }
+
+  &[data-variant="publish"]:hover {
+    opacity: 0.9;
+  }
+
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
   }
 
   &[disabled],

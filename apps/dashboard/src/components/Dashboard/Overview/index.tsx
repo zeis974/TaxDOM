@@ -47,10 +47,10 @@ export default function Overview({
   return (
     <Container>
       <StatsGrid>
-        <StatsCard title="Produits" value={stats.products_count} />
-        <StatsCard title="Catégories" value={stats.categories_count} />
-        <StatsCard title="Origines" value={stats.origins_count} />
-        <StatsCard title="Territoires" value={stats.territories_count} />
+        <StatsCard title="Produits" value={stats.products_count} to="/products" />
+        <StatsCard title="Catégories" value={stats.categories_count} to="/categories" />
+        <StatsCard title="Origines" value={stats.origins_count} to="/origins" />
+        <StatsCard title="Territoires" value={stats.territories_count} to="/territories" />
       </StatsGrid>
       <ContentGrid>
         <LeftColumn>
