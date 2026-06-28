@@ -3,7 +3,7 @@ import { styled } from "@/panda/jsx"
 export const PanelContainer = styled.div`
   width: 320px;
   border-left: 1px solid token(colors.border);
-  background: token(colors.bg);
+  background: token(colors.background);
   overflow-y: auto;
   padding: token(spacing.md);
   font-family: token(fonts.nativeFont);
@@ -64,7 +64,7 @@ export const PaletteTitle = styled.h4`
 
 export const PaletteItem = styled.div`
   padding: 10px 16px;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border: 1px solid token(colors.border);
   border-radius: token(radii.md);
   cursor: grab;

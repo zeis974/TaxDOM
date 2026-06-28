@@ -16,7 +16,7 @@ export const Container = styled.div`
       position: relative;
       height: 100%;
       padding: 20px;
-      background: token(colors.surface);
+      background: token(colors.elevated);
       border-radius: 10px;
 
       #captcha-container {

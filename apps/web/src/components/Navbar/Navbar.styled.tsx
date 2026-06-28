@@ -13,7 +13,7 @@ export const Nav = styled.nav`
     position: relative;
 
     & > a {
-      color: var(--primary-color);
+      color: token(colors.primary);
       font-size: clamp(1.4em, 5vw, 2em);    
       font-family: token(fonts.rowdies);
       position: relative;
@@ -24,7 +24,7 @@ export const Nav = styled.nav`
         right: 0;
         font-size: 0.5em;
         position: absolute;
-        color: gray;
+        color: token(colors.textMuted);
       }  
     }
   }

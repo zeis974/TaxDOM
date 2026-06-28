@@ -1,6 +1,7 @@
 import type { ConditionOperator, ConditionType } from "@taxdom/types"
 import { Handle, type Node, type NodeProps, Position } from "@xyflow/react"
 import type { ReactNode } from "react"
+import { token } from "@/panda/tokens"
 import { ConditionNodeContainer, HandleLabel, NodeLabel, NodeValue } from "../RulesFlow.styled"
 
 export type ConditionNodeData = {
@@ -13,9 +14,9 @@ export type ConditionNodeData = {
 export type ConditionNodeType = Node<ConditionNodeData, "condition">
 
 const conditionConfig: Record<ConditionType, { label: string; color: string }> = {
-  eu: { label: "Origine UE ?", color: "#3b82f6" },
+  eu: { label: "Origine UE ?", color: token("colors.primaryHover") },
   individual: { label: "Particulier ?", color: "var(--colors-interactive)" },
-  amount: { label: "Montant", color: "#06b6d4" },
+  amount: { label: "Montant", color: token("colors.primary") },
 }
 
 const operatorLabels: Record<ConditionOperator, string> = {
@@ -41,12 +42,12 @@ function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
     <ConditionNodeContainer data-orphaned={isOrphaned} style={{ borderColor: config.color }}>
       <NodeLabel>{config.label}</NodeLabel>
       {getConditionDisplay() && <NodeValue>{getConditionDisplay()}</NodeValue>}
-      <Handle type="target" position={Position.Top} style={{ background: "#555" }} />
+      <Handle type="target" position={Position.Top} style={{ background: token("colors.textMuted") }} />
       <Handle
         type="source"
         position={Position.Bottom}
         id="yes"
-        style={{ left: "30%", background: "#22c55e" }}
+        style={{ left: "30%", background: token("colors.successFg") }}
       />
       <Handle
         type="source"
@@ -54,7 +55,7 @@ function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
         id="no"
         style={{ left: "70%", background: "var(--colors-errorFg)" }}
       />
-      <HandleLabel style={{ bottom: "-20px", left: "20%", color: "#22c55e" }}>Oui</HandleLabel>
+      <HandleLabel style={{ bottom: "-20px", left: "20%", color: token("colors.successFg") }}>Oui</HandleLabel>
       <HandleLabel style={{ bottom: "-20px", left: "65%", color: "var(--colors-errorFg)" }}>Non</HandleLabel>
     </ConditionNodeContainer>
   )

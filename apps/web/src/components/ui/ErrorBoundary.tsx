@@ -1,6 +1,7 @@
 "use client"
 
 import React, { type ErrorInfo } from "react"
+import { token } from "@/panda/tokens"
 
 interface ErrorBoundaryProps {
   fallback?: React.ReactNode
@@ -53,10 +54,10 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
         <div
           style={{
             padding: "20px",
-            border: "1px solid #ff6b6b",
+            border: `1px solid ${token("colors.errorFg")}`,
             borderRadius: "8px",
-            backgroundColor: "#fff5f5",
-            color: "#c92a2a",
+            backgroundColor: token("colors.errorBg"),
+            color: token("colors.errorFg"),
             margin: "16px 0",
           }}
         >
@@ -65,15 +66,15 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
           <button
             type="button"
             onClick={() => this.setState({ hasError: false, error: undefined })}
-            style={{
-              padding: "8px 16px",
-              backgroundColor: "#ff6b6b",
-              color: "white",
-              border: "none",
-              borderRadius: "4px",
-              cursor: "pointer",
-              marginTop: "8px",
-            }}
+              style={{
+                padding: "8px 16px",
+                backgroundColor: token("colors.errorFg"),
+                color: token("colors.background"),
+                border: "none",
+                borderRadius: "4px",
+                cursor: "pointer",
+                marginTop: "8px",
+              }}
           >
             Réessayer
           </button>

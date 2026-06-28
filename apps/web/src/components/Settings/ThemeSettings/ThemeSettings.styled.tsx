@@ -17,7 +17,7 @@ export const Container = styled.div`
     & p {
       font-family: token(fonts.nativeFont);
       margin: 20px 0;
-      color: gray;
+      color: token(colors.textMuted);
     }
   }
 `

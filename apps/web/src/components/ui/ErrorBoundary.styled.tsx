@@ -2,10 +2,10 @@ import { styled } from "@/panda/jsx"
 
 export const ErrorContainer = styled.div`
   padding: 20px;
-  border: 1px solid #ff6b6b;
-  border-radius: 8px;
-  background-color: #fff5f5;
-  color: #c92a2a;
+  border: 1px solid token(colors.errorFg);
+  border-radius: token(radii.md);
+  background-color: token(colors.errorBg);
+  color: token(colors.errorFg);
   margin: 16px 0;
 `
 
@@ -19,10 +19,10 @@ export const ErrorMessage = styled.p`
 
 export const RetryButton = styled.button`
   padding: 8px 16px;
-  background-color: #ff6b6b;
-  color: white;
+  background-color: token(colors.errorFg);
+  color: token(colors.background);
   border: none;
-  border-radius: 4px;
+  border-radius: token(radii.sm);
   cursor: pointer;
   margin-top: 8px;
 

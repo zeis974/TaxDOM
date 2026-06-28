@@ -1,4 +1,5 @@
 import { Handle, type Node, type NodeProps, Position } from "@xyflow/react"
+import { token } from "@/panda/tokens"
 import { FeeNodeContainer, NodeLabel, NodeValue } from "../RulesFlow.styled"
 
 export type FeeNodeData = { label?: string; fee?: number; isOrphaned?: boolean }
@@ -8,7 +9,7 @@ function FeeNode({ data }: NodeProps<FeeNodeType>) {
   const isOrphaned = data.isOrphaned ?? false
 
   return (
-    <FeeNodeContainer data-orphaned={isOrphaned} style={{ borderColor: "#f97316" }}>
+    <FeeNodeContainer data-orphaned={isOrphaned} style={{ borderColor: token("colors.warningFg") }}>
       <NodeLabel>
         <svg
           viewBox="0 0 24 24"
@@ -23,7 +24,7 @@ function FeeNode({ data }: NodeProps<FeeNodeType>) {
         {data.label || "Frais"}
       </NodeLabel>
       {data.fee !== undefined && <NodeValue>{data.fee}€</NodeValue>}
-      <Handle type="target" position={Position.Top} style={{ background: "#555" }} />
+      <Handle type="target" position={Position.Top} style={{ background: token("colors.textMuted") }} />
     </FeeNodeContainer>
   )
 }

@@ -3,6 +3,7 @@ import { useVirtualizer } from "@tanstack/react-virtual"
 import type React from "react"
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { toast } from "sonner"
+import { token } from "@/panda/tokens"
 import { useNomenclatureSearch } from "@/hooks/useNomenclatureSearch"
 import { useOutsideClick } from "@/hooks/useOutsideClick"
 import { Route } from "@/routes/_dashboard-layout/customs-tree"
@@ -336,7 +337,7 @@ export default function CustomsTree() {
         <ChapterList role="listbox" aria-label="Liste des chapitres SH">
           {chaptersLoading && <ChapterListSkeleton />}
           {!chaptersLoading && chapters.length === 0 && (
-            <li style={{ padding: "12px 10px", fontSize: 13, color: "rgba(100,116,139,0.7)" }}>
+            <li style={{ padding: "12px 10px", fontSize: 13, color: token("colors.textMuted") }}>
               Aucune donnée — lancez une synchronisation RITA
             </li>
           )}

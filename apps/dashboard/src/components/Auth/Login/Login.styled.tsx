@@ -36,14 +36,14 @@ export const LogoCircle = styled.div`
   border-radius: token(radii.full);
   background-color: token(colors.border);
   border: 4px solid;
-  border-color: token(colors.surface);
+  border-color: token(colors.elevated);
 `
 
 export const BrandName = styled.span`
   font-size: 1.25rem;
   font-weight: 600;
   color: token(colors.foreground);
-  font-family: token(fonts.nativeFont);
+  font-family: token(fonts.rowdies);
   letter-spacing: tight;
 `
 
@@ -90,28 +90,28 @@ export const Button = styled.button`
   gap: 0.75rem;
   width: 100%;
   padding: 0.875rem 1rem;
-  background-color: token(colors.bg);
+  background-color: token(colors.background);
   border: 1px solid;
-  border-color: token(colors.surface);
+  border-color: token(colors.elevated);
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
   color: token(colors.foreground);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 token(colors.shadow);
 
   &:hover {
-    background-color: token(colors.surface);
+    background-color: token(colors.elevated);
     border-color: token(colors.textMuted);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px -1px token(colors.shadow);
     transform: translateY(-1px);
   }
 
   &:active {
     transform: translateY(0);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    background-color: token(colors.surface);
+    box-shadow: 0 1px 2px 0 token(colors.shadow);
+    background-color: token(colors.elevated);
   }
 
   &:disabled {
@@ -143,7 +143,7 @@ export const Icon = styled.svg`
 // export const DividerLine = styled.div`
 //   flex: 1;
 //   height: 1px;
-//   background-color: token(colors.surface);
+//   background-color: token(colors.elevated);
 // `
 
 // export const DividerText = styled.span`
@@ -195,6 +195,6 @@ export const RightTitle = styled.h2`
 
 export const RightSubtitle = styled.p`
   font-size: 1.125rem;
-  /* color: token(colors.gray); */
+  /* color: token(colors.textMuted); */
   line-height: 1.6;
 `

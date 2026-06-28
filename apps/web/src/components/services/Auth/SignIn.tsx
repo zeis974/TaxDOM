@@ -48,7 +48,7 @@ const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border: none;
   padding: 10px 20px;
   border-radius: token(radii.lg);
@@ -59,7 +59,7 @@ const Button = styled.button`
 
   &:hover {
     background: transparent;
-    border: 2px solid token(colors.surface);
+    border: 2px solid token(colors.elevated);
   }
 
   & span {

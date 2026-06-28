@@ -14,13 +14,13 @@ export const InputContainer = styled.div`
     user-select: none;
 
     & > span {
-      color: token(colors.error);
+      color: token(colors.errorFg);
       font-size: 0.8em;
     }
 
     &:has(span) {
       & ~ input {
-        border: 2px solid red;
+        border: 2px solid token(colors.errorFg);
       }
     }
   }
@@ -28,8 +28,8 @@ export const InputContainer = styled.div`
   & > input {
     outline: none;
     height: 35px;
-    border-radius: 5px;
-    background: token(colors.surface);
+    border-radius: token(radii.md);
+    background: token(colors.elevated);
     border: 2px solid transparent;
     padding: 5px;
     font-family: inherit;

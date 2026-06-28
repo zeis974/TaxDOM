@@ -1,4 +1,5 @@
 import type { TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
+import { token } from "@/panda/tokens"
 import {
   Background,
   BackgroundVariant,
@@ -42,7 +43,7 @@ const nodeTypes: NodeTypes = { start: StartNode, condition: ConditionNode, fee: 
 
 function FlowErrorFallback() {
   return (
-    <div style={{ padding: "40px", textAlign: "center", color: "#6b7280" }}>
+    <div style={{ padding: "40px", textAlign: "center", color: token("colors.textMuted") }}>
       <h3>Le constructeur de flux a rencontré une erreur</h3>
       <p>Veuillez recharger la page.</p>
     </div>
@@ -192,22 +193,22 @@ function RulesFlowEditorInner({
             fitView
             fitViewOptions={{ padding: 0.3 }}
           >
-            <Background variant={BackgroundVariant.Dots} color="#e5e7eb" gap={18} size={1} />
+            <Background variant={BackgroundVariant.Dots} color={token("colors.elevated")} gap={18} size={1} />
             <Controls />
             <MiniMap
               nodeColor={(node) => {
                 switch (node.type) {
                   case "start":
-                    return "#22c55e"
+                    return token("colors.successFg")
                   case "condition":
-                    return "#3b82f6"
+                    return token("colors.primaryHover")
                   case "fee":
-                    return "#f97316"
+                    return token("colors.warningFg")
                   default:
-                    return "#9ca3af"
+                    return token("colors.textMuted")
                 }
               }}
-              maskColor="rgba(0, 0, 0, 0.1)"
+              maskColor={token("colors.shadow")}
               style={{ borderRadius: "8px" }}
             />
           </ReactFlow>

@@ -27,13 +27,13 @@ export const keyframes = defineKeyframes({
   },
   skeleton: {
     "0%": {
-      background: "#f0f0f0",
+      background: "var(--colors-elevated)",
     },
     "50%": {
-      background: "#bababa",
+      background: "var(--colors-border)",
     },
     "100%": {
-      background: "#f0f0f0",
+      background: "var(--colors-elevated)",
     },
   },
   "skeleton-shimmer": {

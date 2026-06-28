@@ -1,6 +1,7 @@
 import type { ConditionOperator, ConditionType } from "@taxdom/types"
 import type { Node } from "@xyflow/react"
 import { useState } from "react"
+import { token } from "@/panda/tokens"
 import Button from "@/components/ui/Button"
 import {
   NodeEditorActions,
@@ -104,7 +105,7 @@ export function NodeEditor({ node, onUpdate, onDelete }: NodeEditorProps) {
           <Button
             type="button"
             onClick={() => onDelete(node.id)}
-            style={{ background: "#fee2e2", color: "#991b1b" }}
+            style={{ background: token("colors.errorBg"), color: token("colors.errorFg") }}
           >
             Supprimer
           </Button>

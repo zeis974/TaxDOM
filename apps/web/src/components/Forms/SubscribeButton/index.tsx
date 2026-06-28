@@ -31,8 +31,8 @@ const StyledButton = styled.button`
   cursor: pointer;
   font-weight: bold;
   transition: 150ms;
-  background: ${token("colors.surface")};
-  border-radius: 5px;
+  background: ${token("colors.elevated")};
+  border-radius: ${token("radii.sm")};
   border: 2px solid transparent;
 
     & > svg {
@@ -42,7 +42,7 @@ const StyledButton = styled.button`
 
   &:hover:not([disabled]),
   &:hover:not([aria-disabled]) {
-    border: 2px solid token("colors.surface");
+    border: 2px solid token("colors.elevated");
     background: none;
   }
 

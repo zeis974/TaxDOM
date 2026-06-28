@@ -4,7 +4,7 @@ export const LoadingCircle = styled.div`
   position: absolute;
   right: 9px;
   bottom: 8px;
-  border: 2px solid #3498db;
+  border: 2px solid token(colors.primary);
   border-top: 2px solid transparent;
   border-radius: 50%;
   width: 20px;
@@ -16,16 +16,17 @@ export const LoadingCircle = styled.div`
 
 export const OptionContainer = styled.ul`
   width: 100%;
-  border-radius: 5px;
+  border-radius: token(radii.sm);
   top: calc(100% + 5px);
   z-index: 1;
   position: absolute;
   border: 2px solid token(colors.border);
-  background: token(colors.surface);
+  background: token(colors.elevated);
 
   & > li[data-selected="true"],
   & > div > li[data-selected="true"] {
-    background: #77b4dc;
+    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+    color: token(colors.primaryHover);
   }
 
   & > li,
