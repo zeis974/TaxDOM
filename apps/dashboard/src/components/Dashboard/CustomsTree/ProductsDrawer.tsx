@@ -38,9 +38,9 @@ const Panel = styled.aside`
   inset: 0 0 0 auto;
   width: min(440px, 100vw);
   height: 100vh;
-  background: token(colors.bg);
+  background: token(colors.background);
   border-left: 1px solid token(colors.border);
-  box-shadow: -24px 0 60px rgba(15, 23, 42, 0.22);
+  box-shadow: -24px 0 60px token(colors.shadow);
   display: flex;
   flex-direction: column;
   z-index: 50;
@@ -78,7 +78,7 @@ const Subtitle = styled.span`
 `
 
 const CloseBtn = styled.button`
-  background: rgba(226, 232, 240, 0.6);
+  background: token(colors.elevated);
   border: none;
   border-radius: token(radii.full);
   width: 36px;
@@ -88,9 +88,9 @@ const CloseBtn = styled.button`
   align-items: center;
   justify-content: center;
   font-size: token(fontSizes.headline-md);
-  color: rgba(30, 41, 59, 0.8);
+  color: token(colors.foreground);
   flex-shrink: 0;
-  &:hover { background: rgba(226, 232, 240, 0.9); }
+  &:hover { background: token(colors.elevated); }
 `
 
 const Body = styled.div`
@@ -108,8 +108,8 @@ const ProductRow = styled.div`
   gap: 10px;
   padding: 12px 14px;
   border-radius: token(radii.md);
-  background: token(colors.surface);
-  border: 1px solid token(colors.surface);
+  background: token(colors.elevated);
+  border: 1px solid token(colors.elevated);
 `
 
 const ProductName = styled.span`
@@ -126,7 +126,7 @@ const ProductName = styled.span`
 const ProductCode = styled.span`
   font-size: 10px;
   font-weight: 700;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   padding: 2px 6px;
   border-radius: token(radii.sm);
   flex-shrink: 0;
@@ -135,8 +135,8 @@ const ProductCode = styled.span`
 
 const CategoryBadge = styled.span`
   font-size: token(fontSizes.label-md);
-  background: #f3e8ff;
-  color: #7c3aed;
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  color: token(colors.primary);
   padding: 2px 8px;
   border-radius: token(radii.full);
   font-weight: 600;

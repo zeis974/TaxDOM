@@ -1,4 +1,5 @@
 import type { TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
+import { token } from "@/panda/tokens"
 import {
   Background,
   BackgroundVariant,
@@ -123,16 +124,16 @@ function RulesFlowInner({
               nodeColor={(node) => {
                 switch (node.type) {
                   case "start":
-                    return "#22c55e"
+                    return token("colors.successFg")
                   case "condition":
-                    return "#3b82f6"
+                    return token("colors.primaryHover")
                   case "fee":
-                    return "#f97316"
+                    return token("colors.warningFg")
                   default:
-                    return "#9ca3af"
+                    return token("colors.textMuted")
                 }
               }}
-              maskColor="rgba(0, 0, 0, 0.1)"
+              maskColor={token("colors.shadow")}
               style={{ borderRadius: "8px" }}
             />
           </ReactFlow>

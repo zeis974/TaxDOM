@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { token } from "@/panda/tokens"
 import {
   CalendarIcon,
   CategoryIcon,
@@ -90,7 +91,7 @@ export function TaskDetailExample() {
           <Subtask
             title="Review Curriculum Requirements"
             badge={<StatusPillButton type="doing">Doing</StatusPillButton>}
-            borderColor="#a78bfa"
+            borderColor={token("colors.primary")}
           >
             <DetailMetaList>
               <DetailMeta icon={<span title="Priority"><PriorityIcon /></span>}>
@@ -112,7 +113,7 @@ export function TaskDetailExample() {
               id: "1",
               author: "Lydia Workman",
               initials: "L",
-              avatarColor: "#16a34a",
+              avatarColor: token("colors.successFg"),
               date: "14 Apr 2025, 12:15 PM",
               text: "Candidate presents herself professionally with a clear passion for employee development. Articulate, confident, and well-prepared.",
             },
@@ -120,7 +121,7 @@ export function TaskDetailExample() {
               id: "2",
               author: "Ahmad Zainy",
               initials: "A",
-              avatarColor: "#3498db",
+              avatarColor: token("colors.primary"),
               date: "14 Apr 2025, 11:25 PM",
               text: "Great progress on the curriculum review. Let’s sync tomorrow.",
             },

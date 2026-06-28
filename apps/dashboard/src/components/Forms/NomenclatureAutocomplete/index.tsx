@@ -1,5 +1,6 @@
 import { useId, useRef, useState } from "react"
 import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { useNomenclatureSearch } from "@/hooks/useNomenclatureSearch"
 
@@ -13,10 +14,10 @@ const SuggestionsBox = styled.ul`
   top: calc(100% + 4px);
   left: 0;
   right: 0;
-  background: token(colors.surface);
-  border: 1px solid token(colors.surface);
+  background: token(colors.elevated);
+  border: 1px solid token(colors.elevated);
   border-radius: token(radii.md);
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.15);
+  box-shadow: 0 8px 24px token(colors.shadow);
   max-height: 240px;
   overflow-y: auto;
   list-style: none;
@@ -35,7 +36,7 @@ const SuggestionItem = styled.li`
 
   &:hover,
   &[data-highlighted="true"] {
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 `
 
@@ -43,8 +44,8 @@ const SuggestionCode = styled.span`
   font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  background: rgba(14, 165, 233, 0.1);
-  color: #0ea5e9;
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  color: token(colors.primary);
   padding: 2px 6px;
   border-radius: token(radii.sm);
   flex-shrink: 0;
@@ -179,7 +180,7 @@ export default function NomenclatureAutocomplete({
         )}
       </Wrapper>
       {hint && (
-        <span style={{ fontSize: "11px", color: "rgba(100,116,139,0.7)", marginTop: "4px" }}>
+        <span style={{ fontSize: "11px", color: token("colors.textMuted"), marginTop: "4px" }}>
           {hint}
         </span>
       )}
