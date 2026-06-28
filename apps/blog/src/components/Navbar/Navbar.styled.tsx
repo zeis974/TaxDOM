@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   z-index: 1;
   padding: 10px 30px;
   height: 95px;
-  background: token(colors.bg);
+  background: token(colors.background);
 
   & > div:first-of-type {
     display: flex;
@@ -19,7 +19,7 @@ export const Nav = styled.nav`
     & > a {
       color: token(colors.foreground);
       font-size: clamp(1.8em, 5vw, 2em);
-      font-family: "Rowdies", serif;
+      font-family: token(fonts.rowdies);
       position: relative;
     }
   }
@@ -35,7 +35,7 @@ export const ThemeSwitcher = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: Arial, sans-serif;
+  font-family: token(fonts.nativeFont);
 
   & input[type="checkbox"] {
     position: relative;
@@ -43,14 +43,14 @@ export const ThemeSwitcher = styled.div`
     height: 25px;
     -webkit-appearance: none;
     appearance: none;
-    background: #ccc;
+    background: token(colors.border);
     outline: none;
     border-radius: 25px;
     cursor: pointer;
     transition: background 0.3s ease;
 
     &:checked {
-      background: #4caf50;
+      background: token(colors.successFg);
 
       &::before {
         transform: translateX(25px);
@@ -64,7 +64,7 @@ export const ThemeSwitcher = styled.div`
       height: 21px;
       top: 2px;
       left: 2px;
-      background: white;
+      background: token(colors.background);
       border-radius: 50%;
       transition: transform 0.3s ease;
     }
