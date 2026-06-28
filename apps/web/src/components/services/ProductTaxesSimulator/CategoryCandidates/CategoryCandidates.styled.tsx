@@ -51,18 +51,18 @@ export const Card = styled.button`
   padding: 12px 14px;
   border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
-  background: token(colors.bg);
+  background: token(colors.background);
   cursor: pointer;
   transition: border-color 0.15s ease;
 
   & > strong {
     font-size: 0.98rem;
     font-weight: 600;
-    color: token(colors.text);
+    color: token(colors.foreground);
   }
 
   &:hover {
-    border-color: #f3e8ff;
+    border-color: color-mix(in srgb, token(colors.primary) 12%, transparent);
   }
 `
 
@@ -79,7 +79,7 @@ export const Rate = styled.div`
   & > span:first-child {
     font-size: 0.95rem;
     font-weight: 700;
-    color: #f3e8ff;
+    color: token(colors.primary);
   }
 
   & > span:last-child {
@@ -95,13 +95,13 @@ export const ResetButton = styled.button`
   padding: 9px 14px;
   font-size: 0.85rem;
   font-weight: 500;
-  color: token(colors.text);
+  color: token(colors.foreground);
   background: transparent;
   border: 1px solid token(colors.border);
   border-radius: token(radii.md);
   cursor: pointer;
 
   &:hover {
-    background: token(colors.bg);
+    background: token(colors.background);
   }
 `

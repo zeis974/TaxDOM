@@ -8,7 +8,7 @@ export const Container = styled(m.div)`
   right: -150px;
   width: 500px;
   height: 100%;
-  background: token(colors.bg);
+  background: token(colors.background);
 
   &::before {
     content: "";
@@ -31,18 +31,18 @@ export const CardContainer = styled.div`
   align-items: center;
   position: relative;
   color: token(colors.foreground);
-  background: token(colors.bg);
+  background: token(colors.background);
   width: 100%;
   height: 100px;
   padding: 20px;
   gap: 20px;
-  border-top: 1px solid gray;
-  border-right: 1px solid gray;
-  border-left: 1px solid gray;
+  border-top: 1px solid token(colors.border);
+  border-right: 1px solid token(colors.border);
+  border-left: 1px solid token(colors.border);
   transition: background 150ms;
 
   &:hover {
-    background: whitesmoke;
+    background: token(colors.elevated);
   }
 
   & > div:last-of-type {
@@ -52,10 +52,10 @@ export const CardContainer = styled.div`
     & h3 {
       margin-bottom: 3px;
     }
-    
+
     & p {
       line-height: 1;
-      color: gray;
+      color: token(colors.textMuted);
     }
   }
 `

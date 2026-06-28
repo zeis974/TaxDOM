@@ -39,15 +39,15 @@ export const Container = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background: token(colors.bg); 
+    background: token(colors.background); 
   }
   
   &::-webkit-scrollbar-thumb {
-    background: #636e72; 
+    background: token(colors.border); 
   }
   
   &::-webkit-scrollbar-thumb:hover {
-    background: #b2bec3; 
+    background: token(colors.textMuted); 
   }
 `
 
@@ -55,7 +55,7 @@ export const ParcelContent = styled.div`
   display: flex;
   gap: 10px;
   width: 100%;
-  background: token(colors.bg);
+  background: token(colors.background);
   padding-bottom: 5px;
   z-index: 1;
   top: 0;
@@ -67,7 +67,7 @@ export const ParcelContent = styled.div`
     width: 100%;
     padding: 10px;
     border-radius: token(radii.lg);
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 
   button {
@@ -80,7 +80,7 @@ export const ParcelContent = styled.div`
     
     &:hover {
       background: transparent;
-      border: 2px solid token(colors.surface);
+      border: 2px solid token(colors.elevated);
     }
   }
 `
@@ -90,19 +90,19 @@ export const Card = styled.div`
   height: 220px;
   border-radius: token(radii.lg);
   padding: 10px;
-  background: token(colors.surface);
+  background: token(colors.elevated);
 
   & > button {
     width: 100%;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: token(radii.sm);
     border: 2px solid transparent;
     margin-top: 5px;
     transition: 150ms;
     cursor: pointer;
 
     &:hover {
-      border: 2px solid red;
+      border: 2px solid token(colors.errorFg);
       background: transparent;
     }
   }
@@ -114,7 +114,7 @@ export const Loading = styled(m.div)`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #ffffff8a;
+  background: color-mix(in srgb, token(colors.background) 54%, transparent);
   backdrop-filter: blur(5px);
   width: 100%;
   height: 100%;
@@ -153,7 +153,7 @@ export const Loading = styled(m.div)`
 
 export const ParcelSimulatorSkeleton = styled.div`
   width: 100px;
-  background: #f0f0f0;
+  background: token(colors.elevated);
   border-radius: token(radii.lg);
   animation: skeleton 1s linear infinite;
 `

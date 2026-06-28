@@ -5,8 +5,8 @@ export const Container = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 15px;
-  background: token(colors.surface);
-  color: white;
+  background: token(colors.elevated);
+  color: token(colors.foreground);
   position: absolute;
   padding: 20px;
   width: 100%;
@@ -22,7 +22,7 @@ export const Container = styled.div`
 export const ProductsContainer = styled.div`
   position: relative;
   grid-area: 2 / 1 / 3 / 2;
-  background: token(colors.bg);
+  background: token(colors.background);
   color: token(colors.foreground);
   border-radius: token(radii.lg);
   overflow-y: auto;
@@ -33,7 +33,7 @@ export const ProductsContainer = styled.div`
     margin: 0 10px;
     justify-content: space-between;
     align-items: center;
-    background: token(colors.bg);
+    background: token(colors.background);
     color: token(colors.foreground);
     position: sticky;
     top: 0;
@@ -43,7 +43,7 @@ export const ProductsContainer = styled.div`
       position: absolute;
       width: 100%;
       height: 10px;
-      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, token(colors.bg) 100%);
+      background: linear-gradient(0deg, transparent 0%, token(colors.background) 100%);
       top: 100%;
     }
 
@@ -57,26 +57,26 @@ export const ProductsContainer = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: token(colors.elevated); 
   }
   
   &::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: token(colors.border); 
   }
 
   &::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: token(colors.textMuted); 
   }
 `
 
 export const ProductCard = styled.div`
   display: flex;
   justify-content: space-between;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   padding: 10px;
   margin: 10px;
-  border-radius: 5px;
-  border: 1px solid black;
+  border-radius: token(radii.sm);
+  border: 1px solid token(colors.border);
 `
 
 export const TaxesContainer = styled.div`
@@ -88,7 +88,7 @@ export const TaxesContainer = styled.div`
 `
 
 export const TaxesInfo = styled.div`
-  background: token(colors.bg);
+  background: token(colors.background);
   border-radius: token(radii.lg);
   padding: 10px;
 
@@ -103,7 +103,7 @@ export const TaxesInfo = styled.div`
       p {
         span {
           font: bold 1.5em token(fonts.nativeFont);
-          color: #2a7bb1;
+          color: token(colors.primaryHover);
           margin-right: 5px;
         }
       }
@@ -121,7 +121,7 @@ export const DutyInfo = styled.div`
     color: token(colors.foreground);
 
     & span {
-      color: #2a7bb1;
+      color: token(colors.primaryHover);
       font: bold 1.5em token(fonts.nativeFont);
     }
   }
@@ -138,14 +138,14 @@ export const DutyInfo = styled.div`
       height: 100%;
       width: 2px;
       left: -10px;
-      background: token(colors.surface);
+      background: token(colors.elevated);
     }
   }
 `
 
 export const Informations = styled.div`
   grid-area: 1 / 1 / 2 / 3;
-  background: token(colors.bg);
+  background: token(colors.background);
   border-radius: token(radii.lg);
   overflow-y: auto;
 `
@@ -154,11 +154,11 @@ export const TaxesInformations = styled.div`
   padding: 10px;
 
   &[data-taxes="false"] h1 {
-    color: green;
+    color: token(colors.successFg);
   }
 
   h1 {
-    color: red;
+    color: token(colors.errorFg);
   }
 
   hr {
@@ -178,7 +178,7 @@ export const TaxesInformations = styled.div`
         position: absolute;
         height: 100%;
         width: 2px;
-        background: token(colors.surface);
+        background: token(colors.elevated);
       }
 
       & p {
@@ -188,7 +188,7 @@ export const TaxesInformations = styled.div`
         margin-left: 10px;
 
         & span {
-          color: #2a7bb1;
+          color: token(colors.primaryHover);
           font: bold 1em token(fonts.nativeFont);
         }
       }

@@ -13,7 +13,7 @@ export const ActionBar = styled.div`
     align-items: center;
     justify-content: center;
     padding: 6px;
-    border-radius: 5px;
+    border-radius: token(radii.sm);
     cursor: pointer;
     background: token(colors.foreground);
     transition: background 150ms;
@@ -23,7 +23,7 @@ export const ActionBar = styled.div`
 export const Container = styled.div`
   display: flex;
   overflow: hidden;
-  background: #2980b9;
+  background: token(colors.primary);
   padding: 25px 0 0 25px;
   border-radius: token(radii.lg);
 `
@@ -36,10 +36,10 @@ export const Content = styled.div`
   & span:first-child {
     font-family: token(fonts.rowdies);
     font-size: clamp(14px, 1.5vw, 16px);
-    color: white;
+    color: token(colors.background);
     padding: 5px;
-    border-radius: 5px;
-    background: #045a94;
+    border-radius: token(radii.sm);
+    background: token(colors.primaryHover);
   }
 
   & h1 {
@@ -71,7 +71,7 @@ export const ErrorText = styled.span`
   width: 100%;
   font-size: 0.6em;
   padding: 10px;
-  color: red;
+  color: token(colors.errorFg);
   bottom: 0;
   right: 0;
   cursor: pointer;
@@ -79,7 +79,7 @@ export const ErrorText = styled.span`
 
 export const Line = styled.hr`
   position: relative;
-  border: 2px solid #2980b9;
+  border: 2px solid token(colors.primaryHover);
 `
 
 export const PriceCalculator = styled.div`
@@ -110,7 +110,7 @@ export const PriceCalculator = styled.div`
     background: none;
     color: token(colors.foreground);
     outline: none;
-    border: 2px solid #77b4dc;
+    border: 2px solid token(colors.primary);
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -127,7 +127,7 @@ export const RateCard = styled.div`
 
   & > span:first-of-type {
     font-size: 1.2em;
-    color: #045a94;
+    color: token(colors.primaryHover);
     font-weight: bold;
   }
 
@@ -154,7 +154,7 @@ export const RateContainer = styled.div`
 
   &::after {
     content: attr(data-total) "% total";
-    color: white;
+    color: token(colors.background);
     position: absolute;
     font-weight: bold;
     top: 0;
@@ -177,17 +177,17 @@ export const RateContainer = styled.div`
 export const ResetButton = styled.button`
   margin-top: 15px;
   padding: 10px 20px;
-  background: token(colors.bg);
-  border: 2px solid #2980b9;
-  border-radius: 5px;
+  background: token(colors.background);
+  border: 2px solid token(colors.primaryHover);
+  border-radius: token(radii.sm);
   cursor: pointer;
   font-weight: bold;
-  color: #2980b9;
+  color: token(colors.primaryHover);
   transition: 150ms;
 
   &:hover {
-    background: #2980b9;
-    color: white;
+    background: token(colors.primaryHover);
+    color: token(colors.background);
   }
 `
 
@@ -203,7 +203,7 @@ export const TaxeCard = styled.div`
     position: absolute;
     z-index: -1;
     border-radius: token(radii.lg);
-    background: token(colors.bg);
+    background: token(colors.background);
     width: calc(100% + 35px);
     height: calc(100% + 35px);
     inset: 0;
