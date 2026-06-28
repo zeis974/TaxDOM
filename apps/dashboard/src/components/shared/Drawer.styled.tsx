@@ -15,7 +15,7 @@ export const DrawerContent = styled.div`
   inset: 0 0 0 auto;
   width: min(460px, 100vw);
   height: 100vh;
-  background: token(colors.bg);
+  background: token(colors.background);
   border-left: 1px solid token(colors.border);
   box-shadow: -32px 0 80px token(colors.shadow);
   display: flex;
@@ -57,14 +57,14 @@ export const DrawerTitle = styled.h2`
 export const DrawerMeta = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: token(spacing.xs) token(spacing.md);
-  margin-top: 8px;
+  align-items: center;
+  gap: token(spacing.sm);
   font-size: token(fontSizes.body-sm);
   color: token(colors.textMuted);
 `
 
 export const DrawerCloseButton = styled.button`
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.foreground);
   border: none;
   border-radius: token(radii.full);
@@ -79,7 +79,7 @@ export const DrawerCloseButton = styled.button`
   transition: background 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 `
 
@@ -97,7 +97,7 @@ export const HeaderActionButton = styled.button`
   transition: background 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
   }
 `
@@ -141,7 +141,7 @@ export const DrawerNavGroup = styled.div`
 `
 
 export const DrawerNavButton = styled.button`
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.textMuted);
   border: none;
   border-radius: token(radii.full);
@@ -155,7 +155,7 @@ export const DrawerNavButton = styled.button`
   transition: background 150ms ease, color 150ms ease;
 
   &:hover:not(:disabled) {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
   }
 
@@ -178,10 +178,42 @@ export const DrawerNavCounter = styled.span`
 export const DrawerHero = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding-bottom: token(spacing.lg);
   border-bottom: 1px solid token(colors.border);
   gap: token(spacing.md);
+`
+
+export const DrawerHeroIdentity = styled.div`
+  display: flex;
+  align-items: center;
+  gap: token(spacing.md);
+  flex: 1;
+  min-width: 0;
+`
+
+export const DrawerHeroAvatar = styled.div`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: token(radii.md);
+  background: token(colors.elevated);
+  color: token(colors.foreground);
+  font-family: token(fonts.nativeFont);
+  font-size: token(fontSizes.body-md);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+`
+
+export const DrawerHeroText = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
 `
 
 export const DrawerHeroTitle = styled.h2`
@@ -291,7 +323,7 @@ export const DetailRow = styled.div`
 export const DetailLabel = styled.div`
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: token(spacing.sm);
   font-size: token(fontSizes.body-sm);
   color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
@@ -303,9 +335,11 @@ export const DetailIcon = styled.span`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
-  color: token(colors.border);
+  width: 28px;
+  height: 28px;
+  border-radius: token(radii.md);
+  background: token(colors.elevated);
+  color: token(colors.textMuted);
   flex-shrink: 0;
 `
 
@@ -322,36 +356,40 @@ export const DetailValue = styled.span`
 export const DetailValueInput = styled.input`
   padding: 6px 10px;
   border: 1px solid token(colors.border);
-  border-radius: 6px;
+  border-radius: token(radii.md);
   font-size: token(fontSizes.body-sm);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   max-width: 200px;
   width: 100%;
   text-align: right;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
 
   &:focus {
     outline: none;
     border-color: token(colors.primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.primary) 12%, transparent);
   }
 `
 
 export const DetailValueSelect = styled.select`
   padding: 6px 10px;
   border: 1px solid token(colors.border);
-  border-radius: 6px;
+  border-radius: token(radii.md);
   font-size: token(fontSizes.body-sm);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   max-width: 200px;
   width: 100%;
   cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
 
   &:focus {
     outline: none;
     border-color: token(colors.primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.primary) 12%, transparent);
   }
 `
 
@@ -377,7 +415,7 @@ export const StatusTagButton = styled.button`
   padding: 6px 14px;
   border-radius: token(radii.full);
   border: 1px solid token(colors.border);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.foreground);
   font-size: token(fontSizes.label-md);
   font-weight: 500;
@@ -386,7 +424,7 @@ export const StatusTagButton = styled.button`
 
   &[data-active="true"] {
     background: token(colors.foreground);
-    color: token(colors.bg);
+    color: token(colors.background);
     border-color: token(colors.foreground);
   }
 `
@@ -410,7 +448,7 @@ export const ActionsGroup = styled.div`
 `
 
 export const ErrorContainer = styled.div`
-  color: token(colors.error);
+  color: token(colors.errorFg);
   flex: 1;
   font-family: token(fonts.nativeFont);
   min-width: 220px;
@@ -422,17 +460,18 @@ export const ErrorContainer = styled.div`
 `
 
 export const DeleteButton = styled.button`
-  background: token(colors.error);
-  color: token(colors.error);
+  background: token(colors.errorBg);
+  color: token(colors.errorFg);
   border: none;
   border-radius: token(radii.md);
   padding: 10px 18px;
   cursor: pointer;
   font-family: token(fonts.nativeFont);
   font-weight: 600;
+  transition: filter 150ms ease;
 
   &:hover:not(:disabled) {
-    background: #fecaca;
+    filter: brightness(0.95);
   }
 
   &:disabled {
@@ -442,8 +481,8 @@ export const DeleteButton = styled.button`
 `
 
 export const RulesEditorButton = styled.button`
-  background: #e0f2fe;
-  color: #0284c7;
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  color: token(colors.primaryHover);
   border: none;
   border-radius: token(radii.md);
   padding: 10px 18px;
@@ -495,18 +534,18 @@ export const TimelineIcon = styled.div`
   flex-shrink: 0;
 
   &[data-status="success"] {
-    background: token(colors.success);
-    color: #166534;
+    background: token(colors.successBg);
+    color: token(colors.successFg);
   }
 
   &[data-status="info"] {
-    background: #e0f2fe;
-    color: #0284c7;
+    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+    color: token(colors.primaryHover);
   }
 
   &[data-status="warning"] {
-    background: token(colors.warning);
-    color: #d97706;
+    background: token(colors.warningBg);
+    color: token(colors.warningFg);
   }
 `
 
@@ -597,7 +636,7 @@ export const DetailDrawerNavButton = styled.button`
   height: 28px;
   border-radius: token(radii.full);
   border: 1px solid token(colors.border);
-  background: token(colors.bg);
+  background: token(colors.background);
   color: token(colors.textMuted);
   display: inline-flex;
   align-items: center;
@@ -608,7 +647,7 @@ export const DetailDrawerNavButton = styled.button`
   &:hover:not(:disabled) {
     border-color: token(colors.border);
     color: token(colors.foreground);
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 
   &:disabled {
@@ -656,7 +695,7 @@ export const DetailDrawerIconButton = styled.button`
   height: 32px;
   border-radius: token(radii.md);
   border: 1px solid token(colors.border);
-  background: token(colors.bg);
+  background: token(colors.background);
   color: token(colors.textMuted);
   display: inline-flex;
   align-items: center;
@@ -667,7 +706,7 @@ export const DetailDrawerIconButton = styled.button`
   &:hover {
     border-color: token(colors.border);
     color: token(colors.foreground);
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 `
 
@@ -780,39 +819,39 @@ export const StatusPill = styled.button`
   transition: all 150ms ease;
 
   &[data-type="doing"] {
-    background: #e0f2fe;
-    color: #0284c7;
+    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+    color: token(colors.primaryHover);
   }
 
   &[data-type="done"] {
-    background: token(colors.success);
-    color: #166534;
+    background: token(colors.successBg);
+    color: token(colors.successFg);
   }
 
   &[data-type="todo"] {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
     border-color: token(colors.border);
   }
 
   &[data-type="low"] {
-    background: token(colors.success);
-    color: #166534;
+    background: token(colors.successBg);
+    color: token(colors.successFg);
   }
 
   &[data-type="medium"] {
-    background: token(colors.warning);
-    color: #d97706;
+    background: token(colors.warningBg);
+    color: token(colors.warningFg);
   }
 
   &[data-type="high"] {
-    background: token(colors.error);
-    color: token(colors.error);
+    background: token(colors.errorBg);
+    color: token(colors.errorFg);
   }
 
   &[data-type="category"] {
-    background: #f3e8ff;
-    color: #7c3aed;
+    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+    color: token(colors.primaryHover);
   }
 `
 
@@ -857,7 +896,7 @@ export const DetailSectionCount = styled.span`
   font-size: token(fontSizes.label-md);
   font-weight: 600;
   color: token(colors.textMuted);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   padding: 2px 8px;
   border-radius: token(radii.full);
   min-width: 22px;
@@ -871,7 +910,7 @@ export const DetailSectionAction = styled.button`
   padding: 7px 12px;
   border-radius: token(radii.md);
   border: 1px solid token(colors.border);
-  background: token(colors.bg);
+  background: token(colors.background);
   color: token(colors.foreground);
   font-size: token(fontSizes.body-sm);
   font-weight: 600;
@@ -880,7 +919,7 @@ export const DetailSectionAction = styled.button`
   transition: all 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     border-color: token(colors.border);
   }
 `
@@ -891,7 +930,7 @@ export const SubtaskCard = styled.div`
   border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
   padding: 14px;
-  background: token(colors.bg);
+  background: token(colors.background);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -905,7 +944,7 @@ export const SubtaskCardBorder = styled.div`
   top: 0;
   bottom: 0;
   width: 3px;
-  background: #f3e8ff;
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
   border-radius: token(radii.lg) 0 0 token(radii.lg);
 `
 
@@ -942,7 +981,7 @@ export const CommentInputWrapper = styled.div`
   border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
   padding: 10px 12px;
-  background: token(colors.bg);
+  background: token(colors.background);
   display: flex;
   flex-direction: column;
   gap: token(spacing.sm);
@@ -989,7 +1028,7 @@ export const CommentInputIconButton = styled.button`
   transition: all 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
   }
 `
@@ -1014,7 +1053,7 @@ export const CommentAvatar = styled.div`
   justify-content: center;
   font-size: token(fontSizes.label-md);
   font-weight: 700;
-  color: token(colors.bg);
+  color: token(colors.background);
   flex-shrink: 0;
   background: token(colors.primary);
 `

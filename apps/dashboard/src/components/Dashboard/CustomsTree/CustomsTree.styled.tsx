@@ -10,7 +10,7 @@ export const PageLayout = styled.div`
 `
 
 export const ChapterPanel = styled.aside`
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border-radius: token(radii.lg);
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@ export const ChapterPanelTitle = styled.h2`
 `
 
 export const SearchInput = styled.input`
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border: 1px solid transparent;
   border-radius: token(radii.md);
   padding: 8px 12px 8px 32px;
@@ -53,7 +53,7 @@ export const SearchInput = styled.input`
     color: token(colors.textMuted);
   }
   &:focus {
-    border-color: rgba(52, 152, 219, 0.4);
+    border-color: token(colors.primary);
     width: 260px;
   }
 `
@@ -61,7 +61,7 @@ export const SearchInput = styled.input`
 /* Chapter-panel search — full width, no left icon */
 export const ChapterSearchInput = styled.input`
   width: 100%;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border: 1px solid transparent;
   border-radius: token(radii.md);
   padding: 8px 12px;
@@ -74,7 +74,7 @@ export const ChapterSearchInput = styled.input`
     color: token(colors.textMuted);
   }
   &:focus {
-    border-color: rgba(52, 152, 219, 0.4);
+    border-color: token(colors.primary);
   }
 `
 
@@ -106,12 +106,12 @@ export const ChapterItem = styled.button`
   animation: fadeIn 0.28s ease both;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 
   &[data-active="true"] {
-    background: rgba(52, 152, 219, 0.12);
-    color: token(colors.sky);
+    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+    color: token(colors.primary);
   }
 `
 
@@ -135,15 +135,15 @@ export const ChapterDescription = styled.span`
 export const ChapterBadge = styled.span`
   font-size: 10px;
   font-weight: 700;
-  background: rgba(52, 152, 219, 0.12);
-  color: token(colors.sky);
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  color: token(colors.primary);
   padding: 2px 7px;
   border-radius: token(radii.full);
   flex-shrink: 0;
 `
 
 export const TreePanel = styled.main`
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border-radius: token(radii.lg);
   display: flex;
   flex-direction: column;
@@ -175,7 +175,7 @@ export const HeaderInfo = styled.div`
 export const ChapterNum = styled.span`
   font-size: 28px;
   font-weight: 800;
-  color: token(colors.sky);
+  color: token(colors.primary);
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.03em;
   line-height: 1;
@@ -229,7 +229,7 @@ export const LastSyncLabel = styled.span`
   flex-shrink: 0;
 
   &[data-status="error"] {
-    color: token(colors.error);
+    color: token(colors.errorFg);
   }
 `
 
@@ -253,16 +253,16 @@ export const SyncButton = styled.button`
   width: 34px;
   height: 34px;
   padding: 0;
-  background: rgba(52, 152, 219, 0.12);
-  color: token(colors.sky);
-  border: 1px solid rgba(14, 165, 233, 0.3);
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  color: token(colors.primary);
+  border: 1px solid transparent;
   border-radius: token(radii.md);
   cursor: pointer;
   transition: all 150ms ease;
   flex-shrink: 0;
 
   &:hover:not(:disabled) {
-    background: rgba(14, 165, 233, 0.2);  /* slightly above skyBg, intentional */
+    background: color-mix(in srgb, token(colors.primary) 20%, token(colors.elevated));
   }
   &:disabled {
     opacity: 0.5;
@@ -287,7 +287,7 @@ export const ProgressBar = styled.div`
   position: relative;
   height: 4px;
   width: 120px;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border-radius: 2px;
   overflow: hidden;
 `
@@ -296,7 +296,7 @@ export const ProgressFill = styled.div`
   position: absolute;
   inset: 0 auto 0 0;
   width: var(--progress-width, 0%);
-  background: token(colors.sky);
+  background: token(colors.primary);
   border-radius: 2px;
   transition: width 400ms ease;
 `
@@ -337,7 +337,7 @@ export const TreeNodeRow = styled.div`
   color: token(colors.foreground);
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 
   &[data-has-products="true"] {
@@ -346,15 +346,15 @@ export const TreeNodeRow = styled.div`
   }
 
   &[data-highlighted="true"] {
-    background: rgba(234, 179, 8, 0.15);
-    outline: 1px solid rgba(234, 179, 8, 0.5);
+    background: token(colors.warningBg);
+    outline: 1px solid token(colors.warningFg);
     border-radius: 6px;
     animation: highlightPulse 1.2s ease-out forwards;
   }
 
   @keyframes highlightPulse {
-    0%   { background: rgba(234, 179, 8, 0.35); }
-    100% { background: rgba(234, 179, 8, 0.12); }
+    0%   { background: color-mix(in srgb, token(colors.warningFg) 35%, transparent); }
+    100% { background: color-mix(in srgb, token(colors.warningFg) 12%, transparent); }
   }
 `
 
@@ -364,7 +364,7 @@ export const NodeIndent = styled.div`
 `
 
 export const NodeToggle = styled.button`
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border: 1px solid token(colors.border);
   padding: 0;
   width: 16px;
@@ -379,9 +379,9 @@ export const NodeToggle = styled.button`
   transition: background 100ms ease, border-color 100ms ease, color 100ms ease;
 
   &:hover {
-    background: rgba(52, 152, 219, 0.12);
-    border-color: rgba(52, 152, 219, 0.4);
-    color: token(colors.sky);
+    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+    border-color: token(colors.primary);
+    color: token(colors.primary);
   }
 `
 
@@ -389,7 +389,7 @@ export const NodeCode = styled.span`
   font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   padding: 2px 6px;
   border-radius: token(radii.sm);
   flex-shrink: 0;
@@ -404,8 +404,8 @@ export const NodeDescription = styled.span`
 export const NodeProductBadge = styled.span`
   font-size: 10px;
   font-weight: 700;
-  background: rgba(34, 197, 94, 0.15);
-  color: #16a34a;
+  background: token(colors.successBg);
+  color: token(colors.successFg);
   padding: 2px 8px;
   border-radius: token(radii.full);
   flex-shrink: 0;
@@ -426,8 +426,8 @@ export const LoadingRow = styled.div`
 export const ErrorRow = styled.div`
   padding: 12px 16px;
   font-size: token(fontSizes.body-sm);
-  color: token(colors.error);
-  background: token(colors.error);
+  color: token(colors.errorFg);
+  background: token(colors.errorBg);
   border-radius: token(radii.md);
   margin: 8px 0;
 `
@@ -439,10 +439,10 @@ export const SuggestionList = styled.div`
   max-width: 480px;
   max-height: 260px;
   overflow-y: auto;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 32px token(colors.shadow);
   font-family: token(fonts.nativeFont);
 `
 
@@ -464,7 +464,7 @@ export const SuggestionItem = styled.button`
   &:last-child  { border-radius: 0 0 token(radii.lg) token(radii.lg); }
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 `
 
@@ -475,9 +475,9 @@ export const SkeletonRect = styled.span`
   border-radius: token(radii.sm);
   background: linear-gradient(
     90deg,
-    rgba(148, 163, 184, 0.12) 25%,
-    rgba(148, 163, 184, 0.38) 50%,
-    rgba(148, 163, 184, 0.12) 75%
+    token(colors.elevated) 25%,
+    token(colors.border) 50%,
+    token(colors.elevated) 75%
   );
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.6s ease-in-out infinite;
@@ -489,8 +489,8 @@ export const SuggestionCode = styled.span`
   font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  background: rgba(52, 152, 219, 0.12);
-  color: token(colors.sky);
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  color: token(colors.primary);
   padding: 2px 7px;
   border-radius: token(radii.sm);
   flex-shrink: 0;

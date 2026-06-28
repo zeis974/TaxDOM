@@ -14,18 +14,18 @@ export const ErrorContainer = styled.div`
 export const ErrorTitle = styled.h1`
   font-size: token(fontSizes.headline-lg);
   margin-bottom: 8px;
-  color: token(colors.error);
+  color: token(colors.errorFg);
 `
 
 export const ErrorMessage = styled.p`
-  color: token(colors.gray);
+  color: token(colors.textMuted);
   margin-bottom: 24px;
 `
 
 export const RetryButton = styled.button`
   padding: 10px 24px;
   background: token(colors.foreground);
-  color: token(colors.bg);
+  color: token(colors.background);
   border: none;
   border-radius: token(radii.md);
   cursor: pointer;

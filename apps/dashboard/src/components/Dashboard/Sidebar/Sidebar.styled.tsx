@@ -2,10 +2,10 @@ import { styled } from "@/panda/jsx"
 
 export const Container = styled.nav`
   flex: 1;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   height: calc(100% - 10px);
   padding: 10px;
-  margin: 0 10px;
+  margin: 10px;
   border-radius: token(radii.lg);
   color: token(colors.foreground);
   max-width: 250px;
@@ -25,7 +25,7 @@ export const Container = styled.nav`
 export const Logo = styled.h1`
   color: token(colors.foreground);
   font-size: clamp(1.4em, 5vw, 2em);
-  font-family: token(fonts.nativeFont);
+  font-family: token(fonts.rowdies);
 `
 
 export const List = styled.ul`
@@ -35,7 +35,7 @@ export const List = styled.ul`
     color: inherit;
 
     &[data-active="true"] {
-      background: token(colors.surface);
+      background: token(colors.background);
     }
 
     & a {
@@ -53,7 +53,7 @@ export const List = styled.ul`
     }
 
     &:hover {
-      background: token(colors.surface);
+      background: token(colors.background);
     }
   }
 `
@@ -63,7 +63,7 @@ export const UserContainer = styled.div`
   gap: token(spacing.sm);
   padding: 12px;
   border-radius: token(radii.lg);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   align-items: center;
   justify-content: space-between;
 `
@@ -76,7 +76,7 @@ export const Avatar = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: token(colors.surface);
+  color: token(colors.elevated);
   font-weight: 600;
   font-size: token(fontSizes.body-md);
   flex-shrink: 0;

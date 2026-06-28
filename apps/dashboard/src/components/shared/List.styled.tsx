@@ -17,6 +17,10 @@ export const ListGrid = styled.div`
   gap: token(spacing.md);
 `
 
+export const EmptyAction = styled.div`
+  margin-top: token(spacing.sm);
+`
+
 export const EmptyState = styled.div`
   display: flex;
   flex-direction: column;

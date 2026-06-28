@@ -1,10 +1,10 @@
 import { styled } from "@/panda/jsx"
 
 export const Container = styled.div`
-  background: token(colors.surface);
+  background: token(colors.elevated);
+  border: none;
   border-radius: token(radii.md);
   padding: 20px;
-  border: 1px solid token(colors.surface);
 `
 
 export const Header = styled.div`
@@ -13,7 +13,7 @@ export const Header = styled.div`
   align-items: center;
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 1px solid token(colors.surface);
+  border-bottom: 1px solid token(colors.border);
 
   & h2 {
     font-size: 1em;
@@ -25,7 +25,7 @@ export const Header = styled.div`
 
   & > span {
     font-size: 0.813em;
-    color: token(colors.surface);
+    color: token(colors.textMuted);
   }
 `
 
@@ -40,7 +40,7 @@ export const ProductItem = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 12px;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border-radius: 6px;
 
   & .product-info {
@@ -60,10 +60,10 @@ export const ProductItem = styled.div`
       align-items: center;
       gap: token(spacing.sm);
       font-size: 0.75em;
-      color: token(colors.surface);
+      color: token(colors.textMuted);
 
       & .category {
-        background: token(colors.surface);
+        background: token(colors.elevated);
         padding: 2px 6px;
         border-radius: 3px;
       }
@@ -76,7 +76,7 @@ export const ProductItem = styled.div`
 
   & .date {
     font-size: 0.75em;
-    color: token(colors.surface);
+    color: token(colors.textMuted);
   }
 `
 
@@ -85,6 +85,6 @@ export const NoActivity = styled.div`
   justify-content: center;
   align-items: center;
   padding: token(spacing.xl);
-  color: token(colors.surface);
+  color: token(colors.textMuted);
   font-size: 0.875em;
 `

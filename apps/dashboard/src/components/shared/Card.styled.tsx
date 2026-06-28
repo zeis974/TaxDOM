@@ -1,8 +1,8 @@
 import { styled } from "@/panda/jsx"
 
 export const Card = styled.div`
-  background: token(colors.surface);
-  border: 1px solid token(colors.border);
+  background: token(colors.elevated);
+  border: none;
   border-radius: token(radii.lg);
   padding: 14px;
   transition: all 200ms ease;
@@ -12,8 +12,8 @@ export const Card = styled.div`
 `
 
 export const ClickableCard = styled.button`
-  background: token(colors.surface);
-  border: 1px solid token(colors.border);
+  background: token(colors.elevated);
+  border: 1px solid transparent;
   border-radius: token(radii.lg);
   padding: 14px;
   transition: all 200ms ease;
@@ -22,8 +22,7 @@ export const ClickableCard = styled.button`
   text-align: left;
 
   &:hover {
-    border-color: token(colors.foreground);
-    box-shadow: 0 8px 20px token(colors.shadow);
+    border-color: token(colors.border);
   }
 
   &:focus-visible {
@@ -57,8 +56,8 @@ export const CardTitle = styled.h3`
 `
 
 export const CardInfo = styled.span`
-  color: token(colors.border);
-  font-size: 13px;
+  color: token(colors.textMuted);
+  font-size: token(fontSizes.label-md);
 `
 
 export const BadgeContainer = styled.div`
@@ -79,20 +78,16 @@ export const Badge = styled.span`
   letter-spacing: 0.08em;
 
   &[data-type="accent"],
-  &[data-type="category"] {
-    background: #f3e8ff;
-    color: #7c3aed;
-  }
-
+  &[data-type="category"],
   &[data-type="info"],
   &[data-type="eu"] {
-    background: #e0f2fe;
-    color: #0284c7;
+    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+    color: token(colors.primaryHover);
   }
 
   &[data-type="neutral"],
   &[data-type="products"] {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
   }
 `
@@ -110,12 +105,12 @@ export const StatusBadgeStyled = styled.span`
   letter-spacing: 0.02em;
 
   &[data-active="true"] {
-    background: token(colors.success);
-    color: #166534;
+    background: token(colors.successBg);
+    color: token(colors.successFg);
   }
 
   &[data-active="false"] {
-    background: token(colors.error);
-    color: token(colors.error);
+    background: token(colors.errorBg);
+    color: token(colors.errorFg);
   }
 `

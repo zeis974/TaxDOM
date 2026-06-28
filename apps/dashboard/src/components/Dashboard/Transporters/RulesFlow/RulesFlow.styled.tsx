@@ -7,7 +7,7 @@ export const FlowContainer = styled.div`
   border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
   overflow: hidden;
-  background: token(colors.bg);
+  background: token(colors.background);
   display: flex;
   flex-direction: column;
 `
@@ -17,7 +17,7 @@ export const FlowHeader = styled.div`
   align-items: center;
   padding: token(spacing.md);
   border-bottom: 1px solid token(colors.border);
-  background: token(colors.surface);
+  background: token(colors.elevated);
 `
 export const FlowTitle = styled.h3`
   margin: 0;
@@ -67,7 +67,7 @@ export const StartNodeContainer = styled.div`
   text-align: center;
   font-size: token(fontSizes.body-sm);
   font-weight: 600;
-  background: token(colors.bg);
+  background: token(colors.background);
   border: 1px solid token(colors.border);
   color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
@@ -79,20 +79,20 @@ export const ConditionNodeContainer = styled.div`
   text-align: center;
   font-size: token(fontSizes.body-sm);
   font-weight: 500;
-  background: token(colors.bg);
+  background: token(colors.background);
   border: 2px solid token(colors.border);
   color: token(colors.foreground);
   position: relative;
-  box-shadow: 0 18px 32px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 18px 32px token(colors.shadow);
   font-family: token(fonts.nativeFont);
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease;
   &[data-orphaned="true"] {
-    border-color: token(colors.error);
+    border-color: token(colors.errorFg);
     box-shadow:
-      0 0 0 3px rgba(239, 68, 68, 0.2),
-      0 18px 32px rgba(15, 23, 42, 0.08);
+      0 0 0 3px color-mix(in srgb, token(colors.errorFg) 30%, transparent),
+      0 18px 32px token(colors.shadow);
   }
 `
 export const FeeNodeContainer = styled.div`
@@ -102,19 +102,19 @@ export const FeeNodeContainer = styled.div`
   text-align: center;
   font-size: token(fontSizes.body-sm);
   font-weight: 600;
-  background: token(colors.bg);
+  background: token(colors.background);
   border: 2px solid token(colors.border);
   color: token(colors.foreground);
-  box-shadow: 0 18px 32px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 18px 32px token(colors.shadow);
   font-family: token(fonts.nativeFont);
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease;
   &[data-orphaned="true"] {
-    border-color: token(colors.error);
+    border-color: token(colors.errorFg);
     box-shadow:
-      0 0 0 3px rgba(239, 68, 68, 0.2),
-      0 18px 32px rgba(15, 23, 42, 0.08);
+      0 0 0 3px color-mix(in srgb, token(colors.errorFg) 30%, transparent),
+      0 18px 32px token(colors.shadow);
   }
 `
 export const NodeLabel = styled.div`
@@ -147,9 +147,9 @@ export const HandleLabel = styled.span`
   font-weight: 700;
   padding: 3px 8px;
   border-radius: 6px;
-  background: token(colors.bg);
+  background: token(colors.background);
   border: 1px solid token(colors.border);
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 10px 20px token(colors.shadow);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-family: token(fonts.nativeFont);
@@ -159,7 +159,7 @@ export const PageContainer = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: token(colors.bg);
+  background: token(colors.background);
 `
 export const PageHeader = styled.header`
   display: flex;
@@ -167,7 +167,7 @@ export const PageHeader = styled.header`
   align-items: center;
   padding: 12px 20px;  /* asymmetric — leave as-is */
   border-bottom: 1px solid token(colors.border);
-  background: token(colors.surface);
+  background: token(colors.elevated);
 `
 export const PageHeaderLeft = styled.div`
   display: flex;
@@ -190,7 +190,7 @@ export const PageBackButton = styled.button`
   align-items: center;
   transition: background 150ms;
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
   svg {
     width: 20px;
@@ -203,7 +203,7 @@ export const PublishButton = styled.button`
   gap: token(spacing.sm);
   padding: token(spacing.sm) token(spacing.md);
   background: token(colors.foreground);
-  color: token(colors.bg);
+  color: token(colors.background);
   border: none;
   border-radius: token(radii.md);
   cursor: pointer;
@@ -228,7 +228,7 @@ export const PageBody = styled.main`
 `
 export const NodeEditorPanel = styled.div`
   position: relative;
-  background: token(colors.bg);
+  background: token(colors.background);
   border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
   padding: 12px;
@@ -261,7 +261,7 @@ export const NodeEditorField = styled.div`
     border: 1px solid token(colors.border);
     border-radius: 6px;  /* no token for 6px — leave as-is */
     font-size: token(fontSizes.body-sm);
-    background: token(colors.bg);
+    background: token(colors.background);
     color: token(colors.foreground);
     font-family: token(fonts.nativeFont);
     &:focus {
@@ -280,12 +280,12 @@ export const PaletteContainer = styled.div`
   flex-direction: column;
   gap: token(spacing.sm);
   padding: 12px;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   border-radius: token(radii.md);
 `
 export const PaletteItem = styled.div`
   padding: 10px 16px;
-  background: token(colors.bg);
+  background: token(colors.background);
   border: 1px solid token(colors.border);
   border-radius: token(radii.md);
   cursor: grab;

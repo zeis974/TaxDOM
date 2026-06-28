@@ -35,51 +35,45 @@ export const List = styled.div`
   gap: token(spacing.sm);
 `
 
-export const ListItem = styled.div`
-  display: grid;
-  grid-template-columns: 32px 1fr 80px;
-  align-items: center;
+export const Row = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+`
+
+export const RowHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   gap: 12px;
-  padding: 10px 12px;
-  background: token(colors.elevated);
-  border-radius: 6px;
 
-  & .rank {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: token(colors.elevated);
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 0.813em;
+  & .name {
+    font-size: 0.875em;
+    font-weight: 500;
     color: token(colors.foreground);
-  }
-
-  & .info {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-
-    & .name {
-      font-size: 0.875em;
-      font-weight: 500;
-      color: token(colors.foreground);
-    }
-
-    & .count {
-      font-size: 0.75em;
-      color: token(colors.textMuted);
-    }
   }
 
   & .value {
-    text-align: right;
-    font-size: 0.875em;
+    font-size: 0.813em;
     font-weight: 600;
     color: token(colors.foreground);
+    white-space: nowrap;
   }
+`
+
+export const Track = styled.div`
+  height: 8px;
+  width: 100%;
+  background: token(colors.border);
+  border-radius: token(radii.lg);
+  overflow: hidden;
+`
+
+export const Bar = styled.div`
+  height: 100%;
+  background: token(colors.primary);
+  border-radius: token(radii.lg);
+  transition: width 0.3s ease-out;
 `
 
 export const NoData = styled.div`

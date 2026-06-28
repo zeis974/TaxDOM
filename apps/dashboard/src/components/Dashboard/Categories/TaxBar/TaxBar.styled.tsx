@@ -38,8 +38,8 @@ export const TaxSegment = styled.div`
     transform: translateX(-50%);
     font-size: 0.7rem;
     font-weight: 600;
-    color: token(colors.bg);
-    background: rgba(255, 255, 255, 0.95);
+    color: token(colors.background);
+    background: token(colors.foreground);
     padding: 2px 6px;
     border-radius: token(radii.sm);
     box-shadow: 0 1px 3px token(colors.shadow);
@@ -59,7 +59,7 @@ export const TaxLegend = styled.div`
   gap: 16px;
   flex-wrap: wrap;
   font-size: 0.75rem;
-  color: #6b7280;
+  color: token(colors.textMuted);
 `
 
 export const LegendItem = styled.div`
@@ -82,7 +82,7 @@ export const TotalTax = styled.span`
   color: token(colors.foreground);
   font-size: 0.8rem;
   padding: 4px 8px;
-  background: rgba(59, 130, 246, 0.1);
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
   border-radius: token(radii.lg);
-  border: 1px solid rgba(59, 130, 246, 0.2);
+  border: 1px solid color-mix(in srgb, token(colors.primary) 25%, transparent);
 `
