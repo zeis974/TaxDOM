@@ -3,6 +3,7 @@
 import createGlobe, { type COBEOptions } from "cobe"
 import { useEffect, useRef } from "react"
 
+import { token } from "@/panda/tokens"
 import {
   type Coordinates,
   coordsToCobeAngles,
@@ -420,11 +421,11 @@ export default function CobeGlobe({
     whiteSpace: "nowrap",
     padding: "3px 9px",
     borderRadius: "99px",
-    backgroundColor: dark ? "rgba(18,18,18,0.82)" : "rgba(255,255,255,0.88)",
-    border: dark ? "1px solid rgba(255,255,255,0.1)" : "1px solid rgba(0,0,0,0.07)",
-    color: dark ? "#c8c8c8" : "#1a1a1a",
+    backgroundColor: token("colors.elevated"),
+    border: `1px solid ${token("colors.border")}`,
+    color: token("colors.foreground"),
     backdropFilter: "blur(8px)",
-    boxShadow: "0 2px 8px rgba(0,0,0,0.18)",
+    boxShadow: `0 2px 8px ${token("colors.shadow")}`,
   }
 
   return (

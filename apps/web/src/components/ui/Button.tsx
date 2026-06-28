@@ -15,7 +15,7 @@ export default function Button({ type = "button", ...props }: ButtonProps) {
 const ButtonStyled = styled.button`
   height: 100%;
   padding: 10px;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   font-weight: bold;
   border: none;
   cursor: pointer;
