@@ -8,6 +8,6 @@
     "./preset": "./preset.js"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.11.3"
+    "@pandacss/dev": "1.11.4"
   }
 }

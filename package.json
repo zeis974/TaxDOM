@@ -16,10 +16,10 @@
     "design:lint": "pnpx @google/design.md lint DESIGN.md"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.1",
+    "@biomejs/biome": "2.5.2",
     "husky": "9.1.7",
     "lint-staged": "17.0.8",
-    "turbo": "2.10.0",
+    "turbo": "2.10.2",
     "typescript": "6.0.3"
   },
   "engines": {
