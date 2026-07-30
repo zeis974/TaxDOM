@@ -12,40 +12,40 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@marsidev/react-turnstile": "^1.5.3",
+    "@marsidev/react-turnstile": "1.5.4",
     "@tanstack/react-form": "1.33.2",
     "@tanstack/react-form-nextjs": "1.33.2",
-    "@tanstack/react-query": "5.101.2",
-    "@tanstack/react-virtual": "3.14.6",
+    "@tanstack/react-query": "5.101.4",
+    "@tanstack/react-virtual": "3.14.9",
     "@taxdom/api": "workspace:*",
     "@tuyau/core": "1.2.2",
     "@tuyau/react-query": "1.1.0",
-    "@wrksz/themes": "0.9.7",
+    "@wrksz/themes": "1.0.0",
     "cobe": "^2.0.1",
-    "motion": "12.42.2",
-    "next": "16.2.10",
+    "motion": "12.43.0",
+    "next": "16.2.12",
     "next-plausible": "4.0.0",
-    "react": "19.2.7",
-    "react-dom": "19.2.7",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "sonner": "2.0.7",
     "vaul": "1.1.2",
     "zod": "4.4.3",
     "zustand": "5.0.14"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.11.4",
-    "@tanstack/react-query-devtools": "5.101.2",
+    "@pandacss/dev": "1.12.0",
+    "@tanstack/react-query-devtools": "5.101.4",
     "@taxdom/types": "workspace:*",
     "@taxdom/ui": "workspace:*",
-    "@types/node": "^26.1.1",
+    "@types/node": "^26.1.2",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "1.0.0",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "engines": {
     "node": ">=24",
     "pnpm": ">=11"
   },
-  "packageManager": "pnpm@11.13.1"
+  "packageManager": "pnpm@11.17.0"
 }
