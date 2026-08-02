@@ -21,7 +21,7 @@ const SuggestionsBox = styled.ul`
   max-height: 240px;
   overflow-y: auto;
   list-style: none;
-  padding: 4px;
+  padding: token(spacing.xs);
   margin: 0;
 `
 
@@ -171,9 +171,7 @@ export default function NomenclatureAutocomplete({
                 onMouseDown={() => handleSelect(s.code, s.description)}
               >
                 <SuggestionCode>{s.code}</SuggestionCode>
-                <SuggestionDescription title={s.description}>
-                  {s.description}
-                </SuggestionDescription>
+                <SuggestionDescription title={s.description}>{s.description}</SuggestionDescription>
               </SuggestionItem>
             ))}
           </SuggestionsBox>

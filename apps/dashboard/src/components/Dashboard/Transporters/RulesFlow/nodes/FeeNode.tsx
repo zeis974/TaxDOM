@@ -9,7 +9,7 @@ function FeeNode({ data }: NodeProps<FeeNodeType>) {
   const isOrphaned = data.isOrphaned ?? false
 
   return (
-    <FeeNodeContainer data-orphaned={isOrphaned} style={{ borderColor: token("colors.warningFg") }}>
+    <FeeNodeContainer data-orphaned={isOrphaned}>
       <NodeLabel>
         <svg
           viewBox="0 0 24 24"
@@ -24,7 +24,11 @@ function FeeNode({ data }: NodeProps<FeeNodeType>) {
         {data.label || "Frais"}
       </NodeLabel>
       {data.fee !== undefined && <NodeValue>{data.fee}€</NodeValue>}
-      <Handle type="target" position={Position.Top} style={{ background: token("colors.textMuted") }} />
+      <Handle
+        type="target"
+        position={Position.Top}
+        style={{ background: token.var("colors.textMuted") }}
+      />
     </FeeNodeContainer>
   )
 }

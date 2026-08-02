@@ -13,13 +13,13 @@ export const ErrorContainer = styled.div`
 
 export const ErrorTitle = styled.h1`
   font-size: token(fontSizes.headline-lg);
-  margin-bottom: 8px;
+  margin-bottom: token(spacing.sm);
   color: token(colors.errorFg);
 `
 
 export const ErrorMessage = styled.p`
   color: token(colors.textMuted);
-  margin-bottom: 24px;
+  margin-bottom: token(spacing.lg);
 `
 
 export const RetryButton = styled.button`

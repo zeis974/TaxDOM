@@ -2,21 +2,21 @@ import { styled } from "@/panda/jsx"
 
 export const Container = styled.div`
   background: token(colors.elevated);
-  border: none;
   border-radius: token(radii.md);
-  padding: 20px;
+  padding: token(spacing.lg);
+  border: 1px solid token(colors.border);
 `
 
 export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
-  padding-bottom: 12px;
+  margin-bottom: token(spacing.md);
+  padding-bottom: token(spacing.sm);
   border-bottom: 1px solid token(colors.border);
 
   & h2 {
-    font-size: 1em;
+    font-size: token(fontSizes.body-md);
     font-weight: 600;
     margin: 0;
     color: token(colors.foreground);
@@ -24,7 +24,7 @@ export const Header = styled.div`
   }
 
   & > span {
-    font-size: 0.813em;
+    font-size: token(fontSizes.label-md);
     color: token(colors.textMuted);
   }
 `
@@ -38,42 +38,44 @@ export const List = styled.div`
 export const Row = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: token(spacing.xs);
 `
 
 export const RowHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: 12px;
+  gap: token(spacing.sm);
 
   & .name {
-    font-size: 0.875em;
+    font-size: token(fontSizes.body-sm);
     font-weight: 500;
     color: token(colors.foreground);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   & .value {
-    font-size: 0.813em;
+    font-size: token(fontSizes.body-sm);
     font-weight: 600;
-    color: token(colors.foreground);
-    white-space: nowrap;
+    color: token(colors.textMuted);
+    flex-shrink: 0;
   }
 `
 
 export const Track = styled.div`
-  height: 8px;
+  height: token(spacing.sm);
   width: 100%;
-  background: token(colors.border);
-  border-radius: token(radii.lg);
+  background: color-mix(in srgb, token(colors.border) 40%, transparent);
+  border-radius: token(radii.full);
   overflow: hidden;
 `
 
 export const Bar = styled.div`
   height: 100%;
   background: token(colors.primary);
-  border-radius: token(radii.lg);
-  transition: width 0.3s ease-out;
+  border-radius: token(radii.full);
 `
 
 export const NoData = styled.div`
@@ -82,5 +84,5 @@ export const NoData = styled.div`
   align-items: center;
   padding: token(spacing.xl);
   color: token(colors.textMuted);
-  font-size: 0.875em;
+  font-size: token(fontSizes.body-sm);
 `

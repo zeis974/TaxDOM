@@ -9,7 +9,7 @@ export const Container = styled(m.div)`
   bottom: 0;
   background: token(colors.elevated);
   border: 2px solid token(colors.elevated);
-  padding: 20px;
+  padding: token(spacing.s20);
   opacity: 0.8;
   backdrop-filter: blur(10px);
   top: 55%;
@@ -34,7 +34,7 @@ export const Container = styled(m.div)`
     & hr {
       border: none;
       height: 1px;
-      margin: 20px 0;
+      margin: token(spacing.s20) 0;
       width: 100%;
       background: token(colors.elevated);
     }
@@ -62,7 +62,7 @@ export const ErrorContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: token(spacing.s20);
 `
 
 export const TemplateContainer = styled.div`
@@ -111,7 +111,7 @@ export const ActionContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  padding: 20px;
+  padding: token(spacing.s20);
   bottom: 0;
   left: 0;
 `

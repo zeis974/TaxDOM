@@ -19,7 +19,7 @@ const ButtonStyled = styled.button`
   font-weight: bold;
   border: none;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: token(radii.md);
 
   &[disabled],
   &[aria-disabled="true"] {

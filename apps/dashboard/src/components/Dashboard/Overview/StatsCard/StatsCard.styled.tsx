@@ -5,7 +5,7 @@ export const Card = styled.div`
   background: token(colors.elevated);
   border: none;
   border-radius: token(radii.md);
-  padding: 20px;
+  padding: token(spacing.s20);
   display: flex;
   flex-direction: column;
   gap: token(spacing.sm);
@@ -15,10 +15,10 @@ export const CardLink = styled(Link)`
   background: token(colors.elevated);
   border: none;
   border-radius: token(radii.md);
-  padding: 16px;
+  padding: token(spacing.md);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: token(spacing.sm);
   color: inherit;
   text-decoration: none;
   cursor: pointer;

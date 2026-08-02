@@ -4,7 +4,7 @@ export const DELAYED_FADE = "fadeIn 0.2s ease-out 180ms both"
 
 export const SkeletonRect = styled.span`
   display: block;
-  border-radius: 4px;
+  border-radius: token(radii.sm);
   background: linear-gradient(
     90deg,
     token(colors.elevated) 25%,

@@ -3,7 +3,7 @@ import { styled } from "@/panda/jsx"
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
+  margin: token(spacing.s20) 0;
   color: token(colors.foreground);
 
   & > div:first-child {
@@ -16,7 +16,7 @@ export const Container = styled.div`
     
     & p {
       font-family: token(fonts.nativeFont);
-      margin: 20px 0;
+      margin: token(spacing.s20) 0;
       color: token(colors.textMuted);
     }
   }

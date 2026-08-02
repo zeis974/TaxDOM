@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   align-content: flex-start;
   height: 100%;
-  gap: 20px;
+  gap: token(spacing.s20);
   overflow-y: scroll;
 
   & > button {

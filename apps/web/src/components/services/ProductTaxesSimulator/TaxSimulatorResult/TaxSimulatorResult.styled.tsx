@@ -47,7 +47,7 @@ export const Content = styled.div`
     font-size: clamp(16px, 1.5vw, 24px);
     color: token(colors.foreground);
     line-height: 1.2;
-    margin: 20px 0;
+    margin: token(spacing.s20) 0;
     text-align: left;
 
     span {

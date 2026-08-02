@@ -4,15 +4,15 @@ export const Container = styled.div`
   background: token(colors.elevated);
   border: none;
   border-radius: token(radii.md);
-  padding: 20px;
+  padding: token(spacing.s20);
 `
 
 export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
-  padding-bottom: 12px;
+  margin-bottom: token(spacing.md);
+  padding-bottom: token(spacing.s12);
   border-bottom: 1px solid token(colors.border);
 
   & h2 {
@@ -39,7 +39,7 @@ export const ProductItem = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px;
+  padding: token(spacing.s12);
   background: token(colors.elevated);
   border-radius: 6px;
 

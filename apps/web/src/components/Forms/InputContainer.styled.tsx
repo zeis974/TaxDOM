@@ -30,7 +30,7 @@ export const InputContainer = styled.div`
     border-radius: token(radii.md);
     background: token(colors.background);
     border: 1px solid transparent;
-    padding: 8px 12px;
+    padding: token(spacing.sm) token(spacing.s12);
     font-family: inherit;
     color: token(colors.foreground);
     font-size: 0.9375rem;
@@ -39,7 +39,7 @@ export const InputContainer = styled.div`
       box-shadow 150ms ease-in;
 
     &::placeholder {
-      color: token(colors.elevated);
+      color: token(colors.textMuted);
     }
 
     &:focus {

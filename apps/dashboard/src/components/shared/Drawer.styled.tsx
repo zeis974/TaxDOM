@@ -26,7 +26,7 @@ export const DrawerContent = styled.div`
 
 export const DrawerHeader = styled.header`
   padding: token(spacing.md);
-  padding-bottom: 12px;
+  padding-bottom: token(spacing.s12);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -116,7 +116,7 @@ export const DrawerTopBar = styled.header`
 export const DrawerTopBarLeft = styled.div`
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: token(spacing.s12);
 `
 
 export const DrawerTopBarRight = styled.div`
@@ -188,31 +188,34 @@ export const DrawerHeroIdentity = styled.div`
   display: flex;
   align-items: center;
   gap: token(spacing.md);
-  flex: 1;
   min-width: 0;
 `
 
 export const DrawerHeroAvatar = styled.div`
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 44px;
   height: 44px;
-  border-radius: token(radii.md);
-  background: token(colors.elevated);
-  color: token(colors.foreground);
+  border-radius: token(radii.full);
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  color: token(colors.primary);
   font-family: token(fonts.nativeFont);
-  font-size: token(fontSizes.body-md);
+  font-size: token(fontSizes.body-sm);
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 0.02em;
-  flex-shrink: 0;
+
+  & svg {
+    width: 22px;
+    height: 22px;
+  }
 `
 
 export const DrawerHeroText = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: token(spacing.xs);
   min-width: 0;
 `
 
@@ -246,7 +249,7 @@ export const DrawerBody = styled.div`
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 20px 24px;
+  padding: token(spacing.s20) token(spacing.lg);
   display: flex;
   flex-direction: column;
   gap: token(spacing.md);
@@ -432,7 +435,7 @@ export const StatusTagButton = styled.button`
 /* ---------------------------------- Footer --------------------------------- */
 
 export const DrawerFooter = styled.footer`
-  padding: 16px 24px 24px;
+  padding: token(spacing.md) token(spacing.lg) token(spacing.lg);
   border-top: 1px solid token(colors.border);
   display: flex;
   flex-wrap: wrap;
@@ -553,7 +556,7 @@ export const TimelineConnector = styled.div`
   width: 2px;
   flex: 1;
   background: token(colors.border);
-  margin-top: 8px;
+  margin-top: token(spacing.sm);
   min-height: 16px;
 `
 
@@ -561,7 +564,7 @@ export const TimelineContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: token(spacing.xs);
-  padding-top: 4px;
+  padding-top: token(spacing.xs);
   min-width: 0;
 `
 
@@ -581,14 +584,14 @@ export const TimelineDescription = styled.span`
 
 export const TimelineDate = styled.span`
   font-size: token(fontSizes.label-md);
-  color: token(colors.border);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
 `
 
 /* ========================= Detail Drawer (read-only hero) ===================== */
 
 export const DetailDrawerHeader = styled.header`
-  padding: 20px 24px;
+  padding: token(spacing.s20) token(spacing.lg);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -669,8 +672,8 @@ export const DetailDrawerHero = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 12px;
-  padding-bottom: 4px;
+  gap: token(spacing.s12);
+  padding-bottom: token(spacing.xs);
 `
 
 export const DetailDrawerHeroTitle = styled.h2`
@@ -711,21 +714,21 @@ export const DetailDrawerIconButton = styled.button`
 `
 
 export const DetailDrawerFooter = styled.footer`
-  padding: 16px 24px 24px;
+  padding: token(spacing.md) token(spacing.lg) token(spacing.lg);
   border-top: 1px solid token(colors.border);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 12px;
+  gap: token(spacing.s12);
 `
 
 export const DetailDrawerBody = styled.div`
   flex: 1;
   overflow-y: auto;
-  padding: 20px 24px;
+  padding: token(spacing.s20) token(spacing.lg);
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: token(spacing.s20);
 `
 
 /* ----------------------------- Detail meta list ----------------------------- */
@@ -740,8 +743,8 @@ export const DetailMetaRow = styled.div`
   display: grid;
   grid-template-columns: 24px 1fr;
   align-items: center;
-  gap: 12px;
-  padding: 8px 0;
+  gap: token(spacing.s12);
+  padding: token(spacing.sm) 0;
   border-bottom: 1px solid token(colors.border);
 
   &:last-child {
@@ -764,7 +767,7 @@ export const DetailMetaIcon = styled.span`
   justify-content: center;
   width: 16px;
   height: 16px;
-  color: token(colors.border);
+  color: token(colors.textMuted);
   flex-shrink: 0;
 `
 
@@ -869,8 +872,8 @@ export const DetailSectionHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 12px;
+  gap: token(spacing.s12);
+  margin-bottom: token(spacing.s12);
 `
 
 export const DetailSectionTitleGroup = styled.div`
@@ -952,7 +955,7 @@ export const SubtaskCardHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: token(spacing.s12);
 `
 
 export const SubtaskCardTitle = styled.h4`
@@ -1003,7 +1006,7 @@ export const CommentInput = styled.textarea`
   }
 
   &::placeholder {
-    color: token(colors.border);
+    color: token(colors.textMuted);
   }
 `
 

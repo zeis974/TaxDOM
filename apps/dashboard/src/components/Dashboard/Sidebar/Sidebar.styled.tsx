@@ -13,12 +13,12 @@ export const Container = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 16px;
+  gap: token(spacing.md);
 
   & > div:first-child {
     display: inherit;
     flex-direction: column;
-    gap: 16px;
+    gap: token(spacing.md);
   }
 `
 
@@ -61,7 +61,7 @@ export const List = styled.ul`
 export const UserContainer = styled.div`
   display: flex;
   gap: token(spacing.sm);
-  padding: 12px;
+  padding: token(spacing.s12);
   border-radius: token(radii.lg);
   background: token(colors.elevated);
   align-items: center;
@@ -112,7 +112,7 @@ export const UserEmail = styled.span`
 
 export const UserContentWrapper = styled.div`
   display: flex;
-  gap: 12px;
+  gap: token(spacing.s12);
   align-items: center;
   flex: 1;
   overflow: hidden;

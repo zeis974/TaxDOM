@@ -34,8 +34,8 @@ export const CardContainer = styled.div`
   background: token(colors.background);
   width: 100%;
   height: 100px;
-  padding: 20px;
-  gap: 20px;
+  padding: token(spacing.s20);
+  gap: token(spacing.s20);
   border-top: 1px solid token(colors.border);
   border-right: 1px solid token(colors.border);
   border-left: 1px solid token(colors.border);

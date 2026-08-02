@@ -53,7 +53,7 @@ const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 16px;
+  gap: token(spacing.md);
 `
 
 const HeaderContent = styled.div`
@@ -147,14 +147,14 @@ const EmptyMsg = styled.p`
   text-align: center;
   color: token(colors.textMuted);
   font-size: token(fontSizes.body-sm);
-  padding: 32px 0;
+  padding: token(spacing.xl) 0;
 `
 
 const LoadingMsg = styled.p`
   text-align: center;
   color: token(colors.textMuted);
   font-size: token(fontSizes.body-sm);
-  padding: 32px 0;
+  padding: token(spacing.xl) 0;
   animation: pulse 1.5s ease-in-out infinite;
   @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.4 } }
 `

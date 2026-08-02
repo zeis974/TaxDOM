@@ -56,7 +56,7 @@ export const TaxSegment = styled.div`
 export const TaxLegend = styled.div`
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: token(spacing.md);
   flex-wrap: wrap;
   font-size: 0.75rem;
   color: token(colors.textMuted);
@@ -81,7 +81,7 @@ export const TotalTax = styled.span`
   font-weight: 700;
   color: token(colors.foreground);
   font-size: 0.8rem;
-  padding: 4px 8px;
+  padding: token(spacing.xs) token(spacing.sm);
   background: color-mix(in srgb, token(colors.primary) 12%, transparent);
   border-radius: token(radii.lg);
   border: 1px solid color-mix(in srgb, token(colors.primary) 25%, transparent);

@@ -18,6 +18,10 @@ export const ListGrid = styled.div`
 `
 
 export const EmptyAction = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: token(spacing.sm);
   margin-top: token(spacing.sm);
 `
 
@@ -30,7 +34,7 @@ export const EmptyState = styled.div`
   min-height: 320px;
   padding: token(spacing.xl) token(spacing.lg);
   text-align: center;
-  color: token(colors.border);
+  color: token(colors.textMuted);
   gap: token(spacing.md);
 
   & svg {

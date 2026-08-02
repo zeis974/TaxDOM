@@ -8,14 +8,14 @@ export const Container = styled.div`
   background: token(colors.elevated);
   color: token(colors.foreground);
   position: absolute;
-  padding: 20px;
+  padding: token(spacing.s20);
   width: 100%;
   height: 100%;
   border-radius: token(radii.lg);
   z-index: 1;
 
   & hr {
-    margin: 0 20px;
+    margin: 0 token(spacing.s20);
   }
 `
 
@@ -94,7 +94,7 @@ export const TaxesInfo = styled.div`
 
   & > div {
     display: flex;
-    margin: 20px 0;
+    margin: token(spacing.s20) 0;
     justify-content: space-around;
 
     & div {
@@ -114,7 +114,7 @@ export const TaxesInfo = styled.div`
 export const DutyInfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
+  margin: token(spacing.s20) 0;
 
   & span {
     margin-bottom: 10px;

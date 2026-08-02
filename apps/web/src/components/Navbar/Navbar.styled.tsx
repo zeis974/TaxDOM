@@ -17,21 +17,12 @@ export const Nav = styled.nav`
       font-size: clamp(1.4em, 5vw, 2em);    
       font-family: token(fonts.rowdies);
       position: relative;
-
-      &::before {
-        content: "-Alpha";
-        bottom: -10px;
-        right: 0;
-        font-size: 0.5em;
-        position: absolute;
-        color: token(colors.textMuted);
-      }  
     }
   }
 
   & > div:last-of-type {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: token(spacing.s20);
   }
 `

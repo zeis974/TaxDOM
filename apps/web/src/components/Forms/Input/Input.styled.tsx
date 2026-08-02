@@ -8,6 +8,8 @@ export const InputContainer = styled.div`
   font-family: token(fonts.nativeFont);
 
   & > label {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 5px;
     font-size: clamp(0.875rem, 0.8529rem + 0.0941vw, 1rem);
     font-weight: 600;
@@ -28,8 +30,8 @@ export const InputContainer = styled.div`
   & > input {
     outline: none;
     height: 35px;
-    border-radius: token(radii.md);
-    background: token(colors.elevated);
+    border-radius: 5px;
+    background: token(colors.background);
     border: 2px solid transparent;
     padding: 5px;
     font-family: inherit;

@@ -98,7 +98,7 @@ export const Badge = styled.span`
 export const StatusBadgeStyled = styled.span`
   display: inline-flex;
   align-items: center;
-  padding: 4px 12px;
+  padding: token(spacing.xs) token(spacing.s12);
   border-radius: token(radii.full);
   font-size: token(fontSizes.label-md);
   font-weight: 600;

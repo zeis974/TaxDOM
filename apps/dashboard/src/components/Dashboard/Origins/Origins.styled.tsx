@@ -2,114 +2,104 @@ import { styled } from "@/panda/jsx"
 
 export const FilterWrapper = styled.div`
   position: relative;
+  display: inline-flex;
 `
 
 export const FilterTrigger = styled.button`
   display: inline-flex;
   align-items: center;
-  gap: token(spacing.xs);
-  padding: 8px 14px;
-  border-radius: token(radii.md);
-  font-size: token(fontSizes.body-sm);
-  font-weight: 500;
+  gap: token(spacing.sm);
+  padding: 10px 16px;
+  background: token(colors.elevated);
+  font-weight: 600;
   border: 1px solid token(colors.border);
-  background: token(colors.background);
-  color: token(colors.foreground);
   cursor: pointer;
-  transition: background 150ms ease, border-color 150ms ease, color 150ms ease;
-
-  &:hover {
-    background: token(colors.elevated);
-  }
+  border-radius: token(radii.md);
+  color: token(colors.foreground);
+  font-family: token(fonts.nativeFont);
+  font-size: token(fontSizes.body-sm);
+  transition: all 150ms ease;
 
   &[data-active="true"] {
     border-color: token(colors.primary);
     color: token(colors.primary);
-    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  }
+
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
   }
 `
 
 export const FilterDot = styled.span`
-  width: 6px;
-  height: 6px;
+  width: token(spacing.sm);
+  height: token(spacing.sm);
   border-radius: token(radii.full);
-  background: currentColor;
+  background: token(colors.primary);
+  flex-shrink: 0;
 `
 
 export const FilterPopover = styled.div`
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + token(spacing.sm));
   right: 0;
-  z-index: 50;
-  background: token(colors.background);
-  border: 1px solid token(colors.border);
-  border-radius: token(radii.lg);
-  box-shadow: 0 8px 24px token(colors.shadow);
-  padding: token(spacing.md);
-  min-width: 210px;
+  z-index: 20;
+  min-width: 220px;
   display: flex;
   flex-direction: column;
   gap: token(spacing.md);
+  padding: token(spacing.md);
+  background: token(colors.elevated);
+  border: 1px solid token(colors.border);
+  border-radius: token(radii.md);
+  box-shadow: 0 8px 20px token(colors.shadow);
+  animation: fadeIn 150ms ease-out;
 `
 
 export const FilterSection = styled.div`
   display: flex;
   flex-direction: column;
-  gap: token(spacing.xs);
+  gap: token(spacing.sm);
 `
 
 export const FilterSectionLabel = styled.span`
   font-size: token(fontSizes.label-md);
   font-weight: 600;
-  color: token(colors.textMuted);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.5px;
+  color: token(colors.textMuted);
 `
 
 export const FilterOptions = styled.div`
   display: flex;
-  gap: token(spacing.xs);
   flex-wrap: wrap;
+  gap: token(spacing.xs);
 `
 
 export const FilterOption = styled.button`
-  padding: 4px 12px;
-  border-radius: token(radii.full);
-  font-size: token(fontSizes.label-md);
-  font-weight: 600;
-  border: none;
+  padding: token(spacing.xs) token(spacing.sm);
+  background: transparent;
+  border: 1px solid token(colors.border);
+  border-radius: token(radii.sm);
   cursor: pointer;
-  background: token(colors.elevated);
-  color: token(colors.textMuted);
-  transition: background 150ms ease, color 150ms ease;
+  color: token(colors.foreground);
+  font-family: token(fonts.nativeFont);
+  font-size: token(fontSizes.body-sm);
+  transition: all 150ms ease;
 
   &:hover {
-    background: color-mix(in srgb, token(colors.primary) 12%, token(colors.elevated));
-    color: token(colors.foreground);
+    border-color: token(colors.primary);
   }
 
-  &[data-value="all"][data-active="true"] {
-    background: token(colors.elevated);
-    color: token(colors.foreground);
-  }
-
-  &[data-value="eu"][data-active="true"] {
+  &[data-active="true"] {
     background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-    color: token(colors.primaryHover);
+    border-color: token(colors.primary);
+    color: token(colors.primary);
+    font-weight: 600;
   }
 
-  &[data-value="hors-eu"][data-active="true"] {
-    background: token(colors.warningBg);
-    color: token(colors.warningFg);
-  }
-
-  &[data-value="active"][data-active="true"] {
-    background: token(colors.successBg);
-    color: token(colors.successFg);
-  }
-
-  &[data-value="inactive"][data-active="true"] {
-    background: token(colors.errorBg);
-    color: token(colors.errorFg);
+  &:focus-visible {
+    outline: 2px solid token(colors.primary);
+    outline-offset: 2px;
   }
 `

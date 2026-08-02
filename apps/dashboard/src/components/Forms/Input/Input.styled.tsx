@@ -4,8 +4,8 @@ export const HintText = styled.span`
   display: block;
   font-size: token(fontSizes.label-md);
   font-family: token(fonts.nativeFont);
-  color: token(colors.elevated);
-  margin-top: 4px;
+  color: token(colors.textMuted);
+  margin-top: token(spacing.xs);
   line-height: 1.4;
 `
 
@@ -43,7 +43,7 @@ export const InputContainer = styled.div`
     border-radius: token(radii.md);
     background: token(colors.elevated);
     border: 1px solid token(colors.elevated);
-    padding: 8px 12px;
+    padding: token(spacing.sm) token(spacing.s12);
     font-family: inherit;
     color: token(colors.foreground);
     font-size: 0.9375rem;
@@ -52,7 +52,7 @@ export const InputContainer = styled.div`
       box-shadow 150ms;
 
     &::placeholder {
-      color: token(colors.elevated);
+      color: token(colors.textMuted);
     }
 
     &:focus {

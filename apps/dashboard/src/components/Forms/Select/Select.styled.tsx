@@ -4,8 +4,8 @@ export const HintText = styled.span`
   display: block;
   font-size: 0.75rem;
   font-family: token(fonts.nativeFont);
-  color: token(colors.border);
-  margin-top: 4px;
+  color: token(colors.textMuted);
+  margin-top: token(spacing.xs);
   line-height: 1.4;
 `
 
@@ -48,7 +48,7 @@ export const OptionContainer = styled.ul`
     transition: background 150ms;
     box-sizing: border-box;
     color: token(colors.foreground);
-    padding: 8px 12px;
+    padding: token(spacing.sm) token(spacing.s12);
     font-size: 0.9375rem;
 
     &:hover {

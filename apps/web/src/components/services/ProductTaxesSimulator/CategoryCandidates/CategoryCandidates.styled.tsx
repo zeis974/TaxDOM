@@ -7,7 +7,7 @@ export const Container = styled.div`
   gap: 18px;
   width: 100%;
   height: inherit;
-  padding: 0 20px;
+  padding: 0 token(spacing.s20);
   margin: 0 auto;
   font-family: token(fonts.nativeFont);
 `
@@ -46,7 +46,7 @@ export const Card = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: token(spacing.s12);
   text-align: left;
   padding: 12px 14px;
   border: 1px solid token(colors.border);

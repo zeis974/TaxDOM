@@ -31,7 +31,7 @@ export const PageHeaderTitle = styled.div`
   }
 
   & span {
-    color: token(colors.border);
+    color: token(colors.textMuted);
     font-size: token(fontSizes.body-sm);
     font-weight: 500;
   }

@@ -8,8 +8,8 @@ export const Container = styled.div`
 export const StatsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: token(spacing.s12);
+  margin-bottom: token(spacing.lg);
 
   @media (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);

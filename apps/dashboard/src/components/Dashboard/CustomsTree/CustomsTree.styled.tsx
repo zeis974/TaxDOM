@@ -41,7 +41,7 @@ export const SearchInput = styled.input`
   background: token(colors.elevated);
   border: 1px solid transparent;
   border-radius: token(radii.md);
-  padding: 8px 12px 8px 32px;
+  padding: token(spacing.sm) token(spacing.s12) token(spacing.sm) token(spacing.xl);
   font-size: token(fontSizes.body-sm);
   color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
@@ -64,7 +64,7 @@ export const ChapterSearchInput = styled.input`
   background: token(colors.elevated);
   border: 1px solid transparent;
   border-radius: token(radii.md);
-  padding: 8px 12px;
+  padding: token(spacing.sm) token(spacing.s12);
   font-size: token(fontSizes.body-sm);
   color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
@@ -81,7 +81,7 @@ export const ChapterSearchInput = styled.input`
 export const ChapterList = styled.ul`
   flex: 1;
   overflow-y: auto;
-  padding: 8px;
+  padding: token(spacing.sm);
   margin: 0;
   list-style: none;
   display: flex;
@@ -304,7 +304,7 @@ export const ProgressFill = styled.div`
 export const TreeBody = styled.div`
   flex: 1;
   overflow-y: auto;
-  padding: 16px 20px;
+  padding: token(spacing.md) token(spacing.s20);
 `
 
 export const EmptyState = styled.div`
@@ -313,7 +313,7 @@ export const EmptyState = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
-  gap: 12px;
+  gap: token(spacing.s12);
   color: token(colors.textMuted);
   font-size: token(fontSizes.body-sm);
   text-align: center;
@@ -412,7 +412,7 @@ export const NodeProductBadge = styled.span`
 `
 
 export const LoadingRow = styled.div`
-  padding: 8px 12px;
+  padding: token(spacing.sm) token(spacing.s12);
   font-size: token(fontSizes.body-sm);
   color: token(colors.textMuted);
   animation: pulse 1.5s ease-in-out infinite;
@@ -424,12 +424,12 @@ export const LoadingRow = styled.div`
 `
 
 export const ErrorRow = styled.div`
-  padding: 12px 16px;
+  padding: token(spacing.s12) token(spacing.md);
   font-size: token(fontSizes.body-sm);
   color: token(colors.errorFg);
   background: token(colors.errorBg);
   border-radius: token(radii.md);
-  margin: 8px 0;
+  margin: token(spacing.sm) 0;
 `
 
 export const SuggestionList = styled.div`

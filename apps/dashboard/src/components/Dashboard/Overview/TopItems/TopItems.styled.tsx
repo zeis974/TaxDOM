@@ -4,15 +4,15 @@ export const Container = styled.div`
   background: token(colors.elevated);
   border: none;
   border-radius: token(radii.md);
-  padding: 20px;
+  padding: token(spacing.s20);
 `
 
 export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
-  padding-bottom: 12px;
+  margin-bottom: token(spacing.md);
+  padding-bottom: token(spacing.s12);
   border-bottom: 1px solid token(colors.border);
 
   & h2 {
@@ -39,7 +39,7 @@ export const ListItem = styled.div`
   display: grid;
   grid-template-columns: 32px 1fr 80px;
   align-items: center;
-  gap: 12px;
+  gap: token(spacing.s12);
   padding: 10px 12px;
   background: token(colors.elevated);
   border-radius: 6px;
@@ -51,7 +51,7 @@ export const ListItem = styled.div`
     align-items: center;
     justify-content: center;
     background: token(colors.elevated);
-    border-radius: 4px;
+    border-radius: token(radii.sm);
     font-weight: 600;
     font-size: 0.813em;
     color: token(colors.foreground);

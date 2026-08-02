@@ -1,6 +1,5 @@
 import type { ConditionOperator, ConditionType } from "@taxdom/types"
 import { Handle, type Node, type NodeProps, Position } from "@xyflow/react"
-import type { ReactNode } from "react"
 import { token } from "@/panda/tokens"
 import { ConditionNodeContainer, HandleLabel, NodeLabel, NodeValue } from "../RulesFlow.styled"
 
@@ -13,10 +12,10 @@ export type ConditionNodeData = {
 }
 export type ConditionNodeType = Node<ConditionNodeData, "condition">
 
-const conditionConfig: Record<ConditionType, { label: string; color: string }> = {
-  eu: { label: "Origine UE ?", color: token("colors.primaryHover") },
-  individual: { label: "Particulier ?", color: "var(--colors-interactive)" },
-  amount: { label: "Montant", color: token("colors.primary") },
+const conditionLabels: Record<ConditionType, string> = {
+  eu: "Origine UE ?",
+  individual: "Particulier ?",
+  amount: "Montant",
 }
 
 const operatorLabels: Record<ConditionOperator, string> = {
@@ -27,36 +26,44 @@ const operatorLabels: Record<ConditionOperator, string> = {
   eq: "=",
 }
 
+// React Flow ships its own stylesheet for handles, and it is imported after
+// Panda's. Inline styles are the only reliable way to win that cascade, so the
+// colors come through `token.var` rather than a styled class.
+const yesColor = token.var("colors.accentGreen")
+const noColor = token.var("colors.errorFg")
+
 function ConditionNode({ data }: NodeProps<ConditionNodeType>) {
   const conditionType = data.conditionType || "eu"
-  const config = conditionConfig[conditionType]
   const isOrphaned = data.isOrphaned ?? false
 
-  const getConditionDisplay = () => {
-    if (conditionType === "amount" && data.operator && data.value !== undefined)
-      return `${operatorLabels[data.operator]} ${data.value}€`
-    return ""
-  }
+  const detail =
+    conditionType === "amount" && data.operator && data.value !== undefined
+      ? `${operatorLabels[data.operator]} ${data.value}€`
+      : ""
 
   return (
-    <ConditionNodeContainer data-orphaned={isOrphaned} style={{ borderColor: config.color }}>
-      <NodeLabel>{config.label}</NodeLabel>
-      {getConditionDisplay() && <NodeValue>{getConditionDisplay()}</NodeValue>}
-      <Handle type="target" position={Position.Top} style={{ background: token("colors.textMuted") }} />
+    <ConditionNodeContainer data-condition={conditionType} data-orphaned={isOrphaned}>
+      <NodeLabel>{data.label || conditionLabels[conditionType]}</NodeLabel>
+      {detail && <NodeValue>{detail}</NodeValue>}
+      <Handle
+        type="target"
+        position={Position.Top}
+        style={{ background: token.var("colors.textMuted") }}
+      />
       <Handle
         type="source"
         position={Position.Bottom}
         id="yes"
-        style={{ left: "30%", background: token("colors.successFg") }}
+        style={{ left: "30%", background: yesColor }}
       />
       <Handle
         type="source"
         position={Position.Bottom}
         id="no"
-        style={{ left: "70%", background: "var(--colors-errorFg)" }}
+        style={{ left: "70%", background: noColor }}
       />
-      <HandleLabel style={{ bottom: "-20px", left: "20%", color: token("colors.successFg") }}>Oui</HandleLabel>
-      <HandleLabel style={{ bottom: "-20px", left: "65%", color: "var(--colors-errorFg)" }}>Non</HandleLabel>
+      <HandleLabel style={{ bottom: "-20px", left: "20%", color: yesColor }}>Oui</HandleLabel>
+      <HandleLabel style={{ bottom: "-20px", left: "65%", color: noColor }}>Non</HandleLabel>
     </ConditionNodeContainer>
   )
 }
