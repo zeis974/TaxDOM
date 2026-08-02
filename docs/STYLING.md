@@ -53,10 +53,16 @@ This is deliberate: `<style>` blocks in `.astro` files are plain CSS that Panda 
 `var(--colors-primary)` is the only way to reach a token there. The blog keeps readable names for
 exactly that reason.
 
-> ⚠️ **Consequence — never hand-write a CSS variable name outside Astro `<style>` blocks**,
-> keyframes included. `var(--colors-elevated)` resolves on the blog and resolves to **nothing** on
-> web and dashboard, with no build error: the declaration is silently dropped.
+The rule cuts both ways, and both directions fail **silently** — the declaration is simply dropped,
+with no build error:
+
+> ⚠️ **Outside an Astro `<style>` block, never hand-write a CSS variable name**, keyframes included.
+> `var(--colors-elevated)` resolves on the blog and resolves to **nothing** on web and dashboard.
 > Inside a Panda style object (keyframes included), a token reference is written `"{colors.elevated}"`.
+>
+> ⚠️ **Inside an Astro `<style>` block, never write `token(...)`.** The blog's Panda `include` covers
+> `ts,tsx,js,jsx` only, so `.astro` is never processed: `gap: token(spacing.s20)` is emitted verbatim
+> and dropped by the browser as invalid CSS. Use `var(--spacing-s20)` there.
 
 ---
 
@@ -118,10 +124,13 @@ background: color-mix(in srgb, token(colors.primary) 12%, transparent);
 box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.primary) 15%, transparent);
 ```
 
-> ⚠️ **Never place text on a `color-mix()` surface.** The tint lands at opposite lightness in the two
-> modes, so no single text token stays readable on both: the one that passes on the light tint fails
-> on the dark one. A tinted surface that carries text is a *status*, so use the matching
-> `<status>Bg` / `<status>Fg` pair — `infoBg` / `infoFg` covers the neutral-emphasis case.
+> ⚠️ **Never place a *coloured* text token on a `color-mix()` surface.** The tint lands at opposite
+> lightness in the two modes, so no single one stays readable on both: `primary` scores 4.27:1 on the
+> light tint and 6.17:1 on the dark one. A tinted surface that carries text is a *status*, so use the
+> matching `<status>Bg` / `<status>Fg` pair — `infoBg` / `infoFg` covers the neutral-emphasis case.
+>
+> The one exception is `foreground`, which inverts with the mode and therefore always opposes a tint
+> derived from `background` (17.9:1 and 15.7:1). It is the only text token allowed on a `color-mix()`.
 
 ---
 
