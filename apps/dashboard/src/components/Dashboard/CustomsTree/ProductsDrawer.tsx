@@ -135,8 +135,8 @@ const ProductCode = styled.span`
 
 const CategoryBadge = styled.span`
   font-size: token(fontSizes.label-md);
-  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-  color: token(colors.primary);
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
   padding: 2px 8px;
   border-radius: token(radii.full);
   font-weight: 600;

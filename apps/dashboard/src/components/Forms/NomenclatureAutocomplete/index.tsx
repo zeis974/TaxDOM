@@ -44,8 +44,8 @@ const SuggestionCode = styled.span`
   font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-  color: token(colors.primary);
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
   padding: 2px 6px;
   border-radius: token(radii.sm);
   flex-shrink: 0;

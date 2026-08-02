@@ -135,8 +135,8 @@ export const ChapterDescription = styled.span`
 export const ChapterBadge = styled.span`
   font-size: 10px;
   font-weight: 700;
-  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-  color: token(colors.primary);
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
   padding: 2px 7px;
   border-radius: token(radii.full);
   flex-shrink: 0;
@@ -253,8 +253,8 @@ export const SyncButton = styled.button`
   width: 34px;
   height: 34px;
   padding: 0;
-  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-  color: token(colors.primary);
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
   border: 1px solid transparent;
   border-radius: token(radii.md);
   cursor: pointer;
@@ -489,8 +489,8 @@ export const SuggestionCode = styled.span`
   font-size: token(fontSizes.label-md);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-  color: token(colors.primary);
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
   padding: 2px 7px;
   border-radius: token(radii.sm);
   flex-shrink: 0;

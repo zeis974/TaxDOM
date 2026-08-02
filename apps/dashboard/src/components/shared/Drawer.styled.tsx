@@ -199,8 +199,8 @@ export const DrawerHeroAvatar = styled.div`
   width: 44px;
   height: 44px;
   border-radius: token(radii.full);
-  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-  color: token(colors.primary);
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
   font-family: token(fonts.nativeFont);
   font-size: token(fontSizes.body-sm);
   font-weight: 600;

@@ -17,8 +17,8 @@ export const ConvertButton = styled.button`
   font-size: 0.75rem;
   font-weight: 600;
   font-family: token(fonts.nativeFont);
-  color: token(colors.primaryHover);
-  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
+  color: token(colors.infoFg);
+  background: token(colors.infoBg);
   border: none;
   border-radius: token(radii.sm);
   cursor: pointer;
