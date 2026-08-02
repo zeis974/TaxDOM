@@ -47,7 +47,7 @@ const { post } = Astro.props
       display: flex;
       justify-content: center;
       width: fit-content;
-      gap: token(spacing.s20);
+      gap: var(--spacing-s20);
       max-width: 1300px;
       color: var(--colors-primary);
   
@@ -132,7 +132,7 @@ const { post } = Astro.props
         margin: 30px 0;
   
         @media (width < 768px) {
-          margin: token(spacing.s20) 0;
+          margin: var(--spacing-s20) 0;
         }
       }
     }

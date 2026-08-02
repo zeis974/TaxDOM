@@ -39,7 +39,7 @@ y
     font-family: var(--native-font);
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    gap: token(spacing.s20);
+    gap: var(--spacing-s20);
 
     @media (width < 700px) {
       grid-template-columns: repeat(1, 1fr);
@@ -76,7 +76,7 @@ y
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: token(spacing.s20) 0;
+      margin: var(--spacing-s20) 0;
 
       & h2 {
         font-size: clamp(1em, 3vw, 1.5em);
