@@ -18,13 +18,13 @@
     "@types/react-dom": "^19.2.3",
     "astro": "6.4.6",
     "date-fns": "4.4.0",
-    "motion": "12.41.0",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "motion": "12.43.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.11.3",
+    "@pandacss/dev": "1.12.0",
     "@taxdom/ui": "workspace:*"
   },
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@11.17.0"
 }
