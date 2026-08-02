@@ -57,3 +57,7 @@ data/rita/                     XML source data (gitignored from biome)
 - **React Compiler** is enabled in `apps/web` via `babel-plugin-react-compiler`.
 - **Dashboard has its own `AGENTS.md`** with TanStack Router skill mappings — read it when working in `apps/dashboard/`.
 - **Biome excludes:** `.adonisjs`, `.next`, `data/`, `styled-system/`, `coverage`, `dist`.
+
+## Design system
+
+All tokens live in `packages/ui/theme/`. Before writing or modifying any styles, read `docs/STYLING.md`.

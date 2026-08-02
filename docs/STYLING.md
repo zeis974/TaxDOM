@@ -233,6 +233,16 @@ the stricter surface, so it sets the value: a token tuned only against white fai
 
 33 combinations are verified across both modes.
 
+**Two known weaknesses the thresholds above do not catch.** Contrast ratios say nothing about
+whether two *surfaces* are told apart, so these need care rather than a number:
+
+- **`elevated` barely separates from `background` in dark mode** — ΔE 5.8 in CIELAB, below the
+  threshold of perceptibility. A card that relies on its fill alone is effectively invisible against
+  the page at night. Always give elevated surfaces a `border` as well.
+- **`successBg` and `warningBg` are 1.3% apart in luminance** (90.6% vs 89.3%). Desaturated — in
+  greyscale, or for a viewer with severe colour vision deficiency — they are the same. Never convey a
+  status by its tint alone: pair it with an icon, a label, or its `Fg` colour.
+
 > **Never put text on a hand-rolled `color-mix()` surface.** No single token stays readable on such a
 > tint in both modes: the one that passes on the light tint fails on the dark one. Use the matching
 > `<status>Bg` / `<status>Fg` pair — that is what `infoBg` / `infoFg` exists for.
