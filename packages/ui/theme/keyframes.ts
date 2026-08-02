@@ -25,15 +25,18 @@ export const keyframes = defineKeyframes({
       transform: "translate(-50%, -50%) scale(1)",
     },
   },
+  // Token references, not hand-written CSS var names: apps that enable
+  // `hash.cssVar` rename the variables, so `var(--colors-elevated)` resolves
+  // to nothing there.
   skeleton: {
     "0%": {
-      background: "#f0f0f0",
+      background: "{colors.elevated}",
     },
     "50%": {
-      background: "#bababa",
+      background: "{colors.border}",
     },
     "100%": {
-      background: "#f0f0f0",
+      background: "{colors.elevated}",
     },
   },
   "skeleton-shimmer": {

@@ -3,7 +3,7 @@ import { styled } from "@/panda/jsx"
 export const PageContainer = styled.div`
   color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 `
@@ -12,8 +12,8 @@ export const PageHeaderRow = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 16px;
-  background: token(colors.bg);
+  padding: 10px 0;
+  background: token(colors.background);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -31,7 +31,7 @@ export const PageHeaderTitle = styled.div`
   }
 
   & span {
-    color: token(colors.border);
+    color: token(colors.textMuted);
     font-size: token(fontSizes.body-sm);
     font-weight: 500;
   }

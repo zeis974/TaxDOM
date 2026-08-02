@@ -6,7 +6,7 @@ export const Container = styled(m.div)`
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 20px;
+  margin: 0 token(spacing.s20);
   font-family: token(fonts.nativeFont);
   flex-direction: column;
   height: inherit;
@@ -19,7 +19,7 @@ export const Container = styled(m.div)`
     }
 
     & p:last-child {
-      margin: 20px 0;
+      margin: token(spacing.s20) 0;
     }
   }
 `

@@ -1,4 +1,5 @@
 import { Handle, type Node, type NodeProps, Position } from "@xyflow/react"
+import { token } from "@/panda/tokens"
 import { NodeLabel, StartNodeContainer } from "../RulesFlow.styled"
 
 export type StartNodeType = Node<{ label?: string }, "start">
@@ -19,7 +20,12 @@ function StartNode({ data }: NodeProps<StartNodeType>) {
         </svg>
         {data.label || "Début"}
       </NodeLabel>
-      <Handle type="source" position={Position.Bottom} id="default" />
+      <Handle
+        type="source"
+        position={Position.Bottom}
+        id="default"
+        style={{ background: token.var("colors.accentGreen") }}
+      />
     </StartNodeContainer>
   )
 }

@@ -13,7 +13,7 @@ export default function Settings() {
 const Section = styled.section`
   display: flex;
   max-width: token(sizes.maxWidth);
-  margin: 0 20px;
+  margin: 0 token(spacing.s20);
   font-family: token(fonts.nativeFont);
   font-size: 1em;
 

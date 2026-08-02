@@ -9,19 +9,19 @@ export const Container = styled.div`
   & form {
     display: inherit;
     width: 100%;
-    gap: 20px;
+    gap: token(spacing.s20);
 
     & > div:first-of-type {
       flex: 1;
       position: relative;
       height: 100%;
-      padding: 20px;
-      background: token(colors.surface);
+      padding: token(spacing.s20);
+      background: token(colors.elevated);
       border-radius: 10px;
 
       #captcha-container {
         height: 70px;
-        margin-top: 20px;
+        margin-top: token(spacing.s20);
       }
     }
 

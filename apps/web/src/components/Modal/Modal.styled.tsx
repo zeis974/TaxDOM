@@ -4,7 +4,7 @@ import * as m from "motion/react-m"
 export const ModalContainer = styled(m.div)`
   color: token(colors.foreground);
   position: absolute;
-  background: token(colors.bg);
+  background: token(colors.background);
   z-index: 10;
   padding: 20px 25px;
   border-radius: token(radii.lg);
@@ -16,6 +16,6 @@ export const ModalContainer = styled(m.div)`
 export const Backdrop = styled(m.div)`
   position: fixed;
   inset: 0;
-  background:#191a1b94;
+  background: token(colors.overlay);
   z-index: 2;
 `

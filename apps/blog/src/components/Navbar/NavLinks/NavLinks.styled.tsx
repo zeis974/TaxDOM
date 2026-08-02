@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin-left: 50px;
   gap: 50px;
 
-  font-family: var(--native-font);
+  font-family: token(fonts.nativeFont);
 
   & > div:first-of-type {
     z-index: 2;
@@ -18,10 +18,10 @@ export const Container = styled.div`
     padding: 10px;
     transition: background 150ms;
     color: token(colors.foreground);
-    border-radius: 5px;
+    border-radius: token(radii.sm);
 
     &:hover {
-      background: token(colors.surface);
+      background: token(colors.elevated);
     }
   }
 

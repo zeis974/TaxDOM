@@ -20,8 +20,8 @@ export const SearchBar = styled.div`
     height: 100%;
     z-index: 2;
     color: token(colors.foreground);
-    background: token(colors.surface);
-    border-radius: 5px;
+    background: token(colors.elevated);
+    border-radius: token(radii.sm);
     padding: 10px;
     border: none;
     outline: none;
@@ -32,9 +32,9 @@ export const SearchShortcut = styled.div`
   width: 68.5px;
   height: 40px;
   z-index: 2;
-  color: token(colors.bg);
+  color: token(colors.background);
   position: absolute;
-  font-family: "Rowdies", serif;
+  font-family: token(fonts.rowdies);
   right: 0;
   border-radius: 2px;
   margin: 5px;
@@ -43,7 +43,7 @@ export const SearchShortcut = styled.div`
   justify-content: center;
   user-select: none;
   background: token(colors.foreground);
-  border-radius: 5px;
+  border-radius: token(radii.sm);
   transition: 100ms;
 
   & > svg,

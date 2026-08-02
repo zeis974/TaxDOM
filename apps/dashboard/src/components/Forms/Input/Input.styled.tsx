@@ -2,10 +2,10 @@ import { styled } from "@/panda/jsx"
 
 export const HintText = styled.span`
   display: block;
-  font-size: 0.75rem;
+  font-size: token(fontSizes.label-md);
   font-family: token(fonts.nativeFont);
-  color: token(colors.surface);
-  margin-top: 4px;
+  color: token(colors.textMuted);
+  margin-top: token(spacing.xs);
   line-height: 1.4;
 `
 
@@ -24,24 +24,26 @@ export const InputContainer = styled.div`
     color: token(colors.foreground);
 
     & > span {
-      color: token(colors.error);
+      color: token(colors.errorFg);
       font-size: 0.8em;
     }
 
     &:has(span) {
-      & ~ input {
-        border-color: token(colors.error);
+      & ~ input,
+      & ~ div > input {
+        border-color: token(colors.errorFg);
       }
     }
   }
 
-  & > input {
+  & > input,
+  & > div > input {
     outline: none;
     height: 40px;
     border-radius: token(radii.md);
-    background: token(colors.bg);
-    border: 1px solid token(colors.surface);
-    padding: 8px 12px;
+    background: token(colors.elevated);
+    border: 1px solid token(colors.elevated);
+    padding: token(spacing.sm) token(spacing.s12);
     font-family: inherit;
     color: token(colors.foreground);
     font-size: 0.9375rem;
@@ -50,7 +52,7 @@ export const InputContainer = styled.div`
       box-shadow 150ms;
 
     &::placeholder {
-      color: token(colors.surface);
+      color: token(colors.textMuted);
     }
 
     &:focus {
@@ -59,18 +61,19 @@ export const InputContainer = styled.div`
     }
 
     &[aria-invalid="true"] {
-      border-color: token(colors.error);
-      box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.error) 15%, transparent);
+      border-color: token(colors.errorFg);
+      box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.errorFg) 15%, transparent);
     }
 
     &[disabled="true"],
     &[aria-disabled="true"] {
       cursor: not-allowed;
-      background: token(colors.surface);
+      background: token(colors.elevated);
     }
   }
 
-  & > input[type="number"] {
+  & > input[type="number"],
+  & > div > input[type="number"] {
     &::-webkit-outer-spin-button,
     &::-webkit-inner-spin-button {
       -webkit-appearance: none;

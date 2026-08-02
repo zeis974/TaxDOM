@@ -3,15 +3,27 @@ name: TaxDOM
 description: Overseas customs tax calculator — Design System
 colors:
   foreground: "black"
-  bg: "white"
-  surface: "#f1f3f4"
-  border: "#bdc3c7"
+  background: "white"
+  elevated: "#f1f3f4"
+  border: "#838e96"
+  shadow: "rgba(0, 0, 0, 0.1)"
   overlay: "rgba(15, 23, 42, 0.45)"
-  textMuted: "#64748b"
-  primary: "#3498db"
-  success: "#dcfce7"
-  warning: "#fef3c7"
-  error: "#960000"
+  textMuted: "#617087"
+  primary: "#1f74af"
+  primaryHover: "#1a6092"
+  successFg: "#166534"
+  successBg: "#dcfce7"
+  warningFg: "#b45309"
+  warningBg: "#fef3c7"
+  errorFg: "#960000"
+  errorBg: "#fee2e2"
+  infoFg: "#1e40af"
+  infoBg: "#dbeafe"
+  accentGreen: "#059669"
+  accentViolet: "#7c3aed"
+  accentCyan: "#0891b2"
+  accentPink: "#db2777"
+  accentOrange: "#ea580c"
 typography:
   headline-lg:
     fontFamily: nativeFont
@@ -41,26 +53,35 @@ rounded:
 spacing:
   xs: 4px
   sm: 8px
+  s12: 12px
   md: 16px
+  s20: 20px
   lg: 24px
   xl: 32px
 components:
   button-primary:
-    backgroundColor: "{colors.surface}"
+    backgroundColor: "{colors.elevated}"
     textColor: "{colors.foreground}"
     rounded: "{rounded.md}"
     padding: 10px 16px
   button-primary-hover:
     backgroundColor: "{colors.border}"
+  button-danger:
+    backgroundColor: "{colors.errorBg}"
+    textColor: "{colors.errorFg}"
+    rounded: "{rounded.md}"
+    padding: 10px 16px
   button-publish:
     backgroundColor: "{colors.foreground}"
-    textColor: "{colors.bg}"
+    textColor: "{colors.background}"
     rounded: "{rounded.md}"
     padding: 8px 16px
   card:
-    backgroundColor: "{colors.surface}"
+    backgroundColor: "{colors.elevated}"
     rounded: "{rounded.lg}"
     padding: 14px
+  scrim:
+    backgroundColor: "{colors.shadow}"
   input-field:
     rounded: "{rounded.md}"
     padding: 8px 12px
@@ -72,23 +93,40 @@ components:
     textColor: "{colors.textMuted}"
   link:
     textColor: "{colors.primary}"
+  badge-accent:
+    backgroundColor: "color-mix(in srgb, {colors.primary} 12%, transparent)"
+    textColor: "{colors.foreground}"
+    rounded: "{rounded.full}"
+    padding: 4px 10px
+  link-hover:
+    textColor: "{colors.primaryHover}"
   badge-success:
-    backgroundColor: "{colors.success}"
+    backgroundColor: "{colors.successBg}"
+    textColor: "{colors.successFg}"
     rounded: "{rounded.full}"
     padding: 4px 10px
   badge-warning:
-    backgroundColor: "{colors.warning}"
+    backgroundColor: "{colors.warningBg}"
+    textColor: "{colors.foreground}"
     rounded: "{rounded.full}"
     padding: 4px 10px
+  status-indicator:
+    textColor: "{colors.warningFg}"
   drawer:
-    backgroundColor: "{colors.bg}"
+    backgroundColor: "{colors.background}"
     rounded: "{rounded.lg}"
     padding: 20px 24px
   drawer-backdrop:
     backgroundColor: "{colors.overlay}"
   sidebar:
-    backgroundColor: "{colors.surface}"
+    backgroundColor: "{colors.elevated}"
     rounded: "{rounded.lg}"
+  chip-info:
+    backgroundColor: "{colors.infoBg}"
+    textColor: "{colors.infoFg}"
+    rounded: "{rounded.full}"
+    padding: 4px 12px
+    typography: "{typography.label-md}"
 ---
 
 ## Overview
@@ -107,18 +145,39 @@ Full dark mode support is provided via Panda CSS semantic tokens. All color toke
 All tokens are defined in `packages/ui/theme/semantic-tokens.ts`.
 
 - **foreground (black/white):** Primary foreground color — text, icons, active elements.
-- **bg (white/#121212):** Page background.
-- **surface (#f1f3f4/#1e1e1e):** Cards, sidebars, panels, input backgrounds.
-- **border (#bdc3c7/#6a6a6a):** Container borders.
-- **shadow (rgba(0,0,0,0.1)):** Subtle drop shadow for elevation.
+- **background (white/#121212):** Page background.
+- **elevated (#f1f3f4/#1e1e1e):** Cards, sidebars, panels, input backgrounds.
+- **border (#838e96/#6a6a6a):** Container borders. Dark enough to clear 3:1 on both `background` and `elevated`.
+- **shadow (rgba(0,0,0,0.1)/rgba(0,0,0,0.5)):** Subtle drop shadow for elevation.
 - **overlay (rgba(15,23,42,0.45)):** Modal and drawer backdrops.
-- **textMuted (#64748b/#94a3b8):** Secondary text, metadata, helper labels.
-- **peterRiver (#3498db/#60a5fa):** Interactive color — primary buttons, focus rings, links.
+- **textMuted (#617087/#94a3b8):** Secondary text, metadata, helper labels.
+- **primary (#1f74af/#60a5fa):** Interactive color — primary buttons, focus rings, links.
 
-**Status colors:**
-- **success (#dcfce7/#14321f):** Validated states, confirmations.
-- **warning (#fef3c7/#3a2f0c):** Warnings, pending validations.
-- **error (#960000/#ff9b9b):** Errors, critical actions.
+- **primaryHover (#1a6092/#3b82f6):** Darker primary for hover states.
+
+**Status colors** — each has a foreground (text/icon/border) and a subtle background. Always used as
+a pair; never mix one status's foreground with another's background.
+- **successFg (#166534/#4ade80) + successBg (#dcfce7/#14321f):** Validated states, confirmations.
+- **warningFg (#b45309/#fbbf24) + warningBg (#fef3c7/#3a2f0c):** Warnings, pending validations.
+- **errorFg (#960000/#ff9b9b) + errorBg (#fee2e2/#3a1212):** Errors, critical actions.
+- **infoFg (#1e40af/#93c5fd) + infoBg (#dbeafe/#172554):** Neutral emphasis, selected items,
+  informational chips. Use this rather than tinting `primary` by hand — a `color-mix` surface
+  cannot carry readable text in both modes.
+
+**Categorical accents** — for elements distinguished by *hue* rather than by status: flow/diagram
+nodes, chart series. Readable on `background` in both modes, so they work as border, icon or text.
+They must never be used to express a status.
+> `pnpm design:lint` reports these five accents as `orphaned-tokens`. That is a limitation of the
+> design.md schema, not a real orphan: the accents are applied as **border** colors on flow nodes,
+> and `borderColor` is not among the recognized component sub-tokens (`backgroundColor`, `textColor`,
+> `typography`, `rounded`, `padding`, `size`, `height`, `width`). Do **not** silence the warning by
+> declaring them as `backgroundColor` — that would misdescribe the implementation.
+
+- **accentGreen (#059669/#34d399)** — flow start nodes, affirmative branches.
+- **accentPink (#db2777/#f472b6)** — EU conditions.
+- **accentViolet (#7c3aed/#a78bfa)** — individual conditions.
+- **accentCyan (#0891b2/#22d3ee)** — amount conditions.
+- **accentOrange (#ea580c/#fb923c)** — fee nodes.
 
 ## Typography
 
@@ -145,6 +204,42 @@ All sizes are defined in `rem` (16px base) to respect user browser preferences. 
 - **Max-width (2400px):** Maximum width for centered content.
 - **Card grid:** `grid-template-columns: repeat(auto-fill, minmax(240px, 1fr))`, gap `spacing.md`.
 
+## Contrast guarantees
+
+Every pair below is verified in **both** color modes. These are constraints, not observations: a
+change to any of these tokens must keep them satisfied.
+
+Text tokens are checked against **both `background` and `elevated`**. `elevated` is the stricter
+surface in light mode, so it is what sets the value — a token tuned only against white will fail
+inside a card.
+
+| Pair | Threshold | Rationale |
+|---|---|---|
+| `foreground` / `background`, `elevated` | 4.5:1 | Body text |
+| `textMuted` / `background`, `elevated` | 4.5:1 | Secondary text — use this, never `border`, for muted text |
+| `primary` / `background`, `elevated` | 4.5:1 | Links carry small text, and links sit inside cards |
+| `background` / `primary` | 4.5:1 | Label on a filled primary button |
+| `<status>Fg` / `<status>Bg` | 4.5:1 | Badge text on its own tint |
+| accents / `background`, `elevated` | 3:1 | Borders and icons (WCAG 1.4.11, non-text) |
+| `border` / `background`, `elevated` | 3:1 | A card or input outline identifies a component |
+
+33 combinations are verified across both modes. Never put text on a hand-rolled
+`color-mix()` surface: use the matching `<status>Bg` / `<status>Fg` pair instead.
+
+## Spacing
+
+Spacing follows Material's **4dp grid**: every step is a multiple of 4.
+
+| Token | Value | Token | Value |
+|---|---|---|---|
+| `xs` | 4px | `md` | 16px |
+| `sm` | 8px | `s20` | 20px |
+| `s12` | 12px | `lg` | 24px |
+| | | `xl` | 32px |
+
+Need a value that is not in the scale? Take the nearest step. Do not add an off-grid token, and do
+not hardcode a px value to work around the grid.
+
 ## Elevation & Depth
 
 - **Shadows:** `token(colors.shadow)` for resting cards. `0 8px 20px` for clickable cards on hover.
@@ -166,7 +261,7 @@ All sizes are defined in `rem` (16px base) to respect user browser preferences. 
 ### Buttons
 
 **Primary Button:**
-- Background: `surface` → hover: `border`
+- Background: `elevated` → hover: `border`
 - Text: `foreground`
 - Border: 1px solid `border`
 - Border-radius: `rounded.md`
@@ -174,7 +269,7 @@ All sizes are defined in `rem` (16px base) to respect user browser preferences. 
 
 **Publish Button:**
 - Background: `foreground` → hover: opacity 0.9
-- Text: `bg`
+- Text: `background`
 - Border-radius: `rounded.md`
 - Padding: 8px 16px
 
@@ -182,7 +277,7 @@ All sizes are defined in `rem` (16px base) to respect user browser preferences. 
 
 ### Cards
 
-- Background: `surface`
+- Background: `elevated`
 - Border: 1px solid `border`
 - Border-radius: `rounded.lg`
 - Padding: 14px
@@ -193,8 +288,8 @@ All sizes are defined in `rem` (16px base) to respect user browser preferences. 
 - Border-radius: `rounded.md`
 - Padding: 8px 12px — Height: 40px
 - Border: 1px solid `border`
-- Focus: `box-shadow: 0 0 0 3px color-mix(in srgb, peterRiver 15%, transparent)`
-- Error: `box-shadow: 0 0 0 3px color-mix(in srgb, error 15%, transparent)`
+- Focus: `box-shadow: 0 0 0 3px color-mix(in srgb, primary 15%, transparent)`
+- Error: `box-shadow: 0 0 0 3px color-mix(in srgb, errorFg 15%, transparent)`
 
 ### Badges
 
@@ -204,14 +299,14 @@ All sizes are defined in `rem` (16px base) to respect user browser preferences. 
 
 ### Drawers
 
-- Background: `bg`
+- Background: `background`
 - Border-left: 1px solid `border`
 - Box-shadow: -32px 0 80px `shadow`
 - Width: min(460px, 100vw)
 
 ### Sidebar
 
-- Background: `surface`
+- Background: `elevated`
 - Border-radius: `rounded.lg`
 - Max-width: 220px
 
@@ -229,3 +324,27 @@ All sizes are defined in `rem` (16px base) to respect user browser preferences. 
 - Hardcode RGB/HEX colors when a token exists
 - Create new tokens without verifying they will actually be used
 - Define tokens with zero values or values identical to existing tokens
+
+## Relationship to Material Design
+
+The system borrows Material's **4dp spacing grid** and its **type scale naming** (`headline` /
+`body` / `label`, sized `lg` / `md` / `sm`). It deliberately departs from Material on two points:
+
+- **Type scale values.** Sizes are tuned to a dense data application, not to Material's values —
+  `headline-lg` is 24px where Material's `headlineLarge` is 32px.
+- **Color roles.** Material's full role set (`onPrimary`, `surface`, `outline`,
+  `primaryContainer`, …) would introduce a dozen tokens with no consumer. The system keeps only
+  roles that are actually used, per the "no token without a usage" rule.
+
+## Known deviations
+
+Component paddings predating the 4dp grid, still to migrate:
+
+| Component | Current | Target |
+|---|---|---|
+| `button-primary` / `button-danger` | 10px 16px | 12px 16px |
+| `card` | 14px | 16px |
+| `badge` | 4px 10px | 4px 12px |
+
+Migrating these shifts layout by 2px in places, so it is done as its own reviewed change — not
+opportunistically alongside unrelated work.

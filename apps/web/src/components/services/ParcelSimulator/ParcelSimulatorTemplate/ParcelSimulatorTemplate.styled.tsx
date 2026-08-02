@@ -7,9 +7,9 @@ export const Container = styled(m.div)`
   height: calc(100% - 66px);
   border-radius: token(radii.lg);
   bottom: 0;
-  background: token(colors.surface);
-  border: 2px solid token(colors.surface);
-  padding: 20px;
+  background: token(colors.elevated);
+  border: 2px solid token(colors.elevated);
+  padding: token(spacing.s20);
   opacity: 0.8;
   backdrop-filter: blur(10px);
   top: 55%;
@@ -34,9 +34,9 @@ export const Container = styled(m.div)`
     & hr {
       border: none;
       height: 1px;
-      margin: 20px 0;
+      margin: token(spacing.s20) 0;
       width: 100%;
-      background: token(colors.surface);
+      background: token(colors.elevated);
     }
   }
 `
@@ -52,7 +52,7 @@ export const Backdrop = styled(m.div)`
 `
 
 export const ErrorContainer = styled.div`
-  color: red;
+  color: token(colors.errorFg);
   position: absolute;
   width: 100%;
   top: 50%;
@@ -62,7 +62,7 @@ export const ErrorContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: token(spacing.s20);
 `
 
 export const TemplateContainer = styled.div`
@@ -75,18 +75,18 @@ export const TemplateContainer = styled.div`
     flex-direction: column;
     gap: 10px;
     padding-right: 10px;
-    border-right: 1px solid green;
+    border-right: 1px solid token(colors.successFg);
 
     & > div {
       width: 200px;
       text-align: center;
       padding: 10px 20px;
-      border-radius: 5px;
+      border-radius: token(radii.sm);
       transition: background 150ms;
       cursor: pointer;
 
       &[data-selected="true"] {
-        background: token(colors.surface);
+        background: token(colors.elevated);
       }
     }
   }
@@ -99,9 +99,9 @@ export const TemplateContainer = styled.div`
     gap: 10px;
 
     & span {
-      border: 2px solid token(colors.surface);
+      border: 2px solid token(colors.elevated);
       padding: 10px;
-      border-radius: 5px;
+      border-radius: token(radii.sm);
     }
   }
 `
@@ -111,7 +111,7 @@ export const ActionContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  padding: 20px;
+  padding: token(spacing.s20);
   bottom: 0;
   left: 0;
 `

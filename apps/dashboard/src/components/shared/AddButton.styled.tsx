@@ -8,7 +8,7 @@ export const AddButton = styled.button`
   align-items: center;
   gap: token(spacing.sm);
   padding: 10px 16px;
-  background: token(colors.surface);
+  background: token(colors.elevated);
   font-weight: 600;
   border: 1px solid token(colors.border);
   cursor: pointer;
@@ -19,7 +19,7 @@ export const AddButton = styled.button`
   transition: all 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    border-color: token(colors.foreground);
   }
 
   &:focus-visible {

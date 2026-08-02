@@ -13,25 +13,16 @@ export const Nav = styled.nav`
     position: relative;
 
     & > a {
-      color: var(--primary-color);
+      color: token(colors.primary);
       font-size: clamp(1.4em, 5vw, 2em);    
       font-family: token(fonts.rowdies);
       position: relative;
-
-      &::before {
-        content: "-Alpha";
-        bottom: -10px;
-        right: 0;
-        font-size: 0.5em;
-        position: absolute;
-        color: gray;
-      }  
     }
   }
 
   & > div:last-of-type {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: token(spacing.s20);
   }
 `

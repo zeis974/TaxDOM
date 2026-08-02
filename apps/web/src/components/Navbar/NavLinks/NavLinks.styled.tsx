@@ -18,10 +18,10 @@ export const Container = styled.div`
     padding: 10px;
     transition: background 150ms;
     color: token(colors.foreground);
-    border-radius: 5px;
+    border-radius: token(radii.sm);
 
     &:hover {
-      background: token(colors.surface);
+      background: token(colors.elevated);
     }
   }
 
@@ -36,6 +36,6 @@ export const Backdrop = styled(m.div)`
   width: 100%;
   height: 100%;
   inset: 0;
-  background: #0000008f;
+  background: token(colors.overlay);
   z-index: 2;
 `

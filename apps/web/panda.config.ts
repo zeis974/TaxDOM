@@ -16,7 +16,7 @@ export default defineConfig({
   jsxFramework: "react",
   globalCss: {
     body: {
-      backgroundColor: "{colors.bg}",
+      backgroundColor: "{colors.background}",
     },
   },
 })

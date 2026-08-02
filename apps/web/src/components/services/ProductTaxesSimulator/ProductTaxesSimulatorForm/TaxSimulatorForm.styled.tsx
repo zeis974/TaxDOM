@@ -17,10 +17,10 @@ export const ConvertButton = styled.button`
   font-size: 0.75rem;
   font-weight: 600;
   font-family: token(fonts.nativeFont);
-  color: #fff;
-  background: #f3e8ff;
+  color: token(colors.infoFg);
+  background: token(colors.infoBg);
   border: none;
-  border-radius: 4px;
+  border-radius: token(radii.sm);
   cursor: pointer;
   transition: opacity 0.15s ease;
 

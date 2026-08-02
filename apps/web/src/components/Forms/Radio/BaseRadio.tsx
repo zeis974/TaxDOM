@@ -1,6 +1,7 @@
 "use client"
 
 import { Container } from "./Radio.styled"
+import { token } from "@/panda/tokens"
 
 export interface BaseRadioProps {
   id?: string
@@ -34,7 +35,7 @@ export default function BaseRadio({
           {label}
           {errors.length > 0 && " "}
           {errors.length > 0 && (
-            <em style={{ color: "#e74c3c", fontStyle: "normal" }}>{errors.join(", ")}</em>
+            <em style={{ color: token("colors.errorFg"), fontStyle: "normal" }}>{errors.join(", ")}</em>
           )}
         </span>
         <div role="radiogroup" aria-label={label}>

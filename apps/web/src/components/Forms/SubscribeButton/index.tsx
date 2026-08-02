@@ -4,7 +4,6 @@ import { useFormStatus } from "react-dom"
 
 import { useFormContext } from "@/hooks/form"
 import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 
 export default function SubscribeButton({ label }: { label: string }) {
   const form = useFormContext()
@@ -31,18 +30,18 @@ const StyledButton = styled.button`
   cursor: pointer;
   font-weight: bold;
   transition: 150ms;
-  background: ${token("colors.surface")};
-  border-radius: 5px;
+  background: token(colors.elevated);
+  border-radius: token(radii.sm);
   border: 2px solid transparent;
 
-    & > svg {
-      color: token("colors.foreground");
-      animation: rotate 2s linear infinite;
-    }
+  & > svg {
+    color: token(colors.foreground);
+    animation: rotate 2s linear infinite;
+  }
 
   &:hover:not([disabled]),
   &:hover:not([aria-disabled]) {
-    border: 2px solid token("colors.surface");
+    border: 2px solid token(colors.elevated);
     background: none;
   }
 

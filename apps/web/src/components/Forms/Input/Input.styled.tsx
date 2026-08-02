@@ -8,19 +8,21 @@ export const InputContainer = styled.div`
   font-family: token(fonts.nativeFont);
 
   & > label {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 5px;
     font-size: clamp(0.875rem, 0.8529rem + 0.0941vw, 1rem);
     font-weight: 600;
     user-select: none;
 
     & > span {
-      color: token(colors.error);
+      color: token(colors.errorFg);
       font-size: 0.8em;
     }
 
     &:has(span) {
       & ~ input {
-        border: 2px solid red;
+        border: 2px solid token(colors.errorFg);
       }
     }
   }
@@ -29,7 +31,7 @@ export const InputContainer = styled.div`
     outline: none;
     height: 35px;
     border-radius: 5px;
-    background: token(colors.surface);
+    background: token(colors.background);
     border: 2px solid transparent;
     padding: 5px;
     font-family: inherit;

@@ -1,4 +1,5 @@
 import type { Category } from "@taxdom/types"
+import { token } from "@/panda/tokens"
 import {
   Container,
   LegendColor,
@@ -10,9 +11,9 @@ import {
 } from "./TaxBar.styled"
 
 const TAX_CONFIG = {
-  TVA: { color: "#3B82F6", darkColor: "#2563EB", label: "TVA" },
-  OM: { color: "#10B981", darkColor: "#059669", label: "OM" },
-  OMR: { color: "#F59E0B", darkColor: "#D97706", label: "OMR" },
+  TVA: { color: token("colors.primaryHover"), label: "TVA" },
+  OM: { color: token("colors.successFg"), label: "OM" },
+  OMR: { color: token("colors.warningFg"), label: "OMR" },
 } as const
 
 type TaxType = keyof typeof TAX_CONFIG

@@ -15,7 +15,7 @@ export const DrawerContent = styled.div`
   inset: 0 0 0 auto;
   width: min(460px, 100vw);
   height: 100vh;
-  background: token(colors.bg);
+  background: token(colors.background);
   border-left: 1px solid token(colors.border);
   box-shadow: -32px 0 80px token(colors.shadow);
   display: flex;
@@ -26,7 +26,7 @@ export const DrawerContent = styled.div`
 
 export const DrawerHeader = styled.header`
   padding: token(spacing.md);
-  padding-bottom: 12px;
+  padding-bottom: token(spacing.s12);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -57,14 +57,14 @@ export const DrawerTitle = styled.h2`
 export const DrawerMeta = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: token(spacing.xs) token(spacing.md);
-  margin-top: 8px;
+  align-items: center;
+  gap: token(spacing.sm);
   font-size: token(fontSizes.body-sm);
   color: token(colors.textMuted);
 `
 
 export const DrawerCloseButton = styled.button`
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.foreground);
   border: none;
   border-radius: token(radii.full);
@@ -79,7 +79,7 @@ export const DrawerCloseButton = styled.button`
   transition: background 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 `
 
@@ -97,7 +97,7 @@ export const HeaderActionButton = styled.button`
   transition: background 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
   }
 `
@@ -116,7 +116,7 @@ export const DrawerTopBar = styled.header`
 export const DrawerTopBarLeft = styled.div`
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: token(spacing.s12);
 `
 
 export const DrawerTopBarRight = styled.div`
@@ -141,7 +141,7 @@ export const DrawerNavGroup = styled.div`
 `
 
 export const DrawerNavButton = styled.button`
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.textMuted);
   border: none;
   border-radius: token(radii.full);
@@ -155,7 +155,7 @@ export const DrawerNavButton = styled.button`
   transition: background 150ms ease, color 150ms ease;
 
   &:hover:not(:disabled) {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
   }
 
@@ -178,10 +178,45 @@ export const DrawerNavCounter = styled.span`
 export const DrawerHero = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding-bottom: token(spacing.lg);
   border-bottom: 1px solid token(colors.border);
   gap: token(spacing.md);
+`
+
+export const DrawerHeroIdentity = styled.div`
+  display: flex;
+  align-items: center;
+  gap: token(spacing.md);
+  min-width: 0;
+`
+
+export const DrawerHeroAvatar = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: token(radii.full);
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
+  font-family: token(fonts.nativeFont);
+  font-size: token(fontSizes.body-sm);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  & svg {
+    width: 22px;
+    height: 22px;
+  }
+`
+
+export const DrawerHeroText = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: token(spacing.xs);
+  min-width: 0;
 `
 
 export const DrawerHeroTitle = styled.h2`
@@ -214,7 +249,7 @@ export const DrawerBody = styled.div`
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 20px 24px;
+  padding: token(spacing.s20) token(spacing.lg);
   display: flex;
   flex-direction: column;
   gap: token(spacing.md);
@@ -291,7 +326,7 @@ export const DetailRow = styled.div`
 export const DetailLabel = styled.div`
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: token(spacing.sm);
   font-size: token(fontSizes.body-sm);
   color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
@@ -303,9 +338,11 @@ export const DetailIcon = styled.span`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
-  color: token(colors.border);
+  width: 28px;
+  height: 28px;
+  border-radius: token(radii.md);
+  background: token(colors.elevated);
+  color: token(colors.textMuted);
   flex-shrink: 0;
 `
 
@@ -322,36 +359,40 @@ export const DetailValue = styled.span`
 export const DetailValueInput = styled.input`
   padding: 6px 10px;
   border: 1px solid token(colors.border);
-  border-radius: 6px;
+  border-radius: token(radii.md);
   font-size: token(fontSizes.body-sm);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   max-width: 200px;
   width: 100%;
   text-align: right;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
 
   &:focus {
     outline: none;
     border-color: token(colors.primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.primary) 12%, transparent);
   }
 `
 
 export const DetailValueSelect = styled.select`
   padding: 6px 10px;
   border: 1px solid token(colors.border);
-  border-radius: 6px;
+  border-radius: token(radii.md);
   font-size: token(fontSizes.body-sm);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.foreground);
   font-family: token(fonts.nativeFont);
   max-width: 200px;
   width: 100%;
   cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
 
   &:focus {
     outline: none;
     border-color: token(colors.primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.primary) 12%, transparent);
   }
 `
 
@@ -377,7 +418,7 @@ export const StatusTagButton = styled.button`
   padding: 6px 14px;
   border-radius: token(radii.full);
   border: 1px solid token(colors.border);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   color: token(colors.foreground);
   font-size: token(fontSizes.label-md);
   font-weight: 500;
@@ -386,7 +427,7 @@ export const StatusTagButton = styled.button`
 
   &[data-active="true"] {
     background: token(colors.foreground);
-    color: token(colors.bg);
+    color: token(colors.background);
     border-color: token(colors.foreground);
   }
 `
@@ -394,7 +435,7 @@ export const StatusTagButton = styled.button`
 /* ---------------------------------- Footer --------------------------------- */
 
 export const DrawerFooter = styled.footer`
-  padding: 16px 24px 24px;
+  padding: token(spacing.md) token(spacing.lg) token(spacing.lg);
   border-top: 1px solid token(colors.border);
   display: flex;
   flex-wrap: wrap;
@@ -410,7 +451,7 @@ export const ActionsGroup = styled.div`
 `
 
 export const ErrorContainer = styled.div`
-  color: token(colors.error);
+  color: token(colors.errorFg);
   flex: 1;
   font-family: token(fonts.nativeFont);
   min-width: 220px;
@@ -422,17 +463,18 @@ export const ErrorContainer = styled.div`
 `
 
 export const DeleteButton = styled.button`
-  background: token(colors.error);
-  color: token(colors.error);
+  background: token(colors.errorBg);
+  color: token(colors.errorFg);
   border: none;
   border-radius: token(radii.md);
   padding: 10px 18px;
   cursor: pointer;
   font-family: token(fonts.nativeFont);
   font-weight: 600;
+  transition: filter 150ms ease;
 
   &:hover:not(:disabled) {
-    background: #fecaca;
+    filter: brightness(0.95);
   }
 
   &:disabled {
@@ -442,8 +484,8 @@ export const DeleteButton = styled.button`
 `
 
 export const RulesEditorButton = styled.button`
-  background: #e0f2fe;
-  color: #0284c7;
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
   border: none;
   border-radius: token(radii.md);
   padding: 10px 18px;
@@ -495,18 +537,18 @@ export const TimelineIcon = styled.div`
   flex-shrink: 0;
 
   &[data-status="success"] {
-    background: token(colors.success);
-    color: #166534;
+    background: token(colors.successBg);
+    color: token(colors.successFg);
   }
 
   &[data-status="info"] {
-    background: #e0f2fe;
-    color: #0284c7;
+    background: token(colors.infoBg);
+    color: token(colors.infoFg);
   }
 
   &[data-status="warning"] {
-    background: token(colors.warning);
-    color: #d97706;
+    background: token(colors.warningBg);
+    color: token(colors.warningFg);
   }
 `
 
@@ -514,7 +556,7 @@ export const TimelineConnector = styled.div`
   width: 2px;
   flex: 1;
   background: token(colors.border);
-  margin-top: 8px;
+  margin-top: token(spacing.sm);
   min-height: 16px;
 `
 
@@ -522,7 +564,7 @@ export const TimelineContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: token(spacing.xs);
-  padding-top: 4px;
+  padding-top: token(spacing.xs);
   min-width: 0;
 `
 
@@ -542,14 +584,14 @@ export const TimelineDescription = styled.span`
 
 export const TimelineDate = styled.span`
   font-size: token(fontSizes.label-md);
-  color: token(colors.border);
+  color: token(colors.textMuted);
   font-family: token(fonts.nativeFont);
 `
 
 /* ========================= Detail Drawer (read-only hero) ===================== */
 
 export const DetailDrawerHeader = styled.header`
-  padding: 20px 24px;
+  padding: token(spacing.s20) token(spacing.lg);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -597,7 +639,7 @@ export const DetailDrawerNavButton = styled.button`
   height: 28px;
   border-radius: token(radii.full);
   border: 1px solid token(colors.border);
-  background: token(colors.bg);
+  background: token(colors.background);
   color: token(colors.textMuted);
   display: inline-flex;
   align-items: center;
@@ -608,7 +650,7 @@ export const DetailDrawerNavButton = styled.button`
   &:hover:not(:disabled) {
     border-color: token(colors.border);
     color: token(colors.foreground);
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 
   &:disabled {
@@ -630,8 +672,8 @@ export const DetailDrawerHero = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 12px;
-  padding-bottom: 4px;
+  gap: token(spacing.s12);
+  padding-bottom: token(spacing.xs);
 `
 
 export const DetailDrawerHeroTitle = styled.h2`
@@ -656,7 +698,7 @@ export const DetailDrawerIconButton = styled.button`
   height: 32px;
   border-radius: token(radii.md);
   border: 1px solid token(colors.border);
-  background: token(colors.bg);
+  background: token(colors.background);
   color: token(colors.textMuted);
   display: inline-flex;
   align-items: center;
@@ -667,26 +709,26 @@ export const DetailDrawerIconButton = styled.button`
   &:hover {
     border-color: token(colors.border);
     color: token(colors.foreground);
-    background: token(colors.surface);
+    background: token(colors.elevated);
   }
 `
 
 export const DetailDrawerFooter = styled.footer`
-  padding: 16px 24px 24px;
+  padding: token(spacing.md) token(spacing.lg) token(spacing.lg);
   border-top: 1px solid token(colors.border);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 12px;
+  gap: token(spacing.s12);
 `
 
 export const DetailDrawerBody = styled.div`
   flex: 1;
   overflow-y: auto;
-  padding: 20px 24px;
+  padding: token(spacing.s20) token(spacing.lg);
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: token(spacing.s20);
 `
 
 /* ----------------------------- Detail meta list ----------------------------- */
@@ -701,8 +743,8 @@ export const DetailMetaRow = styled.div`
   display: grid;
   grid-template-columns: 24px 1fr;
   align-items: center;
-  gap: 12px;
-  padding: 8px 0;
+  gap: token(spacing.s12);
+  padding: token(spacing.sm) 0;
   border-bottom: 1px solid token(colors.border);
 
   &:last-child {
@@ -725,7 +767,7 @@ export const DetailMetaIcon = styled.span`
   justify-content: center;
   width: 16px;
   height: 16px;
-  color: token(colors.border);
+  color: token(colors.textMuted);
   flex-shrink: 0;
 `
 
@@ -780,39 +822,39 @@ export const StatusPill = styled.button`
   transition: all 150ms ease;
 
   &[data-type="doing"] {
-    background: #e0f2fe;
-    color: #0284c7;
+    background: token(colors.infoBg);
+    color: token(colors.infoFg);
   }
 
   &[data-type="done"] {
-    background: token(colors.success);
-    color: #166534;
+    background: token(colors.successBg);
+    color: token(colors.successFg);
   }
 
   &[data-type="todo"] {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
     border-color: token(colors.border);
   }
 
   &[data-type="low"] {
-    background: token(colors.success);
-    color: #166534;
+    background: token(colors.successBg);
+    color: token(colors.successFg);
   }
 
   &[data-type="medium"] {
-    background: token(colors.warning);
-    color: #d97706;
+    background: token(colors.warningBg);
+    color: token(colors.warningFg);
   }
 
   &[data-type="high"] {
-    background: token(colors.error);
-    color: token(colors.error);
+    background: token(colors.errorBg);
+    color: token(colors.errorFg);
   }
 
   &[data-type="category"] {
-    background: #f3e8ff;
-    color: #7c3aed;
+    background: token(colors.infoBg);
+    color: token(colors.infoFg);
   }
 `
 
@@ -830,8 +872,8 @@ export const DetailSectionHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 12px;
+  gap: token(spacing.s12);
+  margin-bottom: token(spacing.s12);
 `
 
 export const DetailSectionTitleGroup = styled.div`
@@ -857,7 +899,7 @@ export const DetailSectionCount = styled.span`
   font-size: token(fontSizes.label-md);
   font-weight: 600;
   color: token(colors.textMuted);
-  background: token(colors.surface);
+  background: token(colors.elevated);
   padding: 2px 8px;
   border-radius: token(radii.full);
   min-width: 22px;
@@ -871,7 +913,7 @@ export const DetailSectionAction = styled.button`
   padding: 7px 12px;
   border-radius: token(radii.md);
   border: 1px solid token(colors.border);
-  background: token(colors.bg);
+  background: token(colors.background);
   color: token(colors.foreground);
   font-size: token(fontSizes.body-sm);
   font-weight: 600;
@@ -880,7 +922,7 @@ export const DetailSectionAction = styled.button`
   transition: all 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     border-color: token(colors.border);
   }
 `
@@ -891,7 +933,7 @@ export const SubtaskCard = styled.div`
   border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
   padding: 14px;
-  background: token(colors.bg);
+  background: token(colors.background);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -905,7 +947,7 @@ export const SubtaskCardBorder = styled.div`
   top: 0;
   bottom: 0;
   width: 3px;
-  background: #f3e8ff;
+  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
   border-radius: token(radii.lg) 0 0 token(radii.lg);
 `
 
@@ -913,7 +955,7 @@ export const SubtaskCardHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: token(spacing.s12);
 `
 
 export const SubtaskCardTitle = styled.h4`
@@ -942,7 +984,7 @@ export const CommentInputWrapper = styled.div`
   border: 1px solid token(colors.border);
   border-radius: token(radii.lg);
   padding: 10px 12px;
-  background: token(colors.bg);
+  background: token(colors.background);
   display: flex;
   flex-direction: column;
   gap: token(spacing.sm);
@@ -964,7 +1006,7 @@ export const CommentInput = styled.textarea`
   }
 
   &::placeholder {
-    color: token(colors.border);
+    color: token(colors.textMuted);
   }
 `
 
@@ -989,7 +1031,7 @@ export const CommentInputIconButton = styled.button`
   transition: all 150ms ease;
 
   &:hover {
-    background: token(colors.surface);
+    background: token(colors.elevated);
     color: token(colors.foreground);
   }
 `
@@ -1014,7 +1056,7 @@ export const CommentAvatar = styled.div`
   justify-content: center;
   font-size: token(fontSizes.label-md);
   font-weight: 700;
-  color: token(colors.bg);
+  color: token(colors.background);
   flex-shrink: 0;
   background: token(colors.primary);
 `

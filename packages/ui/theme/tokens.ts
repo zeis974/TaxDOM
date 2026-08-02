@@ -11,11 +11,11 @@ export const tokens = defineTokens({
     },
   },
   fontSizes: {
-    "headline-lg": { value: "1.5rem" },   // 24px
+    "headline-lg": { value: "1.5rem" }, // 24px
     "headline-md": { value: "1.125rem" }, // 18px
-    "body-md": { value: "1rem" },         // 16px
-    "body-sm": { value: "0.875rem" },     // 14px
-    "label-md": { value: "0.75rem" },     // 12px
+    "body-md": { value: "1rem" }, // 16px
+    "body-sm": { value: "0.875rem" }, // 14px
+    "label-md": { value: "0.75rem" }, // 12px
   },
   sizes: {
     navbarHeight: { value: "95px" },
@@ -27,10 +27,14 @@ export const tokens = defineTokens({
     lg: { value: "12px" },
     full: { value: "9999px" },
   },
+  // 4dp grid (Material). Every step is a multiple of 4 — do not add one that
+  // is not, and do not hardcode an off-grid px value to work around it.
   spacing: {
     xs: { value: "4px" },
     sm: { value: "8px" },
+    s12: { value: "12px" },
     md: { value: "16px" },
+    s20: { value: "20px" },
     lg: { value: "24px" },
     xl: { value: "32px" },
   },

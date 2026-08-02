@@ -15,7 +15,7 @@ export const VirtualItem = styled.li`
 
   &[data-selected="true"] {
     background: token(colors.foreground);
-    color: token(colors.bg);
+    color: token(colors.background);
   }
 
   &[data-available="false"] {
@@ -25,7 +25,7 @@ export const VirtualItem = styled.li`
 
   &:hover {
     background: token(colors.foreground);
-    color: token(colors.bg);
+    color: token(colors.background);
   }
 `
 
@@ -37,7 +37,7 @@ export const NonVirtualItem = styled.li`
 
   &[data-selected="true"] {
     background: token(colors.foreground);
-    color: token(colors.bg);
+    color: token(colors.background);
   }
 
   &[data-available="false"] {
@@ -47,6 +47,6 @@ export const NonVirtualItem = styled.li`
 
   &:hover {
     background: token(colors.foreground);
-    color: token(colors.bg);
+    color: token(colors.background);
   }
 `

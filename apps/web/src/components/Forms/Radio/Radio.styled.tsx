@@ -16,8 +16,8 @@ export const Container = styled.div`
       width: fit-content;
       padding: 2px;
       height: 40px;
-      border: 2px solid #585858;
-      border-radius: 5px;
+      border: 2px solid token(colors.border);
+      border-radius: token(radii.sm);
 
       & > div {
         display: inherit;
@@ -25,12 +25,12 @@ export const Container = styled.div`
         height: 100%;
 
         &:first-of-type {
-          border-radius: 5px 0 0 5px;
+          border-radius: token(radii.sm) 0 0 token(radii.sm);
           border-right: none;
         }
 
         &:last-of-type {
-          border-radius: 0 5px 5px 0;
+           border-radius: 0 token(radii.sm) token(radii.sm) 0;
           border-left: none;
         }
 
@@ -39,7 +39,7 @@ export const Container = styled.div`
 
           &:checked + label {
             transition: background 250ms;
-            background: #6a6a6a;
+            background: token(colors.textMuted);
             border-radius: 2px;
           }
 

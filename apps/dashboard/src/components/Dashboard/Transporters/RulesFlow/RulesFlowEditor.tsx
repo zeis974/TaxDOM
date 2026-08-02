@@ -1,3 +1,4 @@
+import { useQueryClient } from "@tanstack/react-query"
 import type { TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import {
   Background,
@@ -12,23 +13,24 @@ import {
   ReactFlowProvider,
   useReactFlow,
 } from "@xyflow/react"
-import { saveTransporterRules } from "@/lib/transporterRules"
-import "@xyflow/react/dist/style.css"
+import { api } from "@/lib/api"
 import {
-  type DragEvent,
-  type ReactNode,
-  useCallback,
-  useMemo,
-  useRef,
-  useSyncExternalStore,
-} from "react"
+  apiErrorMessage,
+  type FlowEdgePayload,
+  type FlowNodePayload,
+  saveTransporterRules,
+} from "@/lib/transporterRules"
+import { token } from "@/panda/tokens"
+import "@xyflow/react/dist/style.css"
+import { type DragEvent, useCallback, useMemo, useRef } from "react"
 import { ErrorBoundary } from "react-error-boundary"
 import { toast } from "sonner"
-import { flowToRules, useRulesFlow, validateFlow } from "./hooks"
+import { flowToRules, MAX_FEE_RULES, useRulesFlow, validateFlow } from "./hooks"
 import { ConditionNode, FeeNode, StartNode } from "./nodes"
 import { RightSidePanel } from "./panels"
 import {
   FlowCanvas,
+  FlowErrorState,
   PageBackButton,
   PageBody,
   PageContainer,
@@ -40,12 +42,18 @@ import {
 
 const nodeTypes: NodeTypes = { start: StartNode, condition: ConditionNode, fee: FeeNode }
 
+const miniMapColors: Record<string, string> = {
+  start: token.var("colors.accentGreen"),
+  condition: token.var("colors.accentPink"),
+  fee: token.var("colors.accentOrange"),
+}
+
 function FlowErrorFallback() {
   return (
-    <div style={{ padding: "40px", textAlign: "center", color: "#6b7280" }}>
+    <FlowErrorState>
       <h3>Le constructeur de flux a rencontré une erreur</h3>
       <p>Veuillez recharger la page.</p>
-    </div>
+    </FlowErrorState>
   )
 }
 
@@ -66,44 +74,73 @@ function RulesFlowEditorInner({
 }: RulesFlowEditorProps) {
   const reactFlowWrapper = useRef<HTMLDivElement>(null)
   const { screenToFlowPosition } = useReactFlow()
-  const colorMode: ColorMode = useSyncExternalStore(
-    () => () => {},
-    () => "system",
-    () => "light",
-  )
+  const queryClient = useQueryClient()
+
+  // The resolved theme is stamped on <html> by the boot script in index.html
+  // and never changes at runtime, so "system" would ignore an explicit choice.
+  const colorMode: ColorMode = document.documentElement.dataset.theme === "dark" ? "dark" : "light"
 
   const handleSaveRules = useCallback(
     async (nodes: Node[], edges: Edge[]) => {
       const validation = validateFlow(nodes, edges)
       if (!validation.isValid) {
         toast.error("Erreurs de validation", {
-          description: validation.errors.map((e) => e.message).join("; "),
+          description: validation.errors.map((e) => e.message).join(" · "),
         })
-        return
+        return false
       }
-      const dbNodes = nodes.map((node) => ({
+      if (validation.warnings.length > 0) {
+        toast.warning("Avertissements", { description: validation.warnings.join(" · ") })
+      }
+
+      const rules = flowToRules(nodes, edges, transporterID)
+      if (rules.length === 0) {
+        toast.error("Aucune règle générée", {
+          description: "Aucun nœud de frais n'est atteignable depuis le nœud de départ",
+        })
+        return false
+      }
+      if (rules.length >= MAX_FEE_RULES) {
+        toast.error("Flow trop complexe", {
+          description: `Le flow génère au moins ${MAX_FEE_RULES} règles, le maximum accepté`,
+        })
+        return false
+      }
+
+      const dbNodes: FlowNodePayload[] = nodes.map((node) => ({
         nodeID: node.id,
-        nodeType: node.type || "start",
+        nodeType: (node.type as FlowNodePayload["nodeType"]) || "start",
         positionX: Math.round(node.position.x),
         positionY: Math.round(node.position.y),
         nodeData: node.data,
       }))
-      const dbEdges = edges.map((edge) => ({
+      const dbEdges: FlowEdgePayload[] = edges.map((edge) => ({
         edgeID: edge.id,
         sourceNodeID: edge.source,
         targetNodeID: edge.target,
-        sourceHandle: edge.sourceHandle ?? null,
+        sourceHandle: (edge.sourceHandle as FlowEdgePayload["sourceHandle"]) ?? null,
         edgeLabel: typeof edge.label === "string" ? edge.label : null,
       }))
-      const rules = flowToRules(nodes, edges, transporterID)
+
       try {
         await saveTransporterRules({ transporterID, nodes: dbNodes, edges: dbEdges, rules })
+        // The API re-keys every node, so the cached flow is stale the moment
+        // the save lands.
+        await queryClient.invalidateQueries({
+          queryKey: api.transporterRules.show.queryKey({
+            params: { transporterId: transporterID },
+          }),
+        })
         toast.success("Règles sauvegardées avec succès")
-      } catch {
-        toast.error("Erreur lors de la sauvegarde")
+        return true
+      } catch (error) {
+        toast.error("Erreur lors de la sauvegarde", {
+          description: apiErrorMessage(error, "Réessayez dans un instant"),
+        })
+        return false
       }
     },
-    [transporterID],
+    [transporterID, queryClient],
   )
 
   const {
@@ -192,23 +229,17 @@ function RulesFlowEditorInner({
             fitView
             fitViewOptions={{ padding: 0.3 }}
           >
-            <Background variant={BackgroundVariant.Dots} color="#e5e7eb" gap={18} size={1} />
+            <Background
+              variant={BackgroundVariant.Dots}
+              color={token.var("colors.border")}
+              gap={18}
+              size={1}
+            />
             <Controls />
             <MiniMap
-              nodeColor={(node) => {
-                switch (node.type) {
-                  case "start":
-                    return "#22c55e"
-                  case "condition":
-                    return "#3b82f6"
-                  case "fee":
-                    return "#f97316"
-                  default:
-                    return "#9ca3af"
-                }
-              }}
-              maskColor="rgba(0, 0, 0, 0.1)"
-              style={{ borderRadius: "8px" }}
+              nodeColor={(node) => miniMapColors[node.type ?? ""] ?? token.var("colors.textMuted")}
+              maskColor={token.var("colors.shadow")}
+              style={{ borderRadius: token("radii.md") }}
             />
           </ReactFlow>
         </FlowCanvas>

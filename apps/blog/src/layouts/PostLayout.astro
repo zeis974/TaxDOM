@@ -39,7 +39,7 @@ const { author, title, description, pubDate, updatedDate, heroImage, slug } = As
 
 <style>
   article {
-    margin: 20px;
+    margin: var(--spacing-s20);
     color: var(--colors-primary);
     max-width: 50rem;
     margin: 30px auto;
@@ -58,7 +58,7 @@ const { author, title, description, pubDate, updatedDate, heroImage, slug } = As
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: var(--spacing-s20);
   
     @media (width < 768px) {
       display: flex;
@@ -87,7 +87,7 @@ const { author, title, description, pubDate, updatedDate, heroImage, slug } = As
       .content__author {
         display: flex;
         align-items: center;
-        margin-top: 20px;
+        margin-top: var(--spacing-s20);
         gap: 10px;
   
         & h1 {

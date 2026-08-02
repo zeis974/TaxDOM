@@ -25,5 +25,5 @@ const Section = styled.section`
   height: calc(100svh - (token(sizes.navbarHeight) + 35px));
   max-width: token(sizes.maxWidth);
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: token(spacing.s20);
 `

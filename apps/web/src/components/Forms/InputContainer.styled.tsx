@@ -19,7 +19,7 @@ export const InputContainer = styled.div`
     color: token(colors.foreground);
 
     & > span {
-      color: token(colors.error);
+      color: token(colors.errorFg);
       font-size: 0.8em;
     }
   }
@@ -28,9 +28,9 @@ export const InputContainer = styled.div`
     outline: none;
     height: 40px;
     border-radius: token(radii.md);
-    background: token(colors.bg);
+    background: token(colors.background);
     border: 1px solid transparent;
-    padding: 8px 12px;
+    padding: token(spacing.sm) token(spacing.s12);
     font-family: inherit;
     color: token(colors.foreground);
     font-size: 0.9375rem;
@@ -39,7 +39,7 @@ export const InputContainer = styled.div`
       box-shadow 150ms ease-in;
 
     &::placeholder {
-      color: token(colors.surface);
+      color: token(colors.textMuted);
     }
 
     &:focus {
@@ -51,12 +51,12 @@ export const InputContainer = styled.div`
     &[disabled="true"],
     &[aria-disabled="true"] {
       cursor: not-allowed;
-      background: token(colors.surface);
+      background: token(colors.elevated);
     }
   }
 
   &:has(> label > span) > input {
-    border-color: token(colors.error);
+    border-color: token(colors.errorFg);
   }
 
   & > input[type="number"] {
