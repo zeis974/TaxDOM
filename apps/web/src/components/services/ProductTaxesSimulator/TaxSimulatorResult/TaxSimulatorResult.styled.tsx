@@ -29,7 +29,9 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-  color: token(colors.foreground);
+  /* Sits on the primary-filled Container: the readable pairing is the
+     background token — foreground fails contrast in both modes. */
+  color: token(colors.background);
   text-align: left;
   margin-bottom: 25px;
 
@@ -45,7 +47,7 @@ export const Content = styled.div`
   & h1 {
     font-family: token(fonts.nativeFont);
     font-size: clamp(16px, 1.5vw, 24px);
-    color: token(colors.foreground);
+    color: token(colors.background);
     line-height: 1.2;
     margin: token(spacing.s20) 0;
     text-align: left;

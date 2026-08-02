@@ -44,7 +44,7 @@ const nodeTypes: NodeTypes = { start: StartNode, condition: ConditionNode, fee: 
 
 const miniMapColors: Record<string, string> = {
   start: token.var("colors.accentGreen"),
-  condition: token.var("colors.accentBlue"),
+  condition: token.var("colors.accentPink"),
   fee: token.var("colors.accentOrange"),
 }
 

@@ -91,7 +91,7 @@ export const ConditionNodeContainer = styled.div`
   /* One hue per condition type; the orphaned state overrides them all, so it
      has to stay last. */
   &[data-condition="eu"] {
-    border-color: token(colors.accentBlue);
+    border-color: token(colors.accentPink);
   }
   &[data-condition="individual"] {
     border-color: token(colors.accentViolet);

@@ -81,8 +81,8 @@ export const Badge = styled.span`
   &[data-type="category"],
   &[data-type="info"],
   &[data-type="eu"] {
-    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-    color: token(colors.primaryHover);
+    background: token(colors.infoBg);
+    color: token(colors.infoFg);
   }
 
   &[data-type="neutral"],

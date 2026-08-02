@@ -484,8 +484,8 @@ export const DeleteButton = styled.button`
 `
 
 export const RulesEditorButton = styled.button`
-  background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-  color: token(colors.primaryHover);
+  background: token(colors.infoBg);
+  color: token(colors.infoFg);
   border: none;
   border-radius: token(radii.md);
   padding: 10px 18px;
@@ -542,8 +542,8 @@ export const TimelineIcon = styled.div`
   }
 
   &[data-status="info"] {
-    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-    color: token(colors.primaryHover);
+    background: token(colors.infoBg);
+    color: token(colors.infoFg);
   }
 
   &[data-status="warning"] {
@@ -822,8 +822,8 @@ export const StatusPill = styled.button`
   transition: all 150ms ease;
 
   &[data-type="doing"] {
-    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-    color: token(colors.primaryHover);
+    background: token(colors.infoBg);
+    color: token(colors.infoFg);
   }
 
   &[data-type="done"] {
@@ -853,8 +853,8 @@ export const StatusPill = styled.button`
   }
 
   &[data-type="category"] {
-    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-    color: token(colors.primaryHover);
+    background: token(colors.infoBg);
+    color: token(colors.infoFg);
   }
 `
 

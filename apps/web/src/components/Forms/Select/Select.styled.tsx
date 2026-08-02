@@ -25,8 +25,8 @@ export const OptionContainer = styled.ul`
 
   & > li[data-selected="true"],
   & > div > li[data-selected="true"] {
-    background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-    color: token(colors.primaryHover);
+    background: token(colors.infoBg);
+    color: token(colors.infoFg);
   }
 
   & > li,
