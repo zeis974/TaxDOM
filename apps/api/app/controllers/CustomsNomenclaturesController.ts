@@ -8,6 +8,28 @@ import { ritaSyncRuns } from "#database/schema"
 import { CustomsNomenclaturesService } from "#services/CustomsNomenclaturesService"
 import { RitaSyncService } from "#services/RitaSyncService"
 
+const UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
+
+const MAX_CONCURRENT_SYNC_STREAMS = 4
+let activeSyncStreams = 0
+
+// A full RITA sync (99 chapters) is a heavy, rate-limited scrape against the
+// douane.gouv.fr site — restrict it to once per day.
+const SYNC_COOLDOWN_MS = 24 * 60 * 60 * 1000
+
+async function findLastOkRun() {
+  return db.query.ritaSyncRuns.findFirst({
+    where: eq(ritaSyncRuns.status, "ok"),
+    orderBy: [desc(ritaSyncRuns.finishedAt)],
+  })
+}
+
+function nextSyncAvailableAt(lastOkFinishedAt: Date | null): Date | null {
+  if (!lastOkFinishedAt) return null
+  const nextAt = new Date(lastOkFinishedAt.getTime() + SYNC_COOLDOWN_MS)
+  return nextAt > new Date() ? nextAt : null
+}
+
 @inject()
 export default class CustomsNomenclaturesController {
   constructor(private nomenclaturesService: CustomsNomenclaturesService) {}
@@ -55,6 +77,7 @@ export default class CustomsNomenclaturesController {
       where: isNotNull(ritaSyncRuns.finishedAt),
       orderBy: [desc(ritaSyncRuns.finishedAt)],
     })
+    const lastOkRun = await findLastOkRun()
 
     return response.ok({
       data: run
@@ -62,12 +85,23 @@ export default class CustomsNomenclaturesController {
             finishedAt: run.finishedAt,
             status: run.status,
             rowsImported: run.rowsImported,
+            nextSyncAvailableAt: nextSyncAvailableAt(lastOkRun?.finishedAt ?? null),
           }
         : null,
     })
   }
 
   async triggerSync({ response }: HttpContext) {
+    const lastOkRun = await findLastOkRun()
+    const nextAt = nextSyncAvailableAt(lastOkRun?.finishedAt ?? null)
+
+    if (nextAt) {
+      return response.status(429).json({
+        error: "Une synchronisation a déjà été effectuée aujourd'hui",
+        nextSyncAvailableAt: nextAt,
+      })
+    }
+
     // Create a master run record to track the full 99-chapter sync
     const runId = uuidv7()
     await db.insert(ritaSyncRuns).values({
@@ -85,11 +119,36 @@ export default class CustomsNomenclaturesController {
   async syncStream({ params, response }: HttpContext) {
     const { runId } = params
 
-    response.header("Content-Type", "text/event-stream")
-    response.header("Cache-Control", "no-cache")
-    response.header("Connection", "keep-alive")
+    // Unvalidated ids reach Postgres as a uuid cast and throw a 500 instead of
+    // a clean client error.
+    if (typeof runId !== "string" || !UUID_REGEX.test(runId)) {
+      return response.badRequest({ error: "runId must be a UUID" })
+    }
 
+    // Each stream holds a connection for up to 25 minutes and polls the DB every
+    // 2s; without a ceiling a handful of stale browser tabs can drain the pool.
+    if (activeSyncStreams >= MAX_CONCURRENT_SYNC_STREAMS) {
+      return response.tooManyRequests({ error: "Too many concurrent sync streams" })
+    }
+
+    activeSyncStreams += 1
+
+    try {
+      await this.pipeSyncStream(runId, response)
+    } finally {
+      activeSyncStreams -= 1
+    }
+  }
+
+  private async pipeSyncStream(runId: string, response: HttpContext["response"]) {
+    // Writing straight to the raw Node response below bypasses Adonis's own
+    // header-flush cycle, so `response.header()` never reaches the client —
+    // set headers on the raw response instead, before the first write.
     const stream = response.response
+    stream.setHeader("Content-Type", "text/event-stream")
+    stream.setHeader("Cache-Control", "no-cache")
+    stream.setHeader("Connection", "keep-alive")
+
     const POLL_INTERVAL_MS = 2000
     const MAX_WAIT_MS = 25 * 60 * 1000
 
