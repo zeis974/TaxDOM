@@ -1,1 +1,1 @@
-scrapling[fetchers]==0.4.8
+scrapling[fetchers]==0.4.14
