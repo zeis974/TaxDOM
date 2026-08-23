@@ -12,7 +12,8 @@ export type NomenclatureRow = {
   validAt: string
 }
 
-const DATA_DIR = process.env.RITA_LOCAL_DATA_PATH ?? resolve(process.cwd(), "../../data/rita/xml")
+const DATA_DIR =
+  process.env.RITA_LOCAL_DATA_PATH ?? resolve(process.cwd(), "../../tools/data/rita/xml")
 
 const parser = new XMLParser({
   ignoreAttributes: false,

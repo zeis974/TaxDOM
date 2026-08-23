@@ -1,12 +1,11 @@
 import { existsSync } from "node:fs"
 import { eq, sql } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
-
+import { v7 as uuidv7 } from "uuid"
 import type * as schema from "#database/schema"
 import { customsNomenclatures, ritaSyncRuns } from "#database/schema"
-import { parseChapterXml, xmlPathForChapter } from "#services/RitaXmlParser"
 import type { NomenclatureRow } from "#services/RitaXmlParser"
-import { v7 as uuidv7 } from "uuid"
+import { parseChapterXml, xmlPathForChapter } from "#services/RitaXmlParser"
 
 export type { NomenclatureRow }
 
