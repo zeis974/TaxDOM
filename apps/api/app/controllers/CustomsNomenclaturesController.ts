@@ -149,6 +149,26 @@ export default class CustomsNomenclaturesController {
     stream.setHeader("Cache-Control", "no-cache")
     stream.setHeader("Connection", "keep-alive")
 
+    // 'close' fires when the client disconnects; without this check the loop
+    // would keep polling the DB for up to MAX_WAIT_MS per abandoned tab.
+    let clientGone = false
+    const onClose = () => {
+      clientGone = true
+    }
+    stream.on("close", onClose)
+
+    try {
+      await this.pollRunStatus(runId, stream, () => clientGone)
+    } finally {
+      stream.off("close", onClose)
+    }
+  }
+
+  private async pollRunStatus(
+    runId: string,
+    stream: HttpContext["response"]["response"],
+    isClientGone: () => boolean,
+  ) {
     const POLL_INTERVAL_MS = 2000
     const MAX_WAIT_MS = 25 * 60 * 1000
 
@@ -157,6 +177,10 @@ export default class CustomsNomenclaturesController {
     let elapsed = 0
 
     while (elapsed < MAX_WAIT_MS) {
+      if (isClientGone() || stream.destroyed || stream.writableEnded) {
+        return
+      }
+
       const run = await db.query.ritaSyncRuns.findFirst({
         where: eq(ritaSyncRuns.id, runId),
       })
