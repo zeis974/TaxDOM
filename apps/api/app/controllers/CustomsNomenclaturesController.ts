@@ -1,5 +1,6 @@
 import { inject } from "@adonisjs/core"
 import type { HttpContext } from "@adonisjs/core/http"
+import logger from "@adonisjs/core/services/logger"
 import { desc, eq, isNotNull } from "drizzle-orm"
 import { v7 as uuidv7 } from "uuid"
 import { db } from "#config/database"
@@ -111,7 +112,9 @@ export default class CustomsNomenclaturesController {
     })
 
     // Fire-and-forget in the background
-    runFullSync(runId).catch(() => {})
+    runFullSync(runId).catch((err) =>
+      logger.error("RITA full sync failed for run %s: %O", runId, err),
+    )
 
     return response.ok({ runId })
   }
