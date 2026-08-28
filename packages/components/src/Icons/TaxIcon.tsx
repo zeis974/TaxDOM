@@ -1,8 +1,12 @@
+import { useId } from "react"
+
 export default function TaxIcon() {
+  const bgId = useId()
+  const innerId = useId()
   return (
     <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="30" height="30" rx="6" fill="url(#paint0_linear_357_560)" />
-      <rect width="24" height="24" transform="translate(3 3)" fill="url(#paint1_linear_357_560)" />
+      <rect width="30" height="30" rx="6" fill={`url(#${bgId})`} />
+      <rect width="24" height="24" transform="translate(3 3)" fill={`url(#${innerId})`} />
       <path
         d="M22 8L8 22"
         stroke="white"
@@ -25,19 +29,12 @@ export default function TaxIcon() {
         strokeLinejoin="round"
       />
       <defs>
-        <linearGradient
-          id="paint0_linear_357_560"
-          x1="28.5"
-          y1="1"
-          x2="2"
-          y2="28.5"
-          gradientUnits="userSpaceOnUse"
-        >
+        <linearGradient id={bgId} x1="28.5" y1="1" x2="2" y2="28.5" gradientUnits="userSpaceOnUse">
           <stop stopColor="#3498DB" />
           <stop offset="1" stopColor="#326C92" />
         </linearGradient>
         <linearGradient
-          id="paint1_linear_357_560"
+          id={innerId}
           x1="22.8"
           y1="0.8"
           x2="1.6"

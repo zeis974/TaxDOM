@@ -1,4 +1,5 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
+import { useResettableTimeout } from "@taxdom/components"
 import type { Origin } from "@taxdom/types"
 import { useMemo, useState } from "react"
 import {
@@ -19,7 +20,6 @@ import {
   StatusBadge,
 } from "@/components/shared"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
-import { useResettableTimeout } from "@/hooks/useResettableTimeout"
 import { api } from "@/lib/api"
 
 type Props = {

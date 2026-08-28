@@ -1,6 +1,7 @@
 "use client"
 
 import { useVirtualizer } from "@tanstack/react-virtual"
+import { useDebounce } from "@taxdom/components"
 import type { SelectOption } from "@taxdom/types"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
@@ -15,7 +16,6 @@ import {
   useState,
 } from "react"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
-import { useDebounce } from "@/hooks/useDebounce"
 import {
   LoadingCircle,
   NonVirtualItem,

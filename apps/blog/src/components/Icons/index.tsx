@@ -1,7 +1,4 @@
-import ChevronIcon from "./ChevronIcon"
-import MagicIcon from "./MagicIcon"
-import ParcelIcon from "./ParcelIcon"
-import TaxIcon from "./TaxIcon"
+import { ChevronIcon, MagicIcon, ParcelIcon, TaxIcon } from "@taxdom/components"
 import SearchIcon from "./SearchIcon"
 
-export { ChevronIcon, MagicIcon, ParcelIcon, TaxIcon, SearchIcon }
+export { ChevronIcon, MagicIcon, ParcelIcon, SearchIcon, TaxIcon }

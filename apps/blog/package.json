@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@pandacss/dev": "1.12.0",
+    "@taxdom/components": "workspace:*",
     "@taxdom/ui": "workspace:*"
   },
   "packageManager": "pnpm@11.24.0"

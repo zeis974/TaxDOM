@@ -1,11 +1,11 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query"
 import { useVirtualizer } from "@tanstack/react-virtual"
+import { useOutsideClick } from "@taxdom/components"
 import type React from "react"
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { toast } from "sonner"
-import { token } from "@/panda/tokens"
 import { useNomenclatureSearch } from "@/hooks/useNomenclatureSearch"
-import { useOutsideClick } from "@/hooks/useOutsideClick"
+import { token } from "@/panda/tokens"
 import { Route } from "@/routes/_dashboard-layout/customs-tree"
 import {
   ChapterBadge,

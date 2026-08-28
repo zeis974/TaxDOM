@@ -1,9 +1,8 @@
 import { AnimatePresence } from "motion/react"
 import { Fragment, useRef, useState } from "react"
-
-import { Container } from "./NavLinks.styled"
-import ChevronIcon from "@/components/Icons/ChevronIcon"
+import { ChevronIcon } from "@/components/Icons"
 import ChangeTools from "../NavLinks/ChangeTools"
+import { Container } from "./NavLinks.styled"
 
 type NavTypes = {
   name: string
