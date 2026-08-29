@@ -10,7 +10,7 @@ import {
   TaxIcon,
   TerritoriesIcon,
   TransporterIcon,
-} from "@taxdom/ui/components"
+} from "@taxdom/ui/icons"
 import AddIcon from "./AddIcon"
 import CloseIcon from "./CloseIcon"
 import DownloadIcon from "./DownloadIcon"

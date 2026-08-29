@@ -2,7 +2,7 @@
 
 import { useVirtualizer } from "@tanstack/react-virtual"
 import type { SelectOption } from "@taxdom/types"
-import { useDebounce } from "@taxdom/ui/components"
+import { useDebounce } from "@taxdom/ui/hooks"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
 import {

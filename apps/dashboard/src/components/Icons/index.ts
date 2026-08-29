@@ -6,7 +6,7 @@ import {
   ProductsIcon,
   TerritoriesIcon,
   TransporterIcon,
-} from "@taxdom/ui/components"
+} from "@taxdom/ui/icons"
 
 export { CustomsTreeIcon } from "./CustomsTreeIcon"
 export {

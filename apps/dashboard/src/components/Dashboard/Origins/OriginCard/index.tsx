@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Origin } from "@taxdom/types"
-import { useResettableTimeout } from "@taxdom/ui/components"
+import { useResettableTimeout } from "@taxdom/ui/hooks"
 import { useMemo, useState } from "react"
 import {
   Badge,
