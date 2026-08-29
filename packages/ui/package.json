@@ -5,9 +5,30 @@
   "private": true,
   "exports": {
     ".": "./preset.js",
-    "./preset": "./preset.js"
+    "./preset": "./preset.js",
+    "./icons": {
+      "import": "./src/Icons/index.ts",
+      "require": "./src/Icons/index.ts"
+    },
+    "./hooks": {
+      "import": "./src/hooks/index.ts",
+      "require": "./src/hooks/index.ts"
+    }
+  },
+  "files": [
+    "preset.js",
+    "theme",
+    "src"
+  ],
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.12.0"
+    "@pandacss/dev": "1.12.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   }
 }

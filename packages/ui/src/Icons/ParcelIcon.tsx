@@ -1,7 +1,10 @@
+import { useId } from "react"
+
 export default function ParcelIcon() {
+  const gradientId = useId()
   return (
     <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="30" height="30" rx="6" fill="url(#paint0_linear_762_1090)" />
+      <rect width="30" height="30" rx="6" fill={`url(#${gradientId})`} />
       <path
         d="M13.7952 5.77531C12.3934 6.41783 9.9474 7.50574 7.22397 8.71777C6.304 9.12665 5.51544 9.49172 5.48624 9.52093C5.44973 9.55013 6.54494 10.1342 7.9103 10.8279L10.3928 12.0764L10.9988 11.7917C11.3347 11.6383 12.2108 11.2222 12.9556 10.8717C13.7003 10.5212 14.5838 10.105 14.9197 9.94441C15.2628 9.78378 15.9345 9.46251 16.4164 9.23617C16.9056 9.00253 17.5774 8.68857 17.9205 8.52793C18.2564 8.3746 18.8478 8.09715 19.2202 7.91462L19.9065 7.58605L19.0741 7.24289C17.5628 6.61497 14.9197 5.50515 14.7955 5.43944C14.7079 5.39563 14.4159 5.49785 13.7952 5.77531Z"
         fill="white"
@@ -20,7 +23,7 @@ export default function ParcelIcon() {
       />
       <defs>
         <linearGradient
-          id="paint0_linear_762_1090"
+          id={gradientId}
           x1="28.5"
           y1="1.5"
           x2="3"
