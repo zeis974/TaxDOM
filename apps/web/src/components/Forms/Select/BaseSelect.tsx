@@ -2,6 +2,7 @@
 
 import { useVirtualizer } from "@tanstack/react-virtual"
 import type { SelectOption } from "@taxdom/types"
+import { useDebounce } from "@taxdom/ui/components"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
 import {
@@ -15,11 +16,12 @@ import {
   useState,
 } from "react"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
-import { useDebounce } from "@/hooks/useDebounce"
+import CountryFlag from "@/components/ui/CountryFlag"
 import {
   LoadingCircle,
   NonVirtualItem,
   OptionContainer,
+  OptionContent,
   VirtualItem,
   VirtualizerContainer,
 } from "./Select.styled"
@@ -106,11 +108,18 @@ function OptionItem({
     style,
   }
 
+  const content = (
+    <OptionContent>
+      {option.flag ? <CountryFlag code={option.flag} /> : null}
+      <span>{option.name}</span>
+    </OptionContent>
+  )
+
   if (virtual) {
-    return <VirtualItem {...commonProps}>{option.name}</VirtualItem>
+    return <VirtualItem {...commonProps}>{content}</VirtualItem>
   }
 
-  return <NonVirtualItem {...commonProps}>{option.name}</NonVirtualItem>
+  return <NonVirtualItem {...commonProps}>{content}</NonVirtualItem>
 }
 
 function OptionsList({
