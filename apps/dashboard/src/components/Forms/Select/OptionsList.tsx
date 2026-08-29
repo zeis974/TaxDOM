@@ -1,8 +1,13 @@
 import { useVirtualizer } from "@tanstack/react-virtual"
 import { type MouseEvent, useCallback, useEffect, useRef } from "react"
-
+import CountryFlag from "@/components/ui/CountryFlag"
 import type { BaseOption } from "./BaseSelect"
-import { NonVirtualItem, VirtualItem, VirtualizerContainer } from "./OptionsList.styled"
+import {
+  NonVirtualItem,
+  OptionContent,
+  VirtualItem,
+  VirtualizerContainer,
+} from "./OptionsList.styled"
 import { OptionContainer } from "./Select.styled"
 
 interface OptionsListProps {
@@ -60,11 +65,18 @@ function OptionItem({
     style,
   }
 
+  const content = (
+    <OptionContent>
+      {option.flag ? <CountryFlag code={option.flag} /> : null}
+      <span>{option.name}</span>
+    </OptionContent>
+  )
+
   if (virtual) {
-    return <VirtualItem {...commonProps}>{option.name}</VirtualItem>
+    return <VirtualItem {...commonProps}>{content}</VirtualItem>
   }
 
-  return <NonVirtualItem {...commonProps}>{option.name}</NonVirtualItem>
+  return <NonVirtualItem {...commonProps}>{content}</NonVirtualItem>
 }
 
 export function OptionsList({

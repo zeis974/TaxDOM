@@ -1,3 +1,5 @@
+export * from "./countryFlags"
+
 export type Origin = {
   originID: string
   name: string
@@ -113,6 +115,8 @@ export type SelectOption = {
   value?: string
   available?: boolean
   isEU?: boolean
+  /** ISO 3166-1 alpha-2 code (lowercase) used to display the flag. */
+  flag?: string
 }
 
 export type ProductTaxesSimulatorResult = {
