@@ -50,3 +50,22 @@ export const NonVirtualItem = styled.li`
     color: token(colors.background);
   }
 `
+
+export const OptionContent = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+
+  & > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  & .fi-fis {
+    flex-shrink: 0;
+  }
+`

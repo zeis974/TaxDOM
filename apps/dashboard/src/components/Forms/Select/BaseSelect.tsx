@@ -21,6 +21,7 @@ export interface BaseOption {
   name: string
   available?: boolean
   value?: string
+  flag?: string
 }
 
 type NativeInputProps = Omit<

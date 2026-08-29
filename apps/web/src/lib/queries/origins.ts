@@ -1,4 +1,4 @@
-import type { SelectOption } from "@taxdom/types"
+import { getCountryFlag, type SelectOption } from "@taxdom/types"
 import { api } from "../api/api-client"
 
 export const originQueryOptions = api.origins.list.queryOptions(
@@ -10,6 +10,7 @@ export const originQueryOptions = api.origins.list.queryOptions(
       data.map((o) => ({
         name: o.name,
         available: true,
+        flag: getCountryFlag(o.name),
       })),
   },
 )

@@ -1,4 +1,5 @@
 import { useQuery } from "@tanstack/react-query"
+import { getCountryFlag } from "@taxdom/types"
 import { client } from "@/lib/api"
 
 interface FormOption {
@@ -7,8 +8,8 @@ interface FormOption {
   taxID?: string
   available?: boolean
   isEU?: boolean
+  flag?: string
 }
-
 export function useProductFormOptions() {
   return useQuery({
     queryKey: ["productFormOptions"],
@@ -29,6 +30,7 @@ export function useProductFormOptions() {
         name: o.name,
         value: o.originID,
         isEU: o.isEU,
+        flag: getCountryFlag(o.name),
       }))
 
       const territories: FormOption[] = territoriesRaw.map((t) => ({
