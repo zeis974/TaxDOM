@@ -1,8 +1,20 @@
-export { default as CategoriesIcon } from "./CategoriesIcon"
+import {
+  CategoriesIcon,
+  HomeIcon,
+  LogoutIcon,
+  OriginsIcon,
+  ProductsIcon,
+  TerritoriesIcon,
+  TransporterIcon,
+} from "@taxdom/ui/components"
+
 export { CustomsTreeIcon } from "./CustomsTreeIcon"
-export { default as HomeIcon } from "./HomeIcon"
-export { default as LogoutIcon } from "./LogoutIcon"
-export { default as OriginsIcon } from "./OriginsIcon"
-export { default as ProductsIcon } from "./ProductsIcon"
-export { default as TerritoriesIcon } from "./TerritoriesIcon"
-export { default as TransporterIcon } from "./TransporterIcon"
+export {
+  CategoriesIcon,
+  HomeIcon,
+  LogoutIcon,
+  OriginsIcon,
+  ProductsIcon,
+  TerritoriesIcon,
+  TransporterIcon,
+}
