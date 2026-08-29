@@ -1,4 +1,5 @@
 import { styled } from "@/panda/jsx"
+import { FLAGS_BY_CODE } from "@/assets/flags"
 
 interface CountryFlagProps {
   code?: string
@@ -6,11 +7,12 @@ interface CountryFlagProps {
 }
 
 export default function CountryFlag({ code, size = 18 }: CountryFlagProps) {
-  if (!code) return null
+  const url = code && FLAGS_BY_CODE[code]
+  if (!url) return null
 
   return (
     <FlagStyled
-      style={{ width: size, height: size, backgroundImage: `url(/flags/${code}.svg)` }}
+      style={{ width: size, height: size, backgroundImage: `url(${url})` }}
       aria-hidden="true"
     />
   )
