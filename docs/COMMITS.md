@@ -120,6 +120,9 @@ Anything deliberately left out or not fully covered. Skip if none.
   standalone section.
 - Creating the branch and the commits is in scope for an assistant working on this repo; opening
   the PR itself is not — that stays with the repo owner via GitHub's UI or `gh`.
+- Before running `gh pr create`, show the drafted PR title and body to the user and wait for
+  approval — never create the PR sight unseen, even when opening it has been explicitly
+  authorized.
 
 ---
 
