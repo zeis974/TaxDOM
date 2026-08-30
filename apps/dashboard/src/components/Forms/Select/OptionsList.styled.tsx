@@ -12,21 +12,6 @@ export const VirtualItem = styled.li`
   left: 0;
   width: 100%;
   height: 100%;
-
-  &[data-selected="true"] {
-    background: token(colors.foreground);
-    color: token(colors.background);
-  }
-
-  &[data-available="false"] {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-
-  &:hover {
-    background: token(colors.foreground);
-    color: token(colors.background);
-  }
 `
 
 export const NonVirtualItem = styled.li`
@@ -34,21 +19,6 @@ export const NonVirtualItem = styled.li`
   display: flex;
   align-items: center;
   padding: 0 5px;
-
-  &[data-selected="true"] {
-    background: token(colors.foreground);
-    color: token(colors.background);
-  }
-
-  &[data-available="false"] {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-
-  &:hover {
-    background: token(colors.foreground);
-    color: token(colors.background);
-  }
 `
 
 export const OptionContent = styled.div`

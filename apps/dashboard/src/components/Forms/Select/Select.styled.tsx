@@ -51,12 +51,9 @@ export const OptionContainer = styled.ul`
     padding: token(spacing.sm) token(spacing.s12);
     font-size: 0.9375rem;
 
-    &:hover {
-      background: token(colors.elevated);
-    }
-
     &[data-available="false"] {
       opacity: 0.5;
+      cursor: not-allowed;
     }
   }
 

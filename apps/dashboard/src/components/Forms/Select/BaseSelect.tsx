@@ -293,6 +293,7 @@ export default function BaseSelect({
                     activeIndex={activeIndex}
                     selectedIndex={selectedIndex}
                     onSelect={selectOption}
+                    onHover={setActiveIndex}
                     onMouseDown={handleOptionMouseDown}
                   />
                 </m.div>
