@@ -23,6 +23,8 @@ pnpm dev:dashboard             # Vite + TanStack Router admin SPA
 pnpm --filter @taxdom/<pkg> lint       # biome check
 pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit
 
+# No test suite exists in this repo — don't assume `pnpm test` works anywhere.
+
 # Database (from apps/api)
 pnpm db:push                   # push schema directly (dev)
 pnpm db:generate               # generate Drizzle migrations + Better Auth schema
@@ -61,3 +63,7 @@ data/rita/                     XML source data (gitignored from biome)
 ## Design system
 
 All tokens live in `packages/ui/theme/`. Before writing or modifying any styles, read `docs/STYLING.md`.
+
+## Commits & PRs
+
+Before committing or opening a PR, read `docs/COMMITS.md`. English only, Conventional Commits, one commit per logical change, no commit body.
