@@ -26,6 +26,12 @@ import {
   VirtualizerContainer,
 } from "./Select.styled"
 
+const normalize = (value: string) =>
+  value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+
 type NativeInputProps = Omit<
   InputHTMLAttributes<HTMLInputElement>,
   "onChange" | "value" | "defaultValue" | "children" | "role"
@@ -95,6 +101,7 @@ function OptionItem({
     },
     [onSelect, option],
   )
+
 
   const commonProps = {
     id,
@@ -293,10 +300,10 @@ export default function BaseSelect({
       return searchResults
     }
     if (!inputValue) return options
-    const lower = inputValue.toLowerCase()
-    const exactMatch = options.some((opt) => opt.name.toLowerCase() === lower)
+    const lower = normalize(inputValue)
+    const exactMatch = options.some((opt) => normalize(opt.name) === lower)
     if (exactMatch) return []
-    return options.filter((opt) => opt.name.toLowerCase().includes(lower))
+    return options.filter((opt) => normalize(opt.name).startsWith(lower))
   }, [isSearchMode, options, inputValue, searchResults, searchLoading])
 
   const selectedIndex = filteredOptions.findIndex(

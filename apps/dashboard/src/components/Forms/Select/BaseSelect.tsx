@@ -17,6 +17,12 @@ import { OptionsList } from "./OptionsList"
 import { HintText, LoadingCircle } from "./Select.styled"
 import { useSelectPortalContainer } from "./SelectPortalContext"
 
+const normalize = (value: string) =>
+  value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+
 export interface BaseOption {
   name: string
   available?: boolean
@@ -90,7 +96,7 @@ export default function BaseSelect({
 
   const filteredOptions = options.filter((option) => {
     if (!inputValue) return true
-    return option.name.toLowerCase().includes(inputValue.toLowerCase())
+    return normalize(option.name).startsWith(normalize(inputValue))
   })
 
   const openListbox = useCallback(() => {
