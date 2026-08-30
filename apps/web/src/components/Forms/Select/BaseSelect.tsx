@@ -26,6 +26,12 @@ import {
   VirtualizerContainer,
 } from "./Select.styled"
 
+const normalize = (value: string) =>
+  value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+
 type NativeInputProps = Omit<
   InputHTMLAttributes<HTMLInputElement>,
   "onChange" | "value" | "defaultValue" | "children" | "role"
@@ -57,6 +63,7 @@ interface OptionsListProps {
   activeIndex: number
   selectedIndex: number
   onSelect: (option: SelectOption) => void
+  onHover: (index: number) => void
   onMouseDown?: () => void
 }
 
@@ -68,6 +75,7 @@ interface OptionItemProps {
   optionIndex: number
   onMouseDown?: () => void
   onSelect: (option: SelectOption) => void
+  onHover: (index: number) => void
   style?: React.CSSProperties
   virtual?: boolean
 }
@@ -85,6 +93,7 @@ function OptionItem({
   optionIndex,
   onMouseDown,
   onSelect,
+  onHover,
   style,
   virtual,
 }: OptionItemProps) {
@@ -96,6 +105,10 @@ function OptionItem({
     [onSelect, option],
   )
 
+  const handleMouseEnter = useCallback(() => {
+    onHover(optionIndex)
+  }, [onHover, optionIndex])
+
   const commonProps = {
     id,
     role: "option" as const,
@@ -104,6 +117,7 @@ function OptionItem({
     "data-selected": isActive,
     "data-available": option.available,
     onMouseDown,
+    onMouseEnter: handleMouseEnter,
     onClick: handleClick,
     style,
   }
@@ -128,6 +142,7 @@ function OptionsList({
   activeIndex,
   selectedIndex,
   onSelect,
+  onHover,
   onMouseDown,
 }: OptionsListProps) {
   const parentRef = useRef<HTMLUListElement>(null)
@@ -183,6 +198,7 @@ function OptionsList({
                 optionIndex={virtualItem.index}
                 onMouseDown={onMouseDown}
                 onSelect={onSelect}
+                onHover={onHover}
                 style={{
                   height: `${virtualItem.size}px`,
                   transform: `translateY(${virtualItem.start}px)`,
@@ -203,6 +219,7 @@ function OptionsList({
             optionIndex={index}
             onMouseDown={onMouseDown}
             onSelect={onSelect}
+            onHover={onHover}
             style={{
               height: `${itemHeight}px`,
               display: "flex",
@@ -293,10 +310,10 @@ export default function BaseSelect({
       return searchResults
     }
     if (!inputValue) return options
-    const lower = inputValue.toLowerCase()
-    const exactMatch = options.some((opt) => opt.name.toLowerCase() === lower)
+    const lower = normalize(inputValue)
+    const exactMatch = options.some((opt) => normalize(opt.name) === lower)
     if (exactMatch) return []
-    return options.filter((opt) => opt.name.toLowerCase().includes(lower))
+    return options.filter((opt) => normalize(opt.name).startsWith(lower))
   }, [isSearchMode, options, inputValue, searchResults, searchLoading])
 
   const selectedIndex = filteredOptions.findIndex(
@@ -480,6 +497,7 @@ export default function BaseSelect({
               activeIndex={activeIndex}
               selectedIndex={selectedIndex}
               onSelect={selectOption}
+              onHover={setActiveIndex}
               onMouseDown={handleOptionMouseDown}
             />
           </m.div>
