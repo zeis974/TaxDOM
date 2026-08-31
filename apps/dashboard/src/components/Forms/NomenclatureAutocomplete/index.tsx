@@ -1,8 +1,8 @@
 import { useId, useRef, useState } from "react"
-import { styled } from "@/panda/jsx"
-import { token } from "@/panda/tokens"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
 import { useNomenclatureSearch } from "@/hooks/useNomenclatureSearch"
+import { styled } from "@/panda/jsx"
+import { token } from "@/panda/tokens"
 
 const Wrapper = styled.div`
   position: relative;
