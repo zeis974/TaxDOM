@@ -1,12 +1,12 @@
 import { SkeletonRect } from "@/components/shared/Skeletons"
 import { Container, ContentGrid, LeftColumn, RightColumn, StatsGrid } from "./Overview.styled"
-import { Card as StatsCardContainer } from "./StatsCard/StatsCard.styled"
 import {
+  ProductItem,
+  ProductList,
   Container as RecentContainer,
   Header as RecentHeader,
-  ProductList,
-  ProductItem,
 } from "./RecentActivity/RecentActivity.styled"
+import { Card as StatsCardContainer } from "./StatsCard/StatsCard.styled"
 import {
   Container as TopContainer,
   Header as TopHeader,

@@ -1,16 +1,17 @@
-import { createFileRoute } from "@tanstack/react-router"
-import { Suspense } from "react"
 import { useQuery, useSuspenseQuery } from "@tanstack/react-query"
+import { createFileRoute } from "@tanstack/react-router"
 import type { Territory } from "@taxdom/types"
-import { TerritoriesGridSkeleton } from "@/components/Dashboard/Territories/Skeletons"
+import { Suspense } from "react"
 import AddTerritory from "@/components/Dashboard/Territories/AddTerritory"
+import { TerritoriesGridSkeleton } from "@/components/Dashboard/Territories/Skeletons"
 import TerritoryCard from "@/components/Dashboard/Territories/TerritoryCard"
 import { ErrorComponent } from "@/components/ErrorComponent"
 import { EntityList, PageContainer, PageHeader } from "@/components/shared"
-import { api, queryClient } from "@/lib/api"
+import { api } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/territories")({
-  loader: () => {
+  loader: ({ context }) => {
+    const { queryClient } = context
     void queryClient.prefetchQuery(api.territories.index.queryOptions())
   },
   errorComponent: ErrorComponent,

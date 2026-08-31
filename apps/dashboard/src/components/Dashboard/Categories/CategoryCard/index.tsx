@@ -2,6 +2,8 @@ import { useMutation, useQueryClient } from "@tanstack/react-query"
 import type { Category } from "@taxdom/types"
 import { useId, useMemo, useState } from "react"
 import TaxBar from "@/components/Dashboard/Categories/TaxBar"
+import { InputContainer } from "@/components/Forms/Input/Input.styled"
+import NomenclatureAutocomplete from "@/components/Forms/NomenclatureAutocomplete"
 import {
   Badge,
   crudHandlers,
@@ -13,8 +15,6 @@ import {
   EntityDrawerActions,
   FormGrid,
 } from "@/components/shared"
-import { InputContainer } from "@/components/Forms/Input/Input.styled"
-import NomenclatureAutocomplete from "@/components/Forms/NomenclatureAutocomplete"
 import { useCardDrawer } from "@/hooks/useCardDrawer"
 import { api } from "@/lib/api"
 
