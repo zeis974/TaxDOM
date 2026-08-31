@@ -1,17 +1,15 @@
-import { tanstackRouter } from "@tanstack/router-plugin/vite"
+import { tanstackStart } from "@tanstack/react-start/plugin/vite"
 import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
 
-// https://vite.dev/config/
 export default defineConfig({
   resolve: {
     tsconfigPaths: true,
   },
-  plugins: [
-    tanstackRouter({
-      target: "react",
-      autoCodeSplitting: true,
-    }),
-    react(),
-  ],
+  plugins: [tanstackStart(), react()],
+  // Deployed behind a reverse proxy (e.g. Coolify) whose domain isn't known
+  // at build time, so the Host-header allowlist can't be pinned to a value.
+  preview: {
+    allowedHosts: true,
+  },
 })

@@ -9,24 +9,24 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as LoginLayoutRouteImport } from './routes/_login-layout'
 import { Route as DashboardLayoutRouteImport } from './routes/_dashboard-layout'
+import { Route as LoginLayoutRouteImport } from './routes/_login-layout'
 import { Route as DashboardLayoutIndexRouteImport } from './routes/_dashboard-layout/index'
-import { Route as LoginLayoutLoginRouteImport } from './routes/_login-layout/login'
-import { Route as DashboardLayoutTransportersRouteImport } from './routes/_dashboard-layout/transporters'
-import { Route as DashboardLayoutTerritoriesRouteImport } from './routes/_dashboard-layout/territories'
-import { Route as DashboardLayoutProductsRouteImport } from './routes/_dashboard-layout/products'
-import { Route as DashboardLayoutOriginsRouteImport } from './routes/_dashboard-layout/origins'
-import { Route as DashboardLayoutCustomsTreeRouteImport } from './routes/_dashboard-layout/customs-tree'
 import { Route as DashboardLayoutCategoriesRouteImport } from './routes/_dashboard-layout/categories'
+import { Route as DashboardLayoutCustomsTreeRouteImport } from './routes/_dashboard-layout/customs-tree'
+import { Route as DashboardLayoutOriginsRouteImport } from './routes/_dashboard-layout/origins'
+import { Route as DashboardLayoutProductsRouteImport } from './routes/_dashboard-layout/products'
+import { Route as DashboardLayoutTerritoriesRouteImport } from './routes/_dashboard-layout/territories'
+import { Route as DashboardLayoutTransportersRouteImport } from './routes/_dashboard-layout/transporters'
+import { Route as LoginLayoutLoginRouteImport } from './routes/_login-layout/login'
 import { Route as DashboardLayoutTransportersEditorIdRouteImport } from './routes/_dashboard-layout/transporters/editor.$id'
 
-const LoginLayoutRoute = LoginLayoutRouteImport.update({
-  id: '/_login-layout',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const DashboardLayoutRoute = DashboardLayoutRouteImport.update({
   id: '/_dashboard-layout',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LoginLayoutRoute = LoginLayoutRouteImport.update({
+  id: '/_login-layout',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DashboardLayoutIndexRoute = DashboardLayoutIndexRouteImport.update({
@@ -34,45 +34,45 @@ const DashboardLayoutIndexRoute = DashboardLayoutIndexRouteImport.update({
   path: '/',
   getParentRoute: () => DashboardLayoutRoute,
 } as any)
-const LoginLayoutLoginRoute = LoginLayoutLoginRouteImport.update({
-  id: '/login',
-  path: '/login',
-  getParentRoute: () => LoginLayoutRoute,
-} as any)
-const DashboardLayoutTransportersRoute =
-  DashboardLayoutTransportersRouteImport.update({
-    id: '/transporters',
-    path: '/transporters',
-    getParentRoute: () => DashboardLayoutRoute,
-  } as any)
-const DashboardLayoutTerritoriesRoute =
-  DashboardLayoutTerritoriesRouteImport.update({
-    id: '/territories',
-    path: '/territories',
-    getParentRoute: () => DashboardLayoutRoute,
-  } as any)
-const DashboardLayoutProductsRoute = DashboardLayoutProductsRouteImport.update({
-  id: '/products',
-  path: '/products',
-  getParentRoute: () => DashboardLayoutRoute,
-} as any)
-const DashboardLayoutOriginsRoute = DashboardLayoutOriginsRouteImport.update({
-  id: '/origins',
-  path: '/origins',
-  getParentRoute: () => DashboardLayoutRoute,
-} as any)
-const DashboardLayoutCustomsTreeRoute =
-  DashboardLayoutCustomsTreeRouteImport.update({
-    id: '/customs-tree',
-    path: '/customs-tree',
-    getParentRoute: () => DashboardLayoutRoute,
-  } as any)
 const DashboardLayoutCategoriesRoute =
   DashboardLayoutCategoriesRouteImport.update({
     id: '/categories',
     path: '/categories',
     getParentRoute: () => DashboardLayoutRoute,
   } as any)
+const DashboardLayoutCustomsTreeRoute =
+  DashboardLayoutCustomsTreeRouteImport.update({
+    id: '/customs-tree',
+    path: '/customs-tree',
+    getParentRoute: () => DashboardLayoutRoute,
+  } as any)
+const DashboardLayoutOriginsRoute = DashboardLayoutOriginsRouteImport.update({
+  id: '/origins',
+  path: '/origins',
+  getParentRoute: () => DashboardLayoutRoute,
+} as any)
+const DashboardLayoutProductsRoute = DashboardLayoutProductsRouteImport.update({
+  id: '/products',
+  path: '/products',
+  getParentRoute: () => DashboardLayoutRoute,
+} as any)
+const DashboardLayoutTerritoriesRoute =
+  DashboardLayoutTerritoriesRouteImport.update({
+    id: '/territories',
+    path: '/territories',
+    getParentRoute: () => DashboardLayoutRoute,
+  } as any)
+const DashboardLayoutTransportersRoute =
+  DashboardLayoutTransportersRouteImport.update({
+    id: '/transporters',
+    path: '/transporters',
+    getParentRoute: () => DashboardLayoutRoute,
+  } as any)
+const LoginLayoutLoginRoute = LoginLayoutLoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => LoginLayoutRoute,
+} as any)
 const DashboardLayoutTransportersEditorIdRoute =
   DashboardLayoutTransportersEditorIdRouteImport.update({
     id: '/editor/$id',
@@ -161,18 +161,18 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/_login-layout': {
-      id: '/_login-layout'
-      path: ''
-      fullPath: '/'
-      preLoaderRoute: typeof LoginLayoutRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/_dashboard-layout': {
       id: '/_dashboard-layout'
       path: ''
       fullPath: '/'
       preLoaderRoute: typeof DashboardLayoutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_login-layout': {
+      id: '/_login-layout'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof LoginLayoutRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_dashboard-layout/': {
@@ -182,39 +182,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardLayoutIndexRouteImport
       parentRoute: typeof DashboardLayoutRoute
     }
-    '/_login-layout/login': {
-      id: '/_login-layout/login'
-      path: '/login'
-      fullPath: '/login'
-      preLoaderRoute: typeof LoginLayoutLoginRouteImport
-      parentRoute: typeof LoginLayoutRoute
-    }
-    '/_dashboard-layout/transporters': {
-      id: '/_dashboard-layout/transporters'
-      path: '/transporters'
-      fullPath: '/transporters'
-      preLoaderRoute: typeof DashboardLayoutTransportersRouteImport
-      parentRoute: typeof DashboardLayoutRoute
-    }
-    '/_dashboard-layout/territories': {
-      id: '/_dashboard-layout/territories'
-      path: '/territories'
-      fullPath: '/territories'
-      preLoaderRoute: typeof DashboardLayoutTerritoriesRouteImport
-      parentRoute: typeof DashboardLayoutRoute
-    }
-    '/_dashboard-layout/products': {
-      id: '/_dashboard-layout/products'
-      path: '/products'
-      fullPath: '/products'
-      preLoaderRoute: typeof DashboardLayoutProductsRouteImport
-      parentRoute: typeof DashboardLayoutRoute
-    }
-    '/_dashboard-layout/origins': {
-      id: '/_dashboard-layout/origins'
-      path: '/origins'
-      fullPath: '/origins'
-      preLoaderRoute: typeof DashboardLayoutOriginsRouteImport
+    '/_dashboard-layout/categories': {
+      id: '/_dashboard-layout/categories'
+      path: '/categories'
+      fullPath: '/categories'
+      preLoaderRoute: typeof DashboardLayoutCategoriesRouteImport
       parentRoute: typeof DashboardLayoutRoute
     }
     '/_dashboard-layout/customs-tree': {
@@ -224,12 +196,40 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardLayoutCustomsTreeRouteImport
       parentRoute: typeof DashboardLayoutRoute
     }
-    '/_dashboard-layout/categories': {
-      id: '/_dashboard-layout/categories'
-      path: '/categories'
-      fullPath: '/categories'
-      preLoaderRoute: typeof DashboardLayoutCategoriesRouteImport
+    '/_dashboard-layout/origins': {
+      id: '/_dashboard-layout/origins'
+      path: '/origins'
+      fullPath: '/origins'
+      preLoaderRoute: typeof DashboardLayoutOriginsRouteImport
       parentRoute: typeof DashboardLayoutRoute
+    }
+    '/_dashboard-layout/products': {
+      id: '/_dashboard-layout/products'
+      path: '/products'
+      fullPath: '/products'
+      preLoaderRoute: typeof DashboardLayoutProductsRouteImport
+      parentRoute: typeof DashboardLayoutRoute
+    }
+    '/_dashboard-layout/territories': {
+      id: '/_dashboard-layout/territories'
+      path: '/territories'
+      fullPath: '/territories'
+      preLoaderRoute: typeof DashboardLayoutTerritoriesRouteImport
+      parentRoute: typeof DashboardLayoutRoute
+    }
+    '/_dashboard-layout/transporters': {
+      id: '/_dashboard-layout/transporters'
+      path: '/transporters'
+      fullPath: '/transporters'
+      preLoaderRoute: typeof DashboardLayoutTransportersRouteImport
+      parentRoute: typeof DashboardLayoutRoute
+    }
+    '/_login-layout/login': {
+      id: '/_login-layout/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginLayoutLoginRouteImport
+      parentRoute: typeof LoginLayoutRoute
     }
     '/_dashboard-layout/transporters/editor/$id': {
       id: '/_dashboard-layout/transporters/editor/$id'
@@ -300,3 +300,12 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { createStart } from '@tanstack/react-start'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+  }
+}
