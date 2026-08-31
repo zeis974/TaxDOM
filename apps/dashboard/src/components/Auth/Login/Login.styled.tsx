@@ -133,33 +133,6 @@ export const Icon = styled.svg`
   height: 1.25rem;
 `
 
-// export const DividerContainer = styled.div`
-//   display: flex;
-//   align-items: center;
-//   gap: 1rem;
-//   margin-top: 1rem;
-// `
-
-// export const DividerLine = styled.div`
-//   flex: 1;
-//   height: 1px;
-//   background-color: token(colors.elevated);
-// `
-
-// export const DividerText = styled.span`
-//   font-size: 0.75rem;
-//   font-weight: 500;
-//   color: token(colors.textMuted);
-//   text-transform: uppercase;
-//   letter-spacing: 0.05em;
-// `
-
-// export const InfoText = styled.p`
-//   font-size: 0.875rem;
-//   color: token(colors.textMuted);
-//   text-align: center;
-//   line-height: 1.5;
-// `
 export const FooterLink = styled.a`
   color: token(colors.foreground);
   font-weight: 500;
@@ -195,6 +168,5 @@ export const RightTitle = styled.h2`
 
 export const RightSubtitle = styled.p`
   font-size: 1.125rem;
-  /* color: token(colors.textMuted); */
   line-height: 1.6;
 `

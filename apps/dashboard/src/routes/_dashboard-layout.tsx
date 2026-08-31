@@ -1,20 +1,19 @@
 import { createFileRoute, Outlet, redirect } from "@tanstack/react-router"
 import { Content, Section } from "@/components/Dashboard/Dashboard.styled"
 import Sidebar from "@/components/Dashboard/Sidebar"
-import { authClient } from "@/lib/auth-client"
+import { getServerSession } from "@/lib/auth-server"
 
 export const Route = createFileRoute("/_dashboard-layout")({
   beforeLoad: async () => {
-    const sessionData = await authClient.getSession()
-    if (!sessionData?.data?.user) {
-      throw redirect({
-        to: "/login",
-      })
+    const session = await getServerSession()
+    if (!session?.user) {
+      throw redirect({ to: "/login" })
     }
-    return { session: sessionData.data }
+    return { session }
   },
   component: DashboardLayoutRoute,
 })
+
 function DashboardLayoutRoute() {
   const { session } = Route.useRouteContext()
 
