@@ -41,3 +41,6 @@ styled-system
 # Astro
 .astro/
 dist
+
+# TanStack Start
+.tanstack/
