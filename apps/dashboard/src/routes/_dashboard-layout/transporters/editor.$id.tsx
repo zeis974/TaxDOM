@@ -1,8 +1,8 @@
 import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router"
 import type { TransporterFlowEdge, TransporterFlowNode } from "@taxdom/types"
 import { Suspense } from "react"
-import { FlowEditorSkeleton } from "@/components/Dashboard/Transporters/RulesFlow/Skeletons"
 import RulesFlowEditor from "@/components/Dashboard/Transporters/RulesFlow/RulesFlowEditor"
+import { FlowEditorSkeleton } from "@/components/Dashboard/Transporters/RulesFlow/Skeletons"
 import { api, client } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/transporters/editor/$id")({

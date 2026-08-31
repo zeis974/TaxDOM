@@ -1,16 +1,17 @@
-import { createFileRoute } from "@tanstack/react-router"
-import { Suspense } from "react"
 import { useQuery, useSuspenseQuery } from "@tanstack/react-query"
+import { createFileRoute } from "@tanstack/react-router"
 import type { Transporter } from "@taxdom/types"
-import { TransportersGridSkeleton } from "@/components/Dashboard/Transporters/Skeletons"
+import { Suspense } from "react"
 import AddTransporter from "@/components/Dashboard/Transporters/AddTransporter"
+import { TransportersGridSkeleton } from "@/components/Dashboard/Transporters/Skeletons"
 import TransporterCard from "@/components/Dashboard/Transporters/TransporterCard"
 import { ErrorComponent } from "@/components/ErrorComponent"
 import { EntityList, PageContainer, PageHeader } from "@/components/shared"
-import { api, queryClient } from "@/lib/api"
+import { api } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/transporters")({
-  loader: () => {
+  loader: ({ context }) => {
+    const { queryClient } = context
     void queryClient.prefetchQuery(api.transporters.index.queryOptions())
   },
   errorComponent: ErrorComponent,

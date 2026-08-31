@@ -1,11 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
-import {
-  AddEntityDrawer,
-  crudHandlers,
-  FormGrid,
-} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
+import { AddEntityDrawer, crudHandlers, FormGrid } from "@/components/shared"
 import { api } from "@/lib/api"
 
 export default function AddTransporter() {
@@ -53,7 +49,6 @@ export default function AddTransporter() {
     <AddEntityDrawer
       triggerLabel="Ajouter un transporteur"
       title="Ajouter un transporteur"
-
       open={open}
       onOpenChange={handleOpenChange}
       onTriggerClick={() => setOpen(true)}
@@ -65,19 +60,19 @@ export default function AddTransporter() {
       error={createMutation.error ? "Erreur lors de la création du transporteur." : null}
     >
       <FormGrid>
-          <InputContainer>
-            <label htmlFor={transporterNameID}>Nom du transporteur *</label>
-            <input
-              type="text"
-              id={transporterNameID}
-              placeholder="Ex: COLISSIMO"
-              autoComplete="off"
-              required
-              value={transporterName}
-              onChange={(e) => setTransporterName(e.target.value.toUpperCase())}
-            />
-          </InputContainer>
-        </FormGrid>
+        <InputContainer>
+          <label htmlFor={transporterNameID}>Nom du transporteur *</label>
+          <input
+            type="text"
+            id={transporterNameID}
+            placeholder="Ex: COLISSIMO"
+            autoComplete="off"
+            required
+            value={transporterName}
+            onChange={(e) => setTransporterName(e.target.value.toUpperCase())}
+          />
+        </InputContainer>
+      </FormGrid>
     </AddEntityDrawer>
   )
 }
