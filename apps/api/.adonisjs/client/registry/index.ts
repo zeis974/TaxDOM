@@ -312,6 +312,30 @@ const routes = {
     tokens: [{"old":"/v1/admin/transporters/:id","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/:id","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/:id","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/:id","type":1,"val":"id","end":""}],
     types: placeholder as Registry['transporters.destroy']['types'],
   },
+  'transporter_rules.show': {
+    methods: ["GET","HEAD"],
+    pattern: '/v1/admin/transporters/:transporterId/rules',
+    tokens: [{"old":"/v1/admin/transporters/:transporterId/rules","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/:transporterId/rules","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/:transporterId/rules","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/:transporterId/rules","type":1,"val":"transporterId","end":""},{"old":"/v1/admin/transporters/:transporterId/rules","type":0,"val":"rules","end":""}],
+    types: placeholder as Registry['transporter_rules.show']['types'],
+  },
+  'transporter_rules.save_flow': {
+    methods: ["POST"],
+    pattern: '/v1/admin/transporters/:transporterId/rules/flow',
+    tokens: [{"old":"/v1/admin/transporters/:transporterId/rules/flow","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/flow","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/flow","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/flow","type":1,"val":"transporterId","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/flow","type":0,"val":"rules","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/flow","type":0,"val":"flow","end":""}],
+    types: placeholder as Registry['transporter_rules.save_flow']['types'],
+  },
+  'transporter_rules.save_rules': {
+    methods: ["POST"],
+    pattern: '/v1/admin/transporters/:transporterId/rules/fees',
+    tokens: [{"old":"/v1/admin/transporters/:transporterId/rules/fees","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/fees","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/fees","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/fees","type":1,"val":"transporterId","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/fees","type":0,"val":"rules","end":""},{"old":"/v1/admin/transporters/:transporterId/rules/fees","type":0,"val":"fees","end":""}],
+    types: placeholder as Registry['transporter_rules.save_rules']['types'],
+  },
+  'transporter_rules.save_all': {
+    methods: ["POST"],
+    pattern: '/v1/admin/transporters/:transporterId/rules',
+    tokens: [{"old":"/v1/admin/transporters/:transporterId/rules","type":0,"val":"v1","end":""},{"old":"/v1/admin/transporters/:transporterId/rules","type":0,"val":"admin","end":""},{"old":"/v1/admin/transporters/:transporterId/rules","type":0,"val":"transporters","end":""},{"old":"/v1/admin/transporters/:transporterId/rules","type":1,"val":"transporterId","end":""},{"old":"/v1/admin/transporters/:transporterId/rules","type":0,"val":"rules","end":""}],
+    types: placeholder as Registry['transporter_rules.save_all']['types'],
+  },
 } as const satisfies Record<string, AdonisEndpoint>
 
 export { routes }
