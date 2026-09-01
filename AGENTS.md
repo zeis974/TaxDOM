@@ -2,9 +2,9 @@
 
 ## Stack
 
-- **Runtime:** Node >= 24, pnpm 11.6.0, Turborepo monorepo
-- **Language:** TypeScript 6.0.3 everywhere
-- **Linter/formatter:** Biome 2.5.0 (no ESLint, no Prettier). No semicolons, double quotes, 100-char lines, space indent.
+- **Runtime:** Node >= 24, pnpm 11, Turborepo monorepo
+- **Language:** TypeScript 7 everywhere
+- **Linter/formatter:** Biome 2 (no ESLint, no Prettier). No semicolons, double quotes, 100-char lines, space indent.
 - **Pre-commit:** Husky + lint-staged runs `biome format --write` on staged files.
 
 ## Commands
@@ -18,10 +18,16 @@ pnpm dev                       # all apps via turbo
 pnpm dev:api                   # AdonisJS API on :3333
 pnpm dev:web                   # Next.js 16 public app
 pnpm dev:dashboard             # Vite + TanStack Router admin SPA
+pnpm dev:blog                  # Astro blog
+
+pnpm build                     # all apps via turbo
+pnpm format                    # biome format . --write (whole repo)
 
 # Per-app (run from package dir or via --filter)
-pnpm --filter @taxdom/<pkg> lint       # biome check
+pnpm --filter @taxdom/<pkg> lint       # biome check (next lint in apps/web)
 pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit
+
+# No test suite exists in this repo — don't assume `pnpm test` works anywhere.
 
 # Database (from apps/api)
 pnpm db:push                   # push schema directly (dev)
@@ -36,12 +42,12 @@ apps/
   api/        @taxdom/api      AdonisJS 7, Drizzle + Postgres, Better Auth, ChromaDB + Ollama
   web/        @taxdom/app      Next.js 16, React 19 + React Compiler, Panda CSS, TanStack Query
   dashboard/  @taxdom/dashboard Vite SPA, TanStack Router (file-based), Panda CSS
-  blog/       @taxdom/blog     Astro 6 + MDX + React, Panda CSS
+  blog/       @taxdom/blog     Astro 7 + MDX + React, Panda CSS
 packages/
   ui/         @taxdom/ui       Panda CSS preset (tokens, semantic tokens, keyframes, utilities)
   types/      @taxdom/types    Shared domain types (Product, Category, Origin, etc.)
 tools/                         Python scripts for RITA nomenclature data import
-data/rita/                     XML source data (gitignored from biome)
+tools/data/rita/               XML source data (excluded from biome, not from git)
 ```
 
 ## Key gotchas
@@ -54,10 +60,13 @@ data/rita/                     XML source data (gitignored from biome)
 - **TanStack Router generates `routeTree.gen.ts`** in dashboard via the Vite plugin. Route files go in `apps/dashboard/src/routes/`.
 - **Tuyau** generates a type-safe API client from AdonisJS route definitions. Both `web` and `dashboard` consume it via `@tuyau/core` + `@tuyau/react-query`.
 - **API routes are split:** `/v1/public/*` (API key middleware) and `/v1/admin/*` (session auth middleware). Route files live in `apps/api/app/routes/{public,admin}/`.
-- **React Compiler** is enabled in `apps/web` via `babel-plugin-react-compiler`.
 - **Dashboard has its own `AGENTS.md`** with TanStack Router skill mappings — read it when working in `apps/dashboard/`.
 - **Biome excludes:** `.adonisjs`, `.next`, `data/`, `styled-system/`, `coverage`, `dist`.
 
 ## Design system
 
 All tokens live in `packages/ui/theme/`. Before writing or modifying any styles, read `docs/STYLING.md`.
+
+## Commits & PRs
+
+Before committing or opening a PR, read `docs/COMMITS.md`. English only, Conventional Commits, one commit per logical change, no commit body.
