@@ -1,11 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
-import {
-  AddEntityDrawer,
-  crudHandlers,
-  FormGrid,
-} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
+import { AddEntityDrawer, crudHandlers, FormGrid } from "@/components/shared"
 import { api } from "@/lib/api"
 
 export default function AddTerritory() {
@@ -53,7 +49,6 @@ export default function AddTerritory() {
     <AddEntityDrawer
       triggerLabel="Ajouter un territoire"
       title="Ajouter un territoire"
-
       open={open}
       onOpenChange={handleOpenChange}
       onTriggerClick={() => setOpen(true)}
@@ -65,19 +60,19 @@ export default function AddTerritory() {
       error={createMutation.error ? "Erreur lors de la création du territoire." : null}
     >
       <FormGrid>
-          <InputContainer>
-            <label htmlFor={territoryNameID}>Nom du territoire *</label>
-            <input
-              type="text"
-              id={territoryNameID}
-              placeholder="Ex: France métropolitaine"
-              autoComplete="off"
-              required
-              value={territoryName}
-              onChange={(e) => setTerritoryName(e.target.value)}
-            />
-          </InputContainer>
-        </FormGrid>
+        <InputContainer>
+          <label htmlFor={territoryNameID}>Nom du territoire *</label>
+          <input
+            type="text"
+            id={territoryNameID}
+            placeholder="Ex: France métropolitaine"
+            autoComplete="off"
+            required
+            value={territoryName}
+            onChange={(e) => setTerritoryName(e.target.value)}
+          />
+        </InputContainer>
+      </FormGrid>
     </AddEntityDrawer>
   )
 }

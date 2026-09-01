@@ -6,9 +6,6 @@ interface ConditionNodeData {
   operator?: ConditionOperator
   value?: number
 }
-interface FeeNodeData {
-  fee: number
-}
 
 export interface FlowValidationError {
   type: string
@@ -76,12 +73,12 @@ export function flowToRules(
       const noEdge = edges.find((e) => e.source === nodeId && e.sourceHandle === "no")
       if (yesEdge) {
         const yesConditions = { ...conditions }
-        applyCondition(yesConditions, data as ConditionNodeData, true)
+        applyCondition(yesConditions, data as unknown as ConditionNodeData, true)
         traverse(yesEdge.target, yesConditions, depth + 1)
       }
       if (noEdge) {
         const noConditions = { ...conditions }
-        applyCondition(noConditions, data as ConditionNodeData, false)
+        applyCondition(noConditions, data as unknown as ConditionNodeData, false)
         traverse(noEdge.target, noConditions, depth + 1)
       }
     }

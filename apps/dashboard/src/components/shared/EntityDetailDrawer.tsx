@@ -2,9 +2,6 @@ import { type ReactNode, useState } from "react"
 import { Drawer } from "vaul"
 import { SelectPortalContainerContext } from "@/components/Forms/Select/SelectPortalContext"
 import {
-  DrawerCloseButton,
-  DrawerContent,
-  DrawerOverlay,
   DetailDrawerBody,
   DetailDrawerCounter,
   DetailDrawerFooter,
@@ -16,6 +13,9 @@ import {
   DetailDrawerNavButton,
   DetailDrawerNavGroup,
   DetailDrawerTitle,
+  DrawerCloseButton,
+  DrawerContent,
+  DrawerOverlay,
 } from "./Drawer.styled"
 import { ChevronLeftIcon, ChevronRightIcon, CloseIcon, MoreIcon, NotificationIcon } from "./icons"
 
@@ -70,7 +70,9 @@ export function EntityDetailDrawer({
               <DetailDrawerHeaderLeft>
                 {subtitle && <DetailDrawerHeaderTitle>{subtitle}</DetailDrawerHeaderTitle>}
                 <DetailDrawerTitle>{title}</DetailDrawerTitle>
-                {headerActions && <DetailDrawerHeroActions>{headerActions}</DetailDrawerHeroActions>}
+                {headerActions && (
+                  <DetailDrawerHeroActions>{headerActions}</DetailDrawerHeroActions>
+                )}
               </DetailDrawerHeaderLeft>
               <DetailDrawerNavGroup>
                 {hasNav && (
@@ -84,14 +86,18 @@ export function EntityDetailDrawer({
                       <ChevronLeftIcon />
                     </DetailDrawerNavButton>
                     <DetailDrawerCounter>
-                      {currentIndex !== undefined ? String(currentIndex + 1).padStart(2, "0") : "--"} /{" "}
-                      {total ?? "--"}
+                      {currentIndex !== undefined
+                        ? String(currentIndex + 1).padStart(2, "0")
+                        : "--"}{" "}
+                      / {total ?? "--"}
                     </DetailDrawerCounter>
                     <DetailDrawerNavButton
                       type="button"
                       onClick={onNext}
                       disabled={
-                        currentIndex === undefined || total === undefined || currentIndex >= total - 1
+                        currentIndex === undefined ||
+                        total === undefined ||
+                        currentIndex >= total - 1
                       }
                       aria-label="Suivant"
                     >

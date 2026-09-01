@@ -7,10 +7,11 @@ import ProductCard from "@/components/Dashboard/Products/ProductCard"
 import { ProductListSkeleton } from "@/components/Dashboard/Products/Skeletons"
 import { ErrorComponent } from "@/components/ErrorComponent"
 import { EntityList, PageContainer, PageHeader } from "@/components/shared"
-import { api, queryClient } from "@/lib/api"
+import { api } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/products")({
-  loader: () => {
+  loader: ({ context }) => {
+    const { queryClient } = context
     void queryClient.prefetchQuery(api.products.index.queryOptions())
   },
   errorComponent: ErrorComponent,

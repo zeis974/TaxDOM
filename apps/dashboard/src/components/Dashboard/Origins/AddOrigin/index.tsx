@@ -1,12 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
-import {
-  AddEntityDrawer,
-  BooleanToggle,
-  crudHandlers,
-  ToggleRow,
-} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
+import { AddEntityDrawer, BooleanToggle, crudHandlers, ToggleRow } from "@/components/shared"
 import { api } from "@/lib/api"
 
 export default function AddOrigin() {
@@ -58,7 +53,6 @@ export default function AddOrigin() {
     <AddEntityDrawer
       triggerLabel="Ajouter une origine"
       title="Ajouter une origine"
-
       open={open}
       onOpenChange={handleOpenChange}
       onTriggerClick={() => setOpen(true)}
@@ -82,19 +76,19 @@ export default function AddOrigin() {
         />
       </InputContainer>
 
-        <ToggleRow>
-          <span>Disponibilité</span>
-          <BooleanToggle
-            value={available}
-            onChange={setAvailable}
-            trueLabel="Activée"
-            falseLabel="Désactivée"
-          />
-        </ToggleRow>
-        <ToggleRow>
-          <span>Zone</span>
-          <BooleanToggle value={isEU} onChange={setIsEU} trueLabel="UE" falseLabel="Non-UE" />
-        </ToggleRow>
+      <ToggleRow>
+        <span>Disponibilité</span>
+        <BooleanToggle
+          value={available}
+          onChange={setAvailable}
+          trueLabel="Activée"
+          falseLabel="Désactivée"
+        />
+      </ToggleRow>
+      <ToggleRow>
+        <span>Zone</span>
+        <BooleanToggle value={isEU} onChange={setIsEU} trueLabel="UE" falseLabel="Non-UE" />
+      </ToggleRow>
     </AddEntityDrawer>
   )
 }

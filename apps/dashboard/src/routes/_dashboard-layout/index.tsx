@@ -1,10 +1,10 @@
+import { useSuspenseQueries } from "@tanstack/react-query"
 import { createFileRoute } from "@tanstack/react-router"
 import { Suspense } from "react"
-import { useSuspenseQueries } from "@tanstack/react-query"
 import Overview from "@/components/Dashboard/Overview"
 import { OverviewSkeleton } from "@/components/Dashboard/Overview/Skeletons"
 import { ErrorComponent } from "@/components/ErrorComponent"
-import { api, queryClient } from "@/lib/api"
+import { api } from "@/lib/api"
 
 interface DashboardStats {
   products_count: number
@@ -35,14 +35,27 @@ interface TopTerritory {
 }
 
 export const Route = createFileRoute("/_dashboard-layout/")({
-  loader: () => {
-    void queryClient.prefetchQuery(api.products.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
-    void queryClient.prefetchQuery(api.categories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
-    void queryClient.prefetchQuery(api.origins.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
-    void queryClient.prefetchQuery(api.territories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
-    void queryClient.prefetchQuery(api.products.recent.queryOptions({}, { staleTime: 1000 * 60 * 5 }))
+  loader: ({ context }) => {
+    const { queryClient } = context
+    void queryClient.prefetchQuery(
+      api.products.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    void queryClient.prefetchQuery(
+      api.categories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    void queryClient.prefetchQuery(
+      api.origins.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    void queryClient.prefetchQuery(
+      api.territories.count.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
+    void queryClient.prefetchQuery(
+      api.products.recent.queryOptions({}, { staleTime: 1000 * 60 * 5 }),
+    )
     void queryClient.prefetchQuery(api.origins.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
-    void queryClient.prefetchQuery(api.territories.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }))
+    void queryClient.prefetchQuery(
+      api.territories.top.queryOptions({}, { staleTime: 1000 * 60 * 60 }),
+    )
   },
   errorComponent: ErrorComponent,
   component: OverviewPage,

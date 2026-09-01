@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react"
 import type { ReactNode } from "react"
+import { useMemo, useState } from "react"
 import {
   CommentAuthor,
   CommentAuthorGroup,
@@ -83,7 +83,10 @@ type DetailDescriptionProps = {
   maxLength?: number
 }
 
-export function DetailDescription({ children, maxLength = DEFAULT_TRUNCATE_LENGTH }: DetailDescriptionProps) {
+export function DetailDescription({
+  children,
+  maxLength = DEFAULT_TRUNCATE_LENGTH,
+}: DetailDescriptionProps) {
   const [expanded, setExpanded] = useState(false)
   const shouldTruncate = children.length > maxLength
   const displayText = useMemo(() => {
@@ -208,7 +211,13 @@ type CommentSectionProps = {
   onAttach?: () => void
 }
 
-export function CommentSection({ comments, value, onChange, onSubmit, onAttach }: CommentSectionProps) {
+export function CommentSection({
+  comments,
+  value,
+  onChange,
+  onSubmit,
+  onAttach,
+}: CommentSectionProps) {
   return (
     <section>
       <DetailSectionHeader>
@@ -271,7 +280,16 @@ export function CommentSection({ comments, value, onChange, onSubmit, onAttach }
 
 function ReplyIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
       <polyline points="9 17 4 12 9 7" />
       <path d="M20 18v-2a4 4 0 0 0-4-4H4" />
     </svg>

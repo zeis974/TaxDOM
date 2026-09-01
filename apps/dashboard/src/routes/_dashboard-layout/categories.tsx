@@ -1,16 +1,17 @@
-import { createFileRoute } from "@tanstack/react-router"
-import { Suspense } from "react"
 import { useQuery, useSuspenseQuery } from "@tanstack/react-query"
+import { createFileRoute } from "@tanstack/react-router"
 import type { Category } from "@taxdom/types"
-import { CategoriesGridSkeleton } from "@/components/Dashboard/Categories/Skeletons"
+import { Suspense } from "react"
 import AddCategory from "@/components/Dashboard/Categories/AddCategory"
 import CategoryCard from "@/components/Dashboard/Categories/CategoryCard"
+import { CategoriesGridSkeleton } from "@/components/Dashboard/Categories/Skeletons"
 import { ErrorComponent } from "@/components/ErrorComponent"
 import { EntityList, PageContainer, PageHeader } from "@/components/shared"
-import { api, queryClient } from "@/lib/api"
+import { api } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/categories")({
-  loader: () => {
+  loader: ({ context }) => {
+    const { queryClient } = context
     void queryClient.prefetchQuery(api.categories.index.queryOptions())
   },
   errorComponent: ErrorComponent,

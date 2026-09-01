@@ -15,15 +15,7 @@ import {
 
 const DELAYED_FADE = "fadeIn 0.2s ease-out 180ms both"
 
-function GhostNode({
-  top,
-  left,
-  width = 160,
-}: {
-  top: number
-  left: number
-  width?: number
-}) {
+function GhostNode({ top, left, width = 160 }: { top: number; left: number; width?: number }) {
   return (
     <div
       aria-hidden="true"

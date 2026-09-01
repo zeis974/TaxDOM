@@ -99,7 +99,7 @@ export default function Sidebar({ user }: SidebarProps) {
             <UserEmail>{user.email}</UserEmail>
           </UserInfo>
         </UserContentWrapper>
-        <LogoutButton onClick={handleLogout} disabled={isPending} title="Deconnexion">
+        <LogoutButton onClick={handleLogout} disabled={isPending} title="Déconnexion">
           <LogoutIcon />
         </LogoutButton>
       </UserContainer>

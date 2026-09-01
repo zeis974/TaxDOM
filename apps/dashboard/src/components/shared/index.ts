@@ -5,6 +5,8 @@ export { Badge, CardInfo } from "./Card.styled"
 export {
   ActionsGroup,
   DeleteButton,
+  DetailDrawerBody,
+  DetailDrawerFooter,
   DetailIcon,
   DetailLabel,
   DetailList,
@@ -34,8 +36,6 @@ export {
   ToggleRow,
 } from "./Drawer.styled"
 export { EntityCard } from "./EntityCard"
-export { DefaultHeaderActions, EntityDetailDrawer } from "./EntityDetailDrawer"
-export { DetailDrawerBody, DetailDrawerFooter } from "./Drawer.styled"
 export {
   CommentSection,
   DetailDescription,
@@ -46,6 +46,7 @@ export {
   StatusPillButton,
   Subtask,
 } from "./EntityDetailBlocks"
+export { DefaultHeaderActions, EntityDetailDrawer } from "./EntityDetailDrawer"
 export { BooleanToggle, EntityDrawer, EntityDrawerActions } from "./EntityDrawer"
 export { EntityList } from "./EntityList"
 export {

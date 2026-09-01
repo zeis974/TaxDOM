@@ -1,16 +1,17 @@
-import { createFileRoute } from "@tanstack/react-router"
-import { Suspense } from "react"
 import { useQuery, useSuspenseQuery } from "@tanstack/react-query"
+import { createFileRoute } from "@tanstack/react-router"
 import type { Origin } from "@taxdom/types"
-import { OriginsGridSkeleton } from "@/components/Dashboard/Origins/Skeletons"
+import { Suspense } from "react"
 import AddOrigin from "@/components/Dashboard/Origins/AddOrigin"
 import OriginCard from "@/components/Dashboard/Origins/OriginCard"
+import { OriginsGridSkeleton } from "@/components/Dashboard/Origins/Skeletons"
 import { ErrorComponent } from "@/components/ErrorComponent"
 import { EntityList, PageContainer, PageHeader } from "@/components/shared"
-import { api, queryClient } from "@/lib/api"
+import { api } from "@/lib/api"
 
 export const Route = createFileRoute("/_dashboard-layout/origins")({
-  loader: () => {
+  loader: ({ context }) => {
+    const { queryClient } = context
     void queryClient.prefetchQuery(api.origins.index.queryOptions())
   },
   errorComponent: ErrorComponent,

@@ -21,12 +21,7 @@ export function CustomsTreeIcon() {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path
-        d="M11 10h4M11 14h4"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
+      <path d="M11 10h4M11 14h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       <path
         d="M15 10h2a2 2 0 0 1 0 4h-2"
         stroke="currentColor"

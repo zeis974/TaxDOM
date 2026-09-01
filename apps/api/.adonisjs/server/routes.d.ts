@@ -55,6 +55,10 @@ export type ScannedRoutes = {
     'transporters.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'transporters.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
     'transporters.destroy': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'transporter_rules.show': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
+    'transporter_rules.save_flow': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
+    'transporter_rules.save_rules': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
+    'transporter_rules.save_all': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
   }
   GET: {
     'origins.list': { paramsTuple?: []; params?: {} }
@@ -88,6 +92,7 @@ export type ScannedRoutes = {
     'transporters.count': { paramsTuple?: []; params?: {} }
     'transporters.index': { paramsTuple?: []; params?: {} }
     'transporters.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'transporter_rules.show': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
   }
   HEAD: {
     'origins.list': { paramsTuple?: []; params?: {} }
@@ -121,6 +126,7 @@ export type ScannedRoutes = {
     'transporters.count': { paramsTuple?: []; params?: {} }
     'transporters.index': { paramsTuple?: []; params?: {} }
     'transporters.show': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }
+    'transporter_rules.show': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
   }
   POST: {
     'get_product_taxes': { paramsTuple?: []; params?: {} }
@@ -133,6 +139,9 @@ export type ScannedRoutes = {
     'products.store': { paramsTuple?: []; params?: {} }
     'territories.store': { paramsTuple?: []; params?: {} }
     'transporters.store': { paramsTuple?: []; params?: {} }
+    'transporter_rules.save_flow': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
+    'transporter_rules.save_rules': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
+    'transporter_rules.save_all': { paramsTuple: [ParamValue]; params: {'transporterId': ParamValue} }
   }
   PUT: {
     'categories.update': { paramsTuple: [ParamValue]; params: {'id': ParamValue} }

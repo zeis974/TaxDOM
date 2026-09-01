@@ -361,10 +361,7 @@ export default function ProductCard({ product, editable = false }: Props) {
                   </DetailIcon>
                   Origine
                 </DetailLabel>
-                <DetailValueSelect
-                  value={originID}
-                  onChange={(e) => setOriginID(e.target.value)}
-                >
+                <DetailValueSelect value={originID} onChange={(e) => setOriginID(e.target.value)}>
                   {formOptions?.origins.map((o) => (
                     <option key={o.value} value={o.value ?? o.name}>
                       {o.name}

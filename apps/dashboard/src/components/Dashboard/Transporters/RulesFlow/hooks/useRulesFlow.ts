@@ -40,7 +40,7 @@ interface UseRulesFlowOptions {
   transporterName?: string
   initialNodes?: TransporterFlowNode[]
   initialEdges?: TransporterFlowEdge[]
-  onSave?: (nodes: Node[], edges: Edge[]) => Promise<void>
+  onSave?: (nodes: Node[], edges: Edge[]) => Promise<boolean>
 }
 
 export function useRulesFlow({

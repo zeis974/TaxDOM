@@ -1,11 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useId, useState } from "react"
-import {
-  AddEntityDrawer,
-  crudHandlers,
-  FormGrid,
-} from "@/components/shared"
 import { InputContainer } from "@/components/Forms/Input/Input.styled"
+import { AddEntityDrawer, crudHandlers, FormGrid } from "@/components/shared"
 import { api } from "@/lib/api"
 
 export default function AddCategory() {

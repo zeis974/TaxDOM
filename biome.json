@@ -61,7 +61,8 @@
       "!**/data/",
       "!!**/dist",
       "!**/coverage",
-      "!**/styled-system/"
+      "!**/styled-system/",
+      "!**/routeTree.gen.ts"
     ]
   },
   "overrides": [
