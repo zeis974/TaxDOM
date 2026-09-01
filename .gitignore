@@ -44,3 +44,7 @@ dist
 
 # TanStack Start
 .tanstack/
+
+# Nitro 2 (dashboard production server)
+.output/
+.nitro/

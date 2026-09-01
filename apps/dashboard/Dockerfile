@@ -31,13 +31,13 @@ RUN pnpm --filter @taxdom/dashboard prepare
 # TypeScript version currently pinned in this repo (pre-existing, unrelated to this app).
 RUN pnpm --filter @taxdom/dashboard build
 
-# TanStack Start's server bundle (apps/dashboard/dist/server) externalizes its
-# dependencies (react, react-router, ...) rather than bundling a standalone entry, and
-# production serving goes through `vite preview` (see the app's `start` script) rather
-# than a Nitro-style `.output/server/index.mjs`. So the run stage needs the full
-# workspace install alongside the build output, not just a copied dist folder.
-FROM build AS run
+# The build emits a self-contained Nitro 2 server in apps/dashboard/.output
+# (preset `node-server`, see vite.config.ts) — dependencies are bundled, so the
+# run stage only needs the .output folder and a plain Node runtime.
+FROM base AS run
 WORKDIR /app
 ENV NODE_ENV=production
+COPY --from=build /app/apps/dashboard/.output ./apps/dashboard/.output
 EXPOSE 3000
-CMD ["pnpm", "--filter", "@taxdom/dashboard", "start"]
+WORKDIR /app/apps/dashboard
+CMD ["node", ".output/server/index.mjs"]
