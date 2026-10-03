@@ -9,7 +9,6 @@
     "build": "vite build",
     "start": "node .output/server/index.mjs",
     "preview": "vite preview",
-    "lint": "biome check .",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
