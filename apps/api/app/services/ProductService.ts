@@ -1,6 +1,6 @@
 import type { Product } from "@taxdom/types"
 import logger from "@adonisjs/core/services/logger"
-import { count, eq, type InferSelectModel } from "drizzle-orm"
+import { count, eq, type InferSelectModel, ilike, sql } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 import { v7 as uuidv7 } from "uuid"
 
@@ -93,6 +93,12 @@ export type RecentProductResult = {
   createdAt: Date | null
 }
 
+export type ProductSearchHit = {
+  productName: string
+  categoryID: string
+  categoryName: string
+}
+
 export type CategoryDistributionResult = {
   categoryID: string
   categoryName: string
@@ -150,6 +156,28 @@ export class ProductService {
   async count(): Promise<ProductCountResult> {
     const total = await this.db.select({ count: count() }).from(products)
     return { products_count: total[0].count }
+  }
+
+  /**
+   * Finds catalogue products whose name contains the query (case-insensitive),
+   * exact match first, then prefix matches, then alphabetical.
+   */
+  async searchByName(query: string, limit = 10): Promise<ProductSearchHit[]> {
+    return this.db
+      .select({
+        productName: products.productName,
+        categoryID: products.categoryID,
+        categoryName: categories.categoryName,
+      })
+      .from(products)
+      .innerJoin(categories, eq(products.categoryID, categories.categoryID))
+      .where(ilike(products.productName, `%${query}%`))
+      .orderBy(
+        sql`lower(${products.productName}) = lower(${query}) desc`,
+        sql`${products.productName} ilike ${`${query}%`} desc`,
+        products.productName,
+      )
+      .limit(limit)
   }
 
   /**
