@@ -2,7 +2,7 @@
 
 ## Stack
 
-- **Runtime:** Node >= 24, pnpm 11, Turborepo monorepo
+- **Runtime:** Node >= 24, pnpm 12, Turborepo monorepo
 - **Language:** TypeScript 7 everywhere
 - **Linter/formatter:** Biome 2 (no ESLint, no Prettier). No semicolons, double quotes, 100-char lines, space indent.
 - **Pre-commit:** Husky + lint-staged runs `biome format --write` on staged files.

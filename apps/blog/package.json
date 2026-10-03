@@ -27,5 +27,5 @@
     "@pandacss/dev": "1.12.1",
     "@taxdom/ui": "workspace:*"
   },
-  "packageManager": "pnpm@11.28.0"
+  "packageManager": "pnpm@12.8.1"
 }
