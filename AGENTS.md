@@ -11,7 +11,7 @@
 
 ```bash
 # Infrastructure (required before API)
-pnpm dev:db                    # Postgres 5432, Redis 6379, ChromaDB 8000, Ollama 11434
+pnpm dev:db                    # Postgres 5432, Redis 6379
 
 # Dev servers (run individually or all at once)
 pnpm dev                       # all apps via turbo
@@ -39,7 +39,7 @@ pnpm db:migrate                # run migrations
 
 ```
 apps/
-  api/        @taxdom/api      AdonisJS 7, Drizzle + Postgres, Better Auth, ChromaDB + Ollama
+  api/        @taxdom/api      AdonisJS 7, Drizzle + Postgres, Better Auth
   web/        @taxdom/app      Next.js 16, React 19 + React Compiler, Panda CSS, TanStack Query
   dashboard/  @taxdom/dashboard Vite SPA, TanStack Router (file-based), Panda CSS
   blog/       @taxdom/blog     Astro 7 + MDX + React, Panda CSS
