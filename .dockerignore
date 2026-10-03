@@ -1,4 +1,10 @@
 .git
-.env*
-node_modules
 .secrets
+**/node_modules
+**/.env*
+**/.turbo
+**/.next
+**/dist
+**/build
+**/.output
+**/styled-system
