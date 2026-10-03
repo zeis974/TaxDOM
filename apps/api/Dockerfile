@@ -50,7 +50,6 @@ USER nodeuser
 WORKDIR /app
 
 COPY --from=installer --chown=nodeuser:nodejs /app/pnpm-lock.yaml ./pnpm-lock.yaml
-COPY --from=installer --chown=nodeuser:nodejs /app/.npmrc .npmrc
 COPY --from=installer --chown=nodeuser:nodejs /app/package.json ./package.json
 COPY --from=installer --chown=nodeuser:nodejs /app/pnpm-workspace.yaml ./pnpm-workspace.yaml
 COPY --from=installer --chown=nodeuser:nodejs /app/apps/api/build ./
