@@ -6,7 +6,7 @@ RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 --ingroup nodejs astrouser
 
 ENV PNPM_HOME="/pnpm"
-ENV PATH="$PNPM_HOME:$PATH"
+ENV PATH="$PNPM_HOME/bin:$PNPM_HOME:$PATH"
 RUN corepack enable
 RUN corepack prepare pnpm@12.8.1 --activate
 
@@ -17,7 +17,7 @@ USER astrouser
 WORKDIR /app
 
 USER root
-RUN pnpm add -g turbo
+RUN pnpm add -g turbo@2.11.4
 USER astrouser
 
 COPY --chown=astrouser:nodejs . .
@@ -37,12 +37,15 @@ COPY --chown=astrouser:nodejs .gitignore .gitignore
 COPY --from=builder --chown=astrouser:nodejs /app/out/json/ .
 COPY --from=builder --chown=astrouser:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 
+# --ignore-scripts: `prepare` (panda codegen) needs the sources, copied after the install.
+# Codegen runs as the turbo `codegen` task during the build.
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm install --prefer-offline
+    pnpm install --prefer-offline --ignore-scripts
 
 COPY --from=builder --chown=astrouser:nodejs /app/out/full/ .
+RUN pnpm rebuild
 COPY --chown=astrouser:nodejs turbo.json turbo.json
-RUN pnpm turbo build
+RUN pnpm turbo run build
 
 FROM base AS runner
 USER astrouser
