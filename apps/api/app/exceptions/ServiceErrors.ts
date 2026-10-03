@@ -52,13 +52,3 @@ export class InternalServerError extends ApplicationException {
     super(message, 500, "INTERNAL_ERROR")
   }
 }
-
-/**
- * Raised when a dependency required to serve the request is temporarily down
- * (e.g. the Chroma/Ollama search stack). Maps to 503 so clients can retry.
- */
-export class ServiceUnavailableError extends ApplicationException {
-  constructor(message: string) {
-    super(message, 503, "SERVICE_UNAVAILABLE")
-  }
-}

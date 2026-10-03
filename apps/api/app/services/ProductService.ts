@@ -1,5 +1,4 @@
 import type { Product } from "@taxdom/types"
-import logger from "@adonisjs/core/services/logger"
 import { count, eq, type InferSelectModel, ilike, sql } from "drizzle-orm"
 import type { NodePgDatabase } from "drizzle-orm/node-postgres"
 import { v7 as uuidv7 } from "uuid"
@@ -8,7 +7,6 @@ import type * as schema from "#database/schema"
 import { categories, origins, products, templateProducts, territories } from "#database/schema"
 import { BadRequestError, ConflictError, NotFoundError } from "#exceptions/ServiceErrors"
 import { normalizeName } from "#lib/normalize_name"
-import { onProductCreated, onProductDeleted, onProductUpdated } from "#services/VectorSync"
 
 type DB = NodePgDatabase<typeof schema>
 
@@ -323,14 +321,6 @@ export class ProductService {
       return created
     })
 
-    // Sync the vector store AFTER transaction commits (with retry + backoff)
-    onProductCreated({
-      id: productData.productID,
-      productName: productData.productName,
-      categoryName: productData.category.categoryName,
-      categoryID: productData.category.categoryID,
-    }).catch((err) => logger.error("Failed to sync product creation to Chroma: %O", err))
-
     return mapProduct(productData)
   }
 
@@ -392,14 +382,6 @@ export class ProductService {
       return updated
     })
 
-    // Sync the vector store AFTER transaction commits (with retry + backoff)
-    onProductUpdated({
-      id: productData.productID,
-      productName: productData.productName,
-      categoryName: productData.category.categoryName,
-      categoryID: productData.category.categoryID,
-    }).catch((err) => logger.error("Failed to sync product update to Chroma: %O", err))
-
     return mapProduct(productData)
   }
 
@@ -433,10 +415,6 @@ export class ProductService {
 
       await tx.delete(products).where(eq(products.productID, productId))
     })
-
-    onProductDeleted(productId).catch((err) =>
-      logger.error("Failed to sync product deletion to Chroma: %O", err),
-    )
   }
 
   /**
