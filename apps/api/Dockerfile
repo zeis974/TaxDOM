@@ -8,7 +8,7 @@ RUN addgroup --system --gid 1001 nodejs && \
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
-RUN corepack prepare pnpm@10.33.2 --activate
+RUN corepack prepare pnpm@12.8.1 --activate
 
 FROM base AS builder
 RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
