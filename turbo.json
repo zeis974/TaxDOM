@@ -1,8 +1,11 @@
 {
   "$schema": "./node_modules/turbo/schema.json",
   "tasks": {
+    "codegen": {
+      "outputs": ["styled-system/**"]
+    },
     "build": {
-      "dependsOn": ["^build"],
+      "dependsOn": ["^build", "codegen"],
       "outputs": [".next/**", "!.next/cache/**", "dist/**", ".adonisjs/**"]
     },
     "dev": {
@@ -14,7 +17,7 @@
       "cache": false
     },
     "typecheck": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build", "codegen"]
     }
   }
 }

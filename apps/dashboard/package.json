@@ -5,6 +5,7 @@
   "license": "AGPL-3.0-only",
   "scripts": {
     "prepare": "panda codegen",
+    "codegen": "panda codegen",
     "dev": "vite dev",
     "build": "vite build",
     "start": "node .output/server/index.mjs",
