@@ -161,6 +161,8 @@ export class ProductService {
    * exact match first, then prefix matches, then alphabetical.
    */
   async searchByName(query: string, limit = 10): Promise<ProductSearchHit[]> {
+    // Escape LIKE wildcards so user input is matched literally.
+    const literal = query.replace(/[\\%_]/g, "\\$&")
     return this.db
       .select({
         productName: products.productName,
@@ -169,10 +171,10 @@ export class ProductService {
       })
       .from(products)
       .innerJoin(categories, eq(products.categoryID, categories.categoryID))
-      .where(ilike(products.productName, `%${query}%`))
+      .where(ilike(products.productName, `%${literal}%`))
       .orderBy(
         sql`lower(${products.productName}) = lower(${query}) desc`,
-        sql`${products.productName} ilike ${`${query}%`} desc`,
+        sql`${products.productName} ilike ${`${literal}%`} desc`,
         products.productName,
       )
       .limit(limit)
