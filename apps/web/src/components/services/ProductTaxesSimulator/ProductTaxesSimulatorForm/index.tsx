@@ -131,9 +131,8 @@ const TaxSimulatorForm = withForm({
               <field.SelectField
                 label="Produit"
                 placeholder="Nom du produit ou lien marchand (https://…)"
-                // Free-text autocomplete over the catalogue (semantic search via
-                // the API). Skipped when the value is a URL — that path is handled
-                // by the "Convertir" button instead.
+                // Free-text autocomplete over the catalogue. Skipped when the value
+                // is a URL — that path is handled by the "Convertir" button instead.
                 onSearch={isUrl ? undefined : searchProducts}
                 onFocus={() => onFocusInputChange("query")}
                 noResultsMessage="Aucun produit trouvé"

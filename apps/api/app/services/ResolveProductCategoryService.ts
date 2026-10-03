@@ -1,13 +1,9 @@
 import logger from "@adonisjs/core/services/logger"
 
-import {
-  BadRequestError,
-  ServiceUnavailableError,
-  UnsupportedMerchantError,
-} from "#exceptions/ServiceErrors"
-import { chromaState } from "#lib/chroma"
+import { db } from "#config/database"
+import { BadRequestError, UnsupportedMerchantError } from "#exceptions/ServiceErrors"
 import { extractProductFromUrl } from "#services/MerchantUrlParser"
-import { searchSimilarProducts } from "#services/VectorSearch"
+import { ProductService } from "#services/ProductService"
 
 const SEARCH_LIMIT = 10
 const MAX_CANDIDATES = 5
@@ -36,9 +32,9 @@ export type ResolveCategoryResult = {
 
 /**
  * Turns a free-text product name OR a merchant URL into curated category
- * candidates via semantic search (Chroma + BGE-M3 embeddings) — no manual
- * synonyms. When a URL is given, the product name is parsed directly from the
- * URL slug (no scraping) — unsupported hosts raise `UnsupportedMerchantError`.
+ * candidates via a name search over the product catalogue. When a URL is given,
+ * the product name is parsed directly from the URL slug (no scraping) —
+ * unsupported hosts raise `UnsupportedMerchantError`.
  */
 export class ResolveProductCategoryService {
   async resolve(input: ResolveCategoryInput): Promise<ResolveCategoryResult> {
@@ -56,17 +52,11 @@ export class ResolveProductCategoryService {
       throw new BadRequestError("Requête trop courte")
     }
 
-    if (!chromaState.available) {
-      // Dependency down (Chroma/Ollama), not bad input → 503 so clients can
-      // distinguish "retry later" from "fix your query".
-      throw new ServiceUnavailableError("Recherche indisponible")
-    }
-
-    const hits = await searchSimilarProducts(query, { limit: SEARCH_LIMIT })
+    const hits = await new ProductService(db).searchByName(query, SEARCH_LIMIT)
 
     const exactHit = hits.find((hit) => hit.productName.toLowerCase() === query.toLowerCase())
 
-    // Rank categories by how often they appear in the nearest neighbours,
+    // Rank categories by how often they appear in the search hits,
     // keeping the best (lowest) hit position as the tie-breaker.
     const byCategory = new Map<
       string,

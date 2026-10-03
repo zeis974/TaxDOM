@@ -16,8 +16,8 @@ import { ResolveProductTaxesValidator } from "#validators/ResolveProductTaxesVal
 
 /**
  * Unified entry point for the product-tax simulator: accepts a free-text name
- * OR a merchant URL, resolves it to a curated category (semantic search via
- * Chroma), and returns the taxes directly when the resolution is confident. When several
+ * OR a merchant URL, resolves it to a curated category (catalogue name search),
+ * and returns the taxes directly when the resolution is confident. When several
  * categories match, each candidate is returned WITH its taxes precomputed, so
  * the user can pick client-side without a second request (and second captcha).
  */

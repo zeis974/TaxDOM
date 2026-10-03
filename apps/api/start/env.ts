@@ -63,15 +63,4 @@ export default await Env.create(new URL("../", import.meta.url), {
   |----------------------------------------------------------
   */
   API_KEY: Env.schema.secret(),
-
-  /*
-  |----------------------------------------------------------
-  | Variables for Chroma (vector store) + Ollama (embeddings)
-  |----------------------------------------------------------
-  */
-  CHROMA_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
-  CHROMA_COLLECTION: Env.schema.string(),
-  OLLAMA_URL: Env.schema.string({ format: "url", protocol: true, tld: false }),
-  OLLAMA_EMBED_MODEL: Env.schema.string(),
-  EMBEDDING_DIM: Env.schema.number(),
 })

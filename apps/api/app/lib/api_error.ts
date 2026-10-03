@@ -11,7 +11,6 @@ export type ErrorCode =
   | "CONFLICT"
   | "INTERNAL_ERROR"
   | "UNSUPPORTED_MERCHANT"
-  | "SERVICE_UNAVAILABLE"
 
 export type ApiErrorPayload = {
   success: false
