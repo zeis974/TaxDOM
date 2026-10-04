@@ -1,45 +1,51 @@
 import { styled } from "@/panda/jsx"
 
-export const PageContainer = styled.div`
-  color: token(colors.foreground);
-  font-family: token(fonts.nativeFont);
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-`
+export const PageContainer = styled("div", {
+  base: {
+    color: "{colors.foreground}",
+    fontFamily: "{fonts.nativeFont}",
+    minHeight: "100%",
+    display: "flex",
+    flexDirection: "column",
+  },
+})
 
-export const PageHeaderRow = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
-  background: token(colors.background);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-`
+export const PageHeaderRow = styled("div", {
+  base: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "10px 0",
+    background: "{colors.background}",
+    position: "sticky",
+    top: "0",
+    zIndex: "10",
+  },
+})
 
-export const PageHeaderTitle = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: token(spacing.xs);
+export const PageHeaderTitle = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "{spacing.xs}",
+    "& h2": {
+      margin: "0",
+      fontSize: "{fontSizes.headline-lg}",
+      fontWeight: "600",
+    },
+    "& span": {
+      color: "{colors.textMuted}",
+      fontSize: "{fontSizes.body-sm}",
+      fontWeight: "500",
+    },
+  },
+})
 
-  & h2 {
-    margin: 0;
-    font-size: token(fontSizes.headline-lg);
-    font-weight: 600;
-  }
-
-  & span {
-    color: token(colors.textMuted);
-    font-size: token(fontSizes.body-sm);
-    font-weight: 500;
-  }
-`
-
-export const PageHeaderActions = styled.div`
-  display: flex;
-  height: 100%;
-  align-items: center;
-  gap: 10px;
-`
+export const PageHeaderActions = styled("div", {
+  base: {
+    display: "flex",
+    height: "100%",
+    alignItems: "center",
+    gap: "10px",
+  },
+})

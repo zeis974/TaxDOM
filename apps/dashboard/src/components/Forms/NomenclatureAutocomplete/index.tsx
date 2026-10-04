@@ -4,78 +4,88 @@ import { useNomenclatureSearch } from "@/hooks/useNomenclatureSearch"
 import { styled } from "@/panda/jsx"
 import { token } from "@/panda/tokens"
 
-const Wrapper = styled.div`
-  position: relative;
-`
+const Wrapper = styled("div", {
+  base: {
+    position: "relative",
+  },
+})
 
-const SuggestionsBox = styled.ul`
-  position: absolute;
-  z-index: 100;
-  top: calc(100% + 4px);
-  left: 0;
-  right: 0;
-  background: token(colors.elevated);
-  border: 1px solid token(colors.elevated);
-  border-radius: token(radii.md);
-  box-shadow: 0 8px 24px token(colors.shadow);
-  max-height: 240px;
-  overflow-y: auto;
-  list-style: none;
-  padding: token(spacing.xs);
-  margin: 0;
-`
+const SuggestionsBox = styled("ul", {
+  base: {
+    position: "absolute",
+    zIndex: "100",
+    top: "calc(100% + 4px)",
+    left: "0",
+    right: "0",
+    background: "{colors.elevated}",
+    border: "1px solid {colors.elevated}",
+    borderRadius: "{radii.md}",
+    boxShadow: "0 8px 24px {colors.shadow}",
+    maxHeight: "240px",
+    overflowY: "auto",
+    listStyle: "none",
+    padding: "{spacing.xs}",
+    margin: "0",
+  },
+})
 
-const SuggestionItem = styled.li`
-  padding: token(spacing.sm) 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  display: flex;
-  align-items: baseline;
-  gap: token(spacing.sm);
-  font-family: token(fonts.nativeFont);
+const SuggestionItem = styled("li", {
+  base: {
+    padding: "{spacing.sm} 12px",
+    borderRadius: "6px",
+    cursor: "pointer",
+    display: "flex",
+    alignItems: "baseline",
+    gap: "{spacing.sm}",
+    fontFamily: "{fonts.nativeFont}",
+    '&:hover, &[data-highlighted="true"]': {
+      background: "{colors.elevated}",
+    },
+  },
+})
 
-  &:hover,
-  &[data-highlighted="true"] {
-    background: token(colors.elevated);
-  }
-`
+const SuggestionCode = styled("span", {
+  base: {
+    fontSize: "{fontSizes.label-md}",
+    fontWeight: "700",
+    fontVariantNumeric: "tabular-nums",
+    background: "{colors.infoBg}",
+    color: "{colors.infoFg}",
+    padding: "2px 6px",
+    borderRadius: "{radii.sm}",
+    flexShrink: "0",
+  },
+})
 
-const SuggestionCode = styled.span`
-  font-size: token(fontSizes.label-md);
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  background: token(colors.infoBg);
-  color: token(colors.infoFg);
-  padding: 2px 6px;
-  border-radius: token(radii.sm);
-  flex-shrink: 0;
-`
+const SuggestionDescription = styled("span", {
+  base: {
+    fontSize: "{fontSizes.label-md}",
+    color: "{colors.foreground}",
+    flex: "1",
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+  },
+})
 
-const SuggestionDescription = styled.span`
-  font-size: token(fontSizes.label-md);
-  color: token(colors.foreground);
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-`
-
-const ClearButton = styled.button`
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: token(colors.textMuted);
-  font-size: token(fontSizes.body-md);
-  padding: 2px 4px;
-  line-height: 1;
-  &:hover {
-    color: token(colors.foreground);
-  }
-`
+const ClearButton = styled("button", {
+  base: {
+    position: "absolute",
+    right: "8px",
+    top: "50%",
+    transform: "translateY(-50%)",
+    background: "none",
+    border: "none",
+    cursor: "pointer",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.body-md}",
+    padding: "2px 4px",
+    lineHeight: "1",
+    "&:hover": {
+      color: "{colors.foreground}",
+    },
+  },
+})
 
 interface NomenclatureAutocompleteProps {
   label: string

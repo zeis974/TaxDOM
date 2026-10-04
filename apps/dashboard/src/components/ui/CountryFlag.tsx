@@ -27,14 +27,16 @@ export default function CountryFlag({ code, size = 18 }: CountryFlagProps) {
   )
 }
 
-const FlagStyled = styled.span`
-  display: inline-block;
-  margin-left: 4px;
-  background-size: cover;
-  background-position: center;
-  flex-shrink: 0;
-  vertical-align: middle;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 0 0 1px token(colors.border);
-`
+const FlagStyled = styled("span", {
+  base: {
+    display: "inline-block",
+    marginLeft: "4px",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    flexShrink: "0",
+    verticalAlign: "middle",
+    borderRadius: "50%",
+    overflow: "hidden",
+    boxShadow: "0 0 0 1px {colors.border}",
+  },
+})

@@ -1,38 +1,45 @@
 import { styled } from "@/panda/jsx"
 
-export const ErrorContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 400px;
-  padding: 40px;
-  text-align: center;
-  font-family: token(fonts.nativeFont);
-`
+export const ErrorContainer = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    minHeight: "400px",
+    padding: "40px",
+    textAlign: "center",
+    fontFamily: "{fonts.nativeFont}",
+  },
+})
 
-export const ErrorTitle = styled.h1`
-  font-size: token(fontSizes.headline-lg);
-  margin-bottom: token(spacing.sm);
-  color: token(colors.errorFg);
-`
+export const ErrorTitle = styled("h1", {
+  base: {
+    fontSize: "{fontSizes.headline-lg}",
+    marginBottom: "{spacing.sm}",
+    color: "{colors.errorFg}",
+  },
+})
 
-export const ErrorMessage = styled.p`
-  color: token(colors.textMuted);
-  margin-bottom: token(spacing.lg);
-`
+export const ErrorMessage = styled("p", {
+  base: {
+    color: "{colors.textMuted}",
+    marginBottom: "{spacing.lg}",
+  },
+})
 
-export const RetryButton = styled.button`
-  padding: 10px 24px;
-  background: token(colors.foreground);
-  color: token(colors.background);
-  border: none;
-  border-radius: token(radii.md);
-  cursor: pointer;
-  font-size: token(fontSizes.body-sm);
-  font-weight: 600;
-
-  &:hover {
-    opacity: 0.9;
-  }
-`
+export const RetryButton = styled("button", {
+  base: {
+    padding: "10px 24px",
+    background: "{colors.foreground}",
+    color: "{colors.background}",
+    border: "none",
+    borderRadius: "{radii.md}",
+    cursor: "pointer",
+    fontSize: "{fontSizes.body-sm}",
+    fontWeight: "600",
+    "&:hover": {
+      opacity: "0.9",
+    },
+  },
+})

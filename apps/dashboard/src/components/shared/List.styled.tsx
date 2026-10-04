@@ -1,59 +1,64 @@
 import { styled } from "@/panda/jsx"
 
-export const ListContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  color: token(colors.foreground);
-  font-family: token(fonts.nativeFont);
-`
+export const ListContainer = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    height: "100%",
+    color: "{colors.foreground}",
+    fontFamily: "{fonts.nativeFont}",
+  },
+})
 
-export const ListGrid = styled.div`
-  width: inherit;
-  height: inherit;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: token(spacing.md);
-`
+export const ListGrid = styled("div", {
+  base: {
+    width: "inherit",
+    height: "inherit",
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+    gap: "{spacing.md}",
+  },
+})
 
-export const EmptyAction = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: token(spacing.sm);
-  margin-top: token(spacing.sm);
-`
+export const EmptyAction = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "{spacing.sm}",
+    marginTop: "{spacing.sm}",
+  },
+})
 
-export const EmptyState = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  min-height: 320px;
-  padding: token(spacing.xl) token(spacing.lg);
-  text-align: center;
-  color: token(colors.textMuted);
-  gap: token(spacing.md);
-
-  & svg {
-    width: 52px;
-    height: 52px;
-    opacity: 0.3;
-  }
-
-  & h3 {
-    margin: 0;
-    font-size: token(fontSizes.headline-md);
-    font-weight: 600;
-    color: token(colors.foreground);
-  }
-
-  & p {
-    margin: 0;
-    font-size: token(fontSizes.body-sm);
-    max-width: 400px;
-    line-height: 1.6;
-  }
-`
+export const EmptyState = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    height: "100%",
+    minHeight: "320px",
+    padding: "{spacing.xl} {spacing.lg}",
+    textAlign: "center",
+    color: "{colors.textMuted}",
+    gap: "{spacing.md}",
+    "& svg": {
+      width: "52px",
+      height: "52px",
+      opacity: "0.3",
+    },
+    "& h3": {
+      margin: "0",
+      fontSize: "{fontSizes.headline-md}",
+      fontWeight: "600",
+      color: "{colors.foreground}",
+    },
+    "& p": {
+      margin: "0",
+      fontSize: "{fontSizes.body-sm}",
+      maxWidth: "400px",
+      lineHeight: "1.6",
+    },
+  },
+})
