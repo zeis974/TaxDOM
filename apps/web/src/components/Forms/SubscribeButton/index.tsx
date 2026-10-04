@@ -20,36 +20,33 @@ export default function SubscribeButton({ label }: { label: string }) {
   )
 }
 
-const StyledButton = styled.button`
-  width: 100%;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 15px 0;
-  cursor: pointer;
-  font-weight: bold;
-  transition: 150ms;
-  background: token(colors.elevated);
-  border-radius: token(radii.sm);
-  border: 2px solid transparent;
-
-  & > svg {
-    color: token(colors.foreground);
-    animation: rotate 2s linear infinite;
-  }
-
-  &:hover:not([disabled]),
-  &:hover:not([aria-disabled]) {
-    border: 2px solid token(colors.elevated);
-    background: none;
-  }
-
-  &[disabled],
-  &[aria-disabled="true"] {
-    cursor: auto;
-  }
-`
+const StyledButton = styled("button", {
+  base: {
+    width: "100%",
+    height: "35px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    margin: "15px 0",
+    cursor: "pointer",
+    fontWeight: "bold",
+    transition: "150ms",
+    background: "{colors.elevated}",
+    borderRadius: "{radii.sm}",
+    border: "2px solid transparent",
+    "& > svg": {
+      color: "{colors.foreground}",
+      animation: "rotate 2s linear infinite",
+    },
+    "&:hover:not([disabled]), &:hover:not([aria-disabled])": {
+      border: "2px solid {colors.elevated}",
+      background: "none",
+    },
+    '&[disabled], &[aria-disabled="true"]': {
+      cursor: "auto",
+    },
+  },
+})
 
 function LoadingIcon() {
   return (

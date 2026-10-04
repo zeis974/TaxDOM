@@ -12,7 +12,7 @@ export default defineConfig({
   include: ["./src/app/**/*.{ts,tsx,js,jsx}", "./src/components/**/*.{ts,tsx,js,jsx}"],
   importMap: "@/panda",
   outdir: "styled-system",
-  syntax: "template-literal",
+  jsxStyleProps: "none",
   jsxFramework: "react",
   globalCss: {
     body: {

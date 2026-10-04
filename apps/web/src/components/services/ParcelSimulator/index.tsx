@@ -20,10 +20,12 @@ export default function ParcelSimulatorService() {
   )
 }
 
-const Section = styled.section`
-  width: calc(100% - 20px);
-  height: calc(100svh - (token(sizes.navbarHeight) + 35px));
-  max-width: token(sizes.maxWidth);
-  margin: 0 auto;
-  margin-top: token(spacing.s20);
-`
+const Section = styled("section", {
+  base: {
+    width: "calc(100% - 20px)",
+    height: "calc(100svh - ({sizes.navbarHeight} + 35px))",
+    maxWidth: "{sizes.maxWidth}",
+    margin: "0 auto",
+    marginTop: "{spacing.s20}",
+  },
+})

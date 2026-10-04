@@ -12,18 +12,18 @@ export default function Button({ type = "button", ...props }: ButtonProps) {
   )
 }
 
-const ButtonStyled = styled.button`
-  height: 100%;
-  padding: 10px;
-  background: token(colors.elevated);
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  border-radius: token(radii.md);
-
-  &[disabled],
-  &[aria-disabled="true"] {
-    cursor: not-allowed;
-    opacity: 0.6;
-  }
-`
+const ButtonStyled = styled("button", {
+  base: {
+    height: "100%",
+    padding: "10px",
+    background: "{colors.elevated}",
+    fontWeight: "bold",
+    border: "none",
+    cursor: "pointer",
+    borderRadius: "{radii.md}",
+    '&[disabled], &[aria-disabled="true"]': {
+      cursor: "not-allowed",
+      opacity: "0.6",
+    },
+  },
+})
