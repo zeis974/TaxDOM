@@ -1,61 +1,96 @@
 import { motion } from "motion/react"
 import { styled } from "@/panda/jsx"
 
-export const Container = styled(motion.div)`
-  position: absolute;
-  border-radius: token(radii.lg);
-  top: calc(100% + 10px);
-  right: -150px;
-  width: 500px;
-  height: 100%;
-  background: token(colors.background);
+export const Container = styled(motion.div, {
+  base: {
+    position: "absolute",
+    top: "calc(100% + 10px)",
+    left: "0",
+    display: "flex",
+    borderRadius: "{radii.lg}",
+    border: "1px solid {colors.border}",
+    background: "{colors.background}",
+    boxShadow: "0 10px 30px {colors.shadow}",
+    overflow: "hidden",
+  },
+})
 
-  &::before {
-    content: "";
-    position: fixed;
-    bottom: 100%;
-    width: 160px;
-    height: 100px;
-  }
+export const Grid = styled("div", {
+  base: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+    gap: "{spacing.sm}",
+    width: "max-content",
+    maxWidth: "720px",
+    padding: "{spacing.lg}",
+  },
+})
 
-  & a:first-child > div {
-    border-radius: token(radii.lg) token(radii.lg) 0 0;
-  }
+export const Card = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "flex-start",
+    gap: "{spacing.md}",
+    padding: "{spacing.md}",
+    borderRadius: "{radii.lg}",
+    border: "1px solid transparent",
+    color: "{colors.foreground}",
+    transition: "background 150ms, border-color 150ms",
+    "&:hover": {
+      background: "color-mix(in srgb, {colors.primary} 8%, {colors.elevated})",
+      borderColor: "{colors.border}",
+    },
+    '&[aria-disabled="true"]': {
+      opacity: "0.5",
+      pointerEvents: "none",
+    },
+    "& > div:first-of-type": {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      flexShrink: "0",
+      width: "44px",
+      height: "44px",
+      borderRadius: "{radii.md}",
+      background: "{colors.elevated}",
+    },
+  },
+})
 
-  & a:last-child > div {
-    border-radius: 0 0 token(radii.lg) token(radii.lg);
-  }
-`
-export const CardContainer = styled.div`
-  display: flex;
-  align-items: center;
-  position: relative;
-  color: token(colors.foreground);
-  background: token(colors.background);
-  width: 100%;
-  height: 100px;
-  padding: token(spacing.s20);
-  gap: token(spacing.s20);
-  border-top: 1px solid token(colors.border);
-  border-right: 1px solid token(colors.border);
-  border-left: 1px solid token(colors.border);
-  transition: background 150ms;
+export const CardTitle = styled("h3", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: "{spacing.sm}",
+    fontSize: "{fontSizes.body-md}",
+    fontWeight: "600",
+    "& svg": {
+      flexShrink: "0",
+      color: "{colors.textMuted}",
+    },
+  },
+})
 
-  &:hover {
-    background: token(colors.elevated);
-  }
+export const CardDescription = styled("p", {
+  base: {
+    marginTop: "{spacing.xs}",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.body-sm}",
+  },
+})
 
-  & > div:last-of-type {
-    height: 40px;
-    line-height: 1;
-
-    & h3 {
-      margin-bottom: 3px;
-    }
-
-    & p {
-      line-height: 1;
-      color: token(colors.textMuted);
-    }
-  }
-`
+export const SidePanel = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "flex-end",
+    flexShrink: "0",
+    width: "240px",
+    padding: "{spacing.lg}",
+    background: "color-mix(in srgb, {colors.primary} 12%, {colors.elevated})",
+    fontFamily: "{fonts.nativeFont}",
+    fontSize: "{fontSizes.headline-md}",
+    fontWeight: "600",
+    color: "{colors.foreground}",
+  },
+})
