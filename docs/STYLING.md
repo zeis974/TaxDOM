@@ -108,14 +108,13 @@ the element (or to `motion`) instead of being swallowed as style props. Style on
 | Style object (`base`, nested selectors, `panda.config.ts`) | `"{colors.foreground}"`, also inside composite values: `"1px solid {colors.border}"` | none |
 | JS value (inline style, canvas, third-party API) | `token("colors.foreground")` | `@/panda/tokens` |
 
-⚠️ **The classic mistake — `token()` inside a style object:**
+⚠️ **The classic mistake — calling the JS `token()` inside a style object:**
 
 ```ts
-// ❌ Panda never sees the token
+// ❌ evaluated at runtime; Panda never sees a token reference
 background: token("colors.elevated"),
-color: "token(colors.foreground)",
 
-// ✅
+// ✅ both resolve to the same CSS variable; the repo standard is the curly form
 background: "{colors.elevated}",
 color: "{colors.foreground}",
 ```
