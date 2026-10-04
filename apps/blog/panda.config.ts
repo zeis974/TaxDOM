@@ -15,6 +15,6 @@ export default defineConfig({
   include: ["./src/**/*.{ts,tsx,js,jsx}"],
   importMap: "@/panda",
   outdir: "styled-system",
-  syntax: "template-literal",
+  jsxStyleProps: "none",
   jsxFramework: "react",
 })
