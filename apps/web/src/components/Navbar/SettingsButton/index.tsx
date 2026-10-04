@@ -1,11 +1,10 @@
 "use client"
 
-import { styled } from "@/panda/jsx"
 import dynamic from "next/dynamic"
 import { useState } from "react"
-
 import { SettingIcon } from "@/components/Icons"
 import Modal from "@/components/Modal"
+import { styled } from "@/panda/jsx"
 
 const Settings = dynamic(() => import("@/components/Settings"))
 
@@ -23,27 +22,26 @@ export default function SettingsButton() {
   )
 }
 
-export const ButtonContainer = styled.div`
-  display: flex;
-  align-items: center;
-  height: 45px;
-  padding: 5px;
-  color: token(colors.foreground);
-  border-radius: 50%;
-  border: 2px solid token(colors.border);
-  transition: border 150ms;
-  cursor: pointer;
-
-   &:hover {
-     border: 2px solid token(colors.foreground);
-   }
-
-   & > svg {
-     padding: 3px;
-     transition: 250ms;
-   }
-
-   &:hover > svg {
-     transform: rotate(45deg) scale(1.05);
-   }
-`
+export const ButtonContainer = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    height: "45px",
+    padding: "5px",
+    color: "{colors.foreground}",
+    borderRadius: "50%",
+    border: "2px solid {colors.border}",
+    transition: "border 150ms",
+    cursor: "pointer",
+    "&:hover": {
+      border: "2px solid {colors.foreground}",
+    },
+    "& > svg": {
+      padding: "3px",
+      transition: "250ms",
+    },
+    "&:hover > svg": {
+      transform: "rotate(45deg) scale(1.05)",
+    },
+  },
+})

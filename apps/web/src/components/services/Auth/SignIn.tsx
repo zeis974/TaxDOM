@@ -44,25 +44,24 @@ export default function SignIn() {
   )
 }
 
-const Button = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: token(colors.elevated);
-  border: none;
-  padding: 10px 20px;
-  border-radius: token(radii.lg);
-  gap: 10px;
-  cursor: pointer;
-  border: 2px solid transparent;
-  transition: 150ms;
-
-  &:hover {
-    background: transparent;
-    border: 2px solid token(colors.elevated);
-  }
-
-  & span {
-    line-height: 0;
-  }
-`
+const Button = styled("button", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    background: "{colors.elevated}",
+    padding: "10px 20px",
+    borderRadius: "{radii.lg}",
+    gap: "10px",
+    cursor: "pointer",
+    border: "2px solid transparent",
+    transition: "150ms",
+    "&:hover": {
+      background: "transparent",
+      border: "2px solid {colors.elevated}",
+    },
+    "& span": {
+      lineHeight: "0",
+    },
+  },
+})

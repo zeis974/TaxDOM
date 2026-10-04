@@ -1,60 +1,60 @@
 import { styled } from "@/panda/jsx"
 
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: token(spacing.s20) 0;
-  color: token(colors.foreground);
+export const Container = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    margin: "{spacing.s20} 0",
+    color: "{colors.foreground}",
+    "& > div:first-child": {
+      flex: "1",
+      paddingBottom: "10px",
+      "& h3": {
+        fontFamily: "{fonts.nativeFont}",
+      },
+      "& p": {
+        fontFamily: "{fonts.nativeFont}",
+        margin: "{spacing.s20} 0",
+        color: "{colors.textMuted}",
+      },
+    },
+  },
+})
 
-  & > div:first-child {
-    flex: 1;
-    padding-bottom: 10px;
+export const ThemeButton = styled("button", {
+  base: {
+    width: "100%",
+    minWidth: "250px",
+    height: "150px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: "{radii.md}",
+    outline: "none",
+    border: "2px solid transparent",
+    transition: "150ms border",
+    marginBottom: "10px",
+    '&:not([data-selected="true"]):hover': {
+      border: "2px solid {colors.foreground}",
+    },
+    '&[data-selected="true"]': {
+      border: "2px solid {colors.primary}",
+    },
+  },
+})
 
-    & h3 {
-      font-family: token(fonts.nativeFont);
-    }
-    
-    & p {
-      font-family: token(fonts.nativeFont);
-      margin: token(spacing.s20) 0;
-      color: token(colors.textMuted);
-    }
-  }
-`
-
-export const ThemeButton = styled.button`
-  width: 100%;
-  min-width: 250px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: token(radii.md);
-  outline: none;
-  border: 2px solid transparent;
-  transition: 150ms border;
-  margin-bottom: 10px;
-  
-  &:not([data-selected="true"]):hover {
-    border: 2px solid token(colors.foreground);
-  }
-
-  &[data-selected="true"] {
-    border: 2px solid token(colors.primary);
-  }
-`
-
-export const ThemeContainer = styled.div`
-  display: flex;
-  flex: 2;
-  font-family: token(fonts.nativeFont);
-
-  & > div {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    margin: 0 10px;
-  }
-`
+export const ThemeContainer = styled("div", {
+  base: {
+    display: "flex",
+    flex: "2",
+    fontFamily: "{fonts.nativeFont}",
+    "& > div": {
+      display: "flex",
+      flexDirection: "column",
+      width: "100%",
+      maxWidth: "250px",
+      height: "auto",
+      margin: "0 10px",
+    },
+  },
+})

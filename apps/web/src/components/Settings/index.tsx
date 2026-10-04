@@ -10,18 +10,18 @@ export default function Settings() {
   )
 }
 
-const Section = styled.section`
-  display: flex;
-  max-width: token(sizes.maxWidth);
-  margin: 0 token(spacing.s20);
-  font-family: token(fonts.nativeFont);
-  font-size: 1em;
-
-  & > div {
-    flex: 2;
-  }
-
-  & > h2 {
-    font-family: token(fonts.nativeFont);
-  }
-`
+const Section = styled("section", {
+  base: {
+    display: "flex",
+    maxWidth: "{sizes.maxWidth}",
+    margin: "0 {spacing.s20}",
+    fontFamily: "{fonts.nativeFont}",
+    fontSize: "1em",
+    "& > div": {
+      flex: "2",
+    },
+    "& > h2": {
+      fontFamily: "{fonts.nativeFont}",
+    },
+  },
+})
