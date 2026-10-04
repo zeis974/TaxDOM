@@ -1,43 +1,50 @@
 import { styled } from "@/panda/jsx"
 
-export const Container = styled.div`
-  color: token(colors.foreground);
-  font-family: token(fonts.nativeFont);
-`
+export const Container = styled("div", {
+  base: {
+    color: "{colors.foreground}",
+    fontFamily: "{fonts.nativeFont}",
+  },
+})
 
-export const StatsGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: token(spacing.s12);
-  margin-bottom: token(spacing.lg);
+export const StatsGrid = styled("div", {
+  base: {
+    display: "grid",
+    gridTemplateColumns: "repeat(4, 1fr)",
+    gap: "{spacing.s12}",
+    marginBottom: "{spacing.lg}",
+    "@media (max-width: 1200px)": {
+      gridTemplateColumns: "repeat(2, 1fr)",
+    },
+    "@media (max-width: 768px)": {
+      gridTemplateColumns: "1fr",
+    },
+  },
+})
 
-  @media (max-width: 1200px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
+export const ContentGrid = styled("div", {
+  base: {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    gap: "{spacing.md}",
+    "@media (max-width: 1024px)": {
+      gridTemplateColumns: "1fr",
+    },
+  },
+})
 
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
-`
+export const LeftColumn = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "{spacing.md}",
+  },
+})
 
-export const ContentGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: token(spacing.md);
-
-  @media (max-width: 1024px) {
-    grid-template-columns: 1fr;
-  }
-`
-
-export const LeftColumn = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: token(spacing.md);
-`
-
-export const RightColumn = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: token(spacing.md);
-`
+export const RightColumn = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "{spacing.md}",
+  },
+})

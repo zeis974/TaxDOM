@@ -1,157 +1,167 @@
 import { styled } from "@/panda/jsx"
 
-export const Container = styled.nav`
-  flex: 1;
-  background: token(colors.elevated);
-  height: calc(100% - 10px);
-  padding: 10px;
-  margin: 10px;
-  border-radius: token(radii.lg);
-  color: token(colors.foreground);
-  max-width: 250px;
-  font-family: token(fonts.nativeFont);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: token(spacing.md);
+export const Container = styled("nav", {
+  base: {
+    flex: "1",
+    background: "{colors.elevated}",
+    height: "calc(100% - 10px)",
+    padding: "10px",
+    margin: "10px",
+    borderRadius: "{radii.lg}",
+    color: "{colors.foreground}",
+    maxWidth: "250px",
+    fontFamily: "{fonts.nativeFont}",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    gap: "{spacing.md}",
+    "& > div:first-child": {
+      display: "inherit",
+      flexDirection: "column",
+      gap: "{spacing.md}",
+    },
+  },
+})
 
-  & > div:first-child {
-    display: inherit;
-    flex-direction: column;
-    gap: token(spacing.md);
-  }
-`
+export const Logo = styled("h1", {
+  base: {
+    color: "{colors.foreground}",
+    fontSize: "clamp(1.4em, 5vw, 2em)",
+    fontFamily: "{fonts.rowdies}",
+  },
+})
 
-export const Logo = styled.h1`
-  color: token(colors.foreground);
-  font-size: clamp(1.4em, 5vw, 2em);
-  font-family: token(fonts.rowdies);
-`
+export const List = styled("ul", {
+  base: {
+    "& li": {
+      marginBottom: "10px",
+      borderRadius: "{radii.lg}",
+      color: "inherit",
+      '&[data-active="true"]': {
+        background: "{colors.background}",
+      },
+      "& a": {
+        display: "flex",
+        alignItems: "center",
+        gap: "10px",
+        color: "inherit",
+        lineHeight: "1",
+        width: "100%",
+        height: "100%",
+        padding: "8px 10px",
+        borderRadius: "10px",
+        fontWeight: "500",
+        transition: "background 150ms ease",
+      },
+      "&:hover": {
+        background: "{colors.background}",
+      },
+    },
+  },
+})
 
-export const List = styled.ul`
-  & li {
-    margin-bottom: 10px;
-    border-radius: token(radii.lg);
-    color: inherit;
+export const UserContainer = styled("div", {
+  base: {
+    display: "flex",
+    gap: "{spacing.sm}",
+    padding: "{spacing.s12}",
+    borderRadius: "{radii.lg}",
+    background: "{colors.elevated}",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+})
 
-    &[data-active="true"] {
-      background: token(colors.background);
-    }
+export const Avatar = styled("div", {
+  base: {
+    width: "36px",
+    height: "36px",
+    borderRadius: "50%",
+    background: "{colors.foreground}",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    color: "{colors.elevated}",
+    fontWeight: "600",
+    fontSize: "{fontSizes.body-md}",
+    flexShrink: "0",
+    "& > img": {
+      borderRadius: "50%",
+      objectFit: "cover",
+    },
+  },
+})
 
-    & a {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: inherit;
-      line-height: 1;
-      width: 100%;
-      height: 100%;
-      padding: 8px 10px;
-      border-radius: 10px;
-      font-weight: 500;
-      transition: background 150ms ease;
-    }
+export const UserInfo = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "{spacing.xs}",
+    overflow: "hidden",
+  },
+})
 
-    &:hover {
-      background: token(colors.background);
-    }
-  }
-`
+export const UserName = styled("span", {
+  base: {
+    fontWeight: "600",
+    fontSize: "{fontSizes.body-sm}",
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+  },
+})
 
-export const UserContainer = styled.div`
-  display: flex;
-  gap: token(spacing.sm);
-  padding: token(spacing.s12);
-  border-radius: token(radii.lg);
-  background: token(colors.elevated);
-  align-items: center;
-  justify-content: space-between;
-`
+export const UserEmail = styled("span", {
+  base: {
+    fontSize: "{fontSizes.label-md}",
+    opacity: "0.7",
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+  },
+})
 
-export const Avatar = styled.div`
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: token(colors.foreground);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: token(colors.elevated);
-  font-weight: 600;
-  font-size: token(fontSizes.body-md);
-  flex-shrink: 0;
+export const UserContentWrapper = styled("div", {
+  base: {
+    display: "flex",
+    gap: "{spacing.s12}",
+    alignItems: "center",
+    flex: "1",
+    overflow: "hidden",
+  },
+})
 
-  & > img {
-    border-radius: 50%;
-    object-fit: cover;
-  }
-`
-
-export const UserInfo = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: token(spacing.xs);
-  overflow: hidden;
-`
-
-export const UserName = styled.span`
-  font-weight: 600;
-  font-size: token(fontSizes.body-sm);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-`
-
-export const UserEmail = styled.span`
-  font-size: token(fontSizes.label-md);
-  opacity: 0.7;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-`
-
-export const UserContentWrapper = styled.div`
-  display: flex;
-  gap: token(spacing.s12);
-  align-items: center;
-  flex: 1;
-  overflow: hidden;
-`
-
-export const LogoutButton = styled.button`
-  background: none;
-  border: none;
-  color: inherit;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: token(spacing.xs);
-  flex-shrink: 0;
-  transition: opacity 0.2s;
-
-  & svg {
-    width: 20px;
-    height: 20px;
-  }
-
-  &:hover {
-    opacity: 0.7;
-  }
-
-  &:active {
-    opacity: 0.5;
-  }
-
-  &:focus-visible {
-    outline: 2px solid token(colors.primary);
-    outline-offset: 2px;
-    border-radius: 6px;
-    opacity: 1;
-  }
-
-  &:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-`
+export const LogoutButton = styled("button", {
+  base: {
+    background: "none",
+    border: "none",
+    color: "inherit",
+    cursor: "pointer",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: "{spacing.xs}",
+    flexShrink: "0",
+    transition: "opacity 0.2s",
+    "& svg": {
+      width: "20px",
+      height: "20px",
+    },
+    "&:hover": {
+      opacity: "0.7",
+    },
+    "&:active": {
+      opacity: "0.5",
+    },
+    "&:focus-visible": {
+      outline: "2px solid {colors.primary}",
+      outlineOffset: "2px",
+      borderRadius: "6px",
+      opacity: "1",
+    },
+    "&:disabled": {
+      opacity: "0.5",
+      cursor: "not-allowed",
+    },
+  },
+})

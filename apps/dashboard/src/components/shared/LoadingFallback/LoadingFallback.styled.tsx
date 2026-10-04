@@ -1,12 +1,14 @@
 import { styled } from "@/panda/jsx"
 
-export const LoadingFallbackContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 200px;
-  padding: token(spacing.lg);
-  font-size: token(fontSizes.sm);
-  color: token(colors.foreground.muted);
-`
+export const LoadingFallbackContainer = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+    minHeight: "200px",
+    padding: "{spacing.lg}",
+    fontSize: "{fontSizes.sm}",
+    color: "{colors.foreground.muted}",
+  },
+})

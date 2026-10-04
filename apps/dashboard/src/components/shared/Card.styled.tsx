@@ -1,116 +1,121 @@
 import { styled } from "@/panda/jsx"
 
-export const Card = styled.div`
-  background: token(colors.elevated);
-  border: none;
-  border-radius: token(radii.lg);
-  padding: 14px;
-  transition: all 200ms ease;
-  cursor: default;
-  width: 100%;
-  text-align: left;
-`
+export const Card = styled("div", {
+  base: {
+    background: "{colors.elevated}",
+    border: "none",
+    borderRadius: "{radii.lg}",
+    padding: "14px",
+    transition: "all 200ms ease",
+    cursor: "default",
+    width: "100%",
+    textAlign: "left",
+  },
+})
 
-export const ClickableCard = styled.button`
-  background: token(colors.elevated);
-  border: 1px solid transparent;
-  border-radius: token(radii.lg);
-  padding: 14px;
-  transition: all 200ms ease;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
+export const ClickableCard = styled("button", {
+  base: {
+    background: "{colors.elevated}",
+    border: "1px solid transparent",
+    borderRadius: "{radii.lg}",
+    padding: "14px",
+    transition: "all 200ms ease",
+    cursor: "pointer",
+    width: "100%",
+    textAlign: "left",
+    "&:hover": {
+      borderColor: "{colors.border}",
+    },
+    "&:focus-visible": {
+      outline: "2px solid {colors.foreground}",
+      outlineOffset: "3px",
+    },
+  },
+})
 
-  &:hover {
-    border-color: token(colors.border);
-  }
+export const CardHeader = styled("div", {
+  base: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    marginBottom: "10px",
+    gap: "{spacing.md}",
+    minWidth: "0",
+    "& > *:first-child": {
+      flex: "1",
+      minWidth: "0",
+    },
+  },
+})
 
-  &:focus-visible {
-    outline: 2px solid token(colors.foreground);
-    outline-offset: 3px;
-  }
-`
+export const CardTitle = styled("h3", {
+  base: {
+    margin: "0",
+    color: "{colors.foreground}",
+    fontSize: "{fontSizes.body-md}",
+    fontWeight: "600",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
+  },
+})
 
-export const CardHeader = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 10px;
-  gap: token(spacing.md);
-  min-width: 0;
+export const CardInfo = styled("span", {
+  base: {
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.label-md}",
+  },
+})
 
-  & > *:first-child {
-    flex: 1;
-    min-width: 0;
-  }
-`
-
-export const CardTitle = styled.h3`
-  margin: 0;
-  color: token(colors.foreground);
-  font-size: token(fontSizes.body-md);
-  font-weight: 600;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-`
-
-export const CardInfo = styled.span`
-  color: token(colors.textMuted);
-  font-size: token(fontSizes.label-md);
-`
-
-export const BadgeContainer = styled.div`
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-`
+export const BadgeContainer = styled("div", {
+  base: {
+    display: "flex",
+    gap: "6px",
+    flexWrap: "wrap",
+  },
+})
 
 /**
  * Badge décoratif coloré. Variantes via data-type.
  */
-export const Badge = styled.span`
-  font-size: token(fontSizes.label-md);
-  padding: 4px 10px;
-  border-radius: token(radii.full);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-
-  &[data-type="accent"],
-  &[data-type="category"],
-  &[data-type="info"],
-  &[data-type="eu"] {
-    background: token(colors.infoBg);
-    color: token(colors.infoFg);
-  }
-
-  &[data-type="neutral"],
-  &[data-type="products"] {
-    background: token(colors.elevated);
-    color: token(colors.foreground);
-  }
-`
+export const Badge = styled("span", {
+  base: {
+    fontSize: "{fontSizes.label-md}",
+    padding: "4px 10px",
+    borderRadius: "{radii.full}",
+    fontWeight: "600",
+    textTransform: "uppercase",
+    letterSpacing: "0.08em",
+    '&[data-type="accent"], &[data-type="category"], &[data-type="info"], &[data-type="eu"]': {
+      background: "{colors.infoBg}",
+      color: "{colors.infoFg}",
+    },
+    '&[data-type="neutral"], &[data-type="products"]': {
+      background: "{colors.elevated}",
+      color: "{colors.foreground}",
+    },
+  },
+})
 
 /**
  * Badge de statut actif/inactif. Encodage unique : data-active (booléen).
  */
-export const StatusBadgeStyled = styled.span`
-  display: inline-flex;
-  align-items: center;
-  padding: token(spacing.xs) token(spacing.s12);
-  border-radius: token(radii.full);
-  font-size: token(fontSizes.label-md);
-  font-weight: 600;
-  letter-spacing: 0.02em;
-
-  &[data-active="true"] {
-    background: token(colors.successBg);
-    color: token(colors.successFg);
-  }
-
-  &[data-active="false"] {
-    background: token(colors.errorBg);
-    color: token(colors.errorFg);
-  }
-`
+export const StatusBadgeStyled = styled("span", {
+  base: {
+    display: "inline-flex",
+    alignItems: "center",
+    padding: "{spacing.xs} {spacing.s12}",
+    borderRadius: "{radii.full}",
+    fontSize: "{fontSizes.label-md}",
+    fontWeight: "600",
+    letterSpacing: "0.02em",
+    '&[data-active="true"]': {
+      background: "{colors.successBg}",
+      color: "{colors.successFg}",
+    },
+    '&[data-active="false"]': {
+      background: "{colors.errorBg}",
+      color: "{colors.errorFg}",
+    },
+  },
+})

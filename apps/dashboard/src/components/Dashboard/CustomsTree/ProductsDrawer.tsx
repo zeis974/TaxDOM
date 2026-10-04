@@ -25,139 +25,168 @@ async function fetchProductsByPrefix(code: string, signal: AbortSignal): Promise
   return json.data ?? []
 }
 
-const Overlay = styled.div`
-  position: fixed;
-  inset: 0;
-  background: token(colors.overlay);
-  backdrop-filter: blur(3px);
-  z-index: 49;
-`
+const Overlay = styled("div", {
+  base: {
+    position: "fixed",
+    inset: "0",
+    background: "{colors.overlay}",
+    backdropFilter: "blur(3px)",
+    zIndex: "49",
+  },
+})
 
-const Panel = styled.aside`
-  position: fixed;
-  inset: 0 0 0 auto;
-  width: min(440px, 100vw);
-  height: 100vh;
-  background: token(colors.background);
-  border-left: 1px solid token(colors.border);
-  box-shadow: -24px 0 60px token(colors.shadow);
-  display: flex;
-  flex-direction: column;
-  z-index: 50;
-  font-family: token(fonts.nativeFont);
-`
+const Panel = styled("aside", {
+  base: {
+    position: "fixed",
+    inset: "0 0 0 auto",
+    width: "min(440px, 100vw)",
+    height: "100vh",
+    background: "{colors.background}",
+    borderLeft: "1px solid {colors.border}",
+    boxShadow: "-24px 0 60px {colors.shadow}",
+    display: "flex",
+    flexDirection: "column",
+    zIndex: "50",
+    fontFamily: "{fonts.nativeFont}",
+  },
+})
 
-const Header = styled.header`
-  padding: 28px 28px 20px;
-  border-bottom: 1px solid token(colors.border);
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: token(spacing.md);
-`
+const Header = styled("header", {
+  base: {
+    padding: "28px 28px 20px",
+    borderBottom: "1px solid {colors.border}",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    gap: "{spacing.md}",
+  },
+})
 
-const HeaderContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: token(spacing.xs);
-`
+const HeaderContent = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "{spacing.xs}",
+  },
+})
 
-const Title = styled.h2`
-  margin: 0;
-  font-size: 20px;
-  font-weight: 600;
-  color: token(colors.foreground);
-`
+const Title = styled("h2", {
+  base: {
+    margin: "0",
+    fontSize: "20px",
+    fontWeight: "600",
+    color: "{colors.foreground}",
+  },
+})
 
-const Subtitle = styled.span`
-  font-size: token(fontSizes.label-md);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: token(colors.textMuted);
-  font-weight: 600;
-`
+const Subtitle = styled("span", {
+  base: {
+    fontSize: "{fontSizes.label-md}",
+    textTransform: "uppercase",
+    letterSpacing: "0.1em",
+    color: "{colors.textMuted}",
+    fontWeight: "600",
+  },
+})
 
-const CloseBtn = styled.button`
-  background: token(colors.elevated);
-  border: none;
-  border-radius: token(radii.full);
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: token(fontSizes.headline-md);
-  color: token(colors.foreground);
-  flex-shrink: 0;
-  &:hover { background: token(colors.elevated); }
-`
+const CloseBtn = styled("button", {
+  base: {
+    background: "{colors.elevated}",
+    border: "none",
+    borderRadius: "{radii.full}",
+    width: "36px",
+    height: "36px",
+    cursor: "pointer",
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "{fontSizes.headline-md}",
+    color: "{colors.foreground}",
+    flexShrink: "0",
+    "&:hover": {
+      background: "{colors.elevated}",
+    },
+  },
+})
 
-const Body = styled.div`
-  flex: 1;
-  overflow-y: auto;
-  padding: 20px 28px;
-  display: flex;
-  flex-direction: column;
-  gap: token(spacing.sm);
-`
+const Body = styled("div", {
+  base: {
+    flex: "1",
+    overflowY: "auto",
+    padding: "20px 28px",
+    display: "flex",
+    flexDirection: "column",
+    gap: "{spacing.sm}",
+  },
+})
 
-const ProductRow = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 14px;
-  border-radius: token(radii.md);
-  background: token(colors.elevated);
-  border: 1px solid token(colors.elevated);
-`
+const ProductRow = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
+    padding: "12px 14px",
+    borderRadius: "{radii.md}",
+    background: "{colors.elevated}",
+    border: "1px solid {colors.elevated}",
+  },
+})
 
-const ProductName = styled.span`
-  font-size: token(fontSizes.body-sm);
-  font-weight: 500;
-  color: token(colors.foreground);
-  flex: 1;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-`
+const ProductName = styled("span", {
+  base: {
+    fontSize: "{fontSizes.body-sm}",
+    fontWeight: "500",
+    color: "{colors.foreground}",
+    flex: "1",
+    minWidth: "0",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
+  },
+})
 
-const ProductCode = styled.span`
-  font-size: 10px;
-  font-weight: 700;
-  background: token(colors.elevated);
-  padding: 2px 6px;
-  border-radius: token(radii.sm);
-  flex-shrink: 0;
-  letter-spacing: 0.03em;
-`
+const ProductCode = styled("span", {
+  base: {
+    fontSize: "10px",
+    fontWeight: "700",
+    background: "{colors.elevated}",
+    padding: "2px 6px",
+    borderRadius: "{radii.sm}",
+    flexShrink: "0",
+    letterSpacing: "0.03em",
+  },
+})
 
-const CategoryBadge = styled.span`
-  font-size: token(fontSizes.label-md);
-  background: token(colors.infoBg);
-  color: token(colors.infoFg);
-  padding: 2px 8px;
-  border-radius: token(radii.full);
-  font-weight: 600;
-  flex-shrink: 0;
-`
+const CategoryBadge = styled("span", {
+  base: {
+    fontSize: "{fontSizes.label-md}",
+    background: "{colors.infoBg}",
+    color: "{colors.infoFg}",
+    padding: "2px 8px",
+    borderRadius: "{radii.full}",
+    fontWeight: "600",
+    flexShrink: "0",
+  },
+})
 
-const EmptyMsg = styled.p`
-  text-align: center;
-  color: token(colors.textMuted);
-  font-size: token(fontSizes.body-sm);
-  padding: token(spacing.xl) 0;
-`
+const EmptyMsg = styled("p", {
+  base: {
+    textAlign: "center",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.body-sm}",
+    padding: "{spacing.xl} 0",
+  },
+})
 
-const LoadingMsg = styled.p`
-  text-align: center;
-  color: token(colors.textMuted);
-  font-size: token(fontSizes.body-sm);
-  padding: token(spacing.xl) 0;
-  animation: pulse 1.5s ease-in-out infinite;
-  @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.4 } }
-`
+const LoadingMsg = styled("p", {
+  base: {
+    textAlign: "center",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.body-sm}",
+    padding: "{spacing.xl} 0",
+    animation: "pulse 1.5s ease-in-out infinite",
+  },
+})
 
 interface ProductsDrawerProps {
   node: NomenclatureNode
