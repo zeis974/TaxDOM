@@ -85,4 +85,25 @@ export const keyframes = defineKeyframes({
       transform: "translateY(0)",
     },
   },
+  spin: {
+    to: {
+      transform: "rotate(360deg)",
+    },
+  },
+  pulse: {
+    "0%, 100%": {
+      opacity: "1",
+    },
+    "50%": {
+      opacity: "0.4",
+    },
+  },
+  highlightPulse: {
+    "0%": {
+      background: "color-mix(in srgb, {colors.warningFg} 35%, transparent)",
+    },
+    "100%": {
+      background: "color-mix(in srgb, {colors.warningFg} 12%, transparent)",
+    },
+  },
 })
