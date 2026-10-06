@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@pandacss/dev": "2.1.1",
+    "@pandacss/vite": "2.1.1",
     "@tanstack/nitro-v2-vite-plugin": "^1.155.2",
     "@tanstack/react-query-devtools": "5.103.2",
     "@tanstack/react-router-devtools": "1.167.2",
