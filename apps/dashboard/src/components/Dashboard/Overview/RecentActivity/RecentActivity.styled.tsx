@@ -1,90 +1,92 @@
 import { styled } from "@/panda/jsx"
 
-export const Container = styled.div`
-  background: token(colors.elevated);
-  border: none;
-  border-radius: token(radii.md);
-  padding: token(spacing.s20);
-`
+export const Container = styled("div", {
+  base: {
+    background: "{colors.elevated}",
+    border: "none",
+    borderRadius: "{radii.md}",
+    padding: "{spacing.s20}",
+  },
+})
 
-export const Header = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: token(spacing.md);
-  padding-bottom: token(spacing.s12);
-  border-bottom: 1px solid token(colors.border);
+export const Header = styled("div", {
+  base: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: "{spacing.md}",
+    paddingBottom: "{spacing.s12}",
+    borderBottom: "1px solid {colors.border}",
+    "& h2": {
+      fontSize: "1em",
+      fontWeight: "600",
+      margin: "0",
+      color: "{colors.foreground}",
+      fontFamily: "{fonts.nativeFont}",
+    },
+    "& > span": {
+      fontSize: "0.813em",
+      color: "{colors.textMuted}",
+    },
+  },
+})
 
-  & h2 {
-    font-size: 1em;
-    font-weight: 600;
-    margin: 0;
-    color: token(colors.foreground);
-    font-family: token(fonts.nativeFont);
-  }
+export const ProductList = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "{spacing.sm}",
+  },
+})
 
-  & > span {
-    font-size: 0.813em;
-    color: token(colors.textMuted);
-  }
-`
+export const ProductItem = styled("div", {
+  base: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "{spacing.s12}",
+    background: "{colors.elevated}",
+    borderRadius: "6px",
+    "& .product-info": {
+      display: "flex",
+      flexDirection: "column",
+      gap: "{spacing.xs}",
+      "& h3": {
+        fontSize: "0.875em",
+        fontWeight: "500",
+        margin: "0",
+        color: "{colors.foreground}",
+      },
+      "& .meta": {
+        display: "flex",
+        alignItems: "center",
+        gap: "{spacing.sm}",
+        fontSize: "0.75em",
+        color: "{colors.textMuted}",
+        "& .category": {
+          background: "{colors.elevated}",
+          padding: "2px 6px",
+          borderRadius: "3px",
+        },
+        "& .separator": {
+          opacity: "0.5",
+        },
+      },
+    },
+    "& .date": {
+      fontSize: "0.75em",
+      color: "{colors.textMuted}",
+    },
+  },
+})
 
-export const ProductList = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: token(spacing.sm);
-`
-
-export const ProductItem = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: token(spacing.s12);
-  background: token(colors.elevated);
-  border-radius: 6px;
-
-  & .product-info {
-    display: flex;
-    flex-direction: column;
-    gap: token(spacing.xs);
-
-    & h3 {
-      font-size: 0.875em;
-      font-weight: 500;
-      margin: 0;
-      color: token(colors.foreground);
-    }
-
-    & .meta {
-      display: flex;
-      align-items: center;
-      gap: token(spacing.sm);
-      font-size: 0.75em;
-      color: token(colors.textMuted);
-
-      & .category {
-        background: token(colors.elevated);
-        padding: 2px 6px;
-        border-radius: 3px;
-      }
-
-      & .separator {
-        opacity: 0.5;
-      }
-    }
-  }
-
-  & .date {
-    font-size: 0.75em;
-    color: token(colors.textMuted);
-  }
-`
-
-export const NoActivity = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: token(spacing.xl);
-  color: token(colors.textMuted);
-  font-size: 0.875em;
-`
+export const NoActivity = styled("div", {
+  base: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "{spacing.xl}",
+    color: "{colors.textMuted}",
+    fontSize: "0.875em",
+  },
+})

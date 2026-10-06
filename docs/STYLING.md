@@ -14,7 +14,7 @@ Values live in `packages/ui/theme/`; this document describes **how** to use them
 1. **No raw values** for a color, a spacing or a radius. Go through `token()`.
 2. **No token created "just in case."** A token exists only if it has at least one real consumer, and a token that loses its last consumer is deleted.
 3. **Spacing follows the 4dp grid** (Material). Every spacing value is a multiple of 4.
-4. **One styling API:** `styled` template literals. No `css()`, `cva()`, `cx()`.
+4. **One styling API:** `styled(element, { base })` object syntax. No `css()`, `cva()`, `cx()`, no template literals.
 5. **Every interactive element has a `focus-visible` state.**
 
 ---
@@ -40,7 +40,7 @@ packages/ui/
 `packages/ui/theme/`.
 
 Shared across the three apps: `eject: true` (no Panda built-ins), `preflight: false`,
-`syntax: "template-literal"`, `jsxFramework: "react"`, `importMap: "@/panda"`.
+`jsxStyleProps: "none"` (no `syntax` option — object syntax is Panda's default), `jsxFramework: "react"`, `importMap: "@/panda"`.
 
 Hashing, however, **differs**:
 
@@ -68,16 +68,18 @@ with no build error:
 
 ## 3. Writing styles
 
-### The API: `styled` template literals
+### The API: `styled` object syntax
 
 ```ts
 import { styled } from "@/panda/jsx"
 
-export const Card = styled.div`
-  background: token(colors.elevated);
-  border-radius: token(radii.lg);
-  padding: token(spacing.md);
-`
+export const Card = styled("div", {
+  base: {
+    background: "{colors.elevated}",
+    borderRadius: "{radii.lg}",
+    padding: "{spacing.md}",
+  },
+})
 ```
 
 Works on any HTML element and on third-party components:
@@ -85,29 +87,36 @@ Works on any HTML element and on third-party components:
 ```ts
 import * as m from "motion/react-m"
 
-export const Backdrop = styled(m.div)`
-  background: token(colors.overlay);
-`
+export const Backdrop = styled(m.div, {
+  base: {
+    background: "{colors.overlay}",
+  },
+})
 ```
 
-### `token()` syntax per context
+Properties are camelCase CSS (`borderRadius`, not `border-radius`), values are strings, and nested
+selectors and `@media` are keys (`"&:hover"`, `"& > a"`, `"@media (width < 768px)"`). Nested
+selectors must contain `&`.
+
+`jsxStyleProps: "none"` is deliberate: props such as `transition`, `width` or `fill` are forwarded to
+the element (or to `motion`) instead of being swallowed as style props. Style only through `base`.
+
+### Token syntax per context
 
 | Context | Syntax | Import |
 |---|---|---|
-| CSS inside a template literal | `token(colors.foreground)` — **no quotes, no `${}`** | none |
+| Style object (`base`, nested selectors, `panda.config.ts`) | `"{colors.foreground}"`, also inside composite values: `"1px solid {colors.border}"` | none |
 | JS value (inline style, canvas, third-party API) | `token("colors.foreground")` | `@/panda/tokens` |
-| `panda.config.ts` (object) | `"{colors.foreground}"` | none |
 
-⚠️ **The classic mistake — interpolating inside a `styled`:**
+⚠️ **The classic mistake — calling the JS `token()` inside a style object:**
 
 ```ts
-// ❌ does not compile; Panda never sees the token
-background: ${token("colors.elevated")};
-color: token("colors.foreground");
+// ❌ evaluated at runtime; Panda never sees a token reference
+background: token("colors.elevated"),
 
-// ✅
-background: token(colors.elevated);
-color: token(colors.foreground);
+// ✅ both resolve to the same CSS variable; the repo standard is the curly form
+background: "{colors.elevated}",
+color: "{colors.foreground}",
 ```
 
 In JS, `token(path)` returns the **value** while `token.var(path)` returns the **CSS variable**. For
@@ -119,9 +128,9 @@ returns the literal (`"16px"`) and `token.var()` returns `var(--…)`.
 There are **no** "subtle" tokens. Derive them inline — but only for **decorative** surfaces: hover
 fills, focus rings, faint separators.
 
-```css
-background: color-mix(in srgb, token(colors.primary) 12%, transparent);
-box-shadow: 0 0 0 3px color-mix(in srgb, token(colors.primary) 15%, transparent);
+```ts
+background: "color-mix(in srgb, {colors.primary} 12%, transparent)",
+boxShadow: "0 0 0 3px color-mix(in srgb, {colors.primary} 15%, transparent)",
 ```
 
 > ⚠️ **Never place a *coloured* text token on a `color-mix()` surface.** The tint lands at opposite
@@ -142,7 +151,7 @@ only passes `data-*` attributes.
 ```
 components/Button/
   Button.tsx           ← logic: imports ButtonStyled, passes data-variant
-  Button.styled.tsx    ← export const ButtonStyled = styled.button`…`
+  Button.styled.tsx    ← export const ButtonStyled = styled("button", { base: {…} })
 ```
 
 ## 5. Variants
@@ -150,15 +159,17 @@ components/Button/
 No `cva()`. Variants use `data-*` attributes and CSS attribute selectors:
 
 ```ts
-export const ButtonStyled = styled.button`
-  background: token(colors.elevated);
-  color: token(colors.foreground);
+export const ButtonStyled = styled("button", {
+  base: {
+    background: "{colors.elevated}",
+    color: "{colors.foreground}",
 
-  &[data-variant="danger"] {
-    background: token(colors.errorBg);
-    color: token(colors.errorFg);
-  }
-`
+    '&[data-variant="danger"]': {
+      background: "{colors.errorBg}",
+      color: "{colors.errorFg}",
+    },
+  },
+})
 ```
 
 ```tsx
@@ -323,18 +334,20 @@ modes. Hand-writing `.dark &` is a sign that a token is missing, or that the wro
 
 ## 8. Responsive
 
-Plain `@media` inside template literals — Panda's object breakpoints are not used.
+Plain `@media` keys inside `base` — Panda's breakpoint conditions are not used.
 
-```css
-@media (width < 768px) {
-  grid-template-columns: 1fr;
+```ts
+base: {
+  "@media (width < 768px)": {
+    gridTemplateColumns: "1fr",
+  },
 }
 ```
 
 Fluid sizing with `clamp()`:
 
-```css
-font-size: clamp(0.875rem, 0.85rem + 0.09vw, 1rem);
+```ts
+fontSize: "clamp(0.875rem, 0.85rem + 0.09vw, 1rem)",
 ```
 
 ---
@@ -345,7 +358,7 @@ font-size: clamp(0.875rem, 0.85rem + 0.09vw, 1rem);
 - [ ] No hardcoded spacing or radius that matches an existing token.
 - [ ] Every spacing value introduced is a multiple of 4.
 - [ ] No token added without a consumer, no orphaned token left behind.
-- [ ] `token(colors.x)` unquoted inside `styled`, quoted in JS.
+- [ ] `"{colors.x}"` inside `styled`, `token("colors.x")` in JS.
 - [ ] No hand-written `var(--…)` outside Astro `<style>` blocks.
 - [ ] Muted text uses `textMuted`, not `border` or `elevated`.
 - [ ] Interactive elements have `focus-visible`.
@@ -356,13 +369,13 @@ font-size: clamp(0.875rem, 0.85rem + 0.09vw, 1rem);
 
 ```bash
 # color tokens referenced in code but not defined in the theme
-grep -rhoE 'token(\.var)?\(["'"'"']?colors\.[a-zA-Z0-9]+' apps/*/src \
+grep -rhoE '(\{|token(\.var)?\(["'"'"']?)colors\.[a-zA-Z0-9]+' apps/*/src \
   | sed -E 's/.*colors\.//' | sort -u
 # compare against packages/ui/theme/semantic-tokens.ts
 
 # spacing / radius values that bypass a token
-grep -rnE '^\s*(gap|padding|margin|border-radius)[^;]*[0-9]+px' apps/*/src \
-  --include='*.tsx' | grep -v 'token('
+grep -rnE '^\s*(gap|padding|margin|borderRadius): "[^"]*[0-9]+px' apps/*/src \
+  --include='*.tsx' | grep -v '{'
 ```
 
 `pnpm design:lint` validates `DESIGN.md` against the `@google/design.md` schema.

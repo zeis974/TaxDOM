@@ -1,41 +1,68 @@
-import { styled } from "@/panda/jsx"
 import * as m from "motion/react-m"
+import { styled } from "@/panda/jsx"
 
-export const Container = styled.div`
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
-  gap: 50px;
+export const Container = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "stretch",
+    alignSelf: "stretch",
+    marginLeft: "{spacing.lg}",
+    gap: "{spacing.lg}",
+    fontFamily: "{fonts.nativeFont}",
+    // Not positioned so the mega menu anchors to the Nav; z-index still applies to flex items and keeps the menu above the Backdrop
+    "& > div:first-of-type": {
+      zIndex: "3",
+      display: "flex",
+      alignItems: "center",
+      alignSelf: "stretch",
+      borderBottom: "2px solid transparent",
+      transition: "border-color 150ms",
+    },
+    '& > div[data-active="true"]': {
+      borderBottomColor: "{colors.primary}",
+    },
+    "& > a, & > div:first-of-type > button": {
+      display: "flex",
+      alignItems: "center",
+      gap: "{spacing.xs}",
+      padding: "{spacing.sm} {spacing.md}",
+      transition: "background 150ms, color 150ms",
+      color: "{colors.foreground}",
+      background: "none",
+      border: "none",
+      font: "inherit",
+      fontSize: "{fontSizes.body-md}",
+      cursor: "pointer",
+      borderRadius: "{radii.sm}",
+      "&:hover": {
+        background: "{colors.elevated}",
+      },
+      "&:focus-visible": {
+        outline: "2px solid {colors.primary}",
+        outlineOffset: "2px",
+      },
+    },
+    "& > a": {
+      alignSelf: "center",
+      textDecoration: "none",
+    },
+    "& svg": {
+      transition: "transform 150ms",
+    },
+    '& [data-active="true"] > button': {
+      color: "{colors.primary}",
+    },
+    '& [data-active="true"] > button > svg': {
+      transform: "rotate(180deg)",
+    },
+  },
+})
 
-  font-family: token(fonts.nativeFont);
-
-  & > div:first-of-type {
-    z-index: 3;
-  }
-
-  & > a,
-  & span {
-    padding: 10px;
-    transition: background 150ms;
-    color: token(colors.foreground);
-    border-radius: token(radii.sm);
-
-    &:hover {
-      background: token(colors.elevated);
-    }
-  }
-
-  & span {
-    display: inherit;
-    gap: 5px;
-  }
-`
-
-export const Backdrop = styled(m.div)`
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  inset: 0;
-  background: token(colors.overlay);
-  z-index: 2;
-`
+export const Backdrop = styled(m.div, {
+  base: {
+    position: "fixed",
+    inset: "{sizes.navbarHeight} 0 0",
+    background: "{colors.overlay}",
+    zIndex: "2",
+  },
+})
