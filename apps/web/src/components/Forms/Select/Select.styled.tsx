@@ -94,16 +94,3 @@ export const OptionContent = styled("div", {
     },
   },
 })
-
-export const OptionMeta = styled("span", {
-  base: {
-    flexShrink: "1",
-    minWidth: "0",
-    color: "{colors.textMuted}",
-    fontSize: "{fontSizes.label-md}",
-    overflow: "hidden",
-    textOverflow: "ellipsis",
-    whiteSpace: "nowrap",
-    marginLeft: "auto",
-  },
-})

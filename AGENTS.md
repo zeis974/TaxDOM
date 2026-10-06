@@ -22,9 +22,10 @@ pnpm dev:blog                  # Astro blog
 
 pnpm build                     # all apps via turbo
 pnpm format                    # biome format . --write (whole repo)
+pnpm lint                      # biome check . (cached via `turbo run //#lint`)
+pnpm lint:fix                  # biome check . --write
 
 # Per-app (run from package dir or via --filter)
-pnpm --filter @taxdom/<pkg> lint       # biome check (next lint in apps/web)
 pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit
 
 # No test suite exists in this repo — don't assume `pnpm test` works anywhere.

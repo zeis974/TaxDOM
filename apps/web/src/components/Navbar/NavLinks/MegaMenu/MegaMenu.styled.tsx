@@ -1,121 +1,161 @@
 import * as m from "motion/react-m"
 import { styled } from "@/panda/jsx"
 
-// Anchored to the `Nav` (position: relative), not to the trigger, so it spans the full width
-export const Container = styled(m.div, {
+export const Panel = styled(m.div, {
   base: {
-    position: "absolute",
-    top: "100%",
+    position: "fixed",
+    top: "{sizes.navbarHeight}",
     left: "0",
     right: "0",
-    display: "grid",
-    gridTemplateColumns: "1fr minmax(280px, 30%)",
+    zIndex: "3",
     background: "{colors.background}",
-    borderTop: "1px solid {colors.border}",
-    borderRadius: "0 0 {radii.lg} {radii.lg}",
-    boxShadow: "0 16px 32px {colors.shadow}",
-    overflow: "hidden",
-    cursor: "default",
-    "& h2": {
-      marginBottom: "{spacing.md}",
-      fontFamily: "{fonts.nativeFont}",
-      fontSize: "{fontSizes.body-sm}",
-      fontWeight: "500",
-      color: "{colors.textMuted}",
+    borderBottom: "1px solid {colors.border}",
+    boxShadow: "0 12px 32px {colors.shadow}",
+  },
+})
+
+export const Body = styled("div", {
+  base: {
+    display: "flex",
+    gap: "{spacing.lg}",
+    padding: "{spacing.lg} {spacing.xl}",
+    "@media (width < 1024px)": {
+      flexDirection: "column",
     },
-    "& h3": {
-      display: "flex",
-      alignItems: "center",
-      gap: "{spacing.xs}",
-      marginBottom: "{spacing.xs}",
-      fontFamily: "{fonts.nativeFont}",
-      fontSize: "{fontSizes.body-md}",
-      fontWeight: "600",
+  },
+})
+
+export const Grid = styled("div", {
+  base: {
+    flex: "1",
+    display: "grid",
+    gridTemplateColumns: "repeat(3, 1fr)",
+    gap: "{spacing.sm}",
+    alignContent: "start",
+    "& > a": {
+      borderRadius: "{radii.lg}",
+      "&:focus-visible": {
+        outline: "2px solid {colors.primary}",
+        outlineOffset: "2px",
+      },
     },
-    "& p": {
-      fontSize: "{fontSizes.body-sm}",
-      lineHeight: "1.4",
-      color: "{colors.textMuted}",
-    },
-    "& a:focus-visible": {
-      outline: "2px solid {colors.primary}",
-      outlineOffset: "-2px",
-    },
-    "@media (max-width: 900px)": {
+    "@media (width < 768px)": {
       gridTemplateColumns: "1fr",
     },
   },
 })
 
-export const Sections = styled("div", {
+export const Card = styled("div", {
   base: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-    gap: "{spacing.xl}",
-    padding: "{spacing.xl}",
+    display: "flex",
+    alignItems: "flex-start",
+    gap: "{spacing.md}",
+    height: "100%",
+    padding: "{spacing.md}",
+    border: "1px solid transparent",
+    borderRadius: "{radii.lg}",
+    color: "{colors.foreground}",
+    transition: "background 150ms, border-color 150ms",
+    '&[data-active="true"]': {
+      background: "color-mix(in srgb, {colors.primary} 8%, {colors.elevated})",
+      borderColor: "{colors.border}",
+    },
+    '&[aria-disabled="true"]': {
+      opacity: "0.45",
+      pointerEvents: "none",
+    },
   },
 })
 
-export const Column = styled("div", {
+export const CardIcon = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexShrink: "0",
+    width: "48px",
+    height: "48px",
+    borderRadius: "{radii.lg}",
+    background: "{colors.elevated}",
+    "& svg": {
+      width: "30px",
+      height: "30px",
+    },
+  },
+})
+
+export const CardTitle = styled("h3", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: "{spacing.sm}",
+    fontSize: "{fontSizes.body-md}",
+    fontWeight: "600",
+  },
+})
+
+export const CardTitleIcon = styled("span", {
+  base: {
+    display: "grid",
+    flexShrink: "0",
+    color: "{colors.textMuted}",
+    opacity: "0",
+    rotate: "-90deg",
+    transition: "opacity 150ms, rotate 150ms",
+    '&[data-active="true"]': {
+      opacity: "1",
+      rotate: "0deg",
+    },
+  },
+})
+
+export const CardDescription = styled("p", {
+  base: {
+    marginTop: "{spacing.xs}",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.body-sm}",
+  },
+})
+
+export const PromoPanel = styled("div", {
   base: {
     display: "flex",
     flexDirection: "column",
-    gap: "{spacing.xs}",
-  },
-})
-
-export const Item = styled("div", {
-  base: {
-    "& > a": {
-      display: "flex",
-      alignItems: "flex-start",
-      gap: "{spacing.md}",
-      padding: "{spacing.s12}",
-      borderRadius: "{radii.lg}",
-      color: "{colors.foreground}",
-      textDecoration: "none",
-      transition: "background 150ms",
-      "&:hover": {
-        background: "{colors.elevated}",
-      },
-    },
-    "& > a > span": {
-      display: "flex",
-      flexShrink: "0",
-      "& svg": {
-        width: "36px",
-        height: "36px",
-      },
-    },
-  },
-})
-
-export const Aside = styled("div", {
-  base: {
-    padding: "{spacing.xl}",
-    background: "{colors.elevated}",
-    "& > a": {
-      display: "flex",
-      flexDirection: "column",
-      gap: "{spacing.sm}",
-      padding: "{spacing.lg}",
-      borderRadius: "{radii.lg}",
-      background: "{colors.background}",
-      color: "{colors.foreground}",
-      textDecoration: "none",
-      transition: "box-shadow 150ms",
-      "&:hover": {
-        boxShadow: "0 4px 16px {colors.shadow}",
-      },
-      "& > span": {
-        marginTop: "{spacing.sm}",
-        fontSize: "{fontSizes.body-sm}",
-        fontWeight: "600",
-        color: "{colors.primary}",
-      },
-    },
-    "@media (max-width: 900px)": {
+    flexShrink: "0",
+    width: "300px",
+    minHeight: "240px",
+    padding: "{spacing.lg}",
+    border: "1px solid {colors.border}",
+    borderRadius: "{radii.lg}",
+    background: "color-mix(in srgb, {colors.primary} 12%, {colors.elevated})",
+    color: "{colors.foreground}",
+    overflow: "hidden",
+    "@media (width < 1024px)": {
       display: "none",
     },
+  },
+})
+
+export const PromoContent = styled(m.div, {
+  base: {
+    flex: "1",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+    width: "100%",
+    "& > div svg": {
+      width: "96px",
+      height: "96px",
+    },
+  },
+})
+
+export const PromoName = styled("p", {
+  base: {
+    maxWidth: "14ch",
+    fontSize: "{fontSizes.headline-lg}",
+    fontWeight: "600",
   },
 })

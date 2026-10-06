@@ -1,0 +1,9 @@
+{
+  "$schema": "../../node_modules/turbo/schema.json",
+  "extends": ["//"],
+  "tasks": {
+    "build": {
+      "env": ["API_URL", "API_KEY", "NEXT_TURNSTILE_SECRET_KEY", "NEXT_PUBLIC_*"]
+    }
+  }
+}

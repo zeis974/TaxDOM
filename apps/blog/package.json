@@ -3,11 +3,11 @@
   "type": "module",
   "scripts": {
     "prepare": "panda codegen",
+    "codegen": "panda codegen",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "biome check .",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

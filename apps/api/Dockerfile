@@ -6,7 +6,7 @@ RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 --ingroup nodejs nodeuser
 
 ENV PNPM_HOME="/pnpm"
-ENV PATH="$PNPM_HOME:$PATH"
+ENV PATH="$PNPM_HOME/bin:$PNPM_HOME:$PATH"
 RUN corepack enable
 RUN corepack prepare pnpm@12.8.1 --activate
 
@@ -18,7 +18,9 @@ WORKDIR /app
 
 COPY --chown=nodeuser:nodejs . .
 
-RUN pnpm add -g turbo
+USER root
+RUN pnpm add -g turbo@2.11.4
+USER nodeuser
 RUN turbo prune @taxdom/api --docker
 
 FROM base AS installer
@@ -43,7 +45,7 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
 COPY --from=builder --chown=nodeuser:nodejs /app/out/full/ .
 COPY --chown=nodeuser:nodejs turbo.json turbo.json
 
-RUN pnpm turbo build
+RUN pnpm turbo run build
 
 FROM base AS deploy
 USER nodeuser

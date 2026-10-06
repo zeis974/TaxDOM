@@ -1,61 +1,59 @@
 import { styled } from "@/panda/jsx"
 import * as m from "motion/react-m"
 
-export const Container = styled(m.div)`
-  position: absolute;
-  border-radius: token(radii.lg);
-  top: calc(100% + 10px);
-  right: -150px;
-  width: 500px;
-  height: 100%;
-  background: token(colors.background);
+export const Container = styled(m.div, {
+  base: {
+    position: "absolute",
+    borderRadius: "{radii.lg}",
+    top: "calc(100% + 10px)",
+    right: "-150px",
+    width: "500px",
+    height: "100%",
+    background: "{colors.background}",
+    "&::before": {
+      content: '""',
+      position: "fixed",
+      bottom: "100%",
+      width: "160px",
+      height: "100px",
+    },
+    "& a:first-child > div": {
+      borderRadius: "{radii.lg} {radii.lg} 0 0",
+    },
+    "& a:last-child > div": {
+      borderRadius: "0 0 {radii.lg} {radii.lg}",
+    },
+  },
+})
 
-  &::before {
-    content: "";
-    position: fixed;
-    bottom: 100%;
-    width: 160px;
-    height: 100px;
-  }
-
-  & a:first-child > div {
-    border-radius: token(radii.lg) token(radii.lg) 0 0;
-  }
-
-  & a:last-child > div {
-    border-radius: 0 0 token(radii.lg) token(radii.lg);
-  }
-`
-export const CardContainer = styled.div`
-  display: flex;
-  align-items: center;
-  position: relative;
-  color: token(colors.foreground);
-  background: token(colors.background);
-  width: 100%;
-  height: 100px;
-  padding: token(spacing.s20);
-  gap: token(spacing.s20);
-  border-top: 1px solid token(colors.border);
-  border-right: 1px solid token(colors.border);
-  border-left: 1px solid token(colors.border);
-  transition: background 150ms;
-
-  &:hover {
-    background: token(colors.elevated);
-  }
-
-  & > div:last-of-type {
-    height: 40px;
-    line-height: 1;
-
-    & h3 {
-      margin-bottom: 3px;
-    }
-
-    & p {
-      line-height: 1;
-      color: token(colors.textMuted);
-    }
-  }
-`
+export const CardContainer = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    position: "relative",
+    color: "{colors.foreground}",
+    background: "{colors.background}",
+    width: "100%",
+    height: "100px",
+    padding: "{spacing.s20}",
+    gap: "{spacing.s20}",
+    borderTop: "1px solid {colors.border}",
+    borderRight: "1px solid {colors.border}",
+    borderLeft: "1px solid {colors.border}",
+    transition: "background 150ms",
+    "&:hover": {
+      background: "{colors.elevated}",
+    },
+    "& > div:last-of-type": {
+      height: "40px",
+      lineHeight: "1",
+      "& h3": {
+        marginBottom: "3px",
+      },
+      "& p": {
+        lineHeight: "1",
+        color: "{colors.textMuted}",
+      },
+    },
+  },
+})
