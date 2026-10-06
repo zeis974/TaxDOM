@@ -309,6 +309,9 @@ importers:
       '@pandacss/dev':
         specifier: 2.1.1
         version: 2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(postcss@8.5.28)
+      '@pandacss/vite':
+        specifier: 2.1.1
+        version: 2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.63.1)(vite@8.3.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.9.0))
       '@taxdom/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -367,6 +370,9 @@ importers:
       '@pandacss/dev':
         specifier: 2.1.1
         version: 2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(postcss@8.5.28)
+      '@pandacss/vite':
+        specifier: 2.1.1
+        version: 2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.63.1)(vite@8.3.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.9.0))
       '@tanstack/nitro-v2-vite-plugin':
         specifier: ^1.155.2
         version: 1.155.2(@parcel/watcher@2.5.6)(drizzle-orm@0.45.3(@types/pg@8.23.1)(kysely@0.28.17)(pg@8.23.0)(sql.js@1.14.1))(rolldown@1.2.11)(srvx@0.11.22)(supports-color@10.2.2)(vite@8.3.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.9.0))
@@ -2311,9 +2317,30 @@ packages:
     peerDependencies:
       postcss: '>=8'
 
+  '@pandacss/transformer@2.1.1':
+    resolution: {integrity: sha512-DYM8bbIse1yWy4/BlCNoEnxbb3CyBKb2xX4N0tA2aCN3EJZMCG8/gj17u+WH9rzOa8RJDDqStsr2RG7BIPEjLQ==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      rollup: '>=3.0.0'
+      vite: '>=6.0.0'
+      webpack: '>=5.0.0'
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+      vite:
+        optional: true
+      webpack:
+        optional: true
+
   '@pandacss/types@2.1.1':
     resolution: {integrity: sha512-ycF8sYdqg8mu2cdfdR2hM/pLRpSxBVkD2kJkCBhWAr+KvKb5SoRRNeERSzizgENDUKmThcWHF3N0kSFMA1Rt9A==}
     engines: {node: '>=22'}
+
+  '@pandacss/vite@2.1.1':
+    resolution: {integrity: sha512-QAm2qtJjw5zc+/ZeWPywUx6YR73NvEaKYMgB5bXt8p9HD7fFg25uEWOIMXsKtX7QrVcCBUyN9Tyy8/QyOLOHQg==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      vite: '>=6.0.0'
 
   '@parcel/watcher-android-arm64@2.5.6':
     resolution: {integrity: sha512-YQxSS34tPF/6ZG7r/Ih9xy+kP/WwediEUsqmtf0cuCV5TPPKw/PQHRhueUo6JdeFJaqV3pyjm0GdYjZotbRt/A==}
@@ -8479,7 +8506,31 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
+  '@pandacss/transformer@2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.63.1)(vite@8.3.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.9.0))':
+    dependencies:
+      '@pandacss/compiler': 2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)
+      '@pandacss/compiler-shared': 2.1.1
+      unplugin: 2.3.11
+    optionalDependencies:
+      rollup: 4.63.1
+      vite: 8.3.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.9.0)
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+
   '@pandacss/types@2.1.1': {}
+
+  '@pandacss/vite@2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.63.1)(vite@8.3.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.9.0))':
+    dependencies:
+      '@pandacss/compiler': 2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)
+      '@pandacss/compiler-shared': 2.1.1
+      '@pandacss/transformer': 2.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.63.1)(vite@8.3.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.9.0))
+      vite: 8.3.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.9.0)
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - rollup
+      - webpack
 
   '@parcel/watcher-android-arm64@2.5.6':
     optional: true

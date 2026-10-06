@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@pandacss/dev": "2.1.1",
+    "@pandacss/vite": "2.1.1",
     "@taxdom/ui": "workspace:*"
   },
   "packageManager": "pnpm@12.8.1"
