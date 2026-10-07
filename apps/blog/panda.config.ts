@@ -8,5 +8,4 @@ export default defineConfig({
     className: true,
     cssVar: false,
   },
-  include: ["./src/**/*.{ts,tsx,js,jsx}"],
 })
