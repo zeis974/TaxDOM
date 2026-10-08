@@ -19,7 +19,7 @@
     "@types/react-dom": "^19.3.0",
     "astro": "7.3.5",
     "date-fns": "4.4.0",
-    "motion": "13.4.4",
+    "motion": "14.0.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
@@ -28,5 +28,5 @@
     "@pandacss/vite": "2.1.2",
     "@taxdom/ui": "workspace:*"
   },
-  "packageManager": "pnpm@12.8.1"
+  "packageManager": "pnpm@12.9.1"
 }
