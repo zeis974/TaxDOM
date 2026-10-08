@@ -1,19 +1,9 @@
 import { defineConfig } from "@pandacss/dev"
 
-import taxdomPreset from "@taxdom/ui/preset"
+import { baseConfig } from "@taxdom/ui/preset"
 
 export default defineConfig({
-  eject: true,
-  preflight: false,
-  presets: [taxdomPreset],
-  hash: true,
-  minify: true,
-  lightningcss: true,
-  include: ["./src/**/*.{ts,tsx}"],
-  importMap: "@/panda",
-  outdir: "styled-system",
-  jsxStyleProps: "none",
-  jsxFramework: "react",
+  ...baseConfig,
   globalCss: {
     body: {
       backgroundColor: "{colors.background}",

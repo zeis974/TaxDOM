@@ -2,7 +2,7 @@ import { definePreset } from "@pandacss/dev"
 
 import { keyframes, semanticTokens, tokens, utilities } from "./theme"
 
-export default definePreset({
+const taxdomPreset = definePreset({
   name: "taxdom",
   theme: {
     extend: {
@@ -17,3 +17,19 @@ export default definePreset({
     dark: '.dark &, [data-theme="dark"] &',
   },
 })
+
+// Options shared by every app; an app only adds `globalCss` (or overrides `hash`) if it differs
+/** @type {import("@pandacss/dev").Config} */
+export const baseConfig = {
+  presets: [taxdomPreset],
+  preflight: false,
+  hash: true,
+  minify: true,
+  include: ["./src/**/*.{ts,tsx,js,jsx}"],
+  importMap: "@/panda",
+  outdir: "styled-system",
+  jsxStyleProps: "none",
+  jsxFramework: "react",
+}
+
+export default taxdomPreset

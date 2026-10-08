@@ -39,7 +39,7 @@ packages/ui/
 `pnpm --filter @taxdom/<app> exec panda codegen`. **Never edit it** — fixes belong in
 `packages/ui/theme/`.
 
-Shared across the three apps: `eject: true` (no Panda built-ins), `preflight: false`,
+Shared across the three apps (`baseConfig` in `preset.js`): `include: ./src/**/*.{ts,tsx,js,jsx}`, `preflight: false`,
 `jsxStyleProps: "none"` (no `syntax` option — object syntax is Panda's default), `jsxFramework: "react"`, `importMap: "@/panda"`.
 
 Hashing, however, **differs**:

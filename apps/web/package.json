@@ -34,7 +34,7 @@
     "zustand": "5.0.15"
   },
   "devDependencies": {
-    "@pandacss/dev": "1.12.1",
+    "@pandacss/dev": "2.1.2",
     "@tanstack/react-query-devtools": "5.104.1",
     "@taxdom/types": "workspace:*",
     "@taxdom/ui": "workspace:*",
