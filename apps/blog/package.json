@@ -11,22 +11,22 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@astrojs/markdown-satteri": "0.4.2",
-    "@astrojs/mdx": "8.0.2",
-    "@astrojs/react": "6.0.5",
+    "@astrojs/markdown-satteri": "0.4.4",
+    "@astrojs/mdx": "8.1.0",
+    "@astrojs/react": "7.1.0",
     "@astrojs/sitemap": "3.7.4",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "astro": "7.3.5",
+    "astro": "7.4.0",
     "date-fns": "4.4.0",
-    "motion": "14.0.0",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "motion": "14.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "@pandacss/dev": "2.1.2",
-    "@pandacss/vite": "2.1.2",
+    "@pandacss/dev": "2.2.0",
+    "@pandacss/vite": "2.2.0",
     "@taxdom/ui": "workspace:*"
   },
-  "packageManager": "pnpm@12.9.1"
+  "packageManager": "pnpm@12.14.0"
 }

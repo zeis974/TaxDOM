@@ -25,10 +25,10 @@
     "react-dom": ">=18"
   },
   "devDependencies": {
-    "@pandacss/dev": "2.1.2",
+    "@pandacss/dev": "2.2.0",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   }
 }
