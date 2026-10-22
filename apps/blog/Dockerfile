@@ -45,7 +45,8 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
 COPY --from=builder --chown=astrouser:nodejs /app/out/full/ .
 RUN pnpm rebuild
 COPY --chown=astrouser:nodejs turbo.json turbo.json
-RUN pnpm turbo run build
+RUN --mount=type=cache,id=turbo-blog,target=/app/.turbo/cache,uid=1001,gid=1001 \
+    pnpm turbo run build
 
 FROM base AS runner
 USER astrouser

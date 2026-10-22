@@ -45,7 +45,8 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
 COPY --from=builder --chown=nodeuser:nodejs /app/out/full/ .
 COPY --chown=nodeuser:nodejs turbo.json turbo.json
 
-RUN pnpm turbo run build
+RUN --mount=type=cache,id=turbo-api,target=/app/.turbo/cache,uid=1001,gid=1001 \
+    pnpm turbo run build
 
 # Deploy from the full workspace: pnpm resolves @taxdom/api's production dependencies from it
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \

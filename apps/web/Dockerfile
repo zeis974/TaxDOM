@@ -45,7 +45,11 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
 COPY --from=builder --chown=nextjs:nodejs /app/out/full/ .
 RUN pnpm rebuild
 COPY --chown=nextjs:nodejs turbo.json turbo.json
-RUN --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
+# Created as nextjs: otherwise BuildKit creates it as root to hold the .next/cache mount
+RUN mkdir -p apps/web/.next
+RUN --mount=type=cache,id=turbo-web,target=/app/.turbo/cache,uid=1001,gid=1001 \
+    --mount=type=cache,id=next-web,target=/app/apps/web/.next/cache,uid=1001,gid=1001 \
+    --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
     --mount=type=secret,id=NEXT_PUBLIC_API_URL,env=NEXT_PUBLIC_API_URL \
     pnpm turbo run build
 
