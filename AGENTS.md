@@ -27,8 +27,11 @@ pnpm lint:fix                  # biome check . --write
 
 # Per-app (run from package dir or via --filter)
 pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit
+pnpm --filter @taxdom/<pkg> test       # vitest run (api, web, dashboard, ui, types)
 
-# No test suite exists in this repo — don't assume `pnpm test` works anywhere.
+# Tests
+pnpm test                      # all Vitest unit tests via turbo
+pnpm test:e2e                  # Playwright e2e (apps/web), mocks the API — no DB needed
 
 # Database (from apps/api)
 pnpm db:push                   # push schema directly (dev)
@@ -63,6 +66,12 @@ tools/data/rita/               XML source data (excluded from biome, not from gi
 - **API routes are split:** `/v1/public/*` (API key middleware) and `/v1/admin/*` (session auth middleware). Route files live in `apps/api/app/routes/{public,admin}/`.
 - **Dashboard has its own `AGENTS.md`** with TanStack Router skill mappings — read it when working in `apps/dashboard/`.
 - **Biome excludes:** `.adonisjs`, `.next`, `data/`, `styled-system/`, `coverage`, `dist`.
+
+## Testing
+
+Unit tests use Vitest, e2e tests use Playwright. Before writing or modifying any test, read
+`docs/TESTING.md`. Playwright needs a browser once per machine:
+`pnpm --filter @taxdom/app exec playwright install chromium`.
 
 ## Design system
 
