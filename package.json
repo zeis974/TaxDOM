@@ -12,6 +12,8 @@
     "dev:db": "docker compose -f compose.dev.yml up -d --build db",
     "dev:web": "pnpm --filter @taxdom/app dev",
     "build": "turbo run build",
+    "test": "turbo run test",
+    "test:e2e": "turbo run test:e2e",
     "format": "biome format . --write",
     "lint": "biome check .",
     "lint:fix": "biome check . --write",
