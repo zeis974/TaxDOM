@@ -1,7 +1,7 @@
 "use client"
 
 import { mergeForm } from "@tanstack/react-form"
-import { initialFormState, useTransform } from "@tanstack/react-form-nextjs"
+import { useTransform } from "@tanstack/react-form-nextjs"
 import { useQuery } from "@tanstack/react-query"
 import { useActionState, useEffect, useRef } from "react"
 import { toast } from "sonner"
@@ -21,7 +21,13 @@ import ParcelSimulatorFormFields from "../ParcelSimulatorFormFields"
 import { Container } from "./ParcelSimulator.styled"
 
 export default function ParcelSimulator() {
-  const [state, action] = useActionState(calculateParcel, initialFormState)
+  const [state, action] = useActionState(calculateParcel, null)
+
+  // The action returns either the API result or, when server validation fails, a form state.
+  // Only the latter may be merged: mergeForm copies every key, and a state without values
+  // (like initialFormState) would wipe the form values.
+  const result = state && "taxes" in state ? state : null
+  const formState = state && !("taxes" in state) ? state : null
 
   const setHasResult = useParcelSimulatorStore((s) => s.setHasResult)
   const setResult = useParcelSimulatorStore((s) => s.setResult)
@@ -29,11 +35,10 @@ export default function ParcelSimulator() {
   const turnstileRef = useRef<TurnstileInstance>(null)
 
   useEffect(() => {
-    const errorMessage = state.errors?.[0]?.message
+    const errorMessage = formState?.errors?.[0]?.message
 
     if (errorMessage === "Too many requests") {
       setHasResult(true)
-      setResult(state)
     }
 
     if (errorMessage === "Please validate the captcha") {
@@ -42,16 +47,19 @@ export default function ParcelSimulator() {
       })
     }
 
-    if (state.taxes) {
+    if (result) {
       setHasResult(true)
-      setResult(state)
+      setResult(result)
       turnstileRef.current?.reset()
     }
-  }, [setHasResult, setResult, state])
+  }, [formState, result, setHasResult, setResult])
 
   const form = useAppForm({
     ...parcelFormOpts,
-    transform: useTransform((baseForm) => mergeForm(baseForm, state ?? {}), [state]),
+    transform: useTransform(
+      (baseForm) => (formState ? mergeForm(baseForm, formState) : baseForm),
+      [formState],
+    ),
     onSubmit: async ({ value }) => {
       if (value.products.length === 0) {
         toast.info("Veuillez ajouter au moins un produit")
