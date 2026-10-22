@@ -104,10 +104,6 @@ workspace dependency, `^transit` picks it up. `test:e2e` is not cached (`cache: 
   flows only through what the browser sees, or leave them out.
 - Select with accessible roles and labels (`getByRole("combobox", { name: "Origine" })`). If an
   element has no accessible name, fix the component rather than reaching for CSS selectors.
-- **Known bug:** under `next dev`, `/simulator` crashes on hydration (TanStack Form merges
-  `initialFormState.values === undefined`; StrictMode runs the layout effect twice).
-  `e2e/parcel-simulator.spec.ts` therefore runs with `test.use({ javaScriptEnabled: false })` and
-  only asserts the server-rendered markup. Turn JavaScript back on once the crash is fixed.
 
 ---
 
