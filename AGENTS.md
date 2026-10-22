@@ -74,6 +74,12 @@ Unit tests use Vitest, e2e tests use Playwright. Before writing or modifying any
 `docs/TESTING.md`. Playwright needs a browser once per machine:
 `pnpm --filter @taxdom/app exec playwright install chromium`.
 
+## CI & caching
+
+GitHub Actions (`.github/workflows/ci.yml`) and the Docker images both rely on Turborepo's cache.
+Before touching `.github/`, `turbo.json`, a Dockerfile or a script CI runs, read `docs/CI.md`: an
+undeclared build output or an unhashed bundle-time env var silently ships a wrong build.
+
 ## Design system
 
 All tokens live in `packages/ui/theme/`. Before writing or modifying any styles, read `docs/STYLING.md`.
