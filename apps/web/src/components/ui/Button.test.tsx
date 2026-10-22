@@ -21,3 +21,15 @@ it("forwards the type and event handlers", () => {
   expect(button).toHaveProperty("type", "submit")
   expect(onClick).toHaveBeenCalledOnce()
 })
+
+it("forwards extra html attributes through the spread", () => {
+  render(
+    <Button aria-label="Enregistrer le colis" aria-disabled="true" className="custom">
+      OK
+    </Button>,
+  )
+
+  const button = screen.getByRole("button", { name: "Enregistrer le colis" })
+  expect(button.getAttribute("aria-disabled")).toBe("true")
+  expect(button.className).toContain("custom")
+})
