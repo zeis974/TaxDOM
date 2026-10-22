@@ -16,11 +16,11 @@ RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
 USER nodeuser
 WORKDIR /app
 
-COPY --chown=nodeuser:nodejs . .
-
 USER root
 RUN pnpm add -g turbo@2.11.8
 USER nodeuser
+
+COPY --chown=nodeuser:nodejs . .
 RUN turbo prune @taxdom/api --docker
 
 FROM base AS installer
