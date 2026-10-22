@@ -40,7 +40,7 @@ COPY --from=builder --chown=dashuser:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.
 # --ignore-scripts: the `prepare` hooks (panda codegen) need the sources, which are only
 # copied below. Codegen runs as the turbo `codegen` task during the build.
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm install --prefer-offline --ignore-scripts
+    pnpm install --prefer-offline --store-dir=/pnpm/store --ignore-scripts
 
 COPY --from=builder --chown=dashuser:nodejs /app/out/full/ .
 RUN pnpm rebuild

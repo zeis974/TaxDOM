@@ -40,7 +40,7 @@ COPY --from=builder --chown=nextjs:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.ya
 # --ignore-scripts: `prepare` (panda codegen) needs the sources, copied after the install.
 # Codegen runs as the turbo `codegen` task during the build.
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm install --prefer-offline --ignore-scripts
+    pnpm install --prefer-offline --store-dir=/pnpm/store --ignore-scripts
 
 COPY --from=builder --chown=nextjs:nodejs /app/out/full/ .
 RUN pnpm rebuild

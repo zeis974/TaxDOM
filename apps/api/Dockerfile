@@ -40,7 +40,7 @@ COPY --from=builder --chown=nodeuser:nodejs /app/out/json/ .
 COPY --from=builder --chown=nodeuser:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm install --prefer-offline
+    pnpm install --prefer-offline --store-dir=/pnpm/store
 
 COPY --from=builder --chown=nodeuser:nodejs /app/out/full/ .
 COPY --chown=nodeuser:nodejs turbo.json turbo.json
@@ -49,7 +49,7 @@ RUN pnpm turbo run build
 
 # Deploy from the full workspace: pnpm resolves @taxdom/api's production dependencies from it
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm --filter=@taxdom/api deploy --prod /app/deploy
+    pnpm --filter=@taxdom/api deploy --prod --store-dir=/pnpm/store /app/deploy
 
 FROM base AS runner
 USER nodeuser
