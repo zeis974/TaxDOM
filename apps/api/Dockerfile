@@ -47,16 +47,9 @@ COPY --chown=nodeuser:nodejs turbo.json turbo.json
 
 RUN pnpm turbo run build
 
-FROM base AS deploy
-USER nodeuser
-WORKDIR /app
-
-COPY --from=installer --chown=nodeuser:nodejs /app/pnpm-lock.yaml ./pnpm-lock.yaml
-COPY --from=installer --chown=nodeuser:nodejs /app/package.json ./package.json
-COPY --from=installer --chown=nodeuser:nodejs /app/pnpm-workspace.yaml ./pnpm-workspace.yaml
-COPY --from=installer --chown=nodeuser:nodejs /app/apps/api/build ./
-
-RUN pnpm --filter=@taxdom/api deploy --prod ./output
+# Deploy from the full workspace: pnpm resolves @taxdom/api's production dependencies from it
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
+    pnpm --filter=@taxdom/api deploy --prod /app/deploy
 
 FROM base AS runner
 USER nodeuser
@@ -66,7 +59,8 @@ ENV NODE_ENV=production
 ENV TURBO_TELEMETRY_DISABLED=1
 ENV DO_NOT_TRACK=1
 
-COPY --from=deploy --chown=nodeuser:nodejs /app/output ./
+COPY --from=installer --chown=nodeuser:nodejs /app/deploy/node_modules ./node_modules
+COPY --from=installer --chown=nodeuser:nodejs /app/apps/api/build ./
 
 EXPOSE 3333
 
