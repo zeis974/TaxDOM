@@ -3,6 +3,7 @@ import logger from "@adonisjs/core/services/logger"
 import type { NextFn } from "@adonisjs/core/types/http"
 
 import { auth } from "#config/auth"
+import type { AuthenticatedUser } from "#types/http"
 
 export default class Auth {
   async handle(ctx: HttpContext, next: NextFn) {
@@ -35,11 +36,12 @@ export default class Auth {
       return response.status(403).json({ error: "Admin access required" })
     }
 
-    ctx.authenticatedUser = {
+    const user: AuthenticatedUser = {
       id: session.user.id,
       email: session.user.email,
       role: session.user.role ?? null,
     }
+    ctx.authenticatedUser = user
 
     return next()
   }
