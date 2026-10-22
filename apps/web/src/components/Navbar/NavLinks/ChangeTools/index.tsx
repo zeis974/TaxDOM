@@ -1,6 +1,7 @@
-import type { JSX } from "react"
 import { easeOut } from "motion/react"
+import type { Route } from "next"
 import Link from "next/link"
+import type { JSX } from "react"
 
 import { CardContainer, Container } from "./ChangeTools.styled"
 
@@ -10,7 +11,7 @@ type Tools = {
   name: string
   description: string
   icon: JSX.Element
-  slug: string
+  slug: Route
   disabled?: boolean
 }
 

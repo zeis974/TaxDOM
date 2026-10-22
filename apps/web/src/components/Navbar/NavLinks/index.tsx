@@ -2,7 +2,6 @@
 
 import { AnimatePresence } from "motion/react"
 import { Fragment, useRef, useState, type JSX } from "react"
-import Link from "next/link"
 
 import { Backdrop, Container } from "./NavLinks.styled"
 import { ChevronIcon } from "@/components/Icons"
@@ -42,7 +41,8 @@ export default function NavLinks() {
       {links.map((link) => (
         <Fragment key={link.name}>
           {link.href ? (
-            <Link href={link.href}>{link.name}</Link>
+            // /blog is served by the Astro app: a plain anchor forces a full page load
+            <a href={link.href}>{link.name}</a>
           ) : (
             <>
               {link.showChangeTools ? (
