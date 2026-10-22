@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest"
-import { getCountryFlag, normalizeCountryName } from "./countryFlags"
+import { getCountryFlag, normalizeCountryName } from "./countryFlags.ts"
 
 describe("normalizeCountryName", () => {
   it("strips accents, separators and case", () => {
