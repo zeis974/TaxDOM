@@ -1,5 +1,5 @@
 import { fileURLToPath } from "node:url"
-import { describe, expect, it } from "vitest"
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest"
 import { parseChapterXml } from "#services/RitaXmlParser"
 
 const fixture = (name: string) => fileURLToPath(new URL(`./fixtures/${name}`, import.meta.url))
@@ -9,7 +9,8 @@ describe("parseChapterXml", () => {
   const byCode = new Map(rows.map((row) => [row.code, row]))
 
   it("reads the table date as validAt", () => {
-    expect(rows.every((row) => row.validAt === "2026-05-29")).toBe(true)
+    expect(rows).not.toHaveLength(0)
+    expect(new Set(rows.map((row) => row.validAt))).toEqual(new Set(["2026-05-29"]))
   })
 
   it("roots the tree on the first row", () => {
@@ -46,4 +47,27 @@ describe("parseChapterXml", () => {
 
   // fast-xml-parser turns "0100000000" into the number 100000000 (parseTagValue: true)
   it.todo("keeps the leading zero of chapters 01 to 09 codes")
+
+  describe("without a usable table date", () => {
+    beforeEach(() => {
+      vi.useFakeTimers()
+      vi.setSystemTime(new Date("2026-01-02T03:04:05Z"))
+    })
+
+    afterEach(() => {
+      vi.useRealTimers()
+    })
+
+    it("falls back to today when the table date is missing", () => {
+      const dated = parseChapterXml(fixture("chapter_99_without_date.xml"), 99)
+      expect(dated).not.toHaveLength(0)
+      expect(new Set(dated.map((row) => row.validAt))).toEqual(new Set(["2026-01-02"]))
+    })
+
+    it("falls back to today when the table date is malformed", () => {
+      const dated = parseChapterXml(fixture("chapter_99_malformed_date.xml"), 99)
+      expect(dated).not.toHaveLength(0)
+      expect(new Set(dated.map((row) => row.validAt))).toEqual(new Set(["2026-01-02"]))
+    })
+  })
 })
