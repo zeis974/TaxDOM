@@ -11,7 +11,8 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  reporter: process.env.CI ? "github" : "list",
+  // The HTML report is uploaded as a CI artifact when a run fails
+  reporter: process.env.CI ? [["github"], ["html", { open: "never" }]] : "list",
   // `next dev` compiles a route on its first visit, which can take a while when
   // several workers hit a cold server at once.
   timeout: 60_000,
