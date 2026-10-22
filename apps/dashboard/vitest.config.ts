@@ -5,4 +5,7 @@ export default defineConfig({
   resolve: {
     tsconfigPaths: true,
   },
+  test: {
+    include: ["src/**/*.test.{ts,tsx}"],
+  },
 })
