@@ -18,6 +18,11 @@ describe("getCountryFlag", () => {
     expect(getCountryFlag("PAYS BAS")).toBe("nl")
   })
 
+  it("treats straight and typographic apostrophes alike", () => {
+    expect(getCountryFlag("CÔTE D'IVOIRE")).toBe("ci")
+    expect(getCountryFlag("CÔTE D’IVOIRE")).toBe("ci")
+  })
+
   it("returns undefined for unmapped countries", () => {
     expect(getCountryFlag("ATLANTIDE")).toBeUndefined()
   })
