@@ -19,7 +19,7 @@ WORKDIR /app
 COPY --chown=nodeuser:nodejs . .
 
 USER root
-RUN pnpm add -g turbo@2.11.4
+RUN pnpm add -g turbo@2.11.8
 USER nodeuser
 RUN turbo prune @taxdom/api --docker
 
