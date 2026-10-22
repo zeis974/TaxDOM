@@ -1,4 +1,4 @@
-export * from "./countryFlags"
+export * from "./countryFlags.ts"
 
 export type Origin = {
   originID: string
