@@ -19,8 +19,8 @@
       "passThroughEnv": ["CI"]
     },
     "test:e2e": {
-      "dependsOn": ["codegen"],
-      "cache": false,
+      "dependsOn": ["codegen", "transit"],
+      "outputs": [],
       "passThroughEnv": ["CI"]
     },
     "dev": {
