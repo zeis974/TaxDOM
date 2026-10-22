@@ -65,7 +65,9 @@ The `test` task depends on `codegen` and `transit`. `transit` does no work of it
 `transit: { dependsOn: ["^transit"] }` only carries the hash of every internal workspace dependency,
 so editing `packages/ui` or `packages/types` invalidates the unit-test cache of the apps that import
 them instead of replaying a stale result. A new internal package needs nothing extra: once it is a
-workspace dependency, `^transit` picks it up. `test:e2e` is not cached (`cache: false`).
+workspace dependency, `^transit` picks it up. `test:e2e` is cached the same way: it is
+deterministic because the API is mocked (§4), so an unchanged web app replays its last result. Run
+`pnpm test:e2e --force` to execute it regardless.
 
 ---
 
@@ -111,7 +113,7 @@ workspace dependency, `^transit` picks it up. `test:e2e` is not cached (`cache: 
 
 ```bash
 pnpm test                                   # all unit tests (turbo, cached)
-pnpm test:e2e                               # all e2e suites (turbo, not cached)
+pnpm test:e2e                               # all e2e suites (turbo, cached)
 
 pnpm --filter @taxdom/<pkg> test            # one package
 pnpm --filter @taxdom/<pkg> test:watch      # watch mode
