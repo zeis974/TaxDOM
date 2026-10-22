@@ -76,7 +76,7 @@ export type Category = {
   taxID: string
   relatedProducts: number
   nomenclatureCode?: string | null
-  taxes?: {
+  tax?: {
     tva: number
     om: number
     omr: number
