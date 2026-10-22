@@ -11,7 +11,8 @@
 
 ```bash
 # Infrastructure (required before API)
-pnpm dev:db                    # Postgres 5432, Redis 6379
+pnpm dev:db                    # Postgres on 5432 — Redis (6379) is NOT started by this;
+                               # add it with `docker compose -f compose.dev.yml up -d redis`
 
 # Dev servers (run individually or all at once)
 pnpm dev                       # all apps via turbo
@@ -22,11 +23,11 @@ pnpm dev:blog                  # Astro blog
 
 pnpm build                     # all apps via turbo
 pnpm format                    # biome format . --write (whole repo)
-pnpm lint                      # biome check . (cached via `turbo run //#lint`)
+pnpm lint                      # biome check . — uncached; `turbo run //#lint` runs this same script
 pnpm lint:fix                  # biome check . --write
 
 # Per-app (run from package dir or via --filter)
-pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit
+pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit (apps only: api, web, dashboard, blog)
 pnpm --filter @taxdom/<pkg> test       # vitest run (api, web, dashboard, ui, types)
 
 # Tests
