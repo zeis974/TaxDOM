@@ -29,7 +29,7 @@ export default function NavLinks() {
     },
   ]
 
-  const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
+  const handlePointerLeave = (e: React.PointerEvent<HTMLDivElement>) => {
     if (!navRef.current?.contains(e.relatedTarget as Node | null)) {
       setShow(false)
     }
@@ -48,8 +48,8 @@ export default function NavLinks() {
                 <>
                   <div
                     ref={navRef}
-                    onMouseEnter={() => setShow(true)}
-                    onMouseLeave={handleMouseLeave}
+                    onPointerEnter={() => setShow(true)}
+                    onPointerLeave={handlePointerLeave}
                   >
                     <span>
                       {link.name} {link.icons}
