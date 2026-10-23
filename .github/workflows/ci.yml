@@ -39,8 +39,11 @@ jobs:
         run: pnpm exec biome ci --changed --since="$SINCE" --no-errors-on-unmatched
 
       # The dashboard is excluded until its pre-existing type errors are fixed
-      - name: Typecheck and unit tests
-        run: pnpm exec turbo run typecheck test $AFFECTED --filter='!@taxdom/dashboard'
+      - name: Typecheck
+        run: pnpm exec turbo run typecheck $AFFECTED --filter='!@taxdom/dashboard'
+
+      - name: Unit tests
+        run: pnpm exec turbo run test $AFFECTED
 
   e2e:
     name: End-to-end tests
