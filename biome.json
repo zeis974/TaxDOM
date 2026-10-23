@@ -62,7 +62,10 @@
       "!!**/dist",
       "!**/coverage",
       "!**/styled-system/",
-      "!**/routeTree.gen.ts"
+      "!**/routeTree.gen.ts",
+      "!**/.agents",
+      "!**/*.md",
+      "!**/pnpm-lock.yaml"
     ]
   },
   "overrides": [
