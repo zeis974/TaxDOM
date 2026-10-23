@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node bin/server.js",
-    "build": "node ace build",
+    "build": "node ace build --tsconfig=tsconfig.build.json",
     "dev": "node ace serve --hmr",
     "typecheck": "tsc --noEmit",
     "db:generate": "drizzle-kit generate && pnpm dlx auth generate --config config/auth.ts --output database/auth-schema.ts --y",
