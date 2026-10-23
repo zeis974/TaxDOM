@@ -17,7 +17,8 @@ const DATA_DIR =
 
 const parser = new XMLParser({
   ignoreAttributes: false,
-  parseTagValue: true,
+  // Keeps codes as strings: parsing them as numbers drops the leading zero of chapters 01 to 09
+  parseTagValue: false,
   trimValues: true,
 })
 

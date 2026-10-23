@@ -45,8 +45,12 @@ describe("parseChapterXml", () => {
     expect(parseChapterXml(fixture("chapter_77.xml"), 77)).toEqual([])
   })
 
-  // fast-xml-parser turns "0100000000" into the number 100000000 (parseTagValue: true)
-  it.todo("keeps the leading zero of chapters 01 to 09 codes")
+  it("keeps the leading zero of chapters 01 to 09 codes", () => {
+    expect(parseChapterXml(fixture("chapter_01.xml"), 1)).toMatchObject([
+      { code: "0100000000", parentCode: null },
+      { code: "0101000000", parentCode: "0100000000" },
+    ])
+  })
 
   describe("without a usable table date", () => {
     beforeEach(() => {
