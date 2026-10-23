@@ -1,8 +1,7 @@
 import { formOptions } from "@tanstack/react-form-nextjs"
 import { z } from "zod"
-
-import { TaxSimulatorFormSchema } from "@/components/services/ProductTaxesSimulator/types"
 import { ParcelSimulatorSchema } from "@/components/services/ParcelSimulator/types"
+import { TaxSimulatorFormSchema } from "@/components/services/ProductTaxesSimulator/types"
 
 // Client-side schemas: form values are already typed (numbers, booleans) — no coercion needed.
 // Captcha validated separately (no .min(1) constraint here).

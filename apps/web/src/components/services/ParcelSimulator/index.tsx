@@ -1,8 +1,7 @@
-import { styled } from "@/panda/jsx"
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query"
-
 import { getQueryClient } from "@/lib/getQueryClient"
 import { templatesQueryOptions } from "@/lib/queries/templates"
+import { styled } from "@/panda/jsx"
 
 import ParcelSimulatorForm from "./ParcelSimulatorForm"
 

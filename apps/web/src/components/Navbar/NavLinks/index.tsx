@@ -1,11 +1,10 @@
 "use client"
 
 import { AnimatePresence } from "motion/react"
-import { Fragment, useRef, useState, type JSX } from "react"
-
-import { Backdrop, Container } from "./NavLinks.styled"
+import { Fragment, type JSX, useRef, useState } from "react"
 import { ChevronIcon } from "@/components/Icons"
 import ChangeTools from "@/components/Navbar/NavLinks/ChangeTools"
+import { Backdrop, Container } from "./NavLinks.styled"
 
 type NavTypes = {
   name: string

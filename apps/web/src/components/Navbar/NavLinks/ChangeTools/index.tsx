@@ -2,10 +2,8 @@ import { easeOut } from "motion/react"
 import type { Route } from "next"
 import Link from "next/link"
 import type { JSX } from "react"
-
-import { CardContainer, Container } from "./ChangeTools.styled"
-
 import { MagicIcon, ParcelIcon, TaxIcon } from "@/components/Icons"
+import { CardContainer, Container } from "./ChangeTools.styled"
 
 type Tools = {
   name: string
