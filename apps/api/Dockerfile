@@ -48,7 +48,19 @@ COPY --chown=nodeuser:nodejs turbo.json turbo.json
 RUN --mount=type=cache,id=turbo-api,target=/app/.turbo/cache,uid=1001,gid=1001 \
     pnpm turbo run build
 
-# Deploy from the full workspace: pnpm resolves @taxdom/api's production dependencies from it
+# Production dependencies only depend on the manifests and the lockfile, not on the sources:
+# a code-only change reuses this stage and the runner's node_modules layer
+FROM base AS prod-deps
+USER nodeuser
+WORKDIR /app
+
+ENV HUSKY=0
+ENV PNPM_INJECT_WORKSPACE_PACKAGES=true
+ENV NODE_ENV=production
+
+COPY --from=builder --chown=nodeuser:nodejs /app/out/json/ .
+COPY --from=builder --chown=nodeuser:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
+
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
     pnpm --filter=@taxdom/api deploy --prod --store-dir=/pnpm/store /app/deploy
 
@@ -60,7 +72,7 @@ ENV NODE_ENV=production
 ENV TURBO_TELEMETRY_DISABLED=1
 ENV DO_NOT_TRACK=1
 
-COPY --from=installer --chown=nodeuser:nodejs /app/deploy/node_modules ./node_modules
+COPY --from=prod-deps --chown=nodeuser:nodejs /app/deploy/node_modules ./node_modules
 COPY --from=installer --chown=nodeuser:nodejs /app/apps/api/build ./
 
 EXPOSE 3333
