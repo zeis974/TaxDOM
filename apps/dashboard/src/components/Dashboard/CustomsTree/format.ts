@@ -3,7 +3,9 @@
  * "0102000000" → "01.02"   "8501100000" → "85.01.10"
  */
 export function formatHsCode(code: string): string {
-  const trimmed = code.replace(/0+$/, "") || code.slice(0, 2)
+  const significant = code.replace(/0+$/, "")
+  // Trimming can eat the second digit of a pair ("8501100000" → "85011"): pad it back
+  const trimmed = significant.padEnd(Math.max(2, Math.ceil(significant.length / 2) * 2), "0")
   const pairs = trimmed.match(/.{1,2}/g) ?? [code.slice(0, 2)]
   return pairs.join(".")
 }

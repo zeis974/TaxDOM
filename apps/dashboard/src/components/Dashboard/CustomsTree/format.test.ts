@@ -11,8 +11,12 @@ describe("formatHsCode", () => {
     expect(formatHsCode("0000000000")).toBe("00")
   })
 
-  // The trailing-zero trim currently yields "85.01.1" instead of the documented "85.01.10".
-  it.todo("formats 8501100000 as 85.01.10 as documented")
+  it("keeps the trailing zero of a digit pair", () => {
+    expect(formatHsCode("8501100000")).toBe("85.01.10")
+    expect(formatHsCode("1000000000")).toBe("10")
+    expect(formatHsCode("8510000000")).toBe("85.10")
+    expect(formatHsCode("8501209000")).toBe("85.01.20.90")
+  })
 })
 
 describe("toSentenceCase", () => {
