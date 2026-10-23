@@ -27,7 +27,7 @@ pnpm lint                      # biome check . — uncached; `turbo run //#lint`
 pnpm lint:fix                  # biome check . --write
 
 # Per-app (run from package dir or via --filter)
-pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit (apps only: api, web, dashboard, blog)
+pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit (api, web, dashboard, blog, ui, types)
 pnpm --filter @taxdom/<pkg> test       # vitest run (api, web, dashboard, ui, types)
 
 # Tests
