@@ -27,7 +27,7 @@ export default function NavLinks() {
     },
   ]
 
-  const handlePointerLeave = (e: React.PointerEvent<HTMLDivElement>) => {
+  const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!navRef.current?.contains(e.relatedTarget as Node | null)) {
       setShow(false)
     }
@@ -43,10 +43,11 @@ export default function NavLinks() {
             <>
               {link.showChangeTools ? (
                 <>
+                  {/* biome-ignore lint/a11y/noStaticElementInteractions: hover-only menu, keyboard access still missing */}
                   <div
                     ref={navRef}
-                    onPointerEnter={() => setShow(true)}
-                    onPointerLeave={handlePointerLeave}
+                    onMouseEnter={() => setShow(true)}
+                    onMouseLeave={handleMouseLeave}
                   >
                     <span>
                       {link.name} {link.icons}
