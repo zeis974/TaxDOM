@@ -12,7 +12,8 @@ const corsConfig = defineConfig({
   origin: [env.get("TRUSTED_APP_ORIGIN_URL"), env.get("TRUSTED_DASHBOARD_ORIGIN_URL")],
   methods: ["GET", "HEAD", "POST", "PUT", "DELETE", "OPTIONS"],
   headers: true,
-  exposeHeaders: [],
+  // Let browser calls read how long to wait once they hit a 429.
+  exposeHeaders: ["Retry-After", "X-RateLimit-Remaining"],
   credentials: true,
   maxAge: 90,
 })
