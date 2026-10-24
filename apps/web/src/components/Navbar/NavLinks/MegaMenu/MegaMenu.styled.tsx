@@ -3,114 +3,124 @@ import { styled } from "@/panda/jsx"
 
 export const Panel = styled(m.div, {
   base: {
-    position: "fixed",
-    top: "{sizes.navbarHeight}",
-    left: "0",
-    right: "0",
-    zIndex: "3",
-    background: "{colors.background}",
-    borderBottom: "1px solid {colors.border}",
-    boxShadow: "0 12px 32px {colors.shadow}",
-  },
-})
-
-export const Body = styled("div", {
-  base: {
-    display: "flex",
-    gap: "{spacing.lg}",
-    padding: "{spacing.lg} {spacing.xl}",
-    "@media (width < 1024px)": {
-      flexDirection: "column",
-    },
-  },
-})
-
-export const Grid = styled("div", {
-  base: {
-    flex: "1",
+    position: "absolute",
+    top: "calc(100% + {spacing.s12})",
+    left: "calc({spacing.xl} * -2)",
     display: "grid",
-    gridTemplateColumns: "repeat(3, 1fr)",
-    gap: "{spacing.sm}",
-    alignContent: "start",
-    "& > a": {
-      borderRadius: "{radii.lg}",
-      "&:focus-visible": {
-        outline: "2px solid {colors.primary}",
-        outlineOffset: "2px",
-      },
+    gridTemplateColumns: "1fr 1fr",
+    gap: "{spacing.md}",
+    width: "min(880px, calc(100vw - {spacing.xl}))",
+    padding: "{spacing.md}",
+    color: "{colors.foreground}",
+    background: "{colors.background}",
+    border: "1px solid color-mix(in srgb, {colors.border} 30%, transparent)",
+    borderRadius: "{radii.lg}",
+    boxShadow: "0 32px 64px -24px {colors.shadow}, 0 8px 24px -8px {colors.shadow}",
+    // Hover bridge over the gap so the pointer can reach the panel without leaving the trigger
+    "&::before": {
+      content: '""',
+      position: "absolute",
+      insetInline: "0",
+      bottom: "100%",
+      height: "{spacing.s12}",
+    },
+    // Caret pointing at the trigger
+    "&::after": {
+      content: '""',
+      position: "absolute",
+      top: "calc({spacing.s12} / -2)",
+      left: "calc({spacing.xl} * 2 + {spacing.lg})",
+      width: "{spacing.s12}",
+      height: "{spacing.s12}",
+      background: "{colors.background}",
+      borderTop: "1px solid color-mix(in srgb, {colors.border} 30%, transparent)",
+      borderLeft: "1px solid color-mix(in srgb, {colors.border} 30%, transparent)",
+      rotate: "45deg",
     },
     "@media (width < 768px)": {
+      position: "fixed",
+      top: "{sizes.navbarHeight}",
+      left: "{spacing.md}",
+      right: "{spacing.md}",
+      width: "auto",
       gridTemplateColumns: "1fr",
+      "&::after": {
+        display: "none",
+      },
     },
   },
 })
 
-export const Card = styled("div", {
+export const List = styled("ul", {
   base: {
     display: "flex",
-    alignItems: "flex-start",
-    gap: "{spacing.md}",
-    height: "100%",
-    padding: "{spacing.md}",
-    border: "1px solid transparent",
-    borderRadius: "{radii.lg}",
-    color: "{colors.foreground}",
-    transition: "background 150ms, border-color 150ms",
-    '&[data-active="true"]': {
-      background: "color-mix(in srgb, {colors.primary} 8%, {colors.elevated})",
-      borderColor: "{colors.border}",
+    flexDirection: "column",
+    gap: "{spacing.xs}",
+    listStyle: "none",
+  },
+})
+
+export const ToolRow = styled("li", {
+  base: {
+    "& > a, & > button": {
+      display: "grid",
+      gridTemplateColumns: "auto 1fr auto",
+      alignItems: "center",
+      gap: "{spacing.md}",
+      width: "100%",
+      padding: "{spacing.s12}",
+      border: "none",
+      borderRadius: "{radii.lg}",
+      background: "none",
+      color: "{colors.foreground}",
+      font: "inherit",
+      textAlign: "left",
+      textDecoration: "none",
+      cursor: "pointer",
+      transition: "background 150ms",
+      "&:focus-visible": {
+        outline: "2px solid {colors.primary}",
+        outlineOffset: "-2px",
+      },
     },
-    '&[aria-disabled="true"]': {
-      opacity: "0.45",
-      pointerEvents: "none",
+    // Upcoming tools: muted name and desaturated icon
+    "& > button": {
+      cursor: "default",
+      color: "{colors.textMuted}",
+      "& > div:first-child": {
+        filter: "grayscale(1)",
+        opacity: "0.5",
+      },
+    },
+    '&[data-active="true"] > a, &[data-active="true"] > button': {
+      background: "{colors.elevated}",
+    },
+    '&[data-active="true"] > a > span:last-child': {
+      opacity: "1",
+      translate: "0",
     },
   },
 })
 
-export const CardIcon = styled("div", {
+export const ToolIcon = styled("div", {
   base: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
+    display: "grid",
     flexShrink: "0",
-    width: "48px",
-    height: "48px",
-    borderRadius: "{radii.lg}",
-    background: "{colors.elevated}",
     "& svg": {
-      width: "30px",
-      height: "30px",
+      width: "48px",
+      height: "48px",
     },
   },
 })
 
-export const CardTitle = styled("h3", {
+export const ToolName = styled("h3", {
   base: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
-    gap: "{spacing.sm}",
     fontSize: "{fontSizes.body-md}",
     fontWeight: "600",
   },
 })
 
-export const CardTitleIcon = styled("span", {
-  base: {
-    display: "grid",
-    flexShrink: "0",
-    color: "{colors.textMuted}",
-    opacity: "0",
-    rotate: "-90deg",
-    transition: "opacity 150ms, rotate 150ms",
-    '&[data-active="true"]': {
-      opacity: "1",
-      rotate: "0deg",
-    },
-  },
-})
-
-export const CardDescription = styled("p", {
+export const ToolSummary = styled("p", {
   base: {
     marginTop: "{spacing.xs}",
     color: "{colors.textMuted}",
@@ -118,44 +128,73 @@ export const CardDescription = styled("p", {
   },
 })
 
-export const PromoPanel = styled("div", {
+export const ToolArrow = styled("span", {
   base: {
-    display: "flex",
-    flexDirection: "column",
-    flexShrink: "0",
-    width: "300px",
-    minHeight: "240px",
-    padding: "{spacing.lg}",
-    border: "1px solid {colors.border}",
-    borderRadius: "{radii.lg}",
-    background: "color-mix(in srgb, {colors.primary} 12%, {colors.elevated})",
-    color: "{colors.foreground}",
+    display: "grid",
+    color: "{colors.primary}",
+    opacity: "0",
+    translate: "calc({spacing.xs} * -1) 0",
+    transition: "opacity 150ms, translate 150ms",
+  },
+})
+
+export const Preview = styled("div", {
+  base: {
+    position: "relative",
+    display: "grid",
+    minHeight: "360px",
     overflow: "hidden",
-    "@media (width < 1024px)": {
+    borderRadius: "{radii.lg}",
+    background: "{colors.elevated}",
+    "@media (width < 768px)": {
       display: "none",
     },
   },
 })
 
-export const PromoContent = styled(m.div, {
+export const PreviewContent = styled(m.div, {
   base: {
-    flex: "1",
     display: "flex",
     flexDirection: "column",
-    alignItems: "flex-start",
-    justifyContent: "space-between",
-    width: "100%",
-    "& > div svg": {
-      width: "96px",
-      height: "96px",
-    },
+    gap: "{spacing.sm}",
+    padding: "{spacing.lg}",
   },
 })
 
-export const PromoName = styled("p", {
+export const PreviewHeader = styled("div", {
   base: {
-    maxWidth: "14ch",
-    fontSize: "{fontSizes.headline-lg}",
+    display: "flex",
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+    gap: "{spacing.md}",
+  },
+})
+
+export const PreviewName = styled("p", {
+  base: {
+    fontSize: "{fontSizes.headline-md}",
+    fontWeight: "700",
+  },
+})
+
+export const PreviewDescription = styled("p", {
+  base: {
+    maxWidth: "32ch",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.body-sm}",
+    lineHeight: "1.5",
+  },
+})
+
+export const Badge = styled("span", {
+  base: {
+    flexShrink: "0",
+    padding: "{spacing.xs} {spacing.sm}",
+    border: "1px solid color-mix(in srgb, {colors.border} 40%, transparent)",
+    borderRadius: "{radii.full}",
+    background: "{colors.background}",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.label-md}",
     fontWeight: "600",
   },
 })
