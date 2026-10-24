@@ -1,12 +1,10 @@
 "use client"
 
 import { AnimatePresence } from "motion/react"
-import { Fragment, useRef, useState, type JSX } from "react"
-import Link from "next/link"
-
-import { Backdrop, Container } from "./NavLinks.styled"
+import { Fragment, type JSX, useRef, useState } from "react"
 import { ChevronIcon } from "@/components/Icons"
 import ChangeTools from "@/components/Navbar/NavLinks/ChangeTools"
+import { Backdrop, Container } from "./NavLinks.styled"
 
 type NavTypes = {
   name: string
@@ -42,11 +40,13 @@ export default function NavLinks() {
       {links.map((link) => (
         <Fragment key={link.name}>
           {link.href ? (
-            <Link href={link.href}>{link.name}</Link>
+            // /blog is served by the Astro app: a plain anchor forces a full page load
+            <a href={link.href}>{link.name}</a>
           ) : (
             <>
               {link.showChangeTools ? (
                 <>
+                  {/* biome-ignore lint/a11y/noStaticElementInteractions: hover-only menu, keyboard access still missing */}
                   <div
                     ref={navRef}
                     onMouseEnter={() => setShow(true)}

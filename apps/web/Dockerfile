@@ -17,7 +17,7 @@ USER nextjs
 WORKDIR /app
 
 USER root
-RUN pnpm add -g turbo@2.11.4
+RUN pnpm add -g turbo@2.11.8
 USER nextjs
 
 COPY --chown=nextjs:nodejs . .
@@ -40,12 +40,16 @@ COPY --from=builder --chown=nextjs:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.ya
 # --ignore-scripts: `prepare` (panda codegen) needs the sources, copied after the install.
 # Codegen runs as the turbo `codegen` task during the build.
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm install --prefer-offline --ignore-scripts
+    pnpm install --prefer-offline --store-dir=/pnpm/store --ignore-scripts
 
 COPY --from=builder --chown=nextjs:nodejs /app/out/full/ .
 RUN pnpm rebuild
 COPY --chown=nextjs:nodejs turbo.json turbo.json
-RUN --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
+# Created as nextjs: otherwise BuildKit creates it as root to hold the .next/cache mount
+RUN mkdir -p apps/web/.next
+RUN --mount=type=cache,id=turbo-web,target=/app/.turbo/cache,uid=1001,gid=1001 \
+    --mount=type=cache,id=next-web,target=/app/apps/web/.next/cache,uid=1001,gid=1001 \
+    --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
     --mount=type=secret,id=NEXT_PUBLIC_API_URL,env=NEXT_PUBLIC_API_URL \
     pnpm turbo run build
 
@@ -65,7 +69,6 @@ COPY --from=installer --chown=nextjs:nodejs /app/apps/web/next.config.ts .
 # https://nextjs.org/docs/advanced-features/output-file-tracing
 COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/standalone ./
 COPY --from=installer --chown=nextjs:nodejs /app/apps/web/.next/static ./apps/web/.next/static
-COPY --from=installer --chown=nextjs:nodejs /app/apps/web/public ./apps/web/public
 
 EXPOSE 3000
 

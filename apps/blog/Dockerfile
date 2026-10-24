@@ -17,7 +17,7 @@ USER astrouser
 WORKDIR /app
 
 USER root
-RUN pnpm add -g turbo@2.11.4
+RUN pnpm add -g turbo@2.11.8
 USER astrouser
 
 COPY --chown=astrouser:nodejs . .
@@ -40,12 +40,13 @@ COPY --from=builder --chown=astrouser:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock
 # --ignore-scripts: `prepare` (panda codegen) needs the sources, copied after the install.
 # Codegen runs as the turbo `codegen` task during the build.
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm install --prefer-offline --ignore-scripts
+    pnpm install --prefer-offline --store-dir=/pnpm/store --ignore-scripts
 
 COPY --from=builder --chown=astrouser:nodejs /app/out/full/ .
 RUN pnpm rebuild
 COPY --chown=astrouser:nodejs turbo.json turbo.json
-RUN pnpm turbo run build
+RUN --mount=type=cache,id=turbo-blog,target=/app/.turbo/cache,uid=1001,gid=1001 \
+    pnpm turbo run build
 
 FROM base AS runner
 USER astrouser

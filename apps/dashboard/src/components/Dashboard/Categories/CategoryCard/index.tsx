@@ -97,7 +97,7 @@ export default function CategoryCard({ category, editable = false }: Props) {
           )
         }
       >
-        {category.taxes && <TaxBar taxes={category.taxes} />}
+        {category.tax && <TaxBar taxes={category.tax} />}
       </EntityCard>
 
       {editable && (
@@ -112,9 +112,9 @@ export default function CategoryCard({ category, editable = false }: Props) {
                 {relatedProducts} produit{relatedProducts !== 1 ? "s" : ""} lié
                 {relatedProducts !== 1 ? "s" : ""}
               </span>
-              {category.taxes && (
+              {category.tax && (
                 <span>
-                  TVA {category.taxes.tva}% / OM {category.taxes.om}% / OMR {category.taxes.omr}%
+                  TVA {category.tax.tva}% / OM {category.tax.om}% / OMR {category.tax.omr}%
                 </span>
               )}
             </>
@@ -159,13 +159,13 @@ export default function CategoryCard({ category, editable = false }: Props) {
             </FormGrid>
           </DrawerSection>
 
-          {category.taxes && (
+          {category.tax && (
             <DrawerSection>
               <DrawerSectionTitle>Fiscalité</DrawerSectionTitle>
               <DrawerSectionDescription>
                 Barème de taxes associé à cette catégorie.
               </DrawerSectionDescription>
-              <TaxBar taxes={category.taxes} />
+              <TaxBar taxes={category.tax} />
             </DrawerSection>
           )}
         </EntityDrawer>

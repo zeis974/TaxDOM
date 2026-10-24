@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <caracteristiques>
+    <date_table>20260529</date_table>
+  </caracteristiques>
+  <contenu>
+    <ligne><Type>0</Type><Code>8500000000</Code><Alinea>0</Alinea><Description>MACHINES ET APPAREILS ÉLECTRIQUES</Description></ligne>
+    <ligne><Type>0</Type><Code>8501000000</Code><Alinea>0</Alinea><Description>Moteurs et machines génératrices, électriques</Description></ligne>
+    <ligne><Type>2</Type><Code>8501100000</Code><Alinea>1</Alinea><Description>Moteurs</Description></ligne>
+    <ligne><Type>1</Type><Code>8501100000</Code><Alinea>2</Alinea><Description>d'une puissance n'excédant pas 37,5 W</Description></ligne>
+    <ligne><Type>0</Type><Code>8501200000</Code><Alinea>2</Alinea><Description>autres</Description></ligne>
+    <ligne><Type>1</Type><Code>8501201000</Code><Alinea>3</Alinea><Description>universels</Description></ligne>
+    <ligne><Type>1</Type><Code>8501209000</Code><Alinea>3</Alinea><Description>autres</Description></ligne>
+    <ligne><Type>1</Type><Code>8501300000</Code><Alinea>1</Alinea><Description>Générateurs</Description></ligne>
+  </contenu>
+</table>

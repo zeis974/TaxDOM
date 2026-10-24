@@ -11,7 +11,8 @@
 
 ```bash
 # Infrastructure (required before API)
-pnpm dev:db                    # Postgres 5432, Redis 6379
+pnpm dev:db                    # Postgres on 5432 — Redis (6379) is NOT started by this;
+                               # add it with `docker compose -f compose.dev.yml up -d redis`
 
 # Dev servers (run individually or all at once)
 pnpm dev                       # all apps via turbo
@@ -22,13 +23,16 @@ pnpm dev:blog                  # Astro blog
 
 pnpm build                     # all apps via turbo
 pnpm format                    # biome format . --write (whole repo)
-pnpm lint                      # biome check . (cached via `turbo run //#lint`)
+pnpm lint                      # biome check . — uncached; `turbo run //#lint` runs this same script
 pnpm lint:fix                  # biome check . --write
 
 # Per-app (run from package dir or via --filter)
-pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit
+pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit (api, web, dashboard, blog, ui, types)
+pnpm --filter @taxdom/<pkg> test       # vitest run (api, web, dashboard, ui, types)
 
-# No test suite exists in this repo — don't assume `pnpm test` works anywhere.
+# Tests
+pnpm test                      # all Vitest unit tests via turbo
+pnpm test:e2e                  # Playwright e2e (apps/web), mocks the API — no DB needed
 
 # Database (from apps/api)
 pnpm db:push                   # push schema directly (dev)
@@ -63,6 +67,18 @@ tools/data/rita/               XML source data (excluded from biome, not from gi
 - **API routes are split:** `/v1/public/*` (API key middleware) and `/v1/admin/*` (session auth middleware). Route files live in `apps/api/app/routes/{public,admin}/`.
 - **Dashboard has its own `AGENTS.md`** with TanStack Router skill mappings — read it when working in `apps/dashboard/`.
 - **Biome excludes:** `.adonisjs`, `.next`, `data/`, `styled-system/`, `coverage`, `dist`.
+
+## Testing
+
+Unit tests use Vitest, e2e tests use Playwright. Before writing or modifying any test, read
+`docs/TESTING.md`. Playwright needs a browser once per machine:
+`pnpm --filter @taxdom/app exec playwright install chromium`.
+
+## CI & caching
+
+GitHub Actions (`.github/workflows/ci.yml`) and the Docker images both rely on Turborepo's cache.
+Before touching `.github/`, `turbo.json`, a Dockerfile or a script CI runs, read `docs/CI.md`: an
+undeclared build output or an unhashed bundle-time env var silently ships a wrong build.
 
 ## Design system
 
