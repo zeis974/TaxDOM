@@ -11,6 +11,7 @@
     "start": "node bin/server.js",
     "build": "node ace build",
     "dev": "node ace serve --hmr",
+    "test": "node ace test",
     "typecheck": "tsc --noEmit",
     "db:generate": "drizzle-kit generate && pnpm dlx auth generate --config config/auth.ts --output database/auth-schema.ts --y",
     "db:migrate": "drizzle-kit migrate",
@@ -59,6 +60,10 @@
   "devDependencies": {
     "@adonisjs/assembler": "8.5.2",
     "@adonisjs/tsconfig": "2.0.0",
+    "@japa/api-client": "3.2.1",
+    "@japa/assert": "4.2.0",
+    "@japa/plugin-adonisjs": "5.2.0",
+    "@japa/runner": "5.4.0",
     "@poppinss/ts-exec": "1.5.0",
     "@taxdom/types": "workspace:*",
     "@types/luxon": "^3.7.6",
