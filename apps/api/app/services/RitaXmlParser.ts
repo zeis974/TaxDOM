@@ -89,7 +89,7 @@ export function parseChapterXml(xmlPath: string, chapter: number): NomenclatureR
   // RITA repeats some codes — keep the last occurrence per code
   // (more specific description) but parentCode is already correct.
   const seen = new Map<string, number>()
-  rows.forEach((r, i) => seen.set(r.code, i))
+  for (const [i, r] of rows.entries()) seen.set(r.code, i)
   return [...seen.values()].sort((a, b) => a - b).map((i) => rows[i])
 }
 
