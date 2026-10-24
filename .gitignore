@@ -34,6 +34,7 @@ next-env.d.ts
 # local env files
 .env*
 !.env.example
+!.env.test
 
 # PandaCSS
 styled-system

@@ -28,7 +28,9 @@ pnpm lint:fix                  # biome check . --write
 # Per-app (run from package dir or via --filter)
 pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit
 
-# No test suite exists in this repo — don't assume `pnpm test` works anywhere.
+# Tests: only the API has a suite (Japa, `node ace test`). Don't assume `pnpm test` elsewhere.
+pnpm --filter @taxdom/api test # needs Postgres + a `taxdom_test` database, created once with
+                               # `docker exec taxdom_db createdb -U postgres taxdom_test`
 
 # Database (from apps/api)
 pnpm db:push                   # push schema directly (dev)
@@ -62,6 +64,14 @@ tools/data/rita/               XML source data (excluded from biome, not from gi
 - **Tuyau** generates a type-safe API client from AdonisJS route definitions. Both `web` and `dashboard` consume it via `@tuyau/core` + `@tuyau/react-query`.
 - **API routes are split:** `/v1/public/*` (API key middleware) and `/v1/admin/*` (session auth middleware). Route files live in `apps/api/app/routes/{public,admin}/`.
 - **Dashboard has its own `AGENTS.md`** with TanStack Router skill mappings — read it when working in `apps/dashboard/`.
+- **API tests follow the AdonisJS testing guide with Drizzle in place of Lucid.** Specs go in
+  `apps/api/tests/{unit,functional}/`; `.env.test` overrides `.env`. Lucid-only helpers
+  (`testUtils.db()`, `dbAssertions`) and `@adonisjs/auth` plugins don't apply: the schema is
+  pushed once per run and `truncateDatabase()` from `#tests/helpers/database` resets tables and
+  rate limiters in `group.each.setup()`.
+- **The API suite pushes the schema and truncates every table of `DB_URL`.** An exported `DB_URL`
+  wins over `.env.test`, so the helpers refuse any database not ending in `_test`. Run one suite
+  at a time per test database: concurrent runs truncate each other and clash on port 3334.
 - **Biome excludes:** `.adonisjs`, `.next`, `data/`, `styled-system/`, `coverage`, `dist`.
 
 ## Design system
