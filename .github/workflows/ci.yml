@@ -40,10 +40,10 @@ jobs:
 
       # The dashboard is excluded until its pre-existing type errors are fixed
       - name: Typecheck
-        run: pnpm exec turbo run typecheck $AFFECTED --filter='!@taxdom/dashboard'
+        run: pnpm exec turbo run typecheck ${AFFECTED:+"$AFFECTED"} --filter='!@taxdom/dashboard'
 
       - name: Unit tests
-        run: pnpm exec turbo run test $AFFECTED
+        run: pnpm exec turbo run test ${AFFECTED:+"$AFFECTED"}
 
   e2e:
     name: End-to-end tests
@@ -60,7 +60,7 @@ jobs:
       - name: Plan e2e run
         id: plan
         run: |
-          misses=$(pnpm exec turbo run test:e2e $AFFECTED --dry=json \
+          misses=$(pnpm exec turbo run test:e2e ${AFFECTED:+"$AFFECTED"} --dry=json \
             | jq '[.tasks[] | select(.task == "test:e2e" and .command != "<NONEXISTENT>" and .cache.status != "HIT")] | length')
           echo "run=$([ "$misses" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
           echo "playwright=$(pnpm --filter @taxdom/app exec playwright --version | awk '{print $2}')" >> "$GITHUB_OUTPUT"
@@ -82,7 +82,7 @@ jobs:
         run: pnpm --filter @taxdom/app exec playwright install-deps chromium
 
       - name: End-to-end tests
-        run: pnpm exec turbo run test:e2e $AFFECTED
+        run: pnpm exec turbo run test:e2e ${AFFECTED:+"$AFFECTED"}
 
       - name: Upload Playwright report
         if: failure()
