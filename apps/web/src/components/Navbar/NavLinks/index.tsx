@@ -1,84 +1,54 @@
 "use client"
 
 import { AnimatePresence } from "motion/react"
-import { Fragment, useRef, useState, type JSX } from "react"
-import Link from "next/link"
-
-import { Backdrop, Container } from "./NavLinks.styled"
-import { ChevronIcon } from "@/components/Icons"
-import ChangeTools from "@/components/Navbar/NavLinks/ChangeTools"
-
-type NavTypes = {
-  name: string
-  href?: string
-  icons?: JSX.Element
-  showChangeTools?: boolean
-}
+import { useEffect, useRef, useState } from "react"
+import MegaMenu from "./MegaMenu"
+import { Container } from "./NavLinks.styled"
 
 export default function NavLinks() {
   const [show, setShow] = useState(false)
-  const navRef = useRef<HTMLDivElement>(null)
-
-  const links: NavTypes[] = [
-    {
-      name: "Outils",
-      icons: <ChevronIcon />,
-      showChangeTools: true,
-    },
-    {
-      name: "Blog",
-      href: "/blog",
-    },
-  ]
+  const toolsRef = useRef<HTMLDivElement>(null)
 
   const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!navRef.current?.contains(e.relatedTarget as Node | null)) {
+    // relatedTarget is the Window, not a Node, when the pointer leaves the page
+    const next = e.relatedTarget
+    if (!(next instanceof Node) || !toolsRef.current?.contains(next)) {
       setShow(false)
     }
   }
 
+  useEffect(() => {
+    if (!show) return
+    const onKeyDown = (e: KeyboardEvent) => e.key === "Escape" && setShow(false)
+    // Touch devices have no mouseleave, so a tap outside closes the menu
+    const onPointerDown = (e: PointerEvent) => {
+      if (!toolsRef.current?.contains(e.target as Node)) setShow(false)
+    }
+    document.addEventListener("keydown", onKeyDown)
+    document.addEventListener("pointerdown", onPointerDown)
+    return () => {
+      document.removeEventListener("keydown", onKeyDown)
+      document.removeEventListener("pointerdown", onPointerDown)
+    }
+  }, [show])
+
   return (
     <Container>
-      {links.map((link) => (
-        <Fragment key={link.name}>
-          {link.href ? (
-            <Link href={link.href}>{link.name}</Link>
-          ) : (
-            <>
-              {link.showChangeTools ? (
-                <>
-                  <div
-                    ref={navRef}
-                    onMouseEnter={() => setShow(true)}
-                    onMouseLeave={handleMouseLeave}
-                  >
-                    <span>
-                      {link.name} {link.icons}
-                    </span>
-                    <AnimatePresence>
-                      {link.showChangeTools && show && <ChangeTools {...{ setShow }} />}
-                    </AnimatePresence>
-                  </div>
-                  <AnimatePresence>
-                    {link.showChangeTools && show && (
-                      <Backdrop
-                        key="backdrop"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                      />
-                    )}
-                  </AnimatePresence>
-                </>
-              ) : (
-                <span>
-                  {link.name} {link.icons}
-                </span>
-              )}
-            </>
-          )}
-        </Fragment>
-      ))}
+      <div
+        ref={toolsRef}
+        data-active={show}
+        onMouseEnter={() => setShow(true)}
+        onMouseLeave={handleMouseLeave}
+      >
+        {/* Opens only: a tap fires mouseenter then click, so toggling would close it at once */}
+        <button type="button" aria-expanded={show} onClick={() => setShow(true)}>
+          Outils
+        </button>
+        <AnimatePresence>
+          {show && <MegaMenu key="mega-menu" close={() => setShow(false)} />}
+        </AnimatePresence>
+      </div>
+      <a href="/blog">Blog</a>
     </Container>
   )
 }
