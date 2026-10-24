@@ -1,5 +1,6 @@
 import { TaxSimulatorFormSchema } from "@/components/services/ProductTaxesSimulator/types"
 import { apiClient } from "@/lib/api/api-server"
+import { clientIpHeaders } from "@/lib/api/client-ip"
 
 const verifyEndpoint = "https://challenges.cloudflare.com/turnstile/v0/siteverify"
 const secret = process.env.NEXT_TURNSTILE_SECRET_KEY as string
@@ -59,6 +60,7 @@ export async function POST(request: Request) {
         origin: parsed.origin,
         territory: parsed.territory,
       },
+      headers: clientIpHeaders(request.headers),
     })
 
     return Response.json(res)

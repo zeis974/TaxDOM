@@ -1,4 +1,5 @@
 import { apiClient } from "@/lib/api/api-server"
+import { clientIpHeaders } from "@/lib/api/client-ip"
 
 function looksLikeUrl(value: string): boolean {
   try {
@@ -18,7 +19,10 @@ export async function POST(request: Request) {
       return Response.json({ error: "URL invalide" }, { status: 400 })
     }
 
-    const res = await apiClient.api.scrapeProductUrl({ body: { url } })
+    const res = await apiClient.api.scrapeProductUrl({
+      body: { url },
+      headers: clientIpHeaders(request.headers),
+    })
     return Response.json(res)
   } catch (e: unknown) {
     const status = (e as { status?: number })?.status
