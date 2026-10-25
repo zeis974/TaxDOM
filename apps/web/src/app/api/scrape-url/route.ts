@@ -1,3 +1,4 @@
+import { apiErrorResponse } from "@/lib/api/api-error"
 import { apiClient } from "@/lib/api/api-server"
 import { clientIpHeaders } from "@/lib/api/client-ip"
 
@@ -24,20 +25,7 @@ export async function POST(request: Request) {
       headers: clientIpHeaders(request.headers),
     })
     return Response.json(res)
-  } catch (e: unknown) {
-    const status = (e as { status?: number })?.status
-
-    if (status === 422) {
-      return Response.json(
-        { error: "Site non compatible", code: "UNSUPPORTED_MERCHANT" },
-        { status: 422 },
-      )
-    }
-
-    console.error(e)
-    return Response.json(
-      { error: "Impossible de lire cette page", message: (e as Error).message },
-      { status: 500 },
-    )
+  } catch (e) {
+    return apiErrorResponse(e, "scrape-url", "Impossible de lire cette page")
   }
 }

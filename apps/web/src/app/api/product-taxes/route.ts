@@ -1,4 +1,5 @@
 import { TaxSimulatorFormSchema } from "@/components/services/ProductTaxesSimulator/types"
+import { apiErrorResponse } from "@/lib/api/api-error"
 import { apiClient } from "@/lib/api/api-server"
 import { clientIpHeaders } from "@/lib/api/client-ip"
 
@@ -65,19 +66,6 @@ export async function POST(request: Request) {
 
     return Response.json(res)
   } catch (e) {
-    const status = (e as { status?: number })?.status
-
-    if (status === 422) {
-      return Response.json(
-        { error: "Site non compatible", code: "UNSUPPORTED_MERCHANT" },
-        { status: 422 },
-      )
-    }
-
-    console.error(e)
-    return Response.json(
-      { error: "Failed to resolve taxes", message: (e as Error).message },
-      { status: 500 },
-    )
+    return apiErrorResponse(e, "product-taxes", "Failed to resolve taxes")
   }
 }
