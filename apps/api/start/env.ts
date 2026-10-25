@@ -45,17 +45,6 @@ export default await Env.create(new URL("../", import.meta.url), {
 
   /*
   |----------------------------------------------------------
-  | Variables for resolving the visitor IP behind a proxy.
-  | TRUSTED_PROXIES is consumed by proxy-addr semantics (IPs,
-  | CIDRs or presets), PROXY_SHARED_SECRET authenticates the
-  | X-Taxdom-Client-IP header sent by the Next.js server.
-  |----------------------------------------------------------
-  */
-  TRUSTED_PROXIES: Env.schema.string.optional(),
-  PROXY_SHARED_SECRET: Env.schema.secret.optional(),
-
-  /*
-  |----------------------------------------------------------
   | Variables for authentification
   |----------------------------------------------------------
   */
