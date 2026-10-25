@@ -46,6 +46,7 @@
     "@adonisjs/redis": "11.0.0",
     "@adonisjs/session": "8.1.0",
     "@adonisjs/shield": "9.0.0",
+    "@better-auth/core": "1.7.10",
     "@better-auth/drizzle-adapter": "1.7.10",
     "@tuyau/core": "1.2.2",
     "@vinejs/vine": "4.4.0",
