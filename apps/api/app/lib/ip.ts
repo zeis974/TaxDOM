@@ -2,6 +2,13 @@ import { isIP } from "node:net"
 import { normalizeIP } from "@better-auth/core/utils/ip"
 
 /**
+ * Header the Better Auth middleware sets to `request.ip()` before handing the
+ * request over, so sign-in rate limits use the same visitor IP as the API. It
+ * always overwrites the incoming value, so a client cannot choose it.
+ */
+export const VISITOR_IP_HEADER = "x-taxdom-visitor-ip"
+
+/**
  * Rate limit key for a visitor IP, built like Better Auth's sign-in keys: IPv6
  * addresses are collapsed to their /64, since a visitor is usually handed a
  * whole one, and IPv4-mapped addresses are keyed as the IPv4 address they carry.
