@@ -57,30 +57,24 @@ export const classifyUrlDailyThrottle = limiter.define("classifyUrlDaily", (ctx)
 /**
  * `/products/resolve` accepts a product name OR a merchant URL. A name lookup
  * is a database search while a URL lookup also parses the slug, so each input
- * type gets its own bucket: a URL burst must never exhaust the quota shared by
- * everyone using the name form. The limiters that do not apply to a request
- * opt out with `noLimit()`, which keeps the route wiring simple.
+ * type gets its own bucket: a URL burst must never exhaust the name quota.
  */
 function hasUrl(ctx: HttpContext) {
   return Boolean(ctx.request.input("url"))
 }
 
-export const resolveProductNameThrottle = limiter.define("resolveProductName", (ctx) => {
-  if (hasUrl(ctx)) return limiter.noLimit()
-  return limiter.allowRequests(30).every("1 minute").usingKey(visitorKey(ctx))
+function resolveKey(ctx: HttpContext) {
+  return `${hasUrl(ctx) ? "url" : "name"}_${visitorKey(ctx)}`
+}
+
+export const resolveProductThrottle = limiter.define("resolveProduct", (ctx) => {
+  if (!hasUrl(ctx)) return limiter.allowRequests(30).every("1 minute").usingKey(resolveKey(ctx))
+  return limiter.allowRequests(5).every("1 minute").blockFor("5 mins").usingKey(resolveKey(ctx))
 })
 
-export const resolveProductNameDailyThrottle = limiter.define("resolveProductNameDaily", (ctx) => {
-  if (hasUrl(ctx)) return limiter.noLimit()
-  return limiter.allowRequests(300).every("1 day").usingKey(visitorKey(ctx))
-})
-
-export const resolveProductUrlThrottle = limiter.define("resolveProductUrl", (ctx) => {
-  if (!hasUrl(ctx)) return limiter.noLimit()
-  return limiter.allowRequests(5).every("1 minute").blockFor("5 mins").usingKey(visitorKey(ctx))
-})
-
-export const resolveProductUrlDailyThrottle = limiter.define("resolveProductUrlDaily", (ctx) => {
-  if (!hasUrl(ctx)) return limiter.noLimit()
-  return limiter.allowRequests(30).every("1 day").usingKey(visitorKey(ctx))
+export const resolveProductDailyThrottle = limiter.define("resolveProductDaily", (ctx) => {
+  return limiter
+    .allowRequests(hasUrl(ctx) ? 30 : 300)
+    .every("1 day")
+    .usingKey(resolveKey(ctx))
 })
