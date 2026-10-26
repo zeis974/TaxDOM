@@ -2,6 +2,7 @@ import { drizzleAdapter } from "@better-auth/drizzle-adapter"
 import { betterAuth } from "better-auth/minimal"
 import { admin } from "better-auth/plugins"
 
+import { VISITOR_IP_HEADER } from "../app/lib/ip.js"
 import * as schema from "../database/auth-schema.js"
 import env from "../start/env.js"
 import { db } from "./database.js"
@@ -14,6 +15,13 @@ export const auth = betterAuth({
   }),
   basePath: "/auth",
   trustedOrigins: [env.get("TRUSTED_APP_ORIGIN_URL"), env.get("TRUSTED_DASHBOARD_ORIGIN_URL")],
+  advanced: {
+    ipAddress: {
+      // Better Auth would otherwise walk X-Forwarded-For itself, without the
+      // Cloudflare and Next.js handling of `request.ip()`.
+      ipAddressHeaders: [VISITOR_IP_HEADER],
+    },
+  },
   account: {
     accountLinking: {
       trustedProviders: ["google"],

@@ -1,5 +1,30 @@
-import { defineConfig } from "@adonisjs/core/http"
+import { isIP } from "node:net"
+import { defineConfig, type HttpRequest } from "@adonisjs/core/http"
 import app from "@adonisjs/core/services/app"
+import { createRangeMatcher, isCloudflareEdge } from "#lib/cloudflare"
+
+const isPrivateProxy = createRangeMatcher([
+  "127.0.0.0/8",
+  "::1/128",
+  "10.0.0.0/8",
+  "172.16.0.0/12",
+  "192.168.0.0/16",
+  "fc00::/7",
+])
+
+/**
+ * `peer` is the first untrusted address, i.e. whoever reached Traefik. When it
+ * is a Cloudflare edge, the visitor is the address Cloudflare reports in
+ * CF-Connecting-IP; a request from a Cloudflare Worker gets the Worker address
+ * there, never one chosen by the Worker. Any other peer reached the origin
+ * directly, so its own address is used and a CF-Connecting-IP it sent is ignored.
+ */
+function resolveVisitorIp(request: HttpRequest, peer: string) {
+  if (!isCloudflareEdge(peer)) return peer
+
+  const connectingIp = request.header("cf-connecting-ip")?.trim()
+  return connectingIp && isIP(connectingIp) ? connectingIp : peer
+}
 
 /**
  * The configuration settings used by the HTTP server
@@ -23,6 +48,21 @@ export const http = defineConfig({
    * from anywhere inside your application.
    */
   useAsyncLocalStorage: false,
+
+  /**
+   * Traefik and the Next.js server reach the API over the Docker network, so
+   * private addresses are trusted to forward X-Forwarded-For. Next.js forwards
+   * the headers it received, which makes its calls resolve like direct ones.
+   */
+  trustProxy: isPrivateProxy,
+
+  /**
+   * Rate limits are keyed on `request.ip()`, so a visitor behind a Cloudflare
+   * edge is keyed on CF-Connecting-IP.
+   */
+  getIp(request, originalFn) {
+    return resolveVisitorIp(request, originalFn())
+  },
 
   /**
    * Manage cookies configuration. The settings for the session id cookie are
