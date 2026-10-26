@@ -1,56 +1,23 @@
 # TaxDOM — Agent Instructions
 
-## Stack
-
-- **Runtime:** Node >= 24, pnpm 12, Turborepo monorepo
-- **Language:** TypeScript 7 everywhere
-- **Linter/formatter:** Biome 2 (no ESLint, no Prettier). No semicolons, double quotes, 100-char lines, space indent.
-- **Pre-commit:** Husky + lint-staged runs `biome format --write` on staged files.
-
 ## Commands
 
 ```bash
 # Infrastructure (required before API)
-pnpm dev:db                    # Postgres 5432, Redis 6379
-
-# Dev servers (run individually or all at once)
-pnpm dev                       # all apps via turbo
-pnpm dev:api                   # AdonisJS API on :3333
-pnpm dev:web                   # Next.js 16 public app
-pnpm dev:dashboard             # Vite + TanStack Router admin SPA
-pnpm dev:blog                  # Astro blog
-
-pnpm build                     # all apps via turbo
-pnpm format                    # biome format . --write (whole repo)
-pnpm lint                      # biome check . (cached via `turbo run //#lint`)
-pnpm lint:fix                  # biome check . --write
-
-# Per-app (run from package dir or via --filter)
-pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit
+pnpm dev:db                    # Postgres 5432 (container `taxdom_db`) only
+docker compose -f compose.dev.yml up -d redis  # Redis 6379, only needed with LIMITER_STORE=redis
 
 # Tests: only the API has a suite (Japa, `node ace test`). Don't assume `pnpm test` elsewhere.
 pnpm --filter @taxdom/api test # needs Postgres + a `taxdom_test` database, created once with
                                # `docker exec taxdom_db createdb -U postgres taxdom_test`
+node ace test unit             # one suite (from apps/api): unit | functional
+node ace test --files tests/unit/cloudflare.spec.ts  # one file; `--tests "<title>"` for one test
 
 # Database (from apps/api)
 pnpm db:push                   # push schema directly (dev)
 pnpm db:generate               # generate Drizzle migrations + Better Auth schema
 pnpm db:migrate                # run migrations
-```
-
-## Architecture
-
-```
-apps/
-  api/        @taxdom/api      AdonisJS 7, Drizzle + Postgres, Better Auth
-  web/        @taxdom/app      Next.js 16, React 19 + React Compiler, Panda CSS, TanStack Query
-  dashboard/  @taxdom/dashboard Vite SPA, TanStack Router (file-based), Panda CSS
-  blog/       @taxdom/blog     Astro 7 + MDX + React, Panda CSS
-packages/
-  ui/         @taxdom/ui       Panda CSS preset (tokens, semantic tokens, keyframes, utilities)
-  types/      @taxdom/types    Shared domain types (Product, Category, Origin, etc.)
-tools/                         Python scripts for RITA nomenclature data import
-tools/data/rita/               XML source data (excluded from biome, not from git)
+node ace rita:sync [--chapter N]  # sync HS nomenclatures from RITA (all 99 chapters or one)
 ```
 
 ## Key gotchas
@@ -59,11 +26,11 @@ tools/data/rita/               XML source data (excluded from biome, not from gi
 - **`styled-system/` is gitignored** in every frontend. `panda codegen` runs on `pnpm prepare`; if imports from `@/panda` fail, run `pnpm install` or `pnpm prepare` in the app.
 - **Drizzle migrations are gitignored** (`apps/api/database/migrations`). Use `db:push` for dev iteration; `db:generate` only when you need migration files.
 - **`database/auth-schema.ts` is auto-generated** by Better Auth CLI. The `db:generate` script runs both `drizzle-kit generate` and `auth generate`. Never edit it by hand.
-- **AdonisJS auto-generates `.adonisjs/`** (server indexes + Tuyau client registry) via `init` hooks in `adonisrc.ts`. Do not edit these files.
-- **TanStack Router generates `routeTree.gen.ts`** in dashboard via the Vite plugin. Route files go in `apps/dashboard/src/routes/`.
+- **AdonisJS auto-generates `.adonisjs/`** (server indexes + Tuyau client registry) via `init` hooks in `adonisrc.ts`. Do not edit these files. Route files reference controllers through `#generated/controllers`, so a new controller needs the dev server (or build) to regenerate the index.
+- **Dashboard is TanStack Start, not a plain SPA.** The `tanstackStart()` Vite plugin generates `routeTree.gen.ts`; route files go in `apps/dashboard/src/routes/`. `pnpm build` emits a Nitro server in `.output/`, served by `pnpm start`. `getRouter()` in `src/router.tsx` builds a fresh `QueryClient` per request, exposes it as router context and wires `@tanstack/react-router-ssr-query`, so data prefetched in route loaders is dehydrated to the client; the `QueryClientProvider` lives in `__root.tsx`.
 - **Tuyau** generates a type-safe API client from AdonisJS route definitions. Both `web` and `dashboard` consume it via `@tuyau/core` + `@tuyau/react-query`.
 - **API routes are split:** `/v1/public/*` (API key middleware) and `/v1/admin/*` (session auth middleware). Route files live in `apps/api/app/routes/{public,admin}/`.
-- **Dashboard has its own `AGENTS.md`** with TanStack Router skill mappings — read it when working in `apps/dashboard/`.
+- **This Next.js version differs from your training data.** Before writing code in `apps/web`, read the relevant guide in `apps/web/node_modules/next/dist/docs/` and heed deprecation notices. `agentRules: false` in `next.config.ts` keeps `next dev` from writing an `apps/web/AGENTS.md`: this root file is the only agent instructions file.
 - **API tests follow the AdonisJS testing guide with Drizzle in place of Lucid.** Specs go in
   `apps/api/tests/{unit,functional}/`; `.env.test` overrides `.env`. Lucid-only helpers
   (`testUtils.db()`, `dbAssertions`) and `@adonisjs/auth` plugins don't apply: the schema is
@@ -72,11 +39,11 @@ tools/data/rita/               XML source data (excluded from biome, not from gi
 - **The API suite pushes the schema and truncates every table of `DB_URL`.** An exported `DB_URL`
   wins over `.env.test`, so the helpers refuse any database not ending in `_test`. Run one suite
   at a time per test database: concurrent runs truncate each other and clash on port 3334.
-- **Biome excludes:** `.adonisjs`, `.next`, `data/`, `styled-system/`, `coverage`, `dist`.
+- **Biome excludes:** `.adonisjs`, `.next`, `data/`, `styled-system/`, `coverage`, `dist`, `routeTree.gen.ts`, `.agents`, all `*.md`; `auth-schema.ts` is neither linted nor formatted.
 
 ## Design system
 
-All tokens live in `packages/ui/theme/`. Before writing or modifying any styles, read `docs/STYLING.md`.
+All tokens live in `packages/ui/theme/`. Before writing or modifying any styles, read `docs/STYLING.md`. `DESIGN.md` at the root is the design spec (colors, typography) checked by `pnpm design:lint`.
 
 ## Commits & PRs
 
