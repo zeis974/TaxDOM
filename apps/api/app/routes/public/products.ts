@@ -4,10 +4,8 @@ import {
   classifyUrlDailyThrottle,
   classifyUrlThrottle,
   getProductsTaxesThrottle,
-  resolveProductNameDailyThrottle,
-  resolveProductNameThrottle,
-  resolveProductUrlDailyThrottle,
-  resolveProductUrlThrottle,
+  resolveProductDailyThrottle,
+  resolveProductThrottle,
   searchProductsDailyThrottle,
   searchProductsThrottle,
 } from "#start/limiter"
@@ -29,12 +27,7 @@ export default function registerPublicProductsRoutes(router: HttpRouterService) 
   // buckets, so a burst of URL resolutions cannot lock the name form.
   router
     .post("/products/resolve", [ResolveProductTaxesController, "handle"])
-    .use([
-      resolveProductNameThrottle,
-      resolveProductNameDailyThrottle,
-      resolveProductUrlThrottle,
-      resolveProductUrlDailyThrottle,
-    ])
+    .use([resolveProductThrottle, resolveProductDailyThrottle])
   router
     .post("/products/scrape", [ScrapeProductUrlController, "handle"])
     .use([classifyUrlThrottle, classifyUrlDailyThrottle])
