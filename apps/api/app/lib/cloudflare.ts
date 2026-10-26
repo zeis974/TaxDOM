@@ -1,4 +1,20 @@
-import proxyaddr from "proxy-addr"
+import { BlockList, isIP } from "node:net"
+
+/**
+ * Builds a matcher for CIDR ranges. IPv4-mapped IPv6 addresses match their IPv4 range.
+ */
+export function createRangeMatcher(ranges: string[]) {
+  const list = new BlockList()
+  for (const range of ranges) {
+    const [address, prefix] = range.split("/")
+    list.addSubnet(address, Number(prefix), isIP(address) === 6 ? "ipv6" : "ipv4")
+  }
+
+  return (ip: string) => {
+    const family = isIP(ip)
+    return family !== 0 && list.check(ip, family === 6 ? "ipv6" : "ipv4")
+  }
+}
 
 /**
  * Cloudflare edge ranges, from https://www.cloudflare.com/ips-v4 and
@@ -35,8 +51,4 @@ export const CLOUDFLARE_IP_RANGES = [
   "2c0f:f248::/32",
 ]
 
-const cloudflareEdges = proxyaddr.compile(CLOUDFLARE_IP_RANGES)
-
-export function isCloudflareEdge(ip: string) {
-  return cloudflareEdges(ip, 0)
-}
+export const isCloudflareEdge = createRangeMatcher(CLOUDFLARE_IP_RANGES)

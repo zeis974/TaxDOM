@@ -1,9 +1,16 @@
 import { isIP } from "node:net"
 import { defineConfig, type HttpRequest } from "@adonisjs/core/http"
 import app from "@adonisjs/core/services/app"
-import proxyaddr from "proxy-addr"
+import { createRangeMatcher, isCloudflareEdge } from "#lib/cloudflare"
 
-import { isCloudflareEdge } from "#lib/cloudflare"
+const isPrivateProxy = createRangeMatcher([
+  "127.0.0.0/8",
+  "::1/128",
+  "10.0.0.0/8",
+  "172.16.0.0/12",
+  "192.168.0.0/16",
+  "fc00::/7",
+])
 
 /**
  * `peer` is the first untrusted address, i.e. whoever reached Traefik. When it
@@ -47,7 +54,7 @@ export const http = defineConfig({
    * private addresses are trusted to forward X-Forwarded-For. Next.js forwards
    * the headers it received, which makes its calls resolve like direct ones.
    */
-  trustProxy: proxyaddr.compile(["loopback", "uniquelocal"]),
+  trustProxy: isPrivateProxy,
 
   /**
    * Rate limits are keyed on `request.ip()`, so a visitor behind a Cloudflare

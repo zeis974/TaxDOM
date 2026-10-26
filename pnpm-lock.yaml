@@ -229,9 +229,6 @@ importers:
       pg:
         specifier: 8.23.1
         version: 8.23.1
-      proxy-addr:
-        specifier: 2.0.7
-        version: 2.0.7
       reflect-metadata:
         specifier: 0.2.2
         version: 0.2.2
@@ -272,9 +269,6 @@ importers:
       '@types/pg':
         specifier: ^8.23.1
         version: 8.23.1
-      '@types/proxy-addr':
-        specifier: ^2.0.3
-        version: 2.0.3
       drizzle-kit:
         specifier: 0.31.11
         version: 0.31.11
@@ -3553,9 +3547,6 @@ packages:
   '@types/pluralize@0.0.33':
     resolution: {integrity: sha512-JOqsl+ZoCpP4e8TDke9W79FDcSgPAR0l6pixx2JHkhnRjvShyYiAYw2LVsnA7K08Y6DeOnaU6ujmENO4os/cYg==}
 
-  '@types/proxy-addr@2.0.3':
-    resolution: {integrity: sha512-TgAHHO4tNG3HgLTUhB+hM4iwW6JUNeQHCLnF1DjaDA9c69PN+IasoFu2MYDhubFc+ZIw5c5t9DMtjvrD6R3Egg==}
-
   '@types/react-dom@19.3.0':
     resolution: {integrity: sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==}
     peerDependencies:
@@ -5837,10 +5828,6 @@ packages:
 
   property-information@7.2.0:
     resolution: {integrity: sha512-IAtzIB6sUiWaJYrX9smp3V46pBGbBeLFRGdh25kg1334VcBlD8HzhPeNIWQH9zhGmo2itIe25EHt9dQP7G5hmg==}
-
-  proxy-addr@2.0.7:
-    resolution: {integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==}
-    engines: {node: '>= 0.10'}
 
   proxy-addr@2.0.8:
     resolution: {integrity: sha512-5nnx0yGyVUcY6t9RnWcARWtwT9F1D8O9rt08htPvnd49W1IgZtmLkhu9WfMzQj1cFxjHIO6connUNVW5k7AVyQ==}
@@ -9566,10 +9553,6 @@ snapshots:
 
   '@types/pluralize@0.0.33': {}
 
-  '@types/proxy-addr@2.0.3':
-    dependencies:
-      '@types/node': 26.6.5
-
   '@types/react-dom@19.3.0(@types/react@19.3.0)':
     dependencies:
       '@types/react': 19.3.0
@@ -11738,11 +11721,6 @@ snapshots:
   process@0.11.10: {}
 
   property-information@7.2.0: {}
-
-  proxy-addr@2.0.7:
-    dependencies:
-      forwarded: 0.2.0
-      ipaddr.js: 1.9.1
 
   proxy-addr@2.0.8:
     dependencies:
