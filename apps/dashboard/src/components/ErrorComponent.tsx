@@ -5,7 +5,7 @@ export function ErrorComponent({ error, reset }: ErrorComponentProps) {
   return (
     <ErrorContainer>
       <ErrorTitle>Une erreur est survenue</ErrorTitle>
-      <ErrorMessage>{error?.message ?? "Erreur inattendue"}</ErrorMessage>
+      <ErrorMessage>{error instanceof Error ? error.message : "Erreur inattendue"}</ErrorMessage>
       <RetryButton type="button" onClick={reset}>
         Réessayer
       </RetryButton>
