@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <caracteristiques>
+    <date_table>20260529</date_table>
+  </caracteristiques>
+  <contenu>
+    <ligne><Type>0</Type><Code>0100000000</Code><Alinea>0</Alinea><Description>ANIMAUX VIVANTS</Description></ligne>
+    <ligne><Type>0</Type><Code>0101000000</Code><Alinea>0</Alinea><Description>Chevaux, ânes, mulets et bardots, vivants</Description></ligne>
+  </contenu>
+</table>

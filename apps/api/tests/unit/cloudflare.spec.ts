@@ -1,50 +1,50 @@
-import { test } from "@japa/runner"
+import { describe, expect, it } from "vitest"
 
 import { createRangeMatcher, isCloudflareEdge } from "#lib/cloudflare"
 
-test.group("createRangeMatcher", () => {
-  test("matches IPv4 and IPv6 ranges on their boundaries", ({ assert }) => {
+describe("createRangeMatcher", () => {
+  it("matches IPv4 and IPv6 ranges on their boundaries", () => {
     const matches = createRangeMatcher(["172.16.0.0/12", "fc00::/7"])
 
-    assert.isFalse(matches("172.15.255.255"))
-    assert.isTrue(matches("172.16.0.0"))
-    assert.isTrue(matches("172.31.255.255"))
-    assert.isFalse(matches("172.32.0.0"))
-    assert.isTrue(matches("fd12:3456::1"))
-    assert.isFalse(matches("fe00::1"))
+    expect(matches("172.15.255.255")).toBe(false)
+    expect(matches("172.16.0.0")).toBe(true)
+    expect(matches("172.31.255.255")).toBe(true)
+    expect(matches("172.32.0.0")).toBe(false)
+    expect(matches("fd12:3456::1")).toBe(true)
+    expect(matches("fe00::1")).toBe(false)
   })
 
-  test("matches IPv4-mapped addresses against IPv4 ranges", ({ assert }) => {
+  it("matches IPv4-mapped addresses against IPv4 ranges", () => {
     const matches = createRangeMatcher(["10.0.0.0/8"])
 
-    assert.isTrue(matches("::ffff:10.1.2.3"))
-    assert.isFalse(matches("::ffff:11.1.2.3"))
+    expect(matches("::ffff:10.1.2.3")).toBe(true)
+    expect(matches("::ffff:11.1.2.3")).toBe(false)
   })
 
-  test("rejects anything that is not an IP", ({ assert }) => {
+  it("rejects anything that is not an IP", () => {
     const matches = createRangeMatcher(["10.0.0.0/8"])
 
-    assert.isFalse(matches(""))
-    assert.isFalse(matches("not-an-ip"))
-    assert.isFalse(matches(undefined as unknown as string))
+    expect(matches("")).toBe(false)
+    expect(matches("not-an-ip")).toBe(false)
+    expect(matches(undefined as unknown as string)).toBe(false)
   })
 })
 
-test.group("isCloudflareEdge", () => {
-  test("recognises IPv4 and IPv6 edges", ({ assert }) => {
-    assert.isTrue(isCloudflareEdge("173.245.48.1"))
-    assert.isTrue(isCloudflareEdge("162.158.10.20"))
-    assert.isTrue(isCloudflareEdge("2606:4700::1"))
-    assert.isTrue(isCloudflareEdge("2a06:98c0:3600::103"))
+describe("isCloudflareEdge", () => {
+  it("recognises IPv4 and IPv6 edges", () => {
+    expect(isCloudflareEdge("173.245.48.1")).toBe(true)
+    expect(isCloudflareEdge("162.158.10.20")).toBe(true)
+    expect(isCloudflareEdge("2606:4700::1")).toBe(true)
+    expect(isCloudflareEdge("2a06:98c0:3600::103")).toBe(true)
   })
 
-  test("recognises IPv4-mapped edges", ({ assert }) => {
-    assert.isTrue(isCloudflareEdge("::ffff:162.158.10.20"))
+  it("recognises IPv4-mapped edges", () => {
+    expect(isCloudflareEdge("::ffff:162.158.10.20")).toBe(true)
   })
 
-  test("ignores addresses outside the edge ranges", ({ assert }) => {
-    assert.isFalse(isCloudflareEdge("173.245.64.0"))
-    assert.isFalse(isCloudflareEdge("203.0.113.1"))
-    assert.isFalse(isCloudflareEdge("2400:cb01::1"))
+  it("ignores addresses outside the edge ranges", () => {
+    expect(isCloudflareEdge("173.245.64.0")).toBe(false)
+    expect(isCloudflareEdge("203.0.113.1")).toBe(false)
+    expect(isCloudflareEdge("2400:cb01::1")).toBe(false)
   })
 })

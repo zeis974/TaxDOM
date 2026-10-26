@@ -14,6 +14,7 @@ import {
 import AddIcon from "./AddIcon"
 import CloseIcon from "./CloseIcon"
 import DownloadIcon from "./DownloadIcon"
+import ExternalLinkIcon from "./ExternalLinkIcon"
 import InfoIcon from "./InfoIcon"
 import LinkIcon from "./LinkIcon"
 import ListIcon from "./ListIcon"
@@ -29,6 +30,7 @@ export {
   ChevronIcon,
   CloseIcon,
   DownloadIcon,
+  ExternalLinkIcon,
   HomeIcon,
   InfoIcon,
   LinkIcon,

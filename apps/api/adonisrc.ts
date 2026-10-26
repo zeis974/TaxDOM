@@ -67,31 +67,6 @@ export default defineConfig({
 
   /*
   |--------------------------------------------------------------------------
-  | Tests
-  |--------------------------------------------------------------------------
-  |
-  | List of test suites to organize tests by their type. Feel free to remove
-  | and add additional suites.
-  |
-  */
-  tests: {
-    suites: [
-      {
-        files: ["tests/unit/**/*.spec.{ts,js}"],
-        name: "unit",
-        timeout: 2000,
-      },
-      {
-        files: ["tests/functional/**/*.spec.{ts,js}"],
-        name: "functional",
-        timeout: 30000,
-      },
-    ],
-    forceExit: false,
-  },
-
-  /*
-  |--------------------------------------------------------------------------
   | Metafiles
   |--------------------------------------------------------------------------
   |
