@@ -30,9 +30,13 @@ in those three files from the actual repo state and fixes what's drifted.
 ### 1. `AGENTS.md`
 
 - **Commands** — diff the `## Commands` block against `scripts` in root + every
-  `apps/*/package.json` and against the `ace` commands in `apps/api/commands/`. Flag any script
-  missing from the doc, any documented command that no longer exists, and any documented command
-  that merely mirrors a `package.json` script — the latter doesn't belong in the doc.
+  `apps/*/package.json` and against the `ace` commands in `apps/api/commands/`. Flag any documented
+  command that no longer exists. Keep a script only when it carries a non-derivable prerequisite,
+  ordering or side effect (container `taxdom_db`, `*_test` database, `db:push` vs migrations); a
+  bare mirror of a script is noise. Re-read each inline comment too — image, port, limiter store —
+  that's where drift hides.
+- **No-CI claim** — `.github/workflows` is still absent, and root `package.json` still has no
+  `typecheck` script. If either changes, update the gotcha instead of dropping it silently.
 - **Framework pointers** — the Next.js bullet names `apps/web/node_modules/next/dist/docs/` and
   `agentRules: false` in `next.config.ts`. Confirm the directory exists after install and that
   the option is still part of `NextConfig`
@@ -40,12 +44,13 @@ in those three files from the actual repo state and fixes what's drifted.
   `agentRules` disabled, nothing regenerates that guidance on a Next upgrade: this check is the
   only thing keeping the pointer true.
 - **Key gotchas** — re-verify each bullet against its actual source: `.gitignore` /
-  `apps/*/.gitignore`, `biome.json` excludes, `adonisrc.ts` hooks, each app's `panda.config.ts`,
-  route directories, the auth-schema generation script. A gotcha naming a dependency that's
-  installed but never wired into config (no config flag, no import) is stale — remove it, don't
-  leave it as aspirational.
+  `apps/*/.gitignore`, `biome.json` excludes, `adonisrc.ts` hooks, `packages/ui/preset.js` **and**
+  each app's `panda.config.ts` for the Panda claim, route directories, the auth-schema generation
+  script. A gotcha naming a dependency that's installed but never wired into config (no config
+  flag, no import) is stale — remove it, don't leave it as aspirational.
 - **Trailing pointers** (`docs/STYLING.md`, `docs/COMMITS.md`, `DESIGN.md`) still exist at those
-  paths, and `pnpm design:lint` still lints `DESIGN.md`.
+  paths, and `pnpm design:lint` still lints `DESIGN.md`. Its Overview still names the right stack
+  for web, dashboard and blog — `design:lint` checks structure and tokens, never prose.
 
 ```bash
 # every script across the workspace
