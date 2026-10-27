@@ -49,7 +49,9 @@ mistakes, not precedent. Don't repeat them.
 
 The scope is the app or package the change lives in, taken from the directory structure:
 
-`api`, `web`, `dashboard`, `blog`, `ui`, `types`, `tools`.
+`api`, `web`, `dashboard`, `blog`, `ui`, `types`, `tools`, `skills`.
+
+`skills` covers the vendored agent skills under `.agents/skills`.
 
 For a change concentrated in one component or feature area, narrow the scope to that area
 instead: `fix(select): …`, `chore(panda): …`. Prefer the narrower scope whenever one applies —
