@@ -85,6 +85,11 @@ feat(dashboard): render flags in origin select
 Each commit should build and typecheck on its own where practical. This makes `git log`,
 `git bisect`, and review readable — one concern per diff.
 
+**Unpushed commits are not frozen.** Never add a follow-up commit to fix or undo an unpushed one:
+amend it, or rewrite the local history (`git rebase -i`, `git reset --soft`) so every commit stands
+on its own. Corrections as separate commits are only acceptable once the original is pushed and
+shared.
+
 ---
 
 ## 4. Pull requests
