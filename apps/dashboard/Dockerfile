@@ -58,7 +58,7 @@ ENV VITE_APP_URL=${VITE_APP_URL}
 RUN --mount=type=cache,id=turbo-dashboard,target=/app/.turbo/cache,uid=1001,gid=1001 \
     pnpm turbo run build
 
-# The build emits a self-contained Nitro 2 server in apps/dashboard/.output
+# The build emits a self-contained Nitro server in apps/dashboard/.output
 # (preset `node-server`, see vite.config.ts): dependencies are bundled, so the
 # runner only needs the .output folder and a plain Node runtime.
 FROM base AS runner
