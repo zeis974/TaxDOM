@@ -16,8 +16,10 @@ in those three files from the actual repo state and fixes what's drifted.
 
 - **Never edit `CLAUDE.md`.** It is `@AGENTS.md`, a pointer only — all content changes go in
   `AGENTS.md`.
-- **`AGENTS.md` pins major versions only** (`pnpm 11`, `TypeScript 7`, `Biome 2` — not
-  `11.24.0`, `7.0.2`, `2.5.10`).
+- **`AGENTS.md` keeps only non-derivable claims.** Versions, the script list and the directory
+  layout are read straight from `package.json`, `biome.json` and the tree — they were dropped on
+  purpose. Don't reintroduce a Stack or Architecture section: a claim derivable from a file
+  belongs in that file, not here.
 - **Verify, don't recall.** Read the actual file/config for every claim before deciding it's
   accurate or stale. A claim that sounds right is not the same as one you checked this run.
 - Drop a bullet that's no longer true instead of leaving it stale — don't rewrite sections that
@@ -27,21 +29,23 @@ in those three files from the actual repo state and fixes what's drifted.
 
 ### 1. `AGENTS.md`
 
-- **Stack versions** — compare against root `package.json` (`engines`, `packageManager`) and
-  each `apps/*/package.json`'s key deps. Major only.
 - **Commands** — diff the `## Commands` block against `scripts` in root + every
-  `apps/*/package.json`. Flag any script missing from the doc and any documented command that no
-  longer exists.
-- **Architecture** — for each `apps/*` and `packages/*` entry, confirm the `package.json`
-  `"name"`, the framework + major version, and the path still exist. Check for new or removed
-  top-level apps/packages, and for paths that moved (e.g. a data directory relocating under
-  `tools/`).
+  `apps/*/package.json` and against the `ace` commands in `apps/api/commands/`. Flag any script
+  missing from the doc, any documented command that no longer exists, and any documented command
+  that merely mirrors a `package.json` script — the latter doesn't belong in the doc.
+- **Framework pointers** — the Next.js bullet names `apps/web/node_modules/next/dist/docs/` and
+  `agentRules: false` in `next.config.ts`. Confirm the directory exists after install and that
+  the option is still part of `NextConfig`
+  (`grep agentRules apps/web/node_modules/next/dist/server/config-shared.d.ts`). With
+  `agentRules` disabled, nothing regenerates that guidance on a Next upgrade: this check is the
+  only thing keeping the pointer true.
 - **Key gotchas** — re-verify each bullet against its actual source: `.gitignore` /
   `apps/*/.gitignore`, `biome.json` excludes, `adonisrc.ts` hooks, each app's `panda.config.ts`,
   route directories, the auth-schema generation script. A gotcha naming a dependency that's
   installed but never wired into config (no config flag, no import) is stale — remove it, don't
   leave it as aspirational.
-- **Trailing pointers** (`docs/STYLING.md`, `docs/COMMITS.md`) still exist at those paths.
+- **Trailing pointers** (`docs/STYLING.md`, `docs/COMMITS.md`, `DESIGN.md`) still exist at those
+  paths, and `pnpm design:lint` still lints `DESIGN.md`.
 
 ```bash
 # every script across the workspace
@@ -56,7 +60,8 @@ python3 -c "import json;print(json.load(open('biome.json'))['files']['includes']
 
 ### 2. `docs/COMMITS.md`
 
-- **Scope list** (§2) matches the current `apps/*` and `packages/*` directory names.
+- **Scope list** (§2) matches the current `apps/*` and `packages/*` directory names, plus
+  `.agents/skills`.
 - **Example commits** (§2) still point at real commits: `git log --oneline | grep -F "<subject>"`.
   Replace any that were reverted or squashed away with a current example.
 - **Types table** still matches actual usage:
@@ -90,7 +95,8 @@ deciding unilaterally). Skip sections with nothing to report; don't pad the summ
 
 ## Common mistakes
 
-- Pinning a minor/patch version in `AGENTS.md` — majors only.
+- Re-adding a Stack, Architecture or script-list section to `AGENTS.md` — it's derivable from
+  `package.json`, `biome.json` or the tree.
 - Trusting an old backlog count in `STYLING.md` instead of regenerating it.
 - Editing `CLAUDE.md` directly instead of `AGENTS.md`.
 - "Fixing" a `docs/COMMITS.md` example by inventing a plausible commit instead of checking
