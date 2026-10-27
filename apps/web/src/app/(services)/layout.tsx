@@ -3,6 +3,7 @@ import "../globals.css"
 import { ThemeProvider } from "@wrksz/themes/next"
 import type { Metadata } from "next"
 import localFont from "next/font/local"
+import Script from "next/script"
 import { Toaster } from "sonner"
 
 import LazyMotionProvider from "@/providers/LazyMotionProvider"
@@ -23,6 +24,9 @@ const Rowdies = localFont({
   variable: "--rowdies",
   display: "swap",
 })
+
+const umamiScriptUrl = process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL
+const umamiWebsiteId = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID
 
 const themeCookieOptions =
   process.env.NODE_ENV === "production"
@@ -47,6 +51,9 @@ export default async function RootLayout({
             </LazyMotionProvider>
           </QueryProvider>
         </ThemeProvider>
+        {umamiScriptUrl && umamiWebsiteId ? (
+          <Script defer src={umamiScriptUrl} data-website-id={umamiWebsiteId} />
+        ) : null}
       </body>
     </html>
   )
