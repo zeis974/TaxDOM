@@ -39,11 +39,11 @@ type(scope): subject
 | `docs` | Documentation only |
 | `ci` | CI/CD pipeline changes |
 | `test` | Adding or fixing tests only |
-| `perf` | Performance improvement with no behavior change |
-| `style` | Formatting only, no logic change (rare — Biome handles most of this) |
 
 Stick to this list. History contains one-off outliers (`ref`, `launch`, `bump`) — those were
-mistakes, not precedent. Don't repeat them.
+mistakes, not precedent. Don't repeat them. There is no `style` type: Biome formats staged files
+in the pre-commit hook, so a formatting-only commit never happens. A performance change is a
+`refactor` (no behavior change) or a `fix` (it fixes a slowness someone hit).
 
 ### Scope
 
