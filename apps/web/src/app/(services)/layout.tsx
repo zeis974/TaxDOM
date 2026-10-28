@@ -52,7 +52,12 @@ export default async function RootLayout({
           </QueryProvider>
         </ThemeProvider>
         {umamiScriptUrl && umamiWebsiteId ? (
-          <Script defer src={umamiScriptUrl} data-website-id={umamiWebsiteId} />
+          <Script
+            strategy="afterInteractive"
+            src={umamiScriptUrl}
+            data-website-id={umamiWebsiteId}
+            data-domains="taxdom.re,www.taxdom.re"
+          />
         ) : null}
       </body>
     </html>
