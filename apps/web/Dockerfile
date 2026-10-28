@@ -47,6 +47,8 @@ RUN pnpm rebuild
 COPY --chown=nextjs:nodejs turbo.json turbo.json
 RUN --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
     --mount=type=secret,id=NEXT_PUBLIC_API_URL,env=NEXT_PUBLIC_API_URL \
+    --mount=type=secret,id=NEXT_PUBLIC_UMAMI_SCRIPT_URL,env=NEXT_PUBLIC_UMAMI_SCRIPT_URL \
+    --mount=type=secret,id=NEXT_PUBLIC_UMAMI_WEBSITE_ID,env=NEXT_PUBLIC_UMAMI_WEBSITE_ID \
     pnpm turbo run build
 
 FROM base AS runner
