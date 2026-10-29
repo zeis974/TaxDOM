@@ -1,50 +1,42 @@
-FROM node:24.22.1-alpine AS base
+# syntax=docker/dockerfile:1
+ARG NODE_VERSION=24.22.1
 
-RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
-
-RUN addgroup --system --gid 1001 nodejs && \
-    adduser --system --uid 1001 --ingroup nodejs dashuser
-
-ENV PNPM_HOME="/pnpm"
-ENV PATH="$PNPM_HOME/bin:$PNPM_HOME:$PATH"
+FROM node:${NODE_VERSION}-alpine AS base
+ENV PNPM_HOME=/pnpm
+ENV PATH=$PNPM_HOME/bin:$PNPM_HOME:$PATH
+ENV CI=true
+ENV HUSKY=0
+ENV TURBO_TELEMETRY_DISABLED=1
+ENV DO_NOT_TRACK=1
+# Corepack resolves pnpm from `packageManager` in package.json, nothing is pinned here.
+ENV COREPACK_ENABLE_DOWNLOAD_PROMPT=0
 RUN corepack enable
-RUN corepack prepare pnpm@12.15.0 --activate
 
-FROM base AS builder
-RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
-
-USER dashuser
+# Only the files the target app needs, split into manifests (cacheable install layer) and sources.
+FROM base AS pruner
 WORKDIR /app
-
-USER root
-RUN pnpm add -g turbo@2.11.4
-USER dashuser
-
-COPY --chown=dashuser:nodejs . .
+# Own layer: only re-run when the root manifest changes, not on every source edit.
+# turbo is installed at the version pinned in the root package.json.
+COPY package.json ./
+RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
+    --mount=type=cache,id=pnpm,target=/pnpm/store \
+    pnpm add -g turbo@$(node -p "require('./package.json').devDependencies.turbo")
+COPY . .
 RUN turbo prune @taxdom/dashboard --docker
 
 FROM base AS installer
-USER dashuser
 WORKDIR /app
-
-ENV HUSKY=0
-
-USER root
-RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
-USER dashuser
-
-COPY --chown=dashuser:nodejs .gitignore .gitignore
-COPY --from=builder --chown=dashuser:nodejs /app/out/json/ .
-COPY --from=builder --chown=dashuser:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
-
+COPY --from=pruner /app/out/json/ .
+COPY --from=pruner /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 # --ignore-scripts: the `prepare` hooks (panda codegen) need the sources, which are only
 # copied below. Codegen runs as the turbo `codegen` task during the build.
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm install --prefer-offline --ignore-scripts
-
-COPY --from=builder --chown=dashuser:nodejs /app/out/full/ .
-RUN pnpm rebuild
-COPY --chown=dashuser:nodejs turbo.json turbo.json
+RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
+    --mount=type=cache,id=pnpm,target=/pnpm/store \
+    pnpm install --frozen-lockfile --ignore-scripts
+# Build the native dependencies (esbuild, sharp...) here so this layer stays cached.
+RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
+    pnpm rebuild
+COPY --from=pruner /app/out/full/ .
 
 # These become part of the client (browser) bundle at build time, so they must be set as
 # build args per-deployment. The server-side code reads VITE_API_URL from a plain runtime
@@ -55,20 +47,19 @@ ARG VITE_APP_URL
 ENV VITE_API_URL=${VITE_API_URL}
 ENV VITE_APP_URL=${VITE_APP_URL}
 
-RUN pnpm turbo run build
+RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
+    --mount=type=cache,id=turbo,target=/app/.turbo \
+    pnpm turbo run build
 
 # The build emits a self-contained Nitro server in apps/dashboard/.output
 # (preset `node-server`, see vite.config.ts): dependencies are bundled, so the
 # runner only needs the .output folder and a plain Node runtime.
-FROM base AS runner
-USER dashuser
-WORKDIR /app/apps/dashboard
-
+FROM node:${NODE_VERSION}-alpine AS runner
+WORKDIR /app
 ENV NODE_ENV=production
-ENV TURBO_TELEMETRY_DISABLED=1
-ENV DO_NOT_TRACK=1
 
-COPY --from=installer --chown=dashuser:nodejs /app/apps/dashboard/.output ./.output
+COPY --from=installer --chown=node:node /app/apps/dashboard/.output ./.output
+USER node
 
 EXPOSE 3000
 
