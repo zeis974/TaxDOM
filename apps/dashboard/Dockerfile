@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
 ARG NODE_VERSION=24.22.1
+ARG TURBO_VERSION=2.11.10
 
 FROM node:${NODE_VERSION}-alpine AS base
 ENV PNPM_HOME=/pnpm
@@ -15,12 +16,10 @@ RUN corepack enable
 # Only the files the target app needs, split into manifests (cacheable install layer) and sources.
 FROM base AS pruner
 WORKDIR /app
-# Own layer: only re-run when the root manifest changes, not on every source edit.
-# turbo is installed at the version pinned in the root package.json.
-COPY package.json ./
+ARG TURBO_VERSION
 RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
     --mount=type=cache,id=pnpm,target=/pnpm/store \
-    pnpm add -g turbo@$(node -p "require('./package.json').devDependencies.turbo")
+    pnpm add -g turbo@${TURBO_VERSION}
 COPY . .
 RUN turbo prune @taxdom/dashboard --docker
 
