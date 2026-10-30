@@ -4,14 +4,30 @@
 
 ```bash
 # Infrastructure (required before API)
-pnpm dev:db                    # Postgres 5432 (container `taxdom_db`) only
-docker compose -f compose.dev.yml up -d redis  # Redis 6379, only needed with LIMITER_STORE=redis
+pnpm dev:db                    # Postgres on 5432 — Redis (6379) is NOT started by this;
+                               # add it with `docker compose -f compose.dev.yml up -d redis`
 
-# Tests: only the API has a suite (Japa, `node ace test`). Don't assume `pnpm test` elsewhere.
-pnpm --filter @taxdom/api test # needs Postgres + a `taxdom_test` database, created once with
-                               # `docker exec taxdom_db createdb -U postgres taxdom_test`
-node ace test unit             # one suite (from apps/api): unit | functional
-node ace test --files tests/unit/cloudflare.spec.ts  # one file; `--tests "<title>"` for one test
+# Dev servers (run individually or all at once)
+pnpm dev                       # all apps via turbo
+pnpm dev:api                   # AdonisJS API on :3333
+pnpm dev:web                   # Next.js 16 public app
+pnpm dev:dashboard             # Vite + TanStack Router admin SPA
+pnpm dev:blog                  # Astro blog
+
+pnpm build                     # all apps via turbo
+pnpm format                    # biome format . --write (whole repo)
+pnpm lint                      # biome check . — uncached; `turbo run //#lint` runs this same script
+pnpm lint:fix                  # biome check . --write
+
+# Per-app (run from package dir or via --filter)
+pnpm --filter @taxdom/<pkg> typecheck  # tsc --noEmit (api, web, dashboard, blog, ui, types)
+pnpm --filter @taxdom/<pkg> test       # vitest run (api, web, dashboard, ui, types)
+
+# Tests
+pnpm test                      # all Vitest unit tests via turbo
+pnpm test:e2e                  # Playwright e2e (apps/web), mocks the API — no DB needed
+pnpm --filter @taxdom/api test:functional  # Japa (`node ace test functional`), needs Postgres + a
+                               # `taxdom_test` database: `docker exec taxdom_db createdb -U postgres taxdom_test`
 
 # Database (from apps/api)
 pnpm db:push                   # push schema directly (dev)
@@ -40,7 +56,19 @@ node ace rita:sync [--chapter N]  # sync HS nomenclatures from RITA (all 99 chap
   wins over `.env.test`, so the helpers refuse any database not ending in `_test`. Run one suite
   at a time per test database: concurrent runs truncate each other and clash on port 3334.
 - **Biome excludes:** `.adonisjs`, `.next`, `data/`, `styled-system/`, `coverage`, `dist`, `routeTree.gen.ts`, `.agents`, all `*.md`; `auth-schema.ts` is neither linted nor formatted.
-- **No CI, and no root `typecheck` script.** Nothing runs lint, typecheck or tests for you: Husky's pre-commit only runs `biome format --write` on staged files. Verify with `pnpm --filter @taxdom/<app> typecheck` and `biome check <files>`: a repo-wide `pnpm lint` also reports errors unrelated to your change.
+- **No root `typecheck` script.** Verify with `pnpm --filter @taxdom/<app> typecheck` and `biome check <files>`: a repo-wide `pnpm lint` also reports errors unrelated to your change. Husky's pre-commit only runs `biome format --write` on staged files.
+
+## Testing
+
+Unit tests use Vitest, e2e tests use Playwright. Before writing or modifying any test, read
+`docs/TESTING.md`. Playwright needs a browser once per machine:
+`pnpm --filter @taxdom/app exec playwright install chromium`.
+
+## CI & caching
+
+GitHub Actions (`.github/workflows/ci.yml`) and the Docker images both rely on Turborepo's cache.
+Before touching `.github/`, `turbo.json`, a Dockerfile or a script CI runs, read `docs/CI.md`: an
+undeclared build output or an unhashed bundle-time env var silently ships a wrong build.
 
 ## Design system
 

@@ -70,17 +70,11 @@ export default defineConfig({
   | Tests
   |--------------------------------------------------------------------------
   |
-  | List of test suites to organize tests by their type. Feel free to remove
-  | and add additional suites.
+  | Japa only runs the functional suite: unit tests run on Vitest.
   |
   */
   tests: {
     suites: [
-      {
-        files: ["tests/unit/**/*.spec.{ts,js}"],
-        name: "unit",
-        timeout: 2000,
-      },
       {
         files: ["tests/functional/**/*.spec.{ts,js}"],
         name: "functional",

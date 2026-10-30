@@ -1,13 +1,27 @@
 {
   "$schema": "./node_modules/turbo/schema.json",
   "tasks": {
+    "transit": {
+      "dependsOn": ["^transit"]
+    },
     "codegen": {
+      "dependsOn": ["transit"],
       "outputs": ["styled-system/**"]
     },
     "build": {
       "dependsOn": ["^build", "codegen"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".next/**", "!.next/cache/**", "dist/**", ".adonisjs/**"]
+    },
+    "test": {
+      "dependsOn": ["codegen", "transit"],
+      "outputs": [],
+      "passThroughEnv": ["CI"]
+    },
+    "test:e2e": {
+      "dependsOn": ["codegen", "transit"],
+      "outputs": [],
+      "passThroughEnv": ["CI"]
     },
     "dev": {
       "cache": false,

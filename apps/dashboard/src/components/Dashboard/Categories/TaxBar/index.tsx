@@ -24,7 +24,7 @@ interface TaxData {
   percent: number
 }
 
-const calculateTaxData = (taxes: Category["taxes"]): TaxData[] => {
+const calculateTaxData = (taxes: Category["tax"]): TaxData[] => {
   if (!taxes) return []
   const { tva, om, omr } = taxes
   const total = tva + om + omr
@@ -59,7 +59,7 @@ const LegendItemComponent = ({ tax }: { tax: TaxData }) => {
   )
 }
 
-export default function TaxBar({ taxes }: { taxes: Category["taxes"] }) {
+export default function TaxBar({ taxes }: { taxes: Category["tax"] }) {
   if (!taxes) return null
   const taxData = calculateTaxData(taxes)
   if (taxData.length === 0) return null

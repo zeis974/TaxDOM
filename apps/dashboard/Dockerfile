@@ -17,7 +17,7 @@ USER dashuser
 WORKDIR /app
 
 USER root
-RUN pnpm add -g turbo@2.11.4
+RUN pnpm add -g turbo@2.11.8
 USER dashuser
 
 COPY --chown=dashuser:nodejs . .
@@ -40,7 +40,7 @@ COPY --from=builder --chown=dashuser:nodejs /app/out/pnpm-lock.yaml ./pnpm-lock.
 # --ignore-scripts: the `prepare` hooks (panda codegen) need the sources, which are only
 # copied below. Codegen runs as the turbo `codegen` task during the build.
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store,uid=1001,gid=1001 \
-    pnpm install --prefer-offline --ignore-scripts
+    pnpm install --prefer-offline --store-dir=/pnpm/store --ignore-scripts
 
 COPY --from=builder --chown=dashuser:nodejs /app/out/full/ .
 RUN pnpm rebuild
@@ -55,7 +55,8 @@ ARG VITE_APP_URL
 ENV VITE_API_URL=${VITE_API_URL}
 ENV VITE_APP_URL=${VITE_APP_URL}
 
-RUN pnpm turbo run build
+RUN --mount=type=cache,id=turbo-dashboard,target=/app/.turbo/cache,uid=1001,gid=1001 \
+    pnpm turbo run build
 
 # The build emits a self-contained Nitro server in apps/dashboard/.output
 # (preset `node-server`, see vite.config.ts): dependencies are bundled, so the

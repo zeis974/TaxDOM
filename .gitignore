@@ -8,7 +8,11 @@ node_modules
 __pycache__
 
 # Testing
-/coverage
+coverage
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
 
 # Misc
 .DS_Store
