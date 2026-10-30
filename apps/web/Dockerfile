@@ -51,6 +51,8 @@ RUN --mount=type=cache,id=turbo-web,target=/app/.turbo/cache,uid=1001,gid=1001 \
     --mount=type=cache,id=next-web,target=/app/apps/web/.next/cache,uid=1001,gid=1001 \
     --mount=type=secret,id=NEXT_PUBLIC_TURNSTILE_SITE_KEY,env=NEXT_PUBLIC_TURNSTILE_SITE_KEY \
     --mount=type=secret,id=NEXT_PUBLIC_API_URL,env=NEXT_PUBLIC_API_URL \
+    --mount=type=secret,id=NEXT_PUBLIC_UMAMI_SCRIPT_URL,env=NEXT_PUBLIC_UMAMI_SCRIPT_URL \
+    --mount=type=secret,id=NEXT_PUBLIC_UMAMI_WEBSITE_ID,env=NEXT_PUBLIC_UMAMI_WEBSITE_ID \
     pnpm turbo run build
 
 FROM base AS runner

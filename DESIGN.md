@@ -146,7 +146,7 @@ TaxDOM is a professional customs tax calculator for overseas maritime operations
 
 The design system spans three applications:
 - **Public web** (Next.js 16): consumer-facing interface for tax simulators
-- **Admin dashboard** (TanStack Start): back-office for managing products, categories, origins, and carriers
+- **Admin dashboard** (TanStack Start + Nitro): back-office for managing products, categories, origins, and carriers
 - **Blog** (Astro 7): editorial content and documentation
 
 Full dark mode support is provided via Panda CSS semantic tokens. All color tokens automatically flip between their `base` (light) and `_dark` values.
