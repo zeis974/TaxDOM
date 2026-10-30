@@ -18,7 +18,6 @@ FROM base AS pruner
 WORKDIR /app
 ARG TURBO_VERSION
 RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
-    --mount=type=cache,id=pnpm,target=/pnpm/store \
     pnpm add -g turbo@${TURBO_VERSION}
 COPY . .
 RUN turbo prune @taxdom/dashboard --docker
