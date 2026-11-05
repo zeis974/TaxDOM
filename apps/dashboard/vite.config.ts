@@ -8,7 +8,9 @@ export default defineConfig({
   resolve: {
     tsconfigPaths: true,
   },
-  // Nitro (`node-server` preset) builds the production server into
-  // .output/server/index.mjs — a self-contained Node server, run with `pnpm start`.
+  server: {
+    port: 5173,
+    strictPort: true,
+  },
   plugins: [pandacss(), tanstackStart(), nitro({ preset: "node-server" }), react()],
 })
