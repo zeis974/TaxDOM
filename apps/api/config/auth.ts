@@ -27,7 +27,7 @@ export const auth = betterAuth({
   },
   account: {
     accountLinking: {
-      trustedProviders: ["google"],
+      enabled: false,
     },
   },
   plugins: [
@@ -36,10 +36,9 @@ export const auth = betterAuth({
     }),
   ],
   session: {
-    cookieCache: {
-      enabled: true,
-      maxAge: 300,
-    },
+    // No cookie cache: every session check reads the database, so a revoked
+    // session or a banned user loses access on the next request.
+    cookieCache: { enabled: false },
   },
   databaseHooks: {
     user: {
