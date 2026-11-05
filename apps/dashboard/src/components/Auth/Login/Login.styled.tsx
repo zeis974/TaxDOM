@@ -81,6 +81,18 @@ export const Button = styled("button", {
   },
 })
 
+export const ErrorMessage = styled("p", {
+  base: {
+    margin: "0",
+    padding: "{spacing.s12} {spacing.md}",
+    borderRadius: "{radii.md}",
+    background: "{colors.errorBg}",
+    color: "{colors.errorFg}",
+    fontSize: "{fontSizes.body-sm}",
+    textAlign: "center",
+  },
+})
+
 export const Icon = styled("svg", {
   base: {
     width: "20px",
