@@ -2,10 +2,13 @@ import { drizzleAdapter } from "@better-auth/drizzle-adapter"
 import { betterAuth } from "better-auth/minimal"
 import { admin } from "better-auth/plugins"
 
+import { assertAdminAccess, parseAdminEmails } from "../app/lib/admin_access.js"
 import { VISITOR_IP_HEADER } from "../app/lib/ip.js"
 import * as schema from "../database/auth-schema.js"
 import env from "../start/env.js"
 import { db } from "./database.js"
+
+export const adminEmails = parseAdminEmails(env.get("ADMIN_EMAILS"))
 
 export const auth = betterAuth({
   appName: "TaxDOM",
@@ -36,6 +39,25 @@ export const auth = betterAuth({
     cookieCache: {
       enabled: true,
       maxAge: 300,
+    },
+  },
+  databaseHooks: {
+    user: {
+      create: {
+        before: async (user) => {
+          assertAdminAccess(user, adminEmails)
+          return { data: { ...user, role: "admin" } }
+        },
+      },
+    },
+    session: {
+      create: {
+        // Blocks existing accounts whose email is no longer listed.
+        before: async (session, ctx) => {
+          const user = await ctx?.context.internalAdapter.findUserById(session.userId)
+          assertAdminAccess(user, adminEmails)
+        },
+      },
     },
   },
   socialProviders: {
