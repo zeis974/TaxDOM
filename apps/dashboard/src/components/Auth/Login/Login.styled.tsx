@@ -81,6 +81,14 @@ export const Button = styled("button", {
   },
 })
 
+export const Icon = styled("svg", {
+  base: {
+    width: "20px",
+    height: "20px",
+    flexShrink: "0",
+  },
+})
+
 export const ErrorMessage = styled("p", {
   base: {
     margin: "0",
@@ -90,14 +98,6 @@ export const ErrorMessage = styled("p", {
     color: "{colors.errorFg}",
     fontSize: "{fontSizes.body-sm}",
     textAlign: "center",
-  },
-})
-
-export const Icon = styled("svg", {
-  base: {
-    width: "20px",
-    height: "20px",
-    flexShrink: "0",
   },
 })
 
