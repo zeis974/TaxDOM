@@ -6,7 +6,6 @@ interface ServerSession {
     email: string
     image?: string | null
     name?: string | null
-    role?: string | null
   }
 }
 
@@ -31,9 +30,7 @@ export const getServerSession = createServerFn({ method: "GET" }).handler(
       }
 
       const data = (await response.json()) as { user?: ServerSession["user"] } | null
-      // Only admins use the dashboard: any other session counts as none, so both
-      // layouts agree and a non-admin stays on the login page.
-      return data?.user?.role === "admin" ? { user: data.user } : null
+      return data?.user ? { user: data.user } : null
     } catch {
       // API unreachable, timed out, or returned a non-JSON body — treat as no session.
       return null
