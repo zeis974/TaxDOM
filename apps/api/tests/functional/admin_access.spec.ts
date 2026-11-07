@@ -1,4 +1,6 @@
 import { randomUUID } from "node:crypto"
+import type { AuthContext } from "@better-auth/core"
+import { runWithEndpointContext } from "@better-auth/core/context"
 import { test } from "@japa/runner"
 import { makeSignature } from "better-auth/crypto"
 
@@ -15,12 +17,17 @@ const GOOGLE_SIGN_UP = { method: "oauth", oauth: { providerId: "google" } }
  * Inserts the user and its session directly: the Better Auth hooks would refuse the cases
  * this suite needs, such as an admin whose email has since left `ADMIN_EMAILS`.
  */
+async function insertUser(email: string) {
+  const userId = randomUUID()
+  await db.insert(user).values({ id: userId, name: "Test", email, emailVerified: true })
+  return userId
+}
+
 async function signIn(email: string) {
   const context = await auth.$context
-  const userId = randomUUID()
+  const userId = await insertUser(email)
   const token = randomUUID()
 
-  await db.insert(user).values({ id: userId, name: "Test", email, emailVerified: true })
   await db.insert(session).values({
     id: randomUUID(),
     token,
@@ -60,6 +67,38 @@ test.group("Admin access: account creation", (group) => {
 
     assert.equal(error?.body?.code, ADMIN_ACCESS_DENIED)
     assert.lengthOf(await db.select().from(user), 0)
+  })
+})
+
+/** Creates a session the way an OAuth callback does, inside a Better Auth endpoint context. */
+async function createSession(userId: string) {
+  const context = await auth.$context
+  // `$context` is typed against this config's options, the endpoint context against the generic ones.
+  return runWithEndpointContext({ context: context as unknown as AuthContext }, () =>
+    context.internalAdapter.createSession(userId),
+  )
+}
+
+test.group("Admin access: sign-in", (group) => {
+  group.each.setup(() => truncateDatabase())
+
+  test("opens a session for a listed email", async ({ assert }) => {
+    const userId = await insertUser(LISTED_EMAIL)
+
+    const created = await createSession(userId)
+
+    assert.equal(created.userId, userId)
+  })
+
+  test("refuses a session to an account removed from the allowlist", async ({ assert }) => {
+    const userId = await insertUser("former-admin@example.com")
+
+    const error = await createSession(userId)
+      .then(() => null)
+      .catch((reason: { body?: { code?: string } }) => reason)
+
+    assert.equal(error?.body?.code, ADMIN_ACCESS_DENIED)
+    assert.lengthOf(await db.select().from(session), 0)
   })
 })
 
