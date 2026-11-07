@@ -1,8 +1,9 @@
 import { drizzleAdapter } from "@better-auth/drizzle-adapter"
+import type { BetterAuthOptions } from "better-auth"
 import { betterAuth } from "better-auth/minimal"
-import { admin } from "better-auth/plugins"
+import { admin, customSession } from "better-auth/plugins"
 
-import { assertAdminAccess, parseAdminEmails } from "../app/lib/admin_access.js"
+import { assertAdminAccess, isDashboardAdmin, parseAdminEmails } from "../app/lib/admin_access.js"
 import { VISITOR_IP_HEADER } from "../app/lib/ip.js"
 import * as schema from "../database/auth-schema.js"
 import env from "../start/env.js"
@@ -10,7 +11,7 @@ import { db } from "./database.js"
 
 export const adminEmails = parseAdminEmails(env.get("ADMIN_EMAILS"))
 
-export const auth = betterAuth({
+const authOptions = {
   appName: "TaxDOM",
   database: drizzleAdapter(db, {
     provider: "pg",
@@ -66,4 +67,20 @@ export const auth = betterAuth({
       clientSecret: env.get("GOOGLE_CLIENT_SECRET"),
     },
   },
+} satisfies BetterAuthOptions
+
+export const auth = betterAuth({
+  ...authOptions,
+  plugins: [
+    ...authOptions.plugins,
+    // Filters both `get-session` (dashboard) and `auth.api.getSession` (admin middleware).
+    customSession(
+      async ({ user, session }) =>
+        (isDashboardAdmin(user, adminEmails) ? { user, session } : null) as {
+          user: typeof user
+          session: typeof session
+        },
+      authOptions,
+    ),
+  ],
 })
