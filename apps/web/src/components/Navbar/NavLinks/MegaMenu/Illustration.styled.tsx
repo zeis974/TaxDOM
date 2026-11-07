@@ -1,14 +1,14 @@
 import { styled } from "@/panda/jsx"
 
-// Text is set explicitly so `currentColor` stays the tool accent for bars, dots and swatches
+// Text is set explicitly so `currentColor` stays the tool accent for bars, dots and swatches.
+// Anchored to the bottom so the card never moves when the description wraps differently.
 export const Scene = styled("div", {
   base: {
     position: "absolute",
     left: "{spacing.lg}",
-    right: "calc({spacing.lg} * -1)",
-    bottom: "calc({spacing.lg} * -1)",
-    height: "300px",
-    perspective: "1000px",
+    right: "0",
+    bottom: "0",
+    height: "calc({spacing.xl} * 10)",
     pointerEvents: "none",
     color: "{colors.primary}",
     '&[data-variant="orange"]': {
@@ -26,25 +26,32 @@ export const Scene = styled("div", {
     '&[data-variant="pink"]': {
       color: "{colors.accentPink}",
     },
+    // Accent glow behind the cards
+    "&::before": {
+      content: '""',
+      position: "absolute",
+      inset: "calc({spacing.xl} * -2) 0 0 calc({spacing.xl} * -2)",
+      background:
+        "radial-gradient(closest-side, color-mix(in srgb, currentColor 22%, transparent), transparent)",
+    },
   },
 })
 
+// No text on the back card, only placeholder bars hinting at a second screen
 export const BackCard = styled("div", {
   base: {
     position: "absolute",
     top: "0",
-    left: "calc({spacing.xl} * 2)",
+    left: "calc({spacing.xl} * 3)",
+    right: "calc({spacing.xl} * -1)",
     display: "flex",
     flexDirection: "column",
-    gap: "{spacing.sm}",
-    width: "280px",
-    height: "160px",
+    gap: "{spacing.s12}",
+    height: "calc({spacing.xl} * 6)",
     padding: "{spacing.md}",
     border: "1px solid color-mix(in srgb, {colors.border} 30%, transparent)",
     borderRadius: "{radii.lg}",
-    background: "{colors.background}",
-    opacity: "0.6",
-    transform: "rotateX(8deg) rotateY(-16deg) rotateZ(3deg)",
+    background: "color-mix(in srgb, {colors.background} 60%, {colors.elevated})",
   },
 })
 
@@ -56,14 +63,15 @@ export const Card = styled("div", {
     display: "flex",
     flexDirection: "column",
     gap: "{spacing.s12}",
-    width: "300px",
+    width: "calc({spacing.xl} * 10)",
+    // Runs past the bottom edge so shorter bodies never leave an empty card foot
+    height: "calc({spacing.xl} * 10)",
     padding: "{spacing.md}",
+    overflow: "hidden",
     border: "1px solid color-mix(in srgb, {colors.border} 30%, transparent)",
     borderRadius: "{radii.lg}",
     background: "{colors.background}",
-    boxShadow: "0 24px 48px -16px {colors.shadow}",
-    transform: "rotateX(8deg) rotateY(-16deg) rotateZ(3deg)",
-    transformOrigin: "left bottom",
+    boxShadow: "0 24px 48px -16px {colors.shadow}, 0 4px 12px -4px {colors.shadow}",
   },
 })
 
@@ -76,8 +84,8 @@ export const Header = styled("div", {
     fontSize: "{fontSizes.body-sm}",
     fontWeight: "700",
     "& svg": {
-      width: "28px",
-      height: "28px",
+      width: "{spacing.lg}",
+      height: "{spacing.lg}",
     },
   },
 })
@@ -90,6 +98,9 @@ export const Label = styled("span", {
     '&[data-weight="bold"]': {
       fontWeight: "700",
     },
+    '&[data-tone="muted"]': {
+      color: "{colors.textMuted}",
+    },
   },
 })
 
@@ -100,11 +111,12 @@ export const Bar = styled("span", {
     width: "calc({spacing.xl} * 2)",
     height: "{spacing.sm}",
     borderRadius: "{radii.full}",
-    background: "{colors.textMuted}",
-    opacity: "0.25",
+    background: "color-mix(in srgb, {colors.textMuted} 25%, transparent)",
     '&[data-tone="accent"]': {
       background: "currentColor",
-      opacity: "0.85",
+    },
+    '&[data-w="xs"]': {
+      width: "{spacing.md}",
     },
     '&[data-w="sm"]': {
       width: "{spacing.xl}",
@@ -114,6 +126,10 @@ export const Bar = styled("span", {
     },
     '&[data-w="xl"]': {
       width: "calc({spacing.xl} * 3)",
+    },
+    '&[data-w="full"]': {
+      flex: "1",
+      width: "auto",
     },
     '&[data-h="lg"]': {
       height: "{spacing.s12}",
@@ -127,6 +143,18 @@ export const Row = styled("div", {
     alignItems: "center",
     justifyContent: "space-between",
     gap: "{spacing.md}",
+    minHeight: "{spacing.s20}",
+  },
+})
+
+// Label column of fixed width so the bars line up like a chart
+export const ChartRow = styled("div", {
+  base: {
+    display: "grid",
+    gridTemplateColumns: "calc({spacing.xl} * 3) 1fr",
+    alignItems: "center",
+    gap: "{spacing.s12}",
+    minHeight: "{spacing.s20}",
   },
 })
 
@@ -138,7 +166,7 @@ export const Field = styled("div", {
     padding: "{spacing.sm} {spacing.s12}",
     border: "1px solid color-mix(in srgb, {colors.border} 40%, transparent)",
     borderRadius: "{radii.md}",
-    color: "{colors.textMuted}",
+    color: "{colors.foreground}",
     fontSize: "{fontSizes.label-md}",
     // Magnifier glyph
     "&::before": {
@@ -146,9 +174,59 @@ export const Field = styled("div", {
       flexShrink: "0",
       width: "{spacing.s12}",
       height: "{spacing.s12}",
-      border: "2px solid currentColor",
+      border: "2px solid {colors.textMuted}",
       borderRadius: "{radii.full}",
     },
+    // Text caret
+    "&::after": {
+      content: '""',
+      width: "2px",
+      height: "{spacing.md}",
+      marginLeft: "calc({spacing.xs} * -1)",
+      background: "currentColor",
+    },
+  },
+})
+
+export const Chips = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    gap: "{spacing.sm}",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.label-md}",
+  },
+})
+
+export const Chip = styled("span", {
+  base: {
+    padding: "{spacing.xs} {spacing.sm}",
+    borderRadius: "{radii.full}",
+    background: "{colors.elevated}",
+    color: "{colors.foreground}",
+    fontSize: "{fontSizes.label-md}",
+    fontWeight: "600",
+    '&[data-tone="accent"]': {
+      background: "color-mix(in srgb, currentColor 16%, {colors.background})",
+    },
+  },
+})
+
+export const Thumb = styled("span", {
+  base: {
+    flexShrink: "0",
+    width: "{spacing.s20}",
+    height: "{spacing.s20}",
+    borderRadius: "{radii.sm}",
+    background: "color-mix(in srgb, currentColor 18%, {colors.elevated})",
+  },
+})
+
+export const Item = styled("div", {
+  base: {
+    display: "flex",
+    alignItems: "center",
+    gap: "{spacing.sm}",
   },
 })
 
@@ -171,7 +249,7 @@ export const Column = styled("div", {
   base: {
     display: "flex",
     flexDirection: "column",
-    gap: "{spacing.sm}",
+    gap: "{spacing.s12}",
     padding: "{spacing.s12}",
     borderRadius: "{radii.md}",
     background: "{colors.elevated}",
@@ -183,26 +261,28 @@ export const Chart = styled("div", {
     display: "flex",
     alignItems: "flex-end",
     gap: "{spacing.xs}",
-    height: "calc({spacing.xl} + {spacing.md})",
+    height: "calc({spacing.xl} * 3)",
+    borderBottom: "1px solid color-mix(in srgb, {colors.border} 40%, transparent)",
   },
 })
 
 export const Pillar = styled("span", {
   base: {
-    width: "{spacing.s12}",
+    flex: "1",
     height: "{spacing.md}",
-    borderRadius: "{radii.sm}",
-    background: "{colors.textMuted}",
-    opacity: "0.3",
+    borderRadius: "{radii.sm} {radii.sm} 0 0",
+    background: "color-mix(in srgb, {colors.textMuted} 30%, transparent)",
     '&[data-tone="accent"]': {
       background: "currentColor",
-      opacity: "0.85",
     },
-    '&[data-h="md"]': {
+    '&[data-h="sm"]': {
       height: "{spacing.xl}",
     },
+    '&[data-h="md"]': {
+      height: "calc({spacing.xl} * 2)",
+    },
     '&[data-h="lg"]': {
-      height: "calc({spacing.xl} + {spacing.md})",
+      height: "calc({spacing.xl} * 2 + {spacing.md})",
     },
   },
 })
@@ -212,6 +292,7 @@ export const Route = styled("div", {
     display: "flex",
     alignItems: "center",
     gap: "{spacing.sm}",
+    minHeight: "{spacing.s20}",
   },
 })
 
@@ -231,8 +312,7 @@ export const Dot = styled("span", {
 export const Line = styled("span", {
   base: {
     flex: "1",
-    borderTop: "2px dashed currentColor",
-    opacity: "0.5",
+    borderTop: "2px dashed color-mix(in srgb, currentColor 50%, transparent)",
   },
 })
 
@@ -240,7 +320,7 @@ export const Tiles = styled("div", {
   base: {
     display: "grid",
     gridTemplateColumns: "repeat(3, 1fr)",
-    gap: "{spacing.s12} {spacing.sm}",
+    gap: "{spacing.sm}",
   },
 })
 
@@ -248,16 +328,18 @@ export const Tile = styled("div", {
   base: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
-    gap: "{spacing.xs}",
-    // Decorative swatch, no text sits on it
+    gap: "{spacing.sm}",
+    padding: "{spacing.sm}",
+    border: "1px solid color-mix(in srgb, currentColor 30%, transparent)",
+    borderRadius: "{radii.md}",
+    background: "color-mix(in srgb, currentColor 10%, {colors.background})",
+    // Decorative glyph
     "&::before": {
       content: '""',
-      width: "100%",
-      height: "{spacing.xl}",
-      border: "1px solid color-mix(in srgb, currentColor 35%, transparent)",
-      borderRadius: "{radii.md}",
-      background: "color-mix(in srgb, currentColor 18%, {colors.background})",
+      width: "{spacing.md}",
+      height: "{spacing.md}",
+      borderRadius: "{radii.sm}",
+      background: "currentColor",
     },
   },
 })

@@ -4,18 +4,23 @@ import {
   Bar,
   Card,
   Chart,
+  ChartRow,
+  Chip,
+  Chips,
   Column,
   Columns,
   Divider,
   Dot,
   Field,
   Header,
+  Item,
   Label,
   Line,
   Pillar,
   Route,
   Row,
   Scene,
+  Thumb,
   Tile,
   Tiles,
 } from "./Illustration.styled"
@@ -48,11 +53,14 @@ function Body({ kind }: { kind: IllustrationKind }) {
     case "rates":
       return (
         <>
-          <Field>Rechercher un produit</Field>
+          <Field>Smartphone</Field>
+          <Chips>
+            <Chip>France</Chip>→<Chip data-tone="accent">La Réunion</Chip>
+          </Chips>
           {["Octroi de mer", "OMR", "TVA"].map((label, i) => (
             <Row key={label}>
               <Label>{label}</Label>
-              <Bar data-tone="accent" data-w={i === 1 ? "sm" : "md"} />
+              <Bar data-tone="accent" data-w={["md", "sm", "xl"][i]} />
             </Row>
           ))}
         </>
@@ -60,16 +68,23 @@ function Body({ kind }: { kind: IllustrationKind }) {
     case "parcel":
       return (
         <>
-          {["Produits", "Transport", "Taxes"].map((label, i) => (
+          {["Casque audio", "Baskets", "Livres"].map((label, i) => (
             <Row key={label}>
-              <Label>{label}</Label>
+              <Item>
+                <Thumb />
+                <Label>{label}</Label>
+              </Item>
               <Bar data-w={i === 1 ? "sm" : "md"} />
             </Row>
           ))}
+          <Row>
+            <Label data-tone="muted">Transport et taxes</Label>
+            <Bar data-w="sm" />
+          </Row>
           <Divider />
           <Row>
             <Label data-weight="bold">Total</Label>
-            <Bar data-tone="accent" data-h="lg" />
+            <Bar data-tone="accent" data-w="xl" data-h="lg" />
           </Row>
         </>
       )
@@ -85,6 +100,7 @@ function Body({ kind }: { kind: IllustrationKind }) {
                   <Pillar key={j} data-h={h} data-tone={i === 0 ? "accent" : undefined} />
                 ))}
               </Chart>
+              <Bar data-w={i === 0 ? "md" : "sm"} />
             </Column>
           ))}
         </Columns>
@@ -94,10 +110,12 @@ function Body({ kind }: { kind: IllustrationKind }) {
         ["Chine", "La Réunion"],
         ["France", "Guadeloupe"],
         ["Brésil", "Guyane"],
+        ["Inde", "Mayotte"],
+        ["Italie", "Martinique"],
       ].map(([from, to]) => (
         <Route key={from}>
           <Dot data-tone="neutral" />
-          <Label>{from}</Label>
+          <Label data-tone="muted">{from}</Label>
           <Line />
           <Label data-weight="bold">{to}</Label>
           <Dot />
@@ -105,18 +123,25 @@ function Body({ kind }: { kind: IllustrationKind }) {
       ))
     case "territories":
       return ["Guadeloupe", "Martinique", "Guyane", "La Réunion", "Mayotte"].map((label, i) => (
-        <Row key={label}>
-          <Route>
-            <Dot />
-            <Label>{label}</Label>
-          </Route>
-          <Bar data-w={i % 2 ? "sm" : "md"} />
-        </Row>
+        <ChartRow key={label}>
+          <Label>{label}</Label>
+          <Bar data-tone="accent" data-w={["xl", "md", "xl", "md", "sm"][i]} />
+        </ChartRow>
       ))
     case "categories":
       return (
         <Tiles>
-          {["Électronique", "Textile", "Alimentaire", "Beauté", "Maison", "Jouets"].map((label) => (
+          {[
+            "Électronique",
+            "Textile",
+            "Alimentaire",
+            "Beauté",
+            "Maison",
+            "Jouets",
+            "Sport",
+            "Auto",
+            "Jardin",
+          ].map((label) => (
             <Tile key={label}>
               <Label>{label}</Label>
             </Tile>
@@ -139,8 +164,13 @@ export default function Illustration({
     <Scene data-variant={accents[kind]} aria-hidden="true">
       <BackCard>
         <Bar data-w="md" />
-        <Bar data-w="xl" />
-        <Bar data-w="sm" />
+        {["xl", "md", "xl"].map((w, i) => (
+          // biome-ignore lint/suspicious/noArrayIndexKey: static decorative bars
+          <Row key={i}>
+            <Bar data-w="full" />
+            <Bar data-w={w} />
+          </Row>
+        ))}
       </BackCard>
       <Card>
         <Header>
