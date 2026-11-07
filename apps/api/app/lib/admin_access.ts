@@ -22,22 +22,18 @@ export function isAdminEmail(email: string, adminEmails: ReadonlySet<string>) {
 
 type AccessUser = { email: string; emailVerified: boolean }
 
-function isAllowedUser(user: AccessUser | null | undefined, adminEmails: ReadonlySet<string>) {
-  return Boolean(user?.emailVerified && isAdminEmail(user.email, adminEmails))
-}
-
 export function isDashboardAdmin(
-  user: (AccessUser & { role?: string | null }) | null | undefined,
+  user: AccessUser | null | undefined,
   adminEmails: ReadonlySet<string>,
 ) {
-  return user?.role === "admin" && isAllowedUser(user, adminEmails)
+  return Boolean(user?.emailVerified && isAdminEmail(user.email, adminEmails))
 }
 
 export function assertAdminAccess(
   user: AccessUser | null | undefined,
   adminEmails: ReadonlySet<string>,
 ) {
-  if (!isAllowedUser(user, adminEmails)) {
+  if (!isDashboardAdmin(user, adminEmails)) {
     throw APIError.from("FORBIDDEN", {
       code: ADMIN_ACCESS_DENIED,
       message: "This account is not allowed to access the dashboard",

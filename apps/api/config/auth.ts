@@ -1,7 +1,6 @@
 import { drizzleAdapter } from "@better-auth/drizzle-adapter"
-import type { BetterAuthOptions } from "better-auth"
 import { betterAuth } from "better-auth/minimal"
-import { admin, customSession } from "better-auth/plugins"
+import { customSession } from "better-auth/plugins"
 
 import { assertAdminAccess, isDashboardAdmin, parseAdminEmails } from "../app/lib/admin_access.js"
 import { VISITOR_IP_HEADER } from "../app/lib/ip.js"
@@ -11,7 +10,7 @@ import { db } from "./database.js"
 
 export const adminEmails = parseAdminEmails(env.get("ADMIN_EMAILS"))
 
-const authOptions = {
+export const auth = betterAuth({
   appName: "TaxDOM",
   database: drizzleAdapter(db, {
     provider: "pg",
@@ -32,13 +31,18 @@ const authOptions = {
     },
   },
   plugins: [
-    admin({
-      defaultRole: "user",
-    }),
+    // Filters both `get-session` (dashboard) and `auth.api.getSession` (admin middleware).
+    customSession(
+      async ({ user, session }) =>
+        (isDashboardAdmin(user, adminEmails) ? { user, session } : null) as {
+          user: typeof user
+          session: typeof session
+        },
+    ),
   ],
   session: {
     // No cookie cache: every session check reads the database, so a revoked
-    // session or a banned user loses access on the next request.
+    // session or a deleted user loses access on the next request.
     cookieCache: { enabled: false },
   },
   databaseHooks: {
@@ -46,7 +50,6 @@ const authOptions = {
       create: {
         before: async (user) => {
           assertAdminAccess(user, adminEmails)
-          return { data: { ...user, role: "admin" } }
         },
       },
     },
@@ -67,20 +70,4 @@ const authOptions = {
       clientSecret: env.get("GOOGLE_CLIENT_SECRET"),
     },
   },
-} satisfies BetterAuthOptions
-
-export const auth = betterAuth({
-  ...authOptions,
-  plugins: [
-    ...authOptions.plugins,
-    // Filters both `get-session` (dashboard) and `auth.api.getSession` (admin middleware).
-    customSession(
-      async ({ user, session }) =>
-        (isDashboardAdmin(user, adminEmails) ? { user, session } : null) as {
-          user: typeof user
-          session: typeof session
-        },
-      authOptions,
-    ),
-  ],
 })

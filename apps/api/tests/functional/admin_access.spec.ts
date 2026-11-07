@@ -9,17 +9,18 @@ import { ADMIN_ACCESS_DENIED } from "#lib/admin_access"
 import { truncateDatabase } from "#tests/helpers/database"
 
 const LISTED_EMAIL = "admin@example.com"
+const GOOGLE_SIGN_UP = { method: "oauth", oauth: { providerId: "google" } }
 
 /**
  * Inserts the user and its session directly: the Better Auth hooks would refuse the cases
  * this suite needs, such as an admin whose email has since left `ADMIN_EMAILS`.
  */
-async function signIn(email: string, role: string) {
+async function signIn(email: string) {
   const context = await auth.$context
   const userId = randomUUID()
   const token = randomUUID()
 
-  await db.insert(user).values({ id: userId, name: "Test", email, emailVerified: true, role })
+  await db.insert(user).values({ id: userId, name: "Test", email, emailVerified: true })
   await db.insert(session).values({
     id: randomUUID(),
     token,
@@ -35,23 +36,25 @@ async function signIn(email: string, role: string) {
 test.group("Admin access: account creation", (group) => {
   group.each.setup(() => truncateDatabase())
 
-  test("creates a listed email as an admin", async ({ assert }) => {
+  test("creates an account for a listed email", async ({ assert }) => {
     const context = await auth.$context
 
-    const created = await context.internalAdapter.createUser({
-      email: LISTED_EMAIL,
-      name: "Admin",
-      emailVerified: true,
-    })
+    const created = await context.internalAdapter.createUser(
+      { email: LISTED_EMAIL, name: "Admin", emailVerified: true },
+      GOOGLE_SIGN_UP,
+    )
 
-    assert.equal(created.role, "admin")
+    assert.equal(created.email, LISTED_EMAIL)
   })
 
   test("refuses an unlisted email", async ({ assert }) => {
     const context = await auth.$context
 
     const error = await context.internalAdapter
-      .createUser({ email: "intruder@example.com", name: "Intruder", emailVerified: true })
+      .createUser(
+        { email: "intruder@example.com", name: "Intruder", emailVerified: true },
+        GOOGLE_SIGN_UP,
+      )
       .then(() => null)
       .catch((reason: { body?: { code?: string } }) => reason)
 
@@ -64,7 +67,7 @@ test.group("Admin access: sessions", (group) => {
   group.each.setup(() => truncateDatabase())
 
   test("lets a listed admin reach the admin API", async ({ client }) => {
-    const cookie = await signIn(LISTED_EMAIL, "admin")
+    const cookie = await signIn(LISTED_EMAIL)
 
     const response = await client.get("/v1/admin/territories").header("cookie", cookie)
 
@@ -72,7 +75,7 @@ test.group("Admin access: sessions", (group) => {
   })
 
   test("drops the session of an admin removed from the allowlist", async ({ client, assert }) => {
-    const cookie = await signIn("former-admin@example.com", "admin")
+    const cookie = await signIn("former-admin@example.com")
 
     const sessionResponse = await client.get("/auth/get-session").header("cookie", cookie)
     assert.isNull(sessionResponse.body())
@@ -81,11 +84,14 @@ test.group("Admin access: sessions", (group) => {
     response.assertStatus(401)
   })
 
-  test("drops the session of a listed email without the admin role", async ({ client }) => {
-    const cookie = await signIn(LISTED_EMAIL, "user")
+  test("exposes no user management endpoint", async ({ client }) => {
+    const cookie = await signIn(LISTED_EMAIL)
 
-    const response = await client.get("/v1/admin/territories").header("cookie", cookie)
+    const response = await client
+      .post("/auth/admin/update-user")
+      .header("cookie", cookie)
+      .json({ userId: "any", data: { email: "other@example.com" } })
 
-    response.assertStatus(401)
+    response.assertStatus(404)
   })
 })

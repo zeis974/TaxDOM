@@ -39,7 +39,6 @@ export default class Auth {
     ctx.authenticatedUser = {
       id: session.user.id,
       email: session.user.email,
-      role: session.user.role ?? null,
     }
 
     return next()
