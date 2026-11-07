@@ -2,106 +2,51 @@ import { styled } from "@/panda/jsx"
 
 export const Layout = styled("div", {
   base: {
-    display: "flex",
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    gap: "{spacing.md}",
     minHeight: "100dvh",
-    flexDirection: "row",
+    padding: "{spacing.md}",
+    background: "{colors.background}",
+    "@media (width < 900px)": {
+      gridTemplateColumns: "1fr",
+      background:
+        "linear-gradient(180deg, color-mix(in srgb, {colors.primary} 22%, {colors.background}) 0%, {colors.background} 70%)",
+    },
   },
 })
 
-export const LeftPanel = styled("div", {
+export const FormPanel = styled("div", {
   base: {
-    flex: "1",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-between",
-    maxWidth: "50%",
-  },
-})
-
-export const RightPanel = styled("div", {
-  base: {
-    display: "flex",
-    flex: "1",
-    position: "relative",
-    justifyContent: "center",
-    alignItems: "center",
-    background: "{colors.primary}",
-  },
-})
-
-export const Header = styled("header", {
-  base: {
-    display: "flex",
-    alignItems: "center",
-    gap: "0.75rem",
-    padding: "0 1rem",
-  },
-})
-
-export const LogoCircle = styled("div", {
-  base: {
-    width: "2rem",
-    height: "2rem",
-    borderRadius: "{radii.full}",
-    backgroundColor: "{colors.border}",
-    border: "4px solid",
-    borderColor: "{colors.elevated}",
-  },
-})
-
-export const BrandName = styled("span", {
-  base: {
-    fontSize: "1.25rem",
-    fontWeight: "600",
-    color: "{colors.foreground}",
-    fontFamily: "{fonts.rowdies}",
-    letterSpacing: "tight",
-  },
-})
-
-export const MainContent = styled("main", {
-  base: {
-    flex: "1 1 auto",
-    display: "flex",
-    flexDirection: "column",
+    padding: "{spacing.s12} {spacing.lg}",
     justifyContent: "center",
   },
 })
 
-export const FormContainer = styled("div", {
+export const BrandName = styled("h1", {
   base: {
-    width: "100%",
-    maxWidth: "380px",
+    margin: "0",
     textAlign: "center",
-    margin: "0 auto",
-    display: "flex",
-    flexDirection: "column",
-    gap: "2rem",
-  },
-})
-
-export const TitleSection = styled("div", {
-  base: {
-    display: "flex",
-    flexDirection: "column",
-    gap: "0.5rem",
-  },
-})
-
-export const Title = styled("h1", {
-  base: {
-    fontSize: "1.875rem",
-    fontWeight: "bold",
+    fontSize: "clamp(2rem, 1.75rem + 0.75vw, 2.5rem)",
+    fontFamily: "{fonts.rowdies}",
     color: "{colors.foreground}",
     letterSpacing: "tight",
-    lineHeight: "1.2",
   },
 })
 
-export const Subtitle = styled("p", {
+export const Main = styled("main", {
   base: {
-    fontSize: "1rem",
-    color: "{colors.textMuted}",
+    flex: "1",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    gap: "{spacing.xl}",
+    width: "100%",
+    maxWidth: "360px",
+    margin: "0 auto",
+    paddingBottom: "{spacing.xl}",
   },
 })
 
@@ -110,39 +55,27 @@ export const Button = styled("button", {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    gap: "0.75rem",
+    gap: "{spacing.s12}",
     width: "100%",
-    padding: "0.875rem 1rem",
-    backgroundColor: "{colors.background}",
-    border: "1px solid",
-    borderColor: "{colors.elevated}",
-    borderRadius: "0.5rem",
-    fontSize: "1rem",
-    fontWeight: "500",
+    padding: "{spacing.s12} {spacing.md}",
+    background: "color-mix(in srgb, {colors.foreground} 14%, transparent)",
+    border: "1px solid transparent",
+    borderRadius: "{radii.md}",
+    fontFamily: "{fonts.nativeFont}",
+    fontSize: "{fontSizes.body-sm}",
+    fontWeight: "600",
     color: "{colors.foreground}",
     cursor: "pointer",
-    transition: "all 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
-    boxShadow: "0 1px 2px 0 {colors.shadow}",
-    "&:hover": {
-      backgroundColor: "{colors.elevated}",
-      borderColor: "{colors.textMuted}",
-      boxShadow: "0 4px 6px -1px {colors.shadow}",
-      transform: "translateY(-1px)",
-    },
-    "&:active": {
-      transform: "translateY(0)",
-      boxShadow: "0 1px 2px 0 {colors.shadow}",
-      backgroundColor: "{colors.elevated}",
+    transition: "all 150ms ease",
+    "&:hover:not(:disabled)": {
+      background: "color-mix(in srgb, {colors.foreground} 22%, transparent)",
     },
     "&:disabled": {
       opacity: "0.6",
       cursor: "not-allowed",
-      transform: "none",
-      boxShadow: "none",
     },
     "&:focus-visible": {
-      outline: "2px solid",
-      outlineColor: "{colors.foreground}",
+      outline: "2px solid {colors.primary}",
       outlineOffset: "2px",
     },
   },
@@ -150,54 +83,133 @@ export const Button = styled("button", {
 
 export const Icon = styled("svg", {
   base: {
-    width: "1.25rem",
-    height: "1.25rem",
+    width: "20px",
+    height: "20px",
+    flexShrink: "0",
   },
 })
 
-export const FooterLink = styled("a", {
+export const ShowcasePanel = styled("aside", {
   base: {
-    color: "{colors.foreground}",
-    fontWeight: "500",
-    textDecoration: "none",
-    "&:hover": {
-      textDecoration: "underline",
+    position: "relative",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: "{spacing.xl}",
+    borderRadius: "{radii.lg}",
+    overflow: "hidden",
+    background:
+      "radial-gradient(circle at 50% 50%, color-mix(in srgb, {colors.primary} 16%, {colors.background}) 0%, color-mix(in srgb, {colors.primary} 8%, {colors.background}) 70%)",
+    "@media (width < 900px)": {
+      display: "none",
     },
   },
 })
 
-export const PatternOverlay = styled("div", {
+export const DOT_SPACING = 10
+
+// The resting grid is a CSS background; the canvas only draws lit dots on top of it.
+// `color` carries the lit dot color: the canvas reads it back, so it follows the theme.
+export const DotCanvas = styled("canvas", {
   base: {
     position: "absolute",
     inset: "0",
-    opacity: "0.05",
-    backgroundImage: "radial-gradient(circle at 2px 2px, white 1px, transparent 0)",
-    backgroundSize: "24px 24px",
+    width: "100%",
+    height: "100%",
+    color: "{colors.primary}",
+    backgroundImage:
+      "radial-gradient(circle, color-mix(in srgb, {colors.primary} 16%, transparent) 0.8px, transparent 1.2px)",
+    // Literal on purpose: Panda extracts styles statically. Keep in sync with DOT_SPACING.
+    backgroundSize: "10px 10px",
+    backgroundPosition: "center",
+    pointerEvents: "none",
+    maskImage: "radial-gradient(ellipse 60% 60% at 50% 50%, #000 55%, transparent 100%)",
   },
 })
 
-export const RightContent = styled("div", {
+export const Orbit = styled("div", {
   base: {
     position: "relative",
-    zIndex: "1",
-    maxWidth: "480px",
-    textAlign: "left",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "min(80%, 480px, 60dvh)",
+    aspectRatio: "1",
   },
 })
 
-export const RightTitle = styled("h2", {
+export const Ring = styled("div", {
   base: {
-    fontSize: "1.875rem",
-    fontWeight: "bold",
-    color: "white",
-    marginBottom: "1rem",
-    lineHeight: "1.3",
+    position: "absolute",
+    borderRadius: "{radii.full}",
+    border: "1px solid color-mix(in srgb, {colors.primary} 30%, transparent)",
+    animation: "popIn 800ms ease-out both, rotate 90s linear infinite",
+    "@media (prefers-reduced-motion: reduce)": {
+      animation: "none",
+    },
+  },
+  variants: {
+    // Rings grow outward from the core, one after another.
+    position: {
+      inner: { animationDelay: "100ms, 0s" },
+      outer: { animationDelay: "250ms, 0s" },
+    },
+    reverse: {
+      true: { animationDirection: "normal, reverse" },
+    },
   },
 })
 
-export const RightSubtitle = styled("p", {
+export const Chip = styled("div", {
   base: {
-    fontSize: "1.125rem",
-    lineHeight: "1.6",
+    position: "absolute",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "64px",
+    height: "64px",
+    marginTop: "-32px",
+    marginLeft: "-32px",
+    borderRadius: "{radii.full}",
+    background: "{colors.background}",
+    color: "{colors.foreground}",
+    animation: "popIn 400ms ease-out both, rotate 90s linear infinite reverse",
+    "@media (prefers-reduced-motion: reduce)": {
+      animation: "none",
+    },
+  },
+  variants: {
+    // Chips on a reversed ring counter-spin forward to stay upright.
+    reverse: {
+      true: { animationDirection: "normal, normal" },
+    },
+  },
+})
+
+export const ChipImage = styled("img", {
+  base: {
+    width: "40px",
+    height: "40px",
+    objectFit: "contain",
+    pointerEvents: "none",
+    userSelect: "none",
+  },
+})
+
+export const Core = styled("img", {
+  base: {
+    position: "relative",
+    width: "88px",
+    height: "88px",
+    borderRadius: "{radii.full}",
+    objectFit: "cover",
+    pointerEvents: "none",
+    userSelect: "none",
+    boxShadow:
+      "0 0 0 10px color-mix(in srgb, {colors.primary} 16%, transparent), 0 0 0 22px color-mix(in srgb, {colors.primary} 7%, transparent), 0 0 72px 12px color-mix(in srgb, {colors.primary} 45%, transparent)",
+    animation: "popIn 500ms ease-out both",
+    "@media (prefers-reduced-motion: reduce)": {
+      animation: "none",
+    },
   },
 })
