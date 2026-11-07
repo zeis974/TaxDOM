@@ -3,6 +3,8 @@ import url from "node:url"
 import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
+  // Agent rules live in the root AGENTS.md; stop `next dev` from writing apps/web/AGENTS.md
+  agentRules: false,
   output: "standalone",
   outputFileTracingRoot: path.join(url.fileURLToPath(new URL(".", import.meta.url)), "../../"),
   typedRoutes: true,

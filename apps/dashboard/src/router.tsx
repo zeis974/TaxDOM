@@ -1,6 +1,6 @@
 import { QueryClient } from "@tanstack/react-query"
 import { createRouter as createTanStackRouter } from "@tanstack/react-router"
-import { routerWithQueryClient } from "@tanstack/react-router-with-query"
+import { setupRouterSsrQueryIntegration } from "@tanstack/react-router-ssr-query"
 import { routeTree } from "./routeTree.gen"
 
 export function getRouter() {
@@ -22,7 +22,10 @@ export function getRouter() {
     scrollRestoration: true,
   })
 
-  return routerWithQueryClient(router, queryClient)
+  // __root.tsx already provides the QueryClientProvider
+  setupRouterSsrQueryIntegration({ router, queryClient, wrapQueryClient: false })
+
+  return router
 }
 
 declare module "@tanstack/react-router" {

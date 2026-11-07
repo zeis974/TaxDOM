@@ -176,8 +176,9 @@ export const ButtonStyled = styled("button", {
 <ButtonStyled data-variant={variant}>…</ButtonStyled>
 ```
 
-Attributes in use: `data-variant`, `data-active`, `data-type`, `data-status`, `data-selected`,
-`data-focus`, `data-condition`, `data-orphaned`.
+Attributes in use: `data-active`, `data-type`, `data-variant`, `data-selected`, `data-status`,
+`data-condition`, `data-option-index`, `data-available`, `data-highlighted`, `data-orphaned`,
+`data-taxes`, `data-has-products`, `data-focus`.
 
 ---
 
@@ -195,7 +196,7 @@ hand-write a `.dark &` condition.
 | `foreground` | `black` | `white` | Default text |
 | `background` | `white` | `#121212` | Page background |
 | `elevated` | `#f1f3f4` | `#1e1e1e` | Cards, sidebars, inputs |
-| `border` | `#838e96` | `#6a6a6a` | Borders, dividers |
+| `border` | `#838e96` | `#6a6a6a` | Dividers, separators, hover outlines |
 | `textMuted` | `#617087` | `#94a3b8` | Secondary text, placeholders |
 | `shadow` | `rgba(0,0,0,.1)` | `rgba(0,0,0,.5)` | Box shadows |
 | `overlay` | `rgba(15,23,42,.45)` | `rgba(0,0,0,.6)` | Modal scrims |
@@ -208,7 +209,7 @@ hand-write a `.dark &` condition.
 | Token | Light | Dark | Usage |
 |---|---|---|---|
 | `primary` | `#1f74af` | `#60a5fa` | Primary actions, links, focus |
-| `primaryHover` | `#1a6092` | `#3b82f6` | Hover on `primary` |
+| `primaryHover` | `#1a6092` | `#3b82f6` | Emphasized figures in simulator results, their hover |
 
 **Status** — always used as an `Fg` / `Bg` **pair**. Never mix one status's `Fg` with another's `Bg`.
 
@@ -258,7 +259,9 @@ whether two *surfaces* are told apart, so these need care rather than a number:
 
 - **`elevated` barely separates from `background` in dark mode** — ΔE 5.8 in CIELAB, below the
   threshold of perceptibility. A card that relies on its fill alone is effectively invisible against
-  the page at night. Always give elevated surfaces a `border` as well.
+  the page at night. Do **not** compensate with a border: components carry no border at rest.
+  Separate elevated surfaces through spacing and layout, and keep `border` for dividers and
+  interaction states (hover, focus, error).
 - **`successBg` and `warningBg` are 1.3% apart in luminance** (90.6% vs 89.3%). Desaturated — in
   greyscale, or for a viewer with severe colour vision deficiency — they are the same. Never convey a
   status by its tint alone: pair it with an icon, a label, or its `Fg` colour.
@@ -288,7 +291,7 @@ do not hardcode a px value to work around the grid.
 |---|---|---|
 | `sm` | 4px | Micro-elements, skeletons |
 | `md` | 8px | Buttons, inputs, selects |
-| `lg` | 12px | Cards, drawers, modals, nodes |
+| `lg` | 12px | Cards, modals, sidebar, flow nodes |
 | `full` | 9999px | Pills, badges, avatars |
 
 ### Typography
@@ -296,7 +299,8 @@ do not hardcode a px value to work around the grid.
 Two families only:
 
 - `nativeFont` — system stack, **all text**.
-- `rowdies` — `var(--rowdies), serif`, **the TaxDOM wordmark only**.
+- `rowdies` — `var(--rowdies), serif`, **display only**: the TaxDOM wordmark, the blog search field
+  and the headline figures of the web simulators.
 
 | Token | Value | Usage |
 |---|---|---|
@@ -315,8 +319,7 @@ Two families only:
 
 ### Keyframes
 
-`fadeIn`, `rotate`, `scale`, `skeleton`, `skeleton-shimmer`, `origins-fade-in`,
-`origins-fade-in-item`, `origins-fade-out`, `fadeInUp`.
+`fadeIn`, `rotate`, `skeleton`, `skeleton-shimmer`, `spin`, `pulse`, `highlightPulse`.
 
 ---
 
@@ -361,6 +364,7 @@ fontSize: "clamp(0.875rem, 0.85rem + 0.09vw, 1rem)",
 - [ ] `"{colors.x}"` inside `styled`, `token("colors.x")` in JS.
 - [ ] No hand-written `var(--…)` outside Astro `<style>` blocks.
 - [ ] Muted text uses `textMuted`, not `border` or `elevated`.
+- [ ] No border on a component at rest — `border` is for dividers and interaction states.
 - [ ] Interactive elements have `focus-visible`.
 - [ ] Checked in light **and** dark mode.
 - [ ] `typecheck` and `lint` pass for the affected apps.
@@ -381,8 +385,8 @@ grep -rnE '^\s*(gap|padding|margin|borderRadius): "[^"]*[0-9]+px' apps/*/src \
 `pnpm design:lint` validates `DESIGN.md` against the `@google/design.md` schema.
 
 There is currently **no automated check** for the rules above — they are reviewed by hand against
-the checklist. A known backlog exists: 224 raw spacing/radius values and 40 interactive elements
-without a `focus-visible` state.
+the checklist. A known backlog exists: 183 raw spacing/radius values (second command above) and
+interactive elements still missing a `focus-visible` state.
 
 A Panda MCP server is also available. `get_config`, `get_tokens` and `get_semantic_tokens` report
 the **resolved** theme — useful to confirm what the engine actually sees rather than what the source

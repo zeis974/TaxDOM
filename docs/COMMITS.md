@@ -39,17 +39,19 @@ type(scope): subject
 | `docs` | Documentation only |
 | `ci` | CI/CD pipeline changes |
 | `test` | Adding or fixing tests only |
-| `perf` | Performance improvement with no behavior change |
-| `style` | Formatting only, no logic change (rare — Biome handles most of this) |
 
 Stick to this list. History contains one-off outliers (`ref`, `launch`, `bump`) — those were
-mistakes, not precedent. Don't repeat them.
+mistakes, not precedent. Don't repeat them. There is no `style` type: Biome formats staged files
+in the pre-commit hook, so a formatting-only commit never happens. A performance change is a
+`refactor` (no behavior change) or a `fix` (it fixes a slowness someone hit).
 
 ### Scope
 
 The scope is the app or package the change lives in, taken from the directory structure:
 
-`api`, `web`, `dashboard`, `blog`, `ui`, `types`, `tools`.
+`api`, `web`, `dashboard`, `blog`, `ui`, `types`, `tools`, `skills`.
+
+`skills` covers the vendored agent skills under `.agents/skills`.
 
 For a change concentrated in one component or feature area, narrow the scope to that area
 instead: `fix(select): …`, `chore(panda): …`. Prefer the narrower scope whenever one applies —
@@ -82,6 +84,11 @@ feat(dashboard): render flags in origin select
 
 Each commit should build and typecheck on its own where practical. This makes `git log`,
 `git bisect`, and review readable — one concern per diff.
+
+**Unpushed commits are not frozen.** Never add a follow-up commit to fix or undo an unpushed one:
+amend it, or rewrite the local history (`git rebase -i`, `git reset --soft`) so every commit stands
+on its own. Corrections as separate commits are only acceptable once the original is pushed and
+shared.
 
 ---
 

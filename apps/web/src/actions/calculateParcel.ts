@@ -1,11 +1,13 @@
 "use server"
 
-import { ServerValidateError, createServerValidate } from "@tanstack/react-form-nextjs"
+import { createServerValidate, ServerValidateError } from "@tanstack/react-form-nextjs"
+import { headers } from "next/headers"
 
 import { validateTurnstileCaptcha } from "@/actions/validateTurnstileToken"
-import { parcelFormOpts } from "@/shared/formOpts"
 import { ParcelSimulatorSchema } from "@/components/services/ParcelSimulator/types"
 import { apiClient } from "@/lib/api/api-server"
+import { clientIpHeaders } from "@/lib/api/client-ip"
+import { parcelFormOpts } from "@/shared/formOpts"
 
 const serverValidate = createServerValidate({
   ...parcelFormOpts,
@@ -69,6 +71,7 @@ export default async function calculateParcel(_prev: unknown, formData: FormData
         transporter: parsed.transporter,
         token: parsed["cf-turnstile-response"],
       },
+      headers: clientIpHeaders(await headers()),
     })
 
     return res

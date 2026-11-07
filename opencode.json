@@ -1,8 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "instructions": [
-    "AGENTS.md"
-  ],
+  "instructions": ["AGENTS.md"],
   "mcp": {
     "better-auth": {
       "type": "remote",
@@ -11,14 +9,7 @@
     },
     "panda": {
       "type": "local",
-      "command": [
-        "pnpx",
-        "--package=@pandacss/dev",
-        "panda",
-        "mcp",
-        "--cwd",
-        "./apps/blog"
-      ],
+      "command": ["pnpx", "--package=@pandacss/mcp", "panda-mcp", "--cwd", "./apps/web"],
       "enabled": true
     }
   }

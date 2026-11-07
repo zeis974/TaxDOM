@@ -17,14 +17,6 @@ export const keyframes = defineKeyframes({
       transform: "rotate(360deg)",
     },
   },
-  scale: {
-    from: {
-      transform: "translate(-50%, -50%) scale(0.95)",
-    },
-    to: {
-      transform: "translate(-50%, -50%) scale(1)",
-    },
-  },
   // Token references, not hand-written CSS var names: apps that enable
   // `hash.cssVar` rename the variables, so `var(--colors-elevated)` resolves
   // to nothing there.
@@ -47,42 +39,15 @@ export const keyframes = defineKeyframes({
       backgroundPosition: "200% 0",
     },
   },
-  "origins-fade-in": {
+  // Uses the standalone `scale` property so it composes with a running `rotate`.
+  popIn: {
     from: {
       opacity: "0",
-      transform: "translateY(8px)",
+      scale: "0.4",
     },
     to: {
       opacity: "1",
-      transform: "translateY(0)",
-    },
-  },
-  "origins-fade-in-item": {
-    from: {
-      opacity: "0",
-      transform: "translateY(4px)",
-    },
-    to: {
-      opacity: "1",
-      transform: "translateY(0)",
-    },
-  },
-  "origins-fade-out": {
-    from: {
-      opacity: "1",
-    },
-    to: {
-      opacity: "0",
-    },
-  },
-  fadeInUp: {
-    from: {
-      opacity: "0",
-      transform: "translateY(20px)",
-    },
-    to: {
-      opacity: "1",
-      transform: "translateY(0)",
+      scale: "1",
     },
   },
   spin: {

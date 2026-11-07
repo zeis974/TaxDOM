@@ -10,3 +10,11 @@ allowBuilds:
   sharp: true
 
 minimumReleaseAge: 1440
+
+# pnpm binds optional peers to any version found in the workspace, so the api's better-auth
+# would pull in next, TanStack Start and solid-js from the other apps. None of them is used.
+overrides:
+  better-auth>next: "-"
+  better-auth>@tanstack/react-start: "-"
+  better-auth>solid-js: "-"
+  better-auth>drizzle-kit: "-"

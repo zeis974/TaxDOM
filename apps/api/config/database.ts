@@ -6,7 +6,7 @@ import env from "../start/env.js"
 
 const pool = new Pool({
   connectionString: env.get("DB_URL"),
-  ssl: env.get("NODE_ENV") !== "development",
+  ssl: env.get("NODE_ENV") === "production",
 })
 
 export const db = drizzle({ client: pool, schema })

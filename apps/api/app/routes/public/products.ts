@@ -4,6 +4,8 @@ import {
   classifyUrlDailyThrottle,
   classifyUrlThrottle,
   getProductsTaxesThrottle,
+  resolveProductDailyThrottle,
+  resolveProductThrottle,
   searchProductsDailyThrottle,
   searchProductsThrottle,
 } from "#start/limiter"
@@ -21,11 +23,11 @@ export default function registerPublicProductsRoutes(router: HttpRouterService) 
     .post("/products/taxes", [GetProductTaxesController, "handle"])
     .use([getProductsTaxesThrottle])
   // Unified resolver: parses the merchant URL slug only (no network fetch / no
-  // headless browser), but still reuses the strict per-IP + daily URL-classify
-  // limits.
+  // headless browser). Name lookups and URL lookups are throttled in separate
+  // buckets, so a burst of URL resolutions cannot lock the name form.
   router
     .post("/products/resolve", [ResolveProductTaxesController, "handle"])
-    .use([classifyUrlThrottle, classifyUrlDailyThrottle])
+    .use([resolveProductThrottle, resolveProductDailyThrottle])
   router
     .post("/products/scrape", [ScrapeProductUrlController, "handle"])
     .use([classifyUrlThrottle, classifyUrlDailyThrottle])

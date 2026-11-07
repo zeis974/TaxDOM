@@ -1,6 +1,8 @@
 import type { ApplicationService } from "@adonisjs/core/types"
 
+import { adminEmails } from "#config/auth"
 import { db } from "#config/database"
+import { revokeNonAdminSessions } from "#lib/admin_access"
 import { CategoryService } from "#services/CategoryService"
 import { CustomsNomenclaturesService } from "#services/CustomsNomenclaturesService"
 import { OriginService } from "#services/OriginService"
@@ -45,5 +47,11 @@ export default class AppProvider {
     this.app.container.singleton(TransporterService, () => {
       return new TransporterService(db)
     })
+  }
+
+  async ready() {
+    if (this.app.getEnvironment() === "web") {
+      await revokeNonAdminSessions(adminEmails)
+    }
   }
 }

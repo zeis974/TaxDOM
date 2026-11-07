@@ -5,6 +5,7 @@ import type { NextFn } from "@adonisjs/core/types/http"
 import { toNodeHandler } from "better-auth/node"
 
 import { auth } from "#config/auth"
+import { VISITOR_IP_HEADER } from "#lib/ip"
 import env from "#start/env"
 
 const ALLOWED_HEADERS = "Content-Type, Authorization"
@@ -51,6 +52,7 @@ export default class BetterAuthMiddleware {
        * Adonis's request object doesn't have this property, so we need to add it manually.
        * Using `any` here is a pragmatic choice to avoid TypeScript errors. */
       ;(req as any).originalUrl = request.url()
+      req.headers[VISITOR_IP_HEADER] = request.ip()
       await this.authHandler(req, rawRes)
     } catch (error) {
       logger.error("Error in Better Auth middleware", error)
