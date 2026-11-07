@@ -12,7 +12,7 @@ export const Nav = styled("nav", {
       display: "flex",
       position: "relative",
       "& > a": {
-        color: "{colors.primary}",
+        color: "{colors.foreground}",
         fontSize: "clamp(1.4em, 5vw, 2em)",
         fontFamily: "{fonts.rowdies}",
         position: "relative",

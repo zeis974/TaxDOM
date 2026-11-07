@@ -43,6 +43,23 @@ export default function NavLinks() {
         {/* Opens only: a tap fires mouseenter then click, so toggling would close it at once */}
         <button type="button" aria-expanded={show} onClick={() => setShow(true)}>
           Outils
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+            data-chevron
+            data-open={show}
+          >
+            <path
+              d="M6 9l6 6 6-6"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </button>
         <AnimatePresence>
           {show && <MegaMenu key="mega-menu" close={() => setShow(false)} />}
