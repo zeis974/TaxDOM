@@ -1,6 +1,11 @@
 import { test } from "@japa/runner"
 
-import { ADMIN_ACCESS_DENIED, assertAdminAccess, parseAdminEmails } from "#lib/admin_access"
+import {
+  ADMIN_ACCESS_DENIED,
+  assertAdminAccess,
+  isDashboardAdmin,
+  parseAdminEmails,
+} from "#lib/admin_access"
 
 test.group("Admin access", () => {
   const adminEmails = parseAdminEmails(" Admin@Example.com, ,second@example.com ")
@@ -23,12 +28,27 @@ test.group("Admin access", () => {
     ]
 
     for (const user of refused) {
+      let error: { body?: { code?: string } } | undefined
       try {
         assertAdminAccess(user, adminEmails)
-        assert.fail("expected the account to be refused")
-      } catch (error) {
-        assert.equal((error as { body?: { code?: string } }).body?.code, ADMIN_ACCESS_DENIED)
+      } catch (caught) {
+        error = caught as typeof error
       }
+
+      assert.equal(error?.body?.code, ADMIN_ACCESS_DENIED)
     }
+  })
+
+  test("requires the admin role on top of a listed email", ({ assert }) => {
+    const listed = { email: "admin@example.com", emailVerified: true }
+
+    assert.isTrue(isDashboardAdmin({ ...listed, role: "admin" }, adminEmails))
+    assert.isFalse(isDashboardAdmin({ ...listed, role: "user" }, adminEmails))
+    assert.isFalse(
+      isDashboardAdmin(
+        { email: "former@example.com", emailVerified: true, role: "admin" },
+        adminEmails,
+      ),
+    )
   })
 })
