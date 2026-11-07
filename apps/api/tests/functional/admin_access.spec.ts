@@ -2,13 +2,13 @@ import { randomUUID } from "node:crypto"
 import { test } from "@japa/runner"
 import { makeSignature } from "better-auth/crypto"
 
-import { auth } from "#config/auth"
+import { adminEmails, auth } from "#config/auth"
 import { db } from "#config/database"
 import { session, user } from "#database/auth-schema"
 import { ADMIN_ACCESS_DENIED } from "#lib/admin_access"
 import { truncateDatabase } from "#tests/helpers/database"
 
-const LISTED_EMAIL = "admin@example.com"
+const [LISTED_EMAIL] = adminEmails
 const GOOGLE_SIGN_UP = { method: "oauth", oauth: { providerId: "google" } }
 
 /**
