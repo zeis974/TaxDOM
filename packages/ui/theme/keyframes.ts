@@ -39,6 +39,17 @@ export const keyframes = defineKeyframes({
       backgroundPosition: "200% 0",
     },
   },
+  // Uses the standalone `scale` property so it composes with a running `rotate`.
+  popIn: {
+    from: {
+      opacity: "0",
+      scale: "0.4",
+    },
+    to: {
+      opacity: "1",
+      scale: "1",
+    },
+  },
   spin: {
     to: {
       transform: "rotate(360deg)",
