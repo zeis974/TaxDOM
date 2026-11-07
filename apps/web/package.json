@@ -21,7 +21,7 @@
     "@tuyau/core": "1.3.0",
     "@tuyau/react-query": "1.1.1",
     "@wrksz/themes": "2.1.1",
-    "better-auth": "1.7.15",
+    "better-auth": "1.7.18",
     "cobe": "^2.0.1",
     "motion": "14.9.0",
     "next": "16.4.3",
