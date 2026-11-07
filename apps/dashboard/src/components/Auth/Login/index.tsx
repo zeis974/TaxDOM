@@ -1,5 +1,5 @@
+import { useSearch } from "@tanstack/react-router"
 import { useRef, useState } from "react"
-import { toast } from "sonner"
 import laptop from "@/assets/products/laptop.webp"
 import mobilePhone from "@/assets/products/mobile-phone.webp"
 import packageBox from "@/assets/products/package.webp"
@@ -16,6 +16,7 @@ import {
   Chip,
   ChipImage,
   Core,
+  ErrorMessage,
   FormPanel,
   Icon,
   Layout,
@@ -45,23 +46,41 @@ const place = (angle: number) => ({
   top: `${50 + 50 * Math.sin((angle * Math.PI) / 180)}%`,
 })
 
+// Keys are the error codes of apps/api/app/lib/admin_access.ts.
+const ERROR_MESSAGES: Record<string, string> = {
+  admin_access_denied: "Ce compte n'est pas autorisé à accéder au dashboard.",
+}
+const FALLBACK_ERROR = "La connexion a échoué. Réessayez."
+
+// `error` comes from the URL: an own-property check keeps `__proto__` or `constructor` out.
+const describeError = (code: string) =>
+  Object.hasOwn(ERROR_MESSAGES, code) ? ERROR_MESSAGES[code] : FALLBACK_ERROR
+
 export default function LoginPage() {
   const [isPending, setIsPending] = useState(false)
+  const [signInFailed, setSignInFailed] = useState(false)
   const orbitRef = useRef<HTMLDivElement>(null)
+  const { error } = useSearch({ from: "/_login-layout/login" })
 
   const handleGoogleLogin = async () => {
     setIsPending(true)
-    try {
-      await authClient.signIn.social({
+    setSignInFailed(false)
+    // better-auth resolves HTTP errors as `{ error }` instead of throwing.
+    const result = await authClient.signIn
+      .social({
         provider: "google",
         callbackURL: import.meta.env.VITE_APP_URL,
+        errorCallbackURL: `${import.meta.env.VITE_APP_URL}/login`,
       })
-    } catch (error) {
-      console.error("Login error:", error)
-      toast.error("Erreur lors de la connexion")
+      .catch((error: unknown) => ({ error }))
+    if (result.error) {
+      console.error("Login error:", result.error)
+      setSignInFailed(true)
       setIsPending(false)
     }
   }
+
+  const errorMessage = signInFailed ? FALLBACK_ERROR : error ? describeError(error) : null
 
   return (
     <Layout>
@@ -89,6 +108,7 @@ export default function LoginPage() {
             </Icon>
             {isPending ? "Connexion en cours..." : "Continuer avec Google"}
           </Button>
+          {errorMessage ? <ErrorMessage role="alert">{errorMessage}</ErrorMessage> : null}
         </Main>
       </FormPanel>
       <ShowcasePanel>

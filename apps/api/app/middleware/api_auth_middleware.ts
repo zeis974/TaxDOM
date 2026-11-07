@@ -2,7 +2,8 @@ import type { HttpContext } from "@adonisjs/core/http"
 import logger from "@adonisjs/core/services/logger"
 import type { NextFn } from "@adonisjs/core/types/http"
 
-import { auth } from "#config/auth"
+import { adminEmails, auth } from "#config/auth"
+import { isDashboardAdmin } from "#lib/admin_access"
 
 export default class Auth {
   async handle(ctx: HttpContext, next: NextFn) {
@@ -31,14 +32,13 @@ export default class Auth {
       return response.unauthorized({ error: "Unauthorized access" })
     }
 
-    if (session.user.role !== "admin") {
+    if (!isDashboardAdmin(session.user, adminEmails)) {
       return response.status(403).json({ error: "Admin access required" })
     }
 
     ctx.authenticatedUser = {
       id: session.user.id,
       email: session.user.email,
-      role: session.user.role ?? null,
     }
 
     return next()
