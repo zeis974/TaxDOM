@@ -13,6 +13,8 @@ export const Panel = styled(m.div, {
     padding: "{spacing.md}",
     color: "{colors.foreground}",
     background: "{colors.background}",
+    // Interaction state, not a resting border: the panel only exists while open, over a navbar
+    // of the same surface where the shadow alone leaves its top edge invisible
     border: "1px solid color-mix(in srgb, {colors.border} 30%, transparent)",
     borderRadius: "{radii.lg}",
     boxShadow: "0 32px 64px -24px {colors.shadow}, 0 8px 24px -8px {colors.shadow}",
@@ -37,17 +39,38 @@ export const Panel = styled(m.div, {
       borderLeft: "1px solid color-mix(in srgb, {colors.border} 30%, transparent)",
       rotate: "45deg",
     },
-    "@media (width < 768px)": {
+    // Too narrow to hang the panel off the trigger
+    "@media (width < 1080px)": {
       position: "fixed",
       top: "{sizes.navbarHeight}",
-      left: "{spacing.md}",
-      right: "{spacing.md}",
+      insetInline: "{spacing.md}",
       width: "auto",
-      gridTemplateColumns: "1fr",
+      maxHeight: "calc(100dvh - {sizes.navbarHeight} - {spacing.md})",
+      overflowY: "auto",
+      overscrollBehavior: "contain",
       "&::after": {
         display: "none",
       },
     },
+  },
+})
+
+export const Tools = styled("div", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+  },
+})
+
+export const GroupLabel = styled("p", {
+  base: {
+    marginTop: "{spacing.s12}",
+    padding: "{spacing.xs} {spacing.s12}",
+    color: "{colors.textMuted}",
+    fontSize: "{fontSizes.label-md}",
+    fontWeight: "600",
+    letterSpacing: "0.04em",
+    textTransform: "uppercase",
   },
 })
 
@@ -87,7 +110,7 @@ export const ToolRow = styled("li", {
     "& > button": {
       cursor: "default",
       color: "{colors.textMuted}",
-      "& > div:first-child": {
+      "& > span:first-child": {
         filter: "grayscale(1)",
         opacity: "0.5",
       },
@@ -102,27 +125,35 @@ export const ToolRow = styled("li", {
   },
 })
 
-export const ToolIcon = styled("div", {
+// Spans only: the upcoming rows are buttons, which accept phrasing content alone
+export const ToolIcon = styled("span", {
   base: {
     display: "grid",
     flexShrink: "0",
     "& svg": {
-      width: "48px",
-      height: "48px",
+      width: "{sizes.toolIcon}",
+      height: "{sizes.toolIcon}",
     },
   },
 })
 
-export const ToolName = styled("h3", {
+export const ToolText = styled("span", {
+  base: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "{spacing.xs}",
+  },
+})
+
+export const ToolName = styled("span", {
   base: {
     fontSize: "{fontSizes.body-md}",
     fontWeight: "600",
   },
 })
 
-export const ToolSummary = styled("p", {
+export const ToolSummary = styled("span", {
   base: {
-    marginTop: "{spacing.xs}",
     color: "{colors.textMuted}",
     fontSize: "{fontSizes.body-sm}",
   },
@@ -146,9 +177,6 @@ export const Preview = styled("div", {
     overflow: "hidden",
     borderRadius: "{radii.lg}",
     background: "{colors.elevated}",
-    "@media (width < 768px)": {
-      display: "none",
-    },
   },
 })
 
@@ -190,10 +218,9 @@ export const Badge = styled("span", {
   base: {
     flexShrink: "0",
     padding: "{spacing.xs} {spacing.sm}",
-    border: "1px solid color-mix(in srgb, {colors.border} 40%, transparent)",
     borderRadius: "{radii.full}",
-    background: "{colors.background}",
-    color: "{colors.textMuted}",
+    background: "{colors.infoBg}",
+    color: "{colors.infoFg}",
     fontSize: "{fontSizes.label-md}",
     fontWeight: "600",
   },

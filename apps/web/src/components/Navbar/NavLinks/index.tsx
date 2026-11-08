@@ -1,13 +1,22 @@
 "use client"
 
 import { AnimatePresence } from "motion/react"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useId, useRef, useState } from "react"
 import MegaMenu from "./MegaMenu"
 import { Container } from "./NavLinks.styled"
 
 export default function NavLinks() {
   const [show, setShow] = useState(false)
   const toolsRef = useRef<HTMLDivElement>(null)
+  const triggerRef = useRef<HTMLButtonElement>(null)
+  // The click that lands on the trigger right after hovering it must not close the menu again
+  const openedByHover = useRef(false)
+  const menuId = useId()
+
+  const handleMouseEnter = () => {
+    if (!show) openedByHover.current = true
+    setShow(true)
+  }
 
   const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
     // relatedTarget is the Window, not a Node, when the pointer leaves the page
@@ -17,10 +26,30 @@ export default function NavLinks() {
     }
   }
 
+  const handleClick = () => {
+    if (openedByHover.current) {
+      openedByHover.current = false
+      return
+    }
+    setShow((open) => !open)
+  }
+
+  // Tabbing out of the panel closes it instead of leaving it open over the page
+  const handleBlur = (e: React.FocusEvent<HTMLDivElement>) => {
+    if (!toolsRef.current?.contains(e.relatedTarget)) setShow(false)
+  }
+
   useEffect(() => {
-    if (!show) return
-    const onKeyDown = (e: KeyboardEvent) => e.key === "Escape" && setShow(false)
-    // Touch devices have no mouseleave, so a tap outside closes the menu
+    if (!show) {
+      openedByHover.current = false
+      return
+    }
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return
+      // The focused tool row unmounts with the panel, so hand focus back to the trigger
+      if (toolsRef.current?.contains(document.activeElement)) triggerRef.current?.focus()
+      setShow(false)
+    }
     const onPointerDown = (e: PointerEvent) => {
       if (!toolsRef.current?.contains(e.target as Node)) setShow(false)
     }
@@ -34,14 +63,21 @@ export default function NavLinks() {
 
   return (
     <Container>
+      {/* biome-ignore lint/a11y/noStaticElementInteractions: hover and blur only mirror the trigger button, which keeps the keyboard path */}
       <div
         ref={toolsRef}
         data-active={show}
-        onMouseEnter={() => setShow(true)}
+        onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        onBlur={handleBlur}
       >
-        {/* Opens only: a tap fires mouseenter then click, so toggling would close it at once */}
-        <button type="button" aria-expanded={show} onClick={() => setShow(true)}>
+        <button
+          ref={triggerRef}
+          type="button"
+          aria-expanded={show}
+          aria-controls={menuId}
+          onClick={handleClick}
+        >
           Outils
           <svg
             width="14"
@@ -62,7 +98,7 @@ export default function NavLinks() {
           </svg>
         </button>
         <AnimatePresence>
-          {show && <MegaMenu key="mega-menu" close={() => setShow(false)} />}
+          {show && <MegaMenu key="mega-menu" id={menuId} close={() => setShow(false)} />}
         </AnimatePresence>
       </div>
       <a href="/blog">Blog</a>
