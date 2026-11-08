@@ -1,8 +1,9 @@
+import * as m from "motion/react-m"
 import { styled } from "@/panda/jsx"
 
 // Text is set explicitly so `currentColor` stays the tool accent for bars, dots and swatches.
 // Anchored to the bottom so the card never moves when the description wraps differently.
-export const Scene = styled("div", {
+export const Scene = styled(m.div, {
   base: {
     position: "absolute",
     left: "{spacing.lg}",
@@ -33,12 +34,15 @@ export const Scene = styled("div", {
       inset: "calc({spacing.xl} * -2) 0 0 calc({spacing.xl} * -2)",
       background:
         "radial-gradient(closest-side, color-mix(in srgb, currentColor 22%, transparent), transparent)",
+      "@media (prefers-reduced-motion: no-preference)": {
+        animation: "pulse 4s ease-in-out infinite",
+      },
     },
   },
 })
 
 // No text on the back card, only placeholder bars hinting at a second screen
-export const BackCard = styled("div", {
+export const BackCard = styled(m.div, {
   base: {
     position: "absolute",
     top: "0",
@@ -55,7 +59,7 @@ export const BackCard = styled("div", {
   },
 })
 
-export const Card = styled("div", {
+export const Card = styled(m.div, {
   base: {
     position: "absolute",
     top: "{spacing.xl}",
@@ -104,16 +108,26 @@ export const Label = styled("span", {
   },
 })
 
-export const Bar = styled("span", {
+export const Bar = styled(m.span, {
   base: {
     display: "block",
     flexShrink: "0",
     width: "calc({spacing.xl} * 2)",
     height: "{spacing.sm}",
     borderRadius: "{radii.full}",
+    transformOrigin: "left",
     background: "color-mix(in srgb, {colors.textMuted} 25%, transparent)",
     '&[data-tone="accent"]': {
       background: "currentColor",
+    },
+    // Light sweep across the result once it is computed
+    "&[data-shine]": {
+      backgroundImage:
+        "linear-gradient(90deg, transparent 30%, color-mix(in srgb, {colors.background} 45%, transparent) 50%, transparent 70%)",
+      backgroundSize: "200% 100%",
+      "@media (prefers-reduced-motion: no-preference)": {
+        animation: "skeleton-shimmer 2.4s linear infinite",
+      },
     },
     '&[data-w="xs"]': {
       width: "{spacing.md}",
@@ -137,7 +151,7 @@ export const Bar = styled("span", {
   },
 })
 
-export const Row = styled("div", {
+export const Row = styled(m.div, {
   base: {
     display: "flex",
     alignItems: "center",
@@ -148,7 +162,7 @@ export const Row = styled("div", {
 })
 
 // Label column of fixed width so the bars line up like a chart
-export const ChartRow = styled("div", {
+export const ChartRow = styled(m.div, {
   base: {
     display: "grid",
     gridTemplateColumns: "calc({spacing.xl} * 3) 1fr",
@@ -158,7 +172,7 @@ export const ChartRow = styled("div", {
   },
 })
 
-export const Field = styled("div", {
+export const Field = styled(m.div, {
   base: {
     display: "flex",
     alignItems: "center",
@@ -177,14 +191,15 @@ export const Field = styled("div", {
       border: "2px solid {colors.textMuted}",
       borderRadius: "{radii.full}",
     },
-    // Text caret
-    "&::after": {
-      content: '""',
-      width: "2px",
-      height: "{spacing.md}",
-      marginLeft: "calc({spacing.xs} * -1)",
-      background: "currentColor",
-    },
+  },
+})
+
+export const Caret = styled(m.span, {
+  base: {
+    width: "2px",
+    height: "{spacing.md}",
+    marginLeft: "calc({spacing.xs} * -1)",
+    background: "currentColor",
   },
 })
 
@@ -198,7 +213,7 @@ export const Chips = styled("div", {
   },
 })
 
-export const Chip = styled("span", {
+export const Chip = styled(m.span, {
   base: {
     padding: "{spacing.xs} {spacing.sm}",
     borderRadius: "{radii.full}",
@@ -230,7 +245,7 @@ export const Item = styled("div", {
   },
 })
 
-export const Divider = styled("hr", {
+export const Divider = styled(m.hr, {
   base: {
     border: "none",
     borderTop: "1px dashed color-mix(in srgb, {colors.border} 50%, transparent)",
@@ -245,7 +260,7 @@ export const Columns = styled("div", {
   },
 })
 
-export const Column = styled("div", {
+export const Column = styled(m.div, {
   base: {
     display: "flex",
     flexDirection: "column",
@@ -266,11 +281,12 @@ export const Chart = styled("div", {
   },
 })
 
-export const Pillar = styled("span", {
+export const Pillar = styled(m.span, {
   base: {
     flex: "1",
     height: "{spacing.md}",
     borderRadius: "{radii.sm} {radii.sm} 0 0",
+    transformOrigin: "bottom",
     background: "color-mix(in srgb, {colors.textMuted} 30%, transparent)",
     '&[data-tone="accent"]': {
       background: "currentColor",
@@ -287,7 +303,7 @@ export const Pillar = styled("span", {
   },
 })
 
-export const Route = styled("div", {
+export const Route = styled(m.div, {
   base: {
     display: "flex",
     alignItems: "center",
@@ -296,7 +312,7 @@ export const Route = styled("div", {
   },
 })
 
-export const Dot = styled("span", {
+export const Dot = styled(m.span, {
   base: {
     flexShrink: "0",
     width: "{spacing.sm}",
@@ -309,10 +325,26 @@ export const Dot = styled("span", {
   },
 })
 
-export const Line = styled("span", {
+export const Line = styled(m.span, {
   base: {
+    position: "relative",
     flex: "1",
+    transformOrigin: "left",
     borderTop: "2px dashed color-mix(in srgb, currentColor 50%, transparent)",
+  },
+})
+
+// Parcel travelling along a route
+export const Traveler = styled(m.span, {
+  base: {
+    position: "absolute",
+    top: "calc({spacing.xs} * -1 - 1px)",
+    width: "{spacing.sm}",
+    height: "{spacing.sm}",
+    marginLeft: "calc({spacing.xs} * -1)",
+    borderRadius: "{radii.full}",
+    background: "currentColor",
+    boxShadow: "0 0 0 {spacing.xs} color-mix(in srgb, currentColor 25%, transparent)",
   },
 })
 
@@ -324,7 +356,7 @@ export const Tiles = styled("div", {
   },
 })
 
-export const Tile = styled("div", {
+export const Tile = styled(m.div, {
   base: {
     display: "flex",
     flexDirection: "column",

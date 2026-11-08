@@ -1,8 +1,11 @@
-import type { JSX } from "react"
+import { MotionConfig, useReducedMotion, type Variants } from "motion/react"
+import * as m from "motion/react-m"
+import { type JSX, useEffect, useState } from "react"
 import {
   BackCard,
   Bar,
   Card,
+  Caret,
   Chart,
   ChartRow,
   Chip,
@@ -23,6 +26,7 @@ import {
   Thumb,
   Tile,
   Tiles,
+  Traveler,
 } from "./Illustration.styled"
 
 export type IllustrationKind =
@@ -47,20 +51,106 @@ const compared = [
   { label: "Produit B", heights: ["sm", "md", "md"] },
 ]
 
+const ease = [0.22, 1, 0.36, 1] as const
+
+// Each variant takes its start delay (seconds) through `custom`, so every scene reads as a timeline
+const rise: Variants = {
+  hidden: { opacity: 0, y: 16 },
+  show: (delay = 0) => ({ opacity: 1, y: 0, transition: { delay, duration: 0.45, ease } }),
+}
+
+const slideIn: Variants = {
+  hidden: { opacity: 0, x: 24 },
+  show: (delay = 0) => ({ opacity: 1, x: 0, transition: { delay, duration: 0.5, ease } }),
+}
+
+const enter: Variants = {
+  hidden: { opacity: 0, x: -8 },
+  show: (delay = 0) => ({ opacity: 1, x: 0, transition: { delay, duration: 0.3, ease } }),
+}
+
+const growX: Variants = {
+  hidden: { scaleX: 0 },
+  show: (delay = 0) => ({ scaleX: 1, transition: { delay, duration: 0.6, ease } }),
+}
+
+const growY: Variants = {
+  hidden: { scaleY: 0 },
+  show: (delay = 0) => ({ scaleY: 1, transition: { delay, duration: 0.55, ease } }),
+}
+
+const pop: Variants = {
+  hidden: { opacity: 0, scale: 0.6 },
+  show: (delay = 0) => ({
+    opacity: 1,
+    scale: 1,
+    transition: { delay, type: "spring", stiffness: 420, damping: 20 },
+  }),
+}
+
+function Typed({ text, delay }: { text: string; delay: number }) {
+  const reduce = useReducedMotion()
+  const [count, setCount] = useState(reduce ? text.length : 0)
+
+  useEffect(() => {
+    if (reduce) return
+    let interval: ReturnType<typeof setInterval> | undefined
+    const start = setTimeout(() => {
+      interval = setInterval(() => {
+        setCount((n) => {
+          if (n + 1 >= text.length) clearInterval(interval)
+          return n + 1
+        })
+      }, 55)
+    }, delay * 1000)
+    return () => {
+      clearTimeout(start)
+      clearInterval(interval)
+    }
+  }, [text, delay, reduce])
+
+  return text.slice(0, count)
+}
+
 // Mock screens only: they never show figures, so nothing reads as a real rate
 function Body({ kind }: { kind: IllustrationKind }) {
+  const reduce = useReducedMotion()
+
   switch (kind) {
     case "rates":
       return (
         <>
-          <Field>Smartphone</Field>
+          <Field variants={rise} custom={0.2}>
+            <Typed text="Smartphone" delay={0.4} />
+            <Caret
+              animate={{ opacity: [1, 1, 0, 0] }}
+              transition={{
+                duration: 1,
+                times: [0, 0.5, 0.5, 1],
+                repeat: Number.POSITIVE_INFINITY,
+              }}
+            />
+          </Field>
           <Chips>
-            <Chip>France</Chip>→<Chip data-tone="accent">La Réunion</Chip>
+            <Chip variants={pop} custom={1}>
+              France
+            </Chip>
+            <m.span variants={pop} custom={1.05}>
+              →
+            </m.span>
+            <Chip data-tone="accent" variants={pop} custom={1.1}>
+              La Réunion
+            </Chip>
           </Chips>
           {["Octroi de mer", "OMR", "TVA"].map((label, i) => (
-            <Row key={label}>
+            <Row key={label} variants={enter} custom={1.2 + i * 0.08}>
               <Label>{label}</Label>
-              <Bar data-tone="accent" data-w={["md", "sm", "xl"][i]} />
+              <Bar
+                data-tone="accent"
+                data-w={["md", "sm", "xl"][i]}
+                variants={growX}
+                custom={1.3 + i * 0.1}
+              />
             </Row>
           ))}
         </>
@@ -69,22 +159,29 @@ function Body({ kind }: { kind: IllustrationKind }) {
       return (
         <>
           {["Casque audio", "Baskets", "Livres"].map((label, i) => (
-            <Row key={label}>
+            <Row key={label} variants={enter} custom={0.25 + i * 0.1}>
               <Item>
                 <Thumb />
                 <Label>{label}</Label>
               </Item>
-              <Bar data-w={i === 1 ? "sm" : "md"} />
+              <Bar data-w={i === 1 ? "sm" : "md"} variants={growX} custom={0.4 + i * 0.1} />
             </Row>
           ))}
-          <Row>
+          <Row variants={enter} custom={0.55}>
             <Label data-tone="muted">Transport et taxes</Label>
-            <Bar data-w="sm" />
+            <Bar data-w="sm" variants={growX} custom={0.7} />
           </Row>
-          <Divider />
-          <Row>
+          <Divider variants={growX} custom={0.8} />
+          <Row variants={enter} custom={0.9}>
             <Label data-weight="bold">Total</Label>
-            <Bar data-tone="accent" data-w="xl" data-h="lg" />
+            <Bar
+              data-tone="accent"
+              data-w="xl"
+              data-h="lg"
+              data-shine
+              variants={growX}
+              custom={1}
+            />
           </Row>
         </>
       )
@@ -92,15 +189,21 @@ function Body({ kind }: { kind: IllustrationKind }) {
       return (
         <Columns>
           {compared.map((product, i) => (
-            <Column key={product.label}>
+            <Column key={product.label} variants={rise} custom={0.2 + i * 0.12}>
               <Label data-weight="bold">{product.label}</Label>
               <Chart>
                 {product.heights.map((h, j) => (
-                  // biome-ignore lint/suspicious/noArrayIndexKey: static decorative bars
-                  <Pillar key={j} data-h={h} data-tone={i === 0 ? "accent" : undefined} />
+                  <Pillar
+                    // biome-ignore lint/suspicious/noArrayIndexKey: static decorative bars
+                    key={j}
+                    data-h={h}
+                    data-tone={i === 0 ? "accent" : undefined}
+                    variants={growY}
+                    custom={0.45 + j * 0.1 + i * 0.15}
+                  />
                 ))}
               </Chart>
-              <Bar data-w={i === 0 ? "md" : "sm"} />
+              <Bar data-w={i === 0 ? "md" : "sm"} variants={growX} custom={0.9 + i * 0.1} />
             </Column>
           ))}
         </Columns>
@@ -112,20 +215,39 @@ function Body({ kind }: { kind: IllustrationKind }) {
         ["Brésil", "Guyane"],
         ["Inde", "Mayotte"],
         ["Italie", "Martinique"],
-      ].map(([from, to]) => (
-        <Route key={from}>
+      ].map(([from, to], i) => (
+        <Route key={from} variants={enter} custom={0.2 + i * 0.08}>
           <Dot data-tone="neutral" />
           <Label data-tone="muted">{from}</Label>
-          <Line />
+          <Line variants={growX} custom={0.35 + i * 0.08}>
+            {!reduce && (
+              <Traveler
+                initial={{ left: "0%", opacity: 0 }}
+                animate={{ left: ["0%", "100%"], opacity: [0, 1, 1, 0] }}
+                transition={{
+                  duration: 1.6,
+                  ease: "easeInOut",
+                  delay: 1 + i * 0.35,
+                  repeat: Number.POSITIVE_INFINITY,
+                  repeatDelay: 1.2,
+                }}
+              />
+            )}
+          </Line>
           <Label data-weight="bold">{to}</Label>
-          <Dot />
+          <Dot variants={pop} custom={0.8 + i * 0.08} />
         </Route>
       ))
     case "territories":
       return ["Guadeloupe", "Martinique", "Guyane", "La Réunion", "Mayotte"].map((label, i) => (
-        <ChartRow key={label}>
+        <ChartRow key={label} variants={enter} custom={0.2 + i * 0.07}>
           <Label>{label}</Label>
-          <Bar data-tone="accent" data-w={["xl", "md", "xl", "md", "sm"][i]} />
+          <Bar
+            data-tone="accent"
+            data-w={["xl", "md", "xl", "md", "sm"][i]}
+            variants={growX}
+            custom={0.35 + i * 0.07}
+          />
         </ChartRow>
       ))
     case "categories":
@@ -141,8 +263,9 @@ function Body({ kind }: { kind: IllustrationKind }) {
             "Sport",
             "Auto",
             "Jardin",
-          ].map((label) => (
-            <Tile key={label}>
+          ].map((label, i) => (
+            // Diagonal wave: tiles appear row + column order
+            <Tile key={label} variants={pop} custom={0.2 + (Math.floor(i / 3) + (i % 3)) * 0.07}>
               <Label>{label}</Label>
             </Tile>
           ))}
@@ -161,24 +284,27 @@ export default function Illustration({
   icon: JSX.Element
 }) {
   return (
-    <Scene data-variant={accents[kind]} aria-hidden="true">
-      <BackCard>
-        <Bar data-w="md" />
-        {["xl", "md", "xl"].map((w, i) => (
-          // biome-ignore lint/suspicious/noArrayIndexKey: static decorative bars
-          <Row key={i}>
-            <Bar data-w="full" />
-            <Bar data-w={w} />
-          </Row>
-        ))}
-      </BackCard>
-      <Card>
-        <Header>
-          {icon}
-          {title}
-        </Header>
-        <Body kind={kind} />
-      </Card>
-    </Scene>
+    // Users asking for less motion keep the fades but skip the movement
+    <MotionConfig reducedMotion="user">
+      <Scene data-variant={accents[kind]} aria-hidden="true" initial="hidden" animate="show">
+        <BackCard variants={slideIn} custom={0.08}>
+          <Bar data-w="md" />
+          {["xl", "md", "xl"].map((w, i) => (
+            // biome-ignore lint/suspicious/noArrayIndexKey: static decorative bars
+            <Row key={i}>
+              <Bar data-w="full" />
+              <Bar data-w={w} />
+            </Row>
+          ))}
+        </BackCard>
+        <Card variants={rise}>
+          <Header>
+            {icon}
+            {title}
+          </Header>
+          <Body kind={kind} />
+        </Card>
+      </Scene>
+    </MotionConfig>
   )
 }
