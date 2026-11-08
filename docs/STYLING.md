@@ -178,7 +178,7 @@ export const ButtonStyled = styled("button", {
 
 Attributes in use: `data-active`, `data-type`, `data-variant`, `data-selected`, `data-status`,
 `data-condition`, `data-option-index`, `data-available`, `data-highlighted`, `data-orphaned`,
-`data-taxes`, `data-has-products`, `data-focus`.
+`data-taxes`, `data-has-products`, `data-focus`, `data-active-index`, `data-indicator`.
 
 ---
 
@@ -316,6 +316,7 @@ Two families only:
 |---|---|
 | `navbarHeight` | 95px |
 | `maxWidth` | 2400px |
+| `toolIcon` | 48px |
 
 ### Keyframes
 

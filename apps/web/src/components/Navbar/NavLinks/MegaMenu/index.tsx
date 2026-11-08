@@ -1,136 +1,117 @@
 import { AnimatePresence, easeIn, easeOut } from "motion/react"
-import type { Route } from "next"
 import Link from "next/link"
-import { type JSX, useState } from "react"
+import { useId, useState } from "react"
+import { ArrowRightIcon } from "@/components/Icons"
+import { type Tool, tools } from "../tools"
+import Illustration from "./Illustration"
 import {
-  CategoriesIcon,
-  ExternalLinkIcon,
-  OriginsIcon,
-  ParcelIcon,
-  ProductsIcon,
-  TaxIcon,
-  TerritoriesIcon,
-} from "@/components/Icons"
-import {
-  Body,
-  Card,
-  CardDescription,
-  CardIcon,
-  CardTitle,
-  CardTitleIcon,
-  Grid,
+  Badge,
+  GroupLabel,
+  List,
   Panel,
-  PromoContent,
-  PromoName,
-  PromoPanel,
+  Preview,
+  PreviewContent,
+  PreviewDescription,
+  PreviewHeader,
+  PreviewName,
+  ToolArrow,
+  ToolIcon,
+  ToolName,
+  ToolRow,
+  ToolSummary,
+  Tools,
+  ToolText,
 } from "./MegaMenu.styled"
 
-type Tools = {
-  name: string
-  description: string
-  icon: JSX.Element
-  slug?: Route
-  disabled?: boolean
+const available = tools.filter((tool) => tool.slug)
+const upcoming = tools.filter((tool) => !tool.slug)
+
+type Props = {
+  id: string
+  close: () => void
 }
 
-const tools: Tools[] = [
-  {
-    name: "Rechercher les taux",
-    description: "Affiche les taux de taxes applicables à un produit",
-    icon: <TaxIcon />,
-    slug: "/",
-  },
-  {
-    name: "Simuler le coût d'un colis",
-    description: "Estime les taxes applicables à un colis",
-    icon: <ParcelIcon />,
-    slug: "/simulator",
-  },
-  {
-    name: "Comparer les produits",
-    description: "Compare les taux entre plusieurs produits",
-    icon: <ProductsIcon />,
-    disabled: true,
-  },
-  {
-    name: "Suivre les origines",
-    description: "Trace l'origine des produits importés",
-    icon: <OriginsIcon />,
-    disabled: true,
-  },
-  {
-    name: "Explorer les territoires",
-    description: "Visualise les taxes par territoire",
-    icon: <TerritoriesIcon />,
-    disabled: true,
-  },
-  {
-    name: "Parcourir les catégories",
-    description: "Filtre les produits par catégorie",
-    icon: <CategoriesIcon />,
-    disabled: true,
-  },
-]
+export default function MegaMenu({ id, close }: Props) {
+  const [active, setActive] = useState(tools[0])
+  const labelId = useId()
 
-export default function MegaMenu({ close }: { close: () => void }) {
-  const [activeTool, setActiveTool] = useState(tools[0])
+  const renderRow = (tool: Tool) => {
+    const content = (
+      <>
+        <ToolIcon>{tool.icon}</ToolIcon>
+        <ToolText>
+          <ToolName>{tool.name}</ToolName>
+          <ToolSummary>{tool.summary}</ToolSummary>
+        </ToolText>
+        {tool.slug ? (
+          <ToolArrow>
+            <ArrowRightIcon />
+          </ToolArrow>
+        ) : null}
+      </>
+    )
+
+    return (
+      <ToolRow key={tool.name} data-active={active === tool}>
+        {tool.slug ? (
+          <Link
+            href={tool.slug}
+            onClick={close}
+            onMouseEnter={() => setActive(tool)}
+            onFocus={() => setActive(tool)}
+          >
+            {content}
+          </Link>
+        ) : (
+          <button
+            type="button"
+            aria-disabled="true"
+            aria-describedby={labelId}
+            onMouseEnter={() => setActive(tool)}
+            onFocus={() => setActive(tool)}
+          >
+            {content}
+          </button>
+        )}
+      </ToolRow>
+    )
+  }
 
   return (
     <Panel
-      key="mega-menu"
+      id={id}
       initial={{ y: -8, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: -8, opacity: 0, transition: { duration: 0.15, ease: easeIn } }}
       transition={{ duration: 0.18, ease: easeOut }}
     >
-      <Body>
-        <Grid>
-          {tools.map((tool) => {
-            const active = activeTool === tool
-            const card = (
-              <Card
-                key={tool.name}
-                aria-disabled={tool.disabled || undefined}
-                data-active={!tool.disabled && active}
-                onMouseEnter={tool.disabled ? undefined : () => setActiveTool(tool)}
-              >
-                <CardIcon>{tool.icon}</CardIcon>
-                <div>
-                  <CardTitle>
-                    {tool.name}
-                    <CardTitleIcon data-active={!tool.disabled && active}>
-                      <ExternalLinkIcon />
-                    </CardTitleIcon>
-                  </CardTitle>
-                  <CardDescription>{tool.description}</CardDescription>
-                </div>
-              </Card>
-            )
-
-            return tool.disabled ? (
-              <div key={tool.name}>{card}</div>
-            ) : (
-              <Link key={tool.name} href={tool.slug as Route} onClick={close}>
-                {card}
-              </Link>
-            )
-          })}
-        </Grid>
-        <PromoPanel>
-          <AnimatePresence initial={false} mode="popLayout">
-            <PromoContent
-              key={activeTool.name}
-              initial={{ opacity: 0, y: 6 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -6 }}
-              transition={{ duration: 0.18, ease: easeOut }}
-            >
-              <div>{activeTool.icon}</div>
-              <PromoName>{activeTool.name}</PromoName>
-            </PromoContent>
-          </AnimatePresence>
-        </PromoPanel>
-      </Body>
+      <Tools>
+        <List>{available.map(renderRow)}</List>
+        <GroupLabel id={labelId}>Bientôt</GroupLabel>
+        <List aria-labelledby={labelId}>{upcoming.map(renderRow)}</List>
+      </Tools>
+      <Preview>
+        <AnimatePresence initial={false} mode="popLayout">
+          <PreviewContent
+            key={active.name}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, transition: { duration: 0.08, ease: easeIn } }}
+            transition={{ duration: 0.2, ease: easeOut }}
+          >
+            <PreviewHeader>
+              <PreviewName>{active.name}</PreviewName>
+              {!active.slug && <Badge>Bientôt</Badge>}
+            </PreviewHeader>
+            <PreviewDescription>{active.description}</PreviewDescription>
+            <Illustration
+              kind={active.visual.kind}
+              title={active.visual.title}
+              icon={active.icon}
+            />
+          </PreviewContent>
+        </AnimatePresence>
+      </Preview>
     </Panel>
   )
 }

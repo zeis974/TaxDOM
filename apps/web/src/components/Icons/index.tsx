@@ -1,17 +1,18 @@
 import {
-  CategoriesIcon,
+  CategoriesToolIcon,
   ChevronIcon,
+  CompareToolIcon,
   HomeIcon,
   LogoutIcon,
   MagicIcon,
-  OriginsIcon,
-  ParcelIcon,
-  ProductsIcon,
-  TaxIcon,
-  TerritoriesIcon,
+  OriginsToolIcon,
+  ParcelToolIcon,
+  RatesToolIcon,
+  TerritoriesToolIcon,
   TransporterIcon,
 } from "@taxdom/ui/icons"
 import AddIcon from "./AddIcon"
+import ArrowRightIcon from "./ArrowRightIcon"
 import CloseIcon from "./CloseIcon"
 import DownloadIcon from "./DownloadIcon"
 import InfoIcon from "./InfoIcon"
@@ -25,9 +26,11 @@ import TaxDOMLogo from "./TaxDOMLogo"
 
 export {
   AddIcon,
-  CategoriesIcon,
+  ArrowRightIcon,
+  CategoriesToolIcon,
   ChevronIcon,
   CloseIcon,
+  CompareToolIcon,
   DownloadIcon,
   HomeIcon,
   InfoIcon,
@@ -37,13 +40,12 @@ export {
   LogoutIcon,
   MagicIcon,
   NoFaceIcon,
-  OriginsIcon,
-  ParcelIcon,
-  ProductsIcon,
+  OriginsToolIcon,
+  ParcelToolIcon,
+  RatesToolIcon,
   SettingIcon,
   ShareIcon,
   TaxDOMLogo,
-  TaxIcon,
-  TerritoriesIcon,
+  TerritoriesToolIcon,
   TransporterIcon,
 }

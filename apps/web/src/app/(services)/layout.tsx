@@ -5,11 +5,10 @@ import type { Metadata } from "next"
 import localFont from "next/font/local"
 import Script from "next/script"
 import { Toaster } from "sonner"
-
+import Navbar from "@/components/Navbar"
+import { token } from "@/panda/tokens"
 import LazyMotionProvider from "@/providers/LazyMotionProvider"
 import QueryProvider from "@/providers/QueryProvider"
-
-import Navbar from "@/components/Navbar"
 
 export const metadata: Metadata = {
   title: {
@@ -47,7 +46,14 @@ export default async function RootLayout({
             <LazyMotionProvider>
               <Navbar />
               {children}
-              <Toaster richColors closeButton />
+              <Toaster
+                richColors
+                closeButton
+                // Stack toasts above the floating mobile tab bar
+                mobileOffset={{
+                  bottom: `calc(${token("spacing.xl")} * 3)`,
+                }}
+              />
             </LazyMotionProvider>
           </QueryProvider>
         </ThemeProvider>

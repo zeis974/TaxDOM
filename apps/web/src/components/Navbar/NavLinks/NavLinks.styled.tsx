@@ -1,4 +1,3 @@
-import * as m from "motion/react-m"
 import { styled } from "@/panda/jsx"
 
 export const Container = styled("div", {
@@ -6,63 +5,53 @@ export const Container = styled("div", {
     display: "flex",
     alignItems: "stretch",
     alignSelf: "stretch",
-    marginLeft: "{spacing.lg}",
+    marginLeft: "56px",
     gap: "{spacing.lg}",
     fontFamily: "{fonts.nativeFont}",
-    // Not positioned so the mega menu anchors to the Nav; z-index still applies to flex items and keeps the menu above the Backdrop
+    "@media (width < 768px), (hover: none) and (pointer: coarse)": {
+      display: "none",
+    },
+    // Anchors the mega menu under the trigger and keeps it above the page content
     "& > div:first-of-type": {
+      position: "relative",
       zIndex: "3",
       display: "flex",
       alignItems: "center",
       alignSelf: "stretch",
-      borderBottom: "2px solid transparent",
-      transition: "border-color 150ms",
-    },
-    '& > div[data-active="true"]': {
-      borderBottomColor: "{colors.primary}",
     },
     "& > a, & > div:first-of-type > button": {
       display: "flex",
       alignItems: "center",
       gap: "{spacing.xs}",
       padding: "{spacing.sm} {spacing.md}",
-      transition: "background 150ms, color 150ms",
+      transition: "background 150ms, color 150ms, opacity 150ms",
       color: "{colors.foreground}",
       background: "none",
       border: "none",
       font: "inherit",
       fontSize: "{fontSizes.body-md}",
-      cursor: "pointer",
-      borderRadius: "{radii.sm}",
+      borderRadius: "{radii.md}",
       "&:hover": {
-        background: "{colors.elevated}",
+        opacity: "0.7",
       },
       "&:focus-visible": {
         outline: "2px solid {colors.primary}",
         outlineOffset: "2px",
       },
     },
+    "& [data-chevron]": {
+      transition: "transform 150ms",
+      '&[data-open="true"]': {
+        transform: "rotate(180deg)",
+      },
+    },
     "& > a": {
       alignSelf: "center",
+      cursor: "pointer",
       textDecoration: "none",
     },
-    "& svg": {
-      transition: "transform 150ms",
+    '& > div:first-of-type[data-active="true"] > button': {
+      color: "{colors.foreground}",
     },
-    '& [data-active="true"] > button': {
-      color: "{colors.primary}",
-    },
-    '& [data-active="true"] > button > svg': {
-      transform: "rotate(180deg)",
-    },
-  },
-})
-
-export const Backdrop = styled(m.div, {
-  base: {
-    position: "fixed",
-    inset: "{sizes.navbarHeight} 0 0",
-    background: "{colors.overlay}",
-    zIndex: "2",
   },
 })
