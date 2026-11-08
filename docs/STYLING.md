@@ -316,6 +316,7 @@ Two families only:
 |---|---|
 | `navbarHeight` | 95px |
 | `maxWidth` | 2400px |
+| `toolIcon` | 48px |
 
 ### Keyframes
 

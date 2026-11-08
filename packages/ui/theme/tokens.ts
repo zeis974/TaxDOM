@@ -20,6 +20,7 @@ export const tokens = defineTokens({
   sizes: {
     navbarHeight: { value: "95px" },
     maxWidth: { value: "2400px" },
+    toolIcon: { value: "48px" },
   },
   radii: {
     sm: { value: "4px" },
