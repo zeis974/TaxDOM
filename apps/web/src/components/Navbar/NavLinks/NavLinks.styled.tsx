@@ -8,6 +8,9 @@ export const Container = styled("div", {
     marginLeft: "56px",
     gap: "{spacing.lg}",
     fontFamily: "{fonts.nativeFont}",
+    "@media (width < 768px), (hover: none) and (pointer: coarse)": {
+      display: "none",
+    },
     // Anchors the mega menu under the trigger and keeps it above the page content
     "& > div:first-of-type": {
       position: "relative",
