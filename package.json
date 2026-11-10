@@ -18,7 +18,7 @@
     "design:lint": "pnpx @google/design.md lint DESIGN.md"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.4",
+    "@biomejs/biome": "2.6.6",
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
     "turbo": "2.11.10",
@@ -28,7 +28,7 @@
     "node": ">=24",
     "pnpm": ">=12"
   },
-  "packageManager": "pnpm@12.16.1",
+  "packageManager": "pnpm@12.18.0",
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
       "biome format --write --no-errors-on-unmatched"
