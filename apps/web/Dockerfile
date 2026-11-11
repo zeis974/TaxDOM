@@ -1,6 +1,5 @@
 # syntax=docker/dockerfile:1
 ARG NODE_VERSION=24.22.1
-ARG TURBO_VERSION=2.11.10
 
 FROM ghcr.io/pnpm/pnpm:12-alpine AS pnpm
 
@@ -17,8 +16,8 @@ RUN for bin in pnpm pn pnpx pnx; do ln -s "/opt/pnpm/$bin" "/usr/local/bin/$bin"
 # Only the files the target app needs, split into manifests (cacheable install layer) and sources.
 FROM base AS pruner
 WORKDIR /app
-ARG TURBO_VERSION
-RUN pnpm add -g turbo@${TURBO_VERSION}
+COPY package.json ./
+RUN pnpm add -g turbo@$(node -p "require('./package.json').devDependencies.turbo")
 COPY . .
 RUN turbo prune @taxdom/app --docker
 

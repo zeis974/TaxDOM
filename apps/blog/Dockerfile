@@ -18,8 +18,9 @@ RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
 USER astrouser
 WORKDIR /app
 
+COPY --chown=astrouser:nodejs package.json ./
 USER root
-RUN pnpm add -g turbo@2.11.4
+RUN pnpm add -g turbo@$(node -p "require('./package.json').devDependencies.turbo")
 USER astrouser
 
 COPY --chown=astrouser:nodejs . .
