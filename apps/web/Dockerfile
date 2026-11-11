@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 ARG NODE_VERSION=26.13.0
 
-FROM ghcr.io/pnpm/pnpm:12-alpine AS pnpm
+FROM ghcr.io/pnpm/pnpm:12.18.0-alpine AS pnpm
 
 FROM node:${NODE_VERSION}-alpine AS base
 ENV PNPM_HOME=/pnpm

@@ -1,4 +1,4 @@
-FROM ghcr.io/pnpm/pnpm:12-alpine AS pnpm
+FROM ghcr.io/pnpm/pnpm:12.18.0-alpine AS pnpm
 
 FROM node:26.13.0-alpine AS base
 
