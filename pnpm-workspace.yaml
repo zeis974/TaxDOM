@@ -11,6 +11,8 @@ allowBuilds:
 
 minimumReleaseAge: 1440
 
+engineStrict: true
+
 # pnpm binds optional peers to any version found in the workspace, so the api's better-auth
 # would pull in next, TanStack Start and solid-js from the other apps. None of them is used.
 overrides:
