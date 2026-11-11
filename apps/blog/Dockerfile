@@ -7,6 +7,9 @@ RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
 RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 --ingroup nodejs astrouser
 
+# The non-root user installs turbo globally and lets pnpm switch to the pinned version, both under PNPM_HOME.
+RUN mkdir -p /pnpm && chown astrouser:nodejs /pnpm
+
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME/bin:$PNPM_HOME:$PATH"
 COPY --from=pnpm /opt/pnpm /opt/pnpm
@@ -19,9 +22,7 @@ USER astrouser
 WORKDIR /app
 
 COPY --chown=astrouser:nodejs package.json ./
-USER root
 RUN pnpm add -g turbo@$(node -p "require('./package.json').devDependencies.turbo")
-USER astrouser
 
 COPY --chown=astrouser:nodejs . .
 RUN turbo prune @taxdom/blog --docker
