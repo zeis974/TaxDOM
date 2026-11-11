@@ -1,3 +1,5 @@
+FROM ghcr.io/pnpm/pnpm:12-alpine AS pnpm
+
 FROM node:24.22.1-alpine AS base
 
 RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
@@ -7,8 +9,8 @@ RUN addgroup --system --gid 1001 nodejs && \
 
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME/bin:$PNPM_HOME:$PATH"
-RUN corepack enable
-RUN corepack prepare pnpm@12.15.0 --activate
+COPY --from=pnpm /opt/pnpm /opt/pnpm
+RUN for bin in pnpm pn pnpx pnx; do ln -s "/opt/pnpm/$bin" "/usr/local/bin/$bin"; done
 
 FROM base AS builder
 RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
