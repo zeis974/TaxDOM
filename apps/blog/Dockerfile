@@ -1,14 +1,19 @@
-FROM node:24.22.1-alpine AS base
+FROM ghcr.io/pnpm/pnpm:12.18.0-alpine AS pnpm
+
+FROM node:26.13.1-alpine AS base
 
 RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
 
 RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 --ingroup nodejs astrouser
 
+# The non-root user installs turbo globally and lets pnpm switch to the pinned version, both under PNPM_HOME.
+RUN mkdir -p /pnpm && chown astrouser:nodejs /pnpm
+
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME/bin:$PNPM_HOME:$PATH"
-RUN corepack enable
-RUN corepack prepare pnpm@12.15.0 --activate
+COPY --from=pnpm /opt/pnpm /opt/pnpm
+RUN for bin in pnpm pn pnpx pnx; do ln -s "/opt/pnpm/$bin" "/usr/local/bin/$bin"; done
 
 FROM base AS builder
 RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
@@ -16,9 +21,8 @@ RUN apk update && apk add --no-cache gcompat && rm -rf /var/cache/apk/*
 USER astrouser
 WORKDIR /app
 
-USER root
-RUN pnpm add -g turbo@2.11.4
-USER astrouser
+COPY --chown=astrouser:nodejs package.json ./
+RUN pnpm add -g turbo@$(node -p "require('./package.json').devDependencies.turbo")
 
 COPY --chown=astrouser:nodejs . .
 RUN turbo prune @taxdom/blog --docker

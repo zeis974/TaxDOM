@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
-ARG NODE_VERSION=24.22.1
-ARG TURBO_VERSION=2.11.10
+ARG NODE_VERSION=26.13.1
+
+FROM ghcr.io/pnpm/pnpm:12.18.0-alpine AS pnpm
 
 FROM node:${NODE_VERSION}-alpine AS base
 ENV PNPM_HOME=/pnpm
@@ -9,16 +10,14 @@ ENV CI=true
 ENV HUSKY=0
 ENV TURBO_TELEMETRY_DISABLED=1
 ENV DO_NOT_TRACK=1
-# Corepack resolves pnpm from `packageManager` in package.json, nothing is pinned here.
-ENV COREPACK_ENABLE_DOWNLOAD_PROMPT=0
-RUN corepack enable
+COPY --from=pnpm /opt/pnpm /opt/pnpm
+RUN for bin in pnpm pn pnpx pnx; do ln -s "/opt/pnpm/$bin" "/usr/local/bin/$bin"; done
 
 # Only the files the target app needs, split into manifests (cacheable install layer) and sources.
 FROM base AS pruner
 WORKDIR /app
-ARG TURBO_VERSION
-RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
-    pnpm add -g turbo@${TURBO_VERSION}
+COPY package.json ./
+RUN pnpm add -g turbo@$(node -p "require('./package.json').devDependencies.turbo")
 COPY . .
 RUN turbo prune @taxdom/app --docker
 
@@ -28,12 +27,10 @@ COPY --from=pruner /app/out/json/ .
 COPY --from=pruner /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 # --ignore-scripts: the `prepare` hooks (panda codegen) need the sources, which are only
 # copied below. Codegen runs as the turbo `codegen` task during the build.
-RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
-    --mount=type=cache,id=pnpm,target=/pnpm/store \
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
     pnpm install --frozen-lockfile --ignore-scripts
 # Build the native dependencies (esbuild, sharp...) here so this layer stays cached.
-RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
-    pnpm rebuild
+RUN pnpm rebuild
 COPY --from=pruner /app/out/full/ .
 # Inlined in the browser bundle at build time: build args (not secrets) so that changing a value
 # invalidates the cached build instead of silently reusing the previous one.
@@ -47,8 +44,7 @@ ENV NEXT_PUBLIC_UMAMI_SCRIPT_URL=${NEXT_PUBLIC_UMAMI_SCRIPT_URL}
 ENV NEXT_PUBLIC_UMAMI_WEBSITE_ID=${NEXT_PUBLIC_UMAMI_WEBSITE_ID}
 ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN --mount=type=cache,id=corepack,target=/root/.cache/node/corepack \
-    --mount=type=cache,id=turbo,target=/app/.turbo \
+RUN --mount=type=cache,id=turbo,target=/app/.turbo \
     --mount=type=cache,id=next,target=/app/apps/web/.next/cache \
     pnpm turbo run build
 
