@@ -1,6 +1,6 @@
 FROM ghcr.io/pnpm/pnpm:12.18.0-alpine AS pnpm
 
-FROM node:26.13.0-alpine AS base
+FROM node:26.13.1-alpine AS base
 
 RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
 

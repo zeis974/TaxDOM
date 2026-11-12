@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-ARG NODE_VERSION=26.13.0
+ARG NODE_VERSION=26.13.1
 
 FROM ghcr.io/pnpm/pnpm:12.18.0-alpine AS pnpm
 
