@@ -1,9 +1,9 @@
 import { AnimatePresence } from "motion/react"
 import { Fragment, useRef, useState } from "react"
 
-import { Container } from "./NavLinks.styled"
-import ChevronIcon from "@/components/Icons/ChevronIcon"
+import { ChevronIcon } from "@/components/Icons"
 import ChangeTools from "../NavLinks/ChangeTools"
+import { Container } from "./NavLinks.styled"
 
 type NavTypes = {
   name: string
@@ -15,6 +15,22 @@ type NavTypes = {
 export default function NavLinks() {
   const [show, setShow] = useState(false)
   const navRef = useRef<HTMLDivElement>(null)
+  // The click that lands on the trigger right after hovering it (or tapping it, on a touch
+  // screen) must not close the menu again
+  const openedByHover = useRef(false)
+
+  const handleMouseEnter = () => {
+    if (!show) openedByHover.current = true
+    setShow(true)
+  }
+
+  const handleClick = () => {
+    if (openedByHover.current) {
+      openedByHover.current = false
+      return
+    }
+    setShow((current) => !current)
+  }
 
   const links: NavTypes[] = [
     {
@@ -28,7 +44,8 @@ export default function NavLinks() {
     },
   ]
 
-  const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
+  const handleMouseLeave = (e: React.MouseEvent<HTMLElement>) => {
+    openedByHover.current = false
     if (!navRef.current?.contains(e.relatedTarget as Node | null)) {
       setShow(false)
     }
@@ -44,14 +61,15 @@ export default function NavLinks() {
             <>
               {link.showChangeTools ? (
                 <>
-                  <div
-                    ref={navRef}
-                    onMouseEnter={() => setShow(true)}
-                    onMouseLeave={handleMouseLeave}
-                  >
-                    <span>
+                  <div ref={navRef}>
+                    <button
+                      type="button"
+                      onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave}
+                      onClick={handleClick}
+                    >
                       {link.name} {link.icons}
-                    </span>
+                    </button>
                     <AnimatePresence>
                       {link.showChangeTools && show && <ChangeTools {...{ setShow }} />}
                     </AnimatePresence>
