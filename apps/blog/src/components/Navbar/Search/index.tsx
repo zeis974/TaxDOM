@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from "react"
-
-import { SearchBar, SearchShortcut } from "./Search.styled"
-
 import { SearchIcon } from "@/components/Icons"
+import { SearchBar, SearchShortcut } from "./Search.styled"
 
 export default function Search() {
   const inputRef = useRef<HTMLInputElement>(null)
@@ -38,7 +36,6 @@ export default function Search() {
         ref={inputRef}
         onFocus={() => setShowSearch(true)}
         onBlur={() => setShowSearch(false)}
-        id="search"
       />
       <SearchShortcut data-focus={showSearch}>
         {showSearch ? <SearchIcon /> : <span>Ctrl + k</span>}
