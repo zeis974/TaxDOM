@@ -5,10 +5,10 @@ export const Container = styled("div", {
     display: "flex",
     alignItems: "stretch",
     alignSelf: "stretch",
-    marginLeft: "56px",
+    marginLeft: "calc({spacing.xl} + {spacing.lg})",
     gap: "{spacing.lg}",
     fontFamily: "{fonts.nativeFont}",
-    "@media (width < 768px), (hover: none) and (pointer: coarse)": {
+    _touch: {
       display: "none",
     },
     // Anchors the mega menu under the trigger and keeps it above the page content
@@ -31,6 +31,7 @@ export const Container = styled("div", {
       font: "inherit",
       fontSize: "{fontSizes.body-md}",
       borderRadius: "{radii.md}",
+      cursor: "pointer",
       "&:hover": {
         opacity: "0.7",
       },
@@ -47,11 +48,7 @@ export const Container = styled("div", {
     },
     "& > a": {
       alignSelf: "center",
-      cursor: "pointer",
       textDecoration: "none",
-    },
-    '& > div:first-of-type[data-active="true"] > button': {
-      color: "{colors.foreground}",
     },
   },
 })

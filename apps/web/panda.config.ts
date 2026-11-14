@@ -13,14 +13,14 @@ export default defineConfig({
     },
     // Keeps elements focused near the bottom from scrolling under the floating mobile tab bar
     html: {
-      "@media (width < 768px), (hover: none) and (pointer: coarse)": {
+      _touch: {
         scrollPaddingBottom: "calc({spacing.xl} * 3)",
       },
     },
     body: {
       backgroundColor: "{colors.background}",
       // Keeps the end of the page clear of the floating mobile tab bar
-      "@media (width < 768px), (hover: none) and (pointer: coarse)": {
+      _touch: {
         paddingBottom: "calc({spacing.xl} * 3)",
       },
     },
