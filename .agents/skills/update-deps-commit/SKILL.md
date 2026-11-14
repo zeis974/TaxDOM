@@ -1,6 +1,6 @@
 ---
 name: update-deps-commit
-description: Use when committing an automated dependency bump in this repo — after dependency versions are updated and before committing, or when asked to generate the "Update dependencies" commit message, list dependency version changes, or prepare that commit. Derives the version-gap list from the manifest diff. Not for hand-authored commits.
+description: Use when committing an automated dependency bump in this repo — after dependency versions are updated and before committing, or when asked to generate the "Update dependencies" commit message, list dependency version changes, or prepare that commit. Derives the version-gap list from the manifest diff and keeps the pnpm tag in the Dockerfiles aligned with `packageManager`. Not for hand-authored commits.
 ---
 
 # Update dependencies commit
@@ -42,7 +42,34 @@ Work only from the `-`/`+` lines inside the four dependency fields: `dependencie
 `devDependencies`, `peerDependencies`, `optionalDependencies`. If `pnpm install` changed
 `pnpm-lock.yaml`, that file belongs in the commit.
 
-### 2. Build the version-gap list
+### 2. Align the Dockerfile pins
+
+Some versions are written both in a manifest and in `apps/*/Dockerfile`. After the install, check
+that they still agree and fix the Dockerfiles; they are part of this commit.
+
+| Pin | Source of truth | Dockerfile line to keep equal |
+|---|---|---|
+| pnpm | root `packageManager` (`pnpm@X`) | `FROM ghcr.io/pnpm/pnpm:X-alpine AS pnpm` in every `apps/*/Dockerfile` |
+| turbo | root `devDependencies.turbo` | none: the pruner stage reads it from `package.json`, so only check it is still an **exact** version |
+| Node | `engines.node` (`>=N`) | `ARG NODE_VERSION=` (api, dashboard, web) and `FROM node:…-alpine` (blog) |
+
+```bash
+grep -n "ghcr.io/pnpm/pnpm" apps/*/Dockerfile
+grep -n "NODE_VERSION=\|^FROM node:" apps/*/Dockerfile
+grep -n '"packageManager"\|"turbo"\|"node"' package.json
+```
+
+- **pnpm:** if a Dockerfile tag differs from `packageManager`, set it to the `packageManager`
+  version. Confirm the tag exists first: `docker manifest inspect ghcr.io/pnpm/pnpm:X-alpine`. If it
+  does not exist yet, stop and tell the user rather than guessing another tag.
+- **turbo:** a range (`^2.11.10`) or `catalog:` makes the pruner install a version other than the
+  lockfile's. Report it, do not rewrite it.
+- **Node:** never bump it here, that is a deliberate upgrade. Only report when the Dockerfile's
+  Node major is lower than the major required by `engines.node`.
+
+A pnpm tag change is covered by the existing `Bump pnpm@…` line, no extra line in the message.
+
+### 3. Build the version-gap list
 
 For every dependency whose version string changed, record `name → (from, to)` using the **exact**
 specifier as it appears in the manifest — keep `^`, `~`, or none (e.g. `^26.3.0` → `^26.4.0`, or
@@ -53,13 +80,13 @@ specifier as it appears in the manifest — keep `^`, `~`, or none (e.g. `^26.3.
   line using the **most up-to-date** target version — the occurrence with the highest `to`
   (highest `from` as tie-breaker) — and drop the other occurrences. The package is listed once.
 
-### 3. Additions and removals
+### 4. Additions and removals
 
 - `Add <name>` — a dependency absent from every manifest at `HEAD` and present now.
 - `Remove <name>` — a dependency present at `HEAD` and gone from every manifest.
 - A package both added somewhere and bumped elsewhere is an `Update`, not an `Add`.
 
-### 4. Tooling notes
+### 5. Tooling notes
 
 - `Bump pnpm@<version>` if the root `packageManager` field changed.
 - `Set minimum release date to <N> day(s)` if `minimumReleaseAge` in `pnpm-workspace.yaml` changed
@@ -67,7 +94,7 @@ specifier as it appears in the manifest — keep `^`, `~`, or none (e.g. `^26.3.
 - Any other changed `pnpm-workspace.yaml` key outside `packages`, `catalog`, `catalogs` and
   `allowBuilds`: `Update pnpm config <key> to <value>`.
 
-### 5. Format
+### 6. Format
 
 Sort every `Update` / `Add` / `Remove` line in **alphabetical order (A→Z)** by package name.
 Because `@` sorts before letters, scoped packages (`@tanstack/…`) come first, then unscoped names —
@@ -91,19 +118,19 @@ Remove old-pkg
 
 Omit any block that would be empty. No trailing period, no other prose.
 
-### 6. Verify before showing
+### 7. Verify before showing
 
 Check the generated list against the diff line by line: every `from` must match a removed (`-`)
 specifier, every `to` an added (`+`) specifier, and no changed dependency may be missing. Fix the
 list rather than showing a best-effort one.
 
-### 7. Commit, after the user approves
+### 8. Commit, after the user approves
 
 Show the message and wait for approval. Then stage **only** the files this commit concerns and
 commit via a temporary file so the blank lines survive:
 
 ```bash
-git add -- $(git diff --name-only HEAD -- '**/package.json' 'pnpm-workspace.yaml') pnpm-lock.yaml
+git add -- $(git diff --name-only HEAD -- '**/package.json' 'pnpm-workspace.yaml' 'apps/*/Dockerfile') pnpm-lock.yaml
 git commit -F <temp-file>
 ```
 
@@ -122,4 +149,8 @@ Never `git add -A` — the working tree may hold unrelated changes.
 - Forgetting the `Bump pnpm@…`, `Add …` or `Remove …` blocks.
 - Hand-"fixing" a `from`/`to` instead of re-reading it from the diff, or copying a previous
   commit's body (past messages have contained typos like `from fom` and missing bumps).
+- Bumping `packageManager` without moving the `ghcr.io/pnpm/pnpm:X-alpine` tag of the four
+  Dockerfiles: the image then ships another pnpm than the one that runs, and pnpm downloads the
+  pinned version on every build stage.
+- Bumping the Node version in a Dockerfile as part of a dependency update.
 - Committing unrelated files.

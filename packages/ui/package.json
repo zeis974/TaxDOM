@@ -25,7 +25,7 @@
     "react-dom": ">=18"
   },
   "devDependencies": {
-    "@pandacss/dev": "2.4.0",
+    "@pandacss/dev": "2.5.0",
     "@testing-library/dom": "10.4.2",
     "@testing-library/react": "16.3.3",
     "@types/react": "^19.3.0",
