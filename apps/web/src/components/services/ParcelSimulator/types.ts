@@ -1,5 +1,3 @@
-import type { Transporter } from "@taxdom/types"
-
 import { z } from "zod"
 
 export const ParcelSimulatorSchema = z.object({
@@ -15,7 +13,7 @@ export const ParcelSimulatorSchema = z.object({
   ),
   taxPaid: z.boolean(),
   territory: z.string(),
-  transporter: z.custom<Transporter>(),
+  transporter: z.string(),
   "cf-turnstile-response": z.string().min(1, "Captcha manquant"),
 })
 

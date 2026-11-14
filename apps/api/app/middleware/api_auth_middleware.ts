@@ -4,6 +4,7 @@ import type { NextFn } from "@adonisjs/core/types/http"
 
 import { adminEmails, auth } from "#config/auth"
 import { isDashboardAdmin } from "#lib/admin_access"
+import type { AuthenticatedUser } from "#types/http"
 
 export default class Auth {
   async handle(ctx: HttpContext, next: NextFn) {
@@ -36,10 +37,11 @@ export default class Auth {
       return response.status(403).json({ error: "Admin access required" })
     }
 
-    ctx.authenticatedUser = {
+    const user: AuthenticatedUser = {
       id: session.user.id,
       email: session.user.email,
     }
+    ctx.authenticatedUser = user
 
     return next()
   }

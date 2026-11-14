@@ -15,6 +15,7 @@ import AddIcon from "./AddIcon"
 import ArrowRightIcon from "./ArrowRightIcon"
 import CloseIcon from "./CloseIcon"
 import DownloadIcon from "./DownloadIcon"
+import ExternalLinkIcon from "./ExternalLinkIcon"
 import InfoIcon from "./InfoIcon"
 import LinkIcon from "./LinkIcon"
 import ListIcon from "./ListIcon"
@@ -32,6 +33,7 @@ export {
   CloseIcon,
   CompareToolIcon,
   DownloadIcon,
+  ExternalLinkIcon,
   HomeIcon,
   InfoIcon,
   LinkIcon,

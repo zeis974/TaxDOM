@@ -28,7 +28,7 @@ COPY --from=pruner /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 # --ignore-scripts: the `prepare` hooks (panda codegen) need the sources, which are only
 # copied below. Codegen runs as the turbo `codegen` task during the build.
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
-    pnpm install --frozen-lockfile --ignore-scripts
+    pnpm install --frozen-lockfile --store-dir=/pnpm/store --ignore-scripts
 # Build the native dependencies (esbuild, sharp...) here so this layer stays cached.
 RUN pnpm rebuild
 COPY --from=pruner /app/out/full/ .

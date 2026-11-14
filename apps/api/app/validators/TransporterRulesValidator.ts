@@ -16,19 +16,21 @@ export const StartNodeDataSchema = vine.object({
   label: vine.string().maxLength(100).optional(),
 })
 
-export const NodeDataSchema = vine.union([
-  ConditionNodeDataSchema,
-  FeeNodeDataSchema,
-  StartNodeDataSchema,
+// nodeData's shape depends on the sibling nodeType, which a vine.union cannot see
+export const NodeDataGroup = vine.group([
+  vine.group.if((value) => value.nodeType === "condition", { nodeData: ConditionNodeDataSchema }),
+  vine.group.if((value) => value.nodeType === "fee", { nodeData: FeeNodeDataSchema }),
+  vine.group.else({ nodeData: StartNodeDataSchema }),
 ])
 
-export const FlowNodeSchema = vine.object({
-  nodeID: vine.string().maxLength(100).optional(),
-  nodeType: vine.enum(["start", "condition", "fee"]),
-  positionX: vine.number().min(-50_000).max(50_000),
-  positionY: vine.number().min(-50_000).max(50_000),
-  nodeData: NodeDataSchema,
-})
+export const FlowNodeSchema = vine
+  .object({
+    nodeID: vine.string().maxLength(100).optional(),
+    nodeType: vine.enum(["start", "condition", "fee"]),
+    positionX: vine.number().min(-50_000).max(50_000),
+    positionY: vine.number().min(-50_000).max(50_000),
+  })
+  .merge(NodeDataGroup)
 
 export const FlowEdgeSchema = vine.object({
   edgeID: vine.string().maxLength(100).optional(),

@@ -69,7 +69,6 @@ export default async function calculateParcel(_prev: unknown, formData: FormData
         products: parsed.products,
         territory: parsed.territory,
         transporter: parsed.transporter,
-        token: parsed["cf-turnstile-response"],
       },
       headers: clientIpHeaders(await headers()),
     })

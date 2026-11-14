@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <contenu>
+    <ligne><Type>0</Type><Code>9900000000</Code><Alinea>0</Alinea><Description>CHAPITRE DE TEST</Description></ligne>
+    <ligne><Type>1</Type><Code>9901000000</Code><Alinea>1</Alinea><Description>position de test</Description></ligne>
+  </contenu>
+</table>

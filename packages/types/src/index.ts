@@ -1,4 +1,4 @@
-export * from "./countryFlags"
+export * from "./countryFlags.ts"
 
 export type Origin = {
   originID: string
@@ -76,7 +76,7 @@ export type Category = {
   taxID: string
   relatedProducts: number
   nomenclatureCode?: string | null
-  taxes?: {
+  tax?: {
     tva: number
     om: number
     omr: number

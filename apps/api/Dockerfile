@@ -26,10 +26,10 @@ WORKDIR /app
 COPY --from=pruner /app/out/json/ .
 COPY --from=pruner /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
-    pnpm install --frozen-lockfile
+    pnpm install --frozen-lockfile --store-dir=/pnpm/store
 # Production dependencies only, from the manifests: this layer survives source edits.
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
-    pnpm --filter @taxdom/api deploy --prod /prod
+    pnpm --filter @taxdom/api deploy --prod --store-dir=/pnpm/store /prod
 COPY --from=pruner /app/out/full/ .
 RUN --mount=type=cache,id=turbo,target=/app/.turbo \
     pnpm turbo run build
