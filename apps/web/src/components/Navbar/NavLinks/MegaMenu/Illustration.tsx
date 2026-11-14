@@ -1,6 +1,7 @@
 import { MotionConfig, useReducedMotion, type Variants } from "motion/react"
 import * as m from "motion/react-m"
-import { type JSX, useEffect, useState } from "react"
+import type { JSX } from "react"
+import { useTypewriter } from "@/hooks/useTypewriter"
 import {
   BackCard,
   Bar,
@@ -89,27 +90,7 @@ const pop: Variants = {
 }
 
 function Typed({ text, delay }: { text: string; delay: number }) {
-  const reduce = useReducedMotion()
-  const [count, setCount] = useState(reduce ? text.length : 0)
-
-  useEffect(() => {
-    if (reduce) return
-    let interval: ReturnType<typeof setInterval> | undefined
-    const start = setTimeout(() => {
-      interval = setInterval(() => {
-        setCount((n) => {
-          if (n + 1 >= text.length) clearInterval(interval)
-          return n + 1
-        })
-      }, 55)
-    }, delay * 1000)
-    return () => {
-      clearTimeout(start)
-      clearInterval(interval)
-    }
-  }, [text, delay, reduce])
-
-  return text.slice(0, count)
+  return useTypewriter(text, delay * 1000)
 }
 
 // Mock screens only: they never show figures, so nothing reads as a real rate
