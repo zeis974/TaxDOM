@@ -15,6 +15,8 @@ const taxdomPreset = definePreset({
   conditions: {
     light: ".light &",
     dark: '.dark &, [data-theme="dark"] &',
+    // Layout contract for the floating mobile tab bar: narrow viewports and every touch device
+    touch: "@media (width < 768px), (hover: none) and (pointer: coarse)",
   },
 })
 
