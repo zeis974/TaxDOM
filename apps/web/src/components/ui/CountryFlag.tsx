@@ -1,5 +1,5 @@
-import { styled } from "@/panda/jsx"
 import { FLAGS_BY_CODE } from "@/assets/flags"
+import { styled } from "@/panda/jsx"
 
 interface CountryFlagProps {
   code?: string

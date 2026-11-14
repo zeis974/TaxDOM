@@ -1,6 +1,5 @@
-import { styled } from "@/panda/jsx"
-
 import ThemeSettings from "@/components/Settings/ThemeSettings"
+import { styled } from "@/panda/jsx"
 
 export default function Settings() {
   return (
