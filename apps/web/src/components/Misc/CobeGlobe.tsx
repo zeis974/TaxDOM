@@ -2,8 +2,6 @@
 
 import createGlobe, { type COBEOptions } from "cobe"
 import { useEffect, useRef } from "react"
-
-import { token } from "@/panda/tokens"
 import {
   type Coordinates,
   coordsToCobeAngles,
@@ -14,6 +12,7 @@ import {
   REUNION_COORDINATES,
   slerpCoordinates,
 } from "@/lib/countryCoordinates"
+import { token } from "@/panda/tokens"
 
 interface CobeGlobeProps {
   origin?: string | null

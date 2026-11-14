@@ -9,7 +9,7 @@ export const Panel = styled(m.div, {
     display: "grid",
     gridTemplateColumns: "1fr 1fr",
     gap: "{spacing.md}",
-    width: "min(880px, calc(100vw - {spacing.xl}))",
+    width: "min(calc({spacing.xl} * 27.5), calc(100vw - {spacing.xl}))",
     padding: "{spacing.md}",
     color: "{colors.foreground}",
     background: "{colors.background}",
@@ -173,7 +173,7 @@ export const Preview = styled("div", {
   base: {
     position: "relative",
     display: "grid",
-    minHeight: "360px",
+    minHeight: "calc({spacing.xl} * 11.25)",
     overflow: "hidden",
     borderRadius: "{radii.lg}",
     background: "{colors.elevated}",

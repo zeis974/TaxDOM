@@ -105,7 +105,7 @@ export default function MobileMenu() {
               <TabIcon d="M6 6l12 12M18 6L6 18" />
             </CloseButton>
           </SheetHeader>
-          <TileGrid>
+          <TileGrid role="list">
             {tools.map((tool) => (
               <Tile key={tool.name}>
                 {tool.slug ? (

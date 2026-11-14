@@ -11,7 +11,7 @@ export const Container = styled("div", {
       position: "relative",
       zIndex: "2",
     },
-    "& > a, & span": {
+    "& > a, & button, & span": {
       display: "flex",
       alignItems: "center",
       gap: "{spacing.xs}",
@@ -21,6 +21,17 @@ export const Container = styled("div", {
       borderRadius: "{radii.sm}",
       "&:hover": {
         background: "{colors.elevated}",
+      },
+    },
+    "& button": {
+      background: "transparent",
+      border: "none",
+      cursor: "pointer",
+      fontFamily: "{fonts.nativeFont}",
+      fontSize: "{fontSizes.body-md}",
+      "&:focus-visible": {
+        outline: "2px solid {colors.primary}",
+        outlineOffset: "2px",
       },
     },
     "& svg": {

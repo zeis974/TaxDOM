@@ -11,21 +11,23 @@ export const Scene = styled(m.div, {
     bottom: "0",
     height: "calc({spacing.xl} * 10)",
     pointerEvents: "none",
-    color: "{colors.primary}",
+    // Chips reset `color` to the foreground, so the accent is also kept in a variable
+    "--scene-accent": "{colors.primary}",
+    color: "var(--scene-accent)",
     '&[data-variant="orange"]': {
-      color: "{colors.accentOrange}",
+      "--scene-accent": "{colors.accentOrange}",
     },
     '&[data-variant="violet"]': {
-      color: "{colors.accentViolet}",
+      "--scene-accent": "{colors.accentViolet}",
     },
     '&[data-variant="green"]': {
-      color: "{colors.accentGreen}",
+      "--scene-accent": "{colors.accentGreen}",
     },
     '&[data-variant="cyan"]': {
-      color: "{colors.accentCyan}",
+      "--scene-accent": "{colors.accentCyan}",
     },
     '&[data-variant="pink"]': {
-      color: "{colors.accentPink}",
+      "--scene-accent": "{colors.accentPink}",
     },
     // Accent glow behind the cards
     "&::before": {
@@ -222,7 +224,7 @@ export const Chip = styled(m.span, {
     fontSize: "{fontSizes.label-md}",
     fontWeight: "600",
     '&[data-tone="accent"]': {
-      background: "color-mix(in srgb, currentColor 16%, {colors.background})",
+      background: "color-mix(in srgb, var(--scene-accent) 16%, {colors.background})",
     },
   },
 })

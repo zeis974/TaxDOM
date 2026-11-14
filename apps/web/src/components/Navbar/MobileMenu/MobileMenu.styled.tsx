@@ -1,10 +1,9 @@
 import { styled } from "@/panda/jsx"
 
-// Same media query in Navbar, NavLinks and panda.config.ts: keep them in sync
 export const TabBar = styled("nav", {
   base: {
     display: "none",
-    "@media (width < 768px), (hover: none) and (pointer: coarse)": {
+    _touch: {
       position: "fixed",
       zIndex: "2",
       insetInline: "{spacing.md}",
@@ -188,7 +187,7 @@ export const Tile = styled("li", {
       textDecoration: "none",
       cursor: "pointer",
       transition: "background 150ms",
-      "& > svg": {
+      "& svg": {
         width: "{sizes.toolIcon}",
         height: "{sizes.toolIcon}",
       },

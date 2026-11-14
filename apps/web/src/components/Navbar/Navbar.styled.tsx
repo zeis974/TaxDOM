@@ -8,7 +8,7 @@ export const Nav = styled("nav", {
     justifyContent: "space-between",
     padding: "10px 30px",
     height: "{sizes.navbarHeight}",
-    "@media (width < 768px), (hover: none) and (pointer: coarse)": {
+    _touch: {
       padding: "{spacing.s12} {spacing.md}",
     },
     "& > div:first-of-type": {

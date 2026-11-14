@@ -26,7 +26,7 @@ frontends (`web`, `dashboard`, `blog`). It is **not** a component library.
 
 ```
 packages/ui/
-  preset.js                   ← definePreset(), light/dark conditions
+  preset.js                   ← definePreset(), light/dark/touch conditions
   theme/
     tokens.ts                 ← fonts, fontSizes, sizes, radii, spacing
     semantic-tokens.ts        ← all colors (light/dark aware)
@@ -59,6 +59,11 @@ with no build error:
 > ⚠️ **Outside an Astro `<style>` block, never hand-write a CSS variable name**, keyframes included.
 > `var(--colors-elevated)` resolves on the blog and resolves to **nothing** on web and dashboard.
 > Inside a Panda style object (keyframes included), a token reference is written `"{colors.elevated}"`.
+>
+> A custom property you declare yourself is not a token and is never hashed: set it with a token
+> value and read it back in the same component, e.g. `"--scene-accent": "{colors.primary}"` then
+> `color: "var(--scene-accent)"`. Use it when a value must reach descendants that reset the
+> property, or feed a `color-mix()`.
 >
 > ⚠️ **Inside an Astro `<style>` block, never write `token(...)`.** The blog's Panda `include` covers
 > `ts,tsx,js,jsx` only, so `.astro` is never processed: `gap: token(spacing.s20)` is emitted verbatim
@@ -326,7 +331,7 @@ Two families only:
 
 ## 7. Dark mode
 
-Two custom conditions are defined in `packages/ui/preset.js`:
+Two color-mode conditions are defined in `packages/ui/preset.js`:
 
 ```
 light: ".light &"
@@ -339,6 +344,14 @@ modes. Hand-writing `.dark &` is a sign that a token is missing, or that the wro
 ## 8. Responsive
 
 Plain `@media` keys inside `base` — Panda's breakpoint conditions are not used.
+
+The one exception is `_touch`, defined in `packages/ui/preset.js`: the layout contract of the
+floating mobile tab bar (narrow viewports and every touch device). Every rule that depends on that
+layout uses `_touch` instead of repeating the query, `globalCss` included.
+
+```
+touch: "@media (width < 768px), (hover: none) and (pointer: coarse)"
+```
 
 ```ts
 base: {

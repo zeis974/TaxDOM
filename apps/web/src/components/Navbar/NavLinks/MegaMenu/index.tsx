@@ -1,4 +1,4 @@
-import { AnimatePresence, easeIn, easeOut } from "motion/react"
+import { AnimatePresence, easeIn, easeOut, useIsPresent } from "motion/react"
 import Link from "next/link"
 import { useId, useState } from "react"
 import { ArrowRightIcon } from "@/components/Icons"
@@ -34,6 +34,8 @@ type Props = {
 export default function MegaMenu({ id, close }: Props) {
   const [active, setActive] = useState(tools[0])
   const labelId = useId()
+  // The panel lingers during its exit animation: keep it out of the tab order and a11y tree meanwhile
+  const isPresent = useIsPresent()
 
   const renderRow = (tool: Tool) => {
     const content = (
@@ -80,15 +82,18 @@ export default function MegaMenu({ id, close }: Props) {
   return (
     <Panel
       id={id}
+      inert={!isPresent}
       initial={{ y: -8, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: -8, opacity: 0, transition: { duration: 0.15, ease: easeIn } }}
       transition={{ duration: 0.18, ease: easeOut }}
     >
       <Tools>
-        <List>{available.map(renderRow)}</List>
+        <List role="list">{available.map(renderRow)}</List>
         <GroupLabel id={labelId}>Bientôt</GroupLabel>
-        <List aria-labelledby={labelId}>{upcoming.map(renderRow)}</List>
+        <List role="list" aria-labelledby={labelId}>
+          {upcoming.map(renderRow)}
+        </List>
       </Tools>
       <Preview>
         <AnimatePresence initial={false} mode="popLayout">
